@@ -1,0 +1,6 @@
+.vscode/
+.DS_Store
+drive_export/
+drive_export.zip
+drive_export_text.txt
+extract-docx.ps1
