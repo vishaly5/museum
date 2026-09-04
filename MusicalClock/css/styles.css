@@ -17,7 +17,7 @@ header{width: 100%; display: flex; justify-content: space-between; margin-top: 7
 .bookContentDiv{width: 100%; float: left; position: relative;}
 .booImgDiv{width: 35%; float: left; background: #ceb094; text-align: center; text-align: center; padding-top: 115px}
 .bookCntDiv{width: 65%; float: left; background: #fff; padding: 35px 65px; padding-top: 160px}
-.cntHdng{font-size: 40px; color: #2e2e2e; text-transform: uppercase; position: absolute; left: 39%; top: 65px; display: block;}
+.cntHdng{font-size: 40px; color: #2e2e2e; text-transform: uppercase; position: absolute; left: 39%; top: 65px; display: none;}
 .cntHdng:before{content: ''; width: 6px; height: 70px; background: #a50309; position: absolute; top: -8px; left: -16px}
 .bookCntDiv h3{font-size: 25px}
 .bookCntDiv p{font-size: 23px; padding-top: 25px; text-align: justify;}
@@ -36,7 +36,7 @@ select.formLang option{background:#ab2528; }
 .langCnt{display: none;}
 .langDiv{ font-family: "Noto Sans Meetei Mayek", sans-serif;}
 .bookCntDiv{overflow-y: scroll;}
-.bookCntDiv{padding-top: 150px;}
+.bookCntDiv{padding-top: 20px;}
 
 @media only screen and (max-width: 767px){
 	.bookCntDiv{padding-top: 160px;}
