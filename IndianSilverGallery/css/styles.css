@@ -347,3 +347,21 @@ footer p a:hover {
   line-height: 1.5;
   text-align: left;
 }
+
+/* Read-aloud fallback, shown when a language has no recorded narration. */
+.tts-btn {
+  margin-top: 16px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #ab2528;
+  color: #ffffff;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.tts-btn:hover { background: #8e1d20; }

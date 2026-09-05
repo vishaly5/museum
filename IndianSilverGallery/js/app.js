@@ -33,12 +33,51 @@ document.addEventListener("DOMContentLoaded", () => {
   const AUDIO_MISSING =
     "🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.";
 
+  const TTS_LABEL = {
+    hindi: "🔊 पाठ सुनें", english: "🔊 Listen to text", telugu: "🔊 వచనం వినండి",
+    urdu: "🔊 متن سنیں", bengali: "🔊 লেখা শুনুন", gujarati: "🔊 લખાણ સાંભળો",
+    kannada: "🔊 ಪಠ್ಯ ಕೇಳಿ", odia: "🔊 ପାଠ ଶୁଣନ୍ତୁ", marathi: "🔊 मजकूर ऐका",
+    malayalam: "🔊 വാചകം കേൾക്കുക"
+  };
+
+  // Speech-synthesis voice tag per language, for the read-aloud fallback.
+  const TTS_LANG = {
+    hindi: "hi-IN", english: "en-IN", telugu: "te-IN", urdu: "ur-PK",
+    bengali: "bn-IN", gujarati: "gu-IN", kannada: "kn-IN", odia: "or-IN",
+    marathi: "mr-IN", malayalam: "ml-IN"
+  };
+
+  function speakCard(button, text, language) {
+    if (!("speechSynthesis" in window)) return;
+    const synth = window.speechSynthesis;
+    const label = button.dataset.idleLabel || button.textContent;
+    button.dataset.idleLabel = label;
+
+    if (synth.speaking) {
+      synth.cancel();
+      if (button.dataset.speaking === "1") { button.dataset.speaking = ""; button.textContent = label; return; }
+    }
+    document.querySelectorAll("audio").forEach((a) => a.pause());
+
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = TTS_LANG[language] || "hi-IN";
+    u.rate = 0.95;
+    const voice = synth.getVoices().find((v) => v.lang === u.lang)
+      || synth.getVoices().find((v) => v.lang.split("-")[0] === u.lang.split("-")[0]);
+    if (voice) u.voice = voice;
+    u.onend = u.onerror = () => { button.dataset.speaking = ""; button.textContent = label; };
+    button.dataset.speaking = "1";
+    button.textContent = "⏹ " + label.replace(/^\S+\s*/, "");
+    synth.speak(u);
+  }
+
   function escapeAttr(text) {
     return String(text).replace(/"/g, "&quot;");
   }
 
   function renderCards(language) {
     if (!galleryGrid) return;
+    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
 
     const items = itemsData[language] || itemsData.hindi || [];
     const isRtl = language === "urdu";
@@ -59,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>${item.desc.split("\n\n").join("<br><br>")}</p>
         ${hasAudio
           ? `<audio class="card-audio" controls preload="none" src="${encodeURI(item.audioSrc)}"></audio>`
-          : `<div class="audio-missing-note">${AUDIO_MISSING}</div>`}
+          : `<button type="button" class="tts-btn">${TTS_LABEL[language] || TTS_LABEL.english}</button>`}
       `;
 
       article.querySelectorAll("h2, .badge-acq, p").forEach((el) => {
@@ -72,12 +111,18 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
+      const ttsBtn = article.querySelector(".tts-btn");
+      if (ttsBtn) {
+        ttsBtn.addEventListener("click", () => speakCard(ttsBtn, item.title + ". " + item.desc, language));
+      }
+
       galleryGrid.appendChild(article);
     });
 
     // Only one narration plays at a time.
     galleryGrid.querySelectorAll("audio").forEach((player) => {
       player.addEventListener("play", () => {
+        if ("speechSynthesis" in window) window.speechSynthesis.cancel();
         galleryGrid.querySelectorAll("audio").forEach((other) => {
           if (other !== player) other.pause();
         });
