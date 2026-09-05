@@ -1,54 +1,185 @@
 <!doctype html>
-<html lang="en">
+<html lang="hi">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modern Paintings Gallery | Salar Jung Museum</title>
+  <title>آधुनिक चित्रकला दीर्घा | Modern Paintings Gallery | Salar Jung Museum</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <style>
-    .gallery-intro{width:100%;padding:28px 6%;background:#fff;color:#2e2e2e}.gallery-intro h1{font-size:42px;margin:0 0 12px}.gallery-intro p{font-size:20px;max-width:1100px}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}.painting-card{background:#fff;padding:14px;color:#2e2e2e}.painting-card img{width:100%;height:270px;object-fit:contain;background:#ceb094}.painting-card h2{font-size:20px;margin:14px 0 4px}.painting-card p{font-size:15px;margin:0}.audioBar{padding:18px 6%;background:#2e2e2e;color:#fff}.audioBar audio{width:100%}.audioBar p{margin:0 0 8px;font-size:16px}@media(max-width:767px){.gallery-intro h1{font-size:30px}.gallery-intro p{font-size:17px}.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.painting-card img{height:240px}}
-  </style>
+  <script src="js/artworksData.js"></script>
 </head>
 <body>
-  <div class="sliderHeaderDiv"><div class="container"><header>
-    <div class="logoLft"><a href="#" class="logo logoTwo"><img src="images/logo-moc.png" alt="Ministry of Culture"></a></div>
-    <div class="logoRgt"><div class="langDiv"><span class="anuIcn"><img src="images/logo-anu.png" alt="Anuvadini"></span>
-      <select class="form formLang" id="languageSelector" aria-label="Select language">
-        <option value="hindi">हिन्दी (Hindi)</option><option value="english">English</option><option value="telugu">తెలుగు (Telugu)</option><option value="tamil">தமிழ் (Tamil)</option><option value="marathi">मराठी (Marathi)</option><option value="malayalam">മലയാളം (Malayalam)</option><option value="kannada">ಕನ್ನಡ (Kannada)</option><option value="odia">ଓଡ଼ିଆ (Odia)</option><option value="bengali">বাংলা (Bengali)</option><option value="urdu">اردو (Urdu)</option><option value="gujarati">ગુજરાતી (Gujarati)</option>
-      </select></div></div>
-  </header></div></div>
+  <!-- Fixed Sticky Header -->
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="images/logo-moc.png" onerror="this.onerror=null; this.src='../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="images/logo-anu.png" onerror="this.onerror=null; this.src='../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
   <main>
-    <section class="gallery-intro langCnt" id="english"><h1>Modern Paintings Gallery</h1><p>A collection of modern Indian art featuring Raja Ravi Varma, Abanindranath Tagore, Nandalal Bose, Jagdish Swaminathan, P.T. Reddy, M.F. Husain, K.K. Hebbar, Subhash Babu and B.A. Reddy.</p></section>
-    <section class="gallery-intro langCnt" id="hindi" style="display:block"><h1>आधुनिक चित्रकला दीर्घा</h1><p>यह दीर्घा राजा रवि वर्मा, अवनीन्द्रनाथ टैगोर, नंदलाल बोस, जगदीश स्वामीनाथन, पी.टी. रेड्डी, एम.एफ. हुसैन, के.के. हेब्बार, सुभाष बाबू और बी.ए. रेड्डी की आधुनिक भारतीय कला प्रस्तुत करती है।</p></section>
-    <section class="gallery-intro langCnt" id="bengali"><h1>আধুনিক পেইন্টিং গ্যালারি</h1><p>এই গ্যালারিতে রাজা রবি বর্মা, অবনীন্দ্রনাথ ঠাকুর, নন্দলাল বসু, জগদীশ স্বামীনাথন, পি. টি. রেড্ডি, এম. এফ. হুসেন, কে. কে. হেব্বার, সুভাষ বাবু এবং বি. এ. রেড্ডির আধুনিক ভারতীয় শিল্পকর্ম রয়েছে।</p></section>
-    <section class="gallery-intro langCnt" id="gujarati"><h1>આધુનિક ચિત્રકલા ગેલેરી</h1><p>આ ગેલેરીમાં રાજા રવિ વર્મા, અવનિન્દ્રનાથ ટાગોર, નંદલાલ બોઝ, જગદીશ સ્વામીનાથન, પી. ટી. રેડ્ડી, એમ. એફ. હુસૈન, કે. કે. હેબ્બાર, સુભાષ બાબુ અને બી. એ. રેડ્ડીની આધુનિક ભારતીય કળા રજૂ કરવામાં આવી છે.</p></section>
-    <section class="gallery-intro langCnt" id="kannada"><h1>ಆಧುನಿಕ ವರ್ಣಚಿತ್ರಗಳ ಗ್ಯಾಲರಿ</h1><p>ಈ ಗ್ಯಾಲರಿಯಲ್ಲಿ ರಾಜಾ ರವಿವರ್ಮ, ಅಬನೀಂದ್ರನಾಥ ಟ್ಯಾಗೋರ್, ನಂದಲಾಲ್ ಬೋಸ್, ಜಗದೀಶ್ ಸ್ವಾಮಿನಾಥನ್, ಪಿ.ಟಿ. ರೆಡ್ಡಿ, ಎಂ.ಎಫ್. ಹುಸೇನ್, ಕೆ.ಕೆ. ಹೆಬ್ಬಾರ್, ಸುಭಾಷ್ ಬಾಬು ಮತ್ತು ಬಿ.ಎ. ರೆಡ್ಡಿಯವರ ಆಧುನಿಕ ಭಾರತೀಯ ಕಲಾಕೃತಿಗಳಿವೆ.</p></section>
-    <section class="gallery-intro langCnt" id="malayalam"><h1>ആധുനിക പെയിന്റിംഗ് ഗാലറി</h1><p>രാജാ രവിവർമ്മ, അബനീന്ദ്രനാഥ ടാഗോർ, നന്ദലാൽ ബോസ്, ജഗദീഷ് സ്വാമിനാഥൻ, പി. ടി. റെഡ്ഡി, എം. എഫ്. ഹുസൈൻ, കെ. കെ. ഹെബ്ബാർ, സുഭാഷ് ബാബു, ബി. എ. റെഡ്ഡി എന്നിവരുടെ ആധുനിക ഇന്ത്യൻ കലാസൃഷ്ടികൾ ഈ ഗാലറിയിൽ ഉൾക്കൊള്ളുന്നു.</p></section>
-    <section class="gallery-intro langCnt" id="marathi"><h1>आधुनिक चित्र गॅलरी</h1><p>या गॅलरीमध्ये राजा रवी वर्मा, अवनींद्रनाथ टागोर, नंदलाल बोस, जगदीश स्वामीनाथन, पी.टी. रेड्डी, एम.एफ. हुसेन, के.के. हेब्बार, सुभाष बाबू आणि बी.ए. रेड्डी यांच्या आधुनिक भारतीय कलाकृती सादर केल्या आहेत.</p></section>
-    <section class="gallery-intro langCnt" id="odia"><h1>ଆଧୁନିକ ଚିତ୍ରକଳା ଗ୍ୟାଲେରୀ</h1><p>ଏହି ଗ୍ୟାଲେରୀରେ ରାଜା ରବି ବର୍ମା, ଅବନୀନ୍ଦ୍ରନାଥ ଟାଗୋର, ନନ୍ଦଲାଲ ବୋଷ, ଜଗଦୀଶ ସ୍ୱାମୀନାଥନ, ପି.ଟି. ରେଡ୍ଡୀ, ଏମ.ଏଫ. ହୁସେନ, କେ.କେ. ହେବ୍ବାର, ସୁଭାଷ ବାବୁ ଏବଂ ବି.ଏ. ରେଡ୍ଡୀଙ୍କ ଆଧୁନିକ ଭାରତୀୟ କଳାକୃତି ରହିଛି।</p></section>
-    <section class="gallery-intro langCnt" id="telugu"><h1>ఆధునిక పెయింటింగ్స్ గ్యాలరీ</h1><p>ఈ గ్యాలరీలో రాజా రవి వర్మ, అవనీంద్రనాథ్ ఠాగూర్, నందలాల్ బోస్, జగదీష్ స్వామినాథన్, పి.టి. రెడ్డి, ఎం.ఎఫ్. హుస్సేన్, కె.కె. హెబ్బార్, సుభాష్ బాబు మరియు బి.ఎ. రెడ్డి ఆధునిక భారతీయ కళాకృతులు ఉన్నాయి.</p></section>
-    <section class="gallery-intro langCnt" id="tamil"><h1>நவீன ஓவியக் காட்சியகம்</h1><p>ராஜா ரவி வர்மா, அவனீந்திரநாத் தாகூர், நந்தலால் போஸ், ஜகதீஷ் சுவாமிநாதன், பி.டி. ரெட்டி, எம்.எஃப். உசேன், கே.கே. ஹெப்பர், சுபாஷ் பாபு மற்றும் பி.ஏ. ரெட்டி ஆகியோரின் நவீன இந்தியக் கலைப்படைப்புகள் இக்காட்சியகத்தில் இடம்பெற்றுள்ளன.</p></section>
-    <section class="gallery-intro langCnt" id="urdu" dir="rtl"><h1>جدید پینٹنگز گیلری</h1><p>اس گیلری میں راجا روی ورما، ابنیندر ناتھ ٹیگور، نند لال بوس، جگدیش سوامی ناتھن، پی ٹی ریڈی، ایم ایف حسین، کے کے ہیبار، سبھاش بابو اور بی اے ریڈی کے جدید ہندوستانی فن پارے پیش کیے گئے ہیں۔</p></section>
-    <div class="audioBar"><p id="audioLabel">Hindi narration</p><audio id="languageAudio" controls preload="metadata"></audio></div>
-    <section class="gallery-grid">
-      <article class="painting-card"><img src="images/modern-painting-image1.jpg" alt="Raja Ravi Varma - Stolen Interview"><h2>Raja Ravi Varma</h2><p>Stolen Interview - XX-1</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image2.jpg" alt="Abanindranath Tagore - Have You Not Heard His Silent Steps"><h2>Abanindranath Tagore</h2><p>Have You Not Heard His Silent Steps? - XXIII-11</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image3.jpg" alt="Nandalal Bose - Village"><h2>Nandalal Bose</h2><p>Village - ACQ-67-7</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image4.jpg" alt="Jagdish Swaminathan - Labourers"><h2>Jagdish Swaminathan</h2><p>Labourers - ACQ-63-73</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image5.jpg" alt="P.T. Reddy - Landscape"><h2>P.T. Reddy</h2><p>Landscape - ACQ-65-37</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image6.jpg" alt="M.F. Husain - Nude Woman"><h2>M.F. Husain</h2><p>Nude Woman - ACQ-63-4</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image7.jpg" alt="K.K. Hebbar - Peacock"><h2>K.K. Hebbar</h2><p>Peacock - ACQ-66-71</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image8.jpg" alt="Subhash Babu - Under the Shade"><h2>Subhash Babu</h2><p>Under the Shade - ACQ-75-27</p></article>
-      <article class="painting-card"><img src="images/modern-painting-image9.jpg" alt="B.A. Reddy - Man and Bull"><h2>B.A. Reddy</h2><p>Man and Bull - ACQ-74-23</p></article>
+    <section class="gallery-intro">
+      <h1 id="galleryTitle">आधुनिक चित्रकला दीर्घा</h1>
+      <p id="galleryIntro">यह दीर्घा राजा रवि वर्मा, अवनीन्द्रनाथ टैगोर, नंदलाल बोस, जगदीश स्वामीनाथन, पी.टी. रेड्डी, एम.एफ. हुसैन, के.के. हेब्बार, सुभाष बाबू और बी.ए. रेड्डी की आधुनिक भारतीय कला की उत्कृष्ट कृतियों को प्रदर्शित करती है।</p>
     </section>
+
+    <!-- Dynamic 9 Artwork Cards Container -->
+    <section class="gallery-grid" id="galleryGrid"></section>
   </main>
-  <footer><p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p></footer>
+
+  <footer>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
   <script>
-    const audioByLanguage={english:'audio/modern-gallery-english.wav',hindi:'audio/modern-gallery-hindi-alt.wav',gujarati:'audio/modern-gallery-gujarati.wav',odia:'audio/modern-gallery-odia.wav',telugu:'audio/modern-gallery-telugu.wav'};
-    const selector=document.getElementById('languageSelector');const player=document.getElementById('languageAudio');const label=document.getElementById('audioLabel');
-    function selectLanguage(language){document.querySelectorAll('.langCnt').forEach(content=>content.style.display=content.id===language?'block':'none');player.pause();player.currentTime=0;player.src=audioByLanguage[language]||audioByLanguage.english;player.load();label.textContent=(selector.options[selector.selectedIndex].textContent)+' narration';}
-    selector.addEventListener('change',()=>selectLanguage(selector.value));selectLanguage(selector.value);
+    const selector = document.getElementById('languageSelector');
+    const galleryGrid = document.getElementById('galleryGrid');
+    const galleryTitle = document.getElementById('galleryTitle');
+    const galleryIntro = document.getElementById('galleryIntro');
+
+    const langCodeMap = {
+      hindi: 'hi-IN',
+      english: 'en-US',
+      telugu: 'te-IN',
+      urdu: 'ur-PK',
+      bengali: 'bn-IN',
+      gujarati: 'gu-IN',
+      kannada: 'kn-IN',
+      odia: 'or-IN',
+      marathi: 'mr-IN',
+      malayalam: 'ml-IN',
+      tamil: 'ta-IN'
+    };
+
+    function renderGallery(language) {
+      // Pause any ongoing TTS speech
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+
+      const langData = galleryTranslations[language] || galleryTranslations.hindi;
+      
+      // Update HTML lang attribute and text direction for RTL (Urdu)
+      document.documentElement.lang = langCodeMap[language] ? langCodeMap[language].substring(0, 2) : 'hi';
+      document.documentElement.dir = (language === 'urdu') ? 'rtl' : 'ltr';
+
+      // Update Gallery Title and Description
+      galleryTitle.innerHTML = langData.galleryTitle;
+      galleryIntro.innerHTML = langData.galleryIntro;
+
+      // Render all 9 artwork cards for the selected language
+      galleryGrid.innerHTML = '';
+      langData.items.forEach(item => {
+        const article = document.createElement('article');
+        article.className = 'painting-card';
+        article.id = 'painting-item-' + item.id;
+
+        const hasAudioSrc = item.audioSrc && item.audioSrc.trim() !== '';
+        const hindiItem = (galleryTranslations.hindi && galleryTranslations.hindi.items) ? galleryTranslations.hindi.items.find(h => h.id === item.id) : null;
+        const fullDesc = (item.desc && item.desc.trim() !== '') ? item.desc : (hindiItem ? hindiItem.desc : '');
+
+        article.innerHTML = `
+          <div class="img-container">
+            <img src="${item.image}" alt="${item.title.replace(/"/g, '&quot;')}">
+          </div>
+          <span class="badge-acq">${langData.badgeLabel} ${item.accNo}</span>
+          <h2>${item.title}</h2>
+          <div class="card-desc">${fullDesc.split('\n\n').join('<br><br>')}</div>
+          <div class="card-audio-controls">
+            <button type="button" class="tts-btn" onclick="speakCardText(this)">
+              <svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+              <span>${langData.audioBtnText}</span>
+            </button>
+            <audio class="card-audio" controls preload="metadata" ${hasAudioSrc ? `src="${item.audioSrc}"` : ''}></audio>
+          </div>
+        `;
+
+        const audioPlayer = article.querySelector('audio.card-audio');
+        if (audioPlayer) {
+          audioPlayer.addEventListener('play', function() {
+            if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+            document.querySelectorAll('audio').forEach(a => {
+              if (a !== audioPlayer) a.pause();
+            });
+            const currentSrc = audioPlayer.getAttribute('src');
+            if (!currentSrc || currentSrc.trim() === '') {
+              audioPlayer.pause();
+              const ttsBtn = article.querySelector('.tts-btn');
+              if (ttsBtn) speakCardText(ttsBtn);
+            }
+          });
+        }
+
+        galleryGrid.appendChild(article);
+      });
+    }
+
+    function speakCardText(button) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel(); // Stop any active speech
+        
+        // Pause any HTML5 audio players
+        document.querySelectorAll('audio').forEach(a => a.pause());
+
+        const card = button.closest('.painting-card');
+        const title = card.querySelector('h2').innerText;
+        const desc = card.querySelector('.card-desc').innerText;
+        const textToSpeak = title + ". " + desc;
+
+        const currentLang = selector.value;
+        const targetLangCode = langCodeMap[currentLang] || 'hi-IN';
+
+        const utterance = new SpeechSynthesisUtterance(textToSpeak);
+        utterance.lang = targetLangCode;
+        utterance.rate = 0.95;
+        
+        // Try to pick native voice for the selected language if available
+        const voices = window.speechSynthesis.getVoices();
+        const matchingVoice = voices.find(v => v.lang.startsWith(targetLangCode.substring(0, 2)));
+        if (matchingVoice) {
+          utterance.voice = matchingVoice;
+        }
+
+        window.speechSynthesis.speak(utterance);
+      } else {
+        alert('Speech synthesis is not supported in your browser.');
+      }
+    }
+
+    // Ensure voices are loaded for SpeechSynthesis
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        window.speechSynthesis.getVoices();
+      };
+    }
+
+    selector.addEventListener('change', function() {
+      renderGallery(this.value);
+    });
+
+    // Initial Render
+    renderGallery(selector.value);
   </script>
 </body>
 </html>

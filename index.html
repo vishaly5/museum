@@ -3,35 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Museum Folder Launcher</title>
+  <title>Salar Jung Museum Galleries Launcher</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .folder-links a.disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      pointer-events: none;
+      background: rgba(200, 200, 200, 0.3);
+      position: relative;
+    }
+    .coming-soon-badge {
+      font-size: 0.75rem;
+      background: #a34a2a;
+      color: #fff;
+      padding: 2px 6px;
+      border-radius: 6px;
+      margin-left: 8px;
+      font-weight: normal;
+    }
+  </style>
 </head>
 <body>
   <main class="page-shell">
     <section class="hero hero--launch">
       <div class="hero__copy">
-        <p class="eyebrow">Folder-per-museum structure</p>
-        <h1>Museum launcher</h1>
+        <p class="eyebrow">Salar Jung Museum Audio Guide</p>
+        <h1>Museum Galleries</h1>
         <p class="hero__text">
-          Each museum now has its own folder with local <strong>audio</strong>, <strong>css</strong>,
-          <strong>images</strong>, <strong>js</strong>, and <strong>index.html</strong>.
+          Explore interactive gallery guides with multi-language audio narration, high-resolution artwork displays, and Text-to-Speech (TTS) support.
         </p>
       </div>
       <div class="hero__controls">
-        <p class="field-label">Open a museum folder</p>
+        <p class="field-label">Select a Museum Gallery</p>
         <div class="folder-links">
-          <a href="MusicalClock/index.html">Musical Clock</a>
-          <a href="IvoryCoach/index.html">Ivory Coach</a>
+          <a href="MusicalClock/index.html">Musical Clock Gallery</a>
+          <a href="IvoryCoach/index.html">Ivory Coach Gallery</a>
           <a href="WesternFurnitureGallery/index.html">Western Furniture Gallery</a>
           <a href="ModernPaintingsGallery/index.html">Modern Paintings Gallery</a>
           <a href="UtilityWareGallery/index.html">Utility Ware Gallery</a>
-          <a href="KashmiriGallery/index.html">Kashmiri Gallery</a>
-          <a href="BiriWareGallery/index.html">Biri Ware Gallery</a>
-          <a href="JadeGallery/index.html">Jade Gallery</a>
           <a href="Egypt%20and%20Syrian%20Gallery/index.html">Egypt and Syrian Gallery</a>
+          <a href="KashmiriGallery/index.html">Kashmiri Gallery</a>
+          <a href="#" class="disabled">Biri Ware Gallery <span class="coming-soon-badge">Coming Soon</span></a>
+          <a href="#" class="disabled">Jade Gallery <span class="coming-soon-badge">Coming Soon</span></a>
         </div>
       </div>
     </section>
   </main>
+  <script src="js/app.js"></script>
 </body>
 </html>

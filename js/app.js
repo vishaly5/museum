@@ -14,9 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
+  if (!selector) return;
+
   selector.addEventListener("change", (event) => {
     setActiveMuseum(event.target.value);
   });
 
-  setActiveMuseum(selector.value);
+  if (selector.value) {
+    setActiveMuseum(selector.value);
+  }
 });

@@ -791,11 +791,12 @@ document.addEventListener("DOMContentLoaded", () => {
       if (audio) {
         audio.pause();
         if (langAudio && langAudio.files[index]) {
-          audio.src =
-            "audio/" +
-            encodeURIComponent(langAudio.folder) +
-            "/" +
-            encodeURIComponent(langAudio.files[index]);
+          const srcPath = "audio/" + encodeURIComponent(langAudio.folder) + "/" + encodeURIComponent(langAudio.files[index]);
+          audio.src = srcPath;
+          audio.onerror = () => {
+            console.warn("Audio file failed to load:", srcPath);
+          };
+          audio.load();
         } else {
           audio.removeAttribute("src");
           audio.load();
