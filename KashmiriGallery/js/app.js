@@ -30,6 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
     malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തമാണ്, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> വഴി'
   };
 
+  const AUDIO_MISSING =
+    "🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.";
+
   function escapeAttr(text) {
     return String(text).replace(/"/g, "&quot;");
   }
@@ -54,7 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <span class="badge-acq">${item.badge}</span>
         <h2>${item.title}</h2>
         <p>${item.desc.split("\n\n").join("<br><br>")}</p>
-        <audio class="card-audio" controls preload="none" ${hasAudio ? `src="${item.audioSrc}"` : ""}></audio>
+        ${hasAudio
+          ? `<audio class="card-audio" controls preload="none" src="${encodeURI(item.audioSrc)}"></audio>`
+          : `<div class="audio-missing-note">${AUDIO_MISSING}</div>`}
       `;
 
       article.querySelectorAll("h2, .badge-acq, p").forEach((el) => {

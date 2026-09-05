@@ -693,10 +693,52 @@ document.addEventListener("DOMContentLoaded", () => {
     window.speechSynthesis.speak(utterance);
   }
 
+  const langMetaMap = {
+    hindi: { code: "hi", dir: "ltr", title: "मिस्र एवं सीरिया गैलरी (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    english: { code: "en", dir: "ltr", title: "Egypt and Syrian Gallery | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "ఈజిప్టు మరియు సిరియన్ గ్యాలరీ (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "مصر اور شام گیلری (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    bengali: { code: "bn", dir: "ltr", title: "মিশরীয় এবং সিরীয় গ্যালারি (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "ઇજિપ્તીયન અને સીરિયન ગેલેરી (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "ಈಜಿಪ್ಟಿಯನ್ ಮತ್ತು ಸಿರಿಯನ್ ಗ್ಯಾಲರಿ (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "ଇଜିପ୍ସନ୍ ଏବଂ ସିରିଆ ଗ୍ୟାଲେରୀ (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    marathi: { code: "mr", dir: "ltr", title: "इजिप्शियन आणि सीरियन गॅलरी (Egypt and Syrian Gallery) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "ഈജിപ്ഷ്യൻ, സിറിയൻ ഗാലറി (Egypt and Syrian Gallery) | Salar Jung Museum" }
+  };
+
+  const footerTranslations = {
+    hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआई</a> द्वारा',
+    english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
+    telugu: '© 2024 సర్వ హక్కులూ ప్రత్యేకించబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
+    urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
+    bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
+    gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાક્ય AI</a> દ્વારા',
+    kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
+    odia: '© 2024 ସର୍ବାଧିକାର ସୁରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
+    marathi: '© 2024 सर्व हक्क सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआय</a> द्वारा',
+    malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തമാണ്, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> വഴി'
+  };
+
   function selectLanguage(language) {
+    const meta = langMetaMap[language] || langMetaMap.hindi;
+    document.documentElement.lang = meta.code;
+    document.documentElement.dir = meta.dir;
+    document.title = meta.title;
+
     document.querySelectorAll(".langCnt").forEach((content) => {
       content.style.display = content.id === language ? "block" : "none";
     });
+
+    const footerText = document.getElementById("footerText");
+    if (footerText) {
+      footerText.innerHTML = footerTranslations[language] || footerTranslations.english;
+      if (meta.dir === "rtl") {
+        footerText.setAttribute("dir", "rtl");
+      } else {
+        footerText.removeAttribute("dir");
+      }
+    }
+
     if (window.speechSynthesis) window.speechSynthesis.cancel();
     updateCardContents(language);
   }
