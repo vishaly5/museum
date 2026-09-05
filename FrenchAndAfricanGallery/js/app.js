@@ -5,16 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const itemsData = window.galleryItems || {};
 
   const langMetaMap = {
-    hindi: { code: "hi", dir: "ltr", title: "कश्मीरी दीर्घा (Kashmiri Gallery) | Salar Jung Museum" },
-    english: { code: "en", dir: "ltr", title: "Kashmiri Gallery | Salar Jung Museum" },
-    telugu: { code: "te", dir: "ltr", title: "కాశ్మీరీ గ్యాలరీ (Kashmiri Gallery) | Salar Jung Museum" },
-    urdu: { code: "ur", dir: "rtl", title: "کشمیری گیلری (Kashmiri Gallery) | Salar Jung Museum" },
-    bengali: { code: "bn", dir: "ltr", title: "কাশ্মীরি গ্যালারি (Kashmiri Gallery) | Salar Jung Museum" },
-    gujarati: { code: "gu", dir: "ltr", title: "કાશ્મીરી ગેલેરી (Kashmiri Gallery) | Salar Jung Museum" },
-    kannada: { code: "kn", dir: "ltr", title: "ಕಾಶ್ಮೀರಿ ಗ್ಯಾಲರಿ (Kashmiri Gallery) | Salar Jung Museum" },
-    odia: { code: "or", dir: "ltr", title: "କାଶ୍ମୀରୀ ଗ୍ୟାଲେରୀ (Kashmiri Gallery) | Salar Jung Museum" },
-    marathi: { code: "mr", dir: "ltr", title: "काश्मिरी गॅलरी (Kashmiri Gallery) | Salar Jung Museum" },
-    malayalam: { code: "ml", dir: "ltr", title: "കാശ്മീരി ഗാലറി (Kashmiri Gallery) | Salar Jung Museum" }
+    hindi: { code: "hi", dir: "ltr", title: "फ़्रांसीसी एवं अफ़्रीकी दीर्घा (French and African Gallery) | Salar Jung Museum" },
+    english: { code: "en", dir: "ltr", title: "French and African Gallery | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "ఫ్రెంచ్ మరియు ఆఫ్రికన్ గ్యాలరీ (French and African Gallery) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "فرانسیسی اور افریقی گیلری (French and African Gallery) | Salar Jung Museum" },
+    bengali: { code: "bn", dir: "ltr", title: "ফরাসি ও আফ্রিকান গ্যালারি (French and African Gallery) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "ફ્રેન્ચ અને આફ્રિકન ગેલેરી (French and African Gallery) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "ಫ್ರೆಂಚ್ ಮತ್ತು ಆಫ್ರಿಕನ್ ಗ್ಯಾಲರಿ (French and African Gallery) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "ଫ୍ରେଞ୍ଚ ଓ ଆଫ୍ରିକୀୟ ଗ୍ୟାଲେରୀ (French and African Gallery) | Salar Jung Museum" },
+    marathi: { code: "mr", dir: "ltr", title: "फ्रेंच आणि आफ्रिकन गॅलरी (French and African Gallery) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "ഫ്രഞ്ച്, ആഫ്രിക്കൻ ഗാലറി (French and African Gallery) | Salar Jung Museum" }
   };
 
   const footerTranslations = {

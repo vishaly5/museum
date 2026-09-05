@@ -5,16 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const itemsData = window.galleryItems || {};
 
   const langMetaMap = {
-    hindi: { code: "hi", dir: "ltr", title: "कश्मीरी दीर्घा (Kashmiri Gallery) | Salar Jung Museum" },
-    english: { code: "en", dir: "ltr", title: "Kashmiri Gallery | Salar Jung Museum" },
-    telugu: { code: "te", dir: "ltr", title: "కాశ్మీరీ గ్యాలరీ (Kashmiri Gallery) | Salar Jung Museum" },
-    urdu: { code: "ur", dir: "rtl", title: "کشمیری گیلری (Kashmiri Gallery) | Salar Jung Museum" },
-    bengali: { code: "bn", dir: "ltr", title: "কাশ্মীরি গ্যালারি (Kashmiri Gallery) | Salar Jung Museum" },
-    gujarati: { code: "gu", dir: "ltr", title: "કાશ્મીરી ગેલેરી (Kashmiri Gallery) | Salar Jung Museum" },
-    kannada: { code: "kn", dir: "ltr", title: "ಕಾಶ್ಮೀರಿ ಗ್ಯಾಲರಿ (Kashmiri Gallery) | Salar Jung Museum" },
-    odia: { code: "or", dir: "ltr", title: "କାଶ୍ମୀରୀ ଗ୍ୟାଲେରୀ (Kashmiri Gallery) | Salar Jung Museum" },
-    marathi: { code: "mr", dir: "ltr", title: "काश्मिरी गॅलरी (Kashmiri Gallery) | Salar Jung Museum" },
-    malayalam: { code: "ml", dir: "ltr", title: "കാശ്മീരി ഗാലറി (Kashmiri Gallery) | Salar Jung Museum" }
+    hindi: { code: "hi", dir: "ltr", title: "वनस्पति एवं जीव-जंतु दीर्घा (Flora and Fauna Gallery) | Salar Jung Museum" },
+    english: { code: "en", dir: "ltr", title: "Flora and Fauna Gallery | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "వృక్ష మరియు జంతు గ్యాలరీ (Flora and Fauna Gallery) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "نباتات و حیوانات گیلری (Flora and Fauna Gallery) | Salar Jung Museum" },
+    bengali: { code: "bn", dir: "ltr", title: "উদ্ভিদ ও প্রাণী গ্যালারি (Flora and Fauna Gallery) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "વનસ્પતિ અને પ્રાણી ગેલેરી (Flora and Fauna Gallery) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿ ಗ್ಯಾಲರಿ (Flora and Fauna Gallery) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀ ଗ୍ୟାଲେରୀ (Flora and Fauna Gallery) | Salar Jung Museum" },
+    marathi: { code: "mr", dir: "ltr", title: "वनस्पती आणि प्राणी गॅलरी (Flora and Fauna Gallery) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "സസ്യ-ജന്തു ഗാലറി (Flora and Fauna Gallery) | Salar Jung Museum" }
   };
 
   const footerTranslations = {

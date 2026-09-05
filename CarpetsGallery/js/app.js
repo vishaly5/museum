@@ -5,16 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const itemsData = window.galleryItems || {};
 
   const langMetaMap = {
-    hindi: { code: "hi", dir: "ltr", title: "कश्मीरी दीर्घा (Kashmiri Gallery) | Salar Jung Museum" },
-    english: { code: "en", dir: "ltr", title: "Kashmiri Gallery | Salar Jung Museum" },
-    telugu: { code: "te", dir: "ltr", title: "కాశ్మీరీ గ్యాలరీ (Kashmiri Gallery) | Salar Jung Museum" },
-    urdu: { code: "ur", dir: "rtl", title: "کشمیری گیلری (Kashmiri Gallery) | Salar Jung Museum" },
-    bengali: { code: "bn", dir: "ltr", title: "কাশ্মীরি গ্যালারি (Kashmiri Gallery) | Salar Jung Museum" },
-    gujarati: { code: "gu", dir: "ltr", title: "કાશ્મીરી ગેલેરી (Kashmiri Gallery) | Salar Jung Museum" },
-    kannada: { code: "kn", dir: "ltr", title: "ಕಾಶ್ಮೀರಿ ಗ್ಯಾಲರಿ (Kashmiri Gallery) | Salar Jung Museum" },
-    odia: { code: "or", dir: "ltr", title: "କାଶ୍ମୀରୀ ଗ୍ୟାଲେରୀ (Kashmiri Gallery) | Salar Jung Museum" },
-    marathi: { code: "mr", dir: "ltr", title: "काश्मिरी गॅलरी (Kashmiri Gallery) | Salar Jung Museum" },
-    malayalam: { code: "ml", dir: "ltr", title: "കാശ്മീരി ഗാലറി (Kashmiri Gallery) | Salar Jung Museum" }
+    hindi: { code: "hi", dir: "ltr", title: "कालीन दीर्घा (Carpets Gallery) | Salar Jung Museum" },
+    english: { code: "en", dir: "ltr", title: "Carpets Gallery | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "తివాచీ గ్యాలరీ (Carpets Gallery) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "قالین گیلری (Carpets Gallery) | Salar Jung Museum" },
+    bengali: { code: "bn", dir: "ltr", title: "কার্পেট গ্যালারি (Carpets Gallery) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "ગાલીચા ગેલેરી (Carpets Gallery) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "ರತ್ನಗಂಬಳಿ ಗ್ಯಾಲರಿ (Carpets Gallery) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "କାର୍ପେଟ ଗ୍ୟାଲେରୀ (Carpets Gallery) | Salar Jung Museum" },
+    marathi: { code: "mr", dir: "ltr", title: "गालिचा गॅलरी (Carpets Gallery) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "പരവതാനി ഗാലറി (Carpets Gallery) | Salar Jung Museum" }
   };
 
   const footerTranslations = {

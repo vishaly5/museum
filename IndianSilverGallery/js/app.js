@@ -5,16 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const itemsData = window.galleryItems || {};
 
   const langMetaMap = {
-    hindi: { code: "hi", dir: "ltr", title: "कश्मीरी दीर्घा (Kashmiri Gallery) | Salar Jung Museum" },
-    english: { code: "en", dir: "ltr", title: "Kashmiri Gallery | Salar Jung Museum" },
-    telugu: { code: "te", dir: "ltr", title: "కాశ్మీరీ గ్యాలరీ (Kashmiri Gallery) | Salar Jung Museum" },
-    urdu: { code: "ur", dir: "rtl", title: "کشمیری گیلری (Kashmiri Gallery) | Salar Jung Museum" },
-    bengali: { code: "bn", dir: "ltr", title: "কাশ্মীরি গ্যালারি (Kashmiri Gallery) | Salar Jung Museum" },
-    gujarati: { code: "gu", dir: "ltr", title: "કાશ્મીરી ગેલેરી (Kashmiri Gallery) | Salar Jung Museum" },
-    kannada: { code: "kn", dir: "ltr", title: "ಕಾಶ್ಮೀರಿ ಗ್ಯಾಲರಿ (Kashmiri Gallery) | Salar Jung Museum" },
-    odia: { code: "or", dir: "ltr", title: "କାଶ୍ମୀରୀ ଗ୍ୟାଲେରୀ (Kashmiri Gallery) | Salar Jung Museum" },
-    marathi: { code: "mr", dir: "ltr", title: "काश्मिरी गॅलरी (Kashmiri Gallery) | Salar Jung Museum" },
-    malayalam: { code: "ml", dir: "ltr", title: "കാശ്മീരി ഗാലറി (Kashmiri Gallery) | Salar Jung Museum" }
+    hindi: { code: "hi", dir: "ltr", title: "भारतीय रजत दीर्घा (Indian Silver Gallery) | Salar Jung Museum" },
+    english: { code: "en", dir: "ltr", title: "Indian Silver Gallery | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "భారతీయ వెండి గ్యాలరీ (Indian Silver Gallery) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "ہندوستانی چاندی گیلری (Indian Silver Gallery) | Salar Jung Museum" },
+    bengali: { code: "bn", dir: "ltr", title: "ভারতীয় রৌপ্য গ্যালারি (Indian Silver Gallery) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "ભારતીય ચાંદી ગેલેરી (Indian Silver Gallery) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "ಭಾರತೀಯ ಬೆಳ್ಳಿ ಗ್ಯಾಲರಿ (Indian Silver Gallery) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "ଭାରତୀୟ ରୌପ୍ୟ ଗ୍ୟାଲେରୀ (Indian Silver Gallery) | Salar Jung Museum" },
+    marathi: { code: "mr", dir: "ltr", title: "भारतीय चांदी गॅलरी (Indian Silver Gallery) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "ഇന്ത്യൻ വെള്ളി ഗാലറി (Indian Silver Gallery) | Salar Jung Museum" }
   };
 
   const footerTranslations = {
