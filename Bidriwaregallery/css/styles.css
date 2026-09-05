@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@400;500;600;700&family=Noto+Sans+Oriya:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: "Open Sans", "Noto Sans", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Gujarati", "Noto Sans Telugu", "Noto Sans Kannada", "Noto Sans Malayalam", "Noto Sans Oriya", "Noto Naskh Arabic", sans-serif;
+  font-weight: 400;
+  background-color: #f8f9fa;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+.sliderHeaderDiv {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.sliderHeaderDiv .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logoOne img { width: 404px; max-height: 45px; object-fit: contain; }
+.logoTwo img { max-height: 45px; width: auto; max-width: 250px; object-fit: contain; display: block; }
+.logoThree img { width: 84px; max-height: 45px; object-fit: contain; }
+
+.logoLft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoLft a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logoRgt {
+  display: flex;
+  align-items: center;
+}
+
+.langDiv {
+  border: 1px solid #ab2528;
+  border-radius: 100px;
+  height: 40px;
+  background: #ab2528;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.langDiv:hover {
+  background: #8e1d20;
+  border-color: #8e1d20;
+  transform: scale(1.02);
+}
+
+.anuIcn {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.anuIcn img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.formLang {
+  background: transparent;
+  border: transparent;
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding-left: 6px;
+  height: 100%;
+}
+
+.formLang:focus {
+  border: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+select.formLang option {
+  background: #ab2528;
+  color: #fff;
+}
+
+.langCnt {
+  display: none;
+}
+
+.gallery-intro {
+  width: 100%;
+  min-height: 130px;
+  padding: 24px 6%;
+  background: #ffffff;
+  color: #2e2e2e;
+  border-bottom: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+.gallery-intro h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #a50309;
+  margin: 0 0 8px;
+  position: relative;
+  padding-left: 18px;
+  /* Fixed box so switching languages never changes the page height. */
+  height: 84px;
+  line-height: 1.3;
+  overflow-y: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.gallery-intro h1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 6px;
+  background: #a50309;
+  border-radius: 3px;
+}
+
+.gallery-intro p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 1100px;
+  color: #555555;
+  margin: 0;
+  height: 52px;
+  overflow-y: auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 36px 6%;
+  background: #a50309;
+  align-items: stretch;
+}
+
+.utility-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 22px;
+  color: #2e2e2e;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  min-height: 680px;
+  height: auto;
+  box-sizing: border-box;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.utility-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+}
+
+.utility-card .img-container {
+  width: 100%;
+  height: 240px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  border: 1px solid #eaeaea;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.utility-card img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.utility-card .badge-acq {
+  display: inline-block;
+  background: #e8d0bd;
+  color: #633311;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.utility-card h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #1a1a1a;
+  line-height: 1.35;
+  min-height: 48px;
+  height: auto;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  overflow: visible;
+}
+
+.utility-card p {
+  flex: 1 1 auto;
+  min-height: 220px;
+  max-height: 380px;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: #444444;
+  margin: 0;
+  text-align: justify;
+  overflow-y: auto;
+  padding-right: 6px;
+  word-break: break-word;
+}
+
+/* Custom Scrollbar for Card Text */
+.utility-card p::-webkit-scrollbar {
+  width: 5px;
+}
+.utility-card p::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.utility-card p::-webkit-scrollbar-thumb {
+  background: #ab2528;
+  border-radius: 4px;
+}
+.utility-card p::-webkit-scrollbar-thumb:hover {
+  background: #8e1d20;
+}
+
+.card-audio {
+  width: 100%;
+  height: 40px;
+  margin-top: 14px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  outline: none;
+}
+
+footer {
+  width: 100%;
+  background: #1e1e1e;
+  padding: 24px 0;
+  text-align: center;
+  border-top: 4px solid #a50309;
+}
+
+footer p {
+  color: #ffffff;
+  margin: 0;
+  font-size: 15px;
+}
+
+footer p a {
+  color: #f3c37c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .logoLft {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-intro h1 {
+    font-size: 28px;
+  }
+  .gallery-intro p {
+    font-size: 16px;
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    padding: 20px 4%;
+  }
+  .utility-card {
+    min-height: 600px;
+    height: auto;
+  }
+}
+
+/* Shown in place of the player when a card has no narration in the chosen language. */
+.audio-missing-note {
+  margin-top: 16px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: #fff4e5;
+  color: #7a4b00;
+  border: 1px solid #f0d3a3;
+  font-size: 12.5px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Read-aloud fallback, shown when a language has no recorded narration. */
+.tts-btn {
+  margin-top: 16px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #ab2528;
+  color: #ffffff;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.tts-btn:hover { background: #8e1d20; }
