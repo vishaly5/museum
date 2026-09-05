@@ -181,5 +181,69 @@
     // Initial Render
     renderGallery(selector.value);
   </script>
+<script>
+/* Opening this file from inside the ZIP leaves images/, css/ and js/ behind,
+   which renders a blank page. Probe one asset and explain instead. */
+(function () {
+  var probe = new Image();
+  probe.onerror = function () {
+    var b = document.createElement("div");
+    b.setAttribute("style", "position:fixed;inset:0;z-index:99999;background:#7f1d1d;color:#fff;display:flex;align-items:center;justify-content:center;padding:24px;font:16px/1.7 system-ui,Segoe UI,sans-serif;text-align:center");
+    b.innerHTML = '<div style="max-width:640px">' +
+      '<div style="font-size:46px;margin-bottom:10px">&#128193;</div>' +
+      '<h2 style="margin:0 0 14px;font-size:25px">ZIP ko pehle extract karein</h2>' +
+      '<p style="margin:0 0 12px">Aap yeh page <b>ZIP ke andar se</b> khol rahe hain, isliye images, design aur text load nahi ho rahe.</p>' +
+      '<p style="margin:0 0 4px"><b>Sahi tarika:</b></p>' +
+      '<p style="margin:0 0 14px">ZIP par right-click &rarr; <b>Extract All&hellip;</b> &rarr; phir jo folder bane usme <b>index.html</b> kholein.</p>' +
+      '<hr style="border:0;border-top:1px solid rgba(255,255,255,.35);margin:18px 0">' +
+      '<p style="margin:0;opacity:.92;font-size:15px"><b>English:</b> Right-click the ZIP &rarr; <b>Extract All&hellip;</b>, then open <b>index.html</b> from the extracted folder. Opening it directly inside the ZIP leaves the images, styles and scripts behind.</p>' +
+      "</div>";
+    document.body.appendChild(b);
+  };
+  probe.src = "images/logo-moc.png";
+})();
+</script>
+<script>
+/* Audio files live in a separate folder and cannot be embedded (they are far too
+   large), so a player is dead whenever this page is opened without that folder.
+   Say so on the card instead of leaving a silent, broken-looking control. */
+(function () {
+  var MSG = "🔇 Is bhasha ka audio abhi uplabdh nahi hai. Agar aapne ZIP extract nahi kiya hai to pehle right-click → “Extract All…” karein, phir folder me se index.html kholein.";
+
+  function flag(player) {
+    if (!player || player.dataset.audioNote === "1") return;
+    player.dataset.audioNote = "1";
+    player.style.display = "none";
+    var note = document.createElement("div");
+    note.className = "audio-missing-note";
+    note.textContent = MSG;
+    note.setAttribute(
+      "style",
+      "margin-top:10px;padding:9px 12px;border-radius:8px;background:#fdecea;" +
+      "color:#7f1d1d;border:1px solid #f5c2bd;font-size:12.5px;line-height:1.5;text-align:left"
+    );
+    if (player.parentNode) player.parentNode.insertBefore(note, player.nextSibling);
+  }
+
+  function clear(player) {
+    if (!player) return;
+    player.dataset.audioNote = "";
+    player.style.display = "";
+    var next = player.nextSibling;
+    if (next && next.className === "audio-missing-note") next.parentNode.removeChild(next);
+  }
+
+  // Media errors do not bubble, so listen on the capture phase.
+  document.addEventListener("error", function (e) {
+    var t = e.target;
+    if (t && t.tagName === "AUDIO") flag(t);
+  }, true);
+
+  document.addEventListener("loadeddata", function (e) {
+    var t = e.target;
+    if (t && t.tagName === "AUDIO") clear(t);
+  }, true);
+})();
+</script>
 </body>
 </html>
