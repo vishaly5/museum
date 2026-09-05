@@ -4,19 +4,36 @@ document.addEventListener("DOMContentLoaded", () => {
   const itemAudioByLanguage = {
     hindi: {
       files: [
-        "तीरंदाजी की अंगूठी.wav",
-        "संदूकची.wav",
-        "घड़ी.wav",
-        "तोते की आकृति.wav",
-        "कर्द (नूरजहाँ की फल काटने की छुरी).wav",
-        "जम्बिया.wav",
-        "खंजरअली.wav",
-        "हार.wav",
-        "कलम और दवात रखने का आधार.wav",
-        "पेशकब्ज़.wav",
-        "परदे के आकार का फोटो फ्रेम.wav",
-        "ट्रे के साथ मसाला डिब्बा.wav",
-        "सम्राट जहाँगीर की शिकार की छुरी.wav"
+        "hindi-तीरंदाजी की अंगूठी.wav",
+        "hindi- संदूकची.wav",
+        "hindi-घड़ी.wav",
+        "hindi-तोते की आकृति.wav",
+        "hindi-कर्द (नूरजहाँ की फल काटने की छुरी).wav",
+        "hindi- जम्बिया.wav",
+        "hindi-खंजरअली.wav",
+        "hindi-हार.wav",
+        "hindi-कलम और दवात रखने का आधार.wav",
+        "hindi-पेशकब्ज़.wav",
+        "hindi-परदे के आकार का फोटो फ्रेम.wav",
+        "hindi- ट्रे के साथ मसाला डिब्बा.wav",
+        "hindi- सम्राट जहाँगीर की शिकार की छुरी.wav"
+      ]
+    },
+    english: {
+      files: [
+        "hindi-तीरंदाजी की अंगूठी.wav",
+        "hindi- संदूकची.wav",
+        "hindi-घड़ी.wav",
+        "hindi-तोते की आकृति.wav",
+        "hindi-कर्द (नूरजहाँ की फल काटने की छुरी).wav",
+        "hindi- जम्बिया.wav",
+        "hindi-खंजरअली.wav",
+        "hindi-हार.wav",
+        "hindi-कलम और दवात रखने का आधार.wav",
+        "hindi-पेशकब्ज़.wav",
+        "hindi-परदे के आकार का फोटो फ्रेम.wav",
+        "hindi- ट्रे के साथ मसाला डिब्बा.wav",
+        "hindi- सम्राट जहाँगीर की शिकार की छुरी.wav"
       ]
     },
     bengali: {
@@ -48,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "guj-Necklace.wav",
         "guj- Pen and ink stand.wav",
         "guj-Peshqabz.wav",
-        "guj- Screen Shaped Photo Frame.wav",
+        "guj-Screen Shaped Photo Frame.wav",
         "guj- Spice Box with Tray.wav",
         "guj-Kard (knife) of Emperor Jahangir.wav"
       ]
@@ -95,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "odia-Acc No XLIX-188 Figure of a Parrot.wav",
         "odia-Acc No XLIX- 312 Kard (fruit knife of Noor Jahan).wav",
         "odia-Acc No XLIX-324 Jambia.wav",
-        "odia-Acc No XLIX-329 Jambia.wav",
+        "odia-Acc No XLIX-329 Khanjarali.wav",
         "odia-Acc No XLIX-1520 Necklace.wav",
         "odia-Acc No CS-IV-128 Pen and ink stand.wav",
         "odia-Acc No XLIX-323 Peshqabz.wav",
@@ -112,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "tamil-Figure of a Parrot.wav",
         "tamil- Kard (fruit knife of Noor Jahan).wav",
         "tamil-Jambia.wav",
-        "tamil-Khanjarali.wav",
+        "tamil- Khanjarali.wav",
         "tamil-Necklace.wav",
         "tamil-Pen and ink stand.wav",
         "tamil-Peshqabz.wav",
@@ -146,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "urdu-Figure of a Parrot.wav",
         "urdu-Kard (fruit knife of Noor Jahan).wav",
         "urdu-Jambia.wav",
-        null,
+        "urdu-Khanjarali.wav",
         "urdu-Necklace.wav",
         "urdu-Pen and ink stand.wav",
         "urdu-Peshqabz.wav",
@@ -161,8 +178,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateCards(language) {
     const cards = document.querySelectorAll(".utility-card");
-    const langData = itemsData[language] || itemsData.hindi;
-    const audioData = itemAudioByLanguage[language];
+    const allItems = window.jadeItemsData || itemsData || {};
+    const langData = allItems[language] || allItems.hindi || [];
+    const audioData = itemAudioByLanguage[language] || itemAudioByLanguage.hindi;
     const isRtl = language === "urdu";
 
     cards.forEach((card, index) => {
@@ -171,7 +189,8 @@ document.addEventListener("DOMContentLoaded", () => {
       if (audio) {
         audio.pause();
         if (filename) {
-          audio.src = "audio/" + encodeURIComponent(filename);
+          audio.src = encodeURI("audio/" + filename);
+          audio.load();
         } else {
           audio.removeAttribute("src");
           audio.load();
@@ -199,10 +218,54 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const langMetaMap = {
+    hindi: { code: "hi", dir: "ltr", title: "जेड दीर्घा (Jade Gallery) | Salar Jung Museum" },
+    english: { code: "en", dir: "ltr", title: "Jade Gallery | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "జాడే గ్యాలరీ (Jade Gallery) | Salar Jung Museum" },
+    tamil: { code: "ta", dir: "ltr", title: "ஜேட் காட்சியகம் (Jade Gallery) | Salar Jung Museum" },
+    marathi: { code: "mr", dir: "ltr", title: "जेड गॅलरी (Jade Gallery) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "ജേഡ് ഗാലറി (Jade Gallery) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "ಜೇಡ್ ಗ್ಯಾಲರಿ (Jade Gallery) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "ଜେଡ୍ ଗ୍ୟାଲେରୀ (Jade Gallery) | Salar Jung Museum" },
+    bengali: { code: "bn", dir: "ltr", title: "জেড গ্যালারি (Jade Gallery) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "جیڈ گیلری (Jade Gallery) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "જેડ ગેલેરી (Jade Gallery) | Salar Jung Museum" }
+  };
+
+  const footerTranslations = {
+    hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआई</a> द्वारा',
+    english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
+    telugu: '© 2024 సర్వ హక్కులూ ప్రత్యేకించబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
+    tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
+    marathi: '© 2024 सर्व हक्क सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआय</a> द्वारा',
+    malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തമാണ്, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> വഴി',
+    kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
+    odia: '© 2024 ସର୍ବାଧିକାର ସୁରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
+    bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
+    urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
+    gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાક્ય AI</a> દ્વારા'
+  };
+
   function selectLanguage(language) {
+    const meta = langMetaMap[language] || langMetaMap.hindi;
+    document.documentElement.lang = meta.code;
+    document.documentElement.dir = meta.dir;
+    document.title = meta.title;
+
     document.querySelectorAll(".langCnt").forEach((content) => {
       content.style.display = content.id === language ? "block" : "none";
     });
+
+    const footerText = document.getElementById("footerText");
+    if (footerText) {
+      footerText.innerHTML = footerTranslations[language] || footerTranslations.english;
+      if (meta.dir === "rtl") {
+        footerText.setAttribute("dir", "rtl");
+      } else {
+        footerText.removeAttribute("dir");
+      }
+    }
+
     updateCards(language);
   }
 
