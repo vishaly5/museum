@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const langMetaMap = {
     hindi: { code: "hi", dir: "ltr", title: "बाल दीर्घा (Children's Gallery) | Salar Jung Museum" },
     english: { code: "en", dir: "ltr", title: "Children's Gallery | Salar Jung Museum" },
+    tamil: { code: "ta", dir: "ltr", title: "குழந்தைகள் காட்சியகம் (Children's Gallery) | Salar Jung Museum" },
     telugu: { code: "te", dir: "ltr", title: "పిల్లల గ్యాలరీ (Children's Gallery) | Salar Jung Museum" },
     urdu: { code: "ur", dir: "rtl", title: "بچوں کی گیلری (Children's Gallery) | Salar Jung Museum" },
     bengali: { code: "bn", dir: "ltr", title: "শিশু গ্যালারি (Children's Gallery) | Salar Jung Museum" },
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const footerTranslations = {
     hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआई</a> द्वारा',
     english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
+    tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
     telugu: '© 2024 సర్వ హక్కులూ ప్రత్యేకించబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
     urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
     bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
