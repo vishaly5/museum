@@ -38,15 +38,30 @@ const langOptionsHtml = languages.map(l =>
 // Audio folders map
 const audioFolderMap = {
   hindi: 'hindi',
-  english: 'hindi',
+  english: 'urdu',
   telugu: 'telugu',
   urdu: 'urdu',
   bengali: 'Bengauli',
   gujarati: 'gujrati',
   kannada: 'kannade',
   odia: 'odia',
+  marathi: 'marathi',
+  malayalam: 'Malayalam',
   tamil: 'Tamil'
 };
+
+const accMap = [
+  'XXIII-95',   // Item 1
+  'XXIII-101',  // Item 2
+  'XXIII-65',   // Item 3
+  '107',        // Item 4
+  'XXIII-71',   // Item 5
+  'XLVI-186',   // Item 6
+  'CS-I-1280',  // Item 7
+  'XLVI-688',   // Item 8
+  'XXIII-37',   // Item 9
+  'XVII-5'      // Item 10
+];
 
 function getAudioPath(lang, itemIndex) {
   const folder = audioFolderMap[lang];
@@ -54,16 +69,57 @@ function getAudioPath(lang, itemIndex) {
   const dirPath = path.join(galleryDir, 'Audios', folder);
   if (!fs.existsSync(dirPath)) return '';
 
-  const files = fs.readdirSync(dirPath);
+  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.wav') || f.endsWith('.mp3'));
+  if (files.length === 0) return '';
+
   const itemNum = itemIndex + 1;
-  // find file starting with itemNum
-  const found = files.find(f => {
-    const prefix = f.trim();
-    return prefix.startsWith(`${itemNum}.`) || prefix.startsWith(`${itemNum} `) || prefix.startsWith(`${itemNum}-`);
+
+  // 1. Check for number prefix e.g. "1.", "1 ", "1-"
+  let found = files.find(f => {
+    const trimmed = f.trim();
+    return trimmed.startsWith(`${itemNum}.`) || trimmed.startsWith(`${itemNum} `) || trimmed.startsWith(`${itemNum}-`);
   });
-  if (found) {
-    return `Audios/${folder}/${found}`;
+  if (found) return `Audios/${folder}/${found}`;
+
+  // 2. Check by accession number
+  const acc = accMap[itemIndex];
+  if (acc) {
+    const accNormalized = acc.replace(/-/g, '');
+    found = files.find(f => {
+      const fNorm = f.replace(/_/g, '-').replace(/\s+/g, '');
+      return fNorm.includes(acc) || fNorm.includes(accNormalized);
+    });
+    if (found) return `Audios/${folder}/${found}`;
   }
+
+  // 3. Check by keyword matching for telugu/urdu
+  const itemKeywords = [
+    ['tutankhamen'],                                    // 1
+    ['screen.wav', 'xxiii-101'],                        // 2
+    ['sofa'],                                           // 3
+    ['stand'],                                          // 4
+    ['nefertiti'],                                      // 5
+    ['xlvi-186', 'chair.wav'],                          // 6
+    ['table lamp'],                                     // 7
+    ['stool'],                                          // 8
+    ['screen representing', 'egyptian figures'],        // 9
+    ['curtain']                                         // 10
+  ];
+
+  const keywords = itemKeywords[itemIndex];
+  if (keywords) {
+    found = files.find(f => {
+      const lower = f.toLowerCase();
+      return keywords.some(kw => lower.includes(kw));
+    });
+    if (found) return `Audios/${folder}/${found}`;
+  }
+
+  // 4. Fallback: by index if files exist (e.g. Malayalam)
+  if (files[itemIndex]) {
+    return `Audios/${folder}/${files[itemIndex]}`;
+  }
+
   return '';
 }
 

@@ -195,6 +195,21 @@ const itemAudioByLanguage = {
     "urdu-Screen Shaped Photo Frame.wav",
     "urdu-Spice Box with Tray.wav",
     "urdu-Kard (knife) of Emperor Jahangir.wav"
+  ],
+  malayalam: [
+    "malayalam/Archery Ring.wav",
+    "malayalam/casket.wav",
+    "malayalam/Clock.wav",
+    "malayalam/Figure of a Parrot.wav",
+    "malayalam/Kard (fruit knife of Noor Jahan).wav",
+    "malayalam/Jambia.wav",
+    "malayalam/Khanjarali.wav",
+    "malayalam/Necklace.wav",
+    "malayalam/Pen and ink stand.wav",
+    "malayalam/Peshqabz.wav",
+    "malayalam/Screen Shaped Photo Frame.wav",
+    "malayalam/Spice Box with Tray.wav",
+    "malayalam/kard(knife) of jahahangir.wav"
   ]
 };
 

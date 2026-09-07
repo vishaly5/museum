@@ -147,6 +147,22 @@ document.addEventListener("DOMContentLoaded", () => {
         "ସଂଗ୍ରହ ନମ୍ବର 87-44 ହାତୀ ଆକୃତିର ସ୍ୟାହିପାତ୍ର.wav",
         "ସଂଗ୍ରହ ନମ୍ବର ACQ-85-26 — ସୁପାରିକାତି.wav"
       ]
+    },
+    malayalam: {
+      folder: "malayalam",
+      files: [
+        "vessel.wav",
+        "Peacock Shaped Scent Box.wav",
+        "Betel Box.wav",
+        "Gun Power Box.wav",
+        "Samovar.wav",
+        "Huqqa.wav",
+        "Tray.wav",
+        "Container.wav",
+        "Bed Post.wav",
+        "elephant shaped ink pot.wav",
+        "Nut Cutter.wav"
+      ]
     }
   };
 
