@@ -584,68 +584,133 @@ window.galleryItems = {
       "audioSrc": "audio/urdu/9. UN NUMBERED - 4995 FIGURE OF A HORSE.wav"
     }
   ],
-  "english": [
+  "marathi": [
     {
       "image": "images/toy-and-doll-item1.png",
       "badge": "1. ACQ - 90 - 12",
-      "title": "1. ACQ - 90 - 12: आदिमानव की मूर्ति",
-      "desc": "यह एक खड़े हुए प्रारंभिक मानव की लकड़ी में उकेरी गई मूर्ति है। यह मानव अपने हाथों में चाकू (क्लीवर) पकड़े हुए है। आँखों को यथार्थवादी दिखाने के लिए काले आईबॉल्स को सफेद घेरे से घेरा गया है, जो संभवतः धातु या शेल से बनाए गए हैं। “प्रारंभिक मानव” शब्द विभिन्न प्रारंभिक मानव समूहों के लिए उपयोग किया जा सकता है, जो सरल, प्रौद्योगिकी-रहित समाज में रहते थे और मानव विकास के शुरुआती चरण से संबंधित थे। इनमें गुफा निवासियों, शिकार-इकट्ठा करने वाले समुदाय और प्रारंभिक जनजातीय समाज शामिल हैं। प्रारंभिक समाज अक्सर छोटे, खानाबदोश समूहों में रहते थे और अपनी जीविका के लिए शिकार और संग्रह पर निर्भर रहते थे। कई प्रारंभिक समाजों में लिखित भाषा नहीं थी और वे मौखिक परंपराओं और दृश्य संचार पर निर्भर रहते थे। यह प्रारंभिक मानव भारत का है और इसका इतिहास 19वीं सदी का है।",
+      "title": "1. ACQ - 90 - 12: आदिमानवाची मूर्ती",
+      "desc": "ही उभ्या असलेल्या आदिमानवाची लाकडात कोरलेली मूर्ती आहे. हा मानव आपल्या हातात सुरा (क्लीव्हर) धरून आहे. डोळे वास्तववादी दिसावेत म्हणून काळ्या बुबुळांभोवती पांढरे वर्तुळ केले आहे, जे बहुधा धातू किंवा शिंपल्यापासून बनवलेले असावे. “आदिमानव” हा शब्द विविध प्रारंभिक मानवी समूहांसाठी वापरला जातो, जे साध्या, तंत्रज्ञानरहित समाजात राहत होते आणि मानवी उत्क्रांतीच्या सुरुवातीच्या टप्प्याशी संबंधित होते. यामध्ये गुहेत राहणारे लोक, शिकार व अन्नसंकलन करणारे समुदाय आणि प्रारंभिक आदिवासी समाज यांचा समावेश होतो. हे समाज बहुधा लहान, भटक्या गटांत राहत आणि उदरनिर्वाहासाठी शिकार व संकलनावर अवलंबून असत. अनेक प्रारंभिक समाजांना लिखित भाषा नव्हती आणि ते मौखिक परंपरा व दृश्य संवादावर अवलंबून होते. ही आदिमानवाची मूर्ती भारताची असून ती १९व्या शतकातील आहे.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item2.png",
       "badge": "2. CS - II - 153",
-      "title": "2. CS - II - 153: कुत्ते के साथ कामदेव",
-      "desc": "एक आधार पर सफ़ेद चमकदार चीनी मिट्टी के फूलदान में, कामदेव एक टोकरी के साथ खड़ा है। कुत्ता अपने आगे के पैरों को उठाए हुए है और उसकी पीठ पर एक टोकरी रखी हुई है। कामदेव कुत्ते की ओर अपनी अंगुली दिखा रहा है। नीचे का हिस्सा नीले रंग से भरा हुआ है। रोमन पौराणिक कथाओं में, कामदेव प्रेम, इच्छा, आकर्षण और स्नेह का देवता है। उसे अक्सर पंखों वाले नग्न छोटे बच्चे के रूप में दिखाया जाता है, जो धनुष और तीर लिए होते हैं। वह वीनस, प्रेम की देवी, और युद्ध के देवता का पुत्र है। पोर्सिलेन एक सिरेमिक सामग्री है, जिसे कच्चे पदार्थों को गर्म करके बनाया जाता है, जिसमें आमतौर पर काओलिनाइट शामिल होता है, और इसे 1200 से 1400 डिग्री सेल्सियस के बीच के भट्टियों में पकाया जाता है। यह कामदेव जर्मनी का है और इसका निर्माण 19वीं शताब्दी में हुआ था।",
+      "title": "2. CS - II - 153: कुत्र्यासोबत कामदेव",
+      "desc": "एका आधारावर ठेवलेल्या पांढऱ्या चकचकीत चिनीमातीच्या फुलदाणीत, कामदेव एका टोपलीसह उभा आहे. कुत्रा आपले पुढचे पाय उंचावून उभा असून त्याच्या पाठीवर एक टोपली ठेवली आहे. कामदेव कुत्र्याकडे आपले बोट दाखवत आहे. खालचा भाग निळ्या रंगाने भरलेला आहे. रोमन पुराणकथांमध्ये कामदेव हा प्रेम, इच्छा, आकर्षण आणि स्नेह यांचा देव आहे. त्याला अनेकदा पंख असलेल्या नग्न लहान बालकाच्या रूपात दाखवले जाते, ज्याच्या हातात धनुष्य आणि बाण असतात. तो व्हीनस या प्रेमाच्या देवीचा आणि युद्धदेवाचा पुत्र आहे. पोर्सलिन ही एक सिरॅमिक सामग्री आहे, जी कच्च्या पदार्थांना तापवून बनवली जाते; त्यात सामान्यतः काओलिनाइट असते आणि ती १२०० ते १४०० अंश सेल्सिअस तापमानाच्या भट्टीत भाजली जाते. हा कामदेव जर्मनीचा असून त्याची निर्मिती १९व्या शतकात झाली होती.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item3.png",
       "badge": "3. XV - 11",
-      "title": "3. XV - 11: दीवार पट्टिका",
-      "desc": "आयताकार दीवार पट्टिका में दो अलग-अलग दृश्य दिखाए गए हैं। निचले भाग में लुम्बिनी वन में बुद्ध के जन्म का दृश्य उकेरा गया है और ऊपरी भाग में कुशीनगर में बुद्ध के अंतिम जीवन का दृश्य। पेड़ों को लकड़ी के पैनल पर बहुत सुंदर तरीके से मोड़ा गया है। किनारों पर बारह राशियों के चिन्ह गोल पैनलों में उकेरे गए हैं और उनके चारों ओर नक्काशीदार सीमाएँ हैं। बाईं ओर राशियाँ हैं - मीन, कुंभ, मकर, धनु; दाईं ओर राशियाँ हैं - मिथुन, कर्क, सिंह, कन्या; ऊपरी भाग में - मेष, वृष; और निचली पंक्ति में - वृश्चिक और तुला। सीमा पर बेल और पत्तियों का नक्काशीदार पैटर्न है। यह दीवार पट्टिका कलाकार की उत्कृष्ट कारीगरी को दर्शाती है। यह दीवार पट्टिका बर्मा की है और 19वीं सदी की है।",
+      "title": "3. XV - 11: भिंतीवरील फलक",
+      "desc": "आयताकृती भिंतीवरील फलकावर दोन वेगवेगळी दृश्ये दाखवली आहेत. खालच्या भागात लुम्बिनी वनातील बुद्धाच्या जन्माचे दृश्य कोरले आहे आणि वरच्या भागात कुशीनगर येथील बुद्धाच्या अंतिम जीवनाचे दृश्य आहे. लाकडी पॅनेलवर झाडे अत्यंत सुंदर रीतीने वळवून कोरली आहेत. कडांवर बारा राशींची चिन्हे गोल पॅनेलमध्ये कोरली असून त्यांच्याभोवती कोरीव कडा आहेत. डावीकडे मीन, कुंभ, मकर, धनु या राशी आहेत; उजवीकडे मिथुन, कर्क, सिंह, कन्या; वरच्या भागात मेष, वृषभ; आणि खालच्या रांगेत वृश्चिक व तूळ. कडेवर वेल आणि पानांची कोरीव नक्षी आहे. हा फलक कलाकाराच्या उत्कृष्ट कारागिरीचे दर्शन घडवतो. हा भिंतीवरील फलक ब्रह्मदेशाचा असून १९व्या शतकातील आहे.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item4.png",
       "badge": "4. MS - 3025",
-      "title": "4. MS - 3025: हिरण के साथ डायना",
-      "desc": "प्राचीन मूर्ति जिसमें डायना को दर्शाया गया है। डायना वेल्स की राजकुमारी नहीं बल्कि रोमन पौराणिक कथाओं में चंद्रमा, वन्य जीवन, प्रकृति और शिकार की देवी हैं। डायना, ग्रीक कुंवारी देवी आर्टेमिस के लैटिन समकक्ष हैं, और वह झरनों और नदियों की रक्षक तथा जंगली जानवरों की संरक्षक मानी जाती थीं। कला में उन्हें अक्सर युवा शिकारी के रूप में धनुष और तीर के साथ दिखाया जाता है। इस मूर्ति में डायना के पास एक हिरण है और वह शिकार में व्यस्त दिखाई देती हैं। उनकी मुद्रा यह दर्शाती है कि वह अपना लदा हुआ धनुष वापस ला रही हैं या अपने तरकश से तीर लेने के लिए कंधे के पीछे झुक रही हैं। यह क्लासिक सफेद संगमरमर की प्रतिमा जर्मनी की है और 19वीं शताब्दी में बनाई गई थी।",
+      "title": "4. MS - 3025: हरणासोबत डायना",
+      "desc": "डायनाचे चित्रण असलेली प्राचीन मूर्ती. डायना ही वेल्सची राजकुमारी नसून रोमन पुराणकथांमधील चंद्र, वन्यजीवन, निसर्ग आणि शिकार यांची देवी आहे. डायना ही ग्रीक कुमारी देवी आर्टेमिसची लॅटिन समकक्ष असून ती झरे व नद्यांची रक्षक आणि वन्य प्राण्यांची संरक्षक मानली जात असे. कलेत तिला अनेकदा धनुष्य-बाणासह तरुण शिकारीच्या रूपात दाखवले जाते. या मूर्तीत डायनासोबत एक हरीण असून ती शिकारीत गुंतलेली दिसते. तिची मुद्रा असे दर्शवते की ती आपले सज्ज धनुष्य मागे खेचत आहे किंवा भात्यातून बाण घेण्यासाठी खांद्यामागे वाकत आहे. ही अभिजात पांढऱ्या संगमरवराची मूर्ती जर्मनीची असून १९व्या शतकात घडवण्यात आली होती.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item5.png",
       "badge": "5. MS - 4764",
-      "title": "5. MS - 4764: एक पुरुष की मूर्ति",
-      "desc": "एक आदमी की रंगीन आकृति चौकोर आधार पर खड़ी है। वह अपने बाएँ हाथ में एक टोकरी और कंधे पर छड़ी लिए हुए है, सिर पर लाल पगड़ी, नीला कोट और सफ़ेद तंग धोती पहने हुए है। कोंडापल्ली खिलौने मुलायम लकड़ी से बनाए जाते हैं जिसे तेल्ला पोनिकि कहा जाता है, जो नज़दीकी कोंडापल्ली पहाड़ियों में पाई जाती है। फिर मक्कू (इमली के बीज के चूर्ण और चूरा का पेस्ट) का उपयोग टुकड़ों को जोड़ने, बारीकियाँ जोड़ने और खिलौनों को पूरा करने के लिए किया जाता है। यह खिलौना आकृति कोंडापल्ली से संबंधित है। वर्तमान में कोंडापल्ली गाँव, आंध्र प्रदेश के एनटीआर जिले में स्थित है। इसे आंध्र प्रदेश के भौगोलिक संकेत (Geographical Indication) हस्तशिल्प के रूप में पंजीकृत किया गया था। इस कला की परंपरा 400 वर्षों पुरानी है और इसका इतिहास 19वीं सदी तक जाता है।",
+      "title": "5. MS - 4764: एका पुरुषाची मूर्ती",
+      "desc": "एका पुरुषाची रंगीत आकृती चौकोनी आधारावर उभी आहे. त्याच्या डाव्या हातात टोपली असून खांद्यावर काठी आहे; डोक्यावर लाल पगडी, अंगात निळा कोट आणि पांढरे घट्ट धोतर आहे. कोंडापल्ली खेळणी तेल्ला पोनिकि नावाच्या मऊ लाकडापासून बनवली जातात, जे जवळच्या कोंडापल्ली टेकड्यांमध्ये मिळते. नंतर तुकडे जोडण्यासाठी, बारकावे भरण्यासाठी आणि खेळणी पूर्ण करण्यासाठी मक्कू (चिंचेच्या बियांचे चूर्ण व लाकडाचा भुसा यांचा लगदा) वापरला जातो. ही खेळण्याची आकृती कोंडापल्लीशी संबंधित आहे. सध्या कोंडापल्ली गाव आंध्र प्रदेशातील एनटीआर जिल्ह्यात आहे. याची नोंद आंध्र प्रदेशाच्या भौगोलिक निर्देशांक (Geographical Indication) हस्तकला म्हणून झाली आहे. या कलेची परंपरा ४०० वर्षे जुनी असून तिचा इतिहास १९व्या शतकापर्यंत जातो.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item6.png",
       "badge": "6. MS - 4822",
-      "title": "6. MS - 4822: एक संत की मूर्ति",
-      "desc": "यह एक पेंट की हुई खिलौना जैसी मूर्ति है, जिसमें एक पुरुष - वामन, विष्णु के अवतार को दर्शाया गया है। वामन के कंधे पर बायें तरफ छाता रखा हुआ है, उन्होंने लाल धोती पहन रखी है और गर्दन पर माला (जपमाला) डाली हुई है। चेहरा, शरीर और पैरों को पीले रंग से पेंट किया गया है। संस्कृत में “वामन” का अर्थ है छोटे कद वाला या बौना, जो उनके छोटे और विनम्र ब्राह्मण बालक के रूप को दर्शाता है। वामन विष्णु के दस प्रमुख अवतारों (दशावतार) में पाँचवें अवतार माने जाते हैं। वामन को त्रिविक्रम भी कहा जाता है, जिसका अर्थ है “तीन पैरों वाला भगवान।” वामन अवतार कहा जाता है कि संसार में संतुलन और विनम्रता बहाल करने के लिए आया। यह मूर्ति भारत की है और इसका निर्माण 20वीं सदी में हुआ था।",
+      "title": "6. MS - 4822: एका संताची मूर्ती",
+      "desc": "ही रंगवलेली खेळण्यासारखी मूर्ती असून त्यात विष्णूचा अवतार वामन दाखवला आहे. वामनाच्या डाव्या खांद्यावर छत्री ठेवलेली आहे, त्यांनी लाल धोतर नेसले असून गळ्यात जपमाळ घातली आहे. चेहरा, शरीर आणि पाय पिवळ्या रंगाने रंगवले आहेत. संस्कृतमध्ये “वामन” म्हणजे लहान उंचीचा किंवा बटू, जे त्यांच्या लहान व नम्र ब्राह्मण बालकाच्या रूपाचे द्योतक आहे. वामन हे विष्णूच्या दहा प्रमुख अवतारांपैकी (दशावतार) पाचवे अवतार मानले जातात. वामनाला त्रिविक्रम असेही म्हणतात, ज्याचा अर्थ “तीन पावलांचा देव”. वामन अवतार जगात संतुलन आणि नम्रता पुन्हा प्रस्थापित करण्यासाठी आला असे सांगितले जाते. ही मूर्ती भारताची असून तिची निर्मिती २०व्या शतकात झाली होती.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item7.png",
       "badge": "7. XLII - 48",
-      "title": "7. XLII - 48: एक हाथी, हाथी सवार (महावत), और एक कुलीन व्यक्ति",
-      "desc": "एक भारतीय कुलीन व्यक्ति हाथी की हौदे (howdah) में बैठा है, उसके साथ एक महावत है। महावत, जो हाथी चलाने वाला होता है, भारतीय कला और ऐतिहासिक संदर्भों में सामान्य रूप से दर्शाया जाता है और अक्सर शक्ति और स्थिति का प्रतीक होता है। हौदे, हाथी की पीठ पर लगी संरचना होती है, जो कुलीन व्यक्ति के लिए आरामदायक सीट और ऊँचा मंच प्रदान करती थी, जबकि महावत हाथी को मार्गदर्शन देता था। यह आकृति एक भारतीय कुलीन व्यक्ति को महावत के साथ हाथी पर दर्शाती है और शक्ति, प्रतिष्ठा और राजशाही का प्रतीक है। हाथियों का अक्सर शाही शोभायात्राओं और समारोहों में उपयोग किया जाता था, और हौदे धन और अधिकार का प्रदर्शन करने के लिए एक मंच के रूप में काम करता था। यह आकृति यूके के राष्ट्रीय सेना संग्रहालय में देखी जा सकती है, जिसमें हाथी पर हौदे में बैठे भारतीय कुलीन व्यक्ति की पेंटिंग प्रदर्शित है। इसका उद्गम भारत से हुआ था और यह 20वीं शताब्दी का है।",
+      "title": "7. XLII - 48: एक हत्ती, माहूत आणि एक कुलीन व्यक्ती",
+      "desc": "एक भारतीय कुलीन व्यक्ती हत्तीच्या हौद्यात (howdah) बसली असून त्यांच्यासोबत एक माहूत आहे. हत्ती हाकणारा माहूत भारतीय कला व ऐतिहासिक संदर्भांत सर्रास दाखवला जातो आणि तो अनेकदा सामर्थ्य व प्रतिष्ठेचे प्रतीक असतो. हौदा ही हत्तीच्या पाठीवर बसवलेली रचना असते, जी कुलीन व्यक्तीसाठी आरामदायक आसन आणि उंच मंच पुरवत असे, तर माहूत हत्तीला मार्गदर्शन करत असे. ही आकृती माहूतासह हत्तीवर बसलेल्या भारतीय कुलीन व्यक्तीचे चित्रण करते आणि सामर्थ्य, प्रतिष्ठा व राजेशाहीचे प्रतीक आहे. हत्तींचा वापर अनेकदा राजेशाही मिरवणुका व समारंभांत केला जात असे आणि हौदा हे संपत्ती व अधिकार दाखवण्याचे व्यासपीठ म्हणून काम करत असे. ही आकृती यूकेच्या राष्ट्रीय सैन्य संग्रहालयात पाहता येते, जिथे हत्तीवरील हौद्यात बसलेल्या भारतीय कुलीन व्यक्तीचे चित्र प्रदर्शित आहे. याचे उगमस्थान भारत असून ते २०व्या शतकातील आहे.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item8.png",
       "badge": "8. CS - I - 318",
-      "title": "8. CS - I - 318: भगवान ब्रह्मा की मूर्ति",
-      "desc": "यह चित्रित चीनी मिट्टी की मूर्ति भगवान ब्रह्मा की है, जो सफेद कमल पर बैठे हैं। हिंदू मिथक कथाओं में, भगवान ब्रह्मा को सृष्टि और सभी प्राणियों का रचयिता माना जाता है। वे तीन प्रमुख देवताओं (त्रिमूर्ति) में से एक हैं, जिनमें विष्णु पालनकर्ता और शिव संहारक हैं। ब्रह्मा का संबंध सृष्टि, ज्ञान और वेदों से है। उन्हें अक्सर चार मुखों वाला दर्शाया जाता है, जो चार दिशाओं और चार वेदों का प्रतीक है। उन्हें अक्सर कमल के फूल पर बैठे दिखाया जाता है, जो पवित्रता और सृष्टि का प्रतीक है। उनका वाहन हंस या हंसारू है, जो विभिन्न लोकों के बीच यात्रा करने की उनकी क्षमता का प्रतिनिधित्व करता है। उन्हें अक्सर हाथ में ताड़पत्रियों का बंडल (वेद) पकड़े दिखाया जाता है। यह ब्रह्मा की मूर्ति भारत की है और 20वीं सदी की मानी जाती है।",
+      "title": "8. CS - I - 318: भगवान ब्रह्मदेवाची मूर्ती",
+      "desc": "ही रंगवलेली चिनीमातीची मूर्ती भगवान ब्रह्मदेवाची असून ते पांढऱ्या कमळावर बसले आहेत. हिंदू पुराणकथांमध्ये भगवान ब्रह्मदेव हे सृष्टीचे आणि सर्व प्राणिमात्रांचे निर्माते मानले जातात. ते त्रिमूर्तीतील एक प्रमुख देव आहेत; त्यात विष्णू पालनकर्ते आणि शिव संहारक आहेत. ब्रह्मदेवाचा संबंध सृष्टी, ज्ञान आणि वेदांशी आहे. त्यांना अनेकदा चार मुखांसह दाखवले जाते, जे चार दिशा व चार वेदांचे प्रतीक आहे. त्यांना बहुधा कमळाच्या फुलावर बसलेले दाखवले जाते, जे पावित्र्य व सृष्टीचे प्रतीक आहे. त्यांचे वाहन हंस आहे, जे विविध लोकांमध्ये प्रवास करण्याच्या त्यांच्या क्षमतेचे प्रतिनिधित्व करते. त्यांना अनेकदा हातात ताडपत्रांचा गठ्ठा (वेद) धरलेले दाखवले जाते. ही ब्रह्मदेवाची मूर्ती भारताची असून २०व्या शतकातील मानली जाते.",
       "audioSrc": ""
     },
     {
       "image": "images/toy-and-doll-item9.png",
-      "badge": "9. बिना संख्या - 4995",
-      "title": "9. बिना संख्या - 4995: घोड़े की मूर्ति",
-      "desc": "बड़ा घोड़ा अथवा मूर्ति, चार पहियों सहित, आयताकार आधार पर खड़ा है जिसे लाल और हरे रंग से रंगा गया है। इसकी गले की माला के चारों ओर पत्तों जैसे अलंकरण बने हैं। लगभग 4 फीट ऊँची यह प्रतिमा पीले रंग में रंगी है, जिसमें हरे रंग का अयाल (कंठ के बाल) और काली पूँछ है। काठी और लगाम को भव्य सजावट से सजाया गया है। यह भारत से उत्पन्न हुई है और 20वीं शताब्दी की है। यह पेपियर माशे से बनाई गई है। पेपियर माशे एक हस्तशिल्प तकनीक है जिसमें कागज को गोंद या प्लास्टर जैसे बाइंडर के साथ मिलाकर गूंधा जाता है ताकि त्रि-आयामी वस्तुएँ बनाई जा सकें, जैसे मूर्तियाँ, मुखौटे, कटोरे, जानवर और अन्य सजावटी वस्तुएँ। कागज को पानी में भिगोकर गूंधकर गाढ़ा मिश्रण बनाया जा सकता है, या इसे अपने मूल रूप में भी प्रयोग किया जा सकता है, जैसे टुकड़ों में फाड़कर अथवा पट्टियों में काटकर।",
+      "badge": "9. क्रमांकाशिवाय - 4995",
+      "title": "9. क्रमांकाशिवाय - 4995: घोड्याची मूर्ती",
+      "desc": "चार चाकांसह मोठा घोडा अथवा मूर्ती, लाल व हिरव्या रंगाने रंगवलेल्या आयताकृती आधारावर उभी आहे. तिच्या गळ्यातील माळेभोवती पानांसारखी अलंकरणे केली आहेत. सुमारे ४ फूट उंचीची ही मूर्ती पिवळ्या रंगात रंगवली असून तिची आयाळ हिरवी आणि शेपूट काळी आहे. खोगीर आणि लगाम भव्य सजावटीने सजवले आहेत. ही मूर्ती भारतातील असून २०व्या शतकातील आहे. ती पेपियर माशेपासून बनवली आहे. पेपियर माशे हे एक हस्तकला तंत्र आहे, ज्यात कागद गोंद किंवा प्लास्टरसारख्या बाइंडरमध्ये मिसळून मळला जातो, जेणेकरून मूर्ती, मुखवटे, वाट्या, प्राणी व इतर सजावटीच्या वस्तूंसारख्या त्रिमितीय वस्तू बनवता येतील. कागद पाण्यात भिजवून मळून घट्ट मिश्रण बनवता येते, किंवा त्याचा मूळ स्वरूपातही वापर करता येतो — तुकडे फाडून अथवा पट्ट्यांत कापून.",
+      "audioSrc": ""
+    }
+  ],
+  "english": [
+    {
+      "image": "images/toy-and-doll-item1.png",
+      "badge": "1. ACQ - 90 - 12",
+      "title": "1. ACQ - 90 - 12: Figure of a Primitive Man",
+      "desc": "This is a wooden carved figure of a standing primitive man. The man holds a cleaver in his hands. To make the eyes look lifelike, the black eyeballs are ringed with white circles, probably made of metal or shell. The term “primitive man” may be used for various early human groups who lived in simple, technology-free societies and belonged to the early stages of human evolution. These include cave dwellers, hunter-gatherer communities and early tribal societies. Early societies often lived in small, nomadic groups and depended on hunting and gathering for their livelihood. Many early societies had no written language and relied on oral traditions and visual communication. This figure of a primitive man is from India and dates to the 19th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item2.png",
+      "badge": "2. CS - II - 153",
+      "title": "2. CS - II - 153: Cupid with Dog",
+      "desc": "On a white glazed porcelain vase set upon a base, Cupid stands with a basket. The dog is raised on its forelegs with a basket placed on its back, and Cupid points his finger towards the dog. The lower portion is filled with blue. In Roman mythology, Cupid is the god of love, desire, attraction and affection. He is often shown as a winged, naked little child carrying a bow and arrows. He is the son of Venus, the goddess of love, and the god of war. Porcelain is a ceramic material made by heating raw materials, usually including kaolinite, and fired in kilns at between 1200 and 1400 degrees Celsius. This Cupid is from Germany and was made in the 19th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item3.png",
+      "badge": "3. XV - 11",
+      "title": "3. XV - 11: Wall Plaque",
+      "desc": "The rectangular wall plaque depicts two separate scenes. The lower part carries the scene of the Buddha's birth in the Lumbini grove, and the upper part the scene of the Buddha's final days at Kushinagar. The trees are turned very beautifully upon the wooden panel. Along the edges, the twelve zodiac signs are carved within circular panels surrounded by carved borders. On the left are Pisces, Aquarius, Capricorn and Sagittarius; on the right Gemini, Cancer, Leo and Virgo; in the upper part Aries and Taurus; and in the lower row Scorpio and Libra. The border carries a carved pattern of vines and leaves. This plaque reflects the artist's outstanding craftsmanship. The wall plaque is from Burma and dates to the 19th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item4.png",
+      "badge": "4. MS - 3025",
+      "title": "4. MS - 3025: Diana with Deer",
+      "desc": "An antique sculpture depicting Diana. Diana is not the Princess of Wales but the Roman goddess of the moon, wildlife, nature and the hunt. Diana is the Latin counterpart of the Greek virgin goddess Artemis, and she was regarded as the guardian of springs and rivers and the protector of wild animals. In art she is often shown as a young huntress with a bow and arrows. In this sculpture Diana is accompanied by a deer and appears engaged in the hunt. Her posture suggests that she is drawing back her loaded bow, or reaching behind her shoulder to take an arrow from her quiver. This classical white marble statue is from Germany and was made in the 19th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item5.png",
+      "badge": "5. MS - 4764",
+      "title": "5. MS - 4764: Figure of a Man",
+      "desc": "A coloured figure of a man stands on a square base. He carries a basket in his left hand and a stick over his shoulder, wearing a red turban, a blue coat and a white close-fitting dhoti. Kondapalli toys are made from a soft wood called Tella Poniki, found in the nearby Kondapalli hills. Makku — a paste of tamarind seed powder and sawdust — is then used to join the pieces, add detail and finish the toys. This toy figure belongs to Kondapalli. Today the village of Kondapalli lies in the NTR district of Andhra Pradesh. It has been registered as a Geographical Indication handicraft of Andhra Pradesh. The tradition of this craft is 400 years old and its history goes back to the 19th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item6.png",
+      "badge": "6. MS - 4822",
+      "title": "6. MS - 4822: Figure of a Saint",
+      "desc": "This is a painted toy-like figure depicting Vamana, an avatar of Vishnu. An umbrella rests on Vamana's left shoulder; he wears a red dhoti and a rosary (japamala) around his neck. The face, body and legs are painted yellow. In Sanskrit “Vamana” means one of short stature, or dwarf, reflecting his small and humble form as a brahmin boy. Vamana is considered the fifth of the ten principal avatars of Vishnu (the Dashavatara). Vamana is also called Trivikrama, meaning “the god of three strides”. The Vamana avatar is said to have come to restore balance and humility to the world. This figure is from India and was made in the 20th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item7.png",
+      "badge": "7. XLII - 48",
+      "title": "7. XLII - 48: An Elephant, Mahout and a Noble Man",
+      "desc": "An Indian nobleman is seated in the howdah of an elephant, accompanied by a mahout. The mahout, who drives the elephant, is commonly depicted in Indian art and historical contexts and is often a symbol of power and status. The howdah, a structure mounted on the elephant's back, provided the nobleman with a comfortable seat and an elevated platform while the mahout guided the elephant. This figure depicts an Indian nobleman with a mahout upon an elephant and stands as a symbol of power, prestige and royalty. Elephants were often used in royal processions and ceremonies, and the howdah served as a platform for displaying wealth and authority. A comparable figure can be seen at the National Army Museum in the UK, which displays a painting of an Indian nobleman seated in a howdah on an elephant. It originates from India and dates to the 20th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item8.png",
+      "badge": "8. CS - I - 318",
+      "title": "8. CS - I - 318: Figure of Lord Brahma",
+      "desc": "This painted porcelain figure is of Lord Brahma, seated on a white lotus. In Hindu mythology Lord Brahma is regarded as the creator of the universe and of all living beings. He is one of the three principal deities (the Trimurti), in which Vishnu is the preserver and Shiva the destroyer. Brahma is associated with creation, knowledge and the Vedas. He is often depicted with four faces, symbolising the four directions and the four Vedas. He is usually shown seated on a lotus flower, a symbol of purity and creation. His vehicle is the swan or hamsa, representing his ability to travel between the various worlds. He is often shown holding a bundle of palm leaves (the Vedas) in his hand. This figure of Brahma is from India and is believed to date to the 20th century.",
+      "audioSrc": ""
+    },
+    {
+      "image": "images/toy-and-doll-item9.png",
+      "badge": "9. Un-numbered - 4995",
+      "title": "9. Un-numbered - 4995: Figure of a Horse",
+      "desc": "A large horse, or figure, mounted on four wheels, standing on a rectangular base painted red and green. Leaf-like ornamentation surrounds the garland at its neck. About 4 feet tall, the figure is painted yellow, with a green mane and a black tail. The saddle and bridle are richly decorated. It originates from India and dates to the 20th century. It is made of papier-mâché. Papier-mâché is a craft technique in which paper is kneaded together with a binder such as glue or plaster to create three-dimensional objects — figures, masks, bowls, animals and other decorative pieces. The paper may be soaked in water and kneaded into a thick pulp, or used in its original form, torn into pieces or cut into strips.",
       "audioSrc": ""
     }
   ]
