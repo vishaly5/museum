@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 5 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="../images/logo-moc.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="../images/logo-anu.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >5. कर्द (नूरजहाँ की फल काटने की छुरी)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. कर्द (नूरजहाँ की फल काटने की छुरी)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">मुगल सम्राज्ञी नूरजहाँ की फल काटने की छुरी है। इस छुरी के जेड के हत्थे के ऊपरी भाग में माणिक इस प्रकार जड़े गए हैं कि वे तोते के सिर का आकार बनाते हैं। तोते की चोंच और जीभ भी माणिक से स्पष्ट रूप से बनाई गई हैं। छुरी के जेड के हत्थे पर सोने के तारों में पन्ने जड़े गए हैं, जो पत्तियों का रूप दर्शाते हैं। छुरी की धार के कुंद किनारे पर सोने का बारीक काम किया गया है। छुरी की ब्रोकेड से मढ़ी म्यान भी कलात्मक है। इसमें सोने की पट्टी, म्यान का अग्रभाग और नोक लगी हुई है, जिन पर पन्ने जड़े हैं। सोने की जड़ाई वाली एक अंगूठी भी पट्टी से जुड़ी हुई है। यह कटार भारत की है और इसका समय 17वीं शताब्दी ईस्वी का माना जाता है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >5. Kard (Fruit Knife of Noor Jahan)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. Kard (Fruit Knife of Noor Jahan)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A fruit knife belonging to Mughal Empress Noor Jahan. The jade hilt is inlaid with rubies at the top forming the head, beak, and tongue of a parrot, with gold wire holding emerald leaves. The blade is finely damascened in gold, accompanied by a brocade sheath with emerald-set gold mounts.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >5. XLIX- 312 కార్డ్ (నూర్జహాన్పండ్లకత్తి)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. XLIX- 312 కార్డ్ (నూర్జహాన్పండ్లకత్తి)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">మొఘల్ సామ్రాజ్ఞి నూర్ జహాన్ యొక్క పండ్ల కత్తి యొక్క జేడ్ పిడి, చిలుక తల ఆకారంలో కెంపులతో పొదగబడి ఉంది. చిలుక ముక్కు మరియు నాలుక స్పష్టంగా కెంపులతో పొదగబడి ఉన్నాయి. కత్తి యొక్క జాడే హ్యాండిల్ ఆకులను వర్ణించే బంగారు దారాలలో చెక్కిన పచ్చలతో కప్పబడి ఉంటుంది. బ్లేడ్ మొద్దుబారిన అంచు అంతటా బంగారు  పనితనం ఉంది. కత్తి యొక్క బ్రోకేడ్ కట్టబడిన స్కాబార్డ్ కూడా బంగారు ఆ పట్టీ తొడుగుకు పొదగబడిన బంగారు ఉంగరం కూడా జతచేయబడి ఉంది. ఈ కార్డు భారతదేశానికి చెందినది మరియు క్రీ.శ. 17వ శతాబ్దానికి చెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >5. கார்டு (நூர்ஜஹானின் பழம் வெட்டும் கத்தி)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. கார்டு (நூர்ஜஹானின் பழம் வெட்டும் கத்தி)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">முகலாய அரசி நூர்ஜஹானுக்குச் சொந்தமான பழம் வெட்டும் கத்தி. இதன் ஜேட் கைப்பிடியின் உச்சியில் மாணிக்கக் கற்களால் கிளியின் தலை வடிவமும், மரகதக் கற்களால் இலை வடிவங்களும் பதிப்பக்கம் செய்யப்பட்டுள்ளன.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >5. आरोपसंख्याः XLIX-312 कार्ड(नूरजहानचाफळांचाचाकू)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. आरोपसंख्याः XLIX-312 कार्ड(नूरजहानचाफळांचाचाकू)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">मुघल सम्राज्ञी नूरजहाँच्या फळांच्या चाकूच्या जेडच्या मुठीच्या वरच्या भागात माणकांचे तुकडे अशा प्रकारे बसवले आहेत की त्याला पोपटाच्या डोक्याचा आकार प्राप्त झाला आहे, पोपटाची चोच आणि जीभ माणकांमध्ये स्पष्टपणे मांडलेली आहे. पाने दर्शवण्यासाठी चाकूच्या जेडच्या मुठीवर सोन्याच्या तारांमध्ये बसवलेले कोरीव पाचू जडवलेले आहेत. पात्याच्या बोथट कडेवर सोन्याचे नाजूक काम केलेले आहे. चाकूचे ब्रोकेडने (जरीच्या कापडाने) आच्छादित केलेले म्यान ही देखील एक कलाकृती असून, त्याला पाचू जडवलेले सोन्याचे आवरण आणि कडी बसवली आहे. या आवरणाला खडे जडवलेले सोन्याचे कडे देखील जोडलेले आहे. हा कर्द भारतातील असून तो इ.स. १७ व्या शतकातील आहे.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >5. കാർഡ് (നൂർജഹാൻറെ പഴങ്ങൾമുറിക്കുന്നകത്തി)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. കാർഡ് (നൂർജഹാൻറെ പഴങ്ങൾമുറിക്കുന്നകത്തി)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">മുഗൾരാജ്ഞിനൂർജഹാന്റെപഴങ്ങൾമുറിക്കുന്നകത്തിയുടെ ജേഡ് പിടിയുടെമുകൾഭാഗത്ത്മാണിക്യക്കല്ലുകൾപതിപ്പിച്ച്തത്തയുടെതലയുടെആകൃതിനൽകിയിരിക്കുന്നു; തത്തയുടെചുണ്ടുംനാവുംമാണിക്യക്കല്ലുകളാൽകൃത്യമായിആവിഷ്കരിച്ചിട്ടുണ്ട്. കത്തിയുടെജേഡ്പിടിയിൽഇലകളെചിത്രീകരിക്കുന്നതിനായിസ്വർണ്ണനൂലുകളിൽമരതകക്കല്ലുകൾകൊത്തിപതിപ്പിച്ചിരിക്കുന്നു. ഇതിന്റെമൂർച്ചയില്ലാത്തഅരികിൽ സ്വർണ്ണത്തിന്റെസൂക്ഷ്മമായകൊത്തുപണികൾചെയ്തിട്ടുണ്ട്. മരതകങ്ങൾ പതിപ്പിച്ച സ്വർണ്ണ വളയങ്ങളും അഗ്രവും പിടിപ്പിച്ച, കസവുപട്ടു വസ്ത്രം പൊതിഞ്ഞ ഇതിന്റെ ഉറയും ഒരു മികച്ച കലാസൃഷ്ടി തന്നെയാണ്. രത്നങ്ങൾ പതിപ്പിച്ച ഒരു സ്വർണ്ണ വളയവും ഇതിന്റെ ബാൻഡ് ഷീറ്റിൽ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്. എ.ഡി. 17-ാം നൂറ്റാണ്ടിലെ ഇന്ത്യയിൽ നിന്നുള്ളതാണ് ഈ കത്തി.<br><br>വാക്കുകൾ = 117</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >5. XLIX-312 ಕಾರ್ಡ್ (ನೂರ್ಜಹಾನ್ನಹಣ್ಣಿನಚಾಕು)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. XLIX-312 ಕಾರ್ಡ್ (ನೂರ್ಜಹಾನ್ನಹಣ್ಣಿನಚಾಕು)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಮೊಘಲ್ ಚಕ್ರವರ್ತಿನಿ ನೂರ್-ಜಹಾನ್‌ಳ ಹಣ್ಣಿನ ಕತ್ತಿಯ ಜೇಡ್ ಹಿಡಿಕೆಯ ಮೇಲ್ಭಾಗವು ಗಿಳಿಯ ತಲೆಯ ಆಕಾರವನ್ನು ನೀಡುವ ರೀತಿಯಲ್ಲಿ ಮಾಣಿಕ್ಯದ (ರೂಬಿ) ತುಣುಕುಗಳನ್ನು ಹೊಂದಿದ್ದು, ಗಿಳಿಯ ಕೊಕ್ಕು ಮತ್ತು ನಾಲಿಗೆಯನ್ನು ಮಾಣಿಕ್ಯಗಳಲ್ಲಿ ಸ್ಪಷ್ಟವಾಗಿ ಜೋಡಿಸಲಾಗಿದೆ. ಕತ್ತಿಯ ಜೇಡ್ ಹಿಡಿಕೆಯ ಮೇಲೆ ಎಲೆಗಳನ್ನು ಬಿಂಬಿಸುವ ಚಿನ್ನದ ಎಳೆಗಳಲ್ಲಿ ಜೋಡಿಸಲಾದ ಕೆತ್ತನೆಯ ಎಮರಾಲ್ಡ್ಗಳನ್ನು ಪೋಣಿಸಲಾಗಿದೆ. ಕತ್ತಿಯ ಅಲಗಿನ ಮೊಂಡಾದ ಅಂಚಿನುದ್ದಕ್ಕೂ ಚಿನ್ನದ ಸೂಕ್ಷ್ಮ ಕೆಲಸವನ್ನು ಮಾಡಲಾಗಿದೆ. ಜರಿಬಟ್ಟೆಯಿಂದ (ಬ್ರೊಕೇಡ್) ಸುತ್ತಲ್ಪಟ್ಟ ಈ ಕತ್ತಿಯ ಓರೆಯು (ಹಿಡಿಕೆ ಕೋಶ) ಕೂಡ ಒಂದು ಕಲಾಕೃತಿಯಾಗಿದ್ದು, ಮರಕತಗಳನ್ನು ಪೋಣಿಸಿದ ಚಿನ್ನದ ಪಟ್ಟಿ, ಶೇತ್ ಮತ್ತು ಫೆರುಲ್ ಅನ್ನು ಹೊಂದಿದೆ. ಪಟ್ಟಿ ಶೇತ್‌ಗೆ ಪೋಣಿಸಲಾದ ಚಿನ್ನದ ಉಂಗುರವನ್ನು ಸಹ ಲಗತ್ತಿಸಲಾಗಿದೆ. ಈ ಕಾರ್ಡ್ (ಕತ್ತಿ) ಭಾರತಕ್ಕೆ ಸೇರಿದ್ದು, ಕ್ರಿ.ಶ. 17 ನೇ ಶತಮಾನದಾಗಿದೆ.<br><br>ಪದಗಳು = 117</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >5. XLIX- 312କାର୍ଡ (ନୂରଜାହାଁଙ୍କଫଳଛୁରୀ)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. XLIX- 312କାର୍ଡ (ନୂରଜାହାଁଙ୍କଫଳଛୁରୀ)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ମୋଗଲସମ୍ରାଜ୍ଞୀନୂର୍ଜାହାଁଙ୍କଏହିଫଳଛୁରୀରଜେଡ୍ମୁଠାରଉପରଭାଗରେମାଣିକ୍ୟଖଣ୍ଡଗୁଡ଼ିକୁଏପରିଭାବରେସଜ୍ଜିତକରାଯାଇଛିଯାହାଏକଶୁଆମୁଣ୍ଡରଆକାରଦେଇଛି; ଏପରିକିଶୁଆରଥଣ୍ଟଏବଂଜିଭମାଣିକ୍ୟଦ୍ୱାରାଅତିସ୍ପଷ୍ଟଭାବରେସଜାଯାଇଛି। ଛୁରୀରଜେଡ୍ମୁଠାଟିରେପତ୍ରଗୁଡ଼ିକୁଦର୍ଶାଇବାପାଇଁସୁନାତାରରେସେଟ୍କରାଯାଇଥିବାଖୋଦିତମରକତଜଡ଼ିତହୋଇଛି। ଏହାରବ୍ଲେଡ୍‌ରମୋଟାଧାରରେସୁନାରେଅତିସୂକ୍ଷ୍ମକାମକରାଯାଇଛି। ଛୁରୀରବ୍ରୋକେଡ୍କପଡ଼ାରେଆଚ୍ଛାଦିତମହାରବମଧ୍ୟକଳାରଏକଉତ୍କୃଷ୍ଟନମୁନାଅଟେ, ଯେଉଁଥିରେମରକତଜଡ଼ିତସୁନାଧାତବପଟି ବା ଫେରୁଲ୍ଲାଗିଛି। ଧାତବପଟିସହିତଏକଜଡ଼ିତସୁନାରିଂମଧ୍ୟସଂଯୁକ୍ତହୋଇଛି। ଏହିକାର୍ଡ (ଛୁରୀ)ଟିଭାରତରଏବଂଏହାଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୭ ଶଶତାବ୍ଦୀର ଅଟେ । ଶବ୍ଦ = 117</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >5. XLIX-312 কার্দ (নূরজাহানের ফল কাটার ছুরি)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. XLIX-312 কার্দ (নূরজাহানের ফল কাটার ছুরি)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এটি মুঘল সম্রাজ্ঞী নূরজাহানের ব্যবহৃত একটি ফল কাটার ছুরি। এর জেড পাথরের হাতলের ওপরের অংশে এমনভাবে চুনি পাথর বসানো হয়েছে যা দেখতে অনেকটা টিয়াপাখির মাথার মতো; বিশেষ করে টিয়াপাখির ঠোঁট ও জিভটি চুনি পাথর দিয়ে স্পষ্টভাবে ফুটিয়ে তোলা হয়েছে। হাতলটিতে সোনার তারের ওপর খোদাই করা পান্না বসিয়ে পাতার নকশা তৈরি করা হয়েছে। ছুরিটির ভোঁতা ধারের অংশে সোনার সূক্ষ্ম কারুকাজ রয়েছে। ব্রোকেড করা কাপড়ে মোড়ানো এর খাপটিও একটি চমৎকার শিল্পকর্ম; এর সোনার ব্যান্ড ও নিচের প্রান্তের অংশে পান্না বসানো হয়েছে। খাপের সোনার ব্যান্ডটির সাথে একটি অলঙ্কৃত সোনার আংটিও যুক্ত রয়েছে। ভারত থেকে প্রাপ্ত এই 'কার্দ' বা ছুরিটি সপ্তদশ শতাব্দীর নিদর্শন।<br><br>শব্দ = 117</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">5. 312-XILXکرد (نورجہاں کا پھل کاٹنے والا چاقو)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. 312-XILXکرد (نورجہاں کا پھل کاٹنے والا چاقو)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">مغلملکہنورجہاںکایہپھلکاٹنےوالاچاقوہے۔اسکےجیڈکےدستےکےاوپریحصےپریاقوتاسطرحلگائےگئےہیںکہوہطوطےکےسرکیشکلبناتےہیں۔طوطےکیچونچاورزبانکوبھییاقوتسےواضحطورپربنایاگیاہے۔چاقوکےجیڈدستےپرسونےکیتاروںمیںتراشےہوئےزمردلگائےگئےہیں،جنسےپتوںکیشکلنمایاںہوتیہے۔چاقو کی پشتپرسونےکانہایتنفیسکامکیاگیاہے۔چاقوکیبروکیڈکپڑےسےمڑیہوئیمیانبھیفنکاایکخوبصورتنمونہہے،جسپرسونےکیپٹیاوردھاتیحصہلگاہواہے،جنہیںزمردسےسجایاگیاہے۔اسپٹیپرسونےکاایکمرصعحلقہبھیلگاہواہے۔یہ خنجر نما چاقو ہندوستان میں تیار گیا ہےاورسترہ ویںصدیعیسویکاہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >5. XLIX- 312 કાર્દ (નૂરજહાંની ફળ કાપવાની છરી)</h2>
+      <div class="booImgDiv">
+        <img src="../images/FRUIT-KNIFE-OF-NOOR-JAHAN.png" width="100%" alt="5. XLIX- 312 કાર્દ (નૂરજહાંની ફળ કાપવાની છરી)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-312</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ મુઘલ સામ્રાજ્ઞી નૂરજહાંની ફળ કાપવાની છરી છે. તેના હાથાના ઉપરના ભાગમાં રૂબી (માણેક)ના પથ્થરો એવી રીતે જડવામાં આવ્યા છે કે તે પોપટના માથા જેવો દેખાય છે. પોપટની ચાંચ અને જીભ પણ માણેકના પથ્થરોથી સુંદર રીતે બનાવવામાં આવી છે. છરીનું જેડ પથ્થરનું હાથું સોનાની જડાવટવાળા કોતરેલા નીલમણિથી શણગારવામાં આવ્યું છે. આ જડાવટ દ્વારા પાંદડાં જેવી સુંદર ભાત બનાવવામાં આવી છે.છરીની ધારના ઉપરના સપાટ ભાગે સોનાનું બારીક નકશીકામ કરવામાં આવ્યું છે. છરીનું બ્રોકેડ કાપડથી મઢાયેલું મ્યાન પણ એક સુંદર કળાકૃતિ છે. તેના પર સોનાની પટ્ટી અને ધાતુનું આવરણ છે, જેમાં નીલમણિ જડવામાં આવ્યા છે.મ્યાનની સોનાની પટ્ટી સાથે જડાવટવાળી સોનાની એક વીંટી પણ જોડવામાં આવી છે.આ સુંદર કાર્દ (ફળ કાપવાની છરી) ભારતની છે અને ઈસવીસનની 17મી સદીની હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 117</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "../audio/hindi-%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A6%20(%E0%A4%A8%E0%A5%82%E0%A4%B0%E0%A4%9C%E0%A4%B9%E0%A4%BE%E0%A4%81%20%E0%A4%95%E0%A5%80%20%E0%A4%AB%E0%A4%B2%20%E0%A4%95%E0%A4%BE%E0%A4%9F%E0%A4%A8%E0%A5%87%20%E0%A4%95%E0%A5%80%20%E0%A4%9B%E0%A5%81%E0%A4%B0%E0%A5%80).wav",
+  "english": "../audio/hindi-%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A6%20(%E0%A4%A8%E0%A5%82%E0%A4%B0%E0%A4%9C%E0%A4%B9%E0%A4%BE%E0%A4%81%20%E0%A4%95%E0%A5%80%20%E0%A4%AB%E0%A4%B2%20%E0%A4%95%E0%A4%BE%E0%A4%9F%E0%A4%A8%E0%A5%87%20%E0%A4%95%E0%A5%80%20%E0%A4%9B%E0%A5%81%E0%A4%B0%E0%A5%80).wav",
+  "telugu": "../audio/Telugu_Kard%20(fruit%20knife%20of%20Noor%20Jahan_Female.wav",
+  "tamil": "../audio/tamil-%20Kard%20(fruit%20knife%20of%20Noor%20Jahan).wav",
+  "marathi": "../audio/mar-Kard%20(fruit%20knife%20of%20Noor%20Jahan).wav",
+  "malayalam": "",
+  "kannada": "../audio/kannada-Acc%20No%20XLIX-%20312%20Kard%20(fruit%20knife%20of%20Noor%20Jahan)-.wav",
+  "odia": "../audio/odia-Acc%20No%20XLIX-%20312%20Kard%20(fruit%20knife%20of%20Noor%20Jahan).wav",
+  "bengali": "../audio/bengali-fruit-knife-of-Noor-Jahan).wav",
+  "urdu": "../audio/urdu-Kard%20(fruit%20knife%20of%20Noor%20Jahan).wav",
+  "gujarati": "../audio/guj-Kard%20(fruit%20knife%20of%20Noor%20Jahan).wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

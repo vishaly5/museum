@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 6 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >6. जम्बिया</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. जम्बिया" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">जम्बिया (कटार) का हत्था पदक के आकार का है, जो एक केंद्रीय छल्ले से जुड़ा हुआ है। हत्था के ऊपरी भाग में दोनों ओर जेड के दो पट्ट और नीचे भी दो जेड के पट्ट लगे हैं। ये सभी एक केंद्रीय इस्पाती चक्र से जुड़े हुए हैं। हत्था के नीचे एक गोल चक्र है, जिसके जोड़ पर ब्लेड के पास पदक के आकार की सजावट की गई है। इन सजावटों पर चाँदी की जड़ाई से पुष्प आकृतियाँ बनाई गई हैं। जेड के टुकड़ों पर हरे और लाल रंग के पत्थरों की सुंदर जड़ाई की गई है तथा सोने की जड़ाई से पुष्प शाखाओं का रूप उकेरा गया है। कटार की म्यान पर रंगीन नक्काशीदार चाँदी की पट्टी लगी है, जिसमें छोटे-छोटे लाल रंग के पत्थर जड़े हुए हैं। यह कटार भारत की है और इसे ईस्वी सन् 17वीं शताब्दी का माना जाता है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >6. Jambia</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. Jambia" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A jambia dagger with a medallion-shaped hilt mounted with jade plaques around a steel disc. Inlaid with green and red stones in floral branch motifs in gold. The sheath features a chiseled silver chape set with small red stones. From India, 17th century CE.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >6. XLIX-324జాంబియా</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. XLIX-324జాంబియా" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">జంబియా (బాకు) హ్యాండిల్, మధ్యలో ఒక ఉంగరంతో కలిపిన పతకం ఆకారంలో ఉంటుంది. పైభాగంలో ఇరువైపులా రెండు, కింద రెండు జేడ్ ఫలకాలు మధ్యలో ఉన్న ఉక్కు డిస్క్‌కు అతుక్కుని ఉంటాయి. హ్యాండిల్ కింద, కత్తి అంచు కలిసే చోట పతకంతో కూడిన ఒక గుండ్రని డిస్క్ ఉంటుంది. వీటిపై పూల డిజైన్లను సూచిస్తూ వెండితో పొదిగి ఉంటాయి. పూల కొమ్మలను సూచించడానికి, ఈ జేడ్ ముక్కలపై ఆకుపచ్చ మరియు ఎరుపు రంగు రాళ్లను బంగారు పొదుగుతో అందంగా పొదిగారు. ఒరకు చిన్న ఎర్రని రాళ్లతో కూడిన, రంగులద్దిన వెండి పట్టీ అమర్చబడి ఉంటుంది. ఈ బాకు భారతదేశానికి చెందినది మరియు ఇది క్రీ.శ. 17వ శతాబ్దానికి చెందినదిగా గుర్తించబడింది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >6. ஜம்பியா (குத்துக்கத்தி)</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. ஜம்பியா (குத்துக்கத்தி)" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">பதக்க வடிவக் கைப்பிடி கொண்ட ஜம்பியா வகை குத்துக்கத்தி. ஜேட் துண்டுகளில் பச்சை மற்றும் சிவப்பு கற்கள் பதிக்கப்பட்டு மலர்க் கொடி வடிவங்கள் உருவாக்கப்பட்டுள்ளன. 17 ஆம் நூற்றாண்டு, இந்தியா.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >6. आरोपी क्र.: एक्सएलएक्स-324 जांबिया</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. आरोपी क्र.: एक्सएलएक्स-324 जांबिया" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">मध्यवर्तीकड्यानेजोडलेलीपदकाच्याआकाराचीजांबियाची (खंजिराची) मूठ, जिच्यावरच्याआणिखालच्यादोन्हीबाजूंनाजेडच्यादोन-दोनपाट्यामध्यवर्तीपोलादीचकतीलाजोडलेल्याआहेत, तसेचमुठीच्याखालीएकगोलचकतीअसूनपात्याच्यासांध्याशीपदक आहे , ज्यावरफुलांचीनक्षीदर्शवणारेचांदीचेजडावकाम आहे . फुलांच्याफांद्यादर्शवण्यासाठीजेडच्यातुकड्यांवरसोन्याच्याजडावकामासहहिरवेआणिलालखडेसुंदररीत्याबसवलेलेआहेत. म्यानालारंगीतकामकेलेलीचांदीचीकडीबसवलीअसून, त्यावरलालरंगाचेलहानखडेआहेत. हाखंजीरभारतातीलअसूनतोइ. स. १७ व्याशतकातील आहे . शब्द = 96</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >6. ജാംബിയ</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. ജാംബിയ" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">മധ്യഭാഗത്തെഒരുവളയവുമായിബന്ധിപ്പിച്ചപതക്കത്തിന്റെ ആകൃതിയിലുള്ളപിടിയോട്കൂടിയജംബിയ (കഠാര). മുകൾഭാഗത്ത്ഇരുവശങ്ങളിലുമായിരണ്ട്ജേഡ് ഫലകങ്ങളും, താഴെരണ്ട്ഫലകങ്ങളുംമധ്യത്തിലെസ്റ്റീൽഡിസ്കിലേക്ക്ചേർന്നുനിൽക്കുന്നു; വാളിന്റെബ്ലേഡും പിടിയും ചേരുന്ന പതക്കമുള്ളവൃത്താകൃതിയിലുള്ളഡിസ്കിൽപൂക്കളുടെഡിസൈനുകൾചിത്രീകരിക്കുന്നസ്വർണ്ണപ്പണികൾചെയ്തിട്ടുണ്ട്. ഈജേഡ് കഷണങ്ങളിൽപൂച്ചില്ലകളെചിത്രീകരിക്കുന്നതിനായിസ്വർണ്ണപ്പണികളോടെപച്ചയുംചുവപ്പുംകല്ലുകൾഅതിമനോഹരമായിപതിപ്പിച്ചിരിക്കുന്നു. ചെറിയചുവന്നകല്ലുകൾപതിപ്പിച്ചവെള്ളിയുടെ അഗ്രമാണ് ഉറയിൽപിടിപ്പിച്ചിരിക്കുന്നത്. എ. ഡി. 17 -ാംനൂറ്റാണ്ടിൽഇന്ത്യയിൽനിർമ്മിക്കപ്പെട്ടതാണ്ഈകഠാര. വാക്കുകൾ = 96</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >6. XLIX-324 ಜಾಂಬಿಯಾ</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. XLIX-324 ಜಾಂಬಿಯಾ" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಮಧ್ಯದ ಉಂಗುರದಿಂದ ಜೋಡಿಸಲಾದ ಮೆಡಾಲಿಯನ್ ಆಕಾರದ ಹಿಡಿಕೆಯನ್ನು ಹೊಂದಿರುವ ಜಾಂಬಿಯಾ (ಕಿರುಕತ್ತಿ/ಚಾಕು)ಇದಾಗಿದೆ, ಮೇಲ್ಭಾಗದಲ್ಲಿ ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಎರಡು ಮತ್ತು ಕೆಳಭಾಗದಲ್ಲಿ ಎರಡು ಜೇಡ್ ಫಲಕಗಳು ಮಧ್ಯದ ಉಕ್ಕಿನ ಡಿಸ್ಕ್‌ಗೆ ಅಂಟಿಕೊಂಡಿದ್ದು, ಅಲಗಿನ ಜೋಡಣೆಯಲ್ಲಿ ಮೆಡಾಲಿಯನ್ ಹೊಂದಿರುವ ಹಿಡಿಕೆಯ ಕೆಳಗೆ ಒಂದು ದುಂಡಗಿನ ಡಿಸ್ಕ್ ಅನ್ನು ಹೊಂದಿದೆ; ಇವುಗಳ ಮೇಲೆ ಹೂವಿನ ವಿನ್ಯಾಸಗಳನ್ನು ಬಿಂಬಿಸುವ ಬೆಳ್ಳಿಯ ನಯವಾದ ಕುಸುರಿಕೆಲಸವನ್ನು ಮಾಡಲಾಗಿದೆ. ಹೂವಿನ ಕೊಂಬೆಗಳನ್ನು ಬಿಂಬಿಸಲು ಜೇಡ್ ತುಣುಕುಗಳ ಮೇಲೆ ಚಿನ್ನದ ಕುಸುರಿಕೆಲಸದೊಂದಿಗೆ ಹಸಿರು ಮತ್ತು ಕೆಂಪು ಹರಳುಗಳನ್ನು ಸುಂದರವಾಗಿ ಪೋಣಿಸಲಾಗಿದೆ. ಓರೆಯು (ಹಿಡಿಕೆ ಕೋಶ) ಸಣ್ಣ ಕೆಂಪು ಬಣ್ಣದ ಹರಳುಗಳನ್ನು ಹೊಂದಿರುವ ವರ್ಣರಂಜಿತ ಬೆಳ್ಳಿಯ ಫೆರುಲ್‌ನಿಂದ ಜೋಡಿಸಲ್ಪಟ್ಟಿದೆ. ಈ ಕಿರುಕತ್ತಿಯು ಭಾರತಕ್ಕೆ ಸೇರಿದ್ದಾಗಿದ್ದು, ಕ್ರಿ.ಶ. 17 ನೇ ಶತಮಾನದಾಗಿದೆ.<br><br>ಪದಗಳು = 96</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >6. XLIX-324 ଜାମ୍ୱିଆ</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. XLIX-324 ଜାମ୍ୱିଆ" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ଏକପଦକଆକାରରହ୍ୟାଣ୍ଡେଲ୍ବା ମୁଠାବିଶିଷ୍ଟଜାମ୍ବିଆ (ଛୁରୀ), ଯାହାଏକକେନ୍ଦ୍ରୀୟରିଙ୍ଗ୍ସହିତସଂଯୁକ୍ତହୋଇଛି। ଏହାରଉପରଭାଗରଉଭୟପାର୍ଶ୍ୱରେଦୁଇଟିଜେଡ୍ପ୍ଲାକ୍ଏବଂତଳଭାଗରେଆଉଦୁଇଟିପ୍ଲାକ୍ରହିଛି, ଯାହାମଝିରେଥିବାଇସ୍ପାତଡିସ୍କ୍ସହିତଲାଗିରହିଛି। ହ୍ୟାଣ୍ଡେଲ୍‌ରତଳେଏକଗୋଲାକାରଡିସ୍କ୍ରହିଛିଏବଂବ୍ଲେଡ୍‌ରସଂଯୋଗସ୍ଥଳରେଏକମେଡାଲିୟନ୍ ବା ପଦକରହିଛି, ଯେଉଁଥିରେଫୁଲଡିଜାଇନ୍‌କୁପ୍ରତିଫଳିତକଲାଭଳିରୂପାରକାମହୋଇଛି। ଜେଡ୍ପଥରଗୁଡ଼ିକରେଫୁଲଡାଳଗୁଡ଼ିକୁଦର୍ଶାଇବାପାଇଁସୁନାରକାମସହିତସବୁଜଏବଂନାଲିପଥରଅତିସୁନ୍ଦରଭାବରେଜଡ଼ିତକରାଯାଇଛି। ଏହାରମହାରବଉପରେଛୋଟନାଲିରଙ୍ଗରପଥରଜଡ଼ିତଏକରଙ୍ଗୀନରୂପାରଧାତବପଟିବା ଫେରୁଲ୍ଲାଗିଛି। ଏହିଛୁରୀଟିଭାରତରଏବଂଏହାଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୭ ଶଶତାବ୍ଦୀରବୋଲିଅନୁମାନକରାଯାଏ । ଶବ୍ଦ = 96</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >6. XLIX-324 জাম্বিয়া</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. XLIX-324 জাম্বিয়া" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">জাম্বিয়া হল এক ধরণের খঞ্জর। যার হাতলটি একটি কেন্দ্রীয় বলয়ের সাথে যুক্ত মেডেলিয়নের আকৃতিবিশিষ্ট। হাতলের উপরের ও নিচের অংশে কেন্দ্রীয় ইস্পাতের চাকতির দুপাশে দুটি করে জেড পাথরের ফলক যুক্ত রয়েছে; হাতলের ঠিক নিচে এবং ফলকের সাথে হাতলের সংযোগস্থলে মেডেলিয়ন-সদৃশ গোলাকার চাকতি রয়েছে, যা রূপার কাজ ও পুষ্পশোভিত নকশা দ্বারা অলঙ্কৃত। জেড পাথরের টুকরোগুলিতে সবুজ ও লাল পাথর এবং সোনার কাজ অত্যন্ত সুন্দরভাবে বসিয়ে ফুলের ডালের নকশা ফুটিয়ে তোলা হয়েছে। এর খাপটিতে রঞ্জিত রূপার কাজ করা একটি প্রান্ত-বন্ধনী রয়েছে, যাতে ক্ষুদ্র লাল পাথর বসানো আছে। খঞ্জরটি ভারতের এবং এটি খ্রিস্টীয় সপ্তদশ শতাব্দীর নিদর্শন।<br><br>শব্দ = 96</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">6. 324-XILXخم دار خنجر</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. 324-XILXخم دار خنجر" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہخنجرکادستہتمغےکیشکلکاہے،جودرمیانمیںایکحلقےسےجڑاہواہے۔اوپرکیجانبدونوںطرفجیڈکیدوتختیاںاورنیچےکیجانبدوتختیاںمرکزیفولادیقرصسےمنسلکہیں۔دستےکےنیچےگولقرصبناہواہے،جبکہدھارکےجوڑپرتمغےکیشکلکیآرائشموجودہے،جسپرچاندیکیجڑائیکےذریعےپھولدارنقشبنائےگئےہیں۔جیڈکےٹکڑوںپرسونےکیجڑائیکےساتھسبزاورسرخپتھروںکیخوبصورتمرصعکاریکیگئیہے،جسسےپھولوںوالیشاخوںکینمائندگیہوتیہے۔خنجر کی میان پر چاندی کی نقش دار دھاتی پٹی لگی ہوئی ہے،جسےچھوٹےسرخرنگکےپتھروںسےسجایاگیاہے۔یہخنجرہندوستانسےتعلقرکھتاہےاورسترہ ویںصدیعیسویکاہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >6. XLIX-324  XLIX-324  જંબિયા (ખંજર)</h2>
+      <div class="booImgDiv">
+        <img src="./images/jambia.png" width="100%" alt="6. XLIX-324  XLIX-324  જંબિયા (ખંજર)" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-324</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક સુંદર જંબિયા એટલે કે ખંજર છે. તેના હાથાનો આકાર ચંદ્રક અથવા મેડેલિયન જેવો છે અને મધ્યમાં એક ગોળ વલયથી જોડાયેલો છે. હાથાના ઉપર બંને બાજુ જેડના બે પાટિયા અને નીચે પણ બે જેડના પાટિયા છે, જે મધ્યના સ્ટીલના ગોળ ચક્ર સાથે જોડાયેલા છે. હાથાના નીચેના ભાગમાં એક ગોળ ચક્ર છે અને જ્યાં હાથો તથા ખંજરની ધાર જોડાય છે ત્યાં મેડેલિયન આકારની જડાવટ કરવામાં આવી છે. આ ભાગોમાં ચાંદીની જડાવટ દ્વારા ફૂલોની સુંદર ભાત બનાવવામાં આવી છે. જેડના ટુકડાઓને લીલા અને લાલ પથ્થરોથી સુંદર રીતે શણગારવામાં આવ્યા છે. તેમાં સોનાની જડાવટ કરીને ફૂલોની ડાળીઓ જેવી સુંદર રચના કરવામાં આવી છે. ખંજરના મ્યાનના નીચેના ભાગે ચાંદીનું સુંદર ફેરુલ (ધાતુનું આવરણ) લગાવવામાં આવ્યું છે, જેમાં નાનાં લાલ રંગના પથ્થરો જડવામાં આવ્યા છે. આ સુંદર જંબિયા ભારતનો છે અને ઈસવીસનની 17મી સદીનો હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 96</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "./audio/hindi-%20%E0%A4%9C%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%BF%E0%A4%AF%E0%A4%BE.wav",
+  "english": "./audio/hindi-%20%E0%A4%9C%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%BF%E0%A4%AF%E0%A4%BE.wav",
+  "telugu": "./audio/Telugu_Jambia_Female.wav",
+  "tamil": "./audio/tamil-Jambia.wav",
+  "marathi": "./audio/mar-Jambia.wav",
+  "malayalam": "",
+  "kannada": "./audio/kannada-Acc%20No%20XLIX-324%20Jambia-.wav",
+  "odia": "./audio/odia-Acc%20No%20XLIX-324%20Jambia.wav",
+  "bengali": "./audio/bengali-Jambia.wav",
+  "urdu": "./audio/urdu-Jambia.wav",
+  "gujarati": "./audio/guj-%20Jambia.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

@@ -839,12 +839,60 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const requestedItem = urlParams.get("item") || urlParams.get("id");
+  const singleItemView = document.getElementById("singleItemView");
+  const galleryGrid = document.querySelector(".gallery-grid");
+
   function selectLanguage(language) {
+    updateCardContents(language);
+
+    const num = parseInt(requestedItem, 10);
+    if (!isNaN(num) && num >= 1) {
+      const itemIndex = num - 1;
+      const cards = document.querySelectorAll(".utility-card");
+      const card = cards[itemIndex] || cards[0];
+      if (card && singleItemView) {
+        document.querySelectorAll(".langCnt").forEach((content) => {
+          content.style.display = "none";
+        });
+        if (galleryGrid) galleryGrid.style.display = "none";
+        singleItemView.style.display = "block";
+
+        const title = card.querySelector("h2") ? card.querySelector("h2").innerText : "";
+        const img = card.querySelector("img") ? card.querySelector("img").src : "";
+        const badge = card.querySelector(".badge-acq") ? card.querySelector(".badge-acq").innerText : "";
+        const desc = card.querySelector("p") ? card.querySelector("p").innerHTML : "";
+        const audioEl = card.querySelector("audio");
+        const audioSrc = audioEl && audioEl.src ? audioEl.src : "";
+
+        singleItemView.innerHTML = `
+          <div class="single-item-container bookContentDiv">
+            <div class="single-item-nav">
+              <a href="index.html" class="back-to-gallery-btn">← पूरी दीर्घा देखें / View Gallery</a>
+              <span class="single-item-badge">${badge}</span>
+            </div>
+            <h2 class="cntHdng">${title}</h2>
+            <div class="booImgDiv">
+              <img src="${img}" alt="${title}">
+            </div>
+            <div class="bookCntDiv">
+              <div class="audioPlayerDiv">
+                ${audioSrc ? `<audio controls class="w-100" src="${audioSrc}"></audio>` : '<div class="audio-missing-note">Audio unavailable in selected language.</div>'}
+              </div>
+              <div class="single-item-desc">${desc}</div>
+            </div>
+          </div>
+        `;
+        return;
+      }
+    }
+
     document.querySelectorAll(".langCnt").forEach((content) => {
       content.style.display = content.id === language ? "block" : "none";
     });
-
-    updateCardContents(language);
+    if (galleryGrid) galleryGrid.style.display = "grid";
+    if (singleItemView) singleItemView.style.display = "none";
   }
 
   const anuIcn = document.querySelector(".anuIcn");

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 4 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="../images/logo-moc.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="../images/logo-anu.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >4. तोते की आकृति</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. तोते की आकृति" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">सोने से बनी तोते की आकृति, जो लाल, हरे, सफेद, गुलाबी और धूसर रंग के मीनाकारी से सजाई गई तीन शाखाओं वाली पेड़ की डाली पर बैठी है। इसकी आँखों में दो लाल रंग के रत्न जड़े हैं और पंखों के चारों ओर रंगहीन रत्न लगाए गए हैं।<br><br>संग्रहालय में निजी संग्रह से प्राप्त मीनाकारी कला की कुछ उत्कृष्ट कृतियाँ हैं। अठारहवीं शताब्दी में ऐसी वस्तुएँ प्रतिष्ठा और आकर्षण का प्रतीक मानी जाती थीं। यह तोता सोने से बनाया गया है और इसे बहुमूल्य तथा अर्ध-बहुमूल्य रत्नों और रंगीन मीनाकारी से सजाया गया है। तोते की आकृति में हरे, लाल और रंगहीन रत्न जड़े हुए हैं। इसके चारों ओर सोने की नक्काशीदार और छेनी से उकेरी गई सजावटी संरचना है। यह तोता पेड़ की शाखा पर बैठा है और अपनी चोंच में फूल की कली पकड़े हुए है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >4. Figure of a Parrot</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. Figure of a Parrot" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A gold figure of a parrot perched on a three-branched tree stem, decorated with red, green, white, pink, and grey enamel. Set with two red stone eyes and uncoloured stones outlining the wings. A rare example of 18th-century enameling art holding a flower bud in its beak.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >4. XLIX-188ఒకచిలుకచిత్రం</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. XLIX-188ఒకచిలుకచిత్రం" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">మూడు కొమ్మలు గల కొమ్మపై వాలిన ఒక బంగారు చిలుక బొమ్మ, ఎరుపు, ఆకుపచ్చ, తెలుపు, గులాబీ మరియు బూడిద రంగులలో ఎనామెల్‌తో పూత పూయబడి, కళ్ళ కోసం రెండు ఎర్ర రాళ్ళతో మరియు రెక్కల చుట్టూ రంగులేని రాళ్ళతో పొదగబడింది.<br><br>ఈ మ్యూజియంలో ఒక ప్రైవేట్ సేకరణ నుండి వచ్చిన కొన్ని అద్భుతమైన ఎనామెల్ కళాఖండాలు ఉన్నాయి, ఇవి 18వ శతాబ్దంలో గర్వకారణంగా మరియు అసూయకు చిహ్నంగా ఉండేవి. ఈ చిలుకను బంగారంతో తయారు చేసి, విలువైన మరియు పాక్షిక-విలువైన రాళ్ళు మరియు రంగుల ఎనామెల్‌తో అలంకరించారు. ఆకుపచ్చ, ఎరుపు మరియు రంగులేని రాళ్ళతో పొదగబడి, చెక్కిన మరియు ఉలితో చెక్కిన చట్రంతో ఉన్న ఈ చిలుక, తన ముక్కుతో ఒక పువ్వు మొగ్గను పట్టుకొని చెట్టుపై వాలి కూర్చుంది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >4. கிளி உருவம்</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. கிளி உருவம்" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">மூன்று கிளைகள் கொண்ட மரத்தின் மீது அமர்ந்திருக்கும் தங்கக் கிளி உருவம். சிவப்புக் கற்களால் ஆன கண்கள் மற்றும் வண்ணமயமான எனாமல் வேலைப்பாடுகளால் அலங்கரிக்கப்பட்ட பதினெட்டாம் நூற்றாண்டு கலைப்பொருள்.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >4. कार्यवाही क्र.: XLIX-188 पोपटाचीआकृती</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. कार्यवाही क्र.: XLIX-188 पोपटाचीआकृती" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">लाल, हिरव्या, पांढऱ्या, गुलाबीआणिकरड्यारंगातमीनाकामकेलेल्यातीनफाटेअसलेल्याफांदीवरविसावलेलीपोपटाचीसोन्याचीआकृती, जिच्याडोळ्यांसाठीदोनलालखडेआणिपंखांभोवतीरंगहीनखडेबसवलेलेआहेत. संग्रहालयातखाजगीसंग्रहातीलमीनाकामाच्याकाहीउत्कृष्टकलाकृतीआहेत; १८ व्याशतकातयावस्तूअभिमानआणिमत्सराचाविषयहोत्या. हापोपटसोन्यातबनवलावघडवलाअसून, मौल्यवानआणिअर्ध-मौल्यवानखडेतसेचरंगीतमीनाकामानेसुशोभितकेलेलाआहे. हिरवे, लालआणिरंगहीनखडेजडवलेला, तसेचकोरीवआणितासकामकेलेल्यासोन्याच्यारचनेसहअसलेलाहापोपटचोचीतफुलाचीकळीधरूनएकाझाडावरविसावलेलाआहे.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >4. തത്തയുടെരൂപം</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. തത്തയുടെരൂപം" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ചുവപ്പ്, പച്ച, വെള്ള, പിങ്ക്, ചാരഎന്നീവർണ്ണങ്ങളിൽ മിനുക്കിയെടുത്ത മൂന്നുശാഖകളുള്ളചില്ലയിലിരിക്കുന്നഒരുസ്വർണ്ണത്തത്തയുടെരൂപം. ഇതിന്റെകണ്ണുകളായിരണ്ട്ചുവന്നരത്നങ്ങളുംചിറകുകൾക്ക്ചുറ്റുംനിറമില്ലാത്തരത്നക്കല്ലുകളുംപതിപ്പിച്ചിരിക്കുന്നു. വ്യക്തിഗത ശേഖരത്തിൽ പെട്ട മികച്ച എനാമൽ കരകൗശല വസ്തുക്കൾ ഈ മ്യൂസിയത്തിലുണ്ട്. 18 -ാംനൂറ്റാണ്ടിൽഏവരുടെയുംപ്രശംസപിടിച്ചുപറ്റിയവയായിരുന്നുഇവ. വിലപിടിപ്പുള്ളതുംഅർദ്ധവിലപിടിപ്പുള്ളതുമായകല്ലുകളുംവർണ്ണഎനാമലുകളുംഅണിയിച്ചൊരുക്കിയാണ്സ്വർണ്ണത്തിലുള്ളഈതത്തയെഉണ്ടാക്കിയിരിക്കുന്നത്. ചുവപ്പുംപച്ചയുംനിറമില്ലാത്ത കല്ലുകളുംപതിപ്പിച്ച്അതിമനോഹരമായികൊത്തിവെച്ചസ്വർണ്ണവളയത്തിനുള്ളിൽനിൽക്കുന്നഈതത്ത, ചുണ്ടിൽഒരുപൂമൊട്ടുംഏന്തിമരച്ചില്ലയിൽവിശ്രമിക്കുന്നതായിചിത്രീകരിച്ചിരിക്കുന്നു. വാക്കുകൾ = 106</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >4. XLIX-188 ಗಿಳಿಯ ಚಿತ್ರ</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. XLIX-188 ಗಿಳಿಯ ಚಿತ್ರ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಮೂರು ಕವಲುಗಳ ರೆಂಬೆಯ ಮೇಲೆ ಕುಳಿತಿರುವ ಗಿಳಿಯ ಚಿನ್ನದ ಮೂರ್ತಿ ಇದಾಗಿದೆ. ಇದನ್ನು ಕೆಂಪು, ಹಸಿರು, ಬಿಳಿ, ಗುಲಾಬಿ ಮತ್ತು ಬೂದು ಬಣ್ಣಗಳ ಎನಾಮೆಲ್ (ಮೀನಾಕಾರಿ) ಕೆಲಸದಿಂದ ಅಲಂಕರಿಸಲಾಗಿದ್ದು, ಕಣ್ಣುಗಳಿಗೆ ಎರಡು ಕೆಂಪು ಕಲ್ಲುಗಳನ್ನು ಮತ್ತು ರೆಕ್ಕೆಗಳ ಸುತ್ತಲೂ ಬಣ್ಣರಹಿತ ಕಲ್ಲುಗಳನ್ನು ಕೂಡಿಸಲಾಗಿದೆ.<br><br>ವಸ್ತುಸಂಗ್ರಹಾಲಯವು ಖಾಸಗಿ ಸಂಗ್ರಹದಿಂದ ಪಡೆದ ಕೆಲವು ಶ್ರೇಷ್ಠ ಎನಾಮೆಲ್ ಕಲಾಕೃತಿಗಳನ್ನು ಹೊಂದಿದೆ; ಇವು 18 ನೇ ಶತಮಾನದಲ್ಲಿ ಹೆಮ್ಮೆ ಮತ್ತು ಅಸೂಯೆಗೆ ಕಾರಣವಾಗಿದ್ದ ವಸ್ತುಗಳಾಗಿದ್ದವು. ಈ ಗಿಳಿಯನ್ನು ಚಿನ್ನದಲ್ಲಿ ತಯಾರಿಸಿ, ಅತ್ಯಮೂಲ್ಯ ಹಾಗೂ ಅರೆ-ಬೆಲೆಬಾಳುವ ರತ್ನದ ಕಲ್ಲುಗಳು ಮತ್ತು ಬಣ್ಣದ ಎನಾಮೆಲ್‌ನಿಂದ ಅಲಂಕರಿಸಲಾಗಿದೆ. ಕೆತ್ತನೆ ಮತ್ತು ಕೆತ್ತಲ್ಪಟ್ಟ ಚಿನ್ನದ ಚೌಕಟ್ಟಿನೊಂದಿಗೆ ಹಸಿರು, ಕೆಂಪು ಮತ್ತು ಬಣ್ಣರಹಿತ ಕಲ್ಲುಗಳನ್ನು ಹೊಂದಿರುವ ಈ ಗಿಳಿಯು, ತನ್ನ ಕೊಕ್ಕಿನಿಂದ ಹೂವಿನ ಮೊಗ್ಗೊಂದನ್ನು ಹಿಡಿದು ಮರದ ಕೊಂಬೆಯ ಮೇಲೆ ಕುಳಿತಿದೆ.<br><br>ಪದಗಳು = 106</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >4. ଏକଶୁଆରପ୍ରତିମା</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. ଏକଶୁଆରପ୍ରତିମା" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ନାଲି, ସବୁଜ, ଧଳା, ଗୋଲାପୀଏବଂପାଉଁଶିଆରଙ୍ଗରମିନାର୍କାମକରାଯାଇଥିବାତିନିଶାଖାବିଶିଷ୍ଟଡାଳରେବସିଥିବା ଏକସୁନାରଶୁଆପ୍ରତିମା। ଏହାରଆଖିପାଇଁଦୁଇଟିନାଲିପଥରଏବଂଡେଣାଚାରିପଟେରଙ୍ଗହୀନପଥରଖଚିତହୋଇଛି। ଏହିସଂଗ୍ରହାଳୟରେବ୍ୟକ୍ତିଗତସଂଗ୍ରହରୁଆସିଥିବାମିନାରକାମରକିଛିଉତ୍କୃଷ୍ଟକଳାକୃତିରହିଛି, ଯାହାକି ୧୮ ଶଶତାବ୍ଦୀରେଗର୍ବଏବଂଈର୍ଷାରବିଷୟଥିଲା। ଏହିଶୁଆଟିକୁସୁନାରେତିଆରିକରାଯାଇଏହାକୁମୂଲ୍ୟବାନତଥାମଧ୍ୟମମୂଲ୍ୟରପଥରଓରଙ୍ଗୀନ୍ମିନାର୍ସାହାଯ୍ୟରେସଜ୍ଜିତକରାଯାଇଛି। ସବୁଜ, ନାଲିଏବଂରଙ୍ଗହୀନପଥରଖଚିତଏବଂଖୋଦିତତଥାଛୋଟଛୋଟକାମକରାଯାଇଥିବାସୁନାଫ୍ରେମ୍କାମଯୁକ୍ତଏହିଶୁଆଟିନିଜଥଣ୍ଟରେଏକଫୁଲକୋରଧରିଗଛଡାଳରେବସିରହିଛି। ଶବ୍ଦ = 106</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >4. XLIX-188   টিয়া পাখির প্রতিকৃতি</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. XLIX-188   টিয়া পাখির প্রতিকৃতি" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এটি সোনার তৈরি একটি টিয়া পাখির প্রতিকৃতি, যা তিনটি শাখা-বিশিষ্ট একটি ডালের ওপর বসে আছে। পাখিটির গায়ে লাল, সবুজ, সাদা, গোলাপি ও ধূসর রঙের এনামেলের কাজ রয়েছে; এর চোখ হিসেবে দুটি লাল পাথর এবং ডানার চারপাশে বর্ণহীন পাথর বসানো হয়েছে।<br><br>জাদুঘরটিতে ব্যক্তিগত সংগ্রহ থেকে প্রাপ্ত এনামেল শিল্পের কয়েকটি অনন্য নিদর্শন রয়েছে; অষ্টাদশ শতাব্দীতে এগুলি ছিল অত্যন্ত গর্ব ও ঈর্ষার বস্তু। সোনা দিয়ে তৈরি এই টিয়া পাখিটি মূল্যবান ও অর্ধ-মূল্যবান পাথর এবং রঙিন এনামেলের কারুকাজে সুশোভিত। খোদাই ও নকশা করা সোনার কাঠামোর ওপর বসানো সবুজ, লাল ও বর্ণহীন পাথরখচিত এই পাখিটি একটি গাছের ডালে বসে আছে এবং তার ঠোঁটে একটি ফুলের কুঁড়ি ধরে রেখেছে।<br><br>শব্দ = 106</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">4. 188-XILXطوطے کا مجسمہ</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. 188-XILXطوطے کا مجسمہ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ سونے سے بنی ہوئی طوطے کی شکل کی ایک خوبصورت فن کاری ہے، جو تین شاخوں والی ٹہنی پر بیٹھی ہوئی ہے۔ اس پر سرخ، سبز، سفید، گلابی اور سرمئی رنگوں کی مینا کاری کی گئی ہے۔ طوطے کی آنکھوں کے لیے دو سرخ پتھر لگائے گئے ہیں اور پروں کے گرد بے رنگ پتھر جڑے ہوئے ہیں۔<br><br>میوزیم کے ذاتی مجموعے میں مینا کاری کے کام کے چند بہترین نمونے موجود ہیں، جو اٹھارویں صدی میں باعثِ فخر اور رشک کا سامان سمجھے جاتے تھے۔یہ طوطا سونے سے تیار کیا گیا ہے، جسے قیمتی اور نیم قیمتی پتھروں اور رنگین مینا کاری سے سجایا گیا ہے۔ طوطے میں سبز، سرخ اور بے رنگ پتھر جڑے ہوئے ہیں۔ کندہ کاری اور تراشے گئے سونے کے خوبصورت ڈھانچے کے ساتھ یہ طوطا درخت کی شاخ پر بیٹھا ہوا ہے اور اپنی چونچ میں پھول کی کلی پکڑے ہوئے ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >4. XLIX-188 પોપટની આકૃતિ</h2>
+      <div class="booImgDiv">
+        <img src="../images/figure-of-parrot.png" width="100%" alt="4. XLIX-188 પોપટની આકૃતિ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-188</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ સોનામાંથી બનાવેલી પોપટની સુંદર આકૃતિ છે. પોપટ ત્રણ શાખાવાળી ડાળી પર બેઠેલો છે. ડાળીને લાલ, લીલા, સફેદ, ગુલાબી અને રાખોડી રંગના મીનાકામથી શણગારવામાં આવી છે.પોપટની આંખો માટે બે લાલ પથ્થરો જડવામાં આવ્યા છે અને તેની પાંખોની આસપાસ રંગહીન પથ્થરોની સુંદર જડતર કરવામાં આવ્યું છે.આ સંગ્રહાલયમાં ખાનગી સંગ્રહમાંથી મળેલી મીનાકામની કેટલીક ઉત્તમ કળાકૃતિઓ પણ છે. 18મી સદીમાં આવી વસ્તુઓને ખૂબ જ ગૌરવ અને પ્રતિષ્ઠાની વસ્તુઓ માનવામાં આવતી હતી.આ પોપટ સોનામાં બનાવવામાં આવ્યો છે અને તેને કિંમતી તથા અર્ધકિંમતી પથ્થરો અને રંગીન મીનાકામથી શણગારવામાં આવ્યો છે.પોપટમાં લીલા, લાલ અને રંગહીન પથ્થરોની જડાવટ કરવામાં આવી છે. તેની આસપાસ કોતરણી અને છીણીકામવાળી સોનાની સુંદર ફ્રેમ છે. પોપટ ઝાડની ડાળી પર બેઠેલો છે અને તેની ચાંચમાં ફૂલની કળી પકડી રાખેલી છે.<br><br>શબ્દો = 106</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "../audio/hindi-%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%87%20%E0%A4%95%E0%A5%80%20%E0%A4%86%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF.wav",
+  "english": "../audio/hindi-%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%87%20%E0%A4%95%E0%A5%80%20%E0%A4%86%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF.wav",
+  "telugu": "../audio/Telugu_Figure%20of%20a%20Parrot_Female.wav",
+  "tamil": "../audio/tamil-Figure%20of%20a%20Parrot.wav",
+  "marathi": "../audio/mar-Figure%20of%20a%20Parrot.wav",
+  "malayalam": "",
+  "kannada": "../audio/kannada-Acc%20No%20XLIX-188%20Figure%20of%20a%20Parrot%20-.wav",
+  "odia": "../audio/odia-Acc%20No%20XLIX-188%20Figure%20of%20a%20Parrot.wav",
+  "bengali": "../audio/bengali-Figure-of-a-Parrot_.wav",
+  "urdu": "../audio/urdu-Figure%20of%20a%20Parrot.wav",
+  "gujarati": "../audio/guj-%20Figure%20of%20a%20Parrot.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 3 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >3. घड़ी</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. घड़ी" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">यह स्वर्ण घड़ी वर्ष 1895 में बनाई गई थी। इसमें कुल 37 हीरे जड़े हुए हैं, जिनमें से तीन बहुत छोटे हैं। घड़ी को सोने, हीरे और जेड से बनाया गया है। यह घड़ी 19वीं शताब्दी की है। वर्ष 1952 में ट्यूनिस की खाड़ी की ओर से यह घड़ी भारत के प्रधानमंत्री जवाहरलाल नेहरू को भेंट की गई थी। घड़ी पर अरबी भाषा में एक अभिलेख अंकित है, जिसका अनुवाद है— “महामहिम मोहम्मद अली-अमीन प्रथम, सरदार एच. एस. मलिक।” यह घड़ी ब्रिटेन में हमारे राजदूत द्वारा भारत लाई गई थी। वर्ष 1963 में श्रीमती इंदिरा गांधी ने यह घड़ी उपहार के रूप में प्रदान की थी।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >3. Clock</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. Clock" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A gold clock crafted in 1895 set with 37 diamonds, made of gold, diamond, and jade. Presented to Prime Minister Jawaharlal Nehru in 1952 on behalf of the Bey of Tunis. Inscribed in Arabic with a dedication to 'His Highness Mohammad Ali-Amin I'. Transferred as a gift by Smt. Indira Gandhi in 1963.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >3. ACQ-63-89 గడియారం</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. ACQ-63-89 గడియారం" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">1895 నాటి బంగారు గడియారంలో 37 వజ్రాలు పొదిగి ఉన్నాయి, వాటిలో మూడు చాలా చిన్నవి. డైమండ్స్అండ్జేడ్. ఈగడియారంక్రీశ 19వశతాబ్దానికిచెందినది. దీనిని 1952లోబేఆఫ్ట్యునీషియా (ay of Tunis )భారతప్రధానిజవహర్లాల్నెహ్రూకుసమర్పించింది, ఆగడియారంలోశాసనంఉందిమరియుఇదిఅరబిక్భాషలోకిఅనువదించబడి ఉంది. 'జలాల్-అల్తుల్మాలిక్మహ్మద్అలీఅమీన్అవల్ "దీనిఅనువాదంబ్రిటిష్‌లోమనరాయబారిఅయిన' హిస్మెజెస్టికైండ్మహమ్మద్అలీ-అమిన్ I సర్దార్హెచ్. ఎస్. మాలిక్" ఈగడియారాన్నితీసుకువచ్చారు. శ్రీమతిఇందిరాగాంధీ 1963లోగడియారంనుబహుమతిగాఅందజేశారు.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >3. கடிகாரம்</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. கடிகாரம்" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">1895 ஆம் ஆண்டில் தங்கம், வைரம் மற்றும் ஜேட் கல்லால் உருவாக்கப்பட்ட கடிகாரம். 1952 இல் இந்தியாவின் அப்போதைய பிரதமர் ஜவஹர்லால் நேருவுக்கு துனிசியாவின் தூதுக்குழுவால் பரிசளிக்கப்பட்ட அரிய கலைப்பொருள்.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >3. कार्यवाही क्र.: ACQ-63-89 घड्याळ</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. कार्यवाही क्र.: ACQ-63-89 घड्याळ" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">१८९५ मध्येबनवलेलेसोन्याचेघड्याळ, ज्यामध्ये ३७ हिरेजडवलेअसूनत्यापैकीतीनअतिशयलहान आहे त. हेघड्याळसोने, हिरेआणिजेडयाघटकांपासूनबनवलेआहे. हेघड्याळइ. स. १९ व्याशतकातील आहे . १९५२ मध्येट्युनिसच्याबेयांनीभारताचेपंतप्रधानजवाहरलालनेहरूयांनाहेभेटदिलेहोतेआणियाघड्याळावरएकलेखअसूनतोअरबीमध्येअनुवादित आहे . ' जलाल-अतुलमलिकमोहम्मदअलीअमीनअव्वल' ज्याचाअनुवाद' महामहीमराजामोहम्मदअली-अमीनप्रथम' असाआहे. ब्रिटनमधीलआपलेराजदूतसरदारएच. एस. मलिकयांनीहेघड्याळआणलेहोते. श्रीमतीइंदिरागांधीयांनी १९६३ मध्येहेघड्याळभेटम्हणूनसुपूर्दकेले.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >3. ക്ലോക്ക്</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. ക്ലോക്ക്" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">37 വജ്രങ്ങൾപതിപ്പിച്ച 1895 നിർമ്മിച്ചസ്വർണ്ണഘടികാരം; ഇതിലെമൂന്ന്വജ്രങ്ങൾവളരെചെറുതാണ്. സ്വർണ്ണം, വജ്രം, ജേഡ് എന്നിവയാണ്ഈഘടികാരത്തിന്റെനിർമ്മാണസാമഗ്രികൾ. എ. ഡി. 19 -ാംനൂറ്റാണ്ടിലേതാണ്ഈഘടികാരം. 1952 -ൽടുണിസിലെബേഇത്ഇന്ത്യൻപ്രധാനമന്ത്രിജവഹർലാൽനെഹ്‌റുവിന്സമ്മാനിച്ചതാണ്. അറേബ്യൻഭാഷയിലേക്ക്വിവർത്തനംചെയ്തഒരുകൊത്തുപണിഇതിലുണ്ട്: ' ജലാൽ-അൽതുൽമലിക്മുഹമ്മദ്അലിഅമീൻഅവ്വൽ' (ബഹുമാനപ്പെട്ടസർദാർഎച്ച്. എസ്. മാലിക്, പ്രഭുവായമുഹമ്മദ്അലി-അമീൻഒന്നാമൻ) എന്നാണത്. ബ്രിട്ടനിലെനമ്മുടെഅംബാസഡറായിരുന്നസർദാർഎച്ച്. എസ്. മാലിക്കാണ്ഈഘടികാരംകൊണ്ടുവന്നത്. 1963 -ൽശ്രീമതിഇന്ദിരാഗാന്ധിഇത്ഒരുസമ്മാനമായിമ്യൂസിയത്തിന്കൈമാറി. വാക്കുകൾ = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >3. ACQ-63-89 ಗಡಿಯಾರ</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. ACQ-63-89 ಗಡಿಯಾರ" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">1895 ರಲ್ಲಿ ತಯಾರಿಸಲಾದ ಈ ಚಿನ್ನದ ಗಡಿಯಾರದಲ್ಲಿ 37 ವಜ್ರಗಳನ್ನು ಪೋಣಿಸಲಾಗಿದ್ದು, ಅವುಗಳಲ್ಲಿ ಮೂರು ಅತ್ಯಂತ ಚಿಕ್ಕದಾಗಿವೆ. ಈ ಗಡಿಯಾರವನ್ನು ಚಿನ್ನ, ವಜ್ರಗಳು ಮತ್ತು ಜೇಡ್ ರತ್ನದ ಸಂಯೋಜಿತ ವಸ್ತುಗಳಿಂದ ಮಾಡಲಾಗಿದೆ. ಈ ಗಡಿಯಾರವು ಕ್ರಿ.ಶ. 19 ನೇ ಶತಮಾನಕ್ಕೆ ಸೇರಿದುದಾಗಿದೆ. ಇದನ್ನು 1952 ರಲ್ಲಿ ಬೇಆಫ್‌ ಟುನಿಸ್‌ ಭಾರತದ ಪ್ರಧಾನ ಮಂತ್ರಿ ಜವಾಹರ್‌ಲಾಲ್ ನೆಹರೂ ಅವರಿಗೆ ಉಡುಗೊರೆಯಾಗಿ ನೀಡಿತು ಮತ್ತು ಈ ಗಡಿಯಾರದಲ್ಲಿ ಕೆತ್ತನೆಯಿದ್ದು, ಅದನ್ನು ಅರೇಬಿಕ್ ಭಾಷೆಯಲ್ಲಿ ಅನುವಾದಿಸಲಾಗಿದೆ. 'ಜಲಾಲ್-ಅಲ್ತುಲ್ ಮಲಿಕ್ ಮೊಹಮ್ಮದ್ ಅಲಿ ಅಮೀನ್ ಅವಲ್' ಎಂದರೆ “ನಮ್ಮ ಮಹಾಮಹಿಮ ದಯಾಳು 1ನೇ ಮೊಹಮ್ಮದ್ ಅಲಿ-ಅಮೀನ್ ' ಎಂದರ್ಥ. ಬ್ರಿಟನ್‌ನಲ್ಲಿ ನಮ್ಮ ರಾಯಭಾರಿಯಾಗಿದ್ದ ಸರ್ದಾರ್ ಹೆಚ್.ಎಸ್. ಮಲಿಕ್ ಅವರು ಈ ಗಡಿಯಾರವನ್ನು ತಂದರು. ಶ್ರೀಮತಿ ಇಂದಿರಾ ಗಾಂಧಿಯವರು 1963 ರಲ್ಲಿ ಈ ಗಡಿಯಾರವನ್ನು ಉಡುಗೊರೆಯಾಗಿ ಹಸ್ತಾಂತರಿಸಿದರು.<br><br>ಪದಗಳು = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >3. ACQ-63-89 ଘଡ଼ି</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. ACQ-63-89 ଘଡ଼ି" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">୧୮୯୫ ମସିହାରେତିଆରିଏକସୁନାରଘଡ଼ି, ଯେଉଁଥିରେ ୩୭ ଟିହୀରାଜଡ଼ିତଏବଂଏଥିମଧ୍ୟରୁତିନୋଟିଅତିକ୍ଷୁଦ୍ର। ଏହିଘଡ଼ିଟିସୁନା, ହୀରାଏବଂଜେଡ୍ପଥରରେତିଆରିହୋଇଛି। ଏହିଘଡ଼ିଟିଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୯ ଶଶତାବ୍ଦୀର। ଏହାକୁ ୧୯୫୨ ମସିହାରେଟୁନିସ୍ରବେ’ ଙ୍କଦ୍ୱାରାଭାରତରପ୍ରଧାନମନ୍ତ୍ରୀଜବାହରଲାଲନେହେରୁଙ୍କୁଉପହାରଭାବେପ୍ରଦାନକରାଯାଇ ଥିଲା । ଏହିଘଡ଼ିରେଏକଲେଖାରହିଛି। ଏହାର ଭାଷାଆରବୀରେ: ' ଜଲାଲ୍-ଅଲ୍‌ତୁଲ୍ମଲିକ୍ମହମ୍ମଦଅଲିଅମିନ୍ଆୱାଲ୍' , ଯାହାରଅନୁବାଦହେଉଛି' ମହାମହିମଦୟାଳୁମହମ୍ମଦଅଲି-ଅମିନ୍ପ୍ରଥମ' । ବ୍ରିଟେନରେଆମରରାଷ୍ଟ୍ରଦୂତଥିବାସର୍ଦ୍ଦାରଏଚ୍. ଏସ୍. ମଲିକ୍ଏହିଘଡ଼ିଟିକୁଆଣିଥିଲେ। ଶ୍ରୀମତୀଇନ୍ଦିରାଗାନ୍ଧୀ ୧୯୬୩ ମସିହାରେଏହିଘଡ଼ିଟିକୁଏକଉପହାରଭାବେହସ୍ତାନ୍ତରକରିଥିଲେ। ଶବ୍ଦ = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >3. ACQ-63-89 (ঘড়ি)।</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. ACQ-63-89 (ঘড়ি)।" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এটি ১৮৯৫ সালে সুবর্ণ দ্বারা নির্মিত ঘড়ি, যাতে ৩৭টি হীরা বসানো রয়েছে; এর মধ্যে তিনটি হীরা অত্যন্ত ক্ষুদ্র। ঘড়িটি সোনা, হীরা ও জেড পাথর দিয়ে তৈরি এবং এটি ঊনবিংশ শতাব্দীর নিদর্শন। ১৯৫২ সালে তিউনিসের পক্ষ থেকে ভারতের তৎকালীন প্রধানমন্ত্রী জওহরলাল নেহরুকে এই ঘড়িটি উপহার দেওয়া হয়েছিল। ঘড়িটিতে একটি লিপি খোদাই করা আছে যার আরবি অনুবাদ হলো 'জালাল-আলতুল মালিক মোহাম্মদ আলি আমিন আওয়াল' ​​(অর্থাৎ মহামান্য মোহাম্মদ আলি-আমিন প্রথম)। ব্রিটেনে নিযুক্ত ভারতের তৎকালীন রাষ্ট্রদূত সর্দার এইচ. এস. মালিক এই ঘড়িটি নিয়ে এসেছিলেন। ১৯৬৩ সালে শ্রীমতি ইন্দিরা গান্ধী উপহার হিসেবে ঘড়িটি হস্তান্তর করেন।<br><br>শব্দ = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">3. 89-63-QCAگھڑی</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. 89-63-QCAگھڑی" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">1895 یہ سونے کی بنی ہوئی گھڑی ہے، جو 1895ء میں تیار کی گئی تھی۔ اس پر 37 ہیرے لگے ہوئے ہیں، جن میں سے تین بہت چھوٹے ہیں۔ یہ گھڑی سونے، ہیروں اور سنگِ سیم سے بنائی گئی ہے۔یہ گھڑی انیسویں صدی عیسوی کی ہے۔ یہ گھڑی 1952 میں تیونس کے حکمران، بےِ تیونس، کی جانب سے ہندوستان کے پہلے وزیرِ اعظم جواہر لال نہرو کو پیش کی گئی تھی۔گھڑی پر عربی میں ایک عبارت لکھی ہوئی ہے، جس کا ترجمہ ہے:بادشاہ محمد علی امین اول، سردار ایچ۔ ایس۔ ملک۔"یہ گھڑی ہندوستان کے برطانیہ میں سفیر رہنے والے سردار ایچ۔ ایس۔ ملک لائے تھے۔ 1963ء میں محترمہ اندرا گاندھی نے یہ گھڑی بطور تحفہ پیش کی۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >3. ACQ-63-89 ઘડિયાળ</h2>
+      <div class="booImgDiv">
+        <img src="./images/clock.png" width="100%" alt="3. ACQ-63-89 ઘડિયાળ" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-63-89</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ સોનાની ઘડિયાળ ઈસવીસન 1895માં બનાવવામાં આવી હતી. તેમાં કુલ 37 હીરા જડવામાં આવ્યા છે, જેમાંથી ત્રણ હીરા ખૂબ જ નાના છે. ઘડિયાળ બનાવવા માટે સોનું, હીરા અને જેડ પથ્થરનો ઉપયોગ કરવામાં આવ્યો છે.આ ઘડિયાળ ઈસવીસનની 19મી સદીની છે. ઈસવીસન 1952માં ટ્યુનિસના અખાત  તરફથી ભારતના વડાપ્રધાન જવાહરલાલ નેહરુને આ ઘડિયાળ ભેટમાં આપવામાં આવી હતી.ઘડિયાળ પર અરબી ભાષામાં એક શિલાલેખ છે. તેનો અનુવાદ આશરે આ પ્રમાણે છે: “જલાલ-અલ-તુલ, મલિક મોહમ્મદ અલી અમીન અવ્વલ”, જેનો અર્થ “મહામહિમ બાદશાહ મોહમ્મદ અલી-અમીન પ્રથમ” એવો થાય છે.આ ઘડિયાળ આપણા રાજદૂત એચ. એસ. મલિક દ્વારા ભારતમાં લાવવામાં આવી હતી. ત્યારબાદ શ્રીમતી ઇન્દિરા ગાંધીએ ઈસવીસન 1963માં આ ઘડિયાળ ભેટ તરીકે અર્પણ કરી હતી.<br><br>શબ્દો = 101</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "./audio/hindi-%E0%A4%98%E0%A4%A1%E0%A4%BC%E0%A5%80.wav",
+  "english": "./audio/hindi-%E0%A4%98%E0%A4%A1%E0%A4%BC%E0%A5%80.wav",
+  "telugu": "./audio/Telugu_ACQ-63-89%20Clock_Female.wav",
+  "tamil": "./audio/tamil-Clock.wav",
+  "marathi": "./audio/mar-Clock.wav",
+  "malayalam": "",
+  "kannada": "./audio/kannada-Acc%20No%20ACQ-63-89%20Clock-.wav",
+  "odia": "./audio/odia-Acc%20No%20ACQ-63-89%20Clock.wav",
+  "bengali": "./audio/bengali-Clock.wav",
+  "urdu": "./audio/urdu-Clock.wav",
+  "gujarati": "./audio/guj-Clock.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

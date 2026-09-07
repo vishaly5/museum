@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 10 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="../images/logo-moc.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="../images/logo-anu.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >10. पेशक़ब्ज़</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. पेशक़ब्ज़" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">अंगूरी रंग के जेड से बनी मूठ वाला शिकार में प्रयोग किया जाने वाला पेशकब़्ज़ (छुरा) घोड़े के सिर के आकार का है। इसमें सोने की जड़ाई की गई है तथा लाल पत्थरों से सजावट की गई है। घोड़े की आँखों के लिए दोहरे पत्थर लगाए गए हैं। सिर पर लगाम और अयाल (गर्दन के बाल) को दर्शाया गया है। अयाल के नीचे बीच-बीच में पत्तियों की सजावट और निचले सिरे पर जड़ाऊ पट्टी बनी हुई है। छुरे के म्यान पर लाल मखमल चढ़ा हुआ है, जिस पर सुनहरी पट्टी और धातु की टोपी लगी है। मूठ और फल के जोड़ को सादी सोने की अंगूठी से ढका गया है। इसकी उत्पत्ति भारत की है और यह 19वीं शताब्दी ईस्वी की कृति है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >10. Peshqabz</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. Peshqabz" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A hunting peshqabz dagger featuring a horse-head hilt carved from spinach-green jade. Inlaid with gold, red stones, and green stone eyes, showing detailed reins and mane. Fitted with a red velvet sheath with gilded mounts. 19th century CE, India.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >10. XLIX-323 -323 పేష్కాబ్జ్</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. XLIX-323 -323 పేష్కాబ్జ్" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">గుర్రం తలను పోలిన ద్రాక్ష రంగు జేడ్ హ్యాండిల్  గల ఒక వేట కత్తి. దీనికి బంగారు పొదుగు మరియు ఎర్ర రాళ్ళు, తల కవచం మరియు జూలును సూచించే కళ్ళ కోసం రెండు ఆకుపచ్చ రాళ్ళు, అడుగు భాగంలో రత్నాలతో పొదిగిన పట్టీ, జూలుకు కొద్దిగా కింద ఆకులు ఉన్నాయి. అలాగే, బంగారు పూత పూసిన పట్టీ మరియు ఫెర్రూల్‌తో కూడిన ఎర్రటి వెల్వెట్ తొడుగు కూడా ఉంది. కత్తి అంచు మరియు పిడి కలిసే చోట ఒక సాదా బంగారు ఉంగరం ఉంది. ఇది భారతదేశంలో తయారు చేయబడింది మరియు క్రీ.శ. 18వ శతాబ్దానికి చెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >10. பேஷ்கப்ஜ் (வேட்டைக் கத்தி)</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. பேஷ்கப்ஜ் (வேட்டைக் கத்தி)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">குதிரை தலை வடிவிலான ஜேட் கைப்பிடி கொண்ட வேட்டைக் கத்தி. தங்க வேலைப்பாடு, சிவப்புக் கற்கள் மற்றும் பச்சை நிறக் கண் கற்களால் அலங்கரிக்கப்பட்டது. 19 ஆம் நூற்றாண்டு, இந்தியா.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >10. आरोपसंख्याः XLIX-323 पेशकाब्झ</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. आरोपसंख्याः XLIX-323 पेशकाब्झ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">घोड्याच्याडोक्याच्याआकाराची, द्राक्षाच्यारंगाच्याजेडचीमूठअसलेलाशिकारीपेशकब्ज (चाकू). डोक्यावरीललगामआणिआयाळदर्शवण्यासाठीयातसोन्याचेजडावकामआणिलालखडेजडवलेलेअसून, डोळ्यांसाठीदोनहिरवेखडेबसवलेलेआहेत. खालच्याटोकालाखडेजडवलेलापट्टाआणिआयाळीच्याखालीठराविकअंतरावरपानांचीनक्षीअसून, लालमखमलीआच्छादनअसलेल्याम्यानावरसोनेरीआवरणआणिकडीआहे. पातेआणिमुठीच्यासांध्यावरसोन्याचेएकसाधेकडेआहे. याचामूळदेशभारतअसूनहेइ. स. १८ व्याशतकातील आहे .</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >10. പേഷ്ഖാബ്സ്</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. പേഷ്ഖാബ്സ്" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">മുന്തിരിയുടെ നിറത്തിലുള്ളജേഡ്കല്ലിൽകുതിരത്തലയുടെരൂപത്തിൽകൊത്തിയെടുത്തപിടിയോട്കൂടിയവേട്ടയാടാൻ ഉപയോഗിക്കുന്ന പെഷ്ഖബ്സ്അല്ലെങ്കിൽ കത്തി. കുതിരയുടെമുഖത്തെവള്ളികളുംകഴുത്തിലെമുടിയുംകാണിക്കാൻസ്വർണ്ണപ്പണികളുംചുവന്നരത്നങ്ങളുംഇതിൽപതിപ്പിച്ചിട്ടുണ്ട്. കണ്ണുകളായിരണ്ട്പച്ചക്കല്ലുകളും, പിടിക്ക്താഴെകല്ലുകൾപതിപ്പിച്ചബാൻഡും, ഇലകളുടെപാറ്റേണുകളുംകാണാം. ചുവന്നവെൽവറ്റ്പൊതിഞ്ഞഉറയിൽസ്വർണ്ണംപൂശിയവളയങ്ങളുംഅഗ്രവുംപിടിപ്പിച്ചിരിക്കുന്നു. ബ്ലേഡുംപിടിയുംകൂട്ടിയോജിപ്പിക്കുന്നഭാഗത്ത്ഒരുപ്ലെയിൻസ്വർണ്ണ വളയംനൽകിയിട്ടുണ്ട്. എ. ഡി. 18 -ാംനൂറ്റാണ്ടിലെഇന്ത്യയിൽനിന്നുള്ളതാണ്ഈഅപൂർവ്വകത്തി. വാക്കുകൾ = 87</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >10. XLIX-323 ಪೇಶ್ಕಾಬ್ಜ</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. XLIX-323 ಪೇಶ್ಕಾಬ್ಜ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಕುದುರೆಯ ತಲೆಯ ಆಕಾರದಲ್ಲಿರುವ ದ್ರಾಕ್ಷಿ ಬಣ್ಣದ ಜೇಡ್ ಹಿಡಿಕೆಯ ಭೇಟೆಯ ಪೇಶ್ಕಾಬ್ಜ್ (ಚಾಕು)ಇದಾಗಿದೆ. ಇದು ಚಿನ್ನದಿಂದ ನಯವಾದಕುಸುರಿ ಕೆಲಸ ಮತ್ತು ಕೆಂಪು ಹರಳುಗಳ ಪೋಣಿಕೆಯನ್ನು ಹೊಂದಿದ್ದು, ಕುದುರೆಯ ಮೂಗುದಾರವನ್ನು ಪ್ರತಿನಿಧಿಸಲು ಕಣ್ಣುಗಳಿಗಾಗಿ ಎರಡು ಹಸಿರು ಹರಳುಗಳನ್ನು ಹಾಗೂ ಕೆಳಗಿನ ತುದಿಯಲ್ಲಿ ಹರಳು ಪೋಣಿಸಿದ ಪಟ್ಟಿ ಮತ್ತು ಅಯಾಲು (ಕುದುರೆ ಕತ್ತಿನ ಮೈಗೂದಲು) ಕೆಳಗೆ ಆಯಾ ಅಂತರದಲ್ಲಿ ಎಲೆಗಳ ವಿನ್ಯಾಸದೊಂದಿಗೆ ಕೆಂಪು ವೆಲ್ವೆಟ್ ಹೊದಿಕೆಯ ಒರೆ (ಹಿಡಿಕೆ ಕೋಶ) ಮೇಲಿನ ಚಿನ್ನದ ಲೇಪಿತ ಪಟ್ಟಿ ಮತ್ತು ಫೆರುಲ್ ಅನ್ನು ಹೊಂದಿದೆ. ಕತ್ತಿಯ ಅಲಗು ಮತ್ತು ಹಿಡಿಕೆಯ ಜೋಡಣೆಯನ್ನು ಸರಳ ಚಿನ್ನದ ಉಂಗುರವು ಮುಚ್ಚುತ್ತದೆ. ಇದರ ಮೂಲ ದೇಶ ಭಾರತವಾಗಿದ್ದು, ಕ್ರಿ.ಶ. 18 ನೇ ಶತಮಾನಕ್ಕೆ ಸೇರಿದುದಾಗಿದೆ.<br><br>ಪದಗಳು = 87</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >10. XLIX-323ପେଶ୍‌କବ୍‌ଜ୍</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. XLIX-323ପେଶ୍‌କବ୍‌ଜ୍" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ଏହା ଅଙ୍ଗୁର୍ରଙ୍ଗରଜେଡ୍ପଥରରେତିଆରିଏକଘୋଡ଼ାମୁଣ୍ଡଆକାରରହ୍ୟାଣ୍ଡେଲ୍ବା ମୁଠାବିଶିଷ୍ଟଶିକାରୀପେଶ୍‌କବ୍‌ଜ୍। ଏହିହ୍ୟାଣ୍ଡେଲ୍‌ରେସୁନାରକାମଏବଂନାଲିପଥରଜଡ଼ିତହୋଇଛି, ଯାହାକିଘୋଡ଼ାରମୁଣ୍ଡରସାଜସଜ୍ଜାଏବଂଆୟଲ୍ (କେଶ)କୁଦର୍ଶାଉଛି। ଏହାରତଳଭାଗରେଏକବ୍ୟାଣ୍ଡ୍ଏବଂକେଶତଳେ କିଛିବ୍ୟବଧାନରେପତ୍ରରଡିଜାଇନ୍ରହିଛି। ଏହାରଲାଲ୍ମଖମଲରେଆଚ୍ଛାଦିତମହାରବଉପରେଏକସୁନାଧାତବପଟିତଥା ଫେରୁଲ୍ରହିଛି। ଏକସାଧାରଣସୁନାମୁଦିବ୍ଲେଡ୍ଏବଂହ୍ୟାଣ୍ଡେଲ୍‌ରସଂଯୋଗସ୍ଥଳକୁଘୋଡ଼ାଇରଖିଛି। ଏହିଅସ୍ତ୍ରଟିରଉତ୍ପତ୍ତିଭାରତରେଏବଂଏହାଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୮ ଶଶତାବ୍ଦୀର ଅଟେ । ଶବ୍ଦ = 87</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >10. XLIX-323 পেশকব্জ</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. XLIX-323 পেশকব্জ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এটি ঘোড়ার মাথার আকৃতিবিশিষ্ট হাতলযুক্ত একটি শিকারের পেশকব্জ (যা এক ধরণের ছুরি), যার হাতলটি গ্রেপ রঙের জেড পাথরের তৈরি। এতে সোনার কাজ ও লাল পাথর বসানো হয়েছে; ঘোড়ার চোখের জন্য দুটি সবুজ পাথর এবং মাথার সাজসজ্জা ও কেশর ফুটিয়ে তোলার জন্য বিশেষ নকশা রয়েছে। হাতলের নিচের প্রান্তে পাথর-বসানো একটি বলয় এবং কেশরের নিচে মাঝে মাঝে পাতার নকশা দেখা যায়। লাল মখমলে মোড়ানো খাপের ওপর সোনালি রঙের ব্যান্ড ও ফেরুল যুক্ত রয়েছে। ফলক ও হাতলের সংযোগস্থলটি একটি সাধারণ সোনার আংটি দিয়ে আবৃত। এটি ভারতের তৈরি এবং অষ্টাদশ শতাব্দীর নিদর্শন।<br><br>শব্দ = 87</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">10. 323-XILXپشقبض(چاقو)</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. 323-XILXپشقبض(چاقو)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ پشقبض (چاقو) انگوری رنگ کے جیڈ سے بنے دستے والا ہے، جسے گھوڑے کے سر کی شکل دی گئی ہے۔<br><br>دستے پر سونے کا کام کیا گیا ہے اور اس پر سرخ پتھر لگائے گئے ہیں۔ گھوڑے کی آنکھوں کے لیے دو سبز پتھر لگائے گئے ہیں۔ گھوڑے کی لگام اور ایال کو بھی پتھروں کی آرائش سے دکھایا گیا ہے۔ دستے کے نچلے حصے پر پتھروں کی ایک پٹی ہے اور ایال کے نیچے وقفے وقفے سے پتوں کے نقش بنائے گئے ہیں۔<br><br>اس کی میان سرخ مخمل سے ڈھکی ہوئی ہے، جس پر سنہری پٹی اور دھاتی کنارہ لگا ہوا ہے۔ چاقو اور دستے کے جوڑ پر سادہ سنہری حلقہ لگایا گیا ہے۔یہ فن پارہ ہندوستان کا ہے اور اٹھارہ ویں صدی عیسوی سے تعلق رکھتا ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >10. XLIX-323 પેશકબ્ઝ (શિકારી છરી)</h2>
+      <div class="booImgDiv">
+        <img src="../images/peshqabz.png" width="100%" alt="10. XLIX-323 પેશકબ્ઝ (શિકારી છરી)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-323</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક સુંદર પેશકબ્ઝ (શિકાર માટે વપરાતી છરી) છે. તેનું હાથું દ્રાક્ષિયા રંગના જેડ પથ્થરમાંથી બનાવવામાં આવ્યું છે અને તેનો આકાર ઘોડાના માથા જેવો છે.હાથા પર સોનાનું જડતર  કરવામાં આવ્યું  છે. તેમાં લાલ પથ્થરો જડવામાં આવ્યા છે અને આંખો માટે બે લીલા પથ્થરોનો ઉપયોગ કરવામાં આવ્યો છે. ઘોડાના માથા પર લગામ અને કેશવાળી દર્શાવવા માટે સુંદર નકશીકામ કરવામાં આવ્યું છે.હાથાના નીચેના ભાગમાં જડાવટવાળી પટ્ટી છે અને કેશવાળીની નીચે વચ્ચે-વચ્ચે પાંદડાના આકારની ભાત બનાવવામાં આવી છે. છરીને રાખવા માટેનું મ્યાન લાલ મખમલથી મઢાયેલું છે, જેના પર સોનેરી પટ્ટી અને ધાતુની ટોપી લગાવવામાં આવી છે.છરીના પાન અને હાથા જ્યાં જોડાય છે ત્યાં સોનાની સાદી વીંટી જેવી પટ્ટી લગાવવામાં આવી છે. આ સુંદર પેશકબ્ઝ ભારતનો છે અને ઈસવીસનની 18મી સદીનો હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 87</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "../audio/hindi-%E0%A4%AA%E0%A5%87%E0%A4%B6%E0%A4%95%E0%A4%AC%E0%A5%8D%E0%A4%9C%E0%A4%BC.wav",
+  "english": "../audio/hindi-%E0%A4%AA%E0%A5%87%E0%A4%B6%E0%A4%95%E0%A4%AC%E0%A5%8D%E0%A4%9C%E0%A4%BC.wav",
+  "telugu": "../audio/Telugu_Peshqabz_Female.wav",
+  "tamil": "../audio/tamil-Peshqabz.wav",
+  "marathi": "../audio/mar-Peshqabz.wav",
+  "malayalam": "",
+  "kannada": "../audio/kannada-Acc%20No%20XLIX-323%20Peshqabz%20-.wav",
+  "odia": "../audio/odia-Acc%20No%20XLIX-323%20Peshqabz.wav",
+  "bengali": "../audio/bengali-Peshqabz.wav",
+  "urdu": "../audio/urdu-Peshqabz.wav",
+  "gujarati": "../audio/guj-Peshqabz.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

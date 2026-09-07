@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 11 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >11. परदे के आकार का फोटो फ्रेम</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. परदे के आकार का फोटो फ्रेम" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">अंगूर के रंग के जेड से बना यह फोटो फ्रेम तीन तहों वाले छोटे परदे के आकार में बनाया गया है। इसमें जालीदार नक्काशी का सुंदर डिज़ाइन है और तीनों तहों को चाँदी के कब्जों से जोड़ा गया है। इसमें तीन सालार जंगों के गोलाकार फोटो लगे हैं। दाएँ से बाएँ क्रम में इनमें नवाब मीर तुराब अली खान, सालार जंग प्रथम; नवाब मीर लायक अली खान, सालार जंग द्वितीय; और नवाब मीर यूसुफ अली खान, सालार जंग तृतीय के चित्र हैं। तीनों सालार जंगों ने हैदराबाद के निज़ामों के प्रधानमंत्री के रूप में अपनी सेवाएँ दी थीं। यह फोटो फ्रेम भारत का है और इसका निर्माण 20वीं शताब्दी ईस्वी का माना जाता है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >11. Screen Shaped Photo Frame</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. Screen Shaped Photo Frame" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A spinach-green jade photo frame designed as a miniature three-fold screen with silver hinges and lattice carving. Holds circular portraits of the three Salar Jungs: Salar Jung I, Salar Jung II, and Salar Jung III. 20th century CE, India.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >11. XLIX-1636స్క్రీన్ఆకారపుఫోటోఫ్రేమ్</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. XLIX-1636స్క్రీన్ఆకారపుఫోటోఫ్రేమ్" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">గ్రేప్కలర్జాడేఫ్రేమ్వెండిఅతుకులతోజాలీలేదాట్రెల్లిస్ డిజైన్‌తోమూడుమడతలలోసూక్ష్మతెరలారూపొందించబడింది. ఇందులోమూడుసలార్జంగ్లవృత్తాకారఛాయాచిత్రాలుఉన్నాయి, అవికుడినుండిఎడమకు, నవాబ్మీర్తురాబ్అలీఖాన్, సాలార్జంగ్ I, నవాబుమీర్లైక్అలీఖాన్, సాలర్జంగ్ II మరియునవాబ్మిర్యూసుఫ్అలీఖాన్సలార్జాంగ్ III. ఈముగ్గురుసలార్జాంగ్లుప్రధానమంత్రిహోదాలోహైదరాబాద్నిజాంలకుసేవలుఅందించారు. ఈ ఫోటో ఫ్రేమ్ భారతదేశానికి చెందిన, ఇది క్రీ.శ. 20వ శతాబ్దానికి చెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >11. திரைச்சீலை வடிவ புகைப்படச் சட்டகம்</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. திரைச்சீலை வடிவ புகைப்படச் சட்டகம்" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">சிறிய மூன்று மடிப்புத் திரைச்சீலை வடிவில் அமைந்த ஜேட் புகைப்படச் சட்டகம். இதில் மூன்று சாலார் ஜங்குகளின் வட்ட வடிவ புகைப்படங்கள் பொருத்தப்பட்டுள்ளன. 20 ஆம் நூற்றாண்டு, இந்தியா.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >11. एसीसी क्रमांकः एक्सएलएक्स-1636 स्क्रीन आकाराची छायाचित्र चौकट</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. एसीसी क्रमांकः एक्सएलएक्स-1636 स्क्रीन आकाराची छायाचित्र चौकट" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">द्राक्षाच्यारंगाच्याजेडचीहीचौकटचांदीच्याबिजागरीसहजाळीकिंवाजाळीदारनक्षीअसलेल्यातीनघड्यांच्याछोट्यापडद्यासारखीतयारकेलेलीआहे. यातउजवीकडूनडावीकडेनवाबमीरतुराबअलीखान (सालारजंगप्रथम), नवाबमीरलाईकअलीखान (सालारजंगद्वितीय) आणिनवाबमीरयुसूफअलीखान (सालारजंगतृतीय) यातीनसालारजंगयांचीवर्तुळाकारछायाचित्रेआहेत. यातिन्हीसालारजंगयांनीपंतप्रधानम्हणून है दराबादच्यानिजामांचीसेवाकेली. हीछायाचित्राचीचौकटभारतातीलअसूनतीइ. स. २० व्याशतकातील आहे . शब्द = 92</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >11. മറയുടെആകൃതിയിലുള്ളഫോട്ടോഫ്രെയിം</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. മറയുടെആകൃതിയിലുള്ളഫോട്ടോഫ്രെയിം" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">മുന്തിരിനിറത്തിലുള്ളജേഡ് കല്ലിൽതീർത്തഈഫ്രെയിം, വെള്ളിവിജാഗിരികളോട്കൂടിയതുംജാലിഅഥവാവലക്കണ്ണികളുള്ളഡിസൈനോട്കൂടിയതുമായമൂന്ന്മടക്കുകളുള്ളഒരുചെറിയമറയുടെ ആകൃതിയിൽരൂപകൽപ്പനചെയ്തതാണ്. ഇതിൽമൂന്ന്സലാർജംഗുമാരുടെവട്ടത്തിലുള്ളചിത്രങ്ങൾഅടങ്ങിയിരിക്കുന്നു; അതായത്വലത്തുനിന്ന്ഇടത്തോട്ട്, നവാബ്മീർതുറാബ്അലിഖാൻ (സലാർജംഗ്I), നവാബ്മീർലൈഖ്അലിഖാൻ (സലാർജംഗ്II), നവാബ്മീർയൂസഫ്അലിഖാൻ (സലാർജംഗ്III) എന്നിവരുടേതാണ്ഈചിത്രങ്ങൾ. മൂന്ന്സലാർജംഗുമാരുംപ്രധാനമന്ത്രിഎന്നനിലയിൽഹൈദരാബാദിലെനിസാമുമാരെസേവിച്ചവരാണ്. ഇന്ത്യയിൽനിന്നുള്ളഈഫോട്ടോഫ്രെയിംഎ. ഡി. ഇരുപതാംനൂറ്റാണ്ടിലേതാണെന്ന്കരുതപ്പെടുന്നു. വാക്കുകൾ = 92</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >11. XLIX-1636ಸ್ಕ್ರೀನ್ಆಕಾರದಫೋಟೋಫ್ರೇಮ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. XLIX-1636ಸ್ಕ್ರೀನ್ಆಕಾರದಫೋಟೋಫ್ರೇಮ್" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ದ್ರಾಕ್ಷಿ ಬಣ್ಣದ ಜೇಡ್‌ನಿಂದ ಮಾಡಿದ ಈ ಚೌಕಟ್ಟನ್ನು ಬೆಳ್ಳಿಯ ಹಿಂಜ್‌ಗಳೊಂದಿಗೆ, ಜಾಲಿ ಅಥವಾ ಜಾಲರಿಯ ವಿನ್ಯಾಸ ಹೊಂದಿರುವ ಮೂರು ಮಡಿಕೆಗಳ ಸಣ್ಣ ಪರದೆಯಂತೆ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ. ಇದು ಬಲದಿಂದ ಎಡಕ್ಕೆ, ಕ್ರಮವಾಗಿ ಮೂವರು ಸಾಲಾರ್ ಜಂಗ್‌ಗಳಾದ ನವಾಬ್ ಮಿರ್ ತುರಾಬ್ ಅಲಿ ಖಾನ್,Iನೇಸಾಲಾರ್ ಜಂಗ್, ನವಾಬ್ ಮಿರ್ ಲೈಕ್ ಅಲಿ ಖಾನ್,IIನೇಸಾಲಾರ್ ಜಂಗ್,ಮತ್ತು ನವಾಬ್ ಮಿರ್ ಯೂಸುಫ್ ಅಲಿ ಖಾನ್ IIIನೇಸಾಲಾರ್ ಜಂಗ್ಅವರ ವೃತ್ತಾಕಾರದ ಛಾಯಾಚಿತ್ರಗಳನ್ನು ಹೊಂದಿದೆ. ಈ ಮೂವರು ಸಾಲಾರ್ ಜಂಗ್‌ಗಳು ಹೈದರಾಬಾದ್‌ನ ನಿಜಾಮರ ಬಳಿ ಪ್ರಧಾನ ಮಂತ್ರಿಗಳಾಗಿ ಸೇವೆ ಸಲ್ಲಿಸಿದ್ದರು. ಭಾರತಕ್ಕೆ ಸೇರಿದ ಈ ಫೋಟೋ ಫ್ರೇಮ್ ಕ್ರಿಸ್ತಶಕ20ನೇ ಶತಮಾನದ್ದು ಎಂದು ಅಂದಾಜಿಸಲಾಗಿದೆ.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >11. ସ୍କ୍ରିନ୍ଆକୃତିର ଫଟୋ ଫ୍ରେମ୍</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. ସ୍କ୍ରିନ୍ଆକୃତିର ଫଟୋ ଫ୍ରେମ୍" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ଅଙ୍ଗୁର ରଙ୍ଗର ଜେଡ୍ ପଥରରେ ତିଆରି ଏହି ଫ୍ରେମ୍‌ଟି ରୂପା କବ୍‌ଜା ସହିତ ତିନି ଭାଗରେ ବିଭକ୍ତ ଏକ କ୍ଷୁଦ୍ର ସ୍କ୍ରିନ୍ ବା ପରଦା ପରି ଡିଜାଇନ୍ କରାଯାଇଛି, ଯେଉଁଥିରେ ଜାଲି କିମ୍ବା ଟ୍ରେଲିସ୍ କାମ କରାଯାଇଛି। ଏଥିରେ ତିନିଜଣ ସାଲାର ଜଙ୍ଗଙ୍କର ଗୋଲାକାର ଫଟୋ ରହିଛି, ଯେଉଁଥିରେ କି ଡାହାଣରୁ ବାମକୁ କ୍ରମଶଃ ନବାବ ମୀର୍ ତୁରାବ ଅଲି ଖାଁ (ସାଲାର ଜଙ୍ଗ ପ୍ରଥମ), ନବାବ ମୀର୍ ଲାଇକ୍ ଅଲି ଖାଁ (ସାଲାର ଜଙ୍ଗ ଦ୍ୱିତୀୟ) ଏବଂ ନବାବ ମୀର୍ ୟୁସୁଫ୍ ଅଲି ଖାଁ (ସାଲାର ଜଙ୍ଗ ତୃତୀୟ) ଅଟନ୍ତି। ଏହି ତିନିଜଣ ସାଲାର ଜଙ୍ଗ ହାଇଦ୍ରାବାଦର ନିଜାମମାନଙ୍କ ପାଖରେ ପ୍ରଧାନମନ୍ତ୍ରୀ ଭାବରେ କାର୍ଯ୍ୟ କରିଥିଲେ। ଏହି ଫଟୋ ଫ୍ରେମ୍‌ଟି ଭାରତର ଏବଂ ଏହା ଖ୍ରୀଷ୍ଟାବ୍ଦ ୨୦ଶ ଶତାବ୍ଦୀର ବୋଲି ଅନୁମାନ କରାଯାଏ।ଶବ୍ଦ = 92</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >11. XLIX-1636;   (স্ক্রিন আকৃতির ছবির ফ্রেম )</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. XLIX-1636;   (স্ক্রিন আকৃতির ছবির ফ্রেম )" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">গ্রেপ রঙের জেড পাথরে তৈরি এই ফ্রেমটি একটি ছোট তিন-ভাঁজের পর্দার আদলে গড়া। এতে রূপার কব্জাসহ জালি বা ট্রেলিস নকশা রয়েছে। এতে তিনজন সালার জং-এর গোলাকার প্রতিকৃতি রয়েছে—ডান থেকে বামে যথাক্রমে—নবাব মীর তুরাব আলী খান বা সালার জং প্রথম, নবাব মীর লাইক আলী খান বা সালার জং দ্বিতীয় এবং নবাব মীর ইউসুফ আলী খান বা সালার জং তৃতীয়। এই তিনজন সালার জং-ই হায়দ্রাবাদ নিজামদের অধীনে প্রধানমন্ত্রীর দায়িত্ব পালন করেছিলেন। ভারতের এই ফটো ফ্রেমটি বিংশ শতাব্দীর একটি অনন্য নিদর্শন।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">11. 1636-XILXاسکرین نما فوٹو فریم</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. 1636-XILXاسکرین نما فوٹو فریم" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ انگوری رنگ کے جیڈ(سنگِ سیم) سے بنا ہوا فوٹو فریم ہے، جسے تین پٹوں والے چھوٹے جالی دار پردے کی شکل میں تیار کیا گیا ہے۔ اس کے حصوں کو چاندی کے قبضوں سے جوڑا گیا ہے۔اس فریم میں تین سالار جنگ کی گول تصویریں آویزاں ہیں۔ دائیں سے بائیں ان کے نام یہ ہیں:نواب میر تراب علی خان، سالار جنگ اول،نواب میر لائق علی خان، سالار جنگ دوماور نواب میر یوسف علی خان، سالار جنگ سوم۔تینوں سالار جنگ حیدرآباد کے نظاموں کے دور میں وزیرِ اعظم کے عہدے پر فائز رہے اور ریاست کی خدمت انجام دیتے رہے۔یہ فوٹو فریم ہندوستان سے تعلق رکھتا ہے اور بیسویں صدی عیسوی کا ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >11. XLIX-1636પડદા આકારની ફોટોફ્રેમ</h2>
+      <div class="booImgDiv">
+        <img src="./images/ScreenShapedPhotoFrame.png" width="100%" alt="11. XLIX-1636પડદા આકારની ફોટોફ્રેમ" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1636</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક સુંદર દ્રાક્ષિયા રંગની જેડ પથ્થરની ફોટોફ્રેમ છે. તેની રચના ત્રણ ભાગમાં વળેલી નાની પડદા જેવી છે. તેમાં જાળી અથવા જાળીકામની સુંદર ભાત બનાવવામાં આવી છે અને ત્રણેય ભાગને જોડવા માટે ચાંદીના મિજાગરાંનો ઉપયોગ કરવામાં આવ્યો છે.આ ફ્રેમમાં ત્રણ સાલારજંગની ગોળાકાર તસવીરો છે. જમણેથી ડાબી તરફ તેમના નામ આ પ્રમાણે છે, નવાબ મીર તુરાબ અલી ખાન- સાલારજંગ પ્રથમ ,નવાબ મીર લાયક અલી ખાન -સાલારજંગ દ્વિતીય , નવાબ મીર યુસુફ અલી ખાન - સાલારજંગ તૃતીય આ ત્રણેય સાલારજંગે હૈદરાબાદના નિઝામોના વડાપ્રધાન તરીકે સેવા આપી હતી. આ સુંદર ફોટોફ્રેમ ભારતની છે અને ઈસવીસનની 20મી સદીની હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 92</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "./audio/hindi-%E0%A4%AA%E0%A4%B0%E0%A4%A6%E0%A5%87%20%E0%A4%95%E0%A5%87%20%E0%A4%86%E0%A4%95%E0%A4%BE%E0%A4%B0%20%E0%A4%95%E0%A4%BE%20%E0%A4%AB%E0%A5%8B%E0%A4%9F%E0%A5%8B%20%E0%A4%AB%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%AE.wav",
+  "english": "./audio/hindi-%E0%A4%AA%E0%A4%B0%E0%A4%A6%E0%A5%87%20%E0%A4%95%E0%A5%87%20%E0%A4%86%E0%A4%95%E0%A4%BE%E0%A4%B0%20%E0%A4%95%E0%A4%BE%20%E0%A4%AB%E0%A5%8B%E0%A4%9F%E0%A5%8B%20%E0%A4%AB%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%AE.wav",
+  "telugu": "./audio/Telugu_Screen%20Shaped%20Photo%20Frame_Female.wav",
+  "tamil": "./audio/tam-Screen%20Shaped%20Photo%20Frame.wav",
+  "marathi": "./audio/mar-Screen%20Shaped%20Photo%20Frame.wav",
+  "malayalam": "",
+  "kannada": "./audio/kannada-Acc%20No%20XLIX-1636%20Screen%20Shaped%20Photo%20Frame%20-.wav",
+  "odia": "./audio/odia-Acc%20No%20XLIX-1636%20Screen%20Shaped%20Photo%20Frame.wav",
+  "bengali": "./audio/bengali-ScreenShapedPhotoFrame.wav",
+  "urdu": "./audio/urdu-Screen%20Shaped%20Photo%20Frame.wav",
+  "gujarati": "./audio/guj-Screen%20Shaped%20Photo%20Frame.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

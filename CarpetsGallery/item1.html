@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carpets Gallery - Item 1 | Salar Jung Museum</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="index.html" class="logo logoTwo"><img src="images/logo-moc.png" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="images/logo-anu.png" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >1. फ़ारसी कालीन</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="1. फ़ारसी कालीन">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XXVI-1</p>
+        <p >मखमली सतह वाला प्रार्थना कालीन, जिसके मध्य भाग में फूलदान और पुष्प पौधों के डिज़ाइन बने हुए हैं। पुष्प आकृतियों के चारों ओर पाँच किनारियाँ (बॉर्डर) हैं। प्रमुख रंग नीला, लाल, हरा और सफेद हैं। इसमें कुल पाँच किनारियाँ हैं। यह 19वीं शताब्दी का है और इसका उद्गम फ़ारस (पर्शिया) से हुआ है। फ़ारसी गलीचे और कालीन विभिन्न प्रकारों में एक साथ बुने जाते थे — घुमंतू जनजातियों, गाँवों और नगरों की कार्यशालाओं, तथा शाही दरबार के निर्माण केन्द्रों द्वारा। इस प्रकार, ये विविध और समानांतर परंपराओं का प्रतिनिधित्व करते हैं तथा ईरान के इतिहास, फ़ारसी संस्कृति और वहाँ के विभिन्न समुदायों को प्रतिबिंबित करते हैं। हालाँकि “फ़ारसी कालीन” शब्द का उपयोग आमतौर पर ढेर-बुने हुए वस्त्रों के लिए किया जाता है, परंतु इसमें सपाट-बुने हुए कालीन और गलीचे भी शामिल हैं, जैसे किलिम प्रिंट, सौमक तकनीक, और सुज़ानी जैसे कढ़ाईदार वस्त्र।</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >۱. ایرانی قالین</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="۱. ایرانی قالین">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >یہ مخملی نماز کا قالین ہے، جس کے درمیان میں گلدان اور پھولوں کے پودے کے نقش و نگار ہیں۔ گھیر میں پانچ بارڈر ہیں جو پھولوں کے نقش و نگار کے اردگرد بنائے گئے ہیں۔ نمایاں رنگ نیلا، سرخ، سبز اور سفید ہیں۔ یہ قالین انیسویں صدی کاہے اور اس کی ابتداء ایران سے ہوئی۔ ایرانی قالین اور غالیچہ مختلف اقسام میں دیہاتی قبیلوں، گاؤں اور شہر کی ورکشاپس، اور شاہی دربار کے کارخانوں میں بیک وقت بنائے جاتے تھے۔اس طرح یہ قالین متنوع اور ہم عصر روایات کی نمائندگی کرتے ہیں اور ایران کی تاریخ، فارسی ثقافت، اور مختلف عوام کی عکاسی کرتے ہیں۔ اگرچہ ایرانی قالین کی اصطلاح عام طور پر اون والے قالین کے لیے  استعمال ہوتی ہے، تاہم اس میں ہموار بنائے ہوئے قالین اور گلیچے بھی شامل ہیں، جیسے کیلیم پرنٹ، سومک تکنیک، اور سوزانی کڑھائی دار کپڑے،</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >۱. ایرانی قالین</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="۱. ایرانی قالین">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >یہ مخملی نماز کا قالین ہے، جس کے درمیان میں گلدان اور پھولوں کے پودے کے نقش و نگار ہیں۔ گھیر میں پانچ بارڈر ہیں جو پھولوں کے نقش و نگار کے اردگرد بنائے گئے ہیں۔ نمایاں رنگ نیلا، سرخ، سبز اور سفید ہیں۔ یہ قالین انیسویں صدی کاہے اور اس کی ابتداء ایران سے ہوئی۔ ایرانی قالین اور غالیچہ مختلف اقسام میں دیہاتی قبیلوں، گاؤں اور شہر کی ورکشاپس، اور شاہی دربار کے کارخانوں میں بیک وقت بنائے جاتے تھے۔اس طرح یہ قالین متنوع اور ہم عصر روایات کی نمائندگی کرتے ہیں اور ایران کی تاریخ، فارسی ثقافت، اور مختلف عوام کی عکاسی کرتے ہیں۔ اگرچہ ایرانی قالین کی اصطلاح عام طور پر اون والے قالین کے لیے  استعمال ہوتی ہے، تاہم اس میں ہموار بنائے ہوئے قالین اور گلیچے بھی شامل ہیں، جیسے کیلیم پرنٹ، سومک تکنیک، اور سوزانی کڑھائی دار کپڑے،</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">۱. ایرانی قالین</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="۱. ایرانی قالین">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p dir="rtl" style="text-align:right;">یہ مخملی نماز کا قالین ہے، جس کے درمیان میں گلدان اور پھولوں کے پودے کے نقش و نگار ہیں۔ گھیر میں پانچ بارڈر ہیں جو پھولوں کے نقش و نگار کے اردگرد بنائے گئے ہیں۔ نمایاں رنگ نیلا، سرخ، سبز اور سفید ہیں۔ یہ قالین انیسویں صدی کاہے اور اس کی ابتداء ایران سے ہوئی۔ ایرانی قالین اور غالیچہ مختلف اقسام میں دیہاتی قبیلوں، گاؤں اور شہر کی ورکشاپس، اور شاہی دربار کے کارخانوں میں بیک وقت بنائے جاتے تھے۔اس طرح یہ قالین متنوع اور ہم عصر روایات کی نمائندگی کرتے ہیں اور ایران کی تاریخ، فارسی ثقافت، اور مختلف عوام کی عکاسی کرتے ہیں۔ اگرچہ ایرانی قالین کی اصطلاح عام طور پر اون والے قالین کے لیے  استعمال ہوتی ہے، تاہم اس میں ہموار بنائے ہوئے قالین اور گلیچے بھی شامل ہیں، جیسے کیلیم پرنٹ، سومک تکنیک، اور سوزانی کڑھائی دار کپڑے،</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >১. পারস্য দেশীয় কার্পেট</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="১. পারস্য দেশীয় কার্পেট">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >মখমলের মসৃণ તલે তৈরি একটি প্রার্থনা গালিચા বা কার্পেট, যার ঠিক মাঝখানে রয়েছে একটি অলংকৃত ফুলদানি ও পুষ্পશોભિત বৃক্ষের নকશા। এই কেন্দ্রীয় নকશાটিকে ঘিরে রয়েছে শৈল্পিক কারুকার্যখচিত পাঁচটি সুবিন্যস্ত সীমানা। কার্পেটটিতে মূলত নীল, লাল, সবুজ এবং সাদা—এই চারটি রঙের প্রাধান্য লক্ষ্য করা যায়। এই কার্পেটটির চারপাশ ঘিরে রয়েছে পাঁচটি সুবিন্যস্ত সীমানা। এটি ঊনবিংশ শতাব্দীর একটি প্রাচীন নিদর্শন, যার উৎপত্তি হয়েছিল পারস্য থেকে। সেই সময়ে পারস্যের বিভিন্ন ধরনের মাদুর ও কার্পেটগুলো যাযাবর উপজাতি, গ্রাম ও শহরের কর্মશાলা এবং রাজকীয় দরবারের কারখানায় সমানভাবে বোনা হতো। এই শিল্পকর্মগুলো পারস্যের বিવિધ ও সমান্তরাল ঐতিহ্যের প্রতিনিধিত্ব করে এবং ইরানের ইতিহাস, সংস্কৃতি ও তার বৈচিত্র্যময় জনগোষ্ঠীর জীবনবোধকে প্রতিফলিত করে। যদিও 'পারস্য দেশীয় কার্পেট' বলতে মূলত রোঁয়াযুক্ত বা পুরু বুননের বস্ত্রকে বোঝায়, তবে এর মধ্যে সমতল বুননের কার্পেট جیسے— কিলিম প্রিন্ট, সুমাক পদ্ধতি এবং সুজানি-র মতো সূক্ষ্ম সূচিকর্ম বা এমব্রয়ডারি করা বস্ত্রগুলিও অন্তর্ভুক্ত।</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >૧. પર્સિયન જાજમ</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="૧. પર્સિયન જાજમ">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >પ્રાર્થનાના માટેનો કાર્પેટ, મખમલી સપાટી સાથે, જેમાં મધ્યમાં વાસી અને ફૂલવાળા છોડની નકશીઓ છે. ફૂલવાળા ડિઝાઇનોની આસપાસ પાંચ બોર્ડર છે. મુખ્ય રંગો નીલો, લાલ, લીલો અને સફેદ છે. આ કાર્પેટ 19મી સદીનું છે અને તેનું ઉત્પત્તિ પારસ (પર્શિયા)માં થઈ છે. પારસી રગ અને કાર્પેટોના વિવિધ પ્રકારનો નિર્માણ એક સાથે ગામ અને નગરના વર્કશોપમાં ઘુમંતુ કબીલાઓ દ્વારા તેમજ શાહી દરબારમાં કાર્યશાળાઓમાં કરવામાં આવતો. આ રીતે, તેઓ વિવિધ પરંપરાઓના સહસાંમયીક શૃંખલાઓને પ્રતિબિંબિત કરે છે અને ઇરાન, પારસી સંસ્કૃતિ અને તેની વિવિધ જનજાતિઓના ઇતિહાસને દર્શાવે છે. “પારસી કાર્પેટ” શબ્દ સામાન્ય રીતે પાઇલ-વવન (pile-woven) કાપડ માટે વપરાય છે, પરંતુ તેમાં ફ્લેટ-વવન કાર્પેટ અને રગો જેમ કે કિલિમ પ્રિન્ટ, સોમાક ટેકનિક અને સુઝાની જેવી કઢાઇવાળી ટેક્સટાઈલ્સ પણ સામેલ છે.</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >1. ಪರ್ಶಿಯನ್ ಕಾರ್ಪೆಟ್</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="1. ಪರ್ಶಿಯನ್ ಕಾರ್ಪೆಟ್">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >ಮಧ್ಯದಲ್ಲಿ ಹೂದಾನಿ ಮತ್ತು ಹೂವಿನ ಗಿಡಗಳ ವಿನ್ಯಾಸಗಳನ್ನು ಹೊಂದಿರುವ, ವೆಲ್ವೆಟ್ ಮೇಲ್ಮೈಯಿಂದ ಕೂಡಿದ ಅದ್ಭುತವಾದ ಪ್ರಾರ್ಥನಾ ರತ್ನಗಂಬಳಿ ಇದಾಗಿದೆ. ಈ ಹೂವಿನ ವಿನ್ಯಾಸಗಳ ಸುತ್ತಲೂ ഐದು ಸುಂದರವಾದ ಅಂಚುಗಳನ್ನು ಇದು ಹೊಂದಿದೆ. ಇದರಲ್ಲಿ ನೀಲಿ, ಕೆಂಪು, ಹಸಿರು ಮತ್ತು ಬಿಳಿ ಬಣ್ಣಗಳು ಪ್ರಮುಖವಾಗಿ ಎದ್ದು ಕಾಣುತ್ತವೆ. ಪರ್ಷಿಯಾ ದೇಶದಲ್ಲಿ ರೂಪುಗೊಂಡಿರುವ ಈ ರತ್ನಗಂಬಳಿಯು 19ನೇ ಶತಮಾನದಷ್ಟು ಹಳೆಯದಾಗಿದೆ. ವಿವಿಧ ಬಗೆಯ ಈ ಪರ್ಷಿಯನ್ ರತ್ನಗಂಬಳಿಗಳು ಮತ್ತು ಜಮಖಾನೆಗಳನ್ನು ಅಲೆಮಾರಿ ಬುಡಕಟ್ಟು ಜನಾಂಗದವರು, ಹಳ್ಳಿ ಹಾಗೂ ಪಟ್ಟಣದ ಕಾರ್ಯಾಗಾರಗಳಲ್ಲಿ, ಮತ್ತು ರಾಜಮನೆತನದ ಕಾರ್ಖಾನೆಗಳಲ್ಲಿಯೂ ಏಕಕಾಲದಲ್ಲಿ ನೇಯುತ್ತಿದ್ದರು. ಹಾಗಾಗಿ, ಇವು ವಿವಿಧ ಹಾಗೂ ಸಮಕಾಲೀನ ಸಂಪ್ರದಾಯಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತವೆ, ಜೊತೆಗೆ ಇರಾನ್ ದೇಶದ ಇತಿಹಾಸ, ಪರ್ಷಿಯನ್ ಸಂಸ್ಕೃತಿ ಮತ್ತು ಅಲ್ಲಿನ ವೈವಿಧ್ಯಮಯ ಜನರನ್ನು ಬಿಂಬಿಸುತ್ತವೆ. "ಪರ್ಷಿಯನ್ ರತ್ನಗಂಬಳಿ" ಎಂಬ ಪದವು ಸಾಮಾನ್ಯವಾಗಿ ರಾಶಿ-ನೇಯ್ದ ಜವಳಿಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆಯಾದರೂ, ಇದು ಕಿಲಿಮ್ ಮುದ್ರಣದಂತಹ ಚಪ್ಪಟೆ-ನೇಯ್ದ ಜಮಖಾನೆಗಳು, ಸೌಮಕ್ ತಂತ್ರ, ಹಾಗೂ ಸುಜಾನಿ ಯಂತಹ ಕಸೂತಿ ಬಟ್ಟೆಗಳನ್ನೂ ಸಹ ಒಳಗೊಂಡಿದೆ.</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >୧. ପାର୍ସିଆ ଗାଲିଚା</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="୧. ପାର୍ସିଆ ଗାଲିଚା">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >ମଖମଲ ପୃଷ୍ଠ ସହିତ ପ୍ରାର୍ଥନା କାର୍ପେଟ୍ ଯାହା ମଝିରେ ଫୁଲଦାନୀ ଏବଂ ଫୁଲ ଗଛ ଡିଜାଇନ୍ ଅଛି। ଫୁଲ ଡିଜାଇନ୍ ଚାରିପାଖରେ ପାଞ୍ଚଟି ସୀମା। ପ୍ରମୁଖ ରଙ୍ଗ ହେଉଛି ନୀଳ, ଲାଲ, ସବୁଜ ଏବଂ ଧଳା। ଏହାର ଚାରିପାଖରେ ପାଞ୍ଚଟି ସୀମା ଅଛି। ଏହା 19 ଶତାବ୍ଦୀର। ଏହା ପାରସ୍ୟରୁ ଉତ୍ପତ୍ତି ହୋଇଛି। ଗ୍ରାମ ଏବଂ ସହର କର୍ମଶାଳାରେ ଯାଯାବର ଜନଜାତି ଏବଂ ରାଜ ଦରବାର କାରଖାନା ଦ୍ୱାରା ସମାନ୍ତରାଳ ଭାବରେ ପାରସ୍ୟ ଗାଲିଚା ଏବଂ ବିଭିନ୍ନ ପ୍ରକାରର କାର୍ପେଟ୍ ବୁଣାଯାଇଥିଲା। ଏହିପରି, ସେମାନେ ବିବିଧ, ଏକକାଳୀନ ପରମ୍ପରାର ରେଖା ପ୍ରତିନିଧିତ୍ୱ କରନ୍ତି ଏବଂ ଇରାନ, ପାରସ୍ୟ ସଂସ୍କୃତି ଏବଂ ଏହାର ବିଭିନ୍ନ ଲୋକଙ୍କ ଇତିହାସକୁ ପ୍ରତିଫଳିତ କରନ୍ତି। ଯଦିଓ "ପାରସ୍ୟ କାର୍ପେଟ୍" ଶବ୍ଦଟି ଗଦା - ବୁଣା ବସ୍ତ୍ର, ଫ୍ଲାଟ-ବୁଣା କାର୍ପେଟ୍ ଏବଂ କିଲିମ୍ ପ୍ରିଣ୍ଟ୍ ପରି ଗାଲିଚା, ସୌମାକ୍ କୌଶଳ ଏବଂ ସୁଜାନି ପରି କାରିଗରୀ ତନ୍ତୁକୁ ବୁଝାଏ।</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >۱. ایرانی قالین</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="۱. ایرانی قالین">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >یہ مخملی نماز کا قالین ہے، جس کے درمیان میں گلدان اور پھولوں کے پودے کے نقش و نگار ہیں۔ گھیر میں پانچ بارڈر ہیں جو پھولوں کے نقش و نگار کے اردگرد بنائے گئے ہیں۔ نمایاں رنگ نیلا، سرخ، سبز اور سفید ہیں۔ یہ قالین انیسویں صدی کاہے اور اس کی ابتداء ایران سے ہوئی۔ ایرانی قالین اور غالیچہ مختلف اقسام میں دیہاتی قبیلوں، گاؤں اور شہر کی ورکشاپس، اور شاہی دربار کے کارخانوں میں بیک وقت بنائے جاتے تھے۔اس طرح یہ قالین متنوع اور ہم عصر روایات کی نمائندگی کرتے ہیں اور ایران کی تاریخ، فارسی ثقافت، اور مختلف عوام کی عکاسی کرتے ہیں۔ اگرچہ ایرانی قالین کی اصطلاح عام طور پر اون والے قالین کے لیے  استعمال ہوتی ہے، تاہم اس میں ہموار بنائے ہوئے قالین اور گلیچے بھی شامل ہیں، جیسے کیلیم پرنٹ، سومک تکنیک، اور سوزانی کڑھائی دار کپڑے،</p>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >۱. ایرانی قالین</h2>
+      <div class="booImgDiv">
+        <img src="images/item1.jpg" width="100%" alt="۱. ایرانی قالین">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XXVI-1</p>
+        <p >یہ مخملی نماز کا قالین ہے، جس کے درمیان میں گلدان اور پھولوں کے پودے کے نقش و نگار ہیں۔ گھیر میں پانچ بارڈر ہیں جو پھولوں کے نقش و نگار کے اردگرد بنائے گئے ہیں۔ نمایاں رنگ نیلا، سرخ، سبز اور سفید ہیں۔ یہ قالین انیسویں صدی کاہے اور اس کی ابتداء ایران سے ہوئی۔ ایرانی قالین اور غالیچہ مختلف اقسام میں دیہاتی قبیلوں، گاؤں اور شہر کی ورکشاپس، اور شاہی دربار کے کارخانوں میں بیک وقت بنائے جاتے تھے۔اس طرح یہ قالین متنوع اور ہم عصر روایات کی نمائندگی کرتے ہیں اور ایران کی تاریخ، فارسی ثقافت، اور مختلف عوام کی عکاسی کرتے ہیں۔ اگرچہ ایرانی قالین کی اصطلاح عام طور پر اون والے قالین کے لیے  استعمال ہوتی ہے، تاہم اس میں ہموار بنائے ہوئے قالین اور گلیچے بھی شامل ہیں، جیسے کیلیم پرنٹ، سومک تکنیک، اور سوزانی کڑھائی دار کپڑے،</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "audio/Hindi/1.%20Carpet%20%E0%A4%AB%E0%A4%BC%E0%A4%BE%E0%A4%B0%E0%A4%B8%E0%A5%80%20%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%A8.mp3",
+  "english": "",
+  "telugu": "",
+  "urdu": "audio/urdu/1.%20XXVI%20-%201%20%E0%A4%AB%E0%A4%BC%E0%A4%BE%E0%A4%B0%E0%A4%B8%E0%A5%80%20%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A5%80%E0%A4%A8%20urdu.wav",
+  "bengali": "audio/Bengali/PERSIAN%20CARPET.wav",
+  "gujarati": "audio/Gujrati/XXVI-1%20Persian%20Carpet.wav",
+  "kannada": "audio/Kannada/1.%20XXVI%20-%201%20PERSIA%20CARPET%20-.wav",
+  "odia": "audio/odia/1.%20XXVI%20-%201_%20PERSIAN%20CARPET.mp3",
+  "marathi": "",
+  "malayalam": ""
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>
