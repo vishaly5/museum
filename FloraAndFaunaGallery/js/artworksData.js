@@ -590,63 +590,63 @@ window.galleryItems = {
                         "badge":  "1. XL - 8",
                         "title":  "1. XL - 8: Figure of a Nandi",
                         "desc":  "A stone figure of Nandi, with a small Shivalinga installed before Nandi on the same base. A small bell is tied around the neck. The figure demonstrates a remarkable mastery of sculpture. Nandi is also called Nandikeshwara or Nandideva. Nandi is the mount (vahana) of the Hindu deity Lord Shiva. Almost all Shiva temples have stone images of a seated Nandi, usually facing the main sanctum. In the Agamas, Nandi is described in a zoanthropomorphic form, with the head of a bull and four arms in which he holds a deer, an axe and a mace, and shows the abhaya mudra. In his form as a mount, Nandi is depicted throughout Shiva temples as a seated bull. It originated in India and dates from the 16th century.",
-                        "audioSrc":  "audio/Hindi/1. Flora एक नंदी की आकृति.mp3"
+                        "audioSrc":  "audio/english/1. XL-8 FIGURE OF A NANDI.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-ite21.png",
                         "badge":  "2. XXII - 534",
                         "title":  "2. XXII - 534: Decorative Piece",
                         "desc":  "Animals carved on tamarind seeds. Seven half tamarind seeds have been carved — two elephants, a horse, a lion, a tiger, a camel and a dog. A decorative piece showing a tree form made of ivory, set upon an oval wooden base. This oval wooden base carries a carved border of creepers. Two lions are attached to the base. These lions are black in colour and hold their tails raised over their backs. This decorative piece is made of ivory and wood and displays the remarkable craftsmanship of the artist. This decorative piece is from India and dates from the 20th century.",
-                        "audioSrc":  "audio/Hindi/2 सजावटी वस्तु.wav"
+                        "audioSrc":  "audio/english/2. XXII-534 DECORATIVE PIECE.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-item3.png",
                         "badge":  "3. XLIII - 59",
                         "title":  "3. XLIII - 59: Mahatma Gandhi",
                         "desc":  "A walking figure of Gandhiji standing on a black pedestal (made of plaster of Paris). In his right hand is a stick, black in colour. With his left hand he holds the edge of his shawl. A watch is fixed to the cloth at his waist. This figure of Gandhiji originated in India. The figure dates from the 20th century. Mohandas Karamchand Gandhi, known as the Mahatma, was a leading figure of India's freedom movement. He advocated non-violent resistance and inspired movements for social justice worldwide. In colonial India, Gandhi is regarded as the Father of the Nation. Mahatma Gandhi's contribution through his non-violent movements against British rule was of the greatest importance. He is remembered always for his commitment to non-violence, self-reliance and social equality.",
-                        "audioSrc":  "audio/Hindi/3. Flora महात्मा गाँधी.mp3"
+                        "audioSrc":  "audio/english/3. XLIII-59 MAHATHMA GANDHI.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-item4.png",
                         "badge":  "4. XLII - 40",
                         "title":  "4. XLII - 40: Cow, Calf and the Boy Krishna",
                         "desc":  "This carved figure is of a cow, with the boy Krishna shown on the right and the calf on the left. The calf is drinking milk from one of the cow's teats and Krishna holds the cow's udder with his right hand. This figure of the cow, Krishna and the calf is regarded as a powerful symbol in Hinduism, expressing Krishna's divine role as a cowherd — nurturing and protecting his devotees. Krishna is often called \"Govinda\" or \"Gopala\", meaning protector of cows, which highlights his love and care for these animals. Cows are also regarded as a symbol of wealth and of life-giving milk. In this way, Krishna's association with cows symbolises prosperity and abundance. This marble figure of the cow is from India and dates from the 20th century.",
-                        "audioSrc":  "audio/Hindi/4. Flora गाय, बछड़ा और बालकृष्ण.mp3"
+                        "audioSrc":  "audio/english/4. XLII-40 COW, CALF AND THE BOY KRISHNA.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-item5.png",
                         "badge":  "5. MS - 4556",
                         "title":  "5. MS - 4556: Vase",
                         "desc":  "A round earthenware vase in green and black, with palm leaves and leafy designs raised around its neck. It depicts a crocodile advancing towards an African girl. The African girl holds a small pot in her right hand. The girl wears a yellow and orange garment, a golden necklace around her neck and golden bangles on her right arm. Eight fruits are formed near the crocodile's head. The crocodile's tail touches the neck of the vase. The lower part of the crocodile's snout is orange. This vase is from France and is made of clay. This vase dates from the 20th century.",
-                        "audioSrc":  "audio/Hindi/5. Flora फूलदान.mp3"
+                        "audioSrc":  "audio/english/5. MS-4556 VASE.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-item6.png",
                         "badge":  "6. LXXVII - 349",
                         "title":  "6. LXXVII - 349: Paper Stand",
                         "desc":  "This paper stand is made of mother of pearl. It holds an ink bottle. Six calico shells are fitted to it. The four calico shells at the front are cream in colour and the two at the back are brown. Sea scenes are painted on these calico shells. One carries a sail boat and another a large ship. The sails of the boat are brown and the ship is black. Smoke is shown issuing from the pipe above the ship. An ink bottle with a black lid is placed before the calico shells. The sea is painted in blue. This mother of pearl paper stand displays the beautiful workmanship of the artist. This mother of pearl paper stand is from India and dates from the 20th century.",
-                        "audioSrc":  "audio/Hindi/6. Flora कागज़ रखने का स्टैंड.mp3"
+                        "audioSrc":  "audio/english/6. LXXVII-349 PAPER STAND.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-item7.png",
                         "badge":  "7. ACQ - 62 - 211- 3",
                         "title":  "7. ACQ - 62 - 211- 3: Ten Miniature Birds",
                         "desc":  "Of these ten birds, four are perched on the summits of hills. Miniature painting refers to small, fine and detailed works of art, usually pictures or illustrations. Their size is generally no larger than 25 square inches and they are made on canvas. Miniature painting is characterised by its small size and minute detail, which demands a high level of skill and mastery. Traditionally they were made on materials such as vellum, prepared cardboard, copper or ivory with the help of fine brushes and colours. In the Indian subcontinent this kind of painting arose in the 10th century. Miniature painting is still practised today as a beautiful fine art. Artists continue it while exploring various styles and techniques, and it is also a popular hobby for many. This art is believed to have originated in India and its history extends to the 20th century.",
-                        "audioSrc":  "audio/Hindi/7 दस लघु पक्षी.wav"
+                        "audioSrc":  "audio/english/7. ACQ-62-211-3 TEN MINIATURE BIRDS.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-item8.png",
                         "badge":  "8. VII - 27",
                         "title":  "8. VII - 27: Varieties of Birds",
                         "desc":  "A watercolour painting on cloth, showing various kinds of birds perched on the branch of a tree. The picture is framed, and a white horn nest is shown outside the bird's left foot. Watercolour is the technique in which pigments are dissolved in a water-based solution and applied to a surface (usually paper) with the help of a brush. It is known for its luminosity and transparent colours. It uses finely ground pigments, often obtained from natural sources such as minerals, resins or vegetables. Gum arabic is a common binder, which disperses the pigments and helps them adhere to the surface. Watercolour is usually applied to white paper, though parchment is sometimes used as well. Watercolour art began in Europe with the cave paintings of the Palaeolithic period and has been used for manuscript illustration at least since Egyptian times. This painting is from Japan and dates from the 19th century.",
-                        "audioSrc":  "audio/Hindi/8 पक्षियों की विविधताएँ.wav"
+                        "audioSrc":  "audio/english/8. VII-27 VARIETIES OF BIRDS.wav"
                     },
                     {
                         "image":  "images/flora-and-fauna-item9.png",
                         "badge":  "9. LXXVII - 99",
                         "title":  "9. LXXVII - 99: Conch",
                         "desc":  "A conch carved with a woman riding in a chariot. Three women stand before the chariot and one behind it. The chariot is driven by two women, the one in front blowing a bugle and the one behind holding a spear on her right shoulder. This rare, exquisite and finely carved large conch was made in England. The conch is regarded as an important symbol in the rituals of both Hinduism and Buddhism. In the Hindu tradition the conch is held to be either the trumpet of Vishnu or an arghya vessel (a vessel for offering water). During the 11th century a tradition of intricate carving on conches is seen in northern India. The conch is regarded as a symbol of power, authority and divine connection. This conch dates from the 20th century.",
-                        "audioSrc":  "audio/Hindi/9. Flora शंख.mp3"
+                        "audioSrc":  "audio/english/9. LXXVII-99 CONCH.wav"
                     }
                 ]
 };

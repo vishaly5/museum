@@ -35,21 +35,21 @@ window.galleryItems = {
       badge: "Acc No: LXXII-5",
       title: "1. Man Carrying a Child",
       desc: "A French African figure — a man carries his child on his left shoulder and holds a platter of fruit in his right hand. His right leg is bent slightly backwards. His short garment is decorated in gold and he wears a crown (wreath) with a leafy border on his head. Below the waist he wears a yellow cloth. The child seated on his left shoulder carries a small round basket on its head and is dressed in yellow as well. The figure is made of wood. It originates from France and dates to the 19th century.",
-      audioSrc: ""
+      audioSrc: "audio/English/1. LXXII - 5 MAN HOLDING A CHILD.wav"
     },
     {
       image: "images/item2.jpg",
       badge: "Acc No: LXXII-10",
       title: "2. African Man with a Cigar",
       desc: "A male figure is seated on a wooden chair. He wears a smart, modern brown English blazer. A cigarette rests in his mouth and his hands are held in a reading posture. His head is tilted slightly to the right and he wears a grey hat. His left leg is crossed over the right. This seated male figure is made of bronze. The bronze sculpture is from France. The term “French African” refers to the various forms of the French language spoken in Africa. The figure dates to the 19th century.",
-      audioSrc: ""
+      audioSrc: "audio/English/2. LXXII - 10  AFRICAN FIGURE WITH A CIGAR.wav"
     },
     {
       image: "images/item3.jpg",
       badge: "Acc No: LXXII-12",
       title: "3. French African Woman",
       desc: "Mounted on a pedestal is the figure of a French African woman wearing a short belted dress decorated in gold and floral colours. She holds a lamp (light holder) in her left hand while her right hand rests on a column. She wears a golden hat topped with a crescent moon, and she gazes towards the lamp in her left hand. She stands on a green pedestal carved with fine floral work. The figure is made of wood. This wooden sculpture is from France and was made in the 19th century.",
-      audioSrc: ""
+      audioSrc: "audio/English/3. LXXII - 12 FRENCH AFRICAN LADY.wav"
     }
   ],
 

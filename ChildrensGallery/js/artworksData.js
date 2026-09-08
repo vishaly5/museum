@@ -724,63 +724,63 @@ window.galleryItems = {
       "badge": "1. ACQ - 66 - 30",
       "title": "1. ACQ - 66 - 30: Japanese Rubber Toy",
       "desc": "A figure of a standing Japanese woman, a “Maiko”, holding an umbrella in both hands. Across her chest is a belt-like ornament of pink beads. She wears a garment patterned with flowers, and floral ornaments hang from her head. “Maiko” means an “apprentice geisha girl” of Kyoto. They are required to learn Japanese dance, which is why they are called “Maiko” — “mai” meaning “dance” and “ko” meaning “girl”. Geisha dolls represent the elegant Japanese women who entertain through dance, song, conversation and other arts. The costume of each Japanese geisha doll is made from silk with great care and resembles the kimono worn by real Japanese geisha. All our Japanese geisha dolls stand upon a black wooden base, which gives them a most attractive and high-quality appearance. These dolls were presented as a gift to the Salar Jung Museum by the Government of Japan in March 1966.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/1. ACQ-66-30  JAPANESE TOY.wav"
     },
     {
       "image": "images/childrensgallery-item2.png",
       "badge": "2. CS - I - 302",
       "title": "2. CS - I - 302: Ganesha on a Mouse",
       "desc": "A porcelain figure of Lord Ganesha with four arms, seated upon a mouse. His upper garment is red. This figure was made in India and dates to the 20th century. Lord Ganesha is usually shown riding the mouse, which is his vehicle. The mouse symbolises the restless mind, desires, and the ability to find a way through difficult situations. There is also a story behind Lord Ganesha's choice of the mouse as his vehicle. Ganesha has the power to turn negativity into positivity, and so he chose the mouse as his mount. Ganesha is the elephant-headed god of Hinduism. He is the son of Lord Shiva and Goddess Parvati. Ganesha is among the most popular and widely worshipped deities in Hinduism. According to Hindu tradition, Ganesha is the god of wisdom, wealth, success and auspicious beginnings.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/2. CS-I-302 GANESHA ON MUSHIKA.wav"
     },
     {
       "image": "images/childrensgallery-item3.png",
       "badge": "3. CS - I - 305",
       "title": "3. CS - I - 305: Padmasambhava",
       "desc": "A painted porcelain figure of the crowned deity Padmasambhava, seated upon a lotus. It is a Dao-sect figure with ten arms, each hand holding a different symbolic object. The figure is dressed in colourful flowing robes and is set upon a lotus base rising above waves. Padmasambhava is a major figure of Tantric Buddhism, renowned for the skilful use of tantric practices and rituals. In Tibetan Buddhism, Padmasambhava is venerated with great devotion and is considered one of the founding fathers of the religion in Tibet. Padmasambhava played a vital role in establishing and consolidating Buddhism in Tibet. He is said to have been born from a lotus flower — a symbol commonly used in Buddhist art and literature. Padmasambhava is a central figure of Tibetan culture, and his statues, paintings and other artistic forms are found throughout Tibet. This figure originates from Japan and dates to the 19th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/3. CS-I-305 PADMASAMBHAVA.wav"
     },
     {
       "image": "images/childrensgallery-item4.png",
       "badge": "4. CS - I - 812",
       "title": "4. CS - I - 812: Figure of a Dwarf",
       "desc": "This is a figure of “Doc”, one of the seven dwarfs. He is seated on a tree stump with his left hand resting on his waist. He wears a green cap, a white shirt and black shoes, with a black belt and a yellow buckle at his waist. The seven dwarfs are characters from the Disney animated film “Snow White and the Seven Dwarfs”. Their names are Doc, Grumpy, Bashful, Sleepy, Sneezy, Happy and Dopey. Each has his own distinct personality. They live in a small cottage and work in a diamond mine, and they are known for their kindness and for welcoming Snow White. Doc is the leader of the group — wise and sensible. Grumpy is the most irritable dwarf. Bashful is the shyest and most romantic. Sleepy is always tired and drowsy. Sneezy is the dwarf named not for his personality but for his ailment, his habit of sneezing. Happy is the most cheerful and good-humoured. Dopey is the smallest, clumsiest, mute and beardless dwarf. They originate from Germany and this figure dates to the 20th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/4. CS-I-812 FIGURE OF DWARF.wav"
     },
     {
       "image": "images/childrensgallery-item5.png",
       "badge": "5. CS - II - 656",
       "title": "5. CS - II - 656: Boat",
       "desc": "A gilded miniature model of a warship, with three masts, two soldiers, five cannons, four rudders, and three masks on the other side. At one end are flags and standards bearing Chinese inscriptions within four circular medallions. The ship is mounted on a carved wooden base. These warships are a type of traditional Chinese vessel. They are characterised by a flat bottom, a central rudder, and usually a flat transom. They were generally used for carrying goods, for pleasure boating, or as houseboats on rivers and coastal waters. Such vessels were designed specifically for river navigation, international trade, exploratory voyages and even naval warfare. Even today they are used in various parts of Asia for fishing, trade and tourism. This miniature warship is made of silver. This Chinese model warship dates to the 20th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/5. CS-II-656 BOAT.wav"
     },
     {
       "image": "images/childrensgallery-item6.png",
       "badge": "6. CS - IV - 346",
       "title": "6. CS - IV - 346: Miniature Harp",
       "desc": "This miniature model of a harp has six strings. The edges of its body are made of ivory. At the top of the front rod is a bird made of ivory, and at the back is a carved ivory bird's head. The body is covered with moulded plastic sheet in ochre and burnt sienna. The sound-producing part is its strings, made of nylon, steel or sometimes animal gut. The musician plucks these strings with the fingers, and sometimes holds the bow upside down and plays the strings with its wooden handle. The strings are ordinarily sounded by drawing the bow across them. This miniature harp is made of ivory and wood. It belongs to Europe and dates to the 20th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/6. CS-IV-346 MINIATURE HARP.wav"
     },
     {
       "image": "images/childrensgallery-item7.png",
       "badge": "7. CS - IV - 531",
       "title": "7. CS - IV - 531: Court Scene",
       "desc": "A court scene carved in wood. An official is seated on a chair with a table before him, two assistants standing on either side of him and four guards. Two accused men are placed before the official, one with a wooden board around his neck and the other with wooden boards on both hands. This carving originated in China and dates to the 20th century. The carving in wood reflects Chinese religious belief. Indians hold a similar belief — that those who do good to human beings and animals are taken to heaven after death, while those who do evil deeds are punished in hell. The offenders are shown suffering different punishments in hell for their different sins.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/7. CS-IV-531 COURT SCENE.wav"
     },
     {
       "image": "images/childrensgallery-item8.png",
       "badge": "8. III - 71",
       "title": "8. III - 71: Figure of the Laughing Buddha",
       "desc": "An old porcelain figure showing the Laughing Buddha seated at large size, with five children seated on his hands, shoulders and lap. It is painted in various colours. Feel the power of this splendid, many-coloured figure of the Laughing Buddha, a symbol of prosperity, good fortune and a happy family life. Holding beads, this figure is also believed to have the power to calm and guide children. It originated in China and dates to the 19th century. The Laughing Buddha is regarded in Buddhist and Taoist traditions as a symbol of happiness and good fortune. He is often depicted with a large protruding belly and a smiling face.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/8.  III-71 STATUE OF LAUGHING BUDDHA.wav"
     },
     {
       "image": "images/childrensgallery-item9.png",
       "badge": "9. LXX - 214",
       "title": "9. LXX - 214: Wedding Procession Scene",
       "desc": "A wedding procession is a ceremonial parade in which the groom, together with his companions, family and friends, travels festively towards the wedding venue. Here the groom is shown with thirty-four figures upon a wooden board. The groom rides a horse. The wedding procession is an important part of the marriage celebration, often involving music, dance, fireworks and pageantry, symbolising the groom's journey to meet his bride and the union of two families. The procession moves from the groom's residence towards the wedding venue, which is often at the home of the bride's family. Many cultures have their own distinctive traditions and customs connected with the wedding procession, reflecting their beliefs and values.",
-      "audioSrc": ""
+      "audioSrc": "audio/english/9. LXX-214 PROCESSION SCENE.wav"
     }
   ]
 };
