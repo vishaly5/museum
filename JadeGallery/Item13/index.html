@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 13 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="../images/logo-moc.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="../images/logo-anu.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >13. सम्राट जहाँगीर की शिकार की छुरी</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. सम्राट जहाँगीर की शिकार की छुरी" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-311</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">मटन की चर्बी जैसे रंग के जेड पत्थर के मूठ वाली यह शिकार की छुरी लाल, हरे और रंगहीन पत्थरों से जड़ी हुई है। मूठ पर फूलों और पत्तियों की आकृतियाँ उकेरी गई हैं और इसे सोने में जड़ा गया है। इसमें जेड की एक लटकन लगी है, जिसे सोने से सजाया गया है। छुरी के ऊपरी भाग और धार के कुंद किनारे पर फूलों और बेलों की आकृतियाँ सोने से बहुत बारीकी से बनाई गई हैं। ब्रोकेड से म्यान को सजाया गया है। म्यान पर मीनाकारीयुक्त सोने की पट्टी और धातु की टोपी लगी है, जिसमें लाल, हरे और रंगहीन पत्थरों जड़े हैं। ऊपरी भाग में लटकन को पकड़ने के लिए जेड की एक अंगूठी और म्यान की पट्टी पर सोने की एक अंगूठी लगी है। यह शिकार की छुरी मुगल सम्राट जहाँगीर की मानी जाती है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >13. Knife of Emperor Jahangir</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. Knife of Emperor Jahangir" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A hunting knife with a mutton-fat jade hilt inlaid with red, green, and uncoloured stones in floral patterns. The blade spine is delicately gold-inlaid, paired with a brocade sheath with enamel-decorated gold mounts. Attributed to Mughal Emperor Jahangir.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >13. XLIX-311 :  చక్రవర్తి జహంగీర్ యొక్క కత్తి (కార్డ్)</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. XLIX-311 :  చక్రవర్తి జహంగీర్ యొక్క కత్తి (కార్డ్)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ఎరుపు, ఆకుపచ్చ మరియు రంగులేని రాళ్లతో పొదిగిన, బంగారంలో అమర్చిన పూలు మరియు ఆకుల నమూనాలతో క్లిష్టంగా చెక్కబడిన, గొర్రె కొవ్వుతో చేసిన పచ్చ రాయి పిడి గల వేట కత్తి. ఈ వస్తువుకు బంగారంలో పొదిగిన, దానికి సరిపోయే పచ్చ రాయి కుచ్చు ఉంది. కత్తి అంచు యొక్క పై భాగం మరియు మొద్దుబారిన వెనుక భాగం, పూలు మరియు తీగల అరబెస్క్‌లను వర్ణించే బంగారు తీగతో సున్నితంగా పొదగబడి ఉన్నాయి. దీని జరీ వస్త్రంతో కట్టబడిన ఒరకు, దానికి సరిపోయే రాళ్లతో పొదిగిన మీనాకారి (ఎనామెల్ పూత పూసిన) బంగారు పీఠం మరియు పట్టీ అమర్చబడి ఉన్నాయి. కుచ్చును భద్రపరచడానికి పైభాగంలో ఒక పచ్చ రాయి ఉంగరం, దానికి జతగా ఒర పట్టీపై సరిపోయే బంగారు ఉంగరం ఉన్నాయి. ఈ వేట కత్తి మొఘల్ చక్రవర్తి జహంగీర్‌కు చెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >13. ஜஹாங்கீர் சக்கரவர்த்தியின் வேட்டைக் கத்தி</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. ஜஹாங்கீர் சக்கரவர்த்தியின் வேட்டைக் கத்தி" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-311</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ஜேட் கைப்பிடி கொண்ட ஜஹாங்கீர் சக்கரவர்த்தியின் வேட்டைக் கத்தி. மலர் மற்றும் இலை வடிவ தங்க வேலைப்பாடுகள் மற்றும் வண்ணக் கற்களால் அலங்கரிக்கப்பட்டது.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >13. आरोपसंख्याः XLIX-311 कार्ड (चाकू) सम्राटजहांगीर</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. आरोपसंख्याः XLIX-311 कार्ड (चाकू) सम्राटजहांगीर" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">फुलेआणिपानेदर्शवण्यासाठीकोरीवकामकरूनसोन्यातबसवलेलेलाल, हिरवेआणिरंगहीनखडेअसलेलीमटणफॅटजेडचीमूठअसलेलाशिकारीकर्द (चाकू), ज्यालासाजेसासोन्यातमढवलेलाजेडचागोंडाजोडलेलाआहे. पात्याच्यावरच्याभागातआणिबोथटकडेवरफुलेआणिवेलींचीनक्षीदर्शवण्यासाठीसोन्याचेनाजूककामकेलेलेआहे. ब्रोकेडने (जरीच्याकापडाने) आच्छादितकेलेल्याम्यानालामीनाकामकेलेलेसोन्याचेआवरणआणिकडीबसवलीअसून, त्यावरसाजेसेलाल, हिरवेआणिरंगहीनखडेजडवलेलेआहेत. गोंडाधरूनठेवण्यासाठीवरच्याबाजूलाजेडचेएककडेअसूनआवरणावरसोन्याचेएककडेआहे. हाशिकारीचाकूसम्राटजहांगीरयांच्यामालकीचाहोता. शब्द = 100</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >13. ജഹാംഗീർ ചക്രവർത്തിയുടെ കാർഡ് (കത്തി)</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. ജഹാംഗീർ ചക്രവർത്തിയുടെ കാർഡ് (കത്തി)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">പൂക്കളെയുംഇലകളെയുംപ്രതിനിധീകരിക്കുന്നരീതിയിൽസ്വർണ്ണത്തിൽകൊത്തിവെച്ച, ചുവപ്പുംപച്ചയുംനിറമില്ലാത്തതുമായകല്ലുകൾപതിപ്പിച്ച, ആട്ടിൻകൊഴുപ്പിന്റെനിറത്തിലുള്ളജേഡ് പിടിപിടിപ്പിച്ചവേട്ടയാടാൻ ഉപയോഗിക്കുന്നകത്തി. സ്വർണ്ണത്തിൽ പതിപ്പിച്ചതും, ഇതിന് അനുയോജ്യമായ രീതിയിൽ സ്വർണ്ണത്തിൽ പൊതിഞ്ഞ ജേഡ് ചെണ്ടോടും കൂടിയതാണ് ഇത്.കത്തിയുടെമുകൾഭാഗത്തുംമൂർച്ചയില്ലാത്തഅരികിലുംപൂക്കളുടെയുംവള്ളികളുടെയുംരൂപങ്ങൾസ്വർണ്ണത്തിൽസൂക്ഷ്മമായികൊത്തിവെച്ചിട്ടുണ്ട്. പട്ടുനൂൽ വസ്ത്രം പൊതിഞ്ഞ ഉറയിൽ മീനാകാരി സ്വർണ്ണ ബാൻഡ് ഷീത്തും, ഇതിന് അനുയോജ്യമായ രീതിയിൽ ചുവപ്പും പച്ചയും നിറമില്ലാത്തതുമായ കല്ലുകൾ പതിപ്പിച്ച അഗ്രഭാഗവും ഘടിപ്പിച്ചിരിക്കുന്നു.ചെണ്ട് ബന്ധിപ്പിക്കുന്നതിനായിമുകളിൽഒരുജേഡ് വളയവുംബാൻഡ്ഷീറ്റിൽഒരുസ്വർണ്ണവളയവുമുണ്ട്. ഈവേട്ടയാടൽകത്തിജഹാംഗീർചക്രവർത്തിയുടേതാണ്.<br><br>വാക്കുകൾ = 100</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >13. XLIX-311 ಚಕ್ರವರ್ತಿಜಹಾಂಗೀರ್‌ನಕಾರ್ಡ್ (ಚಾಕು)</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. XLIX-311 ಚಕ್ರವರ್ತಿಜಹಾಂಗೀರ್‌ನಕಾರ್ಡ್ (ಚಾಕು)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ಮಟನ್ ಫ್ಯಾಟ್ ಜೇಡ್ (ಮಟನ್ ಕೊಬ್ಬಿನ ಬಣ್ಣದ ಜೇಡ್) ಹಿಡಿಕೆಯ ಬೇಟೆಯ ಕಾರ್ಡ್ (ಚಾಕು)ಇದಾಗಿದ್ದು, ಹೂವು ಮತ್ತು ಎಲೆಗಳನ್ನು ಬಿಂಬಿಸಲು ಕೆತ್ತಲಾದ ಕೆಂಪು, ಹಸಿರು ಹಾಗೂ ಬಣ್ಣರಹಿತ ಹರಳುಗಳಿಂದ ಪೋಣಿಸಲ್ಪಟ್ಟಿದ್ದು, ಇದಕ್ಕೆ ಹೊಂದುವಂತೆ ಚಿನ್ನದಲ್ಲಿ ಕವರ್ ಮಾಡಲಾದ ಜೇಡ್ ಕುಚ್ಚನ್ನು ಚಿನ್ನದಿಂದ ಜೋಡಿಸಲಾಗಿದೆ. ಕತ್ತಿಯ ಅಲಗಿನ ಮೇಲ್ಭಾಗ ಮತ್ತು ಮೊಂಡಾದ ಅಂಚಿನಲ್ಲಿ ಹೂವು ಹಾಗೂ ಬಳ್ಳಿಗಳ ವಿನ್ಯಾಸವನ್ನು ಬಿಂಬಿಸಲು ಚಿನ್ನದ ಸೂಕ್ಷ್ಮ ಕೆಲಸವನ್ನು ಮಾಡಲಾಗಿದೆ. ಜರಿಬಟ್ಟೆಯಿಂದ (ಬ್ರೊಕೇಡ್) ಸುತ್ತಲ್ಪಟ್ಟ ಓರೆಯು (ಹಿಡಿಕೆ ಕೋಶ) ಮೀನಾಕಾರಿ ಚಿನ್ನದ ಪಟ್ಟಿ, ಶೀತ್ ಮತ್ತು ಫೆರುಲ್ ಅನ್ನು ಹೊಂದಿದ್ದು, ಇವುಗಳಿಗೂ ಹೊಂದುವಂತೆ ಕೆಂಪು, ಹಸಿರು ಮತ್ತು ಬಣ್ಣರಹಿತ ಹರಳುಗಳನ್ನು ಪೋಣಿಸಲಾಗಿದೆ. ಕುಚ್ಚನ್ನು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳಲು ಮೇಲ್ಭಾಗದಲ್ಲಿ ಜೇಡ್ ಉಂಗುರ ಹಾಗೂ ಪಟ್ಟಿಯ ಮೇಲೆ ಚಿನ್ನದ ಉಂಗುರವಿದೆ. ಈ ಬೇಟೆಯ ಕತ್ತಿಯು ಚಕ್ರವರ್ತಿ ಜಹಾಂಗೀರನಿಗೆ ಸೇರಿದ್ದಾಗಿದೆ.<br><br>ಪದಗಳು = 100</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >13. XLIX-311ସମ୍ରାଟଜାହାଙ୍ଗୀରଙ୍କକାର୍ଡବାଛୁରୀ</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. XLIX-311ସମ୍ରାଟଜାହାଙ୍ଗୀରଙ୍କକାର୍ଡବାଛୁରୀ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ମଟନ୍-ଫ୍ୟାଟ୍ଜେଡ୍ (ଅଧିକଧଳାଓଚିକ୍କଣଜେଡ୍ପଥର) ମୁଠାବିଶିଷ୍ଟଏହିଶିକାରୀକାର୍ଡ (ଛୁରୀ) ଟିରେଫୁଲଓପତ୍ରରଆକାରରେଖୋଦିତହୋଇଥିବାନାଲି, ସବୁଜଏବଂରଙ୍ଗହୀନପଥରଜଡ଼ିତହୋଇଛି, ଯାହାକୁସୁନାରେସେଟ୍କରାଯାଇଛିଏବଂସେହିଅନୁସାରେସୁନାରେଆଚ୍ଛାଦିତଏକଜେଡ୍ଟାସେଲ୍ (ଝୁଲାଫୁଲ) ମଧ୍ୟରହିଛି। ଛୁରୀରଉପରଭାଗଏବଂବ୍ଲେଡ୍‌ରମୋଟାଧାରରେଫୁଲଓଲତାଡିଜାଇନ୍‌କୁପ୍ରତିଫଳିତକରିବାପାଇଁସୁନାରେଅତିସୂକ୍ଷ୍ମକାମକରାଯାଇଛି। ବ୍ରୋକେଡ୍କପଡ଼ାରେଆଚ୍ଛାଦିତମହାରବ (ସ୍କାବର୍ଡ) ଉପରେମୀନାକାରୀକାମଯୁକ୍ତସୁନାଧାତବପଟିଏବଂଫେରୁଲ୍ଲାଗିଛି, ଯେଉଁଥିରେସେହିଅନୁସାରେନାଲି, ସବୁଜଏବଂରଙ୍ଗହୀନପଥରଜଡ଼ିତହୋଇଛି। ଟାସେଲ୍ଧରିରଖିବାପାଇଁଉପରେଏକଜେଡ୍ରିଂଏବଂଧାତବପଟିରେଏକସୁନାରିଂରହିଛି। ଏହିଶିକାରୀଛୁରୀଟିସମ୍ରାଟଜାହାଙ୍ଗୀରଙ୍କର ଅଟେ । ଶବ୍ଦ = 100</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >13. XLIX-311 সম্রাট জাহাঙ্গীরের শিকারের ছুরি বা কার্দ</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. XLIX-311 সম্রাট জাহাঙ্গীরের শিকারের ছুরি বা কার্দ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">দুধসাদা জেড  পাথরের তৈরি হাতলবিশিষ্ট সম্রাট জাহাঙ্গীরের একটি শিকারি কার্দ বা ছুরি। এটি ফুল ও পাতার নকশায় খোদাই করা লাল, সবুজ ও স্বচ্ছ রত্নপাথরে অলঙ্কৃত, যা সোনার ফ্রেমে বসানো। এর সাথে সামঞ্জস্য রেখে সোনা দিয়ে মোড়ানো একটি জেড পাথরের ঝুলনও রয়েছে। ব্লেডের ওপরের অংশ এবং ভোঁতা পিঠে সোনার সূক্ষ্ম কারুকাজে ফুল ও লতা-পাতার নকশা ফুটিয়ে তোলা হয়েছে। জরি দিয়ে মোড়ানো এর খাপটিতে  মিনাকারি করা সোনার ব্যান্ড ও ফেরুল রয়েছে, যা মূল হাতলের সাথে মিলিয়ে লাল, সবুজ ও স্বচ্ছ রত্নপাথরে সাজানো। ঝুলনটি আটকে রাখার জন্য ওপরের অংশে একটি জেড পাথরের রিং এবং খাপের ব্যান্ডে একটি সোনার রিং রয়েছে। এই শিকারি ছুরিটি সম্রাট জাহাঙ্গীরের ব্যবহৃত ছিল।<br><br>শব্দ = 100</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">13. 311-XILXکرد (چاقو)شہنشاہ جہانگیر کا چاقو</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. 311-XILXکرد (چاقو)شہنشاہ جہانگیر کا چاقو" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div dir="rtl" style="text-align: right; font-size: 19px; line-height: 2.1; color: #333333;">سفید جیڈ سے بنا یہ خوب صورت شکار چاقو (خنجر) سرخ، سبز اور شفاف قیمتی پتھروںسے آراستہ ہے۔ اس کے دستے پر پھولوں اور پتوں کے نقش تراشے گئے ہیں، جنہیں سونے میں جڑ کر جیڈ کے لٹکن سے سجایا گیا ہے۔ بلیڈ کے اوپری حصے اور کند کنارے پر نہایت باریک سونے کا کام کیا گیا ہے، جس میں پھولوں اور بیلوں کے خوب صورت نقش بنائے گئے ہیں۔ریشمی دار کپڑے سے ڈھکی ہوئی میان پر مینا کاری سے مزین سونے کے پٹّے، غلاف اور سرا لگے ہوئے ہیں، جن میں دستے سے ہم آہنگ سرخ، سبز اور قیمتی پتھرلگےہوئے ہیں۔ لٹکن کو سنبھالنے کے لیے اوپر جیڈ کی انگوٹھی اور میان کے پٹّے پر سونے کی انگوٹھی لگائی گئی ہے۔یہ نفیس شکار چاقو مغل بادشاہ شہنشاہ جہانگیر کا ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >13. XLIX-311  સમ્રાટ જહાંગીરનો કાર્ડ (છરી)</h2>
+      <div class="booImgDiv">
+        <img src="../images/(knife)ofEmperorJahangir.png" width="100%" alt="13. XLIX-311  સમ્રાટ જહાંગીરનો કાર્ડ (છરી)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-311</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">આ મુઘલ બાદશાહ જહાંગીરની શિકાર માટેની કાર્દ એટલે કે છરી છે. તેનું હાથું મટન-ફેટ જેડ નામના આછા સફેદ રંગના જેડ પથ્થરમાંથી બનાવવામાં આવ્યું છે.હાથા પર લાલ, લીલા અને રંગહીન પથ્થરો જડવામાં આવ્યા છે. આ પથ્થરોને ફૂલ અને પાંદડાના આકારમાં કોતરીને સોનામાં જડવામાં આવ્યા છે. તેની સાથે જેડનો સુંદર લટકણ (તસલ) પણ છે, જે સોનાના આવરણથી શણગારવામાં આવ્યો છે. છરીના પાનના ઉપરના ભાગ અને તેની સપાટ કિનારી પર સોનાથી ખૂબ જ બારીક ફૂલો અને વેલની ભાતનું નકશીકામ કરવામાં આવ્યું છે. છરીનું બ્રોકેડ કાપડથી મઢાયેલું મ્યાન પણ ખૂબ જ સુંદર છે. તેના પર મીનાકારી કરેલી સોનાની પટ્ટી અને ધાતુનું આવરણ લગાવવામાં આવ્યું છે. તેમાં પણ લાલ, લીલા અને રંગહીન પથ્થરોની સુંદર જડાવટ કરવામાં આવી છે.મ્યાનના ઉપરના ભાગે લટકણ રાખવા માટે જેડની વીંટી છે અને સોનાની પટ્ટી પર પણ સોનાની એક વીંટી લગાવવામાં આવી છે. આ સુંદર શિકારની છરી મુઘલ બાદશાહ જહાંગીરની હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 100</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "../audio/hindi-%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%9F%20%E0%A4%9C%E0%A4%B9%E0%A4%BE%E0%A4%81%E0%A4%97%E0%A5%80%E0%A4%B0%20%E0%A4%95%E0%A5%80%20%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B0%20%E0%A4%95%E0%A5%80%20%E0%A4%9B%E0%A5%81%E0%A4%B0%E0%A5%80.wav",
+  "english": "../audio/hindi-%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%9F%20%E0%A4%9C%E0%A4%B9%E0%A4%BE%E0%A4%81%E0%A4%97%E0%A5%80%E0%A4%B0%20%E0%A4%95%E0%A5%80%20%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B0%20%E0%A4%95%E0%A5%80%20%E0%A4%9B%E0%A5%81%E0%A4%B0%E0%A5%80.wav",
+  "telugu": "../audio/Telugu_Kard%20(knife)%20of%20Emperor%20Jahangir_Female.wav",
+  "tamil": "../audio/tamil-%20Kard%20(knife)%20of%20Emperor%20Jahangir.wav",
+  "marathi": "../audio/mar-Kard%20(knife)%20of%20Emperor%20Jahangir.wav",
+  "malayalam": "../audio/malayalam/kard(knife)%20of%20jahahangir.wav",
+  "kannada": "../audio/kannada-Acc%20No%20XLIX-311%20Kard%20(knife)%20of%20Emperor%20Jahangir-.wav",
+  "odia": "../audio/odia-Acc%20No%20XLIX-311%20Kard%20(knife)%20of%20Emperor%20Jahangir.wav",
+  "bengali": "../audio/bengali-(knife)ofEmperorJahangir.wav",
+  "urdu": "../audio/urdu-Kard%20(knife)%20of%20Emperor%20Jahangir.wav",
+  "gujarati": "../audio/guj-Kard%20(knife)%20of%20Emperor%20Jahangir.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

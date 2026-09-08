@@ -608,6 +608,18 @@ document.addEventListener("DOMContentLoaded", () => {
       "Audios/kannade/Acc No XLVI-688 Stool-.wav",
       "Audios/kannade/Acc No XXIII-37 Screen representing Egyptian Figures -.wav",
       "Audios/kannade/Acc No XVII-5 Curtain-.wav"
+    ],
+    "malayalam": [
+      "Audios/Malayalam/Basin.wav",
+      "Audios/Malayalam/Drinking Pot with Tray.wav",
+      "Audios/Malayalam/Ewer.wav",
+      "Audios/Malayalam/Huqqa Bottom.wav",
+      "Audios/Malayalam/incense with tray.wav",
+      "Audios/Malayalam/Meer-e- farsh.wav",
+      "Audios/Malayalam/pandan.wav",
+      "Audios/Malayalam/Plate.wav",
+      "Audios/Malayalam/Spittoon.wav",
+      "Audios/Malayalam/Walking Stick.wav"
     ]
   };
 

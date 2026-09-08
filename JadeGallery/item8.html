@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 8 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >8. हार</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. हार" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-1520</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">यह हार एक अंडाकार आकार के मध्य भाग से बना है, जो कार्नेलियन पत्थर का है और उसके चारों ओर अलग-अलग रंगों के फ़िरोज़ा पत्थरों की सजावट की गई है। इसके साथ बारह चौकोर आकार के पत्थर हैं, जिनमें से दो पत्थरों के किनारे कटे हुए हैं। इन पत्थरों के चारों ओर भी अलग-अलग रंगों के फ़िरोज़ा पत्थर जड़े हुए हैं। कार्नेलियन, जेड, अगेट और काले पत्थर से बने इन तेरहों भागों पर इमामों के नाम अंकित हैं। मध्य भाग की सीमा पर ‘नाद-ए-अली’ अंकित है। सभी तेरह भाग नक्काशीदार चाँदी के आवरण में जड़े हुए हैं और ऊपर की ओर दोहरी छल्लियाँ लगी हैं, जिनके माध्यम से इन्हें एक साथ पिरोया गया है। यह हार भारत का है और इसका समय 19वीं शताब्दी ईस्वी का माना जाता है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >8. Necklace</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. Necklace" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A necklace featuring an oval carnelian pendant bordered with turquoise insets, alongside twelve square plaques of carnelian, jade, agate, and black stone engraved with the names of the Imams and the prayer 'Nad-e-Ali'. Set in carved silver mounts from 19th-century India.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >8. XLIX-1520నెక్లెస్</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. XLIX-1520నెక్లెస్" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">నెక్లెస్‌లో కార్నెలియన్‌తోతయారుచేయబడినఒకఅండాకారఆకారపుమధ్యముక్కఉంటుంది, దీనికిసరిహద్దుగామణిముక్కలడిఫరెన్స్రకంరంగులుమరియుపన్నెండుచదరపుఆకారంలో (రెండుముక్కలుఅంచుఆకారంలోకత్తిరించబడతాయి) ముక్కలుఉంటాయి, ఇవికూడాకార్నిలియన్, జాడేతోఅమర్చినమణిముక్కలకుభిన్నమైనరంగులతోసరిహద్దులుగాఉంటాయి. అగేట్మరియునల్లరాతిముక్కలుఇమామ్లపేర్లతోచెక్కబడ్డాయి. మధ్యభాగంలోసరిహద్దుచుట్టూనాడి-అలీఅనిచెక్కబడింది, మొత్తంపదమూడుముక్కలుచెక్కినవెండితోకప్పబడిఉన్నాయి, వాటిపైనజంటఉంగరాలుఅమర్చబడిఉంటాయి. ఈనెక్లెస్భారతదేశానికిచెందినదిమరియుక్రీశ 19 వశతాబ్దానికిచెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >8. மாலை</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. மாலை" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-1520</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">நீள்வட்ட வடிவக் கார்னேலியன் கல்லை மையமாகக் கொண்டு உருவாக்கப்பட்ட மாலை. இதன் ஜேட், அக்கேட் மற்றும் கருங்கற்களில் இமாம்களின் பெயர்கள் செதுக்கப்பட்டுள்ளன. 19 ஆம் நூற்றாண்டு, இந்தியா.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >8. कार्यवाही क्र.: XLIX-1520 हार</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. कार्यवाही क्र.: XLIX-1520 हार" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">याहारामध्येकार्नेलियनपासूनबनवलेलाएकअंडाकृतीमध्यवर्तीतुकडाअसूनत्याच्याभोवतीविविधरंगांच्याटरक्वॉइज (फिरोजा) तुकड्यांचीकिनार आहे आणिबाराचौरसाकृती (दोनतुकड्यांच्याकडाकापलेल्याआहेत) तुकडेआहेत, ज्यांच्याभोवतीदेखीलविविधरंगांच्याटरक्वॉइजतुकड्यांचीकिनार आहे . यातकार्नेलियन, जेड, अगेटआणिकाळ्यादगडाचेतुकडेबसवलेलेअसूनत्यावरइमामांचीनावेकोरलेलीआहेत. मध्यवर्तीतुकड्याच्याकिनारीवर' नादे-अली' कोरलेलेआहेआणिहेसर्वतेरातुकडेकोरीवकामकेलेल्याचांदीतमढवलेलेअसूनत्यांनाएकत्रओवण्यासाठीवरच्याबाजूलाजुळ्याकड्याबसवलेल्याआहेत. हाहारभारतातीलअसूनतोइ. स. १९ व्याशतकातील आहे .</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >8. നെക്ലേസ്</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. നെക്ലേസ്" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">അതിരുകളിൽവിവിധവർണ്ണങ്ങളിലുള്ളടർക്കോയ്സ്കഷണങ്ങൾപതിപ്പിച്ചതുംകർണേലിയൻകൊണ്ട്നിർമ്മിച്ചതുമായഒരുഅണ്ഡാകൃതിയിലുള്ളമധ്യഭാഗവും, അതുപോലെതന്നെടർക്കോയ്സ്കഷണങ്ങളാൽഅതിരിട്ടപന്ത്രണ്ട്ചതുരാകൃതിയിലുള്ളകഷണങ്ങളും (ഇതിൽ രണ്ടെണ്ണത്തിന്റെ വശങ്ങൾ പ്രത്യേക രീതിയിൽ വെട്ടി രൂപപ്പെടുത്തിയവയാണ്) അടങ്ങിയതാണ്ഈമാല. ഈകഷണങ്ങളിൽകർണേലിയൻ, ജേഡ്, വൈഡൂര്യം, കറുത്തകല്ലുകൾഎന്നിവപതിപ്പിച്ചിട്ടുള്ളതും, അവയിൽഇമാമുമാരുടെനാമങ്ങൾകൊത്തിവെച്ചിട്ടുള്ളതുമാണ്. മധ്യഭാഗത്തെകഷണത്തിന്റെഅതിരിൽ' നാദിഅലി' എന്ന്കൊത്തിവെച്ചിട്ടുണ്ട്. കൂടാതെഈപതിമൂന്ന്കഷണങ്ങളുംകൊത്തുപണികളുള്ളവെള്ളിയിൽപൊതിഞ്ഞതും, അവയെഒന്നിച്ചുകോർക്കുന്നതിനായിമുകളിൽഇരട്ടവളയങ്ങൾപിടിപ്പിച്ചതുമാണ്. എ. ഡിപത്തൊൻപതാംനൂറ്റാണ്ടിൽഇന്ത്യയിൽനിർമ്മിക്കപ്പെട്ടതാണ്ഈമാല. വാക്കുകൾ = 105</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >8. XLIX-1520 ನೆಕ್ಲೆಸ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. XLIX-1520 ನೆಕ್ಲೆಸ್" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ನೆಕ್ಲೇಸ್ ಕಾರ್ನೆಲಿಯನ್‌ನಿಂದ ಮಾಡಿದ ಒಂದು ಅಂಡಾಕಾರದ ಮಧ್ಯದ ತುಣುಕನ್ನು ಹೊಂದಿದ್ದು, ಇದನ್ನು ವಿಭಿನ್ನ ಬಣ್ಣಗಳ ಟರ್ಕೋಯಿಜ್ (ಫಿರೋಜಾ) ತುಣುಕುಗಳಿಂದ ಗಡಿಕಟ್ಟಲಾಗಿದೆ (ಬಾರ್ಡರ್ ಮಾಡಲಾಗಿದೆ) ಮತ್ತು ಹನ್ನೆರಡು ಚೌಕಾಕಾರದ (ಎರಡು ತುಣುಕುಗಳ ಅಂಚುಗಳನ್ನು ಕತ್ತರಿಸಿದ ಆಕಾರದಲ್ಲಿದೆ) ತುಣುಕುಗಳನ್ನು ಹೊಂದಿದ್ದು,ಅವುಗಳನ್ನು ಸಹ ವಿಭಿನ್ನ ಬಣ್ಣಗಳ ಟರ್ಕೋಯಿಜ್ ತುಣುಕುಗಳಿಂದ ಗಡಿಕಟ್ಟಲಾಗಿದ್ದು, ಕಾರ್ನೆಲಿಯನ್, ಜೇಡ್, ಅಗೇಟ್ ಮತ್ತು ಇಮಾಮ್‌ಗಳ ಹೆಸರುಗಳನ್ನು ಕೆತ್ತಲಾದ ಕಪ್ಪು ಕಲ್ಲಿನ ತುಣುಕುಗಳಿಂದ ಜೋಡಿಸಲಾಗಿದೆ.ಮಧ್ಯದ ತುಣುಕಿನ ಅಂಚಿನ ಸುತ್ತಲೂ ನಾದಿ-ಅಲಿ ಎಂದು ಕೆತ್ತಲಾಗಿದೆ ಮತ್ತು ಎಲ್ಲ ಹದಿಮೂರು ತುಣುಕುಗಳನ್ನು ಕೆತ್ತನೆ ಮಾಡಿದ ಬೆಳ್ಳಿಯಲ್ಲಿ ಕವರ್ ಮಾಡಲಾಗಿದ್ದು (ಎನ್‌ಕೇಸ್ ಮಾಡಲಾಗಿದೆ), ಅವುಗಳನ್ನು ಒಟ್ಟಿಗೆ ಪೋಣಿಸಲು ಮೇಲ್ಭಾಗದಲ್ಲಿ ಜೋಡಿ ಉಂಗುರಗಳನ್ನು ಅಳವಡಿಸಲಾಗಿದೆ. ಈ ನೆಕ್ಲೇಸ್ ಭಾರತಕ್ಕೆ ಸೇರಿದ್ದಾಗಿದೆ ಮತ್ತು ಕ್ರಿ.ಶ. 19 ನೇ ಶತಮಾನಕ್ಕೆ ಸೇರಿದುದಾಗಿದೆ.<br><br>ಪದಗಳು = 105</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >8. ନେକଲେସ୍ ବା ହାର</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. ନେକଲେସ୍ ବା ହାର" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ଏହିହାରରେ, କର୍ନେଲିଆନ୍ପଥରରେତିଆରିଏକଅଣ୍ଡାକାରରକେନ୍ଦ୍ରୀୟଖଣ୍ଡରହିଛି। ଏହି ଖଣ୍ଡର ଚତୁର୍ପାଶ୍ୱରେବିଭିନ୍ନରଙ୍ଗରଫିରୋଜାଖଣ୍ଡମାନଖଚିତ ହୋଇଛି। ଏହାସହିତବାରଟିବର୍ଗାକାରଖଣ୍ଡ ମଧ୍ୟରହିଛି (ଯେଉଁଥିରୁଦୁଇଟିଖଣ୍ଡରଧାରକୁକଟାଯାଇଛି), ସେଗୁଡ଼ିକମଧ୍ୟବିଭିନ୍ନରଙ୍ଗରଫିରୋଜାଖଣ୍ଡଦ୍ୱାରାସଜ୍ଜିତଏବଂକର୍ନେଲିଆନ୍, ଜେଡ୍, ଆଗେଟ୍ଏବଂକଳାପଥରଖଣ୍ଡଗୁଡ଼ିକରେଇମାମ୍-ମାନଙ୍କରନାମଖୋଦିତ। କେନ୍ଦ୍ରୀୟଖଣ୍ଡରଚାରିପଟେ' ନଦୀ-ଅଲି' ଖୋଦିତହୋଇଛିଏବଂସମସ୍ତତେରଟିଯାକଖଣ୍ଡରୂପାରେଆଚ୍ଛାଦିତହୋଇସେଗୁଡ଼ିକୁଏକାଠିବାନ୍ଧିବାପାଇଁଉପରଭାଗରେଦୁଇଟିରିଙ୍ଗ୍ଫିଟ୍କରାଯାଇଛି। ଏହିହାରଟିଭାରତରଏବଂଅନୁମାନ କରାଯାଏ ଯେ ଏହା ଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୯ ଶଶତାବ୍ଦୀର। ଶବ୍ଦ = 105</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >8. XLIX-1520 (হার)।</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. XLIX-1520 (হার)।" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">এই হারটিতে কার্নেলিয়ান পাথর দিয়ে তৈরি একটি ডিম্বাকৃতি কেন্দ্রীয় অংশ রয়েছে, যার চারপাশ বিভিন্ন রঙের ফিরোজা পাথরের টুকরো দিয়ে সাজানো। এছাড়া এতে বারোটি বর্গাকার টুকরো (যার মধ্যে দুটির কিনারা কাটা বা বিশেষ আকৃতির) রয়েছে; এগুলোরও চারপাশ বিভিন্ন রঙের ফিরোজা পাথর দিয়ে বাঁধানো এবং এগুলিতে কার্নেলিয়ান, জেড, অ্যাগেট ও কালো পাথরের ওপর ইমামদের নাম খোদাই করা আছে। কেন্দ্রীয় অংশটির চারপাশ জুড়ে ‘নাদি-আলি’ খোদাই করা রয়েছে। সমস্ত টুকরোগুলো খোদাই-করা রুপোর কাঠামোয় বসানো এবং সেগুলোকে একত্রে গাঁথার জন্য ওপরের দিকে জোড়া আংটা বা রিং যুক্ত করা হয়েছে। হারটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ শতাব্দীর নিদর্শন।<br><br>শব্দ = 105</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">8. 1520-XILXہار</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. 1520-XILXہار" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div dir="rtl" style="text-align: right; font-size: 19px; line-height: 2.1; color: #333333;">یہ ایک ہار ہے، جس کا درمیانی حصہ بیضوی شکل کا ہے اور عقیق سے بنایا گیا ہے۔ اس کے گرد فیروزی رنگ کے پتھر لگائے گئے ہیں۔ہار میں بارہ چوکور ٹکڑے بھی شامل ہیں، جن میں سے دو کے کنارے کٹے ہوئے ہیں۔ ان ٹکڑوں کے گرد بھی فیروزی رنگ کے پتھر لگے ہوئے ہیں۔ ان میں عقیق، سنگِ سیم، عقیقِ سلیمانی اور سیاہ پتھر جڑے ہوئے ہیں، جن پر ائمہ کے نام کندہ ہیں۔درمیانی ٹکڑے کے کنارے پر نادِ علی تحریر ہے۔ ہار کے تمام تیرہ ٹکڑے نقش دار چاندی میں جڑے ہوئے ہیں۔ ہر ٹکڑے کے اوپر دو حلقے لگے ہوئے ہیں، جن کے ذریعے انہیں ایک ساتھ پرویا گیا ہے۔یہ ہار ہندوستان سے تعلق رکھتا ہے اور انیسویں صدی عیسوی کا ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >8. XLIX-1520 ગળાનો હાર</h2>
+      <div class="booImgDiv">
+        <img src="./images/necklace.png" width="100%" alt="8. XLIX-1520 ગળાનો હાર" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1520</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">આ એક સુંદર હાર છે. તેમાં મધ્યમાં અંડાકાર કાર્નેલિયન (લાલ મણિ)નો એક મોટો પથ્થર છે. તેની આસપાસ વિવિધ રંગના ફિરોઝાના ટુકડાઓથી  સુંદર જડતર કરવામાં આવ્યું  છે.મધ્યના પથ્થરની સાથે કુલ બાર ચોરસ આકારના પથ્થરો છે. તેમાંથી બે પથ્થરોની કિનારી કાપેલી આકારની છે. આ તમામ પથ્થરોની આસપાસ પણ વિવિધ રંગના ફિરોઝાના ટુકડાઓની જડાવટ કરવામાં આવી છે.આ હારમાં કાર્નેલિયન, જેડ, અગેટ અને કાળા પથ્થરનો ઉપયોગ કરવામાં આવ્યો છે. આ પથ્થરો પર ઇમામોના નામો કોતરવામાં આવ્યા છે.મધ્યના પથ્થરની કિનારી પર “નાદ-એ-અલી” લખાણ કોતરવામાં આવ્યું છે. હારના તમામ તેર પથ્થરોને કોતરણીવાળી ચાંદીની ફ્રેમમાં જડવામાં આવ્યા છે. ઉપરની બાજુ બે-બે વલયો રાખવામાં આવ્યા છે, જેથી તેને દોરી અથવા સાંકળમાં પરોવી શકાય.આ સુંદર હાર ભારતનો છે અને ઈસવીસનની 19મી સદીનો હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 105</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "./audio/hindi-%E0%A4%B9%E0%A4%BE%E0%A4%B0.wav",
+  "english": "./audio/hindi-%E0%A4%B9%E0%A4%BE%E0%A4%B0.wav",
+  "telugu": "./audio/Telugu_Necklace_Female.wav",
+  "tamil": "./audio/tamil-Necklace.wav",
+  "marathi": "./audio/mar-Necklace.wav",
+  "malayalam": "./audio/malayalam/Necklace.wav",
+  "kannada": "./audio/kannada-Acc%20No%20XLIX-1520%20Necklace%20-.wav",
+  "odia": "./audio/odia-Acc%20No%20XLIX-1520%20Necklace.wav",
+  "bengali": "./audio/bengali-Necklace.wav",
+  "urdu": "./audio/urdu-Necklace.wav",
+  "gujarati": "./audio/guj-Necklace.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

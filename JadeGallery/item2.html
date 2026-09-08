@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 2 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >2. संदूकची</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. संदूकची" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: ACQ-90-39</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">हल्के हरे रंग की आभा वाली आयताकार जेड पत्थर की यह संदूकची सोने के तारों की जड़ाई और लाल पत्थरों की सजावट से अलंकृत है। संदूकची आयताकार है, लेकिन इसके चारों कोने थोड़े कटे हुए हैं, इसलिए इसके आकार को अष्टकोणीय कहना अधिक उचित होगा। इसके निचले भाग के चारों ओर सोने के तारों की 3 जड़ाईदार पट्टियाँ बनी हुई हैं। ढक्कन पर 8 अष्टकोणीय डिब्बेनुमा आकृतियाँ बनी हैं। इनमें सोने के तारों की पट्टियाँ एक-दूसरे को घेरती हुई बनी हैं। सबसे छोटी आकृति बीच में स्थित है, जिसके केंद्र में माणिक के समान लाल पत्थर जड़ा हुआ है। इस लाल पत्थर के चारों ओर सोने के तारों की एक गोल पट्टी बारीकी से जड़ी हुई है। यह संदूकची जयपुर, भारत की है और इसे 18वीं शताब्दी ईस्वी का माना जाता है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >2. Casket</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. Casket" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A light green rectangular jade casket ornamented with gold wire inlay and red stone decorations. The corners are bevelled, forming an octagonal silhouette. Three gold wire band designs run around the base, and eight octagonal concentric wire patterns adorn the lid around a central ruby-like red stone. Originating from Jaipur, India, dating to the 18th century CE.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >2. ACQ-90-39 శవపేటిక (Casket )</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. ACQ-90-39 శవపేటిక (Casket )" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">బంగారుతీగమరియుఎర్రరాతిఅలంకరణలతోలేతఆకుపచ్చరంగుదీర్ఘచతురస్రాకారజాడేపేటిక. పేటికదీర్ఘచతురస్రాకారంగాఉన్నప్పటికీ, దానినాలుగుమూలలుకొద్దిగాకత్తిరించబడినందునదానినిఅష్టభుజిఆకారంలోవర్ణించడంసముచితం. దిగువభాగంచుట్టూమూడుబంగారుతీగబ్యాండ్లుఉంటాయి. మూతపైమూతబంగారువైర్బ్యాండ్లఆకారంలోఎనిమిదిఅష్టభుజిపెట్టెలుఒకదానికొకటిచుట్టుముట్టిఉంటాయి, మధ్యలోఎర్రరాయివంటిరూబీచుట్టూఅతిచిన్నది. రూబీదానిచుట్టూదగ్గరగానడుస్తున్నబంగారుతీగవృత్తాకారపట్టీలోఅమర్చబడిఉంటుంది. ఈపేటికభారతదేశంలోనిజైపూర్కుచెందినదిమరియుక్రీశ 18 వశతాబ్దానికిచెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >2. சிறிய பெட்டி (கேஸ்கெட்)</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. சிறிய பெட்டி (கேஸ்கெட்)" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: ACQ-90-39</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">இளம்பச்சை நிற ஜேட் கல்லால் செய்யப்பட்ட செவ்வக வடிவச் சிறிய பெட்டி. இதன் மூடியில் தங்கக் கம்பி மற்றும் சிவப்பு நிறக் கற்களின் பதிப்பு வேலைப்பாடுகள் செய்யப்பட்டுள்ளன. ஜெய்ப்பூர், இந்தியாவைச் சேர்ந்தது.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >2. कार्यवाही क्र.: ACQ-90-39 पेटी</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. कार्यवाही क्र.: ACQ-90-39 पेटी" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">फिकटहिरवटछटाअसलेलीजेडचीआयताकृतीपेटी, जिच्यावरसोन्याच्यातारांचेजडावकामआणिलालखड्यांचीसजावट आहे . जरीहीपेटीआयताकृतीअसली, तरीतिचेचारहीकोपरेथोडेछाटलेलेअसल्यामुळेतिचेवर्णनअष्टकोनीआकाराचीअसेकरणेअधिकयोग्यठरेल. खालच्याभागाभोवतीसोन्याच्यातारांच्याजडावकामाचेतीनपट्टेआहेत. झाकणावरसोन्याच्यातारांचेपेटीच्याआकाराचेआठअष्टकोनीपट्टेअसून, तेएकांतएकअसेएकमेकांनावेढतातआणित्यातीलसर्वातलहानपट्टामध्यभागीअसलेल्यामाणकासारख्यालालखड्याभोवतीआहे. हेमाणिकसोन्याच्यातारेच्याएकावर्तुळाकारपट्ट्यामध्येबसवलेलेअसून, तोपट्टात्याच्याअगदीजवळूनवेढलेलाआहे. हीपेटीभारतातीलजयपूरयेथीलअसूनतीइ. स. १८ व्याशतकातील आहे .</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >2. -90-39 പെട്ടി</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. -90-39 പെട്ടി" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ഇളംപച്ചനിറംകലർന്ന, സ്വർണ്ണനൂൽവേലകളുംചുവന്നകല്ലുകൊണ്ടുള്ളഅലങ്കാരങ്ങളുംപതിപ്പിച്ചദീർഘചതുരാകൃതിയിലുള്ളജേഡ് പെട്ടി. ദീർഘചതുരാകൃതിയിലുള്ളതാണെങ്കിലും, ഇതിന്റെനാല്കോണുകളുംചെറുതായിവെട്ടിമാറ്റിയരൂപത്തിലായതിനാൽഇതിനെഅഷ്ടകോണാകൃതിയിലുള്ളത്എന്ന്വിശേഷിപ്പിക്കുന്നതാവുംകൂടുതൽഅനുയോജ്യം. പെട്ടിയുടെഅടിഭാഗത്തായിസ്വർണ്ണനൂലിൽതീർത്തമൂന്ന്വയർ ബാൻഡുകൾവലംവെക്കുന്നുണ്ട്. മൂടിക്ക്മുകളിലായിഅഷ്ടകോണാകൃതിയിലുള്ള, ഒന്നിനുളളിൽമറ്റൊന്നായിവരുന്നഎട്ട്സ്വർണ്ണനൂൽഅതിരുകളുണ്ട്; ഇതിന്റെമധ്യഭാഗത്തായിമാണിക്യംപോലെയുള്ളഒരുചുവന്നകല്ലുമുണ്ട്. ഈമാണിക്യക്കല്ലിന്ചുറ്റുംസ്വർണ്ണനൂലിന്റെഒരുചെറിയവൃത്താകൃതിയിലുള്ളഅതിരുംനൽകിയിരിക്കുന്നു. ഇന്ത്യയിലെജയ്പൂരിൽനിന്നുള്ളഈപെട്ടിഎ. ഡി. 18 -ാംനൂറ്റാണ്ടിലേതാണെന്ന്കരുതപ്പെടുന്നു. വാക്കുകൾ = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >2. ACQ-90-39 ಕ್ಯಾಸ್ಕೆಟ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. ACQ-90-39 ಕ್ಯಾಸ್ಕೆಟ್" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ತಿಳಿ ಹಸಿರು ಛಾಯೆಯ ಆಯತಾಕಾರದ ಜೇಡ್ ಆಭರಣ ಪೆಟ್ಟಿಗೆಯು (ಕ್ಯಾಸ್ಕೆಟ್) ಒಳಗಡೆ ನಯವಾಗಿ ಕೂರಿಸಿದ ಚಿನ್ನದ ತಂತಿ ಹಾಗೂ ಕೆಂಪು ಹರಳಿನ ಅಲಂಕಾರಗಳನ್ನು ಹೊಂದಿದೆ. ಈ ಪೆಟ್ಟಿಗೆಯು ಆಯತಾಕಾರದಲ್ಲಿದ್ದರೂ, ಅದರ ನಾಲ್ಕೂ ಮೂಲೆಗಳು ಕೊಂಚ ಕತ್ತರಿಸಲ್ಪಟ್ಟಿರುವುದರಿಂದ (ಟ್ರಂಮೇಟೆಡ್) ಇದನ್ನು ಅಷ್ಟಕೋನಾಕಾರದ್ದು ಎಂದು ಕರೆಯುವುದು ಸೂಕ್ತವಾಗಿದೆ. ಕೆಳಭಾಗದ ಸುತ್ತಲೂ ಚಿನ್ನದ ತಂತಿಯ ಮೂರು ಸಾಲುಗಳನ್ನು (ಬ್ಯಾಂಡ್) ನಯವಾಗಿ ಕೂರಿಸಲಾಗಿದೆ. ಪೆಟ್ಟಿಗೆಯ ಮುಚ್ಚಳದ ಮೇಲೆ ಅಷ್ಟಕೋನಾಕಾರದ ಬಾಕ್ಸ್ ರೂಪದಲ್ಲಿ ಚಿನ್ನದ ತಂತಿಯ ಎಂಟು ಸಾಲುಗಳು ಒಂದರೊಳಗೊಂದು ಸುತ್ತುವರಿದಿದ್ದು, ಮಧ್ಯದಲ್ಲಿರುವ ಅತ್ಯಂತ ಸಣ್ಣ ಸಾಲು ಮಾಣಿಕ್ಯದಂತಹ (ರೂಬಿ) ಕೆಂಪು ಹರಳನ್ನು ಸುತ್ತುವರಿದಿದೆ. ಈ ಮಾಣಿಕ್ಯವನ್ನು ಅದರ ಸುತ್ತಲೂ ನಿಕಟವಾಗಿ ಹರಿಯುವ ಚಿನ್ನದ ತಂತಿಯ ವೃತ್ತಾಕಾರದ ಪಟ್ಟಿಯಲ್ಲಿ ಜೋಡಿಸಲಾಗಿದೆ. ಈ ಪೆಟ್ಟಿಗೆಯು ಭಾರತದ ಜೈಪುರಕ್ಕೆ ಸೇರಿದ್ದು, ಕ್ರಿ.ಶ. 18 ನೇ ಶತಮಾನದಾಗಿದೆ.<br><br>ಪದಗಳು = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >2. ACQ-90-39 କାସ୍କେଟ୍</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. ACQ-90-39 କାସ୍କେଟ୍" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ହାଲୁକା ସବୁଜ ରଙ୍ଗର ଆଭା ଥିବା ଏକ ଆୟତାକାର ଜେଡ୍କ୍ୟାସ୍କେଟ୍, ଯେଉଁଥିରେ ସୁନା ତାରର କାମ ଏବଂ ନାଲି ପଥରର ସାଜସଜ୍ଜା ରହିଛି। ଯଦିଓ ଏହି ବାକ୍ସଟି ଆୟତାକାର, କିନ୍ତୁ ଏହାର ଚାରୋଟି କୋଣ ଅଳ୍ପ ପରିମାଣରେ କଟାଯାଇଥିବାରୁ ଏହାକୁ ଅଷ୍ଟଭୁଜାକାରବୋଲି କହିବା ଅଧିକ ଉପଯୁକ୍ତ ହେବ। ବାକ୍ସଟିର ନିମ୍ନ ଭାଗରେ ତିନୋଟି ସୁନା ତାରର ପଟି ରହିଛି।ଏହାର ଢାଙ୍କୁଣି ଉପରେ ଆଠଟି ଅଷ୍ଟଭୁଜାକାର ବାକ୍ସ ପରି ଡିଜାଇନ୍ ରହିଛି, ଯେଉଁଥିରେ ସୁନା ତାରର ପଟିଗୁଡ଼ିକ ଗୋଟିଏ ଭିତରେ ଆଉ ଗୋଟିଏକୁ ଘେରି ରହିଛନ୍ତି ଏବଂ ସବୁଠାରୁ ଛୋଟ ପଟିଟି କେନ୍ଦ୍ରରେ ଏକ ମାଣିକ୍ୟ ସଦୃଶ ନାଲିପଥରକୁ ଚାରିପଟୁ ଘେରି ରହିଛି। ଏହି ନାଲିପଥରଟି ଏହାକୁ ନିକଟରୁ ଘେରି ରହିଥିବା ସୁନା ତାରର ଏକ ଗୋଲାକାର ପଟିରେ ସେଟ୍ କରାଯାଇଛି। ଏହି କ୍ୟାସ୍କେଟ୍‌ଟି ଭାରତର ଜୟପୁରର ଅଟେ ଏବଂ ଏହାଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୮ଶ ଶତାବ୍ଦୀର ବୋଲି ଅନୁମାନ କରାଯାଏ।<br><br>ଶବ୍ଦ = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >2. ACQ-90-39 ক্যাসকেট বা ছোট বাক্স</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. ACQ-90-39 ক্যাসকেট বা ছোট বাক্স" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">এটি হালকা সবুজ আভা-যুক্ত একটি আয়তাকার জেড পাথরের বাক্স, যাতে সোনার তার ও লাল পাথরের কারুকাজ করা হয়েছে। বাক্সটি আয়তাকার হলেও এর চারটি কোণ সামান্য কাটা বা ছাঁটা থাকায় একে অষ্টভুজাকৃতির হিসেবে বর্ণনা করাই অধিক যুক্তিযুক্ত। এর নিচের অংশের চারপাশে সোনার তারের তিনটি বলয়  রয়েছে। ঢাকনাটির ওপর সোনার তারের তৈরি আটটি অষ্টভুজাকৃতির বলয় একে অপরের পরিবেষ্টন করে রয়েছে; এদের মধ্যে সবচেয়ে ছোট বলয়টি ঠিক মাঝখানে একটি রুবি-সদৃশ লাল পাথরকে ঘিরে আছে। রুবিটি সোনার তারের একটি বৃত্তাকার বলয়ের মধ্যে এমনভাবে বসানো হয়েছে যা পাথরটিকে নিবিড়ভাবে ঘিরে রেখেছে। ভারতের জয়পুরের এই বাক্সটি অষ্টাদশ শতাব্দীর নিদর্শন।<br><br>শব্দ = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">2. 39-90-QCAصندوق</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. 39-90-QCAصندوق" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div dir="rtl" style="text-align: right; font-size: 19px; line-height: 2.1; color: #333333;">ہلکے سبز رنگ کی جھلک والا یہ خوب صورت جیڈ کا چھوٹا صندوق سونے کے تاروں اور سرخ پتھروں کی سجاوٹ سے آراستہ ہے۔ اگرچہ یہ صندوق مستطیل شکل کا ہے، لیکن اس کے چاروں کونے ہلکے سے کٹے ہوئے ہیں، اس لیے اسے آٹھ کونوں والا صندوق کہنا زیادہ مناسب ہے۔اس کے نچلے حصے کے گرد سونے کے تاروں کی تین پٹیاں لگی ہوئی ہیں۔ ڈھکن پر آٹھ کونوں والی شکلوں میں سونے کے تاروں کی جڑائی کی گئی ہے۔ درمیان میں یاقوت جیسے سرخ پتھر کو سونے کے تار کی گول پٹی میں لگایا گیا ہے۔یہ خوب صورت جیڈ کا چھوٹا صندوق ہندوستان کے شہر جے پور کا ہے اور اسے 18ویں صدی عیسوی کا فن پارہ مانا جاتا ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >2. ACQ-90-39 પેટી</h2>
+      <div class="booImgDiv">
+        <img src="./images/casket.png" width="100%" alt="2. ACQ-90-39 પેટી" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: ACQ-90-39</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">આ એક સુંદર આછા લીલાશ પડતા રંગની જેડ પથ્થરની પેટી છે. તેનો આકાર લંબચોરસ છે, પરંતુ તેના ચારેય ખૂણા થોડા કાપેલા હોવાથી તેને અષ્ટકોણીય આકારની પેટી કહેવું વધુ યોગ્ય છે.પેટી પર સોનાના તારની જડાવટ અને લાલ રંગના પથ્થરોની સુંદર સજાવટ કરવામાં આવી છે. તેના નીચેના ભાગની આસપાસ સોનાના તારની ત્રણ પટ્ટીઓ બનાવવામાં આવી છે.પેટીના ઢાંકણ પર સોનાના તારથી બનેલી આઠ અષ્ટકોણીય, પેટી જેવા આકારની ભાત છે. આ ભાત એકની અંદર એક ગોઠવાયેલી છે. સૌથી મધ્યમાં માણેક જેવા લાલ પથ્થરને જડવામાં આવ્યો છે. આ લાલ પથ્થરની આસપાસ સોનાના તારની ગોળ પટ્ટી બનાવવામાં આવી છે.આ સુંદર જેડની પેટી જયપુર, ભારતની છે અને ઈસવીસનની 18મી સદીની હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 107</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "./audio/hindi-%20%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%82%E0%A4%95%E0%A4%9A%E0%A5%80.wav",
+  "english": "./audio/hindi-%20%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%82%E0%A4%95%E0%A4%9A%E0%A5%80.wav",
+  "telugu": "./audio/Telugu_Casket_Female.wav",
+  "tamil": "./audio/tamil-Casket.wav",
+  "marathi": "./audio/mar-Casket.wav",
+  "malayalam": "./audio/malayalam/casket.wav",
+  "kannada": "./audio/kannada-Acc%20No%20ACQ-90-39%20Casket%20-.wav",
+  "odia": "./audio/odia-Acc%20No%20ACQ-90-39%20Casket.wav",
+  "bengali": "./audio/bengali-Casket.wav",
+  "urdu": "./audio/urdu-Casket.wav",
+  "gujarati": "./audio/guj-Casket.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

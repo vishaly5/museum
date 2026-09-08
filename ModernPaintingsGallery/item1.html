@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modern Paintings Gallery - Item 1 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >1. स्टोलन इंटरव्यू (राजा रवि वर्मा)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. स्टोलन इंटरव्यू (राजा रवि वर्मा)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिग्रहण संख्या: XX-1</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">राजा रवि वर्मा (1848–1906) भारत में अकादमिक यथार्थवाद के अग्रदूत थे। उन्होंने यूरोपीय प्रकृतिवाद को भारतीय विषयों और भाव-विषयों के साथ समन्वित किया। वे यूरोपीय चित्रांकन तथा सैलून चित्रकला की परंपराओं, विशेष रूप से विक्टोरियाई युग के रोमांटिकतावाद से अत्यधिक प्रभावित थे। इस चित्र में एक स्तंभ के पास खड़े दो प्रेमियों को दर्शाया गया है।<br><br>पारंपरिक साड़ी, जिस पर सुनहरे किनारे हैं, और मोतियों का हार पहने महिला गुलाब की पंखुड़ियाँ तोड़ रही है। वह शास्त्रीय भारतीय सौंदर्य की प्रतीक प्रतीत होती है और संभवतः किसी कुलीन परिवार से संबंधित है। वहीं, साधारण वेशभूषा और पगड़ी पहने पुरुष आगे की ओर झुका हुआ है। उसके चेहरे पर प्रेम की उत्कंठा और अनिश्चितता के भाव दिखाई देते हैं।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >1. Stolen Interview (Raja Ravi Varma)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. Stolen Interview (Raja Ravi Varma)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XX-1</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">Raja Ravi Varma (1848–1906) was a pioneer of academic realism in India. He synthesized European naturalism with Indian subjects and themes. He was deeply influenced by European portraiture and salon painting traditions, especially Victorian romanticism. This oil painting depicts two lovers standing near a pillar.<br><br>The woman wearing a traditional saree with golden borders and a pearl necklace plucks rose petals, embodying classical Indian beauty and belonging to a noble family. Meanwhile, the man in simple attire and turban leans forward with an expression of longing and uncertainty.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >1. స్టోలెన్ ఇంటర్వ్యూ (రాజా రవి వర్మ)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. స్టోలెన్ ఇంటర్వ్యూ (రాజా రవి వర్మ)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">సేకరణ సంఖ్య: XX-1</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">రాజా రవి వర్మ (1848–1906) భారతదేశంలో అకాడమిక్ రియలిజానికి మార్గదర్శకుడు. ఆయన యూరోపియన్ సహజత్వాన్ని భారతీయ ఇతివృత్తాలతో మరియు భావనలతో శ్రేష్ఠంగా సమ్మేళనం చేశారు. యూరోపియన్ పోర్ట్రైచర్ మరియు సెలూన్ ఆర్ట్ సంప్రదాయాలు, ముఖ్యంగా విక్టోరియన్ రోమాంటిసిజం ఆయనను ఎంతో ప్రభావితం చేశాయి. ఈ తైలవర్ణ చిత్రంలో ఒక స్తంభం వద్ద నిలబడి ఉన్న ఇద్దరు ప్రేమికులను చిత్రీకరించారు.<br><br>బంగారు సరిహద్దులతో కూడిన సాంప్రదాయ చీర మరియు ముత్యాల హారం ధరించిన స్త్రీ గులాబీ రేకులను తెంపుతోంది. ఆమె క్లాసికల్ భారతీయ సౌందర్యానికి ప్రతీకగా నిలుస్తుంది. సాధారణ వేషధారణ మరియు తలపాగా ధరించిన పురుషుడు ముందుకు వంగి, కోరిక మరియు అనిశ్చితి భావాలతో కనిపిస్తున్నాడు.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">1. خفیہ انٹرویو (راجہ روی ورما)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. خفیہ انٹرویو (راجہ روی ورما)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">اندراج نمبر: XX-1</p>
+        <div dir="rtl" style="text-align: right; font-size: 19px; line-height: 2.1; color: #333333;">راجہ روی ورما (1848–1906) ہندوستان میں تعلیمی حقیقت پسندی کے پیش رو تھے۔ انہوں نے یورپی قدرتیت کو ہندوستانی مضامین کے ساتھ مربوط کیا۔ یہ پینٹنگ ایک ستون کے قریب کھڑے دو عاشقوں کو دکھاتی ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >1. স্টোলেন ইন্টারভিউ (রাজা রবি বর্মা)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. স্টোলেন ইন্টারভিউ (রাজা রবি বর্মা)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">অ্যাক্সেস নং: XX-1</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">রাজা রবি বর্মা (১৮৪৮-১৯০৬) ভারতে অ্যাকাডেমিক রিয়েলিজমের অগ্রদূত ছিলেন। এই চিত্রে স্তম্ভের পাশে দাঁড়িয়ে থাকা দুই প্রেমিক-প্রেমিকাকে দেখানো হয়েছে।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >1. ચોરાયેલી મુલાકાત (રાજા રવિ વર્મા)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. ચોરાયેલી મુલાકાત (રાજા રવિ વર્મા)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">અધિગ્રહણ ક્રમાંક: XX-1</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">રાજા રવિ વર્મા (1848–1906) ભારતમાં એકેડેમિક રિયાલિઝમના અગ્રણી હતા. આ ચિત્રમાં સ્તંભ પાસે ઊભેલા પ્રેમી યુગલને દર્શાવવામાં આવ્યું છે.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >1. ಸ್ಟೋಲನ್ ಇಂಟರ್‌ವ್ಯೂ (ರಾಜಾ ರವಿ ವರ್ಮ)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. ಸ್ಟೋಲನ್ ಇಂಟರ್‌ವ್ಯೂ (ರಾಜಾ ರವಿ ವರ್ಮ)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ದಾಖಲೆ ಸಂಖ್ಯೆ: XX-1</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ರಾಜಾ ರವಿ ವರ್ಮ (1848–1906) ಭಾರತೀಯ ಶೈಕ್ಷಣಿಕ ನೈಜತಾವಾದದ ಪ್ರವರ್ತಕರು. ಈ ಚಿತ್ರವು ಕಂಬದ ಬಳಿ ನಿಂತಿರುವ ಇಬ್ಬರು ಪ್ರೇಮಿಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >1. ଷ୍ଟୋଲେନ୍ ଇଣ୍ଟରଭ୍ୟୁ (ରାଜା ରବି ବର୍ମା)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. ଷ୍ଟୋଲେନ୍ ଇଣ୍ଟରଭ୍ୟୁ (ରାଜା ରବି ବର୍ମା)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ଅଧିଗ୍ରହଣ ସଂଖ୍ୟା: XX-1</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ରାଜା ରବି ବର୍ମା (୧୮୪୮-୧୯୦୬) ଭାରତରେ ଏକାଡେମିକ ରିଅଲିଜମର ଅଗ୍ରଦୂତ ଥିଲେ। ଏହି ଚିତ୍ରରେ ଖମ୍ବ ପାଖରେ ଛିଡ଼ା ହୋଇଥିବା ଦୁଇ ପ୍ରେମୀଙ୍କୁ ଦର୍ଶାଯାଇଛି।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >1. स्टोलन इंटरव्यू / गुपित भेट (राजा रवी वर्मा)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. स्टोलन इंटरव्यू / गुपित भेट (राजा रवी वर्मा)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">संपादन क्रमांक: XX-1</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">राजा रवी वर्मा (1848–1906) हे भारतातील ॲकॅडेमिक रियलिझमचे आद्य प्रवर्तक होते. या चित्रात स्तंंभाजवळ उभे असलेले दोन प्रेमी दाखवले आहेत.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >1. അപഹരിക്കപ്പെട്ട കൂടിക്കാഴ്ച (രാജാ രവിവർമ്മ)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. അപഹരിക്കപ്പെട്ട കൂടിക്കാഴ്ച (രാജാ രവിവർമ്മ)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">അക്വിസിഷൻ നമ്പർ: XX-1</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">യൂറോപ്യൻ നാച്ചുറലിസത്തെ ഇന്ത്യൻ പശ്ചാത്തലങ്ങളുമായി സമന്വയിപ്പിച്ച് ഇന്ത്യയിൽ അക്കാദമിക് റിയലിസത്തിന് അടിത്തറയിട്ട ചിത്രകാരനാണ് രാജാ രവിവർമ്മ. യൂറോപ്യൻ ഛായാചിത്രങ്ങളും സലൂൺ പെയിന്റിംഗ് പാരമ്പര്യവും, യൂറോപ്യൻ ശൈലിയിലുള്ള ചിത്രരചനകളും വിക്ടോറിയൻ കാലഘട്ടത്തിലെ പ്രണയഭാവങ്ങളുമെല്ലാം അദ്ദേഹത്തിന്റെ സൃഷ്ടികളെ സ്വാധീനിച്ചിട്ടുണ്ട്. പ്രണയബദ്ധരായ ഒരു സ്ത്രീയെയും പുരുഷനെയും ഒരു തൂണിന് സമീപമായി ഈ ചിത്രത്തിൽ കാണാം.<br><br>അതിൽ, സ്വർണ്ണക്കരയുള്ള പരമ്പരാഗത സാരിയും മുത്തുമാലയും ധരിച്ച്, റോസാപ്പൂവിന്റെ ഇതളുകൾ നുള്ളിനിൽക്കുന്ന സ്ത്രീ പരമ്പരാഗത ഇന്ത്യൻ സൗന്ദര്യത്തിന്റെ പ്രതീകമാണ്; ഒരുപക്ഷേ ഏതെങ്കിലും ഒരു പ്രഭുകുടുംബാംഗമായിരിക്കാം അവൾ. ലളിതമായ വസ്ത്രവും തലപ്പാവും ധരിച്ച പുരുഷനാകട്ടെ, എന്തോ ഒരു ആകുലതയോടും പ്രതീക്ഷയോടും കൂടി അവളിലേക്ക് അല്പം ആഞ്ഞുനിൽക്കുന്ന ഭാവത്തിലാണ് ചിത്രീകരിക്കപ്പെട്ടിരിക്കുന്നത്.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >1. திருடப்பட்ட உரையாடல் (ராஜா ரவி வர்மா)</h2>
+      <div class="booImgDiv">
+        <img src="./images/modern-painting-image1.jpg" width="100%" alt="1. திருடப்பட்ட உரையாடல் (ராஜா ரவி வர்மா)" onerror="this.onerror=null; this.src='./images/modern-painting-image1.jpg';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">சேர்க்கை எண்: XX-1</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ஆயிரத்து எண்ணூற்று நாற்பத்து எட்டாம் ஆண்டு முதல்ஆயிரத்துத் தொள்ளாயிரத்து ஆறாம் ஆண்டில் வாழ்ந்த ராஜா ரவி வர்மா இந்தியாவில் கல்விசார் யதார்த்தவாதத்தின் முன்னோடியாகத் திகழ்ந்தார். இவர் ஐரோப்பிய இயல்பியலையும் இந்தியக் கருப்பொருள்கள் மற்றும் கருத்தாக்கங்களையும் ஒன்றாக இணைத்து ஓவியங்களை உருவாக்கினார். இவர் ஐரோப்பிய உருவப்படக் கலை மற்றும் வரவேற்பறை ஓவிய மரபுகளால், குறிப்பாக விக்டோரியன் காலத்து காதல் உணர்வுக் கலைப்பாணியால் பெரிதும் ஈர்க்கப்பட்டார். இந்த ஓவியம் ஒரு தூணின் அருகே நிற்கும் இரு காதலர்களைச் சித்தரிக்கிறது.<br><br>தங்கக் கரையிட்ட பாரம்பரியப் புடவை மற்றும் முத்து மாலை அணிந்து, ரோஜா இதழ்களைப் பிடுங்கிக் கொண்டிருக்கும் அந்தப் பெண், அரச குடும்பத்தைச் சேர்ந்தவராக இருக்கக்கூடும்; மேலும் அவர் பாரம்பரிய இந்திய அழகின் பிரதிபலிப்பாகத் திகழ்கிறார். தலைப்பாகையுடன் எளிய ஆடையில் காணப்படும் அந்த ஆண், ஏக்கத்துடனும் நிச்சயமற்ற ஒரு பாவனையுடனும் முன்னோக்கிச் சாய்ந்து கொண்டிருக்கிறார்.</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "./audio/modern-gallery-hindi.wav",
+  "english": "./audio/modern-gallery-english.wav",
+  "telugu": "./audio/modern-gallery-telugu.wav",
+  "urdu": "./audio/modern-gallery-hindi.wav",
+  "bengali": "./audio/modern-gallery-hindi.wav",
+  "gujarati": "./audio/modern-gallery-gujarati.wav",
+  "kannada": "./audio/modern-gallery-hindi.wav",
+  "odia": "./audio/modern-gallery-odia.wav",
+  "marathi": "./audio/modern-gallery-hindi.wav",
+  "malayalam": "./audio/Raja%20Ravi%20Varma%20%E2%80%93%20Stolen%20Interview.wav",
+  "tamil": ""
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

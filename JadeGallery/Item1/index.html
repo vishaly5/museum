@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 1 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="../images/logo-moc.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="../images/logo-anu.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >1. तीरंदाजी की अंगूठी</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. तीरंदाजी की अंगूठी" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-1338</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">यह गहरे हरे रंग की जेड पत्थर से बनी धनुर्धर की अंगूठी है, जिस पर मुगल सम्राट शाहजहाँ की उपाधि अंकित है। अंगूठी पर ‘साहिब-ए-किरान-ए-सानी’ लिखा है, जिसका अर्थ है ‘दूसरे युति-स्वामी’। शाहजहाँ ने यह उपाधि अपने पूर्वज तैमूर के अनुकरण में अपनाई थी। यह इस संग्रह की एक अत्यंत महत्वपूर्ण और गौरवपूर्ण वस्तु है। अंगूठी पर ‘हिजरी-1040’ की तिथि भी अंकित है, जो 1637 ईस्वी के बराबर है। इसकी उत्कृष्ट कारीगरी शाहजहाँ के समय की जेड शिल्पकला की विशेषताओं के अनुरूप है। धनुर्धर की यह अंगूठी अंगूठे में पहनी जाती थी। धनुष की डोरी खींचते समय धनुष और तीर से त्वचा पर रगड़ न लगे, इसके लिए इसका उपयोग किया जाता था।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >1. Archer's Ring</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. Archer's Ring" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">An archer's ring made of dark green jade inscribed with the title of Mughal Emperor Shah Jahan. The ring bears the inscription 'Sahib-e-Kiran-e-Sani', meaning 'Second Lord of Conjunction', a title adopted by Shah Jahan in emulation of his ancestor Timur. It is a prized masterpiece of the collection, also bearing the date Hijri 1040 (1637 CE). Worn on the thumb to protect skin when pulling the bowstring.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >1. ఆర్చరీరింగ్</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. ఆర్చరీరింగ్" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">గాఢ పచ్చ రంగు జేడ్ (నవరత్నాల్లో ఒకటైన జేడ్) రాయితో తయారు చేసిన ఈ విలుకాని ఉంగరం (Archer's ring) మొఘల్ చక్రవర్తి అయిన షాజహాన్ బిరుదును కలిగి ఉందిఈ ఉంగరంపై 'సాహిబ్-యే కిరాన్-ఇ-సాని' అని చెక్కబడి ఉంది, అంటే 'ఖగోళ కలయికకు రెండవ అధిపతి' (Second lord of the conjunction) అని అర్థంతన పూర్వీకుడైన తైమూర్ బాటలో షాజహాన్ స్వీకరించిన ఈ బిరుదు, ఈ సేకరణలోనే అత్యంత విశిష్టమైనది మరియు గర్వకారణమైనది. దీనిపై 'హిజ్రీ-1040' అనే సంవత్సరం కూడా ఉంది, ఇది క్రీస్తుశకం 1637 కి సమానం. అద్భుతమైన మెరుగుదల (Finish) కలిగిన ఈ ఉంగరం షాజహాన్ కాలపు నవరత్నాల శిల్పకళా నైపుణ్యానికి ప్రామాణికంగా రూపొందించబడింది. బాణం సంధించి విల్లు త్రాడును వెనక్కి లాగినప్పుడు చర్మానికి గాయం కాకుండా/రాపిడి తగలకుండా రక్షణగా ఈ ఉంగరాన్ని బొటనవేలికి ధరించేవారు</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >1. வில்லாளி மோதிரம்</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. வில்லாளி மோதிரம்" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-1338</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">முகலாய சக்கரவர்த்தி ஷாஜகானின் பட்டப்பெயர் பொறிக்கப்பட்ட அடர் பச்சை நிற ஜேட் கல்லால் ஆன வில்லாளி மோதிரம். இதில் 'சாஹிப்-இ-கிரான்-இ-சானி' என்ற வரிகள் செதுக்கப்பட்டுள்ளன. 1637 ஆம் ஆண்டைச் சேர்ந்த இந்த மோதிரம் ஷாஜகானின் காலத்து ஜேட் கலைப் பாணியைப் பறைசாற்றுகிறது.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >1. XLIX-1338 तिरंदाजी अंगठी</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. XLIX-1338 तिरंदाजी अंगठी" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">गडदहिरव्याजेडच्यायातिरंदाजाच्याअंगठीवरमुघलसम्राटशाहजहानयांचीपदवीआहे. अंगठीवरीललेखात' साहिब-ए-किरान-ए-सानी' असेवाचतायेते, ज्याचाअर्थ' संयोगाचादुसरास्वामी' असाहोतो; हीपदवीशाहजहाननेआपलेपूर्वजतैमूरयांचेअनुकरणकरूनस्वीकारलीहोतीआणितीयासंग्रहाचीएकअभिमानास्पदसंपत्तीआहे. यालेखावर' हिजरी- १०४० ' हीतारीखदेखील आहे , जीइ. स. १६३७ च्यासमतुल्य आहे . उत्कृष्टसफाईदारपणाअसलेलीहीअंगठीशाहजहानच्याकाळातीलजेडच्याकारागिरीलाअनुसरूनतयारकेलेलीआहे. धनुष्याचीदोरीओढतानाधनुष्यआणिबाणामुळेत्वचासोलवटूनयेम्हणूनतिरंदाजाचीहीअंगठीअंगठ्यामध्येघातलीजातअसे.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >1. അമ്പെയ്ത്ത് മോതിരം</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. അമ്പെയ്ത്ത് മോതിരം" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ഇരുണ്ടപച്ചജേഡ്കല്ലിൽതീർത്തഈഅമ്പെയ്ത്ത്മോതിരത്തിൽമുകൾചക്രവർത്തിഷാജഹാന്റെസ്ഥാനപ്പേര്കാണാം. ' ജ്യോതിഷപരമായഅപൂർവ്വയോഗത്തിന്റെരണ്ടാമത്തെഅധിപൻ' എന്നർത്ഥംവരുന്ന' സാഹിബ്-ഇകിറാൻ-ഇസാന്നി' എന്നാണ്ഇതിൽരേഖപ്പെടുത്തിയിരിക്കുന്നത്. തന്റെമുൻഗാമിയായതിമൂറിനോടുള്ളആദരസൂചകമായിഷാജഹാൻസ്വീകരിച്ചഈപദവികൊത്തിവെച്ചമോതിരംഈശേഖരത്തിലെതന്നെഏറ്റവുംവിലപ്പെട്ടവസ്തുവാണ്. എ. ഡി. 1637 -ന്തുല്യമായ' ഹിജ്റ 1040 ' എന്നവർഷവുംഇതിൽകാണാം. അതിവിദഗ്ദ്ധമായനിർമ്മാണമികവുള്ളഈമോതിരംഷാജഹാന്റെകാലത്തെജേഡ്കൊത്തുപണികളുടെസൗന്ദര്യവുംതികവുംവിളിച്ചോതുന്നു. അമ്പെയ്യുമ്പോൾഞാൺവലിക്കുമ്പോൾവിരലിലെതൊലിപോകാതിരിക്കാൻകൈയിലെപെരുവിരലിലാണ്വില്ലാളികൾഇത്തരംമോതിരങ്ങൾധരിച്ചിരുന്നത്. വാക്കുകൾ = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >1. XLIX-1338 ಬಿಲ್ಲುಗಾರಿಕೆಉಂಗುರ</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. XLIX-1338 ಬಿಲ್ಲುಗಾರಿಕೆಉಂಗುರ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ಗಾಢ ಹಸಿರು ಬಣ್ಣದ ಜೇಡ್ (ರತ್ನದ ಕಲ್ಲು) ನಿಂದ ಮಾಡಲ್ಪಟ್ಟ ಈ ಬಿಲ್ಲುಗಾರನ ಉಂಗುರವು (ಆರ್ಚರ್ಸ್ ರಿಂಗ್) ಮೊಘಲ್ ಚಕ್ರವರ್ತಿ ಶಹಜಹಾನ್ ಅವರ ಬಿರುದನ್ನು ಹೊಂದಿದೆ. ಈ ಉಂಗುರದ ಮೇಲಿರುವ ಬರಹವು 'ಸಾಹಿಬ್-ಎ ಕಿರಾನ್-ಎ-ಸಾನಿ' ಎಂದಿದ್ದು, ಇದರ ಅರ್ಥ "ಖಗೋಳ ನಕ್ಷತ್ರಗಳ ಅಪರೂಪದ ಸಂಯೋಗದ ಎರಡನೇ ಒಡೆಯ" ಎಂದಾಗಿದೆ. ಶಹಜಹಾನ್ ಅವರು ತಮ್ಮ ಪೂರ್ವಜನಾದ ತೈಮೂರ್‌ರ ಅನುಕರಣೆಯಲ್ಲಿ ಈ ಬಿರುದನ್ನು ಅಳವಡಿಸಿಕೊಂಡಿದ್ದರು, ಇದು ಈ ಸಂಗ್ರಹದ ಹೆಮ್ಮೆಯ ವಸ್ತುವಾಗಿದೆ. ಈ ಬರಹದಲ್ಲಿ "ಹಿಜ್ರಿ-1040"ಎಂಬ ದಿನಾಂಕವೂ ಇದ್ದು, ಇದು ಕ್ರಿಸ್ತ ಶಕ 1637ಕ್ಕೆ ಸಮಾನವಾಗಿದೆ. ಅತ್ಯುತ್ತಮ ಫಿನಿಷಿಂಗ್ ಹೊಂದಿರುವ ಈ ಉಂಗುರವನ್ನು ಶಹಜಹಾನ್ ಅವರ ಕಾಲದ ಜೇಡ್ ಕೆತ್ತನೆ ಕಲೆಗೆ ಅನುಗುಣವಾಗಿ ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ. ಬಿಲ್ಲುಗಾರರು ಬಿಲ್ಲಿನ ಹೆದೆಯನ್ನು (ದಾರವನ್ನು) ಎಳೆಯುವಾಗ ಚರ್ಮವು ತಾಯಲ್ಪಡದಂತೆ ತಡೆಯಲು ಈ ಉಂಗುರವನ್ನು ಹೆಬ್ಬೆರಳಿನಲ್ಲಿ ಧರಿಸಲಾಗುತ್ತಿತ್ತು.<br><br>ಪದಗಳು = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >1. ତୀରନ୍ଦାଜୀରିଙ୍ଗ୍ବା ଆର୍ଚର୍ସ ରିଙ୍ଗ୍</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. ତୀରନ୍ଦାଜୀରିଙ୍ଗ୍ବା ଆର୍ଚର୍ସ ରିଙ୍ଗ୍" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ଏହିଗାଢ଼ସବୁଜରଙ୍ଗରଜେଡ୍ପଥରରେତିଆରିତୀରନ୍ଦାଜମୁଦିଟିରେମୋଗଲସମ୍ରାଟ୍ଶାହାଜାହାନ୍‌ଙ୍କନାମଖୋଦିତହୋଇଛି। ଏହିମୁଦିଉପରେ' ସାହିବ୍-ଇକିରାନ୍-ଇସାନୀ' ଲେଖାଯାଇଛି, ଯାହାରଅର୍ଥହେଉଛି' ଯୋଗରଦ୍ୱିତୀୟପ୍ରଭୁ' ; ଏହାହେଉଛିସେହିଉପାଧିଯାହାକୁଶାହାଜାହାନ୍ତାଙ୍କରପୂର୍ବପୁରୁଷତୈମୁର୍-ଙ୍କୁଅନୁକରଣକରିଗ୍ରହଣକରିଥିଲେଏବଂଏହାଏହିସଂଗ୍ରହରଏକଗର୍ବରବିଷୟ। ଏଥିରେ' ହିଜ୍ରୀ- ୧୦୪୦ ' ତାରିଖମଧ୍ୟରହିଛି, ଯାହାକିଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୬୩୭ ସହିତସମାନ। ଅତିଉତ୍ତମଫିନିଶିଂବାଚିକ୍କଣତାଥିବାଏହିମୁଦିଟିକୁଶାହାଜାହାନ୍ସମୟରଜେଡ୍କାରିଗରୀକୌଶଳସହିତସମ୍ପୂର୍ଣ୍ଣସାମଞ୍ଜସ୍ୟରଖିତିଆରିକରାଯାଇଛି। ତୀରରଜ୍ୟାକ୍କୁଟାଣିବାସମୟରେଧନୁଓତୀରଯେପରିଚର୍ମକୁଘସିହୋଇକ୍ଷତିନକରେ, ସେଥିପାଇଁଏହିତୀରନ୍ଦାଜମୁଦିକୁବୁଢ଼ାଆଙ୍ଗୁଠିରେପିନ୍ଧାଯାଉ ଥିଲା । ଶବ୍ଦ = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >1. XLIX-1338: তীরন্দাজের আংটি</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. XLIX-1338: তীরন্দাজের আংটি" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">গাঢ় সবুজ জেড পাথরের তৈরি তীরন্দাজের এই আংটিটিতে মুঘল সম্রাট শাহজাহানের উপাধি খোদাই করা রয়েছে। আংটিটিতে ‘সাহেব-ই-কিরান-ই-সানি’ কথাটি উৎকীর্ণ আছে, যার অর্থ ‘দ্বিতীয় শুভ সংযোগের অধিপতি’; এটি ছিল শাহজাহানের পূর্বপুরুষ তৈমুরের অনুকরণে গৃহীত একটি উপাধি এবং এই সংগ্রহের অন্যতম গর্বের নিদর্শন। লিপিটিতে ‘হিজরি ১০৪০’ সালটিও উল্লেখ রয়েছে, যা খ্রিস্টীয় ১৬৩৭ অব্দের সমতুল্য। চমৎকার কারুকাজমণ্ডিত এই আংটিটি শাহজাহান আমলের জেড পাথরের শিল্পরীতির সাথে সামঞ্জস্য রেখে তৈরি করা হয়েছে। ধনুকের ছিলা টানার সময় যাতে ত্বক ঘষা না খায় বা আঘাত না পায়, তা প্রতিরোধের জন্য তীরন্দাজের আংটিটি বৃদ্ধাঙ্গুলিতে পরিধান করা হতো।<br><br>শব্দ = 107</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">1. 1338-XILXتیر اندازی کی انگوٹھی</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. 1338-XILXتیر اندازی کی انگوٹھی" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div dir="rtl" style="text-align: right; font-size: 19px; line-height: 2.1; color: #333333;">یہ گہرے سبز رنگ کے سنگِسیم سے بنی تیرانداز کی انگوٹھی ہے، جس پر مغل بادشاہ شاہجہاں کا لقب لکھا ہوا ہے۔انگوٹھی پر شاہ جہاں کا شاہی لقبدرج ہے۔ یہ لقب شاہ جہاں نے اپنے جدِّ امجد تیمور کی پیروی میں اختیار کیا تھا۔ یہ انگوٹھی اس مجموعے کی نہایت اہم اور قیمتی اشیاء میں شمار ہوتی ہے۔اس پر 1040 ہجری کی تاریخ بھی لکھی ہوئی ہے، جو 1637 عیسوی کے برابر ہے۔یہ انگوٹھی نہایت نفاست اور مہارت سے تیار کی گئی ہے اور اس میں شاہ جہاں کے دور کے سنگِ یشم کے فنِ کاری کی خوبصورتی نمایاں ہے۔تیرانداز ایسی انگوٹھی انگوٹھے میں پہنتے تھے تاکہ کمان کی ڈوری کھینچتے وقت انگوٹھے کی جلد کو نقصان نہ پہنچے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >1. તીરંદાજી માટેની વીંટી (રિંગ)</h2>
+      <div class="booImgDiv">
+        <img src="../images/archer-ring.png" width="100%" alt="1. તીરંદાજી માટેની વીંટી (રિંગ)" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-1338</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">આ ઘેરા લીલા રંગની જેડ પથ્થરની તીરંદાજી માટેની વીંટી છે. તેના પર મુઘલ બાદશાહ શાહજહાંની ઉપાધિ કોતરવામાં આવી છે.વીંટી પર લખાણ “સાહિબ-એ-કિરાન-એ-સાની” છે. તેનો અર્થ “બીજા સંયોગના સ્વામી” એવો થાય છે. શાહજહાંએ આ ઉપાધિ પોતાના પૂર્વજ તિમૂરના અનુસરણમાં ધારણ કરી હતી. આ વીંટી આ સંગ્રહની એક ખૂબ જ મહત્વપૂર્ણ અને ગૌરવપૂર્ણ કળાકૃતિ છે.વીંટી પર “હિજરી 1040” તારીખ પણ કોતરવામાં આવી છે, જે ઈસવીસન 1637ની સમકક્ષ છે.આ વીંટી પર ખૂબ જ સુંદર અને બારીક કારીગરી કરવામાં આવી છે. તેની રચના શાહજહાંના સમયની જેડ પથ્થરની કારીગરીની ઉત્તમ પરંપરાને અનુરૂપ છે.આ પ્રકારની તીરંદાજીની વીંટી અંગૂઠામાં પહેરવામાં આવતી હતી. ધનુષ્યની દોરી ખેંચતી વખતે દોરીથી અંગૂઠાની ચામડીને ઘસારો ન થાય અને ઈજા ન પહોંચે તે માટે તેનો ઉપયોગ કરવામાં આવતો હતો.<br><br>શબ્દો = 107</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "../audio/hindi-%E0%A4%A4%E0%A5%80%E0%A4%B0%E0%A4%82%E0%A4%A6%E0%A4%BE%E0%A4%9C%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%82%E0%A4%A0%E0%A5%80.wav",
+  "english": "../audio/hindi-%E0%A4%A4%E0%A5%80%E0%A4%B0%E0%A4%82%E0%A4%A6%E0%A4%BE%E0%A4%9C%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%82%E0%A4%97%E0%A5%82%E0%A4%A0%E0%A5%80.wav",
+  "telugu": "../audio/Telugu_Archery%20Ring_Female.wav",
+  "tamil": "../audio/tamil-Archery%20Ring.wav",
+  "marathi": "../audio/mar-Archery%20Ring.wav",
+  "malayalam": "../audio/malayalam/Archery%20Ring.wav",
+  "kannada": "../audio/kannada-Acc%20No%20XLIX-1338%20Archery%20Ring-.wav",
+  "odia": "../audio/odia-Acc%20No%20XLIX-1338%20Archery%20Ring.wav",
+  "bengali": "../audio/bengali-ArcheryRing.wav",
+  "urdu": "../audio/urdu-Archery%20Ring.wav",
+  "gujarati": "../audio/guj-%20Archery%20Ring.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

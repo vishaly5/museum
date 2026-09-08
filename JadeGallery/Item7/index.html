@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 7 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="../images/logo-moc.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="../images/logo-anu.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >7. खंजरअली</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. खंजरअली" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: XLIX-329</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">मटन की चर्बी जैसे रंग के जेड पत्थर की मूठ वाला यह खंजरअली लाल और रंगहीन पत्थरों से जड़ा हुआ है। इन पत्थरों से फूल और पौधों की आकृतियाँ बनाई गई हैं। मूठ के ऊपरी भाग में जेड के एक धारक में मोतियों की लटकन लगी है, जिसे सोने में जड़े लाल पत्थरों से सजाया गया है। लाल मखमल से ढकी म्यान पर नक्काशीदार सोने की पट्टी और सोने की धातु की टोपी लगी है। मूठ के ऊपरी भाग में लटकन के लिए सोने की एक अंगूठी लगी है। लटकन में मोतियों की कुल 25 लड़ियाँ हैं। इनमें 10 लड़ियों में 12-12 मोती और 15 लड़ियों में 11-11 मोती हैं। यह खंजरअली मुगल सम्राट औरंगज़ेब का माना जाता है और इसे 17वीं शताब्दी ईस्वी का माना जाता है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >7. Khanjarali</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. Khanjarali" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A khanjarali dagger with a mutton-fat jade hilt inlaid with red and uncoloured stones in floral patterns. Features a pearl tassel attached to a gold ring at the pommel, consisting of 25 strands of pearls. Believed to have belonged to Mughal Emperor Aurangzeb.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >7. XLIX-329 ఖంజరాలి</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. XLIX-329 ఖంజరాలి" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">మటన్ ఫ్యాట్ జేడ్ హ్యాండిల్ గల ఖంజరాలి (కత్తి), దీనిపై పూల మొక్కలను సూచించే ఎరుపు మరియు రంగులేని రాళ్లు పొదగబడి ఉన్నాయి. దీనికి ఒక ముత్యాల కుచ్చు ఉంది, ఇది బంగారంలో పొదిగిన ఎర్ర రాళ్లతో పొదగబడిన జేడ్ హోల్డర్‌లో అమర్చబడింది. ఇది ఎరుపు వెల్వెట్‌తో కట్టబడిన ఒరలో ఉంది, దీనికి బంగారంతో చేసిన చెక్కిన పట్టీ తొడుగు మరియు ఫెర్రూల్ అమర్చబడి ఉన్నాయి. కుచ్చు కోసం కత్తి పిడి పైభాగంలో ఒక బంగారు ఉంగరం అమర్చబడింది. కుచ్చులో 25 ముత్యాల దండలు ఉన్నాయి, వాటిలో 12 ముత్యాలు ఉన్న 10 దండలు మరియు 11 ముత్యాలు ఉన్న 15 దండలు ఉన్నాయి. ఈ ఖంజరాలి మొఘల్ చక్రవర్తి ఔరంగజేబుకు చెందినది మరియు ఇది క్రీస్తుశకం. పదిహేడవ శతాబ్దానికి చెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >7. கஞ்சராலி</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. கஞ்சராலி" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: XLIX-329</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ஆட்டுக்கொழுப்பு வண்ண ஜேட் கைப்பிடி கொண்ட கஞ்சராலி கத்தி. இதன் கைப்பிடி முடிவில் 25 இழைகள் கொண்ட முத்துத் தொங்கட்டான் இணைக்கப்பட்டுள்ளது. முகலாய சக்கரவர்த்தி ஔரங்கசீப் பயன்படுத்தியது.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >7. आरोपसंख्याः XLIX-329 खंजराली</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. आरोपसंख्याः XLIX-329 खंजराली" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">फुलांचीरोपेदर्शवणारेलालआणिरंगहीनखडेजडवलेलीमटणफॅटजेडचीमूठअसलेलीखंजराली (खंजीर). यालाजेडच्याधारकामध्येमोत्यांचागोंडाजोडलेलाअसून, याधारकावरहीसोन्यातबसवलेलेलालखडेजडवलेलेआहेत. लालमखमलीआच्छादनअसलेल्याम्यानालासोन्याचेकोरीवआवरणआणिकडीबसवलीआहे. गोंड्यासाठीमुठीच्यावरच्याबाजूससोन्याचेकडेबसवलेआहे. यागोंड्यामध्येमोत्यांच्या २५ माळाअसून, त्यातील १० माळांमध्ये १२ मोतीआणि १५ माळांमध्ये ११ मोतीआहेत. हीखंजरालीमुघलसम्राटऔरंगजेबयांच्यामालकीचीहोतीआणितीइ. स. १७ व्याशतकातील आहे .</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >7. XLIX-329 ഖഞ്ചറാലി</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. XLIX-329 ഖഞ്ചറാലി" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">പൂച്ചെടികളെപ്രതിനിധീകരിക്കുന്നരീതിയിൽസ്വർണ്ണത്തിൽകൊത്തിവെച്ചചുവപ്പുംനിറമില്ലാത്തതുമായകല്ലുകൾപതിപ്പിച്ച, ആട്ടിൻകൊഴുപ്പിന്റെനിറത്തിലുള്ളജേഡ് പിടിപിടിപ്പിച്ചഖഞ്ചറാലി (കഠാര). സ്വർണ്ണത്തിൽപതിപ്പിച്ചചുവന്നകല്ലുകളുള്ളജേഡ്പിടിയിൽമുത്തുകൾകൊണ്ടുള്ളഒരുചെണ്ടുണ്ട്. കൊത്തുപണികളുള്ളസ്വർണ്ണബാൻഡ്ഷീത്തുംഅഗ്രഭാഗവും ഘടിപ്പിച്ചചുവന്നവെൽവറ്റ്പൊതിഞ്ഞഉറയാണുള്ളത്. ചെണ്ട്കോർക്കുന്നതിനായിപിടിയുടെമുകൾഭാഗത്ത്ഒരുസ്വർണ്ണവളയംനൽകിയിട്ടുണ്ട്. ചെണ്ടിൽആകെ 25 മുത്തുച്ചരടുകളാണുള്ളത്; ഇതിൽ 10 ചരടുകളിൽ 12 മുത്തുകൾവീതവും 15 ചരടുകളിൽ 11 മുത്തുകൾവീതവുമുണ്ട്. എ. ഡി. 17 -ാംനൂറ്റാണ്ടിലെഈഖഞ്ചറാലിമുഗൾചക്രവർത്തിഔറംഗസേബിന്റേതാണ്. വാക്കുകൾ = 91</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >7. XLIX-329 ಖಂಜರಾಲಿ</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. XLIX-329 ಖಂಜರಾಲಿ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ಮಟನ್ ಫ್ಯಾಟ್ ಜೇಡ್ ಹಿಡಿಕೆಯ ಖಂಜರಾಲಿ (ಕಿರುಕತ್ತಿ/ಚಾಕು), ಚಿನ್ನದಲ್ಲಿ ಜೋಡಿಸಲಾದ ಕೆಂಪು ಹರಳುಗಳಿಂದ ಪೋಣಿಸಿದ ಜೇಡ್ ಹೋಲ್ಡರ್‌ನಲ್ಲಿ ಮುತ್ತಿನ ಕುಚ್ಚಿನೊಂದಿಗೆ ಹೂವಿನ ಗಿಡಗಳನ್ನು ಬಿಂಬಿಸುವ ಕೆಂಪು ಮತ್ತು ಬಣ್ಣರಹಿತ ಹರಳುಗಳ ಅಲಂಕಾರವನ್ನು ಹೊಂದಿದೆ. ಕೆಂಪು ಮಖ್‌ಮಲಿ (ವೆಲ್ವೆಟ್) ಬಟ್ಟೆಯಿಂದ ಸುತ್ತಲ್ಪಟ್ಟ ಓರೆಯು (ಹಿಡಿಕೆ ಕೋಶ) ಚಿನ್ನದಲ್ಲಿ ಕೆತ್ತಲಾದ ಪಟ್ಟಿ, ಶೇತ್ ಮತ್ತು ಫೆರುಲ್‌ನಿಂದ ಜೋಡಿಸಲ್ಪಟ್ಟಿದೆ. ಕುಚ್ಚಿಗಾಗಿ ಹಿಡಿಕೆಯ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಚಿನ್ನದ ಉಂಗುರವನ್ನು ಅಳವಡಿಸಲಾಗಿದೆ. ಈ ಕುಚ್ಚು 25 ಮುತ್ತಿನ ಎಳೆಗಳನ್ನು ಹೊಂದಿದ್ದು, ಅದರಲ್ಲಿ 10 ಎಳೆಗಳು ತಲಾ 12 ಮುತ್ತುಗಳನ್ನು ಮತ್ತು 15 ಎಳೆಗಳು ತಲಾ 11 ಮುತ್ತುಗಳನ್ನು ಹೊಂದಿವೆ. ಈ ಖಂಜರಾಲಿಯು ಮೊಘಲ್ ಚಕ್ರವರ್ತಿ ಔರಂಗಜೇಬನಿಗೆ ಸೇರಿದ್ದಾಗಿದೆ ಮತ್ತು ಕ್ರಿ.ಶ. 17 ನೇ ಶತಮಾನಕ್ಕೆ ಸೇರಿದುದಾಗಿದೆ.<br><br>ಪದಗಳು = 91</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >7. XLIX-329 ଖଞ୍ଜରଲିବା ଛୁରୀ</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. XLIX-329 ଖଞ୍ଜରଲିବା ଛୁରୀ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ମଟନ୍-ଫ୍ୟାଟ୍ଜେଡ୍ (ଅଧିକଧଳାଓଚିକ୍କଣଜେଡ୍ପଥର) ମୁଠାବିଶିଷ୍ଟଏହିଖଞ୍ଜରଲି (ଛୁରୀ) ଟିରେଫୁଲଗଛକୁପ୍ରତିଫଳିତକଲାଭଳିନାଲିଏବଂରଙ୍ଗହୀନପଥରଜଡ଼ିତହୋଇଛିଏବଂସୁନାରେସେଟ୍ହୋଇଥିବାନାଲିପଥରଜଡ଼ିତଏକଜେଡ୍ହୋଲ୍ଡର୍ଭିତରେଏକମୋତିରଟାସେଲ୍ (ଝୁଲାଫୁଲ) ରହିଛି। ଲାଲ୍ମଖମଲରେଆଚ୍ଛାଦିତମହାରବଉପରେଏକଖୋଦିତସୁନାଧାତବପଟିଏବଂଫେରୁଲ୍ଲାଗିଛି। ଟାସେଲ୍ପାଇଁମୁଠାରଉପରଭାଗରେଏକସୁନାରିଂଫିଟ୍କରାଯାଇଛି। ଏହିଟାସେଲ୍‌ରେମୋତିର ୨୫ ଟିସୂତାବାଧାଡ଼ିରହିଛି, ଯେଉଁଥିରୁ ୧୦ ଟିଧାଡ଼ିରେପ୍ରତ୍ୟେକଟିରେ ୧୨ ଟିଲେଖାଏଁଏବଂ ୧୫ ଟିଧାଡ଼ିରେପ୍ରତ୍ୟେକଟିରେ ୧୧ ଟିଲେଖାଏଁମୋତିରହିଛି। ଏହିଖଞ୍ଜରଲିଟିମୋଗଲସମ୍ରାଟଔରଙ୍ଗଜେବଙ୍କର ଅଟେ ଏବଂଏହା ୧୭ ଶଶତାବ୍ଦୀରଖ୍ରୀଷ୍ଟାବ୍ଦରବୋଲିଅନୁମାନକରାଯାଏ। ଶବ୍ଦ = 91</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >7. XLIX-329 খঞ্জরালি</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. XLIX-329 খঞ্জরালি" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">এক ধরণের মসৃণ মূল্যবান পাথরের হাতলবিশিষ্ট একটি ছুরি বা খঞ্জরালি। এতে সোনালী ফ্রেমে লাল ও বর্ণহীন রত্ন খচিত করে ফুলগাছের নকশা ফুটিয়ে তোলা হয়েছে এবং সাথে রয়েছে জেডের তৈরি একটি ধারক বা হোল্ডারে যুক্ত মুক্তার ঝুলন, যা নিজেও সোনায় বসানো লাল রত্নে সজ্জিত। খঞ্জরালিটি লাল ভেলভেটে মোড়ানো খাপের মধ্যে সংরক্ষিত, যার সঙ্গে খাঁজকাটা ব্যান্ড শেথ এবং স্বর্ণনির্মিত ফেরুল যুক্ত রয়েছে। ঝুলনটি আটকানোর জন্য হাতলের উপরিভাগে একটি সোনার আংটি লাগানো আছে। এই ঝুলনে মোট ২৫টি মুক্তার সুতো রয়েছে, যার মধ্যে ১০টি সুতোয় ১২টি করে মুক্তা এবং ১৫টি সুতোয় ১১টি করে মুক্তা রয়েছে। এই খঞ্জরালিটি মোগল সম্রাট আওরঙ্গজেবের ব্যবহৃত ছিল এবং এটি খ্রিস্টীয় ১৭ শতকের বলে অনুমিত।<br><br>শব্দ = 91</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">7. 329-XILXخنجر علی</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. 329-XILXخنجر علی" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div dir="rtl" style="text-align: right; font-size: 19px; line-height: 2.1; color: #333333;">سفید جیڈ سے بنا یہ خوب صورت دستہ دار خنجر سرخ اور شفاف قیمتی پتھروں سے مزین ہے۔ اس پر پھولوں اور پودوں کے دل کش نقش تراشے گئے ہیں۔ خنجر کے ساتھ موتیوں کا ایک نفیس لٹکن لگا ہوا ہے، جو جیڈ کے ایک خوب صورت غلاف میں محفوظ ہے۔ اس غلاف کو بھی سرخ پتھروں سے مزین کر کے سونے سے آراستہ کیا گیا ہے۔سرخ مخمل سے ڈھکی ہوئی میان پر کندہ کاری سے مزین سونے کا پٹّا، غلاف اور سرا نصب ہیں۔ خنجر کے دستے کے اوپری حصے پر لٹکن کو تھامنے کے لیے سونے کی ایک انگوٹھی لگائی گئی ہے۔اس لٹکن میں موتیوں کی 25 لڑیاں شامل ہیں؛ ان میں سے 10 لڑیاں 12، 12 موتیوں پر مشتمل ہیں، جبکہ 15 لڑیاں 11، 11 موتیوں پر مشتمل ہیں۔یہ نفیس خنجر مغل بادشاہ اورنگزیب سے منسوب ہے اور اسے سترہ ویں صدی عیسوی کا ایک شاندار شاہی فن پارہ قرار دیا جاتا ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >7. XLIX-329 ખંજરઅલી</h2>
+      <div class="booImgDiv">
+        <img src="../images/khanjarali.png" width="100%" alt="7. XLIX-329 ખંજરઅલી" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: XLIX-329</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">આ એક સુંદર ખંજરઅલી (નાની ખંજર/કટાર) છે. તેનું હાથું મટન-ફેટ જેડ નામના આછા સફેદ રંગના જેડ પથ્થરમાંથી બનાવવામાં આવ્યું છે. હાથા પર લાલ અને રંગહીન પથ્થરો જડવામાં આવ્યા છે, જે ફૂલ અને છોડની સુંદર ભાત દર્શાવે છે.હાથા સાથે જેડના ધારકમાં મોતીનું લટકણ લગાવવામાં આવ્યું છે. આ જેડના ધારકને પણ સોનામાં જડેલા લાલ પથ્થરોથી શણગારવામાં આવ્યો છે.ખંજરનું મ્યાન લાલ મખમલથી મઢાયેલું છે. તેના પર કોતરણીવાળી સોનાની પટ્ટી અને ધાતુનું આવરણ લગાવવામાં આવ્યું છે. હાથાના ઉપરના ભાગે લટકણ માટે સોનાની એક વીંટી પણ છે.આ ખંજરનું લટકણ કુલ 25 મોતીની દોરીઓથી બનેલું છે. તેમાં 10 દોરીઓમાં 12-12 મોતી અને 15 દોરીઓમાં 11-11 મોતી છે. આ સુંદર ખંજરઅલી મુઘલ બાદશાહ ઔરંગઝેબની હોવાનું માનવામાં આવે છે અને તે ઈસવીસનની 17મી સદીનું છે.<br><br>શબ્દો = 91</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "../audio/hindi-%E0%A4%96%E0%A4%82%E0%A4%9C%E0%A4%B0%E0%A4%85%E0%A4%B2%E0%A5%80.wav",
+  "english": "../audio/hindi-%E0%A4%96%E0%A4%82%E0%A4%9C%E0%A4%B0%E0%A4%85%E0%A4%B2%E0%A5%80.wav",
+  "telugu": "../audio/Telugu_Jambia_Female.wav",
+  "tamil": "../audio/tamil-%20Khanjarali.wav",
+  "marathi": "../audio/mar-Khanjarali.wav",
+  "malayalam": "../audio/malayalam/Khanjarali.wav",
+  "kannada": "../audio/kannada-Acc%20No%20XLIX-329%20Khanjarali-.wav",
+  "odia": "../audio/odia-Acc%20No%20XLIX-329%20Khanjarali.wav",
+  "bengali": "../audio/bengali-casket_.wav",
+  "urdu": "../audio/urdu-Khanjarali.wav",
+  "gujarati": "../audio/guj-%20Khanjarali.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Gallery - Item 9 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo"><img src="../images/logo-moc.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="../images/logo-anu.png" onerror="this.onerror=null; this.src='../../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >9. कलम और दवात रखने का आधार</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. कलम और दवात रखने का आधार" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">अभिलेख संख्या: CS-IV-128</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">सफेद सुनहरी परत वाले ढाँचे का कलमदान और दवात है। इसमें भूरापन लिए नारंगी रंग के गोमेद पत्थर की एक दवात लगी है। दवात के ढक्कन पर फूल की डंडी के आकार में ईश्वर और पंजतन के नाम अंकित हैं। कलमदान और दवात धातु तथा गोमेद पत्थर से बनाए गए हैं। कलमदान में कलम रखने के लिए तीन स्तर हैं। इसमें लगा गोमेद पत्थर का पात्र चार पंक्तियों में नाद-ए-अली से अंकित है। इसमें दो धारक हैं, जिनमें एक भूरापन लिए नारंगी रंग के गोमेद पत्थर का और दूसरा आसमानी नीले रंग का है। इसके अतिरिक्त, भूरापन लिए नारंगी रंग के गोमेद पत्थर का एक पेंसिल धारक भी है। यह कलमदान और दवात 20वीं शताब्दी ईस्वी की है और इसका संबंध मध्य-पूर्व के देशों से है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >9. Pen and Ink Stand</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. Pen and Ink Stand" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A gilded pen and ink stand with a brownish-orange onyx inkpot engraved with floral stems and sacred names. Features a three-tiered pen holder and an onyx tray inscribed with 'Nad-e-Ali'. Middle Eastern, 20th century CE.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >9. CS-IV-128 పెన్ను మరియు సిరా స్టాండ్</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. CS-IV-128 పెన్ను మరియు సిరా స్టాండ్" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">తెల్లటి బంగారు పూత పూసిన ఫ్రేమ్ గల కలం మరియు సిరా స్టాండ్, దాని మూతపై ఒక పువ్వు కాడ మీద దేవుని నామం మరియు పంజాతన్ (Panjathan ) అని వ్రాయబడి ఉండగా, దానిలో గోధుమ-నారింజ రంగు ఓనిక్స్ సిరాబుడ్డి ఉంది. ఈ కలం మరియు సిరా స్టాండ్ లోహం మరియు ఓనిక్స్ వంటి పదార్థాలతో తయారు చేయబడింది. ఈ స్టాండ్‌కు మూడు కలం మెట్లు ఉన్నాయి. దీనికి అమర్చిన ఓనిక్స్ ట్రేలో నాదే అలీ (Nade-Ali ) యొక్క నాలుగు పంక్తులు ఉన్నాయి. ఈ ట్రేలో రెండు హోల్డర్లు ఉన్నాయి, ఒకటి గోధుమ-నారింజ రంగు ఓనిక్స్‌తో మరియు మరొకటి నీలిరంగు ఓనిక్స్‌తో తయారు చేయబడింది. మూడవ పెన్సిల్ హోల్డర్ కూడా గోధుమ-నారింజ రంగు ఓనిక్స్‌తో తయారు చేయబడింది. ఈ కలం మరియు సిరా స్టాండ్ క్రీ.శ. 20వ శతాబ్దానికి చెందిన, ఇది మధ్యప్రాచ్య దేశాలకు చెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >9. பேனா மற்றும் மைக்கூடு தாங்கி</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. பேனா மற்றும் மைக்கூடு தாங்கி" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">பதிவு எண்: CS-IV-128</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">தங்க முலாம் பூசப்பட்ட மைக்கூடு மற்றும் பேனா தாங்கி. பழுப்பு-ஆரஞ்சு நிற ஆனிக்ஸ் கல்லில் இறைநாமங்கள் பொறிக்கப்பட்டுள்ளன. 20 ஆம் நூற்றாண்டு, மத்திய கிழக்கு பிராந்தியம்.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >9. आरोपसंख्याःसीएस-IV लेखणीआणिशाईचास्टँड</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. आरोपसंख्याःसीएस-IV लेखणीआणिशाईचास्टँड" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">पांढऱ्यासोनेरीमुलामाअसलेल्याचौकटीचालेखणीआणिशाईचास्टँड, ज्यामध्येतपकिरी-नारिंगीओनिक्सचेशाईचेएकभांडेअसून, त्याच्याझाकणावरफुलांच्यादेठातदेवाचीआणिपंजतनचीनावेआहेत. लेखणीआणिशाईचाहास्टँडधातूआणिओनिक्सघटकांपासूनबनवलाआहे. यास्टँडमध्येलेखण्यांसाठीतीनपायऱ्याआहेत. बसवलेल्याओनिक्सतबकडीवरचारओळींमध्ये' नादे-अली' कोरलेलेअसून, यातदोनधारक आहे त, पैकीएकतपकिरी-नारिंगीओनिक्सचाआणिदुसरासेरुलियननिळ्यारंगाचाआहे, तसेचतपकिरी-नारिंगीओनिक्सचाएकतिसरापेन्सिलधारक आहे . लेखणीआणिशाईचाहास्टँडमध्य-पूर्वेकडीलदेशांमधीलअसूनतोइ. स. २० व्याशतकातील आहे . शब्द = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >9. പേനയും മഷി സ്റ്റാൻഡും</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. പേനയും മഷി സ്റ്റാൻഡും" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">തവിട്ടുകലർന്നഓറഞ്ച്നിറത്തിലുള്ളഓണിക്സ്കല്ലുകൊണ്ടുള്ളഒരുമഷിപ്പാത്രത്തോടുകൂടിയ, വെള്ളിപൂശിയവെള്ളചട്ടക്കൂടുള്ളപേനയുംമഷിപ്പാത്രവുംവയ്ക്കുന്നതട്ട്. മഷിപ്പാത്രത്തിന്റെമൂടിയിൽപൂന്തണ്ടുകളുടെ മാതൃകയിൽ ദൈവനാമവുംപഞ്ചതന്റെനാമങ്ങളുംകൊത്തിവെച്ചിട്ടുണ്ട്. ലോഹവുംഓണിക്സ്കല്ലുമാണ്ഇതിന്റെനിർമ്മാണസാമഗ്രികൾ. ഈതട്ടിൽപേനകൾവെയ്ക്കുന്നതിനായിമൂന്ന്തട്ടുകളുണ്ട്. ഇതിൽഘടിപ്പിച്ചിരിക്കുന്നഓണിക്സ്ട്രേയിൽനാല്വരികളിലായി' നാദിഅലി' പ്രാർത്ഥനകൊത്തിവെച്ചിരിക്കുന്നു. കൂടാതെ, തവിട്ടുകലർന്നഓറഞ്ച്ഓണിക്സ്കൊണ്ടുള്ളതും, ആകാശനീലനിറത്തിലുള്ളതുമായ രണ്ട്പേനഹോൾഡറുകളും, തവിട്ടുകലർന്നഓറഞ്ച്ഓണിക്സ്കൊണ്ടുള്ളഒരുപെൻസിൽഹോൾഡറുംഇതിലുണ്ട്. എ. ഡി. 20 -ാംനൂറ്റാണ്ടിൽനിർമ്മിക്കപ്പെട്ടഇത്മധ്യപൂർവേഷ്യൻരാജ്യങ്ങളിൽനിന്നുള്ളതാണ്. വാക്കുകൾ = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >9. CS-IV ಪೆನ್ಮತ್ತುಇಂಕ್ಸ್ಟ್ಯಾಂಡ್</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. CS-IV ಪೆನ್ಮತ್ತುಇಂಕ್ಸ್ಟ್ಯಾಂಡ್" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ಬ್ರೌನಿಶ್ ಆರೆಂಜ್ (ಕಂದು ಮಿಶ್ರಿತ ಕಿತ್ತಳೆ) ಬಣ್ಣದ ಆನಿಕ್ಸ್ ಕಲ್ಲಿನ ಒಂದು ಶಾಯಿ ಸೀಸೆಯನ್ನು ಹೊಂದಿರುವ, ಬಿಳಿ ಚಿನ್ನದ ಲೇಪಿತ (ವೈಟ್ ಗಿಲ್ಟ್) ಚೌಕಟ್ಟಿನ ಪೆನ್ನು ಮತ್ತು ಶಾಯಿ ಸ್ಟ್ಯಾಂಡ್ಇದಾಗಿದೆ. ಇದರ ಮುಚ್ಚಳದ ಮೇಲಿರುವ ಹೂವಿನ ತೊಟ್ಟಿನಲ್ಲಿ ದೇವರ ಹೆಸರು ಮತ್ತು ಪಂಜತನ್ ಎಂದು ಬರೆಯಲಾಗಿದೆ. ಈ ಪೆನ್ನು ಮತ್ತು ಶಾಯಿ ಸ್ಟ್ಯಾಂಡ್‌ ಅನ್ನು ಲೋಹ ಮತ್ತು ಆನಿಕ್ಸ್ ಕಲ್ಲಿನ ಸಂಯೋಜಿತ ವಸ್ತುಗಳಿಂದ ಮಾಡಲಾಗಿದೆ. ಸ್ಟ್ಯಾಂಡ್ ಪೆನ್ನುಗಳನ್ನು ಇಡಲು ಮೂರು ಹಂತಗಳನ್ನು ಹೊಂದಿದೆ. ಜತೆಗೆ ಜೋಡಿಸಲಾದ ಆನಿಕ್ಸ್ ತಟ್ಟೆಯಲ್ಲಿ ನಾದೆ-ಅಲಿ ಎಂಬ ಸಾಲುಗಳನ್ನು ನಾಲ್ಕು ಸಾಲುಗಳಲ್ಲಿ ಕೆತ್ತಲಾಗಿದ್ದು, ಕಂದು ಮಿಶ್ರಿತ ಕಿತ್ತಳೆ ಬಣ್ಣದ ಆನಿಕ್ಸ್‌ನ ಒಂದು, ಸೆರುಲಿಯನ್ ಬ್ಲೂ (ಆಕಾಶ ನೀಲಿ) ಬಣ್ಣದ ಒಂದು, ಹೀಗೆ ಎರಡು ಹೋಲ್ಡರ್‌ಗಳು ಮತ್ತು ಕಂದು ಮಿಶ್ರಿತ ಕಿತ್ತಳೆ ಆನಿಕ್ಸ್‌ನ ಮೂರನೇಯದು ಪೆನ್ಸಿಲ್ ಹೋಲ್ಡರ್ ಅನ್ನು ಹೊಂದಿದೆ. ಈ ಪೆನ್ನು ಮತ್ತು ಶಾಯಿ ಸ್ಟ್ಯಾಂಡ್ ಕ್ರಿ.ಶ. 20 ನೇ ಶತಮಾನದಾಗಿದ್ದು, ಇದು ಮಧ್ಯಪ್ರಾಚ್ಯ ದೇಶಗಳಿಗೆ ಸೇರಿದ್ದಾಗಿದೆ.<br><br>ಪದಗಳು = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >9. CS-IV-128 କଲମଏବଂକାଳି ଦାନୀ</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. CS-IV-128 କଲମଏବଂକାଳି ଦାନୀ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">ଧଳାଗିଲ୍ଟଫ୍ରେମରେତିଆରିଏକସୁନ୍ଦରକଲମଏବଂକାଳିଦାନୀ, ଯେଉଁଥିରେବାଦାମୀ-କମଳାରଙ୍ଗରଓନିକ୍ସପଥରରେତିଆରିଏକକାଳିପାତ୍ରରହିଛିଏବଂଏହାରଢାଙ୍କୁଣିରେଏକଫୁଲଡାଳଭିତରେଈଶ୍ୱରଙ୍କନାମଏବଂପଞ୍ଜତନ୍ଖୋଦିତହୋଇଛି। ଏହିକଲମଓକାଳିଦାନୀଟିଧାତୁଏବଂଓନିକ୍ସପଥରସାହାଯ୍ୟରେତିଆରିକରାଯାଇଛି। ଷ୍ଟାଣ୍ଡ୍‌ଟିରେକଲମରଖିବାପାଇଁତିନୋଟିପାହାଚପରିସ୍ତରରହିଛି। ଏଥିରେଲାଗିଥିବାଓନିକ୍ସଟ୍ରେ' ରେଚାରିଧାଡ଼ିରେ' ନଦୀ-ଅଲି' ଖୋଦିତହୋଇଛି। ଏଥିରେତିନୋଟିକଲମ ଆଧାରବାହୋଲ୍ଡର୍ରହିଛି—ଯେଉଁଥିରୁଦୁଇଟିବାଦାମୀ-କମଳାରଙ୍ଗରଓନିକ୍ସଏବଂଗୋଟିଏଆକାଶୀନୀଳରଙ୍ଗର ଅଟେ , ଏବଂତୃତୀୟହୋଲ୍ଡର୍‌ଟିମଧ୍ୟବାଦାମୀ-କମଳାରଙ୍ଗରଓନିକ୍ସରେତିଆରି। ଏହିକଲମଓକାଳିଦାନୀଟିଖ୍ରୀଷ୍ଟାବ୍ଦ ୨୦ ଶଶତାବ୍ଦୀରଏବଂଏହାମଧ୍ୟପ୍ରାଚ୍ୟଦେଶଗୁଡ଼ିକରେ ବ୍ୟବହୃତ। ଶବ୍ଦ = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >9. CS-IV-128 (দোয়াত ও কলমদানি)।</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. CS-IV-128 (দোয়াত ও কলমদানি)।" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">এটি সোনালি প্রলেপযুক্ত সাদা কাঠামোর একটি দোয়াত ও কলমদানি, যাতে বাদামি-কমলা রঙের অনিক্স পাথরের তৈরি একটি কালির পাত্র রয়েছে; পাত্রটির ঢাকনায় ফুলের ডাঁটার নকশার মাঝে ঈশ্বর এবং ‘পাঞ্জাতন’-এর নাম খোদাই করা আছে। আধারটি ধাতু ও অনিক্স পাথরের সমন্বয়ে তৈরি। এতে কলম রাখার জন্য তিনটি স্তর রয়েছে। এর সাথে যুক্ত অনিক্স পাথরের ট্রে-টিতে ‘নাদ-এ-আলি’ খোদাই করা চারটি পঙক্তি রয়েছে এবং এতে তিনটি হোল্ডার যুক্ত আছে—যার মধ্যে একটি বাদামি-কমলা অনিক্সের, একটি গাঢ় নীল রঙের এবং তৃতীয়টি (পেন্সিল রাখার জন্য) পুনরায় বাদামি-কমলা অনিক্সের তৈরি। এই সামগ্রীটি বিংশ শতাব্দীর এবং এটি মধ্যপ্রাচ্যের কোনো অঞ্চলের।<br><br>শব্দ = 101</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">9. 128-VI-SCقلم دان</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. 128-VI-SCقلم دان" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div dir="rtl" style="text-align: right; font-size: 19px; line-height: 2.1; color: #333333;">یہ قلم دان کا  سفید سنہری فریم سے تیار کیا گیا ہے، جس میں بھورے مائل نارنجی رنگ کے عقیق کی ایک دوات رکھی ہوئی ہے۔ دوات کے ڈھکن پر پھول کی شاخ میں اللہ تعالیٰ کا نام اور پنجتن کے نام کندہ ہیں۔یہ قلم دان دھات اور عقیق سے بنایا گیا ہے۔ اس میں قلم رکھنے کے لیے تین درجے بنے ہوئے ہیں۔ عقیق سے تیار کی گئی طشتری پر چار سطروں میں نادِ علی کندہ ہے۔ اس کے ساتھ دو قلم رکھنے کی جگہیں ہیں، جن میں ایک بھورے مائل نارنجی عقیق کی اور دوسری آسمانی نیلے رنگ کی ہے، جبکہ تیسری جگہ پنسل رکھنے کے لیے بھورے مائل نارنجی عقیق سے بنائی گئی ہے۔یہ قلم دان بیسویں صدی عیسوی کا ہے اور اس کا تعلق مشرقِ وسطیٰ کے ممالک سے ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >9. CS-IV-128 કલમ અને શાહી રાખવાનું સ્ટેન્ડ</h2>
+      <div class="booImgDiv">
+        <img src="../images/pen-and-ink-stand.png" width="100%" alt="9. CS-IV-128 કલમ અને શાહી રાખવાનું સ્ટેન્ડ" onerror="this.onerror=null; this.src='../images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Acc No: CS-IV-128</p>
+        <div style="font-size: 17px; line-height: 1.9; color: #333333;">આ એક સુંદર કલમ અને શાહી રાખવાનું સ્ટેન્ડ છે. તેની ફ્રેમ સફેદ રંગની છે અને તેના પર સોનાનો ઢોળ ચઢાવવામાં આવ્યો છે. તેમાં ભૂરા-નારંગી રંગના ઓનિક્સ પથ્થરનું એક શાહીનું પાત્ર છે. તેના ઢાંકણ પર ફૂલની ડાળી જેવી ભાતમાં ઈશ્વરનું નામ અને પંજતનનાં નામ લખવામાં આવ્યાં છે. આ સ્ટેન્ડ બનાવવા માટે ધાતુ અને ઓનિક્સ પથ્થરનો ઉપયોગ કરવામાં આવ્યો છે. તેમાં કલમો રાખવા માટે ત્રણ પગથિયાં જેવા ભાગો બનાવવામાં આવ્યા છે.સ્ટેન્ડ સાથે જોડાયેલી ઓનિક્સની થાળી પર ચાર લીટીમાં “નાદ-એ-અલી” લખાણ કોતરવામાં આવ્યું છે. તેમાં બે કલમ રાખવાના ખાનાં છે, એક ભૂરા-નારંગી રંગના ઓનિક્સનું અને બીજું આસમાની-વાદળી રંગના પથ્થરનું. ઉપરાંત, ભૂરા-નારંગી ઓનિક્સનું એક અલગ પેન્સિલ રાખવાનું પાત્ર પણ છે.આ સુંદર કલમ અને શાહીનું સ્ટેન્ડ મધ્યપૂર્વના દેશોનું છે અને ઈસવીસનની 20મી સદીનું હોવાનું માનવામાં આવે છે.<br><br>શબ્દો = 101</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "hindi": "../audio/hindi-%E0%A4%95%E0%A4%B2%E0%A4%AE%20%E0%A4%94%E0%A4%B0%20%E0%A4%A6%E0%A4%B5%E0%A4%BE%E0%A4%A4%20%E0%A4%B0%E0%A4%96%E0%A4%A8%E0%A5%87%20%E0%A4%95%E0%A4%BE%20%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0.wav",
+  "english": "../audio/hindi-%E0%A4%95%E0%A4%B2%E0%A4%AE%20%E0%A4%94%E0%A4%B0%20%E0%A4%A6%E0%A4%B5%E0%A4%BE%E0%A4%A4%20%E0%A4%B0%E0%A4%96%E0%A4%A8%E0%A5%87%20%E0%A4%95%E0%A4%BE%20%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0.wav",
+  "telugu": "../audio/Telugu_Pen%20and%20ink%20stand_Female.wav",
+  "tamil": "../audio/tamil-Pen%20and%20ink%20stand.wav",
+  "marathi": "../audio/mar-Pen%20and%20ink%20stand.wav",
+  "malayalam": "../audio/malayalam/Pen%20and%20ink%20stand.wav",
+  "kannada": "../audio/kannada-Acc%20No%20CS-IV-128%20Pen%20and%20ink%20stand-.wav",
+  "odia": "../audio/odia-Acc%20No%20CS-IV-128%20Pen%20and%20ink%20stand.wav",
+  "bengali": "../audio/bengali-Pen-and-ink-stand.wav",
+  "urdu": "../audio/urdu-Pen%20and%20ink%20stand.wav",
+  "gujarati": "../audio/guj-%20Pen%20and%20ink%20stand.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "hindi");
+    }
+  </script>
+</body>
+</html>
