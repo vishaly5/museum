@@ -655,28 +655,28 @@ window.galleryItems = {
       "badge": "1. ACQ - 90 - 12",
       "title": "1. ACQ - 90 - 12: Figure of a Primitive Man",
       "desc": "This is a wooden carved figure of a standing primitive man. The man holds a cleaver in his hands. To make the eyes look lifelike, the black eyeballs are ringed with white circles, probably made of metal or shell. The term “primitive man” may be used for various early human groups who lived in simple, technology-free societies and belonged to the early stages of human evolution. These include cave dwellers, hunter-gatherer communities and early tribal societies. Early societies often lived in small, nomadic groups and depended on hunting and gathering for their livelihood. Many early societies had no written language and relied on oral traditions and visual communication. This figure of a primitive man is from India and dates to the 19th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/1. ACQ-90-12  FIGURE OF A PRIMITIVE MAN.wav"
     },
     {
       "image": "images/toy-and-doll-item2.png",
       "badge": "2. CS - II - 153",
       "title": "2. CS - II - 153: Cupid with Dog",
       "desc": "On a white glazed porcelain vase set upon a base, Cupid stands with a basket. The dog is raised on its forelegs with a basket placed on its back, and Cupid points his finger towards the dog. The lower portion is filled with blue. In Roman mythology, Cupid is the god of love, desire, attraction and affection. He is often shown as a winged, naked little child carrying a bow and arrows. He is the son of Venus, the goddess of love, and the god of war. Porcelain is a ceramic material made by heating raw materials, usually including kaolinite, and fired in kilns at between 1200 and 1400 degrees Celsius. This Cupid is from Germany and was made in the 19th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/2. CS-II-153 CUPID WITH DOG.wav"
     },
     {
       "image": "images/toy-and-doll-item3.png",
       "badge": "3. XV - 11",
       "title": "3. XV - 11: Wall Plaque",
       "desc": "The rectangular wall plaque depicts two separate scenes. The lower part carries the scene of the Buddha's birth in the Lumbini grove, and the upper part the scene of the Buddha's final days at Kushinagar. The trees are turned very beautifully upon the wooden panel. Along the edges, the twelve zodiac signs are carved within circular panels surrounded by carved borders. On the left are Pisces, Aquarius, Capricorn and Sagittarius; on the right Gemini, Cancer, Leo and Virgo; in the upper part Aries and Taurus; and in the lower row Scorpio and Libra. The border carries a carved pattern of vines and leaves. This plaque reflects the artist's outstanding craftsmanship. The wall plaque is from Burma and dates to the 19th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/3. XV-11 WALL PLAQUE.wav"
     },
     {
       "image": "images/toy-and-doll-item4.png",
       "badge": "4. MS - 3025",
       "title": "4. MS - 3025: Diana with Deer",
       "desc": "An antique sculpture depicting Diana. Diana is not the Princess of Wales but the Roman goddess of the moon, wildlife, nature and the hunt. Diana is the Latin counterpart of the Greek virgin goddess Artemis, and she was regarded as the guardian of springs and rivers and the protector of wild animals. In art she is often shown as a young huntress with a bow and arrows. In this sculpture Diana is accompanied by a deer and appears engaged in the hunt. Her posture suggests that she is drawing back her loaded bow, or reaching behind her shoulder to take an arrow from her quiver. This classical white marble statue is from Germany and was made in the 19th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/4. MS-3025 DIANA WITH DEER.wav"
     },
     {
       "image": "images/toy-and-doll-item5.png",
@@ -690,28 +690,28 @@ window.galleryItems = {
       "badge": "6. MS - 4822",
       "title": "6. MS - 4822: Figure of a Saint",
       "desc": "This is a painted toy-like figure depicting Vamana, an avatar of Vishnu. An umbrella rests on Vamana's left shoulder; he wears a red dhoti and a rosary (japamala) around his neck. The face, body and legs are painted yellow. In Sanskrit “Vamana” means one of short stature, or dwarf, reflecting his small and humble form as a brahmin boy. Vamana is considered the fifth of the ten principal avatars of Vishnu (the Dashavatara). Vamana is also called Trivikrama, meaning “the god of three strides”. The Vamana avatar is said to have come to restore balance and humility to the world. This figure is from India and was made in the 20th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/6. MS-4822 FIGURE OF A SAINT.wav"
     },
     {
       "image": "images/toy-and-doll-item7.png",
       "badge": "7. XLII - 48",
       "title": "7. XLII - 48: An Elephant, Mahout and a Noble Man",
       "desc": "An Indian nobleman is seated in the howdah of an elephant, accompanied by a mahout. The mahout, who drives the elephant, is commonly depicted in Indian art and historical contexts and is often a symbol of power and status. The howdah, a structure mounted on the elephant's back, provided the nobleman with a comfortable seat and an elevated platform while the mahout guided the elephant. This figure depicts an Indian nobleman with a mahout upon an elephant and stands as a symbol of power, prestige and royalty. Elephants were often used in royal processions and ceremonies, and the howdah served as a platform for displaying wealth and authority. A comparable figure can be seen at the National Army Museum in the UK, which displays a painting of an Indian nobleman seated in a howdah on an elephant. It originates from India and dates to the 20th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/7. XLII-48 AN ELEPHANT, MAHOUT, A NOBLE MAN.wav"
     },
     {
       "image": "images/toy-and-doll-item8.png",
       "badge": "8. CS - I - 318",
       "title": "8. CS - I - 318: Figure of Lord Brahma",
       "desc": "This painted porcelain figure is of Lord Brahma, seated on a white lotus. In Hindu mythology Lord Brahma is regarded as the creator of the universe and of all living beings. He is one of the three principal deities (the Trimurti), in which Vishnu is the preserver and Shiva the destroyer. Brahma is associated with creation, knowledge and the Vedas. He is often depicted with four faces, symbolising the four directions and the four Vedas. He is usually shown seated on a lotus flower, a symbol of purity and creation. His vehicle is the swan or hamsa, representing his ability to travel between the various worlds. He is often shown holding a bundle of palm leaves (the Vedas) in his hand. This figure of Brahma is from India and is believed to date to the 20th century.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/8. CS-I-318 LORD BRAHMA.wav"
     },
     {
       "image": "images/toy-and-doll-item9.png",
       "badge": "9. Un-numbered - 4995",
       "title": "9. Un-numbered - 4995: Figure of a Horse",
       "desc": "A large horse, or figure, mounted on four wheels, standing on a rectangular base painted red and green. Leaf-like ornamentation surrounds the garland at its neck. About 4 feet tall, the figure is painted yellow, with a green mane and a black tail. The saddle and bridle are richly decorated. It originates from India and dates to the 20th century. It is made of papier-mâché. Papier-mâché is a craft technique in which paper is kneaded together with a binder such as glue or plaster to create three-dimensional objects — figures, masks, bowls, animals and other decorative pieces. The paper may be soaked in water and kneaded into a thick pulp, or used in its original form, torn into pieces or cut into strips.",
-      "audioSrc": ""
+      "audioSrc": "audio/English/9. FIGURE OF A HORSE.wav"
     }
   ]
 };
