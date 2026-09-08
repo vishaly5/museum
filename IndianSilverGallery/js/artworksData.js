@@ -68,66 +68,66 @@ window.galleryItems = {
   "english": [
     {
       "image": "images/item1.jpg",
-      "badge": "अभिलेख संख्या: XLIV-39",
-      "title": "1. सींग का डिब्बा",
-      "desc": "सुंदर तरीके से गिल्ट (सुनहरी पेंटिंग/पॉलिश) किए हुए, बड़े बैल के सींग का घुमावदार डिब्बा माउंट, जो तीन हिस्सों में बना है। इसमें से दो हिस्से एक जैसे हैं, दो चूड़ियों की तरह जुड़े हुए हैं, जबकि तीसरे हिस्से में एक कली के आकार का घुंडी है और इसका निचला भाग भी बाकी दो हिस्सों जैसा है। चूड़ियों जैसे हिस्सों पर फूलों की बेल और पत्तियों की डिज़ाइन उकेरी गई है। घुंडी के ऊपर एक फूल है। काम बहुत ही शानदार तरीके से किया गया है और विभिन्न हिस्सों में देखने के लिए बहुत कुछ है। यह एक बहुत ही दुर्लभ वस्तु है, जिसमें असाधारण स्तर की कारीगरी दिखाई देती है। सींगों का उपयोग विभिन्न तरीकों से किया जाता है, जैसे कि संकेत देने वाले वाद्य यंत्र या सजावट के लिए। यह वस्तु 19वीं शताब्दी के उत्तरार्ध की है और भारत से उत्पन्न हुई है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-39",
+      "title": "1. Horn Case",
+      "desc": "A beautifully gilt curved case mounted on a large bull's horn, made in three parts. Two of these parts are alike and are joined like two bangles, while the third part carries a bud-shaped knob and its lower portion matches the other two. The bangle-like parts are engraved with floral creeper and leaf designs. A flower sits above the knob. The work has been executed in a most splendid manner and there is much to see across the different parts. This is a very rare object, displaying an extraordinary level of craftsmanship. Horns are used in various ways, such as signalling instruments or for decoration. This object belongs to the later part of the 19th century and originates from India.",
+      "audioSrc": "audio/english/1. XLIV - 39 HORN CASE.wav"
     },
     {
       "image": "images/item2.jpg",
-      "badge": "अभिलेख संख्या: XLIV-47",
-      "title": "2. हार",
-      "desc": "तीन स्ट्रिंग वाला हार जिसमें टुकड़े क्रेनेलेटेड (दांतेदार) पत्ती के आकार के हैं और इन पर फूलों की डंडी और पत्तियों के डिज़ाइन उभरे हुए हैं। प्रत्येक टुकड़े के नीचे तीन लटकन लगे हुए हैं। स्ट्रिंग के बीच में चांदी की धागी लिपटी हुई है। स्ट्रिंग में लाल और पीली धागियाँ हैं और इसके अंत में टसल लगी हुई है। पहली डोरी में 9 टुकड़े हैं, दूसरी में 12 और तीसरी में 15, फूलों के डिज़ाइन अलग-अलग खांचों में उभरे हुए हैं। हार में क्रेनेलेटेड सील है। भारतीय कारीगरों ने हमेशा चांदी के कार्य में खुदाई, नक्काशी और सजावट में असाधारण कौशल दिखाया है। यह हार 19वीं शताब्दी के उत्तरार्ध का है और इसका मूल भारत है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-47",
+      "title": "2. Necklace",
+      "desc": "A three-string necklace whose pieces are crenellated leaf-shaped and carry raised floral stem and leaf designs. Three pendants hang below each piece. Silver thread is wound around the middle of the strings. The strings carry red and yellow threads and end in tassels. The first string has 9 pieces, the second 12 and the third 15, with the floral designs raised in separate compartments. The necklace has a crenellated clasp. Indian craftsmen have always shown extraordinary skill in engraving, carving and ornamentation in silver work. This necklace belongs to the later part of the 19th century and its origin is India.",
+      "audioSrc": "audio/english/2. XLIV - 47 NECKLACE.wav"
     },
     {
       "image": "images/item3.jpg",
-      "badge": "अभिलेख संख्या: XLIV-50",
-      "title": "3. मसाला डिब्बा",
-      "desc": "आंशिक रूप से सुनहरी जड़ाई वाला फ़िलिग्री (जालीदार) मसाला डिब्बा, जो पाँच पंखुड़ियों वाले फूल के आकार में बना है। इसका निचला हिस्सा समतल है। मसाला डिब्बे में पाँच खंड हैं, प्रत्येक पर अलग ढक्कन लगा है, जिसमें कली के आकार का नॉब (हैंडल) है। तली पर एक अभिलेख उकेरा गया है, और ढक्कन में तीन नुकीले कुंडे हैं। चाँदी की फ़िलिग्री एक अत्यंत नाजुक और जटिल धातु-कला तकनीक है, जिसमें बारीक चाँदी की तारों को मरोड़कर कलात्मक रूप से जोड़ा जाता है। यह चाँदी की फ़िलिग्री मसाला डिब्बी तेलंगाना के करीमनगर की है। करीमनगर की चाँदी की फ़िलिग्री कला को हैदराबाद के निज़ामों के शासनकाल में संरक्षण प्राप्त था, और उस समय के रईस लोग भव्य कलाकृतियाँ बनवाते थे। करीमनगर सिल्वर फ़िलिग्री को 2007 में भौगोलिक संकेत (जियोग्राफिकल इंडिकेशन – GI) का दर्जा प्राप्त हुआ। करीमनगर की यह प्राचीन कला 19वीं सदी के मध्य काल से प्रचलित है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-50",
+      "title": "3. Spice Box",
+      "desc": "A partly gilt filigree spice box made in the shape of a five-petalled flower. Its base is flat. The spice box has five compartments, each fitted with a separate lid carrying a bud-shaped knob. An inscription is engraved on the base, and the lid has three pointed catches. Silver filigree is an extremely delicate and intricate metalwork technique in which fine silver wires are twisted and joined artistically. This silver filigree spice box is from Karimnagar in Telangana. The silver filigree art of Karimnagar received patronage during the rule of the Nizams of Hyderabad, and the nobility of that time commissioned magnificent works of art. Karimnagar silver filigree was granted Geographical Indication (GI) status in 2007. This ancient art of Karimnagar has been practised since the middle of the 19th century.",
+      "audioSrc": "audio/english/3. XLIV- 455 SPICE BOX.wav"
     },
     {
       "image": "images/item4.jpg",
-      "badge": "अभिलेख संख्या: XLIV-69",
-      "title": "4. हाथी के मस्तक का आभूषण",
-      "desc": "यह टिक्का हाथी के मस्तक (माथे) का आभूषण है। यह एक गोलाकार चक्र है, जिस पर उभरा हुआ अर्धचंद्र बना है और उसके नीचे पुष्पलता (फूलों की बेल) की आकृति उकेरी गई है। इसी प्रकार की लता का विस्तार पूरे सतह पर किया गया है। किनारे के आधे भाग में 9 पत्तीनुमा लटकन लगे हैं। शेष आधे भाग में दो ज़ंजीरें हैं, जिनके सिरे पर डोरी से बाँधने के लिए छल्ले बने हैं। सामान्यतः टिक्का एक ऐसा गहना है जो बालों की मांग के मध्य भाग में पहना जाता है और माथे तक आता है। यह विभिन्न सांस्कृतिक और धार्मिक परंपराओं में प्रचलित है। इसका वज़न 4510 ग्राम है। वेदों के अनुसार, माथे का मध्य भाग तीसरी आँख का स्थान है, जो गुप्त ज्ञान का आसन माना जाता है। यह आभूषण भारत में उत्पन्न हुआ और इसका निर्माण 20वीं शताब्दी के मध्य काल का माना जाता है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-69",
+      "title": "4. Forehead Ornament for an Elephant",
+      "desc": "This tikka is an ornament for the forehead of an elephant. It is a circular disc bearing a raised crescent, beneath which a floral creeper motif is engraved. A similar creeper extends across the whole surface. Nine leaf-shaped pendants hang from one half of the rim. The remaining half carries two chains, ending in rings for tying with a cord. Ordinarily a tikka is an ornament worn along the parting of the hair, reaching down to the forehead. It is found across various cultural and religious traditions. Its weight is 4,510 grams. According to the Vedas, the centre of the forehead is the seat of the third eye, held to be the seat of hidden knowledge. This ornament originated in India and is believed to date from the middle of the 20th century.",
+      "audioSrc": "audio/english/4. XLIV - 69 FOREHEAD ORNAMENT FOR ELEPHANT.wav"
     },
     {
       "image": "images/item5.jpg",
-      "badge": "अभिलेख संख्या: XLIV-167",
-      "title": "5. बिस्तर का पायाँ (Bed Stead Leg)",
-      "desc": "चाँदी जड़ा हुआ बिस्तर का पायाँ, जिसके नीचे का भाग गोल और चपटा जस्ता (ज़िंक) का है। निचला हिस्सा पतला (टेपर्ड) है और ऊपरी हिस्सा गोलाकार (स्फेरिकल) है, जिसमें दो छेद हैं जो जोड़ने वाली छड़ों (कनेक्शन रॉड्स) के लिए बने हैं। बीच में पत्तेदार किनारों के बीच एक लंबा पत्तेदार डिज़ाइन है। चाँदी जड़ा हुआ यह बिस्तर का पायाँ गोल चपटी जस्ता की नींव, पतले निचले भाग और गोल ऊपरी हिस्से के साथ बनाया गया है, जिसमें दो छेद हैं जो जोड़ने वाली छड़ों के लिए उपयोग किए जाते थे। भारत में प्राचीन काल से चाँदी का महत्वपूर्ण स्थान रहा है। इसके उपयोग के प्रमाण हड़प्पा सभ्यता से मिलते हैं और यह परंपरा भारतीय इतिहास के विभिन्न कालों में जारी रही। चाँदी का उपयोग आभूषण, सिक्के और संभवतः वज़न तथा व्यापार के मानक के रूप में भी किया जाता था। यह बिस्तर का पायाँ भारत का है और इसका काल उन्नीसवीं शताब्दी के उत्तरार्ध का है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-167",
+      "title": "5. Bed Stead Leg",
+      "desc": "A silver-inlaid bed stead leg whose lower portion is a round, flat zinc base. The lower part is tapered and the upper part is spherical, with two holes made for connection rods. In the middle there is a long leafy design set between leafy borders. This silver-inlaid bed stead leg was made with a round flat zinc foundation, a tapered lower portion and a spherical upper portion carrying two holes that were used for the connecting rods. Silver has held an important place in India since ancient times. Evidence of its use comes from the Harappan civilisation and the tradition continued through various periods of Indian history. Silver was used for ornaments, coins and possibly also as a standard of weight and trade. This bed stead leg is from India and dates from the later part of the nineteenth century.",
+      "audioSrc": "audio/english/5. XLIV - 167  BED STEAD LEG.wav"
     },
     {
       "image": "images/item6.jpg",
-      "badge": "अभिलेख संख्या: XLIV-237",
-      "title": "6. स्याहीदानी",
-      "desc": "आयताकार स्याहीदानी उभरी हुई आकृति वाली है, जिसमें हुक और जंजीरें लगी हुई हैं। इसमें चार खंड हैं — पहला खंड दो भागों वाले एक ट्रे के लिए है, दूसरा खंड एक भाग वाले ट्रे के लिए है, तीसरा खंड ढक्कन वाली स्याही की दवात और छिद्रदार ढक्कन वाले गोंद पाउडर पात्र के लिए है, और चौथा खंड स्याही की दवात तथा गोंद के पात्र के लिए है। ऊपरी भाग पर उभरे हुए पुष्प-लता की सीमाएँ और ओगी पैनलों में पुष्प आकृतियाँ बनी हैं। गोंद पात्र में एक ढक्कन है जिसमें एक छोटी चम्मच लगी हुई है। सभी डिज़ाइन सुनहरे रंग में बनाए गए हैं। नीचे की सतह के चारों ओर भी उभरी हुई पुष्प-लता की सजावट की गई है। यह स्याहीदानी उन्नीसवीं सदी के उत्तरार्ध की है और भारत से प्राप्त हुई है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-237",
+      "title": "6. Inkstand",
+      "desc": "A rectangular inkstand of raised form, fitted with hooks and chains. It has four compartments — the first for a two-part tray, the second for a single-part tray, the third for a lidded inkpot and a gum-powder container with a perforated lid, and the fourth for an inkpot and a gum container. The upper surface carries raised floral-creeper borders and floral motifs within ogee panels. The gum container has a lid fitted with a small spoon. All the designs are rendered in gold. Raised floral-creeper ornament also runs around the lower surface. This inkstand belongs to the later part of the nineteenth century and comes from India.",
+      "audioSrc": "audio/english/6. XLIV - 237 INK HORN.wav"
     },
     {
       "image": "images/item7.jpg",
-      "badge": "अभिलेख संख्या: XLIV-242",
-      "title": "7. छिड़कनी (Sprinkler)",
-      "desc": "चाँदी की गुलाब जल की छिड़कनी एक वियोज्य गोल नुकीले आधार के साथ बनी है, जिसके ऊपर नालीनुमा उभारों की एक अंगूठी है। इसके निचले भाग में भी ऐसे ही नालीनुमा उभार बने हुए हैं। पेंचदार नलिका का निचला भाग नुकीला है और उस पर भी नालीनुमा उभार हैं, जिसके शीर्ष पर फव्वारे जैसी नॉब लगी हुई है। गुलाब जलदानी या रोज़वॉटर स्प्रिंकलर की उत्पत्ति फारस (पर्शिया) में हुई थी और इनका उपयोग भारतीय उपमहाद्वीप में मुगल काल (1526 से 1857 ई.) के दौरान किया जाता था। यह सामाजिक रीति-रिवाजों और धार्मिक अनुष्ठानों के अवसर पर गुलाब जल छिड़कने के लिए प्रयोग में लाई जाती थी। इस तरह की छिड़कनी बनाने में सोना, चाँदी, काँच जैसे विभिन्न पदार्थों का उपयोग किया जाता था, और इन्हें उपयोगकर्ता की प्रतिष्ठा के अनुसार सजाया जाता था। यह चाँदी की छिड़कनी भारत से है और इसका निर्माण उन्नीसवीं सदी के उत्तरार्ध में किया गया था।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-242",
+      "title": "7. Sprinkler",
+      "desc": "A silver rose-water sprinkler made with a detachable round pointed base, above which sits a ring of fluted bosses. Similar fluted bosses appear on its lower portion. The lower part of the screwed neck is pointed and also carries fluted bosses, topped by a fountain-like knob. The rose-water sprinkler originated in Persia and was used in the Indian subcontinent during the Mughal period (1526 to 1857 AD). It was used to sprinkle rose water on the occasion of social customs and religious ceremonies. Various materials such as gold, silver and glass were used in making such sprinklers, and they were ornamented according to the standing of the user. This silver sprinkler is from India and was made in the later part of the nineteenth century.",
+      "audioSrc": "audio/english/7. XLIV - 242 SPRINKLER.wav"
     },
     {
       "image": "images/item8.jpg",
-      "badge": "अभिलेख संख्या: XLIV-285",
-      "title": "8. हुक्का",
-      "desc": "हुक्का एक बाघ के हाथी पर हमला करने के आकार में बना है। सुनहरी परत वाला बाघ एक काजदार छिद्रित ढक्कन के रूप में कार्य करता है। बाघ की आँखों में लाल पत्थर जड़े हुए हैं, जबकि हाथी की भी आँखें बनाई गई हैं। हाथी के छोटे दाँत हैं। मिट्टी का अंगीठी पात्र हाथी के खोखले पेट में स्थित है, जिस पर चाँदी की आवरण है। नीले रंग की धूम्रपान नली के दोनों सिरों पर चाँदी की जड़ी हुई माउंटिंग है और इसमें पेंचदार अगेट का मुँह वाला भाग लगा है। चाँदी के हुक्के अक्सर सजावटी वस्तु या पारंपरिक वैभव के प्रतीक के रूप में उपयोग किए जाते थे। चाँदी के हुक्कों का समृद्ध इतिहास है, विशेष रूप से मुगल भारत में, जिनके उदाहरण 18वीं शताब्दी तक मिलते हैं। यह हुक्का लंदन, यूनाइटेड किंगडम से उत्पन्न हुआ है और इसका निर्माण 1884–1885 के बीच का है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-285",
+      "title": "8. Huqqa",
+      "desc": "The huqqa is made in the form of a tiger attacking an elephant. The gilt tiger serves as a chased, perforated lid. Red stones are set in the tiger's eyes, while the elephant's eyes are also rendered. The elephant has short tusks. The earthen brazier vessel sits within the hollow belly of the elephant and is covered with a silver casing. The blue smoking tube carries silver-inlaid mountings at both ends and is fitted with a screwed agate mouthpiece. Silver huqqas were often used as decorative objects or as symbols of traditional splendour. Silver huqqas have a rich history, particularly in Mughal India, with examples found as late as the 18th century. This huqqa originated in London, United Kingdom, and was made between 1884 and 1885.",
+      "audioSrc": "audio/english/8. XLIV - 285  HUQQA.wav"
     },
     {
       "image": "images/item9.jpg",
-      "badge": "अभिलेख संख्या: XLIV-350",
-      "title": "9. मसाला डिब्बा",
-      "desc": "यह आयताकार समतल तले वाला मसाला डिब्बा है, जिसकी ढक्कन कुंडीदार है। इसके सजावटी पैनलों में पक्षियों, जानवरों और फूलों की उभरी हुई आकृतियाँ अंकित हैं, जिनके चारों ओर फूलों की लताओं की नक्काशी की गई है। जानवरों और पक्षियों की आकृतियाँ अत्यंत सुंदरता से उत्कीर्ण की गई हैं, तथा चारों ओर फूलों की लताओं की किनारी बनी हुई है। इस पर किया गया कार्य अत्यंत उत्कृष्ट है, और विभिन्न भागों में देखने योग्य अनेक सूक्ष्म विवरण हैं। डिज़ाइनों में काले रंग का पेंट भरा गया है। ऊपर के काले पैनल में उभरी हुई पशु आकृतियाँ हैं। यह एक अत्यंत दुर्लभ वस्तु है, जिसमें असाधारण स्तर की शिल्पकला दिखाई देती है। यह मसाला डिब्बा 19वीं शताब्दी के उत्तरार्ध का है और भारत से संबंधित है।",
-      "audioSrc": ""
+      "badge": "Acc No: XLIV-350",
+      "title": "9. Spice Box",
+      "desc": "This is a rectangular flat-bottomed spice box with a hinged lid. Its decorative panels carry raised figures of birds, animals and flowers, surrounded by carved floral creepers. The figures of the animals and birds have been engraved with great beauty, and a border of floral creepers runs all around. The work executed on it is most excellent, and there are many fine details worth seeing across the different parts. The designs are filled with black paint. The black panel on top carries raised animal figures. This is an extremely rare object, displaying an extraordinary level of craftsmanship. This spice box belongs to the later part of the 19th century and is related to India.",
+      "audioSrc": "audio/english/9. XLIV - 350  SPICE BOX.wav"
     }
   ],
   "tamil": [
