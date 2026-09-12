@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Metal Ware Gallery | Salar Jung Museum</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.gallery-intro{padding:28px 6%;background:#fff;color:#2e2e2e}
+.gallery-intro h1{font-size:42px;margin:0 0 12px}
+.gallery-intro p{font-size:20px;max-width:1100px}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}
+.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);transition:transform 0.2s}
+.item-card:hover{transform:translateY(-4px)}
+.item-card img{width:100%;height:270px;object-fit:contain;background:#ffffff;border-radius:6px;order:1}
+.item-card h2{font-size:18px;margin:14px 0 4px;order:2;color:#a50309;font-weight:700}
+.item-card p[data-card-label$="-subtitle"]{font-size:14px;color:#666;margin-bottom:8px;order:3;display:none}
+.item-card audio{width:100%;order:3;margin:10px 0}
+.item-card p.card-content{order:4;margin-top:10px;line-height:1.55;font-size:15px;color:#333}
+.audioBar{padding:18px 6%;background:#2e2e2e;color:#fff}
+.audioBar audio{width:100%}
+.audioBar p{margin:0 0 8px}
+@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:767px){.gallery-intro h1{font-size:30px}.gallery-intro p{font-size:17px}.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.item-card img{height:240px}}
+</style>
+</head>
+<body>
+<div class="sliderHeaderDiv">
+  <div class="container">
+    <header>
+      <div class="logoLft">
+        <a href="#" class="logo logoTwo">
+          <img src="images/logo-moc.png" onerror="this.onerror=null; this.src='images/logo.png';" alt="Ministry of Culture">
+        </a>
+      </div>
+      <div class="logoRgt">
+        <div class="langDiv">
+          <span class="anuIcn">
+            <img src="images/logo-anu.png" alt="Anuvadini">
+          </span>
+          <select class="form formLang" id="languageSelector" aria-label="Select language">
+            <option value="bengali" selected>বাংলা (Bengali)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+          </select>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+<main>
+<section class="gallery-intro langCnt" id="bengali" style="display:block"><h1>মেটাল ওয়্যার গ্যালারি</h1><p>সালার জং মিউজিয়ামের মেটাল ওয়্যার গ্যালারি থেকে নির্বাচিত ধাতব সামগ্রীর মধ্যে মন্দির-শঙ্খ, খাটের পায়া, ট্রে, ফুলদানি, স্ট্যান্ডসহ আয়না, থালা, বক্স, নাটা কুম্ভ প্রদীপ, স্প্রিংকলার এবং চিমটে অন্তর্ভুক্ত রয়েছে।</p></section>
+<section class="gallery-intro langCnt" id="malayalam" style="display:none"><h1>മെറ്റൽ വെയർ ഗാലറി</h1><p>സലാർ ജംഗ് മ്യൂസിയത്തിലെ മെറ്റൽ വെയർ ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്ത ലോഹസാമഗ്രികളിൽ ക്ഷേത്ര ശംഖ്, കട്ടിൽ കാൽ, തളിക, പൂച്ചട്ടി, കണ്ണാടി സ്റ്റാൻഡ്, പ്ലേറ്റ്, പെട്ടി, നാട കുംഭ വിളക്ക്, സ്പ്രിങ്ക്ലർ, ടോംഗ് എന്നിവ ഉൾപ്പെടുന്നു.</p></section>
+<section class="gallery-intro langCnt" id="odia" style="display:none"><h1>ମେଟାଲ ୱେୟାର ଗ୍ୟାଲେରୀ</h1><p>ସାଲାର୍ ଜଙ୍ଗ୍ ସଂଗ୍ରହାଳୟର ମେଟାଲ ୱେୟାର ଗ୍ୟାଲେରୀରୁ ନିମ୍ନଲିଖିତ ବଛା ଯାଇଥିବା ଧାତୁ ସାମଗ୍ରୀଗୁଡ଼ିକରେ ମନ୍ଦିର ଶଙ୍ଖ, ଖଟଖୁରା, ଥାଳି, ଫୁଲଦାନୀ, ଦର୍ପଣ ଷ୍ଟାଣ୍ଡ, ବାକ୍ସ, ନଟ କୁମ୍ଭ, ଜଳ ସିଞ୍ଚନକାରୀ ପାତ୍ର ଏବଂ ଚିମୁଟା ସାମିଲ ରହିଛି।</p></section>
+<section class="gallery-intro langCnt" id="tamil" style="display:none"><h1>உலோகப் பாண்டக் காட்சியகம்</h1><p>சாலார் ஜங் அருங்காட்சியகத்தின் உலோகப் பாண்டக் காட்சியகத்திலிருந்து தேர்ந்தெடுக்கப்பட்ட சில பொருட்கள்: கோயில் சங்கு, கட்டில் கால், தட்டு, பூக்குவளை, கண்ணாடித் தாங்கி, தட்டு, பெட்டி, நட கும்பம், தெளிப்பான் மற்றும் இடுக்கி.</p></section>
+
+<section class="gallery-grid">
+<article class="item-card" data-audio-key="conch" onclick="if(!event.target.closest('audio')){location.href='item1.html'}">
+  <img src="images/ACQ-86-19.png" alt="ACQ-86-19: মন্দির-শঙ্খ">
+  <h2 data-card-label="conch-title">ACQ-86-19: মন্দির-শঙ্খ</h2>
+  <p data-card-label="conch-subtitle">শৈব মন্দির-শঙ্খ</p>
+  <p class="card-content" data-card-content="conch"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/ACQ-86-19%20TEMPLE%20CONCH.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="bedpost" onclick="if(!event.target.closest('audio')){location.href='item2.html'}">
+  <img src="images/ACQ-86-12.png" alt="ACQ-86-12: খাটের পায়া">
+  <h2 data-card-label="bedpost-title">ACQ-86-12: খাটের পায়া</h2>
+  <p data-card-label="bedpost-subtitle">তামা ও পিতলের তৈরি খাটের পা</p>
+  <p class="card-content" data-card-content="bedpost"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/ACQ-86-12%20Bed%20Post.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="tray" onclick="if(!event.target.closest('audio')){location.href='item3.html'}">
+  <img src="images/XLIV-461.png" alt="XLIV-461: ট্রে">
+  <h2 data-card-label="tray-title">XLIV-461: ট্রে</h2>
+  <p data-card-label="tray-subtitle">গঙ্গা-যমুনা ফিলিগরি কাজ করা ট্রে</p>
+  <p class="card-content" data-card-content="tray"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/XLIV-461%20Tray.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="vase" onclick="if(!event.target.closest('audio')){location.href='item4.html'}">
+  <img src="images/XLIV-198.png" alt="XXV-198: ফুলদানি">
+  <h2 data-card-label="vase-title">XXV-198: ফুলদানি</h2>
+  <p data-card-label="vase-subtitle">রুপা দিয়ে তৈরি ফুলদানি</p>
+  <p class="card-content" data-card-content="vase"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/XXV-198%20Vase.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="mirror" onclick="if(!event.target.closest('audio')){location.href='item5.html'}">
+  <img src="images/XXVIII-138.png" alt="XXVIII-138: স্ট্যান্ডসহ আয়না">
+  <h2 data-card-label="mirror-title">XXVIII-138: স্ট্যান্ডসহ আয়না</h2>
+  <p data-card-label="mirror-subtitle">পারস্যের ধাতব আয়নার স্ট্যান্ড</p>
+  <p class="card-content" data-card-content="mirror"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/XXVIII-138%20MIRROR%20WITH%20STAND%20Metallic%20mirror%20stand%20with%20a%20round_.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="plate" onclick="if(!event.target.closest('audio')){location.href='item6.html'}">
+  <img src="images/ACQ-86-3.png" alt="ACQ-86-3: থালা">
+  <h2 data-card-label="plate-title">ACQ-86-3: থালা</h2>
+  <p data-card-label="plate-subtitle">তামা এবং সোনার ধাতব থালা</p>
+  <p class="card-content" data-card-content="plate"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/ACQ-86-3%20Plate.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="box" onclick="if(!event.target.closest('audio')){location.href='item7.html'}">
+  <img src="images/XLIV-216.png" alt="XLIV-216: বক্স">
+  <h2 data-card-label="box-title">XLIV-216: বক্স</h2>
+  <p data-card-label="box-subtitle">রুপো দিয়ে তৈরি আয়তক্ষেত্রাকার বাক্স</p>
+  <p class="card-content" data-card-content="box"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/XLIV-216%20Box.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="nata-kumbha" onclick="if(!event.target.closest('audio')){location.href='item8.html'}">
+  <img src="images/XLII-104.png" alt="XLII-104: নাটা কুম্ভ">
+  <h2 data-card-label="nata-kumbha-title">XLII-104: নাটা কুম্ভ</h2>
+  <p data-card-label="nata-kumbha-subtitle">নেপালের মন্দির প্রদীপ (সুকুন্দা)</p>
+  <p class="card-content" data-card-content="nata-kumbha"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/XLII-104%20NATA%20KUMBHA.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="sprinkler" onclick="if(!event.target.closest('audio')){location.href='item9.html'}">
+  <img src="images/XLIV-439.png" alt="XLIV-439: গোলাপ জল ছিটানোর পাত্র">
+  <h2 data-card-label="sprinkler-title">XLIV-439: গোলাপ জল ছিটানোর পাত্র</h2>
+  <p data-card-label="sprinkler-subtitle">গঙ্গা-যমুনা ফিলিগরি কাজের পাত্র</p>
+  <p class="card-content" data-card-content="sprinkler"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/XLIV-439%20SPRINKLER.wav"></audio>
+</article>
+<article class="item-card" data-audio-key="tong" onclick="if(!event.target.closest('audio')){location.href='item10.html'}">
+  <img src="images/XLIV-146-1.png" alt="XLIV-146-1: চিমটে">
+  <h2 data-card-label="tong-title">XLIV-146-1: চিমটে</h2>
+  <p data-card-label="tong-subtitle">রুশ এনামেল করা চিনির চিমটে</p>
+  <p class="card-content" data-card-content="tong"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/1.%20Metal%20Ware%20Gallery/XLIV-146-1%20Tong_.wav"></audio>
+</article>
+
+</section>
+</main>
+<footer>
+  <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+</footer>
+
+<script>
+const selector = document.getElementById('languageSelector');
+const labels = {
+  "bengali": {
+    "conch": [
+      "ACQ-86-19: মন্দির-শঙ্খ",
+      "শৈব মন্দির-শঙ্খ"
+    ],
+    "bedpost": [
+      "ACQ-86-12: খাটের পায়া",
+      "তামা ও পিতলের তৈরি খাটের পা"
+    ],
+    "tray": [
+      "XLIV-461: ট্রে",
+      "গঙ্গা-যমুনা ফিলিগরি কাজ করা ট্রে"
+    ],
+    "vase": [
+      "XXV-198: ফুলদানি",
+      "রুপা দিয়ে তৈরি ফুলদানি"
+    ],
+    "mirror": [
+      "XXVIII-138: স্ট্যান্ডসহ আয়না",
+      "পারস্যের ধাতব আয়নার স্ট্যান্ড"
+    ],
+    "plate": [
+      "ACQ-86-3: থালা",
+      "তামা এবং সোনার ধাতব থালা"
+    ],
+    "box": [
+      "XLIV-216: বক্স",
+      "রুপো দিয়ে তৈরি আয়তক্ষেত্রাকার বাক্স"
+    ],
+    "nata-kumbha": [
+      "XLII-104: নাটা কুম্ভ",
+      "নেপালের মন্দির প্রদীপ (সুকুন্দা)"
+    ],
+    "sprinkler": [
+      "XLIV-439: গোলাপ জল ছিটানোর পাত্র",
+      "গঙ্গা-যমুনা ফিলিগরি কাজের পাত্র"
+    ],
+    "tong": [
+      "XLIV-146-1: চিমটে",
+      "রুশ এনামেল করা চিনির চিমটে"
+    ]
+  },
+  "malayalam": {
+    "conch": [
+      "ACQ-86-19: ക്ഷേത്ര ശംഖ്",
+      "ശൈവ ക്ഷേത്ര ശംഖ്"
+    ],
+    "bedpost": [
+      "ACQ-86-12: കട്ടിൽ കാൽ",
+      "ചെമ്പും പിച്ചളയും ഉപയോഗിച്ചുള്ള കട്ടിൽ കാൽ"
+    ],
+    "tray": [
+      "XLIV-461: തളിക",
+      "ഗംഗ-ജംനി പരന്ന തളിക (ഫിലിഗ്രി)"
+    ],
+    "vase": [
+      "XXV-198: പൂച്ചട്ടി",
+      "വെള്ളിയിൽ നിർമ്മിച്ച പൂച്ചട്ടി"
+    ],
+    "mirror": [
+      "XXVIII-138: സ്റ്റാൻഡോടു കൂടിയ കണ്ണാടി",
+      "പേർഷ്യയിലെ ലോഹ കണ്ണാടിയും സ്റ്റാൻഡും"
+    ],
+    "plate": [
+      "ACQ-86-3: പ്ലേറ്റ്",
+      "ചെമ്പും സ്വർണ്ണവും ഉപയോഗിച്ച പ്ലേറ്റ്"
+    ],
+    "box": [
+      "XLIV-216: പെട്ടി",
+      "വെള്ളിയിൽ നിർമ്മിച്ച ദീർഘചതുരാകൃതിയിലുള്ള പെട്ടി"
+    ],
+    "nata-kumbha": [
+      "XLII-104: നാട കുംഭ",
+      "നേപ്പാളിലെ ക്ഷേത്ര വിളക്ക് (സുകുന്ദ)"
+    ],
+    "sprinkler": [
+      "XLIV-439: സ്പ്രിങ്ക്ലർ",
+      "റോസ് വാട്ടർ സ്പ്രിങ്ക്ലർ"
+    ],
+    "tong": [
+      "XLIV-146-1: ടോംഗ്",
+      "റഷ്യൻ പഞ്ചസാര ടോങ്"
+    ]
+  },
+  "odia": {
+    "conch": [
+      "ACQ-86-19: ମନ୍ଦିର ଶଙ୍ଖ",
+      "ଶୈବ ମନ୍ଦିର ଶଙ୍ଖ"
+    ],
+    "bedpost": [
+      "ACQ-86-12: ଖଟଖୁରା ବା ଖଟଖମ୍ବ",
+      "କାଂସ୍ୟ ଓ ପିତ୍ତଳ ନିର୍ମିତ ଖଟଖୁରା"
+    ],
+    "tray": [
+      "XLIV-461: ଥାଳି",
+      "ଗଙ୍ଗା-ଜମୁନୀ ଶୈଳୀର ତାରକସି ଥାଳି"
+    ],
+    "vase": [
+      "XXV-198: ଫୁଲଦାନୀ",
+      "ଭାରତୀୟ ରୂପା ଫୁଲଦାନୀ"
+    ],
+    "mirror": [
+      "XXVIII-138: ଷ୍ଟାଣ୍ଡ ଥିବା ଦର୍ପଣ",
+      "ପାରସ୍ୟର ଧାତବ ଦର୍ପଣ ଷ୍ଟାଣ୍ଡ"
+    ],
+    "plate": [
+      "ACQ-86-3: ଥାଳି",
+      "ତମ୍ବା ଓ ସୁନାର ମିଶ୍ରଣର ଥାଳି"
+    ],
+    "box": [
+      "XLIV-216: ବାକ୍ସ",
+      "ଆୟତାକାର ରୂପା ବାକ୍ସ"
+    ],
+    "nata-kumbha": [
+      "XLII-104: ନଟ କୁମ୍ଭ",
+      "ନେପାଳର ମନ୍ଦିର ଦୀପ (ସୁକୁନ୍ଦା)"
+    ],
+    "sprinkler": [
+      "XLIV-439: ଜଳ ସିଞ୍ચନକାରୀ ପାତ୍ର",
+      "ଗୋଲାପ ଜଳ ସିଞ୍ચନକାରୀ ପାତ୍ର"
+    ],
+    "tong": [
+      "XLIV-146-1: ଚିମୁଟା",
+      "ରୁଷିଆର ଚିନି ଧରା ଚିମୁଟା"
+    ]
+  },
+  "tamil": {
+    "conch": [
+      "ACQ-86-19: கோயில் சங்கு",
+      "சைவக் கோவில் சங்கு"
+    ],
+    "bedpost": [
+      "ACQ-86-12: கட்டில் கால்",
+      "செம்பு மற்றும் பித்தளையால் செய்யப்பட்ட கட்டில் கால்"
+    ],
+    "tray": [
+      "XLIV-461: தட்டு",
+      "கங்கா-ஜம்னா இலையின் வடிவத்திலான தட்டு"
+    ],
+    "vase": [
+      "XXV-198: குவளை",
+      "வெள்ளியால் செய்யப்பட்ட பூக்குவளை"
+    ],
+    "mirror": [
+      "XXVIII-138: தாங்கியுடன் கூடிய கண்ணாடி",
+      "பாரசீகத்தின் உலோகக் கண்ணாடித் தாங்கி"
+    ],
+    "plate": [
+      "ACQ-86-3: தட்டு",
+      "செம்பு மற்றும் தங்கக் கலவை தட்டு"
+    ],
+    "box": [
+      "XLIV-216: பெட்டி",
+      "வெள்ளியால் செய்யப்பட்ட செவ்வகப் பெட்டி"
+    ],
+    "nata-kumbha": [
+      "XLII-104: நட கும்பம்",
+      "நேபாளத்தின் கோயில் விளக்கு (சுகுந்தா)"
+    ],
+    "sprinkler": [
+      "XLIV-439: தெளிப்பான்",
+      "கங்கா-ஜம்னி பன்னீர் தெளிப்பான்"
+    ],
+    "tong": [
+      "XLIV-146-1: இடுக்க்கி",
+      "ரஷ்ய நாட்டுச் சர்க்கரை இடுக்கி"
+    ]
+  }
+};
+const audioMapAll = {
+  "bengali": {
+    "conch": "Audios/Bengali/1. Metal Ware Gallery/ACQ-86-19 TEMPLE CONCH.wav",
+    "bedpost": "Audios/Bengali/1. Metal Ware Gallery/ACQ-86-12 Bed Post.wav",
+    "tray": "Audios/Bengali/1. Metal Ware Gallery/XLIV-461 Tray.wav",
+    "vase": "Audios/Bengali/1. Metal Ware Gallery/XXV-198 Vase.wav",
+    "mirror": "Audios/Bengali/1. Metal Ware Gallery/XXVIII-138 MIRROR WITH STAND Metallic mirror stand with a round_.wav",
+    "plate": "Audios/Bengali/1. Metal Ware Gallery/ACQ-86-3 Plate.wav",
+    "box": "Audios/Bengali/1. Metal Ware Gallery/XLIV-216 Box.wav",
+    "nata-kumbha": "Audios/Bengali/1. Metal Ware Gallery/XLII-104 NATA KUMBHA.wav",
+    "sprinkler": "Audios/Bengali/1. Metal Ware Gallery/XLIV-439 SPRINKLER.wav",
+    "tong": "Audios/Bengali/1. Metal Ware Gallery/XLIV-146-1 Tong_.wav"
+  },
+  "malayalam": {
+    "conch": "Audios/Malayalam/Metal Ware Gallery/TEMPLE CONCH.wav",
+    "bedpost": "Audios/Malayalam/Metal Ware Gallery/Bed Post.wav",
+    "tray": "Audios/Malayalam/Metal Ware Gallery/Tray.wav",
+    "vase": "Audios/Malayalam/Metal Ware Gallery/Vase.wav",
+    "mirror": "Audios/Malayalam/Metal Ware Gallery/MIRROR WITH STAND.wav",
+    "plate": "Audios/Malayalam/Metal Ware Gallery/Plate.wav",
+    "box": "Audios/Malayalam/Metal Ware Gallery/Box.wav",
+    "nata-kumbha": "Audios/Malayalam/Metal Ware Gallery/NATA KUMBHA.wav",
+    "sprinkler": "Audios/Malayalam/Metal Ware Gallery/SPRINKLER.wav",
+    "tong": "Audios/Malayalam/Metal Ware Gallery/Tong.wav"
+  },
+  "odia": {
+    "conch": "Audios/Odia/1. Metal Ware Gallery.or/ACQ-86-19 TEMPLE CONCH.wav",
+    "bedpost": "Audios/Odia/1. Metal Ware Gallery.or/ACQ-86-12 Bed Post.wav",
+    "tray": "Audios/Odia/1. Metal Ware Gallery.or/XLIV-461 Tray.wav",
+    "vase": "Audios/Odia/1. Metal Ware Gallery.or/XXV-198 Vase.wav",
+    "mirror": "Audios/Odia/1. Metal Ware Gallery.or/XXVIII-138 MIRROR WITH STAND.wav",
+    "plate": "Audios/Odia/1. Metal Ware Gallery.or/ACQ-86-3 Plate.wav",
+    "box": "Audios/Odia/1. Metal Ware Gallery.or/XLIV-216 Box.wav",
+    "nata-kumbha": "Audios/Odia/1. Metal Ware Gallery.or/XLII-104 NATA KUMBHA.wav",
+    "sprinkler": "Audios/Odia/1. Metal Ware Gallery.or/XLIV-439 SPRINKLER.wav",
+    "tong": "Audios/Odia/1. Metal Ware Gallery.or/XLIV-146-1 Tong.wav"
+  },
+  "tamil": {
+    "conch": "Audios/TAMIL/1. Metal Ware Gallery/1. TEMPLE CONCH_TAMIL.wav",
+    "bedpost": "Audios/TAMIL/1. Metal Ware Gallery/2. BED POST_TAMIL.wav",
+    "tray": "Audios/TAMIL/1. Metal Ware Gallery/3. TRAY_TAMIL.wav",
+    "vase": "Audios/TAMIL/1. Metal Ware Gallery/4. VASE _TAMIL.wav",
+    "mirror": "Audios/TAMIL/1. Metal Ware Gallery/5. MIRROR WITH STAND_ TAMIL.wav",
+    "plate": "Audios/TAMIL/1. Metal Ware Gallery/6. PLATE_TAMIL.wav",
+    "box": "Audios/TAMIL/1. Metal Ware Gallery/7. BOX _TAMIL.wav",
+    "nata-kumbha": "Audios/TAMIL/1. Metal Ware Gallery/8. NATA KUMBHA _TAMIL.wav",
+    "sprinkler": "Audios/TAMIL/1. Metal Ware Gallery/9. SPRINKLER_ TAMIL.wav",
+    "tong": "Audios/TAMIL/1. Metal Ware Gallery/10.TONG_TAMIL.wav"
+  }
+};
+
+function selectLanguage(language) {
+  document.querySelectorAll('.langCnt').forEach(content => {
+    content.style.display = (content.id === language) ? 'block' : 'none';
+  });
+
+  const currentLabels = labels[language] || labels.bengali;
+  const currentAudioMap = audioMapAll[language] || audioMapAll.bengali;
+
+  document.querySelectorAll('.item-card').forEach(card => {
+    const key = card.dataset.audioKey;
+    const audio = card.querySelector('audio');
+    const labelPair = currentLabels[key] || labels.bengali[key];
+    
+    card.querySelector('[data-card-label="' + key + '-title"]').textContent = labelPair[0];
+    card.querySelector('[data-card-label="' + key + '-subtitle"]').textContent = labelPair[1];
+    
+    let audioSrc = currentAudioMap ? currentAudioMap[key] : null;
+    if (audioSrc) {
+      const encodedSrc = encodeURI(audioSrc);
+      if (audio.src !== encodedSrc) {
+        audio.pause();
+        audio.currentTime = 0;
+        audio.src = encodedSrc;
+        audio.load();
+      }
+    }
+  });
+}
+
+selector.addEventListener('change', () => selectLanguage(selector.value));
+</script>
+<script src="content.js"></script>
+<script>
+function renderFullContent() {
+  const language = selector.value;
+  const sections = (window.metalWareContent && window.metalWareContent[language]) 
+    ? window.metalWareContent[language] 
+    : (window.metalWareContent ? window.metalWareContent.bengali : []);
+    
+  document.querySelectorAll('.item-card').forEach((card, index) => {
+    const content = card.querySelector('[data-card-content]');
+    if (content && sections && sections[index]) {
+      content.textContent = sections[index];
+    }
+  });
+}
+
+selector.addEventListener('change', renderFullContent);
+
+// Initialize on page load
+selectLanguage(selector.value);
+renderFullContent();
+</script>
+</body>
+</html>
