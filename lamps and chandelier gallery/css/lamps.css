@@ -1,0 +1,189 @@
+﻿*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:Arial,sans-serif;color:#2e2e2e}
+body{background:#a50309}
+
+.gallery-header{
+position:sticky;
+top:0;
+z-index:1000;
+height:76px;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,.18)
+}
+
+.header-inner{
+height:76px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 5%
+}
+
+.museum-logo{
+height:58px;
+width:auto;
+object-fit:contain
+}
+
+.language-select{
+height:48px;
+min-width:190px;
+padding:0 42px 0 52px;
+border:0;
+border-radius:28px;
+background:#a50309 url('./images/logo-anu.png') no-repeat 14px center;
+background-size:30px 30px;
+color:#fff;
+font-size:15px;
+font-weight:600;
+appearance:auto;
+cursor:pointer
+}
+
+.gallery-intro{
+padding:28px 6%;
+background:#fff;
+color:#2e2e2e
+}
+
+.gallery-intro h1{
+font-size:42px;
+margin:0 0 12px
+}
+
+.gallery-intro p{
+font-size:20px;
+max-width:1100px;
+line-height:1.55
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+padding:28px 6%;
+background:#a50309
+}
+
+.item-card{
+background:#fff;
+padding:14px;
+color:#2e2e2e;
+cursor:pointer;
+display:flex;
+flex-direction:column;
+border-radius:8px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+transition:transform .2s
+}
+
+.item-card:hover{transform:translateY(-4px)}
+
+.item-card img{
+width:100%;
+height:270px;
+object-fit:contain;
+background:#fff;
+border-radius:6px
+}
+
+.item-card h2{
+font-size:18px;
+margin:14px 0 4px;
+color:#a50309;
+font-weight:700
+}
+
+.item-card audio{
+width:100%;
+margin:10px 0
+}
+
+.item-card p{
+margin-top:10px;
+line-height:1.55;
+font-size:15px
+}
+
+.audioBar{
+padding:18px 6%;
+background:#2e2e2e;
+color:#fff
+}
+
+.audioBar audio{width:100%}
+.audioBar p{margin:0 0 8px}
+
+.item-page{
+background:#fff;
+min-height:calc(100vh - 76px)
+}
+
+.item-content{
+max-width:1100px;
+margin:0 auto;
+padding:35px 6%
+}
+
+.item-content h1{
+color:#a50309;
+font-size:32px;
+margin-top:0
+}
+
+.item-content img{
+display:block;
+width:100%;
+max-width:750px;
+height:430px;
+object-fit:contain;
+margin:0 auto 30px;
+background:#fff
+}
+
+.item-description{
+font-size:18px;
+line-height:1.8;
+white-space:pre-line
+}
+
+.navigation{
+display:flex;
+justify-content:space-between;
+gap:15px;
+max-width:1100px;
+margin:0 auto;
+padding:25px 6% 45px
+}
+
+.navigation a{
+background:#a50309;
+color:#fff;
+text-decoration:none;
+padding:12px 24px;
+border-radius:5px
+}
+
+.gallery-footer{
+background:#2e2e2e;
+color:#fff;
+padding:30px 6%;
+text-align:center;
+line-height:1.6
+}
+
+@media(max-width:992px){
+.gallery-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:767px){
+.gallery-intro h1{font-size:30px}
+.gallery-intro p{font-size:17px}
+.gallery-grid{grid-template-columns:1fr;padding:18px 4%}
+.item-card img{height:240px}
+.header-inner{padding:0 4%}
+.museum-logo{height:52px}
+.language-select{min-width:150px;font-size:13px}
+.item-content h1{font-size:26px}
+.item-description{font-size:16px}
+}
