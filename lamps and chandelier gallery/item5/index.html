@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lamps and Chandelier Gallery - Item 5</title>
+<link rel="stylesheet" href="../css/lamps.css">
+</head>
+<body>
+
+<header class="gallery-header">
+<div class="header-inner">
+<div>
+
+            param($m)
+
+            if ($m.Value -match 'logo-moc|logo-anu') {
+                return $m.Value
+            }
+
+            return $m.Groups[1].Value + "../images/" + $imageName + $m.Groups[2].Value
+         alt="Salar Jung Museum" class="museum-logo">
+</div>
+
+<select id="languageSelector" class="language-select">
+<option value="bengali">বাংলা</option>
+<option value="hindi">हिन्दी</option>
+<option value="kannada">ಕನ್ನಡ</option>
+<option value="malayalam">മലയാളം</option>
+<option value="odia">ଓଡ଼ିଆ</option>
+<option value="tamil">தமிழ்</option>
+</select>
+</div>
+</header>
+
+<div class="audioBar">
+<audio id="itemAudio" controls preload="none"></audio>
+</div>
+
+<main class="item-page">
+<section class="item-content">
+
+<h1 id="itemTitle"></h1>
+
+<img id="itemImage" alt="">
+
+<div id="itemDescription" class="item-description"></div>
+
+</section>
+
+<nav class="navigation">
+<a id="previousItem" href="#">← Previous</a>
+<a href="../index.html">Gallery</a>
+<a id="nextItem" href="#">Next →</a>
+</nav>
+</main>
+
+<footer id="galleryFooter" class="gallery-footer"></footer>
+
+<script src="../content.js"></script>
+<script>
+
+const data = window.lampsChandelierData;
+const itemId = 5;
+let currentLanguage = localStorage.getItem("lampsLanguage") || "bengali";
+
+const selector = document.getElementById("languageSelector");
+selector.value = currentLanguage;
+
+function audioUrl(path){
+    if(!path) return "";
+    return "../audios/" + path.split("\\").map(encodeURIComponent).join("/");
+}
+
+function renderItem(){
+
+    const item = data.items.find(x => x.id === itemId);
+
+    if(!item) return;
+
+    const info =
+        data.content[currentLanguage] &&
+        data.content[currentLanguage][item.key]
+        ? data.content[currentLanguage][item.key]
+        : {title:item.title,content:""};
+
+    document.getElementById("itemTitle").textContent =
+        info.title || item.title;
+
+    document.getElementById("itemDescription").textContent =
+        info.content || "";
+
+    if(data.images[item.key]){
+        document.getElementById("itemImage").src =
+            "../images/" + encodeURIComponent(data.images[item.key]);
+    }
+
+    const audioPath =
+        data.audio[currentLanguage] &&
+        data.audio[currentLanguage][item.key];
+
+    const audio = document.getElementById("itemAudio");
+
+    if(audioPath){
+        audio.src = audioUrl(audioPath);
+        audio.style.display = "block";
+    }else{
+        audio.removeAttribute("src");
+        audio.style.display = "none";
+    }
+
+    if(itemId > 1){
+        document.getElementById("previousItem").href =
+            "./item" + (itemId - 1) + ".html";
+    }else{
+        document.getElementById("previousItem").style.visibility = "hidden";
+    }
+
+    if(itemId < data.items.length){
+        document.getElementById("nextItem").href =
+            "./item" + (itemId + 1) + ".html";
+    }else{
+        document.getElementById("nextItem").style.visibility = "hidden";
+    }
+
+    document.getElementById("galleryFooter").textContent =
+        "Salar Jung Museum • Anuvadini • " +
+        currentLanguage.charAt(0).toUpperCase() +
+        currentLanguage.slice(1);
+}
+
+selector.addEventListener("change",function(){
+    currentLanguage = this.value;
+    localStorage.setItem("lampsLanguage",currentLanguage);
+    renderItem();
+});
+
+renderItem();
+
+</script>
+<script src="../audioMap.js"></script>`r`n</body>
+</html>
+
+
+
+

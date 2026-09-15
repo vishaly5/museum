@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lamps and Chandelier Gallery</title>
+<link rel="stylesheet" href="./css/lamps.css">
+</head>
+<body>
+
+<header class="gallery-header">
+<div class="header-inner">
+<div>
+<img src="./images/logo-moc.png" alt="Salar Jung Museum" class="museum-logo">
+</div>
+
+<select id="languageSelector" class="language-select">
+<option value="bengali">বাংলা</option>
+<option value="hindi">हिन्दी</option>
+<option value="kannada">ಕನ್ನಡ</option>
+<option value="malayalam">മലയാളം</option>
+<option value="odia">ଓଡ଼ିଆ</option>
+<option value="tamil">தமிழ்</option>
+</select>
+</div>
+</header>
+
+<section class="gallery-intro">
+<h1 id="galleryTitle">Lamps and Chandelier Gallery</h1>
+<p id="galleryDescription">Explore the lamps, candle stands and chandeliers from the Salar Jung Museum collection.</p>
+</section>
+
+<main id="galleryGrid" class="gallery-grid"></main>
+
+<footer id="galleryFooter" class="gallery-footer"></footer>
+
+<script src="./content.js"></script>
+<script>
+
+const data = window.lampsChandelierData;
+let currentLanguage = localStorage.getItem("lampsLanguage") || "bengali";
+
+const selector = document.getElementById("languageSelector");
+selector.value = currentLanguage;
+
+function safeAudio(path){
+    if(!path) return "";
+    return "./audios/" + path.split("\\").map(encodeURIComponent).join("/");
+}
+
+function renderGallery(){
+
+    const grid = document.getElementById("galleryGrid");
+    grid.innerHTML = "";
+
+    data.items.forEach((item,index)=>{
+
+        const info =
+            data.content[currentLanguage] &&
+            data.content[currentLanguage][item.key]
+            ? data.content[currentLanguage][item.key]
+            : {title:item.title,content:""};
+
+        const card = document.createElement("article");
+        card.className = "item-card";
+
+        card.onclick = function(e){
+            if(e.target.tagName.toLowerCase() === "audio" ||
+               e.target.closest("audio")){
+                return;
+            }
+            window.location.href = "./item" + item.id + ".html";
+        };
+
+        const img = document.createElement("img");
+
+        if(data.images[item.key]){
+            img.src = "./images/" + encodeURIComponent(data.images[item.key]);
+        }
+
+        img.alt = info.title || item.title;
+
+        const h2 = document.createElement("h2");
+        h2.textContent = info.title || item.title;
+
+        card.appendChild(img);
+        card.appendChild(h2);
+
+        const audioPath =
+            data.audio[currentLanguage] &&
+            data.audio[currentLanguage][item.key];
+
+        if(audioPath){
+            const audio = document.createElement("audio");
+            audio.controls = true;
+            audio.preload = "none";
+            audio.src = safeAudio(audioPath);
+            card.appendChild(audio);
+        }
+
+        const p = document.createElement("p");
+        p.textContent = info.content || "";
+        card.appendChild(p);
+
+        grid.appendChild(card);
+    });
+
+    document.getElementById("galleryFooter").textContent =
+        "Salar Jung Museum • Anuvadini • " +
+        currentLanguage.charAt(0).toUpperCase() +
+        currentLanguage.slice(1);
+
+}
+
+selector.addEventListener("change",function(){
+    currentLanguage = this.value;
+    localStorage.setItem("lampsLanguage",currentLanguage);
+    renderGallery();
+});
+
+renderGallery();
+
+</script>
+</body>
+</html>
+
