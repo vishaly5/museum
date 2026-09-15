@@ -1,8 +1,7 @@
-﻿window.lampsAudioMap = {
-
-  "bengali": [
-    "audios/Bengali/3. lamps and chandelier gallery/Acc. No  L-78 Lamp.wav",
+﻿window.lampsAudio = {
+  bengali: [
     "audios/Bengali/3. lamps and chandelier gallery/Acc. No L-74 Candle Stand.wav",
+    "audios/Bengali/3. lamps and chandelier gallery/Acc. No  L-78 Lamp.wav",
     "audios/Bengali/3. lamps and chandelier gallery/Acc. No LII-682 Candle Stick Stand.wav",
     "audios/Bengali/3. lamps and chandelier gallery/Acc. No LXVII- 147 Chandelier.wav",
     "audios/Bengali/3. lamps and chandelier gallery/Acc. No LXXIV-74 Lamp.wav",
@@ -12,7 +11,7 @@
     "audios/Bengali/3. lamps and chandelier gallery/Acc. No XLV-122 Chandelier.wav"
   ],
 
-  "hindi": [
+  hindi: [
     "audios/hindi/03. Audio-Lamps & Chandelier Gallery/1. मोमबत्ती स्टैंड.wav",
     "audios/hindi/03. Audio-Lamps & Chandelier Gallery/2. लैंप (दीपक).wav",
     "audios/hindi/03. Audio-Lamps & Chandelier Gallery/3. कैंडल स्टिक स्टैंड (मोमबत्तीदान).wav",
@@ -24,19 +23,19 @@
     "audios/hindi/03. Audio-Lamps & Chandelier Gallery/9. झूमर.wav"
   ],
 
-  "kannada": [
-    "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No  L-78 Lamp.wav",
+  kannada: [
     "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No L-74 Candle Stand.wav",
+    "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No  L-78 Lamp.wav",
     "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No LII-682 Candle Stick Stand.wav",
     "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No LXVII- 147 Chandelier.wav",
-    "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No LXXIV-101.Lamp.wav",
     "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No LXXIV-74 Lamp.wav",
-    "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No LXXIV-83.Lamp.wav",
+    "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No LXXIV-83 Lamp.wav",
+    "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No LXXIV-101.Lamp.wav",
     "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No MS- 3372 Lamp.wav",
     "audios/kannada/3.LAMP & CANDILEAR GALLERY/Acc. No XLV-122 Chandelier.wav"
   ],
 
-  "malayalam": [
+  malayalam: [
     "audios/Malayalam/Lamps & Chandelier Gallery/Candle Stand.wav",
     "audios/Malayalam/Lamps & Chandelier Gallery/Acc. No  L-78 Lamp.wav",
     "audios/Malayalam/Lamps & Chandelier Gallery/Candle Stick Stand.wav",
@@ -48,7 +47,7 @@
     "audios/Malayalam/Lamps & Chandelier Gallery/Acc. No XLV-122 Chandelier.wav"
   ],
 
-  "odia": [
+  odia: [
     "audios/Odia/3. Lamps & Candelier Gallery.or/1. Acc. No L-74 Candle Stand.wav",
     "audios/Odia/3. Lamps & Candelier Gallery.or/2. Acc. No  L-78 Lamp.wav",
     "audios/Odia/3. Lamps & Candelier Gallery.or/3. Acc. No LII-682 Candle Stick Stand.wav",
@@ -60,7 +59,7 @@
     "audios/Odia/3. Lamps & Candelier Gallery.or/9. Acc. No XLV-122 Chandelier.wav"
   ],
 
-  "tamil": [
+  tamil: [
     "audios/tamil/3. Lamps and Chandeliers Gallery/1. Candle Stand _ ta.wav",
     "audios/tamil/3. Lamps and Chandeliers Gallery/2. Lamp _ ta.wav",
     "audios/tamil/3. Lamps and Chandeliers Gallery/3. Candle Stick Stand _ ta.wav",
@@ -71,5 +70,4 @@
     "audios/tamil/3. Lamps and Chandeliers Gallery/8. 3372 Lamp _ta.wav",
     "audios/tamil/3. Lamps and Chandeliers Gallery/9. 122 Chandelier _ ta.wav"
   ]
-
 };

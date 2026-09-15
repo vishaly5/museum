@@ -1,126 +1,122 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lamps and Chandelier Gallery</title>
-<link rel="stylesheet" href="./css/lamps.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamps and Chandelier Gallery</title>
+    <link rel="stylesheet" href="./css/lamps.css">
 </head>
+
 <body>
 
 <header class="gallery-header">
-<div class="header-inner">
-<div>
-<img src="./images/logo-moc.png" alt="Salar Jung Museum" class="museum-logo">
-</div>
+    <div class="header-inner">
 
-<select id="languageSelector" class="language-select">
-<option value="bengali">বাংলা</option>
-<option value="hindi">हिन्दी</option>
-<option value="kannada">ಕನ್ನಡ</option>
-<option value="malayalam">മലയാളം</option>
-<option value="odia">ଓଡ଼ିଆ</option>
-<option value="tamil">தமிழ்</option>
-</select>
-</div>
+        <a href="../index.html">
+            <img
+                src="./images/logo-moc.png"
+                class="museum-logo"
+                alt="Salar Jung Museum">
+        </a>
+
+        <div class="language-select-wrap">
+            <select id="languageSelector" aria-label="Select language">
+                <option value="bengali">বাংলা (Bengali)</option>
+                <option value="hindi" selected>हिन्दी (Hindi)</option>
+                <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+                <option value="malayalam">മലയാളം (Malayalam)</option>
+                <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+                <option value="tamil">தமிழ் (Tamil)</option>
+            </select>
+        </div>
+
+    </div>
 </header>
 
-<section class="gallery-intro">
-<h1 id="galleryTitle">Lamps and Chandelier Gallery</h1>
-<p id="galleryDescription">Explore the lamps, candle stands and chandeliers from the Salar Jung Museum collection.</p>
-</section>
+<main>
 
-<main id="galleryGrid" class="gallery-grid"></main>
+    <section class="hero">
+        <h1 id="galleryTitle">Lamps and Chandelier Gallery</h1>
+        <p>
+            <p id="gallerySubtitle">Explore the lamps, candle stands and chandeliers from the Salar Jung Museum collection.</p>
+        </p>
+    </section>
 
-<footer id="galleryFooter" class="gallery-footer"></footer>
+    <section class="gallery-section">
+        <div id="galleryGrid"></div>
+    </section>
+
+</main>
 
 <script src="./content.js"></script>
+<script src="./js/lampsGallery.js"></script>
+
 <script>
-
-const data = window.lampsChandelierData;
-let currentLanguage = localStorage.getItem("lampsLanguage") || "bengali";
-
-const selector = document.getElementById("languageSelector");
-selector.value = currentLanguage;
-
-function safeAudio(path){
-    if(!path) return "";
-    return "./audios/" + path.split("\\").map(encodeURIComponent).join("/");
-}
-
-function renderGallery(){
-
-    const grid = document.getElementById("galleryGrid");
-    grid.innerHTML = "";
-
-    data.items.forEach((item,index)=>{
-
-        const info =
-            data.content[currentLanguage] &&
-            data.content[currentLanguage][item.key]
-            ? data.content[currentLanguage][item.key]
-            : {title:item.title,content:""};
-
-        const card = document.createElement("article");
-        card.className = "item-card";
-
-        card.onclick = function(e){
-            if(e.target.tagName.toLowerCase() === "audio" ||
-               e.target.closest("audio")){
-                return;
-            }
-            window.location.href = "./item" + item.id + ".html";
-        };
-
-        const img = document.createElement("img");
-
-        if(data.images[item.key]){
-            img.src = "./images/" + encodeURIComponent(data.images[item.key]);
-        }
-
-        img.alt = info.title || item.title;
-
-        const h2 = document.createElement("h2");
-        h2.textContent = info.title || item.title;
-
-        card.appendChild(img);
-        card.appendChild(h2);
-
-        const audioPath =
-            data.audio[currentLanguage] &&
-            data.audio[currentLanguage][item.key];
-
-        if(audioPath){
-            const audio = document.createElement("audio");
-            audio.controls = true;
-            audio.preload = "none";
-            audio.src = safeAudio(audioPath);
-            card.appendChild(audio);
-        }
-
-        const p = document.createElement("p");
-        p.textContent = info.content || "";
-        card.appendChild(p);
-
-        grid.appendChild(card);
-    });
-
-    document.getElementById("galleryFooter").textContent =
-        "Salar Jung Museum • Anuvadini • " +
-        currentLanguage.charAt(0).toUpperCase() +
-        currentLanguage.slice(1);
-
-}
-
-selector.addEventListener("change",function(){
-    currentLanguage = this.value;
-    localStorage.setItem("lampsLanguage",currentLanguage);
-    renderGallery();
+document.getElementById("languageSelector").addEventListener("change", function () {
+    window.dispatchEvent(new Event("lampsLanguageChanged"));
 });
-
-renderGallery();
-
 </script>
-</body>
-</html>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const translations = {
+        bengali: {
+            title: "ল্যাম্প ও ঝাড়বাতি গ্যালারি",
+            subtitle: "সালার জং মিউজিয়াম সংগ্রহের ল্যাম্প, মোমদানি এবং ঝাড়বাতি দেখুন।"
+        },
+
+        hindi: {
+            title: "लैम्प और झूमर दीर्घा",
+            subtitle: "सालार जंग संग्रहालय के संग्रह से लैम्प, मोमबत्ती स्टैंड और झूमर देखें।"
+        },
+
+        kannada: {
+            title: "ಲ್ಯಾಂಪ್ ಮತ್ತು ಕ್ಯಾಂಡೇಲಿಯರ್ ಗ್ಯಾಲರಿ",
+            subtitle: "ಸಾಲಾರ್ ಜಂಗ್ ಮ್ಯೂಸಿಯಂ ಸಂಗ್ರಹದಲ್ಲಿರುವ ಲ್ಯಾಂಪ್‌ಗಳು, ಕ್ಯಾಂಡಲ್ ಸ್ಟ್ಯಾಂಡ್‌ಗಳು ಮತ್ತು ಕ್ಯಾಂಡೇಲಿಯರ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ."
+        },
+
+        malayalam: {
+            title: "ലാമ്പുകളും ഷാൻഡിലിയർ ഗാലറിയും",
+            subtitle: "സാലാർ ജംഗ് മ്യൂസിയം ശേഖരത്തിലെ ലാമ്പുകൾ, മെഴുകുതിരി സ്റ്റാൻഡുകൾ, ഷാൻഡിലിയറുകൾ എന്നിവ കാണുക."
+        },
+
+        odia: {
+            title: "ଲ୍ୟାମ୍ପ ଏବଂ ଝାଡ଼ବତୀ ଗ୍ୟାଲେରୀ",
+            subtitle: "ସାଲାର ଜଙ୍ଗ ସଂଗ୍ରହାଳୟର ସଂଗ୍ରହରୁ ଲ୍ୟାମ୍ପ, ମହମବତୀ ଷ୍ଟାଣ୍ଡ ଏବଂ ଝାଡ଼ବତୀ ଦେଖନ୍ତୁ।"
+        },
+
+        tamil: {
+            title: "விளக்குகள் மற்றும் தொங்குவிளக்குகள் காட்சியகம்",
+            subtitle: "சாலார் ஜங் அருங்காட்சியகத் தொகுப்பிலுள்ள விளக்குகள், மெழுகுவர்த்தித் தாங்கிகள் மற்றும் தொங்குவிளக்குகளைக் காணுங்கள்."
+        }
+    };
+
+    function translateGalleryHeader() {
+
+        const selector = document.getElementById("languageSelector");
+        const title = document.getElementById("galleryTitle");
+        const subtitle = document.getElementById("gallerySubtitle");
+
+        if (!selector || !title || !subtitle) return;
+
+        const language = selector.value;
+
+        if (translations[language]) {
+            title.textContent = translations[language].title;
+            subtitle.textContent = translations[language].subtitle;
+        }
+    }
+
+    const selector = document.getElementById("languageSelector");
+
+    if (selector) {
+        selector.addEventListener("change", translateGalleryHeader);
+    }
+
+    translateGalleryHeader();
+
+});
+</script>
+<script>(function(){function makeImagesClickable(){const cards=document.querySelectorAll("#galleryGrid .item-card");cards.forEach(function(card,index){const image=card.querySelector("img");if(!image)return;const itemNumber=index+1;image.style.cursor="pointer";image.title="Open Item "+itemNumber;image.onclick=function(e){e.preventDefault();e.stopPropagation();window.location.href="./item"+itemNumber+".html";};});}function start(){makeImagesClickable();const gallery=document.getElementById("galleryGrid");if(gallery){new MutationObserver(makeImagesClickable).observe(gallery,{childList:true,subtree:true});}setTimeout(makeImagesClickable,300);setTimeout(makeImagesClickable,800);setTimeout(makeImagesClickable,1500);}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",start);}else{start();}})();</script>
 
