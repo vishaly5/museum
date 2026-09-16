@@ -1,189 +1,301 @@
-﻿*{box-sizing:border-box}
-html,body{margin:0;padding:0;font-family:Arial,sans-serif;color:#2e2e2e}
-body{background:#a50309}
-
-.gallery-header{
-position:sticky;
-top:0;
-z-index:1000;
-height:76px;
-background:#fff;
-box-shadow:0 2px 10px rgba(0,0,0,.18)
+﻿* {
+    box-sizing: border-box;
 }
 
-.header-inner{
-height:76px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:0 5%
+body {
+    margin: 0;
+    font-family: Arial, "Noto Sans", sans-serif;
+    background: #ffffff;
+    color: #222;
 }
 
-.museum-logo{
-height:58px;
-width:auto;
-object-fit:contain
+.gallery-header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    height: 76px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.12);
 }
 
-.language-select{
-height:48px;
-min-width:190px;
-padding:0 42px 0 52px;
-border:0;
-border-radius:28px;
-background:#a50309 url('./images/logo-anu.png') no-repeat 14px center;
-background-size:30px 30px;
-color:#fff;
-font-size:15px;
-font-weight:600;
-appearance:auto;
-cursor:pointer
+.header-inner {
+    height: 76px;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.gallery-intro{
-padding:28px 6%;
-background:#fff;
-color:#2e2e2e
+.museum-logo {
+    width: 155px;
+    height: auto;
+    display: block;
 }
 
-.gallery-intro h1{
-font-size:42px;
-margin:0 0 12px
+.language-select-wrap {
+    position: relative;
+    width: 265px;
 }
 
-.gallery-intro p{
-font-size:20px;
-max-width:1100px;
-line-height:1.55
+#languageSelector {
+    width: 265px;
+    height: 48px;
+    border: 0;
+    border-radius: 26px;
+    background-color: #b52a2f;
+    background-image: url("../images/logo-anu.png");
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-size: 34px 34px;
+    color: white;
+    padding: 0 45px 0 56px;
+    font-size: 16px;
+    font-family: Arial, "Noto Sans", sans-serif;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
 }
 
-.gallery-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:18px;
-padding:28px 6%;
-background:#a50309
+.language-select-wrap::after {
+    content: "⌄";
+    position: absolute;
+    right: 18px;
+    top: 7px;
+    color: white;
+    font-size: 27px;
+    pointer-events: none;
 }
 
-.item-card{
-background:#fff;
-padding:14px;
-color:#2e2e2e;
-cursor:pointer;
-display:flex;
-flex-direction:column;
-border-radius:8px;
-box-shadow:0 4px 12px rgba(0,0,0,.1);
-transition:transform .2s
+.hero {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 35px 40px 28px;
 }
 
-.item-card:hover{transform:translateY(-4px)}
-
-.item-card img{
-width:100%;
-height:270px;
-object-fit:contain;
-background:#fff;
-border-radius:6px
+.hero h1 {
+    margin: 0 0 22px;
+    font-size: 46px;
+    line-height: 1.15;
+    font-weight: 700;
 }
 
-.item-card h2{
-font-size:18px;
-margin:14px 0 4px;
-color:#a50309;
-font-weight:700
+.hero p {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.5;
 }
 
-.item-card audio{
-width:100%;
-margin:10px 0
+.gallery-section {
+    background: #b40009;
+    padding: 42px 5% 70px;
+    min-height: 500px;
 }
 
-.item-card p{
-margin-top:10px;
-line-height:1.55;
-font-size:15px
+#galleryGrid {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
 }
 
-.audioBar{
-padding:18px 6%;
-background:#2e2e2e;
-color:#fff
+.item-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0,0,0,.22);
 }
 
-.audioBar audio{width:100%}
-.audioBar p{margin:0 0 8px}
-
-.item-page{
-background:#fff;
-min-height:calc(100vh - 76px)
+.item-image {
+    display: block;
+    width: 100%;
+    height: 290px;
+    object-fit: contain;
+    background: #f7f7f7;
+    padding: 12px;
 }
 
-.item-content{
-max-width:1100px;
-margin:0 auto;
-padding:35px 6%
+.item-body {
+    padding: 20px;
 }
 
-.item-content h1{
-color:#a50309;
-font-size:32px;
-margin-top:0
+.item-number {
+    color: #a90009;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
 
-.item-content img{
-display:block;
-width:100%;
-max-width:750px;
-height:430px;
-object-fit:contain;
-margin:0 auto 30px;
-background:#fff
+.item-body h2 {
+    margin: 0 0 13px;
+    font-size: 21px;
+    line-height: 1.35;
 }
 
-.item-description{
-font-size:18px;
-line-height:1.8;
-white-space:pre-line
+.item-body p {
+    margin: 0 0 18px;
+    white-space: pre-line;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #444;
 }
 
-.navigation{
-display:flex;
-justify-content:space-between;
-gap:15px;
-max-width:1100px;
-margin:0 auto;
-padding:25px 6% 45px
+.item-audio {
+    width: 100%;
 }
 
-.navigation a{
-background:#a50309;
-color:#fff;
-text-decoration:none;
-padding:12px 24px;
-border-radius:5px
+@media (max-width: 1000px) {
+    #galleryGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
-.gallery-footer{
-background:#2e2e2e;
-color:#fff;
-padding:30px 6%;
-text-align:center;
-line-height:1.6
+@media (max-width: 650px) {
+    .header-inner {
+        padding: 0 18px;
+    }
+
+    .museum-logo {
+        width: 125px;
+    }
+
+    .language-select-wrap,
+    #languageSelector {
+        width: 210px;
+    }
+
+    #galleryGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 28px 22px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
 }
 
-@media(max-width:992px){
-.gallery-grid{grid-template-columns:repeat(2,1fr)}
+/* FINAL CONTENT FIX */
+.item-title {
+    margin: 0 0 14px;
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #222;
 }
 
-@media(max-width:767px){
-.gallery-intro h1{font-size:30px}
-.gallery-intro p{font-size:17px}
-.gallery-grid{grid-template-columns:1fr;padding:18px 4%}
-.item-card img{height:240px}
-.header-inner{padding:0 4%}
-.museum-logo{height:52px}
-.language-select{min-width:150px;font-size:13px}
-.item-content h1{font-size:26px}
-.item-description{font-size:16px}
+.item-description {
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: #444;
+    white-space: pre-line;
+}
+
+.item-audio {
+    width: 100%;
+}
+
+/* FINAL CONTENT FIX */
+.item-title {
+    margin: 0 0 14px;
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #222;
+}
+
+.item-description {
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: #444;
+    white-space: pre-line;
+}
+
+.item-audio {
+    width: 100%;
+}
+
+/* CONTENT FONT FIX - descriptions must be normal weight */
+.item-description {
+    font-weight: 400 !important;
+    font-family: Arial, "Noto Sans", sans-serif !important;
+}
+
+.item-description * {
+    font-weight: 400 !important;
+}
+
+.item-title {
+    font-weight: 700 !important;
+}
+
+/* FINAL - DESCRIPTION MUST BE NORMAL */
+#galleryGrid .item-card .item-body .item-description {
+    display: block !important;
+    font-family: Arial, "Noto Sans", sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: 1.65 !important;
+    color: #444 !important;
+    margin: 0 0 18px 0 !important;
+    padding: 0 !important;
+}
+
+#galleryGrid .item-card .item-body .item-title {
+    display: block !important;
+    font-family: Arial, "Noto Sans", sans-serif !important;
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    line-height: 1.4 !important;
+    margin: 0 0 14px 0 !important;
+    padding: 0 !important;
+}
+
+/* =====================================================
+   DEFINITIVE LAMPS TEXT FORMAT
+   ===================================================== */
+
+#galleryGrid .item-card .item-body {
+    font-weight: 400 !important;
+}
+
+#galleryGrid .item-card .item-title {
+    font-family: Arial, "Noto Sans", sans-serif !important;
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    line-height: 1.4 !important;
+    color: #222 !important;
+    display: block !important;
+}
+
+#galleryGrid .item-card .item-description {
+    font-family: Arial, "Noto Sans", sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: 1.65 !important;
+    color: #444 !important;
+    display: block !important;
+    margin: 0 0 18px 0 !important;
+    padding: 0 !important;
+}
+
+#galleryGrid .item-card .item-description,
+#galleryGrid .item-card .item-description * {
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+#galleryGrid .item-card .item-number,
+#galleryGrid .item-card .item-label {
+    display: none !important;
 }
