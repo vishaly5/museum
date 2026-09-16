@@ -32,9 +32,7 @@ const languages = [
     { id: 'odia', label: 'ଓଡ଼ିଆ (Odia)' },
     { id: 'tamil', label: 'தமிழ் (Tamil)' },
     { id: 'telugu', label: 'తెలుగు (Telugu)' },
-    { id: 'urdu', label: 'اردو (Urdu)' },
-    { id: 'marathi', label: 'मराठी (Marathi)' },
-    { id: 'gujarati', label: 'ગુજરાતી (Gujarati)' }
+    { id: 'urdu', label: 'اردو (Urdu)' }
 ];
 
 const items = [
@@ -49,9 +47,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/1. Leda and the Swan (XLV - 17).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/1. Leda and the Swan _ TA.wav',
             telugu: 'audios/Telugu/Telugu_Leda and the Swan_Female.wav',
-            urdu: 'audios/Urdu/1. Leda and the Swan (XLV - 17).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Leda and the Swan (XLV - 17).wav',
-            gujarati: 'audios/Gujarati/Leda and the Swan (XLV - 17).wav'
+            urdu: 'audios/Urdu/1. Leda and the Swan (XLV - 17).wav'
         }
     },
     {
@@ -65,9 +61,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/2.Pillar Shaped as Female (AK - 22).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/2.Pillar Shaped as Female_TA.wav',
             telugu: 'audios/Telugu/Telugu_Pillar Shaped as Female_Female voice.wav',
-            urdu: 'audios/Urdu/2.Pillar Shaped as Female (Greek Mythological Figure) (AK - 22).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Pillar Shaped as Female (Greek Mythological Figure) (AK - 22).wav',
-            gujarati: 'audios/Gujarati/2.Pillar Shaped as Female (Greek Mythological Figure) (AK - 22).wav'
+            urdu: 'audios/Urdu/2.Pillar Shaped as Female (Greek Mythological Figure) (AK - 22).wav'
         }
     },
     {
@@ -81,9 +75,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/3. L. AUTOMME (AK - 24).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/3. L. AUTOMME _ TA.wav',
             telugu: 'audios/Telugu/Telugu_L. AUTOMME_Female.wav',
-            urdu: 'audios/Urdu/3. L. AUTOMME (AK - 24).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/L. AUTOMME (AK - 24).wav',
-            gujarati: 'audios/Gujarati/L. AUTOMME (AK - 24).wav'
+            urdu: 'audios/Urdu/3. L. AUTOMME (AK - 24).wav'
         }
     },
     {
@@ -97,9 +89,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/4. Venus and Mars (XLV - 161).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/4. Venus and Mars _TA.wav',
             telugu: 'audios/Telugu/Telugu_Venus and Mars_Female.wav',
-            urdu: 'audios/Urdu/4. Venus and Mars (XLV - 161) (War and Peace).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Venus and Mars (XLV - 161) (War and Peace).wav',
-            gujarati: 'audios/Gujarati/Venus and Mars (XLV - 161) (War and Peace).wav'
+            urdu: 'audios/Urdu/4. Venus and Mars (XLV - 161) (War and Peace).wav'
         }
     },
     {
@@ -113,9 +103,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/5. Cleopatra – Queen of Egypt (XLV - 151).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/5. Cleopatra – Queen of Egypt_TA.wav',
             telugu: 'audios/Telugu/Telugu_Cleopatra – Queen of Egypt_Female.wav',
-            urdu: 'audios/Urdu/5. Cleopatra – Queen of Egypt (XLV - 151).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Cleopatra – Queen of Egypt (XLV - 151).wav',
-            gujarati: 'audios/Gujarati/Cleopatra – Queen of Egypt (XLV - 151).wav'
+            urdu: 'audios/Urdu/5. Cleopatra – Queen of Egypt (XLV - 151).wav'
         }
     },
     {
@@ -129,9 +117,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/6. Apollo and Daphne (XLV - 133).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/6. Apollo and Daphne _ TA.wav',
             telugu: 'audios/Telugu/Telugu_Apollo and Daphne_Female.wav',
-            urdu: 'audios/Urdu/6. Apollo and Daphne (XLV - 133).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Apollo and Daphne (XLV - 133).wav',
-            gujarati: 'audios/Gujarati/Apollo and Daphne (XLV - 133).wav'
+            urdu: 'audios/Urdu/6. Apollo and Daphne (XLV - 133).wav'
         }
     },
     {
@@ -145,9 +131,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/7.  Cynthia (MS - 3068).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/7.  Cynthia _TA.wav',
             telugu: 'audios/Telugu/Telugu_Cynthia_Female.wav',
-            urdu: 'audios/Urdu/7.  Cynthia (MS - 3068).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Cynthia (MS - 3068).wav',
-            gujarati: 'audios/Gujarati/Cynthia (MS - 3068).wav'
+            urdu: 'audios/Urdu/7.  Cynthia (MS - 3068).wav'
         }
     },
     {
@@ -161,9 +145,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/8. Bust of a young lady (XLV - 166).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/8. Bust of a young lady _ TA.wav',
             telugu: 'audios/Telugu/Telugu_Bust of a young lady_Female.wav',
-            urdu: 'audios/Urdu/8. Bust of a young lady (XLV - 166).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Bust of a young lady (XLV - 166).wav',
-            gujarati: 'audios/Gujarati/Bust of a young lady (XLV - 166).wav'
+            urdu: 'audios/Urdu/8. Bust of a young lady (XLV - 166).wav'
         }
     },
     {
@@ -177,9 +159,7 @@ const items = [
             odia: 'audios/Odia/2. MARBLE GALLERY.or/9. Egyptian Priestess (XLV - 18).wav',
             tamil: 'audios/Tamil/Marble Gallery.ta/9. Egyptian Priestess  _ TA.wav',
             telugu: 'audios/Telugu/Telugu_Egyptian Priestess (Allegorical Figure)_female.wav',
-            urdu: 'audios/Urdu/9. Egyptian Priestess (Allegorical Figure) (XLV - 18).wav',
-            marathi: 'audios/Marathi/MARBLE GALLERY/Egyptian Priestess (Allegorical Figure) (XLV - 18).wav',
-            gujarati: 'audios/Gujarati/Egyptian Priestess (Allegorical Figure) (XLV - 18).wav'
+            urdu: 'audios/Urdu/9. Egyptian Priestess (Allegorical Figure) (XLV - 18).wav'
         }
     }
 ];
