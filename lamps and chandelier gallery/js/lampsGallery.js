@@ -107,6 +107,17 @@
             "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No MS- 3372 Lamp.wav",
             "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No XLV-122 Chandelier.wav"
         ],
+        gujarati: [
+            "gujarati/Acc. No  L-78 Lamp.wav",
+            "gujarati/Acc. No L-74 Candle Stand.wav",
+            "gujarati/Acc. No LII-682 Candle Stick Stand.wav",
+            "gujarati/Acc. No LXVII- 147 Chandelier.wav",
+            "gujarati/Acc. No LXXIV-74 Lamp.wav",
+            "gujarati/Acc. No LXXIV-83 Lamp.wav",
+            "gujarati/Acc. No LXXIV-101 Lamp.wav",
+            "gujarati/Acc. No MS- 3372 Lamp.wav",
+            "gujarati/Acc. No XLV-122 Chandelier.wav"
+        ],
         marathi: [
             "Lamps & Chandelier Gallery/Acc. No L-74 Candle Stand.wav",
             "Lamps & Chandelier Gallery/Acc. No  L-78 Lamp.wav",
