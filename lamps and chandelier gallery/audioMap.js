@@ -70,6 +70,18 @@
     "audios/tamil/3. Lamps and Chandeliers Gallery/7 -101 Lamp_ta.wav",
     "audios/tamil/3. Lamps and Chandeliers Gallery/8. 3372 Lamp _ta.wav",
     "audios/tamil/3. Lamps and Chandeliers Gallery/9. 122 Chandelier _ ta.wav"
+  ],
+
+  "telugu": [
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_L-74 Candle Stand_Female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_Acc_No_L-78 Lamp_Female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_Telugu_LII-682 Candle Stick Stand_female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_LXVII- 147 Chandelier_Female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_LXXIV-74 Lamp_Female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_LXXIV-83 Lamp_Female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_LXXIV-101 Lamp_Female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_MS- 3372 Lamp_female.wav",
+    "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_XLV-122 Chandelier_Female.wav"
   ]
 
 };
