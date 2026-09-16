@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Marble Gallery - Item 5 | Salar Jung Museum</title>
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+
+<style>
+.audioPlayerDiv {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.bookContentDiv {
+    max-width: 900px;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.cntHdng {
+    font-size: 26px;
+    font-weight: 700;
+    color: #a50309;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+.booImgDiv {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.booImgDiv img {
+    max-height: 460px;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.bookCntDiv {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.navBtnDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.navBtn {
+    background: #a50309;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navBtn:hover {
+    background: #7a0206;
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sliderHeaderDiv">
+    <div class="container">
+        <header>
+
+            <div class="logoLft">
+                <a href="../index.html" class="logo logoTwo">
+                    <img src="../images/logo-moc.png"
+                         onerror="this.onerror=null;this.src='../images/logo.png';"
+                         alt="Ministry of Culture">
+                </a>
+            </div>
+
+            <div class="logoRgt">
+                <div class="langDiv">
+
+                    <span class="anuIcn">
+                        <img src="../images/logo-anu.png"
+                             alt="Anuvadini">
+                    </span>
+
+                    <select class="form formLang"
+                            id="languageSelector"
+                            aria-label="Select language">
+                        <option value="bengali">বাংলা (Bengali)</option>
+<option value="hindi" selected>हिन्दी (Hindi)</option>
+<option value="kannada">ಕನ್ನಡ (Kannada)</option>
+<option value="malayalam">മലയാളം (Malayalam)</option>
+<option value="odia">ଓଡ଼ିଆ (Odia)</option>
+<option value="tamil">தமிழ் (Tamil)</option>
+                    </select>
+
+                </div>
+            </div>
+
+        </header>
+    </div>
+</div>
+
+<main>
+
+<div class="audioPlayerDiv">
+    <div style="background:#2e2e2e;color:#fff;padding:15px 20px;border-radius:10px;">
+        <p style="margin:0 0 8px;font-size:14px;">
+            Audio Explanation
+        </p>
+
+        <audio id="languageAudio"
+               controls
+               preload="metadata"
+               style="width:100%;"
+               src="../audios/Hindi/02.%20Audio-MARBLE%20GALLERY/5.%20%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%AA%E0%A5%87%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%20%E2%80%93%20%E0%A4%AE%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A5%80%20%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80.wav">
+        </audio>
+    </div>
+</div>
+
+
+        <div class="langCnt" id="bengali" style="display:none;">
+            <h2 class="cntHdng">Cleopatra – Queen of Egypt</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item5.png" alt="Cleopatra – Queen of Egypt">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ক্লিওপেট্রা-মিশরের রানী (XLV - 151) *
+
+এই মার্বেল ভাস্কর্যটিতে প্রাচীন মিশরের শেষ রানি সপ্তম ক্লিওপেট্রাকে দেখানো হয়েছে। এটি ১৮৭০ থেকে ১৮৮০ সালের মধ্যে ইতালিতে তৈরি করা হয়েছিল। এই ভাস্কর্যটিতে তাঁর জীবনের শেষ মুহূর্তটি তুলে ধরা হয়েছে। রোমানদের কাছে রাজ্য হারানোর পর, বন্দি হওয়ার পরিবর্তে তিনি মৃত্যুকে বেছে নিয়েছিলেন। তাঁর বাম হাতে থাকা বিষধর সাপটি সেই ঘটনারই সাক্ষ্য দেয়। প্রচলিত কাহিনি অনুযায়ী, সাপ দিয়ে নিজেকে দংশন করানোর মাধ্যমে তিনি নিজের জীবনের অবসান ঘটিয়েছিলেন। তাঁর শান্ত মুখমণ্ডল ও সুনিপুণ ভঙ্গি সাহস, মর্যাদা এবং রাজকীয় আভিজাত্য প্রকাশ করে। মিশরীয় বিশ্বাস অনুযায়ী, সাপ রাজকীয় ক্ষমতা ও সুরক্ষার প্রতীক। মার্বেল পাথরের মসৃণ উপরিভাগ এবং তাঁর পোশাক ও অলংকারের সূক্ষ্ম কারুকাজ শিল্পীর অসাধারণ দক্ষতার পরিচয় দেয়।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="hindi" style="display:block;">
+            <h2 class="cntHdng">Cleopatra – Queen of Egypt</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item5.png" alt="Cleopatra – Queen of Egypt">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>क्लियोपेट्रा – मिस्र की रानी (XLV - 151) *
+
+यह संगमरमर की मूर्ति क्लियोपेट्रा सप्तम, प्राचीन मिस्र की अंतिम रानी, को दर्शाती है। इसका निर्माण इटली में लगभग 1870–1880 के बीच किया गया था। मूर्ति में उनके जीवन के अंतिम क्षण को दर्शाया गया है। रोमन लोगों के हाथों अपना राज्य खोने के बाद, उन्होंने बंदी बनाए जाने के बजाय मृत्यु को चुनना पसंद किया। उनके बाएँ हाथ में दिखाई गई विषैली सर्पिणी इसी घटना की ओर संकेत करती है। परंपरा के अनुसार, उन्होंने सर्प से खुद को डसवाकर अपने जीवन का अंत कर लिया था। उनका शांत चेहरा और सौम्य, गरिमापूर्ण मुद्रा साहस, आत्मसम्मान और राजसी गौरव को व्यक्त करती है। मिस्र की मान्यताओं में सर्प राजसत्ता और संरक्षण का प्रतीक भी माना जाता था। संगमरमर की चिकनी सतह तथा उनके वस्त्रों और आभूषणों में उकेरे गए बारीक विवरण कलाकार की उत्कृष्ट शिल्प-कौशल को दर्शाते हैं।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="kannada" style="display:none;">
+            <h2 class="cntHdng">Cleopatra – Queen of Egypt</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item5.png" alt="Cleopatra – Queen of Egypt">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ಕ್ಲಿಯೋಪಾತ್ರ – ಈಜಿಪ್ಟಿನ ರಾಣಿ (XLV - 151)
+
+ಈ ಮಾರ್ಬಲ್ (ಅಮೃತಶಿಲೆ) ಶಿಲ್ಪವು ಪ್ರಾಚೀನ ಈಜಿಪ್ಟ್‌ನ ಕೊನೆಯ ರಾಣಿಯಾದ ಏಳನೇ ಕ್ಲಿಯೋಪಾತ್ರಳನ್ನು (Cleopatra VII) ತೋರಿಸುತ್ತದೆ. ಈ ಕಲಾಕೃತಿಯನ್ನು ಸುಮಾರು 1870–1880 ರ ಅವಧಿಯಲ್ಲಿ ಇಟಲಿಯಲ್ಲಿ ಕೆತ್ತಲ್ಪಟ್ಟಿತ್ತು. ಈ ಪ್ರತಿಮೆಯು ಆಕೆಯ ಜೀವನದ ಕೊನೆಯ ಕ್ಷಣವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ರೋಮನ್ನರೊಂದಿಗೆ ತನ್ನ ಸಾಮ್ರಾಜ್ಯವನ್ನು ಸೋತ ನಂತರ, ಆಕೆಯು ಬಂದಿಯಾಗುವ ಬದಲು ಮರಣವನ್ನು ಆರಿಸಿಕೊಂಡಳು. ಆಕೆಯ ಬಲಗೈನಲ್ಲಿರುವ ವಿಷಪೂರಿತ ಹಾವೊಂದು ಈ ಕಥೆಯನ್ನು ಹೇಳುತ್ತದೆ. ಸಾಂಪ್ರದಾಯಿಕ ನಂಬಿಕೆಯ ಪ್ರಕಾರ, ಆಕೆಯು ತನಗೆ ಹಾವು ಕಚ್ಚಲು ಬಿಡುವ ಮೂಲಕ ತನ್ನ ಜೀವನವನ್ನು ಅಂತ್ಯಗೊಳಿಸಿದಳು. ಆಕೆಯ ಪ್ರಶಾಂತವಾದ ಮುಖ ಮತ್ತು ಸುಂದರವಾದ ಭಂಗಿಯು ಧೈರ್ಯ, ಘನತೆ ಮತ್ತು ರಾಜಪ್ರಭುತ್ವದ ಹೆಮ್ಮೆಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಹಾವೂ ಕೂಡ ಈಜಿಪ್ಟಿನ ನಂಬಿಕೆಯಲ್ಲಿ ರಾಜಮನೆತನದ ಶಕ್ತಿ ಮತ್ತು ರಕ್ಷಣೆಯ ಸಂಕೇತವಾಗಿದೆ. ಮೃದುವಾದ ಮಾರ್ಬಲ್ ಮೇಲ್ಮೈ ಹಾಗೂ ಆಕೆಯ ಉಡುಪು ಮತ್ತು ಆಭರಣಗಳಲ್ಲಿರುವ ಸೂಕ್ಷ್ಮ ವಿವರಗಳು ಕಲಾವಿದನ ಕೌಶಲ್ಯವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತವೆ.</p>
+            </div>
+        </div>
+        <div class="langCnt" id="malayalam" style="display:none;">
+            <h2 class="cntHdng">Cleopatra – Queen of Egypt</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item5.png" alt="Cleopatra – Queen of Egypt">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ക്ലിയോപാട്ര-ഈജിപ്തിലെ രാജ്ഞി (XLV-151) *
+
+പുരാതന ഈജിപ്തിലെ അവസാന രാജ്ഞിയായ ക്ലിയോപാട്രാ ഏഴാമനെയാണ് ഈ മാർബിൾ ശില്പം കാണിക്കുന്നത്. 1870-1880 കാലഘട്ടത്തിൽ ഇറ്റലിയിലാണ് ഇത് നിർമ്മിക്കപ്പെട്ടത്. ഈ പ്രതിമ അവളുടെ ജീവിതത്തിലെ അവസാന നിമിഷത്തെ ചിത്രീകരിക്കുന്നു. റോമാക്കാരുടെ മുന്നിൽ രാജ്യം അടിയറവു വെക്കുന്നതിനേക്കാൾ മരണം വരിക്കാനാണ് അവൾ ആഗ്രഹിച്ചത്. അവളുടെ ഇടംകൈയിലുള്ള വിഷപ്പാമ്പ് ഈ കഥ പറയുന്നു. ഐതിഹ്യമനുസരിച്ച്, പാമ്പിനെ കൊണ്ട് കടിപ്പിച്ചാണ് അവൾ ജീവനൊടുക്കിയത്. അവളുടെ ശാന്തമായ മുഖവും മനോഹരമായ ഭാവവും, ധൈര്യവും മാന്യതയും രാജകീയ അഭിമാനവും പ്രകടമാക്കുന്നു. ഈജിപ്ഷ്യൻ വിശ്വാസത്തിൽ രാജകീയ അധികാരത്തിന്‍റെ യും സംരക്ഷണത്തിന്‍റെ യും പ്രതീകം കൂടിയാണ് പാമ്പ്. മിനുസമാർന്ന മാർബിൾ പ്രതലവും അവളുടെ വസ്ത്രത്തിലും ആഭരണങ്ങളിലുമുള്ള സൂക്ഷ്മമായ വിശദാംശങ്ങളും ശില്പിയുടെ വൈദഗ്ദ്ധ്യം വ്യക്തമാക്കുന്നു.</p>
+            </div>
+        </div>
+        <div class="langCnt" id="odia" style="display:none;">
+            <h2 class="cntHdng">Cleopatra – Queen of Egypt</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item5.png" alt="Cleopatra – Queen of Egypt">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>କ୍ଲିଓପାଟ୍ରା-ଇଜିପ୍ଟର ରାଣୀ (XLV-151) *
+
+ଆସନ୍ତୁ, ଏହି ଗାମ୍ଭୀର୍ଯ୍ୟପୂର୍ଣ୍ଣ ମାର୍ବଲ ମୂର୍ତ୍ତିଟିକୁ ନିକଟରୁ ଦେଖିବା—ଏ ହେଉଛନ୍ତି ପ୍ରାଚୀନ ଇଜିପ୍ଟର ଶେଷ ରାଣୀ &#39;କ୍ଲିଓପାଟ୍ରା&#39;।
+
+ଏହି ଭାସ୍କର୍ଯ୍ୟଟି ୧୮୭୦ରୁ ୧୮୮୦ ମସିହା ମଧ୍ୟରେ ଇଟାଲୀରେ ନିର୍ମିତ ହୋଇଥିଲା। ଏହି ମୂର୍ତ୍ତିଟି ରାଣୀ କ୍ଲିଓପାଟ୍ରାଙ୍କ ଜୀବନର ଅନ୍ତିମ ମୁହୂର୍ତ୍ତକୁ ଅତ୍ୟନ୍ତ ଆବେଗପୂର୍ଣ୍ଣ ଭାବେ ଉପସ୍ଥାପନ କରୁଛି। ରୋମାନ୍‌ମାନଙ୍କ ନିକଟରେ ନିଜ ସାମ୍ରାଜ୍ୟ ହରାଇବା ପରେ, ସେ ବନ୍ଦୀ ହୋଇ ରହିବା ପରିବର୍ତ୍ତେ ଆତ୍ମସମ୍ମାନ ପାଇଁ ମୃତ୍ୟୁକୁ ବରଣ କରିବାକୁ ଶ୍ରେୟସ୍କର ମଣିଥିଲେ। ଆପଣ ଯଦି ଧ୍ୟାନର ସହ ଦେଖିବେ, ତାଙ୍କ ବାମ ହାତରେ ଥିବା ବିଷାକ୍ତ ସାପଟି ଏହି କରୁଣ କାହାଣୀକୁ ବ୍ୟକ୍ତ କରୁଛି। ପ୍ରବାଦ ଅନୁସାରେ, ସେ ନିଜକୁ ସେହି ସାପ ଦ୍ୱାରା ଦଂଶନ କରାଇ ନିଜ ଜୀବନର ଅନ୍ତ ଘଟାଇଥିଲେ। ତାଙ୍କ ମୁଖମଣ୍ଡଳର ଶାନ୍ତ ଭାବ ଏବଂ ଶାଳୀନ ଭଙ୍ଗୀ ତାଙ୍କ ଅସୀମ ସାହସ, ଗୌରବ ଓ ରାଜକୀୟ ସ୍ୱାଭିମାନକୁ ପ୍ରଦର୍ଶିତ କରୁଛି। ଇଜିପ୍ଟର ବିଶ୍ୱାସ ଅନୁସାରେ ସାପ ରାଜକୀୟ ଶକ୍ତି ଓ ସୁରକ୍ଷାର ମଧ୍ୟ ପ୍ରତୀକ । ସଙ୍ଖମଲମଲ୍ ପଥରର ଏହି ମସୃଣତା, ତାଙ୍କ ପୋଷାକର ସୂକ୍ଷ୍ମ ଭାଙ୍ଗ ଏବଂ ଅଳଙ୍କାରର କାରୁକାର୍ଯ୍ୟ, ଶିଳ୍ପୀଙ୍କ ଅସାଧାରଣ ନିପୁଣତାର ସ୍ପଷ୍ଟ ପରିଚୟ ଦିଏ।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="tamil" style="display:none;">
+            <h2 class="cntHdng">Cleopatra – Queen of Egypt</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item5.png" alt="Cleopatra – Queen of Egypt">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>கிளியோபாட்ரா - எகிப்தின் அரசி (XLV-151) *
+
+இந்தச் சலவைக்கல் சிற்பம் பண்டைய எகிப்தின் கடைசி அரசியான ஏழாம் கிளியோபாட்ராவைக் காட்டுகிறது. இது 1870 முதல் 1880 ஆம் காலகட்டங்களில் இத்தாலியில் உருவாக்கப்பட்டது. இச்சிற்பம் அவரது வாழ்வின் இறுதிக் கணத்தை சித்தரிக்கிறது. ரோமானியர்களிடம் தனது ராஜ்ஜியத்தை இழந்த பிறகு, சிறைப்படுவதை விட மரணத்தையே அவர் தேர்ந்தெடுத்தார். அவரது இடது கையில் உள்ள விஷப் பாம்பு இந்தக் கதையை உணர்த்துகிறது. மரபின்படி, அப்பாம்பைத் தன்னைக் கடிக்க அனுமதிப்பதன் மூலம் அவர் தனது உயிரை மாய்த்துக்கொண்டார். அவரது அமைதியான முகமும் நேர்த்தியான தோரணையும் தைரியம், கண்ணியம் மற்றும் அரச கம்பீரத்தை வெளிப்படுத்துகின்றன. எகிப்திய நம்பிக்கையின்படி, பாம்பு அரச அதிகாரத்தையும் பாதுகாப்பையும் குறிக்கிறது. மென்மையான சலவைக்கல் மேற்பரப்பும், அவரது ஆடை மற்றும் அணிகலன்களில் உள்ள நுணுக்கமான வேலைப்பாடுகளும் கலைஞரின் திறமையை பறைசாற்றுகின்றன.</p>
+            </div>
+        </div>
+
+<div class="navBtnDiv">
+
+    <a href="../item4.html" class="navBtn">← Previous Item</a>
+
+    <a href="../index.html" class="navBtn">
+        Back to Gallery Overview
+    </a>
+
+    <a href="../item6.html" class="navBtn">Next Item →</a>
+
+</div>
+
+</main>
+
+<footer>
+    <p>© 2024 All rights reserved, By
+        <a href="https://anuvadini.aicte-india.org/"
+           target="_blank"
+           rel="noreferrer">
+           Anuvadini AI
+        </a>
+    </p>
+</footer>
+
+<script>
+
+const selector = document.getElementById('languageSelector');
+const audioPlayer = document.getElementById('languageAudio');
+
+const audioMap = {
+  "bengali": "../audios/Bengali/2.%20MARBLE%20GALLERY/5.%20Cleopatra%20%E2%80%93%20Queen%20of%20Egypt%20(XLV%20-%20151).wav",
+  "hindi": "../audios/Hindi/02.%20Audio-MARBLE%20GALLERY/5.%20%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%AA%E0%A5%87%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BE%20%E2%80%93%20%E0%A4%AE%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A5%80%20%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A5%80.wav",
+  "kannada": "../audios/Kannada/2.MARBLE%20GALLERY/Cleopatra%20%E2%80%93%20Queen%20of%20Egypt%20(XLV%20-%20151).wav",
+  "malayalam": "../audios/Malyalam/Marble%20Gallery/Cleopatra.wav",
+  "odia": "../audios/Odia/2.%20MARBLE%20GALLERY.or/5.%20Cleopatra%20%E2%80%93%20Queen%20of%20Egypt%20(XLV%20-%20151).wav",
+  "tamil": "../audios/Tamil/Marble%20Gallery.ta/5.%20Cleopatra%20%E2%80%93%20Queen%20of%20Egypt_TA.wav"
+};
+
+function changeLanguage(language) {
+
+    document.querySelectorAll('.langCnt').forEach(function(el) {
+        el.style.display =
+            el.id === language ? 'block' : 'none';
+    });
+
+    const audioSrc = audioMap[language];
+
+    if (audioPlayer && audioSrc) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+    }
+}
+
+selector.addEventListener('change', function() {
+    changeLanguage(this.value);
+});
+
+changeLanguage(selector.value);
+
+</script>
+
+</body>
+</html>
