@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bronze Gallery - Item 1 | Salar Jung Museum</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #eee;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-height: 460px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .bookCntDiv {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333;
+    }
+    .navBtnDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .navBtn {
+      background-color: #a50309;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .navBtn:hover {
+      background-color: #7a0206;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="../index.html" class="logo logoTwo">
+            <img src="../Images/logo-moc.png" onerror="this.onerror=null; this.src='../Images/logo.png';" alt="Ministry of Culture">
+          </a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn">
+              <img src="../Images/logo-anu.png" alt="Anuvadini">
+            </span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available. Playing default audio.</p>
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: The Last Supper</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: The Last Supper" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">This artwork depicts the Last Supper of Jesus Christ with his twelve disciples before his crucifixion. It captures the dramatic moment after Jesus announces that one of them will betray him, showing varied expressions of shock, grief, and discussion among the disciples. Created in high-relief bronze, the composition emphasizes perspective, human emotion, and refined craftsmanship in European bronze casting.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: చివరి రాత్రి భోజనం (The Last Supper)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: చివరి రాత్రి భోజనం (The Last Supper)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ఈ కాంస్య శిల్పం యేసు క్రీస్తు తన పన్నెండు మంది శిష్యులతో కలసి తీసుకున్న చివరి భోజనాన్ని (ది లాస్ట్ సప్పర్) చిత్రీకరిస్తుంది. క్రీస్తును ద్రోహం చేసే సన్నివేశాన్ని, శిష్యుల మానసిక భావోద్వేగాలను శిల్పి అద్భుతంగా కాంస్య మాధ్యమంలో చెక్కాడు.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: வெண்கலக் கலைக்கூடம் (மேற்குப் பகுதி)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: வெண்கலக் கலைக்கூடம் (மேற்குப் பகுதி)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">இந்தக் கலைப்படைப்பு, இயேசு கிறிஸ்து சிலுவையில் அறையப்படுவதற்கு முன்பு தனது பன்னிரண்டு சீடர்களுடன் உண்ட இறுதி உணவான கடைசி இரவு விருந்தைக் காட்டுகிறது. இந்தக் காட்சி, புகழ்பெற்ற ஓவியர் லியோனார்டோ டா வின்சியின் பிரபல ஓவியத்தை அடிப்படையாகக் கொண்டது. இந்த நேரத்தில், தம்முடைய சீடர்களில் ஒருவர் தம்மைக் காட்டிக்கொடுப்பார் என்று இயேசு கூறுகிறார். இதனால் சீடர்களிடம் ஆச்சரியம், சோகம், கோபம், குழப்பம் போன்ற பல்வேறு உணர்வுகள் ஏற்படுகின்றன. அவை அவர்களின் கை அசைவுகள் மற்றும் முகபாவனைகளில் காணப்படுகின்றன. நடுவில் இயேசு அமைதியாகவும் சாந்தமாகவும் காட்சியளிக்கிறார். அவருடைய இருபுறங்களிலும் சீடர்கள் வரிசைப்படுத்தப்பட்டுள்ளனர். வெண்கல மேற்பரப்பில் உயர்த்தப்பட்ட வடிவங்களும் செதுக்கல்களையும் கொண்டுள்ளதால், முப்பரிமாணத் தோற்றம் உருவாகிறது. இது 20 ஆம் நூற்றாண்டில் இங்கிலாந்தில் உருவாக்கப்பட்டது.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: ब्रॉन्झ गॅलरी (वेस्टर्न ब्लॉक)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: ब्रॉन्झ गॅलरी (वेस्टर्न ब्लॉक)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ही कलाकृती येशू ख्रिस्ताच्या क्रुसावर जाण्यापूर्वीच्या त्यांच्या बारा शिष्यांसोबतच्या अंतिम भोजनाचे (द लास्ट सपर) चित्रण करते. हे दृश्य लिओनार्डो दा विन्सी यांच्या प्रसिद्ध पेंटिंगपासून प्रेरित आहे. या क्षणी, येशू आपल्या शिष्यांना सांगतो की त्यांच्यापैकी एक जण त्याच्याशी विश्वासघात करेल. यामुळे त्यांच्या हावभावांत आणि चेहऱ्यावरील मुद्रेत आश्चर्य, दुःख, राग आणि संभ्रम यांसारख्या वेगवेगळ्या भावनिक प्रतिक्रिया दिसून येतात. मध्यवर्ती आकृती शांत आणि संयमी असलेल्या येशूची आहे, तर शिष्यांना त्यांच्या दोन्ही बाजूंना मांडले आहे. ब्रॉन्जच्या पृष्ठभागावर उठावाचे नक्षीकाम आणि कोरीव काम आहे, ज्यामुळे एक त्रिमितीय प्रभाव निर्माण होतो. हे विसाव्या शतकात इंग्लंडमध्ये बनवले गेले होते.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: ব্রোঞ্জ গ্যালারি (ওয়েস্টার্ন ব্লক)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: ব্রোঞ্জ গ্যালারি (ওয়েস্টার্ন ব্লক)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এই শিল্পকর্মটিতে যিশু খ্রিস্টের ক্রুশবিদ্ধ হওয়ার পূর্বে তাঁর বারো জন শিষ্যের সঙ্গে গৃহীত শেষ নৈশভোজ বা 'লাস্ট সাপার'-এর দৃশ্যটি তুলে ধরা হয়েছে। দৃশ্যটি লিওনার্দো দা ভিঞ্চির বিখ্যাত চিত্রকর্ম দ্বারা অনুপ্রাণিত। এই মুহূর্তে যিশু তাঁর শিষ্যদের জানান যে তাঁদের মধ্যেই একজন তাঁর সঙ্গে বিশ্বাসঘাতকতা করবে। এই বাণী শিষ্যদের মাঝে বিস্ময়, বিষাদ, ক্ষোভ ও বিভ্রান্তির মতো নানা আবেগময় প্রতিক্রিয়ার জন্ম দেয়—যা তাঁদের শারীরিক অভিব্যক্তি ও মুখের ভঙ্গিমায় স্পষ্টভাবে ফুটে উঠেছে। কেন্দ্রীয় অবস্থানে থাকা যিশুর অবয়বটি শান্ত ও প্রশান্ত, এবং তাঁর উভয় পাশে শিষ্যরা বিন্যস্ত রয়েছেন। ব্রোঞ্জের উপরিভাগে খোদাই ও উত্তল কারুকার্য ত্রিমাত্রিক (থ্রি-ডি) আবহ সৃষ্টি করেছে। নিদর্শনটি বিংশ শতাব্দীতে ইংল্যান্ডে নির্মিত। শব্দ-110</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)</h2>
+      <div class="booImgDiv">
+        <img src="../Images/Bronze gallery item-1.png" width="100%" alt="1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)" onerror="this.onerror=null; this.src='../Images/Bronze gallery item-1.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-25</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।</div>
+      </div>
+    </div>
+
+    <div class="navBtnDiv">
+      <a href="../item9.html" class="navBtn">← Previous Item</a>
+      <a href="../index.html" class="navBtn">Back to Gallery Overview</a>
+      <a href="../item2.html" class="navBtn">Next Item →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const selector = document.getElementById('languageSelector');
+    const audioPlayer = document.getElementById('languageAudio');
+    const missingNote = document.getElementById('audioMissingNote');
+    const audioMap = {
+  "hindi": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav",
+  "english": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav",
+  "telugu": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav",
+  "tamil": "../Audio/Tamil/BRONZE%20GALLERY/Last%20Supper%20(LXXI%20-%2025).wav",
+  "marathi": "../Audio/marathi/BRONZE%20GALLERY/Last%20Supper%20(LXXI%20-%2025).wav",
+  "malayalam": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav",
+  "kannada": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav",
+  "odia": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav",
+  "bengali": "../Audio/bengali/11.%20Bronze%20Gallery/Last%20Supper%20(LXXI%20-%2025).wav",
+  "urdu": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav",
+  "gujarati": "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav"
+};
+    const baseAudioSrc = "../Audio/hindi/11.%20Audio-BRONZE%20GALLERY/1.%20%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%BF%E0%A4%AE%20%E0%A4%AD%E0%A5%8B%E0%A4%9C.wav";
+
+    function changeLanguage(lang) {
+      document.querySelectorAll('.langCnt').forEach(el => {
+        el.style.display = (el.id === lang) ? 'block' : 'none';
+      });
+
+      const audioSrc = audioMap[lang] || baseAudioSrc;
+      if (audioPlayer) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.onerror = function() {
+          audioPlayer.onerror = null;
+          audioPlayer.src = baseAudioSrc;
+          audioPlayer.load();
+          if (missingNote) missingNote.style.display = 'block';
+        };
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+        if (missingNote) missingNote.style.display = 'none';
+      }
+    }
+
+    selector.addEventListener('change', function() {
+      changeLanguage(this.value);
+    });
+
+    changeLanguage(selector.value);
+  </script>
+</body>
+</html>

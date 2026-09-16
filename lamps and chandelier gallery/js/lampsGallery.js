@@ -84,6 +84,39 @@
             "tamil/3. Lamps and Chandeliers Gallery/7 -101 Lamp_ta.wav",
             "tamil/3. Lamps and Chandeliers Gallery/8. 3372 Lamp _ta.wav",
             "tamil/3. Lamps and Chandeliers Gallery/9. 122 Chandelier _ ta.wav"
+        ],
+        telugu: [
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_L-74 Candle Stand_Female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_Acc_No_L-78 Lamp_Female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_Telugu_LII-682 Candle Stick Stand_female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_LXVII- 147 Chandelier_Female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_LXXIV-74 Lamp_Female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_LXXIV-83 Lamp_Female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_LXXIV-101 Lamp_Female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_MS- 3372 Lamp_female.wav",
+            "Telugu/3. Lamps & Chandelier Gallery/Telugu_XLV-122 Chandelier_Female.wav"
+        ],
+        urdu: [
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No L-74 Candle Stand.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No  L-78 Lamp.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LII-682 Candle Stick Stand.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXVII- 147 Chandelier.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXXIV-74 Lamp.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXXIV-83 Lamp.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXXIV-101 Lamp.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No MS- 3372 Lamp.wav",
+            "Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No XLV-122 Chandelier.wav"
+        ],
+        marathi: [
+            "Lamps & Chandelier Gallery/Acc. No L-74 Candle Stand.wav",
+            "Lamps & Chandelier Gallery/Acc. No  L-78 Lamp.wav",
+            "Lamps & Chandelier Gallery/Acc. No LII-682 Candle Stick Stand.wav",
+            "Lamps & Chandelier Gallery/Acc. No LXVII- 147 Chandelier.wav",
+            "Lamps & Chandelier Gallery/Acc. No LXXIV-74 Lamp.wav",
+            "Lamps & Chandelier Gallery/Acc. No LXXIV-83 Lamp.wav",
+            null,
+            "Lamps & Chandelier Gallery/Acc. No MS- 3372 Lamp.wav",
+            "Lamps & Chandelier Gallery/Acc. No XLV-122 Chandelier.wav"
         ]
     };
 

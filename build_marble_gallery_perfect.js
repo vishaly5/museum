@@ -23,14 +23,18 @@ if (!marbleContent) {
     throw new Error('window.marbleContent was not found in content.js');
 }
 
-// Only the six approved Marble Gallery languages
+// Marble Gallery languages
 const languages = [
     { id: 'bengali', label: 'বাংলা (Bengali)' },
     { id: 'hindi', label: 'हिन्दी (Hindi)' },
     { id: 'kannada', label: 'ಕನ್ನಡ (Kannada)' },
     { id: 'malayalam', label: 'മലയാളം (Malayalam)' },
     { id: 'odia', label: 'ଓଡ଼ିଆ (Odia)' },
-    { id: 'tamil', label: 'தமிழ் (Tamil)' }
+    { id: 'tamil', label: 'தமிழ் (Tamil)' },
+    { id: 'telugu', label: 'తెలుగు (Telugu)' },
+    { id: 'urdu', label: 'اردو (Urdu)' },
+    { id: 'marathi', label: 'मराठी (Marathi)' },
+    { id: 'gujarati', label: 'ગુજરાતી (Gujarati)' }
 ];
 
 const items = [
@@ -43,7 +47,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Leda and the Swan (XLV - 17).wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Leda and the Swan.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/1. Leda and the Swan (XLV - 17).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/1. Leda and the Swan _ TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/1. Leda and the Swan _ TA.wav',
+            telugu: 'audios/Telugu/Telugu_Leda and the Swan_Female.wav',
+            urdu: 'audios/Urdu/1. Leda and the Swan (XLV - 17).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Leda and the Swan (XLV - 17).wav',
+            gujarati: 'audios/Gujarati/Leda and the Swan (XLV - 17).wav'
         }
     },
     {
@@ -55,7 +63,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Pillar Shaped as Female (Greek Mythological Figure) (AK - 22) .wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Pillar Shaped as Female.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/2.Pillar Shaped as Female (AK - 22).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/2.Pillar Shaped as Female_TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/2.Pillar Shaped as Female_TA.wav',
+            telugu: 'audios/Telugu/Telugu_Pillar Shaped as Female_Female voice.wav',
+            urdu: 'audios/Urdu/2.Pillar Shaped as Female (Greek Mythological Figure) (AK - 22).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Pillar Shaped as Female (Greek Mythological Figure) (AK - 22).wav',
+            gujarati: 'audios/Gujarati/2.Pillar Shaped as Female (Greek Mythological Figure) (AK - 22).wav'
         }
     },
     {
@@ -67,7 +79,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/L. AUTOMME (AK - 24).wav',
             malayalam: 'audios/Malyalam/Marble Gallery/L. AUTOMME.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/3. L. AUTOMME (AK - 24).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/3. L. AUTOMME _ TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/3. L. AUTOMME _ TA.wav',
+            telugu: 'audios/Telugu/Telugu_L. AUTOMME_Female.wav',
+            urdu: 'audios/Urdu/3. L. AUTOMME (AK - 24).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/L. AUTOMME (AK - 24).wav',
+            gujarati: 'audios/Gujarati/L. AUTOMME (AK - 24).wav'
         }
     },
     {
@@ -79,7 +95,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Venus and Mars (XLV - 161) (War and Peace).wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Venus and Mars.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/4. Venus and Mars (XLV - 161).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/4. Venus and Mars _TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/4. Venus and Mars _TA.wav',
+            telugu: 'audios/Telugu/Telugu_Venus and Mars_Female.wav',
+            urdu: 'audios/Urdu/4. Venus and Mars (XLV - 161) (War and Peace).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Venus and Mars (XLV - 161) (War and Peace).wav',
+            gujarati: 'audios/Gujarati/Venus and Mars (XLV - 161) (War and Peace).wav'
         }
     },
     {
@@ -91,7 +111,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Cleopatra – Queen of Egypt (XLV - 151).wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Cleopatra.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/5. Cleopatra – Queen of Egypt (XLV - 151).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/5. Cleopatra – Queen of Egypt_TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/5. Cleopatra – Queen of Egypt_TA.wav',
+            telugu: 'audios/Telugu/Telugu_Cleopatra – Queen of Egypt_Female.wav',
+            urdu: 'audios/Urdu/5. Cleopatra – Queen of Egypt (XLV - 151).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Cleopatra – Queen of Egypt (XLV - 151).wav',
+            gujarati: 'audios/Gujarati/Cleopatra – Queen of Egypt (XLV - 151).wav'
         }
     },
     {
@@ -103,7 +127,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Apollo and Daphne (XLV - 133) .wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Apollo and Daphne.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/6. Apollo and Daphne (XLV - 133).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/6. Apollo and Daphne _ TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/6. Apollo and Daphne _ TA.wav',
+            telugu: 'audios/Telugu/Telugu_Apollo and Daphne_Female.wav',
+            urdu: 'audios/Urdu/6. Apollo and Daphne (XLV - 133).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Apollo and Daphne (XLV - 133).wav',
+            gujarati: 'audios/Gujarati/Apollo and Daphne (XLV - 133).wav'
         }
     },
     {
@@ -115,7 +143,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Cynthia (MS - 3068).wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Cynthia.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/7.  Cynthia (MS - 3068).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/7.  Cynthia _TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/7.  Cynthia _TA.wav',
+            telugu: 'audios/Telugu/Telugu_Cynthia_Female.wav',
+            urdu: 'audios/Urdu/7.  Cynthia (MS - 3068).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Cynthia (MS - 3068).wav',
+            gujarati: 'audios/Gujarati/Cynthia (MS - 3068).wav'
         }
     },
     {
@@ -127,7 +159,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Bust of a young lady (XLV - 166).wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Bust of a young lady.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/8. Bust of a young lady (XLV - 166).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/8. Bust of a young lady _ TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/8. Bust of a young lady _ TA.wav',
+            telugu: 'audios/Telugu/Telugu_Bust of a young lady_Female.wav',
+            urdu: 'audios/Urdu/8. Bust of a young lady (XLV - 166).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Bust of a young lady (XLV - 166).wav',
+            gujarati: 'audios/Gujarati/Bust of a young lady (XLV - 166).wav'
         }
     },
     {
@@ -139,7 +175,11 @@ const items = [
             kannada: 'audios/Kannada/2.MARBLE GALLERY/Egyptian Priestess (Allegorical Figure) (XLV - 18).wav',
             malayalam: 'audios/Malyalam/Marble Gallery/Egyptian Priestess.wav',
             odia: 'audios/Odia/2. MARBLE GALLERY.or/9. Egyptian Priestess (XLV - 18).wav',
-            tamil: 'audios/Tamil/Marble Gallery.ta/9. Egyptian Priestess  _ TA.wav'
+            tamil: 'audios/Tamil/Marble Gallery.ta/9. Egyptian Priestess  _ TA.wav',
+            telugu: 'audios/Telugu/Telugu_Egyptian Priestess (Allegorical Figure)_female.wav',
+            urdu: 'audios/Urdu/9. Egyptian Priestess (Allegorical Figure) (XLV - 18).wav',
+            marathi: 'audios/Marathi/MARBLE GALLERY/Egyptian Priestess (Allegorical Figure) (XLV - 18).wav',
+            gujarati: 'audios/Gujarati/Egyptian Priestess (Allegorical Figure) (XLV - 18).wav'
         }
     }
 ];
@@ -191,7 +231,7 @@ function generatePage(index, relPath) {
         audioMap[lang.id] = audio;
 
         languageSections += `
-        <div class="langCnt" id="${lang.id}" style="display:${lang.id === 'hindi' ? 'block' : 'none'};">
+        <div class="langCnt" id="${lang.id}" dir="${lang.id === 'urdu' ? 'rtl' : 'ltr'}" style="display:${lang.id === 'hindi' ? 'block' : 'none'};">
             <h2 class="cntHdng">${esc(item.title)}</h2>
 
             <div class="booImgDiv">
@@ -211,6 +251,8 @@ function generatePage(index, relPath) {
         audioMap.malayalam ||
         audioMap.odia ||
         audioMap.tamil ||
+        audioMap.telugu ||
+        audioMap.urdu ||
         '';
 
     const languageOptions = languages.map(lang =>
@@ -278,6 +320,11 @@ function generatePage(index, relPath) {
     font-size: 16px;
     line-height: 1.8;
     color: #333;
+}
+
+.langCnt[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
 }
 
 .navBtnDiv {
