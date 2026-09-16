@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Marble Gallery - Item 8 | Salar Jung Museum</title>
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+
+<style>
+.audioPlayerDiv {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.bookContentDiv {
+    max-width: 900px;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.cntHdng {
+    font-size: 26px;
+    font-weight: 700;
+    color: #a50309;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+.booImgDiv {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.booImgDiv img {
+    max-height: 460px;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.bookCntDiv {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.navBtnDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.navBtn {
+    background: #a50309;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navBtn:hover {
+    background: #7a0206;
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sliderHeaderDiv">
+    <div class="container">
+        <header>
+
+            <div class="logoLft">
+                <a href="../index.html" class="logo logoTwo">
+                    <img src="../images/logo-moc.png"
+                         onerror="this.onerror=null;this.src='../images/logo.png';"
+                         alt="Ministry of Culture">
+                </a>
+            </div>
+
+            <div class="logoRgt">
+                <div class="langDiv">
+
+                    <span class="anuIcn">
+                        <img src="../images/logo-anu.png"
+                             alt="Anuvadini">
+                    </span>
+
+                    <select class="form formLang"
+                            id="languageSelector"
+                            aria-label="Select language">
+                        <option value="bengali">বাংলা (Bengali)</option>
+<option value="hindi" selected>हिन्दी (Hindi)</option>
+<option value="kannada">ಕನ್ನಡ (Kannada)</option>
+<option value="malayalam">മലയാളം (Malayalam)</option>
+<option value="odia">ଓଡ଼ିଆ (Odia)</option>
+<option value="tamil">தமிழ் (Tamil)</option>
+                    </select>
+
+                </div>
+            </div>
+
+        </header>
+    </div>
+</div>
+
+<main>
+
+<div class="audioPlayerDiv">
+    <div style="background:#2e2e2e;color:#fff;padding:15px 20px;border-radius:10px;">
+        <p style="margin:0 0 8px;font-size:14px;">
+            Audio Explanation
+        </p>
+
+        <audio id="languageAudio"
+               controls
+               preload="metadata"
+               style="width:100%;"
+               src="../audios/Hindi/02.%20Audio-MARBLE%20GALLERY/8.%20%E0%A4%8F%E0%A4%95%20%E0%A4%AF%E0%A5%81%E0%A4%B5%E0%A4%A4%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav">
+        </audio>
+    </div>
+</div>
+
+
+        <div class="langCnt" id="bengali" style="display:none;">
+            <h2 class="cntHdng">Bust of a young lady</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item8.png" alt="Bust of a young lady">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>এক তরুণীর আবক্ষ মূর্তি (XLV - 166) *
+
+মার্বেল পাথরে খোদাই করা এই ভাস্কর্যটিতে এক তরুণীর আবক্ষ রূপ ফুটে উঠেছে; তিনি কুঁচি দেওয়া টুপি এবং চমৎকার কারুকাজ করা পোশাক পরিহিত। তাঁর মুখে দুটি ছোট বেরি ধরা রয়েছে, যা তাঁকে এক চঞ্চল ও প্রফুল্ল রূপ দিয়েছে। তাঁর মুখমণ্ডল সামান্য ওপরের দিকে তাক করা এবং তাঁকে সুখী ও নিশ্চিন্ত দেখাচ্ছে। টুপির ঢেউ খেলানো প্রান্তটি আলতোভাবে তাঁর মুখের চারপাশে নেমে এসেছে, যা তাঁর রূপে এক ধরণের কমনীয়তা ও সজীবতা যোগ করেছে। শিল্পী অত্যন্ত নিপুণভাবে পোশাকের লেসের কলার, ফোলা হাতা এবং নিচের অংশের ফুলগুলো খোদাই করেছেন। মসৃণ মার্বেল পাথরের কারণে তাঁর ত্বককে কোমল ও স্বাভাবিক মনে হয়। বেরিগুলো সম্ভবত যৌবন, মাধুর্য এবং জীবনের আনন্দ উপভোগের প্রতীক। আর ফুলগুলো সজীবতা ও নারীত্বের প্রতিনিধিত্ব করে। এই ভাস্কর্যটি অত্যন্ত তাৎপর্যপূর্ণ, কারণ এটি সৌন্দর্য এবং জীবনের সাধারণ আনন্দঘন মুহূর্তগুলোর প্রতি শিল্পীর আগ্রহকে তুলে ধরে।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="hindi" style="display:block;">
+            <h2 class="cntHdng">Bust of a young lady</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item8.png" alt="Bust of a young lady">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>एक युवती की अर्धप्रतिमा (XLV - 166) *
+
+यह संगमरमर की मूर्ति एक युवती की अर्धप्रतिमा है, जिसमें वह झालरदार टोपी और सुंदर ढंग से अलंकृत पोशाक पहने हुए दिखाई गई है। उसने अपने मुँह में दो छोटी बेरी (छोटे फल) पकड़ रखी हैं, जिससे उसके चेहरे पर चंचलता और प्रसन्नता का भाव उभरता है। उसका चेहरा थोड़ा ऊपर उठा हुआ है और वह खुश तथा बेफिक्र दिखाई देती है। उसकी टोपी का लहरदार किनारा उसके चेहरे के चारों ओर कोमलता से गिरता हुआ दिखाई देता है, जो आकृति में सौंदर्य और गति का भाव जोड़ता है। कलाकार ने फीते के कॉलर, फूली हुई बाँहों और पोशाक के निचले भाग में बने फूलों को अत्यंत बारीकी से उकेरा है। चिकने संगमरमर की सतह युवती की त्वचा को कोमल और स्वाभाविक रूप प्रदान करती है। बेरी (फल) यौवन, मधुरता और जीवन का आनंद लेने का प्रतीक मानी जा सकती हैं। फूल ताजगी और स्त्रीत्व का प्रतिनिधित्व करते हैं। यह मूर्ति इसलिए महत्वपूर्ण है क्योंकि इसमें सौंदर्य के प्रति आकर्षण और जीवन के सरल, आनंदपूर्ण क्षणों को अभिव्यक्त करने की रुचि दिखाई देती है।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="kannada" style="display:none;">
+            <h2 class="cntHdng">Bust of a young lady</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item8.png" alt="Bust of a young lady">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ಯುವತಿಯ ಅರ್ಧಕಾಯದ ಪ್ರತಿಮೆ (XLV-166) *
+
+ಈ ಮಾರ್ಬಲ್ (ಅಮೃತಶಿಲೆ) ಶಿಲ್ಪ ಕಲಾಕೃತಿಯು ಅಲೆಅಲೆಯಾದ ಅಥವಾ ಮಡಿಕೆಗಳಿರುವ ಅಂಚಿನ ಟೋಪಿ (frilly cap) ಮತ್ತು ಸುಂದರವಾಗಿ ಅಲಂಕರಿಸಿದ ಉಡುಪನ್ನು ಧರಿಸಿರುವ ಯುವತಿಯ ಅರ್ಧಕಾಯದ ಶಿಲ್ಪ ಕಲಾಕೃತಿಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಆಕೆಯು ತನ್ನ ಬಾಯಿಯಲ್ಲಿ ಎರಡು ಸಣ್ಣ ಹಣ್ಣುಗಳನ್ನು (berries) ಹಿಡಿದುಕೊಂಡಿದ್ದು, ಇದು ಆಕೆಗೆ ಶೃಂಗಾರಮಯ/ಚೇಷ್ಟೆಯ ಮತ್ತು ಹರ್ಷಚಿತ್ತದಿಂದ ಕೂಡಿದ ನೋಟವನ್ನು ನೀಡುತ್ತದೆ. ಆಕೆಯ ಮುಖವು ಸ್ವಲ್ಪ ಎತ್ತಲ್ಪಟ್ಟಿದ್ದು, ಆಕೆಯು ಸಂತೋಷದಿಂದ ಮತ್ತು ಚಿಂತಾರಹಿತಳಾಗಿರುವಂತೆ ಕಾಣಿಸುತ್ತಾಳೆ. ಆಕೆಯ ಟೋಪಿಯ ಅಲೆಯಂತಹ ಅಂಚು ಆಕೆಯ ಮುಖದ ಸುತ್ತಲೂ ಮೃದುವಾಗಿ ಬಿದ್ದು, ಸೌಂದರ್ಯ ಮತ್ತು ರೋಮಾಂಚಕತೆಯ ಕ್ಷಣವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಕಲಾವಿದನು ಲೇಸ್ ಕಾಲರ್, ಉಬ್ಬಿದ ತೋಳುಗಳು ಮತ್ತು ಕೆಳಗಿನ ಹೂವುಗಳನ್ನು ಅತ್ಯಂತ ಜಾಗರೂಕತೆಯಿಂದ ಕೆತ್ತಿದ್ದಾನೆ. ಮೃದುವಾದ ಮಾರ್ಬಲ್ ಆಕೆಯ ಚರ್ಮವನ್ನು ಮೃದುವಾಗಿ ಮತ್ತು ನೈಸರ್ಗಿಕವಾಗಿ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ. ಆ ಬೆರ್ರಿ ಹಣ್ಣುಗಳು ಯೌವನ, ಸಿಹಿ ಮತ್ತು ಜೀವನದ ಆನಂದವನ್ನು ಸಂಕೇತಿಸಬಹುದು. ಹೂವುಗಳು ತಾಜಾತನ ಮತ್ತು ಸ್ತ್ರೀಯತ್ವವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತವೆ. ಸೌಂದರ್ಯ ಮತ್ತು ಸರಳವಾದ ಆನಂದದ ಕ್ಷಣಗಳಲ್ಲಿನ ಆಸಕ್ತಿಯನ್ನು ತೋರಿಸುವುದರಿಂದ ಈ ಶಿಲ್ಪ ಕಲಾಕೃತಿಯು ಪ್ರಮುಖವಾಗಿದೆ.</p>
+            </div>
+        </div>
+        <div class="langCnt" id="malayalam" style="display:none;">
+            <h2 class="cntHdng">Bust of a young lady</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item8.png" alt="Bust of a young lady">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ഒരു യുവതിയുടെ മാറു വരെയുള്ള പ്രതിമ (XLV-166) *
+
+ഈ മാർബിൾ ശില്പം, മടക്കുകളുള്ള തൊപ്പിയും മനോഹരമായി അലങ്കരിച്ച വസ്ത്രവും ധരിച്ചിരിക്കുന്ന ഒരു യുവതിയുടെ മാറിടം വരെയുള്ള രൂപം കാണിക്കുന്നു. അവൾ രണ്ട് ചെറിയ ബെറികൾ വായയിൽ കടിച്ചു പിടിച്ചിരിക്കുന്നു, ഇത് അവൾക്ക് സന്തോഷവും ഉല്ലാസകരവുമായ ഒരു ഭാവം നൽകുന്നു. അവളുടെ മുഖം ചെറുതായി ഉയർത്തിപ്പിടിച്ചിരിക്കുന്നു, ഒപ്പം അവൾ സന്തോഷവതിയും ആകുലതകളൊന്നുമില്ലാത്തവളുമാണെന്ന് കാണപ്പെടുന്നു. അവളുടെ തൊപ്പിയുടെ മടക്കുകളുള്ള അരിക് മുഖത്തിന് ചുറ്റും മൃദുവായി വീണ് കിടക്കുന്നത് ചാരുതയും ചലനാത്മകതയും നൽകുന്നു. ലെയ്സ് കോളർ, പഫ് ചെയ്ത കൈകൾ, അടിഭാഗത്തെ പൂക്കൾ എന്നിവ കലാകാരൻ വളരെ സൂക്ഷ്മമായി കൊത്തിയെടുത്തിരിക്കുന്നു. മിനുസമാർന്ന മാർബിൾ അവളുടെ ചർമ്മത്തിന് മൃദുവായതും സ്വാഭാവികവുമായ രൂപം നൽകുന്നു. ഈ ബെറികൾ യൗവനം, മാധുര്യം, ജീവിതത്തോടുള്ള ആനന്ദം എന്നിവയെ പ്രതീകപ്പെടുത്താം. പൂക്കൾ പുതുമയെയും സ്ത്രീത്വത്തെയും പ്രതിനിധീകരിക്കുന്നു. സൗന്ദര്യത്തിലും ലളിതമായ സന്തോഷനിമിഷങ്ങളിലുമുള്ള താല്പര്യം ഇത് കാണിക്കുന്നതിനാൽ ഈ ശില്പം വളരെ പ്രധാനപ്പെട്ടതാണ്.</p>
+            </div>
+        </div>
+        <div class="langCnt" id="odia" style="display:none;">
+            <h2 class="cntHdng">Bust of a young lady</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item8.png" alt="Bust of a young lady">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ଜଣେ ତରୁଣୀଙ୍କ ଆବକ୍ଷ ପ୍ରତିମୂର୍ତ୍ତି (XLV-166) *
+
+ଆସନ୍ତୁ, ଏହି ମନୋରମ ଶଙ୍ଖମଲମଲ୍ ମୂର୍ତ୍ତିଟିକୁ ନିକଟରୁ ଦେଖିବା—ଏହା ହେଉଛି ଜଣେ &#39;ତରୁଣୀଙ୍କ ବକ୍ଷର ପ୍ରତିମା&#39;।
+
+ଏହି ଭାସ୍କର୍ଯ୍ୟରେ ଜଣେ ତରୁଣୀ ଝାଲରଯୁକ୍ତ ଟୋପି ଏବଂ ସୁସଜ୍ଜିତ ପୋଷାକ ପରିଧାନ କରିଥିବାର ଦେଖାଯାଉଛନ୍ତି। ସେ ତାଙ୍କ ଓଠରେ ଦୁଇଟି ଛୋଟ କୋଳି ଧରିଛନ୍ତି, ଯାହା ତାଙ୍କୁ ଏକ ଚଞ୍ଚଳ ଓ ଦୁଷ୍ଟାମିଭରା ଆନନ୍ଦମୟୀ ରୂପ ଦେଉଛି। ତାଙ୍କ ମୁଖମଣ୍ଡଳ ସାମାନ୍ୟ ଉପରକୁ ଉଠିଛି ଏବଂ ସେ ଅତ୍ୟନ୍ତ ହସଖୁସିଭରା ଓ ଚିନ୍ତାମୁକ୍ତ ଦେଖାଯାଉଛନ୍ତି। ତାଙ୍କ ଟୋପିର ତରଙ୍ଗାୟିତ ଧାରଟି ମୁହଁ ଚାରିପାଖରେ କୋମଳ ଭାବେ ଝୁଲି ରହି ଏକ ସୁନ୍ଦର ଗତିଶୀଳତା ଆଣିଦେଉଛି। ଶିଳ୍ପୀ ଅତ୍ୟନ୍ତ ନିପୁଣତାର ସହ ଏହାର ଲେସ୍, ଫୁଲା ଫୁଲା ହାତ ଏବଂ ମୂର୍ତ୍ତିର ତଳ ଭାଗରେ ଥିବା ଫୁଲଗୁଡ଼ିକୁ ଉତ୍କିର୍ଣ୍ଣ କରିଛନ୍ତି। ଶଙ୍ଖମଲମଲ୍ ପଥରର ମସୃଣତା ତାଙ୍କ ତ୍ୱଚାକୁ ଅତ୍ୟନ୍ତ ଜୀବନ୍ତ ଓ କୋମଳ ରୂପ ଦେଉଛି। ଏହି କୋଳି ଦୁଇଟି ତାରୁଣ୍ୟ, ମାଧୁର୍ଯ୍ୟ ଏବଂ ଜୀବନର ଉପଭୋଗର ପ୍ରତୀକ ଅଟେ। ସେହିପରି ଫୁଲଗୁଡ଼ିକ ସାଜସଜ୍ଜା ଏବଂ ନାରୀତ୍ୱକୁ ସୂଚାଉଛି। ସୌନ୍ଦର୍ଯ୍ୟ ଏବଂ ଜୀବନର ସରଳ, ଆନନ୍ଦଦାୟକ ମୁହୂର୍ତ୍ତଗୁଡ଼ିକୁ ଅତି ସୁନ୍ଦର ଭାବେ ଉପସ୍ଥାପିତ କରୁଥିବାରୁ ଏହି ମୂର୍ତ୍ତିଟି ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="tamil" style="display:none;">
+            <h2 class="cntHdng">Bust of a young lady</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item8.png" alt="Bust of a young lady">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ஒரு இளம் பெண்ணின் மார்பளவு சிலை (XLV-166) *
+
+இந்த பளிங்குச் சிற்பம், அலங்கார வேலைப்பாடுகள் கொண்ட தொப்பியையும் அழகாக அலங்கரிக்கப்பட்ட உடையையும் அணிந்த ஒரு இளம் பெண்ணின் மார்பளவுச் சிலையைக் காட்டுகிறது. அவள் தன் வாயில் இரண்டு சிறிய பெர்ரிப் பழங்களை வைத்திருக்கிறாள், இது அவளுக்கு ஒரு விளையாட்டுத்தனமான மற்றும் மகிழ்ச்சியான தோற்றத்தை அளிக்கிறது. அவளது முகம் சற்றே உயர்ந்துள்ளது, மேலும் அவளது முகபாவம் மகிழ்ச்சியாகவும் கவலையற்றவளாகவும் காட்டுகிறது. அவளது தொப்பியின் அலைபோன்ற விளிம்பு அவளது முகத்தைச் சுற்றி மென்மையாக விழுந்து, அழகையும் அசைவையும் சேர்க்கிறது. சரிகை அலங்காரமுடைய கழுத்துப்பகுதி, புடைத்த தோள்பகுதிகளைக் கொண்ட கைகள் மற்றும் ஆடையின் கீழ்ப்பகுதியில் இடம்பெற்றுள்ள மலர் அலங்காரங்கள் ஆகியவற்றைச் சிற்பி மிகுந்த நுணுக்கத்துடன் செதுக்கியுள்ளார். வழவழப்பான பளிங்குப் பரப்பு, அவரது சருமத்தின் மென்மையையும் இயற்கையான தோற்றத்தையும் சிறப்பாக வெளிப்படுத்துகிறது. பழங்கள் இளமை, இனிமை மற்றும் வாழ்க்கையின் இன்பத்தைக் குறிக்கலாம். பூக்கள் புத்துணர்ச்சியையும் பெண்மையையும் குறிக்கின்றன. அழகுணர்வையும், எளிமையான மகிழ்ச்சியான வாழ்க்கைத் தருணங்களையும் வெளிப்படுத்துவதில் இச்சிற்பம் சிறப்புமிக்கதாக விளங்குகிறது</p>
+            </div>
+        </div>
+
+<div class="navBtnDiv">
+
+    <a href="../item7.html" class="navBtn">← Previous Item</a>
+
+    <a href="../index.html" class="navBtn">
+        Back to Gallery Overview
+    </a>
+
+    <a href="../item9.html" class="navBtn">Next Item →</a>
+
+</div>
+
+</main>
+
+<footer>
+    <p>© 2024 All rights reserved, By
+        <a href="https://anuvadini.aicte-india.org/"
+           target="_blank"
+           rel="noreferrer">
+           Anuvadini AI
+        </a>
+    </p>
+</footer>
+
+<script>
+
+const selector = document.getElementById('languageSelector');
+const audioPlayer = document.getElementById('languageAudio');
+
+const audioMap = {
+  "bengali": "../audios/Bengali/2.%20MARBLE%20GALLERY/8.%20Bust%20of%20a%20young%20lady%20(XLV%20-%20166)_.wav",
+  "hindi": "../audios/Hindi/02.%20Audio-MARBLE%20GALLERY/8.%20%E0%A4%8F%E0%A4%95%20%E0%A4%AF%E0%A5%81%E0%A4%B5%E0%A4%A4%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav",
+  "kannada": "../audios/Kannada/2.MARBLE%20GALLERY/Bust%20of%20a%20young%20lady%20(XLV%20-%20166).wav",
+  "malayalam": "../audios/Malyalam/Marble%20Gallery/Bust%20of%20a%20young%20lady.wav",
+  "odia": "../audios/Odia/2.%20MARBLE%20GALLERY.or/8.%20Bust%20of%20a%20young%20lady%20(XLV%20-%20166).wav",
+  "tamil": "../audios/Tamil/Marble%20Gallery.ta/8.%20Bust%20of%20a%20young%20lady%20_%20TA.wav"
+};
+
+function changeLanguage(language) {
+
+    document.querySelectorAll('.langCnt').forEach(function(el) {
+        el.style.display =
+            el.id === language ? 'block' : 'none';
+    });
+
+    const audioSrc = audioMap[language];
+
+    if (audioPlayer && audioSrc) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+    }
+}
+
+selector.addEventListener('change', function() {
+    changeLanguage(this.value);
+});
+
+changeLanguage(selector.value);
+
+</script>
+
+</body>
+</html>

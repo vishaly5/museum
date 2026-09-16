@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Marble Gallery - Item 9 | Salar Jung Museum</title>
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+
+<style>
+.audioPlayerDiv {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.bookContentDiv {
+    max-width: 900px;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.cntHdng {
+    font-size: 26px;
+    font-weight: 700;
+    color: #a50309;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+.booImgDiv {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.booImgDiv img {
+    max-height: 460px;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.bookCntDiv {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.navBtnDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.navBtn {
+    background: #a50309;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navBtn:hover {
+    background: #7a0206;
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sliderHeaderDiv">
+    <div class="container">
+        <header>
+
+            <div class="logoLft">
+                <a href="../index.html" class="logo logoTwo">
+                    <img src="../images/logo-moc.png"
+                         onerror="this.onerror=null;this.src='../images/logo.png';"
+                         alt="Ministry of Culture">
+                </a>
+            </div>
+
+            <div class="logoRgt">
+                <div class="langDiv">
+
+                    <span class="anuIcn">
+                        <img src="../images/logo-anu.png"
+                             alt="Anuvadini">
+                    </span>
+
+                    <select class="form formLang"
+                            id="languageSelector"
+                            aria-label="Select language">
+                        <option value="bengali">বাংলা (Bengali)</option>
+<option value="hindi" selected>हिन्दी (Hindi)</option>
+<option value="kannada">ಕನ್ನಡ (Kannada)</option>
+<option value="malayalam">മലയാളം (Malayalam)</option>
+<option value="odia">ଓଡ଼ିଆ (Odia)</option>
+<option value="tamil">தமிழ் (Tamil)</option>
+                    </select>
+
+                </div>
+            </div>
+
+        </header>
+    </div>
+</div>
+
+<main>
+
+<div class="audioPlayerDiv">
+    <div style="background:#2e2e2e;color:#fff;padding:15px 20px;border-radius:10px;">
+        <p style="margin:0 0 8px;font-size:14px;">
+            Audio Explanation
+        </p>
+
+        <audio id="languageAudio"
+               controls
+               preload="metadata"
+               style="width:100%;"
+               src="../audios/Hindi/02.%20Audio-MARBLE%20GALLERY/9.%20%E0%A4%AE%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A4%AA%E0%A5%81%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%A8%20(%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%95%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%95%20%E0%A4%86%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF).wav">
+        </audio>
+    </div>
+</div>
+
+
+        <div class="langCnt" id="bengali" style="display:none;">
+            <h2 class="cntHdng">Egyptian Priestess (Allegorical Figure)</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item9.png" alt="Egyptian Priestess (Allegorical Figure)">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>মিশরীয় পুরোহিত (রূপক চিত্র) (XLV - 18) *
+
+মার্বেল পাথরের তৈরি এই ভাস্কর্যটিতে একজন নারীকে মিশরীয় পুরোহিত-নারীর রূপে ফুটিয়ে তোলা হয়েছে। তিনি শান্তভাবে দাঁড়িয়ে আছেন এবং তাঁর হাত দুটি ওপরের দিকে তোলা। এই ভঙ্গিটি ইঙ্গিত দেয় যে তিনি হয়তো প্রার্থনা করছেন কিংবা দেবতাদের উদ্দেশ্যে কোনো কিছু নিবেদন করছেন। তাঁর শান্ত মুখাবয়বে ভক্তি ও শ্রদ্ধার ভাব ফুটে উঠেছে। তাঁর গলায় রয়েছে একটি দ্বৈত হার, যার সাথে যুক্ত আছে ডানাযুক্ত মিশরীয় মস্তক-আকৃতির একটি লকেট। মিশরীয় বিশ্বাস অনুযায়ী, এই প্রতীকটি সুরক্ষা, ঐশ্বরিক শক্তি এবং আধ্যাত্মিকতার প্রতিনিধিত্ব করে। ভাস্কর্যটির মসৃণ গড়ন, সুষম ভঙ্গি এবং মার্বেল পাথরের নিখুঁত কাজ—সবকিছুই গ্রিক ও রোমান ভাস্কর্য-শৈলী দ্বারা অনুপ্রাণিত ইউরোপীয় ধ্রুপদী শিল্পরীতির অনুসারী। ঊনবিংশ শতাব্দীতে ইউরোপীয় শিল্পকলায় প্রাচীন মিশরের প্রভাব কীভাবে পড়েছিল, এই ভাস্কর্যটি তার একটি চমৎকার উদাহরণ।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="hindi" style="display:block;">
+            <h2 class="cntHdng">Egyptian Priestess (Allegorical Figure)</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item9.png" alt="Egyptian Priestess (Allegorical Figure)">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>मिस्री पुजारिन (रूपकात्मक आकृति) (XLV - 18) *
+
+यह संगमरमर की प्रतिमा एक ऐसी महिला को दर्शाती है, जिसकी कल्पना एक मिस्री पुजारिन के रूप में की गई है। वह शांत भाव से खड़ी है और उसके दोनों हाथ ऊपर उठे हुए हैं। यह मुद्रा संकेत देती है कि वह संभवतः प्रार्थना कर रही है या देवताओं को कोई अर्पण प्रस्तुत कर रही है। उसके चेहरे पर शांति और गंभीरता दिखाई देती है, जो उसकी भक्ति और श्रद्धा को दर्शाती है। उसने दोहरी माला पहन रखी है, जिसके मध्य में पंखों वाले मिस्री मुख का लटकन है। मिस्री मान्यताओं में यह प्रतीक सुरक्षा, दैवी शक्ति और आध्यात्मिकता का प्रतिनिधित्व करता है। प्रतिमा का सुडौल शरीर, संतुलित मुद्रा और संगमरमर की बारीक एवं चिकनी सतह यूरोपीय शास्त्रीय कला की शैली को दर्शाती है, जो यूनानी और रोमन मूर्तिकला से प्रेरित थी। यह प्रतिमा इस बात का उत्कृष्ट उदाहरण है कि 19वीं शताब्दी में प्राचीन मिस्र की कला और संस्कृति ने यूरोपीय कला को किस प्रकार प्रभावित किया।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="kannada" style="display:none;">
+            <h2 class="cntHdng">Egyptian Priestess (Allegorical Figure)</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item9.png" alt="Egyptian Priestess (Allegorical Figure)">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ಈಜಿಪ್ಟಿನ ಪುರೋಹಿತೆ (ಸಾಂಕೇತಿಕ ಚಿತ್ರ) (XLV-18) *
+
+ಈ ಮಾರ್ಬಲ್ (ಅಮೃತಶಿಲೆ) ಶಿಲ್ಪ ಕಲಾಕೃತಿಯು ಈಜಿಪ್ಟಿನ ಪೂಜಾರಿಣಿ ಎಂದು ಕಲ್ಪಿಸಲಾದ ಮಹಿಳೆಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಆಕೆಯು ತನ್ನ ಕೈಗಳನ್ನು ಎತ್ತಿ ಪ್ರಶಾಂತವಾಗಿ ನಿಂತಿದ್ದಾಳೆ. ಈ ಭಂಗಿಯು ಆಕೆಯು ಪ್ರಾರ್ಥಿಸುತ್ತಿದ್ದಾಳೆ ಅಥವಾ ದೇವತೆಗಳಿಗೆ ಏನನ್ನಾದರೂ ಅರ್ಪಿಸುತ್ತಿದ್ದಾಳೆ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಆಕೆಯ ಮುಖವು ಪ್ರಶಾಂತವಾಗಿ ಕಾಣುತ್ತಿದ್ದು, ಭಕ್ತಿ ಮತ್ತು ಗೌರವವನ್ನು ತೋರಿಸುತ್ತದೆ. ಆಕೆಯು ರೆಕ್ಕೆಗಳಿರುವ ಈಜಿಪ್ಟಿಯನ್ ತಲೆಯ ಪೆಂಡೆಂಟ್ ಇರುವ ಇಮ್ಮಡಿ ಮಾಲೆಯನ್ನು ಧರಿಸಿದ್ದಾಳೆ. ಈಜಿಪ್ಟಿನ ನಂಬಿಕೆಯಲ್ಲಿ, ಈ ಸಂಕೇತವು ರಕ್ಷಣೆ, ದೈವಿಕ ಶಕ್ತಿ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕತೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಮೃದುವಾದ ದೇಹ, ಸಮತೋಲಿತ ಭಂಗಿ ಮತ್ತು ಸೂಕ್ಷ್ಮವಾದ ಅಮೃತಶಿಲೆಯ ವಿನ್ಯಾಸವು ಗ್ರೀಕ್ ಮತ್ತು ರೋಮನ್ ಶಿಲ್ಪಕಲೆಯಿಂದ ಪ್ರೇರಿತವಾದ ಯುರೋಪಿಯನ್ ಶಾಸ್ತ್ರೀಯ ಕಲಾ ಶೈಲಿಗಳನ್ನು ಅನುಸರಿಸುತ್ತದೆ. ಈ ಪ್ರತಿಮೆಯು 19ನೇ ಶತಮಾನದಲ್ಲಿ ಪ್ರಾಚೀನ ಈಜಿಪ್ಟ್ ಹೇಗೆ ಯುರೋಪಿಯನ್ ಕಲೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರಿತು ಎಂಬುದಕ್ಕೆ ಉತ್ತಮ ಉದಾಹರಣೆಯಾಗಿದೆ.</p>
+            </div>
+        </div>
+        <div class="langCnt" id="malayalam" style="display:none;">
+            <h2 class="cntHdng">Egyptian Priestess (Allegorical Figure)</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item9.png" alt="Egyptian Priestess (Allegorical Figure)">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ഈജിപ്ഷ്യൻ പുരോഹിത (ആലഗോറിക്കൽ ചിത്രം) (XLV-18) *
+
+ഈജിപ്ഷ്യൻ പുരോഹിതയായി സങ്കൽപ്പിക്കപ്പെട്ട ഒരു സ്ത്രീയെ ഈ മാർബിൾ പ്രതിമ കാണിക്കുന്നു. കൈകൾ ഉയർത്തി അവൾ ശാന്തതയോടെ നിൽക്കുന്നു. ഈ ഭാവം അവൾ പ്രാർത്ഥിക്കുകയോ അതോ ദൈവങ്ങൾക്ക് എന്തെങ്കിലും സമർപ്പിക്കുകയോ ചെയ്യുന്നത് പോലെ സൂചിപ്പിക്കുന്നു. അവളുടെ മുഖത്ത് ഭക്തിയും ആദരവും പ്രകടമാക്കുന്ന ശാന്തത കാണാം. അവൾ ചിറകുകളുള്ള ഒരു ഈജിപ്ഷ്യൻ തലയുടെ ലോക്കറ്റോടുകൂടിയ ഇരട്ട മാല ധരിച്ചിട്ടുണ്ട്. ഈജിപ്ഷ്യൻ വിശ്വാസത്തിൽ ഈ ചിഹ്നം സംരക്ഷണം, ദിവ്യശക്തി, ആത്മീയത എന്നിവയെ പ്രതിനിധീകരിക്കുന്നു. മിനുസമാർന്ന ശരീരപ്രകൃതി, സന്തുലിതമായ ഭാവം, മികച്ച മാർബിൾ ഫിനിഷ് എന്നിവ ഗ്രീക്ക്, റോമൻ ശില്പകലകളിൽ നിന്ന് പ്രചോദനം ഉൾക്കൊണ്ട യൂറോപ്യൻ ക്ലാസിക്കൽ കലാശൈലിയെയാണ് പിന്തുടരുന്നത്. പത്തൊൻപതാം നൂറ്റാണ്ടിലെ യൂറോപ്യൻ കലയെ പുരാതന ഈജിപ്ത് എങ്ങനെ സ്വാധീനിച്ചു എന്നതിന്‍റെ മികച്ച ഉദാഹരണമാണ് ഈ പ്രതിമ.</p>
+            </div>
+        </div>
+        <div class="langCnt" id="odia" style="display:none;">
+            <h2 class="cntHdng">Egyptian Priestess (Allegorical Figure)</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item9.png" alt="Egyptian Priestess (Allegorical Figure)">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>ଇଜିପ୍ଟର ପୂଜାରିଣୀ (ଆଲଗୋରିକାଲ ପ୍ରତିମା) (XLV-18) *
+
+ଆସନ୍ତୁ, ଏହି ଗାମ୍ଭୀର୍ଯ୍ୟପୂର୍ଣ୍ଣ ଶଙ୍ଖମଲମଲ୍ ମୂର୍ତ୍ତିଟି ବିଷୟରେ ଜାଣିବା।
+
+ଏହି ଭାସ୍କର୍ଯ୍ୟରେ ଜଣେ ନାରୀଙ୍କୁ ପ୍ରାଚୀନ ଇଜିପ୍ଟର ପୂଜାରିଣୀ ରୂପରେ କଳ୍ପନା କରାଯାଇଛି। ସେ ଅତ୍ୟନ୍ତ ଶାନ୍ତ ଭାବରେ ଉଭୟ ହାତକୁ ଉପରକୁ ଟେକି ଛିଡ଼ା ହୋଇଛନ୍ତି। ଏହି ଭଙ୍ଗୀଟି ଦେବତାମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ପ୍ରାର୍ଥନା କିମ୍ବା କିଛି ନିବେଦନ କରୁଥିବାର ସୂଚାଉଛି। ତାଙ୍କ ମୁଖମଣ୍ଡଳରେ ଶାନ୍ତି, ଭକ୍ତି ଏବଂ ଗଭୀର ଶ୍ରଦ୍ଧାଭାବ ସ୍ପଷ୍ଟ ପ୍ରତିଫଳିତ ହେଉଛି। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ସେ ଦୁଇଧାଡ଼ିଆ ହାର ପିନ୍ଧିଛନ୍ତି, ଯେଉଁଥିରେ ଡେଣା ଥିବା ଇଜିପ୍ଟୀୟ ମୁଖମଣ୍ଡଳ ବିଶିଷ୍ଟ ଏକ ପଦକ ରହିଛି। ଇଜିପ୍ଟର ବିଶ୍ୱାସରେ ଏହି ପ୍ରତୀକଟି ସୁରକ୍ଷା, ଦୈବୀ ଶକ୍ତି ଏବଂ ଆଧ୍ୟାତ୍ମିକତାର ସୂଚକ ଅଟେ। ଏହାର ମସୃଣ କାନ୍ତି, ସନ୍ତୁଳିତ ଭଙ୍ଗୀ ଏବଂ ଶଙ୍ଖମଲମଲ୍ ପଥରର ସୂକ୍ଷ୍ମ କାରୁକାର୍ଯ୍ୟ ଗ୍ରୀକ୍ ଓ ରୋମାନ୍ ଭାସ୍କର୍ଯ୍ୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ୟୁରୋପୀୟ ପ୍ରାଚୀନ କଳା ଶୈଳୀକୁ ଅନୁସରଣ କରେ। ଉନବିଂଶ ଶତାବ୍ଦୀରେ ପ୍ରାଚୀନ ଇଜିପ୍ଟର ସଂସ୍କୃତି କିପରି ୟୁରୋପୀୟ କଳାକୁ ପ୍ରଭାବିତ କରିଥିଲା, ଏହି ମୂର୍ତ୍ତିଟି ତାର ଏକ ଶ୍ରେଷ୍ଠ ଉଦାହରଣ।</p>
+            </div>
+        </div>
+        <div class="langCnt" id="tamil" style="display:none;">
+            <h2 class="cntHdng">Egyptian Priestess (Allegorical Figure)</h2>
+
+            <div class="booImgDiv">
+                <img src="../images/marblegallery-item9.png" alt="Egyptian Priestess (Allegorical Figure)">
+            </div>
+
+            <div class="bookCntDiv">
+                <p>எகிப்திய பெண் பாதிரி(உருவகப் படம்) (XLV-18) *
+
+இந்த பளிங்குச் சிலை, ஒரு எகிப்திய பெண் பாதிரியாக் கற்பனை செய்யப்பட்ட ஒரு பெண்ணைக் காட்டுகிறது. அவள் கைகளை உயர்த்தியபடி அமைதியாக நிற்கிறாள். இந்த நிலை, அவள் தெய்வங்களிடம் பிரார்த்தனை செய்வதையோ அல்லது ஏதேனும் ஒன்றை அர்ப்பணிப்பதையோ உணர்த்துகிறது. அவரது முகபாவம் அமைதியாகக் காணப்படுவதுடன், பக்தியையும் மரியாதையையும் வெளிப்படுத்துகிறது. அவர் இறக்கை வடிவிலான எகிப்தியத் தலை உருவப் பதக்கத்துடன் கூடிய இரட்டை மாலையை அணிந்துள்ளார். எகிப்திய நம்பிக்கையில், இவ்வடையாளம் பாதுகாப்பு, தெய்வீக ஆற்றல் மற்றும் ஆன்மிகத்தைக் குறிக்கிறது. இதன் மென்மையான உடலமைப்பு, சமச்சீரான நிலை மற்றும் நேர்த்தியான பளிங்கு வேலைப்பாடு ஆகியவை கிரேக்க மற்றும் ரோமானிய சிற்பக்கலையால் ஈர்க்கப்பட்ட ஐரோப்பிய செவ்வியல் கலைப் பாணிகளைப் பின்பற்றுகின்றன. பத்தொன்பதாம் நூற்றாண்டில் பண்டைய எகிப்து ஐரோப்பியக் கலையை எவ்வாறு பாதித்தது என்பதற்கு இந்தச் சிலை ஒரு சிறந்த எடுத்துக்காட்டாகும்.</p>
+            </div>
+        </div>
+
+<div class="navBtnDiv">
+
+    <a href="../item8.html" class="navBtn">← Previous Item</a>
+
+    <a href="../index.html" class="navBtn">
+        Back to Gallery Overview
+    </a>
+
+    <span></span>
+
+</div>
+
+</main>
+
+<footer>
+    <p>© 2024 All rights reserved, By
+        <a href="https://anuvadini.aicte-india.org/"
+           target="_blank"
+           rel="noreferrer">
+           Anuvadini AI
+        </a>
+    </p>
+</footer>
+
+<script>
+
+const selector = document.getElementById('languageSelector');
+const audioPlayer = document.getElementById('languageAudio');
+
+const audioMap = {
+  "bengali": "../audios/Bengali/2.%20MARBLE%20GALLERY/9.%20Egyptian%20Priestess%20(Allegorical%20Figure)%20(XLV%20-%2018).wav",
+  "hindi": "../audios/Hindi/02.%20Audio-MARBLE%20GALLERY/9.%20%E0%A4%AE%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A4%AA%E0%A5%81%E0%A4%9C%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%A8%20(%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%95%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%95%20%E0%A4%86%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF).wav",
+  "kannada": "../audios/Kannada/2.MARBLE%20GALLERY/Egyptian%20Priestess%20(Allegorical%20Figure)%20(XLV%20-%2018).wav",
+  "malayalam": "../audios/Malyalam/Marble%20Gallery/Egyptian%20Priestess.wav",
+  "odia": "../audios/Odia/2.%20MARBLE%20GALLERY.or/9.%20Egyptian%20Priestess%20(XLV%20-%2018).wav",
+  "tamil": "../audios/Tamil/Marble%20Gallery.ta/9.%20Egyptian%20Priestess%20%20_%20TA.wav"
+};
+
+function changeLanguage(language) {
+
+    document.querySelectorAll('.langCnt').forEach(function(el) {
+        el.style.display =
+            el.id === language ? 'block' : 'none';
+    });
+
+    const audioSrc = audioMap[language];
+
+    if (audioPlayer && audioSrc) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+    }
+}
+
+selector.addEventListener('change', function() {
+    changeLanguage(this.value);
+});
+
+changeLanguage(selector.value);
+
+</script>
+
+</body>
+</html>
