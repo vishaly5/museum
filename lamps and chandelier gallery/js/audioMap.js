@@ -81,5 +81,29 @@
     "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_LXXIV-101 Lamp_Female.wav",
     "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_MS- 3372 Lamp_female.wav",
     "audios/Telugu/3. Lamps & Chandelier Gallery/Telugu_XLV-122 Chandelier_Female.wav"
+  ],
+
+  "urdu": [
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No L-74 Candle Stand.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No  L-78 Lamp.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LII-682 Candle Stick Stand.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXVII- 147 Chandelier.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXXIV-74 Lamp.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXXIV-83 Lamp.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No LXXIV-101 Lamp.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No MS- 3372 Lamp.wav",
+    "audios/Urdu_3. Lamps & Chandelier Gallery.ur/Acc. No XLV-122 Chandelier.wav"
+  ],
+
+  "marathi": [
+    "audios/Lamps & Chandelier Gallery/Acc. No L-74 Candle Stand.wav",
+    "audios/Lamps & Chandelier Gallery/Acc. No  L-78 Lamp.wav",
+    "audios/Lamps & Chandelier Gallery/Acc. No LII-682 Candle Stick Stand.wav",
+    "audios/Lamps & Chandelier Gallery/Acc. No LXVII- 147 Chandelier.wav",
+    "audios/Lamps & Chandelier Gallery/Acc. No LXXIV-74 Lamp.wav",
+    "audios/Lamps & Chandelier Gallery/Acc. No LXXIV-83 Lamp.wav",
+    null,
+    "audios/Lamps & Chandelier Gallery/Acc. No MS- 3372 Lamp.wav",
+    "audios/Lamps & Chandelier Gallery/Acc. No XLV-122 Chandelier.wav"
   ]
 };
