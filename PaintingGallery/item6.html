@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painting Gallery - Item 6 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-width: 100%;
+      max-height: 460px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .navBtnDiv {
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+      padding: 0 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navBtn {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #a50309;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: background 0.2s;
+    }
+    .navBtn:hover {
+      background: #8e1d20;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="bengali" selected>বাংলা (Bengali)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
+      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+        🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
+      <h2 class="cntHdng">6. স্টীল লাইফ (Still Life)</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item6.png" width="100%" alt="6. স্টীল লাইফ (Still Life)" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৮৬০-১৮৭০, ফ্রান্স; শিল্পী: শারদাঁ (জাঁ-বাতিস্ত সিমিয়ন শারদাঁ)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">আলোচ্য শিল্পকর্মটির শিরোনাম 'স্টিল লাইফ' ​​(বা 'হরিণ ও পাখি-সহ স্টিল লাইফ'); এটি অষ্টাদশ শতাব্দীর ফরাসি চিত্রশিল্পী জাঁ-বাতিস্ত সিমিয়ন শারদাঁর আঁকা। এতে রান্নাঘরের পরিবেশে শিকার করা একদল মৃত পাখি ও একটি হরিণকে শিকারের বিভিন্ন সরঞ্জামের সাথে দেখা যায়। একটি ছেলেকে জানালার বাইরে তাকিয়ে শিকার করা প্রাণীগুলোকে পর্যবেক্ষণ করতে দেখা যাচ্ছে।<br><br>মিউজিয়ামে রাখা শারদাঁর বিশাল তেলরঙের চিত্রকর্ম "স্টিল লাইফ"-এ রান্নাঘরে মৃত শিকারগুলো এলোমেলোভাবে পড়ে থাকতে দেখা যায়। জানালার সিলে বসা একটি ছেলে এই শিকার করা প্রাণীদের দেখে আনন্দিত হচ্ছে। রান্নার পাত্র, কড়াই, বাউল এবং থালার সাথে শিকার করা পশু ও পাখিরা কোনো সাজানো নিয়ম ছাড়াই মিলেমিশে পড়ে আছে। অতিরিক্ত লোড বা ভিড়ে ভরা এই ঘরটিতে শিকারের আরও কিছু সরঞ্জাম—যেমন শিঙা, হর্ন, দড়ি ইত্যাদি দিয়ে জায়গাটি আরও পূর্ণ করে তোলা হয়েছে। এই ছবিটিতে একটি ভারী ভাব বা গাম্ভীর্য রয়েছে, যা দেখতে সম্পূর্ণ স্বাভাবিক লাগে; আর এই ভারী ভাবটি কেটে যায় বস্তুগুলোর ওপর আলো পড়ার সুন্দর দৃশ্য এবং সেই গুলোর নিখুঁত বিন্যাসের কারণে।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng">6. സ്റ്റിൽ ലൈഫ്</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item6.png" width="100%" alt="6. സ്റ്റിൽ ലൈഫ്" onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1860-1870, ഫ്രാൻസ്, ചാർഡിൻ (Jean-Baptiste Simeon Chardin)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">പതിനെട്ടാം നൂറ്റാണ്ടിലെ ഫ്രഞ്ച് ചിത്രകാരനായ ജീൻ-സിമിയോൺ ചാർഡിന്‍റെ "സ്റ്റിൽ ലൈഫ്" അല്ലെങ്കിൽ "സ്റ്റിൽ ലൈഫ് വിത്ത് എ ഡീയർ ആൻഡ് ബേർഡ്സ്" എന്ന പേരിലറിയപ്പെടുന്ന ചിത്രമാണിത്. അടുക്കളയുടെ പശ്ചാത്തലത്തിൽ, വേട്ടയാടപ്പെട്ട ചത്ത പക്ഷികളുടെ കൂമ്പാരവും ഒരു മാനും, അതോടൊപ്പം വേട്ടയാടാൻ ഉപയോഗിക്കുന്ന ഉപകരണങ്ങളും ഇതിൽ ചിത്രീകരിച്ചിരിക്കുന്നു. വേട്ടയാടപ്പെട്ട മൃഗങ്ങളെ നോക്കിക്കൊണ്ട് ഒരു ആൺകുട്ടി ജനലിനു പുറത്തേക്ക് നോക്കുന്നതായും ചിത്രത്തിൽ കാണാം.<br><br>മ്യൂസിയത്തിലുള്ള ചാർഡിന്‍റെ ഭീമാകാരമായ ഓയിൽ പെയിന്റിംഗായ "സ്റ്റിൽ ലൈഫ്", അടുക്കളയിൽ ചിതറിക്കിടക്കുന്ന ചത്ത വേട്ടമൃഗങ്ങളെ കാണിക്കുന്നു. ജനൽച്ചുവട്ടിലിരിക്കുന്ന ഒരു ആൺകുട്ടി വേട്ടയാടപ്പെട്ട ആ ഇരയെ സന്തോഷത്തോടെ നോക്കുന്നു. വേട്ടയാടപ്പെട്ട മൃഗങ്ങളും പക്ഷികളും അടുക്കളയിലെ ചട്ടികൾ, പാനകൾ, പാത്രങ്ങൾ, തളികകൾ എന്നിവയോടൊപ്പം ക്രമരഹിതമായി കൂടിച്ചേർന്നു കിടക്കുന്നു. കാഹളം , ഹോൺ, കയറുകൾ തുടങ്ങിയ വേട്ടയാടൽ ഉപകരണങ്ങൾ കൂടി ഉൾപ്പെടുത്തിയിരിക്കുന്നതിനാൽ ആ ഇടുങ്ങിയ മുറി കൂടുതൽ നിറഞ്ഞിരിക്കുന്നതായി തോന്നുന്നു. ആ ഭാരക്കൂടുതൽ സ്വാഭാവികമായി കാണപ്പെടുന്നു എന്നതിലുപരി, വസ്തുക്കളുടെമേൽ പതിക്കുന്ന മനോഹരമായ പ്രകാശക്രമീകരണങ്ങളും അവയുടെ കൃത്യമായ ക്രമീകരണങ്ങളും ആ ചിത്രത്തിന് ഒരു പ്രത്യേക പ്രസരിപ്പ് നൽകുന്നു.</div>
+      </div>
+    </div>
+
+    <div class="navBtnDiv">
+      <a href="item5.html" class="navBtn">← Previous</a>
+      <a href="item7.html" class="navBtn">Next →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script>
+    const languageAudio = document.getElementById("languageAudio");
+    const audioMissingNote = document.getElementById("audioMissingNote");
+    const audioByLanguage = {
+  "bengali": "Audios/Bengali/6). LXVI-4, STILL LIFE.wav",
+  "malayalam": "Audios/Malayalam/STILL LIFE.ml.wav"
+};
+    const languageSelector = document.getElementById("languageSelector");
+
+    const footerTranslations = {
+      bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
+      malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന'
+    };
+
+    function selectLanguage(language) {
+      languageAudio.pause();
+      languageAudio.currentTime = 0;
+
+      const src = audioByLanguage[language];
+      if (src && src.trim() !== "") {
+        languageAudio.src = src;
+        languageAudio.load();
+        languageAudio.style.display = "block";
+        audioMissingNote.style.display = "none";
+      } else {
+        languageAudio.src = "";
+        languageAudio.style.display = "none";
+        audioMissingNote.style.display = "block";
+      }
+
+      document.querySelectorAll(".langCnt").forEach(function (content) {
+        content.style.display = content.id === language ? "block" : "none";
+      });
+
+      const footerText = document.getElementById("footerText");
+      if (footerText && footerTranslations[language]) {
+        footerText.innerHTML = footerTranslations[language];
+      }
+    }
+
+    if (languageSelector) {
+      languageSelector.addEventListener("change", function () {
+        selectLanguage(this.value);
+      });
+      selectLanguage(languageSelector.value || "bengali");
+    }
+  </script>
+</body>
+</html>
