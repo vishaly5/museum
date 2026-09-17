@@ -244,6 +244,7 @@
             <div class="header-language-right">
                 <select id="languageSelector" class="form formLang" aria-label="Select language">
 <option value="bengali">বাংলা (Bengali)</option>
+<option value="english">English</option>
 <option value="gujarati">ગુજરાતી (Gujarati)</option>
 <option value="hindi" selected>हिन्दी (Hindi)</option>
 <option value="kannada">ಕನ್ನಡ (Kannada)</option>
@@ -271,6 +272,15 @@
         </div>
         <div class="bookCntDiv">
             <p>ফুলদানিটি সুসজ্জিত সোনালি হাতল ও ভিত্তিসহ নলাকার , যা ভিক্টোরীয় যুগের প্রচলিত আলংকারিক শিল্পরীতিকে প্রতিফলিত করে। এর প্রতিকৃতিটিতে চিত্রিত করা হয়েছে রানি ভিক্টোরিয়াকে (১৮১৯–১৯০১), যিনি যুক্তরাজ্যের রানি এবং ভারতের সম্রাজ্ঞী হিসেবে অধিষ্ঠিত ছিলেন ।</p>
+        </div>
+      </div>
+<div class="langCnt" id="english" dir="ltr" style="display:none">
+        <h2 class="cntHdng">LXIII-A-13: Vase</h2>
+        <div class="booImgDiv">
+            <img src="./images/Founder gallery item no7.png" alt="LXIII-A-13: Vase">
+        </div>
+        <div class="bookCntDiv">
+            <p>The vase is cylindrical with ornate gold handles and base, reflecting the decorative arts common during the Victorian era the portrait depicts Queen Victoria (1819–1901), who served as the Queen of the United Kingdom and the Empress of India.</p>
         </div>
       </div>
 <div class="langCnt" id="gujarati" dir="ltr" style="display:none">
@@ -315,7 +325,7 @@
             <img src="./images/Founder gallery item no7.png" alt="LXIII-A-13: Vase">
         </div>
         <div class="bookCntDiv">
-            <p></p>
+            <p>ही फुलदाणी दंडगोलाकार असून तिला अलंकृत सोनेरी हँडल आणि पायथा आहे, जो व्हिक्टोरियन काळातील सामान्य सजावटीच्या कला दर्शवतो. या पोर्ट्रेटमध्ये युनायटेड किंगडमच्या राणी आणि भारताच्या सम्राज्ञी म्हणून काम करणाऱ्या राणी व्हिक्टोरिया (1819-1901) यांचे चित्रण आहे.</p>
         </div>
       </div>
 <div class="langCnt" id="odia" dir="ltr" style="display:none">
@@ -355,9 +365,9 @@
         </div>
       </div>
     <div class="navBtnDiv">
-        <a class="navBtn" href="item6.html">← Previous Item</a>
-        <a class="navBtn" href="index.html">Back to Gallery Overview</a>
-        <a class="navBtn" href="item8.html">Next Item →</a>
+        <a id="prevItemBtn" class="navBtn" href="item6.html">← Previous Item</a>
+        <a id="overviewBtn" class="navBtn" href="index.html">Back to Gallery Overview</a>
+        <a id="nextItemBtn" class="navBtn" href="item8.html">Next Item →</a>
     </div>
 </main>
 
@@ -368,9 +378,10 @@
 </footer>
 
 <script>
-const audioFiles = {"bengali":["./Audios/bengali/XLIV-548 BOWL.wav","./Audios/bengali/XXVIII-160 Bowl.wav","./Audios/bengali/ACQ-62-41-2  SHERWANI.wav","./Audios/bengali/XLIV-231 CASKET.wav","./Audios/bengali/XXVIII-20 PLATE.wav","./Audios/bengali/LXIII-A-10 VASE.wav","./Audios/bengali/LXIII-A-13 VASE.wav","./Audios/bengali/LXIII-A-11 VASE.wav","./Audios/bengali/LX-352 HUQQA.wav"],"gujarati":["./Audios/gujarati/BOWL.wav","./Audios/gujarati/Bowl  XXVIII-160.wav","./Audios/gujarati/SHERWANI.wav","./Audios/gujarati/CASKET.wav","./Audios/gujarati/PLATE.wav","./Audios/gujarati/VASE.wav","./Audios/gujarati/VASE LXIII-A-13.wav","./Audios/gujarati/VASE LXIII-A-11.wav","./Audios/gujarati/HUQQA LX-352.wav"],"hindi":["./Audios/hindi/1. कटोरा.wav","./Audios/hindi/2. कटोरा.wav","./Audios/hindi/3. शेरवानी.wav","./Audios/hindi/4. कास्केट (संदूक).wav","./Audios/hindi/5. प्लेट.wav","./Audios/hindi/6. फूलदान.wav","./Audios/hindi/7. फूलदान.wav","./Audios/hindi/8. कलश.wav","./Audios/hindi/9. हुक्का.wav"],"kannada":["./Audios/kannada/BOWL XLIV-548.wav","./Audios/kannada/BOWL XXVIII-160.wav","./Audios/kannada/SHERWANI ACQ-62-41-2.wav","./Audios/kannada/CASKET XLIV-231.wav","./Audios/kannada/PLATE XXVIII-20.wav","./Audios/kannada/VASE LXIII-A-10.wav","./Audios/kannada/VASE LXIII-A-13.wav","./Audios/kannada/VASE LXIII-A-11.wav","./Audios/kannada/HUQQA LX-352.wav"],"malayalam":["./Audios/malayalam/BOWL XLIV-548.wav","./Audios/malayalam/Bowl XXVIII-160.wav","./Audios/malayalam/SHERWANI.wav","./Audios/malayalam/CASKET XLIV-231.wav","./Audios/malayalam/PLATE XXVIII-20.wav","./Audios/malayalam/LXIII-A-10 VASE.wav","./Audios/malayalam/LXIII-A-13 VASE.wav","./Audios/malayalam/VASE LXIII-A-11.wav","./Audios/malayalam/HUQQA LX-352.wav"],"marathi":["","./Audios/marathi/Bowl  XXVIII-160.wav","./Audios/marathi/SHERWANI ACQ-62-41-2.wav","./Audios/marathi/CASKET XLIV-231.wav","./Audios/marathi/PLATE XXVIII-20.wav","./Audios/marathi/VASE LXIII-A-10.wav","","./Audios/marathi/VASE LXIII-A-11.wav","./Audios/marathi/HUQQA LX-352.wav"],"odia":["./Audios/odia/1. BOWL, XLIV-548.wav","./Audios/odia/2. BOWL, XXVIII-160.wav","./Audios/odia/3. SHERWANI, ACQ-62-41-2.wav","./Audios/odia/4. CASKET, XLIV-231.wav","./Audios/odia/5. PLATE, XXVIII-20.wav","./Audios/odia/6. VASE, LXIII-A-10.wav","./Audios/odia/7. VASE, LXIII-A-13.wav","./Audios/odia/8. VASE,  LXIII-A-11.wav","./Audios/odia/9. HUQQA, LX-352.wav"],"tamil":["./Audios/tamil/1. BOWL _ ta_ FG.wav","./Audios/tamil/2. Bowl  XXVIII-160 _ ta_ FG.wav","./Audios/tamil/3. SHERWANI _ ta_ FG.wav","./Audios/tamil/4. CASKET _ta_ FG.wav","./Audios/tamil/5. PLATE _ta_FG.wav","./Audios/tamil/6. VASE _ta_FG.wav","./Audios/tamil/7. VASE _ta_FG.wav","./Audios/tamil/8. VASE _ta_ FG.wav","./Audios/tamil/9. HUQQA _ ta_ FG.wav"],"telugu":["./Audios/telugu/Telugu_1_BOWL_XLIV-548_Female Voice.wav","./Audios/telugu/Telugu_2)_Bowl_XXVIII-160_female Voice.wav","./Audios/telugu/Telugu_3)SHERWANI_ACQ-62-41-2_Female Voice.wav","./Audios/telugu/Telugu_4)CASKET_XLIV-231_Female Voice.wav","./Audios/telugu/Telugu_Plate_XXVIII-20_Female Voice.wav","./Audios/telugu/Telugu_6)VASE_LXIII_A_10_female.wav","./Audios/telugu/Telugu_7)VASEL_XIII-A-13_Female Voice.wav","./Audios/telugu/Telugu_8)VASE_LXIII-A-11_Female Voice.wav","./Audios/telugu/Telugu_LX_352_Female Voice.wav"],"urdu":["./Audios/urdu/1) BOWL XLIV-548.wav","./Audios/urdu/2) Bowl  XXVIII-160.wav","./Audios/urdu/3) SHERWANI ACQ-62-41-2.wav","./Audios/urdu/4) CASKET XLIV-231.wav","./Audios/urdu/5) PLATE XXVIII-20.wav","./Audios/urdu/6) VASE LXIII-A-10.wav","./Audios/urdu/7) VASE LXIII-A-13.wav","./Audios/urdu/8) VASE LXIII-A-11.wav","./Audios/urdu/9) HUQQA LX-352.wav"]};
+const audioFiles = {"bengali":["./Audios/bengali/XLIV-548 BOWL.wav","./Audios/bengali/XXVIII-160 Bowl.wav","./Audios/bengali/ACQ-62-41-2  SHERWANI.wav","./Audios/bengali/XLIV-231 CASKET.wav","./Audios/bengali/XXVIII-20 PLATE.wav","./Audios/bengali/LXIII-A-10 VASE.wav","./Audios/bengali/LXIII-A-13 VASE.wav","./Audios/bengali/LXIII-A-11 VASE.wav","./Audios/bengali/LX-352 HUQQA.wav"],"english":["./Audios/english/1. BOWL.wav","./Audios/english/2. bowl.wav","./Audios/english/3. SHERWANI.wav","./Audios/english/4. CASKET.wav","./Audios/english/5. Plate.wav","./Audios/english/6. Vase.wav","./Audios/english/7. Vase LXIII-A-13.wav","./Audios/english/8. vase.wav","./Audios/english/9.  HUQQA.wav"],"gujarati":["./Audios/gujarati/BOWL.wav","./Audios/gujarati/Bowl  XXVIII-160.wav","./Audios/gujarati/SHERWANI.wav","./Audios/gujarati/CASKET.wav","./Audios/gujarati/PLATE.wav","./Audios/gujarati/VASE.wav","./Audios/gujarati/VASE LXIII-A-13.wav","./Audios/gujarati/VASE LXIII-A-11.wav","./Audios/gujarati/HUQQA LX-352.wav"],"hindi":["./Audios/hindi/1. कटोरा.wav","./Audios/hindi/2. कटोरा.wav","./Audios/hindi/3. शेरवानी.wav","./Audios/hindi/4. कास्केट (संदूक).wav","./Audios/hindi/5. प्लेट.wav","./Audios/hindi/6. फूलदान.wav","./Audios/hindi/7. फूलदान.wav","./Audios/hindi/8. कलश.wav","./Audios/hindi/9. हुक्का.wav"],"kannada":["./Audios/kannada/BOWL XLIV-548.wav","./Audios/kannada/BOWL XXVIII-160.wav","./Audios/kannada/SHERWANI ACQ-62-41-2.wav","./Audios/kannada/CASKET XLIV-231.wav","./Audios/kannada/PLATE XXVIII-20.wav","./Audios/kannada/VASE LXIII-A-10.wav","./Audios/kannada/VASE LXIII-A-13.wav","./Audios/kannada/VASE LXIII-A-11.wav","./Audios/kannada/HUQQA LX-352.wav"],"malayalam":["./Audios/malayalam/BOWL XLIV-548.wav","./Audios/malayalam/Bowl XXVIII-160.wav","./Audios/malayalam/SHERWANI.wav","./Audios/malayalam/CASKET XLIV-231.wav","./Audios/malayalam/PLATE XXVIII-20.wav","./Audios/malayalam/LXIII-A-10 VASE.wav","./Audios/malayalam/LXIII-A-13 VASE.wav","./Audios/malayalam/VASE LXIII-A-11.wav","./Audios/malayalam/HUQQA LX-352.wav"],"marathi":["./Audios/marathi/BOWL.wav","./Audios/marathi/Bowl  XXVIII-160.wav","./Audios/marathi/SHERWANI ACQ-62-41-2.wav","./Audios/marathi/CASKET XLIV-231.wav","./Audios/marathi/PLATE XXVIII-20.wav","./Audios/marathi/VASE LXIII-A-10.wav","./Audios/marathi/VASELXIII-A-13.wav","./Audios/marathi/VASE LXIII-A-11.wav","./Audios/marathi/HUQQA LX-352.wav"],"odia":["./Audios/odia/1. BOWL, XLIV-548.wav","./Audios/odia/2. BOWL, XXVIII-160.wav","./Audios/odia/3. SHERWANI, ACQ-62-41-2.wav","./Audios/odia/4. CASKET, XLIV-231.wav","./Audios/odia/5. PLATE, XXVIII-20.wav","./Audios/odia/6. VASE, LXIII-A-10.wav","./Audios/odia/7. VASE, LXIII-A-13.wav","./Audios/odia/8. VASE,  LXIII-A-11.wav","./Audios/odia/9. HUQQA, LX-352.wav"],"tamil":["./Audios/tamil/1. BOWL _ ta_ FG.wav","./Audios/tamil/2. Bowl  XXVIII-160 _ ta_ FG.wav","./Audios/tamil/3. SHERWANI _ ta_ FG.wav","./Audios/tamil/4. CASKET _ta_ FG.wav","./Audios/tamil/5. PLATE _ta_FG.wav","./Audios/tamil/6. VASE _ta_FG.wav","./Audios/tamil/7. VASE _ta_FG.wav","./Audios/tamil/8. VASE _ta_ FG.wav","./Audios/tamil/9. HUQQA _ ta_ FG.wav"],"telugu":["./Audios/telugu/Telugu_1_BOWL_XLIV-548_Female Voice.wav","./Audios/telugu/Telugu_2)_Bowl_XXVIII-160_female Voice.wav","./Audios/telugu/Telugu_3)SHERWANI_ACQ-62-41-2_Female Voice.wav","./Audios/telugu/Telugu_4)CASKET_XLIV-231_Female Voice.wav","./Audios/telugu/Telugu_Plate_XXVIII-20_Female Voice.wav","./Audios/telugu/Telugu_6)VASE_LXIII_A_10_female.wav","./Audios/telugu/Telugu_7)VASEL_XIII-A-13_Female Voice.wav","./Audios/telugu/Telugu_8)VASE_LXIII-A-11_Female Voice.wav","./Audios/telugu/Telugu_LX_352_Female Voice.wav"],"urdu":["./Audios/urdu/1) BOWL XLIV-548.wav","./Audios/urdu/2) Bowl  XXVIII-160.wav","./Audios/urdu/3) SHERWANI ACQ-62-41-2.wav","./Audios/urdu/4) CASKET XLIV-231.wav","./Audios/urdu/5) PLATE XXVIII-20.wav","./Audios/urdu/6) VASE LXIII-A-10.wav","./Audios/urdu/7) VASE LXIII-A-13.wav","./Audios/urdu/8) VASE LXIII-A-11.wav","./Audios/urdu/9) HUQQA LX-352.wav"]};
 const footerTranslations = {
   "bengali": "© 2024 সর্বস্বত্ব সংরক্ষিত, Anuvadini AI",
+  "english": "© 2024 All rights reserved, By Anuvadini AI",
   "gujarati": "© 2024 સર્વ હકો અનામત, Anuvadini AI",
   "hindi": "© 2024 सर्वाधिकार सुरक्षित, Anuvadini AI",
   "kannada": "© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, Anuvadini AI",
@@ -397,17 +408,40 @@ function updateFoundersFooter(language) {
 }
 
 function setLanguage(lang) {
+    localStorage.setItem('foundersGalleryLang', lang);
+    if (selector && selector.value !== lang) {
+        selector.value = lang;
+    }
+
     sections.forEach((section) => {
         section.style.display = section.id === lang ? 'block' : 'none';
     });
+
     const track = (audioFiles[lang] || [])[6] || '';
-    audio.src = track;
-    audio.load();
+    if (track) {
+        audio.src = track;
+        audio.load();
+    }
+
     updateFoundersFooter(lang);
+
+    // Update nav links to carry selected language
+    const prevBtn = document.getElementById('prevItemBtn');
+    if (prevBtn) prevBtn.href = 'item6.html?lang=' + encodeURIComponent(lang);
+    const overviewBtn = document.getElementById('overviewBtn');
+    if (overviewBtn) overviewBtn.href = 'index.html?lang=' + encodeURIComponent(lang);
+    const nextBtn = document.getElementById('nextItemBtn');
+    if (nextBtn) nextBtn.href = 'item8.html?lang=' + encodeURIComponent(lang);
 }
 
 selector.addEventListener('change', (event) => setLanguage(event.target.value));
-setLanguage('hindi');
+
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const savedLang = urlParams.get('lang') || localStorage.getItem('foundersGalleryLang');
+    const langToUse = (savedLang && audioFiles[savedLang]) ? savedLang : (selector ? selector.value : 'hindi');
+    setLanguage(langToUse);
+});
 </script>
 
 </body>

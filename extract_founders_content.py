@@ -1,9 +1,15 @@
-import os, glob, zipfile, xml.etree.ElementTree as ET, json, re
+import os
+import glob
+import zipfile
+import xml.etree.ElementTree as ET
+import json
+import re
 
 source_dir = r"C:\Users\ASUS\Downloads\content\founders gallery"
 
 def detect_lang(filename):
     f = filename.lower()
+    if 'english' in f or '.en.' in f: return 'english'
     if 'bengali' in f or '.bn' in f: return 'bengali'
     if 'gujarati' in f or '.gu.' in f: return 'gujarati'
     if 'marathi' in f or '.mr.' in f: return 'marathi'
@@ -29,36 +35,51 @@ item_markers_exact = [
 ]
 
 title_words = [
-    'બાઉલ', 'বাটি', 'कटोरा', 'ಬೌಲ್', 'ബൗൾ', 'ବୋଲ୍', 'ପାତ୍ର', 'பவுல்', 'கிண்ணம்', 'గిన్నె', 'గిన్నె/ పాత్ర', 'పాత్ర/ గిన్నె', 'پیالہ',
-    'શેરવાની', 'শেরওয়ানি', 'शेरवानी', 'ಶೆರ್ವಾನಿ', 'ഷെർവാണി', 'ଶେରୱାନୀ', 'ஷெர்வானி', 'షెర్వాని', 'شیروانی',
-    '4) કૅસકેટ', 'કૅસકેટ', 'সিন্দুক', 'कास्केट (संदूक)', 'कास्केट', 'संदूक', 'ಕ್ಯಾಸ್ಕೆಟ್', 'ಆಮಾಡപ്പെട്ടി', 'ആമാടപ്പെട്ടി', 'କ୍ୟାସ୍କେଟ୍', 'பெட்டகம்', 'పేటిక (Casket):', 'పేటిక', 'صندوقچہ',
+    'બાઉલ', 'বাটি', 'कटोरा', 'ಬೌಲ್', 'ബൗൾ', 'ବୋଲ୍', 'ପାତ୍ର', 'பவுல்', 'கிண்ணம்', 'గిన్నె', 'గిన్నె/ పాత్ర', 'పాత్ర/ గిన్నె', 'پیالہ', 'बॉउल', 'वाडगा',
+    'शेरवानी', 'শেরওয়ানি', 'शेरवानी', 'ಶೆರ್ವಾನಿ', 'ഷെർവാണി', 'ଶେରୱାନୀ', 'ஷெர்வானி', 'షెర్వాని', 'شیروانی', 'શેરવાની',
+    '4) કૅસકેટ', 'કૅસકેટ', 'সিন্দুক', 'कास्केट (संदूक)', 'कास्केट', 'संदूक', 'ಕ್ಯಾಸ್ಕೆಟ್', 'ಆಮಾಡപ്പെട്ടി', 'ആമാടപ്പെട്ടി', 'କ୍ୟାସ୍କେଟ୍', 'பெட்டகம்', 'పేటిక (Casket):', 'పేటిక', 'صندوقچہ', 'कॅस्केट',
     'પ્લેટ', 'থালা', 'প্লেট', 'प्लेट', 'ತಟ್ಟೆ', 'ಪ್ಲೇಟ್', 'ଥାଳି', 'ପ୍ଲେଟ୍', 'தட்டு', 'పళ్ళెం', 'پلیٹ',
     'ફૂલદાની', 'ফুলদানি', 'फूलदान', 'ಹೂದಾನಿ', 'പൂച്ചട്ടി', 'ଫୁଲଦାନୀ', 'ବାସ୍ ବା ଫୁଲଦାନୀ', 'ବାସ୍', 'குவளை', 'பூச்சாடி', 'జాడీ/ పాత్ర', 'జాడీ', 'పూలకుండీ', 'گلدان', '7) گلدان', '8)گلدان', 'कलश',
-    '9) હુક્કા', '9) হুক্কা', '9) हुक्का', '9) ಹುಕ್ಕಾ', '9)ഹുക്ക', '9) ହୁକ୍କା', '9) ஹுக்கா', '9) హుక్కా', '9 )حقہ', 'حقہ', 'హుక్కా', 'ಹುಕ್ಕಾ', 'हुक्का', 'હુક્કા', 'হুক্কা'
+    '9) હુક્કા', '9) হুক্কা', '9) हुक्का', '9) ಹುಕ್ಕಾ', '9)ഹുക്ക', '9) ହୁକ୍କା', '9) ஹுக்கா', '9) హుక్కా', '9 )حقہ', 'حقہ', 'హుక్కా', 'ಹುಕ್ಕಾ', 'हुक्का', 'હુક્કા', 'হুক্কা', '9) एचयूक्यूए', 'एलएक्स-352'
 ]
 
 def clean_paragraph(p):
     s = p.strip()
     up = s.upper()
+
+    if 'FOUNDERS' in up and 'GALLERY' in up:
+        return None
+    if 'संस्थापकांची' in s and 'गॅलरी' in s:
+        return None
+
     for m in item_markers_exact:
         if m in up:
             if len(s) < 40:
                 return None
             s = re.sub(r'^(?:' + re.escape(m) + r'[\s\:\-]*)+', '', s, flags=re.IGNORECASE).strip()
-    if up in ['LX-352-352', 'LX -352', 'LX-352']:
+
+    if up in ['LX-352-352', 'LX -352', 'LX-352', '9) HUQQA LX-352', '9) HUQQA']:
         return None
+    if s in ['.', '..', '...']:
+        return None
+
     low = s.lower()
-    if any(low.startswith(wc) for wc in ['word', 'শব্দ', 'શબ્દો', 'शब्द', 'ಪದಗಳು', 'വാക്കുകൾ', 'ଶବ୍ଦ', 'சொற்கள்', 'பதங்கள்', 'పదాలు', 'الفاظ']):
+    if any(low.startswith(wc) for wc in ['word', 'शब्द', 'শব্দ', 'શબ્દો', 'शब्द', 'ಪದಗಳು', 'വാക്കുകൾ', 'ଶବ୍ଦ', 'சொற்கள்', 'பதங்கள்', 'పదాలు', 'الفاظ']):
         return None
-    if re.match(r'^(word|words|শব্দ|શબ્દો|शब्द|ಪದಗಳು|വാക്കുകൾ|ଶବ୍ଦ|పదాలు|الفاظ)[\s\-\:\d]+$', low):
+    if re.match(r'^(word|words|शब्द|শব্দ|શબ્દો|शब्द|ಪದಗಳು|വാക്കുകൾ|ଶବ୍ଦ|పదాలు|الفاظ)[\s\-\:\d]+$', low):
         return None
     if re.fullmatch(r'[\d\s\.\,\-]+', s):
         return None
+
     for tw in title_words:
         if s == tw or s.rstrip('. :') == tw:
             return None
         if s.startswith(tw) and len(s) < len(tw) + 15:
             return None
+
+    if up in ['BOWL', 'BOWL XLIV-548', 'BOWL XXVIII-160', 'SHERWANI', 'SHERWANI ACQ-62-41-2', 'CASKET', 'CASKET XLIV-231', 'PLATE', 'PLATE XXVIII-20', 'VASE', 'VASE LXIII-A-10', 'VASE LXIII-A-13', 'VASE LXIII-A-11']:
+        return None
+
     return s
 
 def extract_items_for_lang(paras):
@@ -71,7 +92,7 @@ def extract_items_for_lang(paras):
             if not any(b[0] == 2 for b in boundaries): boundaries.append((2, i))
         elif 'ACQ-62-41-2' in up or any(k in up for k in ['SHERWANI', 'शेरवानी', 'শেনওয়ানী', 'ಶೆರ್ವಾನಿ', 'ഷെർവാണി', 'ଶେରୱାନୀ', 'ஷெர்வானி', 'షెర్వాని', 'شیروانی', 'શેરવાની']):
             if not any(b[0] == 3 for b in boundaries): boundaries.append((3, i))
-        elif 'XLIV-231' in up or '4) કૅસકેટ' in p or 'કૅસકેટ' in p or 'ಆಮಾಡಪೆಟ್ಟಿ' in p or 'CASKET' in up:
+        elif 'XLIV-231' in up or '4) કૅસકેટ' in p or 'કૅસકેટ' in p or 'ಆಮಾಡಪೆಟ್ಟಿ' in p or 'CASKET' in up or 'कॅस्केट' in p:
             if not any(b[0] == 4 for b in boundaries): boundaries.append((4, i))
         elif 'XXVIII-20' in up:
             if not any(b[0] == 5 for b in boundaries): boundaries.append((5, i))
@@ -81,9 +102,9 @@ def extract_items_for_lang(paras):
             if not any(b[0] == 7 for b in boundaries): boundaries.append((7, i))
         elif 'LXIII-A-11' in up:
             if not any(b[0] == 8 for b in boundaries): boundaries.append((8, i))
-        elif 'LX-352' in up or 'LX -352' in up or '9)' in p or '9 )' in p or '9.' in p:
+        elif 'LX-352' in up or 'LX -352' in up or 'एलएक्स-352' in p or '9)' in p or '9 )' in p or '9.' in p:
             if not any(b[0] == 9 for b in boundaries): boundaries.append((9, i))
-            
+
     boundaries.sort(key=lambda x: x[0])
     items = []
     for idx in range(len(boundaries)):
@@ -104,8 +125,7 @@ def main():
     for fp in files:
         name = os.path.basename(fp)
         lang = detect_lang(name)
-        if not lang or lang == 'marathi':
-            # Marathi is left alone
+        if not lang:
             continue
         with zipfile.ZipFile(fp) as z:
             xml = z.read('word/document.xml')
