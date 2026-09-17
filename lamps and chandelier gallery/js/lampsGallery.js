@@ -128,6 +128,18 @@
             null,
             "Lamps & Chandelier Gallery/Acc. No MS- 3372 Lamp.wav",
             "Lamps & Chandelier Gallery/Acc. No XLV-122 Chandelier.wav"
+        ],
+
+        english: [
+            "English/L-74 Candle Stand.wav",
+            "English/L-78 Lamp.wav",
+            "English/LII-682 Candle Stick Stand.wav",
+            "English/LXVII- 147 Chandelier.wav",
+            "English/LXXIV-74 Lamp.wav",
+            "English/LXXIV-83 Lamp.wav",
+            "English/LXXIV-101 Lamp.wav",
+            "English/MS- 3372 Lamp.wav",
+            "English/XLV-122 Chandelier.wav"
         ]
     };
 
