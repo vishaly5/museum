@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -43,7 +43,7 @@
             <option value="bengali" selected>বাংলা (Bengali)</option>
               <option value="malayalam">മലയാളം (Malayalam)</option>
               <option value="odia">ଓଡ଼ିଆ (Odia)</option>
-              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="tamil">தமிழ் (Tamil)</option><option value="english">English</option>
           </select>
         </div>
       </div>
@@ -388,7 +388,7 @@ function selectLanguage(language) {
 
 selector.addEventListener('change', () => selectLanguage(selector.value));
 </script>
-<script src="content.js"></script>
+<script src="content.js"></script><script src="./js/english.js"></script>
 <script>
 function renderFullContent() {
   const language = selector.value;
