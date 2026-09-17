@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arms Gallery - Item 5 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #eee;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-height: 460px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .bookCntDiv {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333;
+    }
+    .navBtnDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .navBtn {
+      background-color: #a50309;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .navBtn:hover {
+      background-color: #7a0206;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+          </a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn">
+              <img src="./images/logo-anu.png" alt="Anuvadini">
+            </span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available. Playing default audio.</p>
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >LIV-377: किंजल (कटार)</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: किंजल (कटार)" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">16वीं शताब्दी इंडो-तुर्की कटार (कुरान आयतों युक्त)</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">इस तलवार की सीधी, दोनों धार वाली इस्पाती ब्लेड नुकीले सिरे की ओर क्रमशः पतली होती गई है। ब्लेड के दोनों ओर एक गहरी नाली बनी हुई है। ब्लेड पर स्वर्ण जड़ाई (दमस्कनी) से “अमल-ए-उस्मान हुसैन” और “नवाब सालार जंग बहादुर मीर यूसुफ अली खान” के लेख अंकित हैं। इसके साथ पवित्र कुरान की आयतें भी उत्कीर्ण हैं। ब्लेड के निचले हिस्से को भी स्वर्ण जड़ाई से सजाया गया है। इसकी इस्पाती मूठ पर सींग की दो पकड़-पट्टियाँ लगी हैं, जिन्हें गुंबदाकार पीतल के दो कीलों से मजबूती से जड़ा गया है। यह संयोजन इसकी मजबूती के साथ-साथ उत्कृष्ट शिल्पकौशल को भी दर्शाता है। उत्पत्ति: हैदराबाद स्कूल, काल: इंडो-तुर्की काल, 16वीं शताब्दी, अभिलेख का काल: 19वीं शताब्दी</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: Kindjal / Katar</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: Kindjal / Katar" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">16th Century Indo-Turkish Steel Dagger with Quranic Verses</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">This straight, double-edged steel dagger tapers evenly to a sharp point, featuring deep longitudinal fuller grooves on both sides of the blade. Inlaid in gold damascening work on the blade are the inscriptions 'Amal-e-Usman Hussain' and 'Nawab Salar Jung Bahadur Mir Yusuf Ali Khan', alongside sacred Quranic verses. The steel hilt is fitted with horn grip plates secured by two dome-headed brass rivets, reflecting 16th-century Indo-Turkish craftsmanship with 19th-century inscription additions.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: కింజల్ / కటారము</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: కింజల్ / కటారము" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">16వ శతాబ్దపు ఇండో-టర్కిష్ ఉక్కు కటారము</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ఈ తలవారు స్ట్రెయిట్, రెండు వైపులా పదును ఉన్న ఉక్కు బ్లేడ్ కలిగి ఉంది. ఇది పదునైన కొన వైపునకు క్రమంగా సన్నబడుతుంది. బ్లేడ్ పై బంగారు పనితనంలో 'అమల్-ఇ-ఉస్మాన్ హుస్సేన్' మరియు 'నవాబ్ సాలార్ జంగ్ బహదూర్ మీర్ యూసుఫ్ అలీ ఖాన్' శాసనాలు మరియు పవిత్ర ఖురాన్ ఆయత్‌లు చెక్కబడి ఉన్నాయి. పిడికి రెండు కొమ్ము ప్లేట్లు బిగించబడి ఉన్నాయి. ఇది 16వ శతాబ్దపు ఇండో-టర్కిష్ శైలికి చెందినది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: கிஞ்சால் / கத்தார்</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: கிஞ்சால் / கத்தார்" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">16ஆம் நூற்றாண்டு இந்தோ-துருக்கிய எஃகு வாள் (குர்ஆன் வசனங்கள்)</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">இந்த வாளில் நேரான, இருபுறமும் கூர்மையான எஃகு கத்தி உள்ளது. அது கூர்மையான முனையை நோக்கி படிப்படியாக குறுகுகிறது. கத்தியின் இருபுறமும் ஆழமான கோடுகள் உள்ளன. கத்தியில் தங்க வேலைப்பாடில் 'அமல்-இ-உஸ்மான் ஹுசைன்' மற்றும் 'நவாப் சாலார் ஜங் பகதூர் மீர் யூசுப் அலி கான்' ஆகிய கல்வெட்டுகளும் திருக்குர்ஆனின் வசனங்களும் பொறிக்கப்பட்டுள்ளன. எஃகு கைப்பிடியில் இரண்டு கொம்புப் பிடிகள் பொருத்தப்பட்டுள்ளன. இதன் தோற்றம் ஹைதராபாத், 16ஆம் நூற்றாண்டைச் சேர்ந்த இந்தோ-துருக்கிய பாணி.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: किंजाल / कटार</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: किंजाल / कटार" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">१६ व्या शतकातील इंडो-तुर्की पोलादी कटार</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">या तलवारीचे सरळ, दोन्ही बाजूंनी धारदार असलेले पोलादी पाते टोकाकडे अरुंद होत जाते. पात्यावर सोन्याच्या कामात 'अमल-ए-उस्मान हुसेन' आणि 'नवाब सालार जंग बहादूर मीर युसूफ अली खान' हे शिलालेख आणि पवित्र कुराणच्या आयती कोरलेल्या आहेत. पोलादी मुठीवर शिंगांच्या पट्ट्या बसवलेल्या आहेत. १६ व्या शतकातील इंडो-तुर्की शैली.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: കിൻജാൽ / കട്ടാരി</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: കിൻജാൽ / കട്ടാരി" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">16-ാം നൂറ്റാണ്ടിലെ ഇൻഡോ-തുർക്കിഷ് സ്റ്റീൽ വാൾ</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ഈ വാളിന് നേരായ, ഇരുവശത്തും മൂർച്ചയുള്ള സ്റ്റീൽ ബ്ലേഡാണുള്ളത്. ഇത് കൂർത്ത മുനയിലേക്ക് ചുരുങ്ങുന്നു, രണ്ട് വശങ്ങളിലും നീളത്തിൽ ആഴത്തിലുള്ള ചാലുകളുണ്ട്. ബ്ലേഡിൽ സ്വർണ്ണ ഡമാസ്കാനിംഗ് വർക്കിൽ 'അമൽ-ഇ-ഉസ്മാൻ ഹുസൈൻ', 'നവാബ് സലാർ ജംഗ് ബഹാദൂർ മീർ യൂസഫ് അലി ഖാൻ' എന്നീ രണ്ട് ശിലാലേഖനങ്ങളും വിശുദ്ധ ഖുർആനിലെ ചില വാക്യങ്ങളും കൊത്തിവെച്ചിട്ടുണ്ട്. സ്റ്റീൽ ഹാൻഡിലിൽ രണ്ട് ഹോൺ ഗ്രൈൻഡിംഗ് പ്ലേറ്റുകൾ ഘടിപ്പിച്ചിരിക്കുന്നു, അവ രണ്ട് മനോഹരമായ പിച്ചള സ്റ്റഡുകൾ ഉപയോഗിച്ച് സുരക്ഷിതമാക്കിയിരിക്കുന്നു. ഹൈദരാബാദിൽ നിന്നുള്ള ഈ ആയുധം ഇൻഡോ-തുർക്കിഷ് ശൈലിയിലുള്ളതും 16-ാം നൂറ്റാണ്ടിൽ നിർമ്മിക്കപ്പെട്ടതുമാണ്.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: ಕಿಂಜಾಲ್ / ಕಟಾರಿ</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: ಕಿಂಜಾಲ್ / ಕಟಾರಿ" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">16 ನೇ ಶತಮಾನದ ಇಂಡೋ-ಟರ್ಕಿಶ್ ಉಕ್ಕಿನ ಕಟಾರಿ</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಈ ಖಡ್ಗವು ನೇರವಾದ, ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಹರಿತವಾದ ಉಕ್ಕಿನ ಬ್ಲೇಡ್ ಅನ್ನು ಹೊಂದಿದೆ. ಬ್ಲೇಡ್ ಮೇಲೆ ಚಿನ್ನದ ಕೆಲಸದಲ್ಲಿ 'ಅಮಲ್-ಇ-ಉಸ್ಮಾನ್ ಹುಸೇನ್' ಮತ್ತು ಶಾಸನಗಳು ಹಾಗೂ ಕುರಾನ್ ವಾಕ್ಯಗಳನ್ನು ಕೆತ್ತಲಾಗಿದೆ. ಉಕ್ಕಿನ ಹಿಡಿಕೆಯಲ್ಲಿ ಎರಡು ಕೊಂಬಿನ ಪ್ಲೇಟ್‌ಗಳನ್ನು ಅಳವಡಿಸಲಾಗಿದೆ. 16 ನೇ ಶತಮಾನದ ಇಂಡೋ-ಟರ್ಕಿಶ್ ಶೈಲಿ.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: କିଞ୍ଜାଲ / କଟାର</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: କିଞ୍ଜାଲ / କଟାର" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">୧୬ଶ ଶତାବ୍ଦୀର ଇଣ୍ଡୋ-ତୁର୍କୀ ଇସ୍ପାତ କଟାର</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ଏହି ଖଣ୍ଡାର ଧାରଟି ସିଧା ଏବଂ ଦୁଇପଟ ଧାରୁଆ। ଇସ୍ପାତ ପାତ ଉପରେ ସୁନା କାମରେ 'ଅମଲ-ଇ-ଉସମାନ ହୁସେନ' ଏବଂ କୋରାନର ପବିତ୍ର ଆୟତ ଖୋଦିତ ହୋଇଛି। ୧୬ଶ ଶତାବ୍ଦୀର ଇଣ୍ଡୋ-ତୁର୍କୀ ଶୈଳୀ।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: কিনজল / কাটার</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: কিনজল / কাটার" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৬শ শতাব্দীর ইন্দো-তুর্কি ইস্পাতের তলোয়ার</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এই তলোয়ারটির ফলাটি সোজা, দ্বিধারী এবং ইস্পাতের তৈরি। ফলাটি ধীরে ধীরে সরু হয়ে একটি তীক্ষ্ণ অগ্রভাগে গিয়ে শেষ হয়েছে। ফলার উভয় পাশে দৈর্ঘ্য বরাবর গভীর খাঁজ রয়েছে। ফলার ওপর সোনার ধাতু-খচিত নকশায় “আমল-ই-উসমান হুসাইন” এবং “নওয়াব সালার জং বাহাদুর মীর ইউসুফ আলি খান”—এই দুটি লিপি উৎকীর্ণ রয়েছে। এর পাশাপাশি পবিত্র কোরআনের কয়েকটি আয়াতও খোদিত রয়েছে। ফলার নিচের অংশটিও সোনার ধাতু-খচিত অলংকরণে সজ্জিত। ইস্পাতের তৈরি হাতলটিতে দুটি শিংয়ের গ্রিপ প্লেট সংযুক্ত রয়েছে। এগুলিকে গম্বুজাকৃতির দুটি পিতলের স্টাড দিয়ে দৃঢ়ভাবে আটকানো হয়েছে। অস্ত্রটির উৎপত্তি হায়দরাবাদে এবং এটি ইন্দো-তুর্কি শিল্পধারার অন্তর্গত। এর নির্মাণকাল ষোড়শ শতাব্দী।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">LIV-377: کنجال / خنجر</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: کنجال / خنجر" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">16ویں صدی کا ہندو-ترکی اسٹیل خنجر</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">اس تلوار کا سیدھا، دونوں طرف سے تیز دھار اسٹیل کا پھل نوک کی طرف باریک ہوتا جاتا ہے۔ پھل پر سونے کی کاریگری سے 'عمل عثمان حسین' اور 'نواب سالار جنگ بہادر میر یوسف علی خان' کے کتبے اور قرآنی آیات کندہ ہیں۔ 16ویں صدی کا ہندو-ترکی اسلوب۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >LIV-377: કિંડજલ / કટાર</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item5.png" alt="LIV-377: કિંડજલ / કટાર" onerror="this.onerror=null; this.src='./images/armsgallery_item5.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">૧૬મી સદીની ઇન્ડો-તુર્કી સ્ટીલ કટાર</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ તલવારની સીધી, બંને ધારવાળી સ્ટીલની બ્લેડ તીક્ષ્ણ અણી તરફ સાંકડી થાય છે. બ્લેડની બંને બાજુએ લંબાઈ તરફ ઊંડા ખાંચા છે. બ્લેડ પર સોનાની કારીગરીથી 'અમલ-એ-ઉસ્માન હુસૈન' અને 'નવાબ સાલાર જંગ બહાદુર મીર યુસુફ અલી ખાન' ના લેખો અને પવિત્ર કુરાનની આયાતો અંકિત છે. સ્ટીલના હાથા પર સિંગની બે પ્લેટો લગાવેલી છે. આ તલવાર હૈદરાબાદ સ્કૂલ, ૧૬મી સદીની ઇન્ડો-તુર્કી કાળની છે.</div>
+      </div>
+    </div>
+
+    <div class="navBtnDiv">
+      <a href="./item4.html" class="navBtn">← Previous Item</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
+      <a href="./item6.html" class="navBtn">Next Item →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script src="./content.js"></script>
+  <script>
+    const itemIndex = 4;
+    const selector = document.getElementById('languageSelector');
+    const audioPlayer = document.getElementById('languageAudio');
+    const missingNote = document.getElementById('audioMissingNote');
+    const audioMap = {
+  "hindi": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav",
+  "english": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav",
+  "telugu": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav",
+  "tamil": "./Audios/tamil/5.%20KINDJAL.wav",
+  "marathi": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav",
+  "malayalam": "./Audios/malayalam/KINDJAL.wav",
+  "kannada": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav",
+  "odia": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav",
+  "bengali": "./Audios/bengali/LIV-377_%20KINDJAL.wav",
+  "urdu": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav",
+  "gujarati": "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav"
+};
+    const baseAudioSrc = "./Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav";
+
+    function changeLanguage(lang) {
+      document.querySelectorAll('.langCnt').forEach(el => {
+        el.style.display = (el.id === lang) ? 'block' : 'none';
+      });
+
+      const audioSrc = audioMap[lang] || baseAudioSrc;
+      if (audioPlayer) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.onerror = function() {
+          audioPlayer.onerror = null;
+          audioPlayer.src = baseAudioSrc;
+          audioPlayer.load();
+          if (missingNote) missingNote.style.display = 'block';
+        };
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+        if (missingNote) missingNote.style.display = 'none';
+      }
+
+      if (window.armsGalleryContent && window.armsGalleryContent[lang] && window.armsGalleryContent[lang][itemIndex]) {
+        const langEl = document.querySelector('#' + lang + ' .bookCntDiv div');
+        if (langEl) {
+          langEl.innerHTML = window.armsGalleryContent[lang][itemIndex].replace(/\n\n/g, '<br><br>');
+        }
+      }
+    }
+
+    selector.addEventListener('change', function() {
+      changeLanguage(this.value);
+    });
+
+    changeLanguage(selector.value);
+  </script>
+</body>
+</html>

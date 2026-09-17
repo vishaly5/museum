@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arms Gallery - Item 2 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #eee;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-height: 460px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .bookCntDiv {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333;
+    }
+    .navBtnDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .navBtn {
+      background-color: #a50309;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .navBtn:hover {
+      background-color: #7a0206;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+          </a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn">
+              <img src="./images/logo-anu.png" alt="Anuvadini">
+            </span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="bengali">বাংলা (Bengali)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available. Playing default audio.</p>
+      </div>
+    </div>
+
+    
+    <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
+      <h2 class="cntHdng" >LVI-94: भुजा कवच (आर्म-गार्ड)</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: भुजा कवच (आर्म-गार्ड)" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">17वीं शताब्दी का मुगल भुजा कवच (दस्तिया)</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">17वीं शताब्दी के भारत में निर्मित यह भुजा कवच दो अर्धगोलाकार धातु की प्लेटों से बना है, जिन्हें एक कब्जे (हिंज) द्वारा आपस में जोड़ा गया है। इसका ऊपरी भाग कलाई से कोहनी तक फैला हुआ है, जबकि निचला हिस्सा इसके आकार का लगभग आधा है। इसकी हस्तरक्षक पट्टियाँ (गॉन्टलेट्स) फीके पड़ चुके मखमल से ढकी हैं और उन पर ज़री का समृद्ध कढ़ाई-काम किया गया है। इसके किनारों को सोने की बारीक दमिश्क कला (डैमासीनिंग) से सजाया गया है, जिसमें सुंदर पुष्प एवं लता-वल्लरी की आकृतियाँ उकेरी गई हैं। बाहरी सतह पर फूलों, घुमावदार लताओं और पशु-आकृतियों के जटिल अलंकरण उभरे हुए हैं, जो इसकी सुंदरता और सजावटी आकर्षण को बढ़ाते हैं। इसके भीतरी भाग में गहरे लाल रंग के मखमल की अस्तर और गद्दी लगी हुई है, जो आराम के साथ-साथ सुरक्षा भी प्रदान करती है।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: Arm-Guard (Dastana)</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: Arm-Guard (Dastana)" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">17th Century Mughal Arm-Guard with Zardozi Velvet</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">Crafted in 17th-century India, this arm-guard (dastana) consists of two semi-cylindrical steel plates joined by a central hinge. The upper plate extends from the wrist to the elbow, while the lower plate is roughly half its length. The gauntlet wristbands are covered in faded velvet with rich Zardozi embroidery. The borders are decorated with fine gold damascening featuring elegant floral motifs and scrolling vines. Outer surfaces feature embossed designs of flowers, curving creepers, and animal figures. The interior is lined and padded with deep maroon velvet for comfort and protection.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: భుజ కవచము (ఆర్మ్-గార్డ్)</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: భుజ కవచము (ఆర్మ్-గార్డ్)" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">17వ శతాబ్దపు మొఘల్ భుజ కవచము (దస్తానా)</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">17వ శతాబ్దపు భారతదేశంలో తయారు చేయబడిన ఈ భుజ కవచము (ఆర్మ్-గార్డ్) ఒక హింజ్ (కీలు) ద్వారా అనుసంధానించబడిన రెండు అర్ధగోళ లోహ రేకులతో నిర్మించబడింది. దీని పైభాగం మణికట్టు నుండి మోచేయి వరకు విస్తరించి ఉండగా, కింది భాగం పరిమాణంలో సగం ఉంటుంది. దీని చేతి తొడుగులు మకిలి పడిన మఖ్మల్ (వెల్వెట్) గుడ్డతో కప్పబడి, సమృద్ధియైన జరీ ఎంబ్రాయిడరీ పనితనంతో అలంకరించబడి ఉన్నాయి. దీని అంచులు బంగారు దమాస్కీనింగ్ పనితనంతో పూల మరియు లతల ఆకృతులతో అలంకరించబడ్డాయి. లోపలి భాగంలో మెరూన్ రంగు వెల్వెట్ అస్తరు మరియు మెత్తటి ప్యాడింగ్ అమర్చబడింది, ఇది సౌకర్యాన్ని మరియు రక్షణను అందిస్తుంది.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: கை-கவசம்</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: கை-கவசம்" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">17ஆம் நூற்றாண்டு முகலாய கை-கவசம் (ஜரிகை வேலைப்பாடு)</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">17 ஆம் நூற்றாண்டு இந்தியாவில் தயாரிக்கப்பட்ட இந்த கை-கவசம், கீல் மூலம் இணைக்கப்பட்ட இரண்டு அரைக்கோள உலோகத் தகடுகளால் ஆனது. இதன் மேல் பகுதி மணிக்கட்டிலிருந்து முழங்கை வரை நீண்டுள்ளது, ხოლო கீழ் பகுதி இதன் அளவில் பாதியாகும். கை உறைகள் மங்கலான வெல்வெட் துணியால் மூடப்பட்டு, ஜரிகை வேலைப்பாடுகளால் செழுமையாக எம்ப்ராய்டரி செய்யப்பட்டுள்ளன. இதன் விளிம்புகள் நுணுக்கமான தங்கத் தகடு வேலைப்பாடுகளால் அலங்கரிக்கப்பட்டுள்ளன, அதில் மலர்கள் மற்றும் கொடிகளின் உருவங்கள் உள்ளன. வெளிப்புறப் பரப்பில் மலர்கள், வளைந்த கொடிகள் மற்றும் விலங்கு உருவங்களின் செதுக்கல்கள் உள்ளன. உட்புறம் மெரூன் நிற வெல்வெட் துணியால் வரிசைப்படுத்தப்பட்டு மெத்தையாக அமைக்கப்பட்டுள்ளது.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: भुजा कवच (आर्म-गार्ड)</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: भुजा कवच (आर्म-गार्ड)" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">१७ व्या शतकातील मुघल भुजा कवच</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">१७ व्या शतकातील भारतात बनवलेले हे भुजा कवच (आर्म-गार्ड) एका मेखलेने (हिंज) जोडलेल्या दोन अर्धगोलाकार धातूच्या पट्ट्यांपासून बनवलेले आहे. याचा वरचा भाग मनगटापासून कोपरापर्यंत पसरलेला आहे, तर खालचा भाग त्याच्या आकाराच्या जवळपास अर्धा आहे. याचे हातमोजे मखमली कापडाने झाकलेले असून त्यावर जरीचे समृद्ध नक्षीकाम केलेले आहे. याच्या कडा सोन्याच्या बारीक दमास्किनिंग कलेने सजवलेल्या आहेत, ज्यामध्ये सुंदर फुले आणि वेलींच्या आकृत्या कोरलेल्या आहेत. बाह्य पृष्ठभागावर फुले, वेली आणि प्राण्यांच्या आकृत्यांचे नक्षीकाम कोरलेले आहे. आतील भागात गडद लाल मखमलीचे अस्तर आणि गादी आहे, जी आराम आणि संरक्षण दोन्ही प्रदान करते.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: കൈ-കവചം</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: കൈ-കവചം" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">17-ാം നൂറ്റാണ്ടിലെ മുഗൾ കൈ-കവചം (സരി വർക്ക്)</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">17-ാം നൂറ്റാണ്ടിലെ ഇന്ത്യയിൽ നിർമ്മിച്ച ഈ കൈ-കവചം, ഒരു ഹിഞ്ച് ഉപയോഗിച്ച് ഒന്നിപ്പിച്ച രണ്ട് അർദ്ധഗോള ലോഹ തകിടുകൾ കൊണ്ടാണ് നിർമ്മിച്ചിരിക്കുന്നത്. മുകൾ ഭാഗം മണിബന്ധം (കൈത്തണ്ട) മുതൽ കൈമുട്ട് വരെ നീണ്ടിരിക്കുന്നു, അതേസമയം താഴത്തെ ഭാഗം അതിന്റെ പകുതി വലിപ്പമുള്ളതാണ്. കൈയുറകൾ മങ്ങിയ വെൽവെറ്റിൽ പൊതിഞ്ഞ് സരി വർക്ക് ഉപയോഗിച്ച് സമൃദ്ധമായി എംബ്രോയ്ഡറി ചെയ്തിരിക്കുന്നു. അതിരുകൾ മികച്ച സ്വർണ്ണ ഡമാസ്കാനിംഗ് കൊണ്ട് അലങ്കരിച്ചിരിക്കുന്നു, അതിൽ സൂക്ഷ്മമായ പൂക്കളുടെയും വള്ളികളുടെയും രൂപങ്ങൾ ഉൾക്കൊള്ളുന്നു. പുറംപ്രതലത്തിൽ പൂക്കളുടെയും, ചുറ്റിക്കറങ്ങുന്ന വള്ളികളുടെയും, മൃഗങ്ങളുടെയും സങ്കീർണ്ണമായ ഡിസൈനുകൾ മനോഹരമായി എംബോസ് ചെയ്തിട്ടുണ്ട്. ഉൾഭാഗം മെറൂൺ വെൽവെറ്റ് കൊണ്ട് ലൈൻ ചെയ്ത് പാഡ് ചെയ്തിരിക്കുന്നു, ഇത് സുഖവും സംരക്ഷണവും നൽകുന്നു.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: ಬಾಹು ಕವಚ</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: ಬಾಹು ಕವಚ" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">17 ನೇ ಶತಮಾನದ ಮೊಘಲ್ ಬಾಹು ಕವಚ</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">17 ನೇ ಶತಮಾನದ ಭಾರತದಲ್ಲಿ ತಯಾರಾದ ಈ ಬಾಹು ಕವಚವು (ಆರ್ಮ್-ಗಾರ್ಡ್) ಹಿಂಜ್ (ಕೀಲು) ಮೂಲಕ ಪರಸ್ಪರ ಜೋಡಿಸಲಾದ ಎರಡು ಅರ್ಧಗೋಳಾಕಾರದ ಲೋಹದ ಪ್ಲೇಟ್‌ಗಳಿಂದ ಮಾಡಲ್ಪಟ್ಟಿದೆ. ಇದರ ಮೇಲಿನ ಭಾಗವು ಮಣಿಕಟ್ಟಿನಿಂದ ಮೊಣಕೈವರೆಗೆ ವಿಸ್ತರಿಸುತ್ತದೆ, ಆದರೆ ಕೆಳಗಿನ ಭಾಗವು ಅದರ ಗಾತ್ರದ ಅರ್ಧದಷ್ಟಿರುತ್ತದೆ. ಇದರ ಗಾಂಟ್‌ಲೆಟ್‌ಗಳನ್ನು ಜರಿ ಕಸೂತಿ ಕೆಲಸದಿಂದ ಅಲಂಕರಿಸಲಾದ ವೆಲ್ವೆಟ್‌ನಿಂದ ಮುಚ್ಚಲಾಗುತ್ತದೆ. ಇದರ ಅಂಚುಗಳನ್ನು ಸುಂದರವಾದ ಹೂವಿನ ಮತ್ತು ಬಳ್ಳಿಗಳ ಲಕ್ಷಣಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಚಿನ್ನದ ಡಮಾಸ್ಕಿನಿಂಗ್‌ನಿಂದ ಅಲಂಕರಿಸಲಾಗಿದೆ. ಹೊರಗಿನ ಮೇಲ್ಮೈಯಲ್ಲಿ ಹೂವುಗಳು, ಸುರುಳಿಯಾಕಾರದ ಬಳ್ಳಿಗಳು ಮತ್ತು ಪ್ರಾಣಿಗಳ ಆಕೃತಿಗಳನ್ನು ಕೆತ್ತಲಾಗಿದೆ. ಒಳಗಿನ ಭಾಗವು ಸೌಕರ್ಯ ಮತ್ತು ರಕ್ಷಣೆಗಾಗಿ ಮೆರೂನ್ ವೆಲ್ವೆಟ್ ಲೈನಿಂಗ್ ಮತ್ತು ಪ್ಯಾಡಿಂಗ್ ಅನ್ನು ಹೊಂದಿದೆ.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: ବାହୁ କବଚ</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: ବାହୁ କବଚ" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">୧୭ଶ ଶତାବ୍ଦୀର ମୋଗଲ ବାହୁ କବଚ</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">୧୭ଶ ଶତାବ୍ଦୀର ଭାରତରେ ନିର୍ମିତ ଏହି ବାହୁ କବଚଟି ଦୁଇଟି ଅର୍ଦ୍ଧଗୋଲାକାର ଧାତବ ପାତ ଦ୍ୱାରା ତିଆରି, ଯାହା ଏକ କବଜା ସାହାଯ୍ୟରେ ପରସ୍ପର ସହ ଯୋଡ଼ି ହୋଇରହିଛି। ଏହାର ଉପରି ଭାଗ କବଜିରୁ କୋହୁଣି ପର୍ଯ୍ୟନ୍ତ ବିସ୍ତୃତ, ଯେତେବେଳେ କି ତଳ ଭାଗ ଆକାରରେ ପ୍ରାୟ ଅଧା। ଏହାର ଗାଉଣ୍ଟଲେଟ୍‌ଗୁଡ଼ିକ ମଖମଲ କପଡ଼ାରେ ଆବୃତ ଏବଂ ସେଥିରେ ସୁନ୍ଦର ଜରି କାମ ହୋଇଛି। ଏହାର କଡ଼ଗୁଡ଼ିକ ସୁନାର ସୂକ୍ଷ୍ମ ଡମାସ୍କିନିଂ କାମରେ ଅଳଙ୍କୃତ। ଏହାର ବାହ୍ୟ ପୃଷ୍ଠରେ ଫୁଲ, ଲତା ଏବଂ ପଶୁପକ୍ଷୀଙ୍କ ସୁନ୍ଦର ଚିତ୍ର ଉପରକୁ ଉଠିଲା ଭଳି ଖୋଦିତ ହୋଇଛି। ଏହାର ଭିତର ଭାଗରେ ଗାଢ଼ ମରୁନ୍ ରଙ୍ଗର ମଖମଲ ଅସ୍ତର ଲଗାଯାଇଛି, ଯାହା ଆରାମ ଓ ସୁରକ୍ଷା ପ୍ରଦାନ କରିଥାଏ।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: বাহু-রক্ষী</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: বাহু-রক্ষী" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৭শ শতাব্দীর মুঘল বাহুরক্ষী (জরির কাজ)</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">সপ্তদশ শতাব্দীর ভারতে নির্মিত এই বাহুরক্ষীটি দুটি অর্ধগোলাকার ধাতব পাত দিয়ে তৈরি, যা একটি কবজার মাধ্যমে পরস্পরের সঙ্গে যুক্ত। এর উপরের অংশ কবজি থেকে কনুই পর্যন্ত বিস্তৃত, আর নিচের অংশটি আকারে প্রায় অর্ধেক। বাহুরক্ষীটির ওপর বিবর্ণ মখমলের আবরণ রয়েছে এবং এতে সমৃদ্ধ জরির কাজ করা হয়েছে। এর প্রান্ত সূক্ষ্ম সোনার ধাতু-খচিত নকশায় অলংকৃত, যেখানে ফুল ও লতাপাতার মনোরম নকশা ফুটিয়ে তোলা হয়েছে। এর বাইরের পৃষ্ঠে ফুল, পাকানো লতাপাতা এবং বিভিন্ন প্রাণীর জটিল নকশা উঁচু করে খোদাই করা হয়েছে। এসব নকশা বাহুরক্ষীটির সৌন্দর্য ও অলংকারিক বৈশিষ্ট্যকে আরও আকর্ষণীয় করে তুলেছে। এর অভ্যন্তরীণ অংশে গাঢ় মেরুন রঙের মখমলের আস্তরণ ও প্যাডিং রয়েছে, যা পরিধানকারীর আরাম এবং সুরক্ষা—উভয়ই নিশ্চিত করে।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">LVI-94: بازو بند (آرم گارڈ)</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: بازو بند (آرم گارڈ)" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">17ویں صدی کا مغلیہ بازو بند</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">17ویں صدی عیسوی میں ہندوستان میں تیار کردہ یہ بازو بند (آرم گارڈ) اسٹیل کی دو نصف بیضوی پلیٹوں پر مشتمل ہے جو ایک قبضے کے ذریعے باہم جڑی ہوئی ہیں۔ اس کا اوپری حصہ کلائی سے کہنی تک پھیلا ہوا ہے، جبکہ نچلا حصہ سائز میں تقریباً آدھا ہے۔ اس کے دستانے زردوزی کے کام سے آراستہ مخمل سے ڈھکے ہوئے ہیں۔ اس کے کنارے سونے کے باریک دمشقی کام سے سجائے گئے ہیں جن میں خوبصورت پھولوں اور بیلوں کے نقش نگار ہیں۔ اس کے اندرونی حصے میں گہرے لال رنگ کے مخمل کا استر اور گدی لگی ہوئی ہے جو آرام اور تحفظ فراہم کرتی ہے۔</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
+      <h2 class="cntHdng" >LVI-94: હાથનું રક્ષક બખ્તર (આર્મ-ગાર્ડ)</h2>
+      <div class="booImgDiv">
+        <img src="./images/armsgallery_item2.png" alt="LVI-94: હાથનું રક્ષક બખ્તર (આર્મ-ગાર્ડ)" onerror="this.onerror=null; this.src='./images/armsgallery_item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">૧૭મી સદીનું મુઘલ હાથનું રક્ષક બખ્તર</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">૧૭મી સદીના ભારતમાં બનેલ, આ હાથનું રક્ષક બખ્તર (આર્મ ગાર્ડ) હિન્જ (કબજો) દ્વારા એકબીજા સાથે જોડાયેલી બે અર્ધગોળાકાર ધાતુની પ્લેટોથી બનેલું છે. તેનો ઉપરનો ભાગ કાંડાથી કોણી સુધી લંબાયેલો છે, જ્યારે નીચેનો ભાગ તેના કદનો લગભગ અડધો છે. આ ગ્લોવ્ઝ ઝાંખા પડી ગયેલા મખમલથી ઢંકાયેલા છે અને તેના પર જરીનું સમૃદ્ધ ભરતકામ કરવામાં આવ્યું છે. તેની કિનારીઓ સોનાની બારીક દમાસ્કીનિંગ કળાથી શણગારેલી છે, જેમાં સુંદર ફૂલો અને વેલાઓની આકૃતિઓ કંડારેલી છે. અંદરની બાજુએ મરૂન રંગના મખમલનું અસ્તર અને ગાદી છે, જે આરામ અને સુરક્ષા બંને પૂરી પાડે છે.</div>
+      </div>
+    </div>
+
+    <div class="navBtnDiv">
+      <a href="./item1.html" class="navBtn">← Previous Item</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
+      <a href="./item3.html" class="navBtn">Next Item →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script src="./content.js"></script>
+  <script>
+    const itemIndex = 1;
+    const selector = document.getElementById('languageSelector');
+    const audioPlayer = document.getElementById('languageAudio');
+    const missingNote = document.getElementById('audioMissingNote');
+    const audioMap = {
+  "hindi": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav",
+  "english": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav",
+  "telugu": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav",
+  "tamil": "./Audios/tamil/2.%20ARM-GUARD.wav",
+  "marathi": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav",
+  "malayalam": "./Audios/malayalam/ARM-GUARD.wav",
+  "kannada": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav",
+  "odia": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav",
+  "bengali": "./Audios/bengali/LVI-94_ARM-GUARD.wav",
+  "urdu": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav",
+  "gujarati": "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav"
+};
+    const baseAudioSrc = "./Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav";
+
+    function changeLanguage(lang) {
+      document.querySelectorAll('.langCnt').forEach(el => {
+        el.style.display = (el.id === lang) ? 'block' : 'none';
+      });
+
+      const audioSrc = audioMap[lang] || baseAudioSrc;
+      if (audioPlayer) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.onerror = function() {
+          audioPlayer.onerror = null;
+          audioPlayer.src = baseAudioSrc;
+          audioPlayer.load();
+          if (missingNote) missingNote.style.display = 'block';
+        };
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+        if (missingNote) missingNote.style.display = 'none';
+      }
+
+      if (window.armsGalleryContent && window.armsGalleryContent[lang] && window.armsGalleryContent[lang][itemIndex]) {
+        const langEl = document.querySelector('#' + lang + ' .bookCntDiv div');
+        if (langEl) {
+          langEl.innerHTML = window.armsGalleryContent[lang][itemIndex].replace(/\n\n/g, '<br><br>');
+        }
+      }
+    }
+
+    selector.addEventListener('change', function() {
+      changeLanguage(this.value);
+    });
+
+    changeLanguage(selector.value);
+  </script>
+</body>
+</html>
