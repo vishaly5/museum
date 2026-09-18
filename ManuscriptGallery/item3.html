@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manuscript Gallery - Item 3 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #eee;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-height: 460px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .bookCntDiv {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333;
+    }
+    .navBtnDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .navBtn {
+      background-color: #a50309;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .navBtn:hover {
+      background-color: #7a0206;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+          </a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn">
+              <img src="./images/logo-anu.png" alt="Anuvadini">
+            </span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="bengali" selected>বাংলা (Bengali)</option>
+              <option value="english">English</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="urdu">اردو (Urdu)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / অডিও বিবরণ / Audio Explanation / ഓഡിയോ വിവരണം / آڈیو وضاحت:</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/Manuscript-3.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
+      <h2 class="cntHdng" >ওজন ও পরিমাপ সংক্রান্ত গ্রন্থ</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item3.png" alt="ওজন ও পরিমাপ সংক্রান্ত গ্রন্থ" onerror="this.onerror=null; this.src='./images/manuscript-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" >ক্যাটালগ নম্বর ১০৩২</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এটি ওজন ও পরিমাপ সংক্রান্ত একটি গুরুত্বপূর্ণ গ্রন্থ, যা সংকলন করেছিলেন মুহাম্মদ মুমিন আলি আল-হুসাইনি আল-আস্তরাবাদি। তিনি মীর মুমিন নামে অধিক পরিচিত ছিলেন এবং গোলকোন্ডার কুতুবশাহী শাসকদের অধীনে একজন বিশিষ্ট মন্ত্রী হিসেবে দায়িত্ব পালন করেছিলেন। গ্রন্থটি মুহাম্মদ কুতুব শাহের উদ্দেশে উৎসর্গ করা হয়েছিল। মূল পাণ্ডুলিপিটি সুস্পষ্ট ও সুন্দর লিপিতে লেখা হলেও পরবর্তীকালে ওয়ালি মুহাম্মদ লাহোরি এটি সাধারণ নস্তালিক লিপিতে পুনরায় লিখেছিলেন। এই অনুলিপির তারিখ ১১০৬ হিজরি, অর্থাৎ ১৬৯৪ খ্রিস্টাব্দ। পাণ্ডুলিপিটি ক্যাটালগ নম্বর ৩৮৮৮-এর অধীনে সংরক্ষিত রয়েছে। ওজন ও পরিমাপ ব্যবস্থার পাশাপাশি তৎকালীন প্রশাসনিক ব্যবস্থার ইতিহাস সম্পর্কে গুরুত্বপূর্ণ তথ্য প্রদান করায় পাণ্ডুলিপিটির ঐতিহাসিক ও প্রশাসনিক গুরুত্ব অত্যন্ত বেশি।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >A Treatise on Weights and Measures</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item3.png" alt="A Treatise on Weights and Measures" onerror="this.onerror=null; this.src='./images/manuscript-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" >Catalogue No. 1032</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">A treatise on weights and measures, compiled by Muhammad Mumin Ali al-Husaini al-Astrabadi, better known as Mir Momin, a distinguished minister under the Qutb Shahi rulers of Golconda. The treatise is dedicated to Muhammad Qutb Shah and is written in a fine clear script later written in ordinary nastaliq script by Wali Muhammad Lahori in 1106 Hijri 1694 A.D. The manuscript is catalogued under catalogue number 3888 and is of great historical and administrative importance.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >അളവുകളെയും തൂക്കങ്ങളെയും കുറിച്ചുള്ള ഗ്രന്ഥം</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item3.png" alt="അളവുകളെയും തൂക്കങ്ങളെയും കുറിച്ചുള്ള ഗ്രന്ഥം" onerror="this.onerror=null; this.src='./images/manuscript-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" >കാറ്റലോഗ് നമ്പർ 3888</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ഗൊൽക്കൊണ്ടയിലെ കുത്ബ് ഷാഹി ഭരണാധികാരികളുടെ കീഴിൽ പ്രമുഖ മന്ത്രിയായിരുന്ന മിർ മൊമിൻ എന്നറിയപ്പെടുന്ന മുഹമ്മദ് മുമിൻ അലി അൽ-ഹുസൈനി അൽ-അസ്ത്രാബാദി സമാഹരിച്ച, അളവുകളെയും തൂക്കങ്ങളെയും കുറിച്ചുള്ള ഒരു ഗ്രന്ഥമാണിത്. മുഹമ്മദ് കുത്ബ് ഷായ്ക്ക് സമർപ്പിച്ചിരിക്കുന്ന ഈ ഗ്രന്ഥം മനോഹരമായ വ്യക്തമായ ലിപിയിലാണ് എഴുതിയിരിക്കുന്നത്; പിന്നീട് 1106 ഹിജ്റ - ക്രി.വ. 1694-ൽ വലി മുഹമ്മദ് ലാഹോരി സാധാരണ നസ്തലീഖ് ലിപിയിൽ ഇത് പകർത്തി എഴുതി. കാറ്റലോഗ് നമ്പർ 3888 ആയി രേഖപ്പെടുത്തിയിരിക്കുന്ന ഈ കൈയെഴുത്തുപ്രതിക്ക് വലിയ ചരിത്രപരവും ഭരണപരവുമായ പ്രാധാന്യമുണ്ട്.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">وزن اور پیمائش پر مقالہ</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item3.png" alt="وزن اور پیمائش پر مقالہ" onerror="this.onerror=null; this.src='./images/manuscript-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">اندراج نمبر 1032</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">وزن اور پیمائش کے موضوع پر یہ مقالہ محمد امین علی الحسین الاسترآبادی نے مرتب کیا تھا، جو میر مومین کے نام سے مشہور تھے اور گولکنڈہ کے قطب شاہی حکمرانوں کے عہد میں ایک ممتاز وزیر تھے۔ یہ مقالہ محمد قطب شاہ کے نام وقف کیا گیا ہے۔ مخطوطے کا اصل متن نہایت صاف اور خوب صورت رسم الخط میں لکھا گیا تھا، جسے بعد میں ولی محمد لاہوری نے 1106 ہجری، مطابق 1694 عیسوی میں عام نستعلیق رسم الخط میں نقل کیا۔ اس مخطوطے کا اندراج نمبر 3888 ہے اور یہ اپنی تاریخی اور انتظامی اہمیت کے باعث خاص قدر و قیمت رکھتا ہے۔</div>
+      </div>
+    </div>
+
+    <div class="navBtnDiv">
+      <a href="./item2.html" class="navBtn">← Previous Item</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
+      <a href="./item4.html" class="navBtn">Next Item →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script src="./content.js"></script>
+  <script>
+    const itemIndex = 2;
+    const selector = document.getElementById('languageSelector');
+    const audioPlayer = document.getElementById('languageAudio');
+    const missingNote = document.getElementById('audioMissingNote');
+    const audioMap = {
+  "bengali": "Audios/Bengali/Manuscript-3.wav",
+  "english": "Audios/English/3.%20A%20treatise%20on%20weights%20and%20measures%2C.wav",
+  "malayalam": "Audios/Malayalam/manuscript%203.ml.wav",
+  "urdu": "Audios/Urdu/3.wav"
+};
+    const baseAudioSrc = "./Audios/Bengali/Manuscript-3.wav";
+
+    function changeLanguage(lang) {
+      document.querySelectorAll('.langCnt').forEach(el => {
+        el.style.display = (el.id === lang) ? 'block' : 'none';
+      });
+
+      const audioRel = audioMap[lang] || audioMap.bengali;
+      const audioSrc = "./" + audioRel;
+      if (audioPlayer) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.onerror = function() {
+          audioPlayer.onerror = null;
+          audioPlayer.src = baseAudioSrc;
+          audioPlayer.load();
+          if (missingNote) missingNote.style.display = 'block';
+        };
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+        if (missingNote) missingNote.style.display = 'none';
+      }
+    }
+
+    selector.addEventListener('change', function() {
+      changeLanguage(this.value);
+    });
+
+    changeLanguage(selector.value);
+  </script>
+</body>
+</html>
