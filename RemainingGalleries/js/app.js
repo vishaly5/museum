@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
     kannada: { code: "kn", dir: "ltr", title: "ಉಳಿದ ಗ್ಯಾಲರಿಗಳು (Remaining Galleries) | Salar Jung Museum" },
     marathi: { code: "mr", dir: "ltr", title: "उर्वरित गॅलऱ्या (Remaining Galleries) | Salar Jung Museum" },
     urdu: { code: "ur", dir: "rtl", title: "باقی نمائش گاہیں (Remaining Galleries) | Salar Jung Museum" },
-    malayalam: { code: "ml", dir: "ltr", title: "ശേഷിക്കുന്ന ഗാലറികൾ (Remaining Galleries) | Salar Jung Museum" },
     gujarati: { code: "gu", dir: "ltr", title: "બાકી રહેલી ગેલેરીઓ (Remaining Galleries) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "ശേഷിക്കുന്ന ഗാലറികൾ (Remaining Galleries) | Salar Jung Museum" },
     odia: { code: "or", dir: "ltr", title: "ଅବଶିଷ୍ଟ ଗ୍ୟାଲେରୀ (Remaining Galleries) | Salar Jung Museum" },
     telugu: { code: "te", dir: "ltr", title: "మిగిలిన గ్యాలరీలు (Remaining Galleries) | Salar Jung Museum" },
-    tamil: { code: "ta", dir: "ltr", title: "மீதமுள்ள அரங்கங்கள் (Remaining Galleries) | Salar Jung Museum" }
+    tamil: { code: "ta", dir: "ltr", title: "மீதமுள்ள காட்சிக்கூடங்கள் (Remaining Galleries) | Salar Jung Museum" }
   };
 
   const footerTranslations = {
@@ -21,11 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
     kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
     marathi: '© 2024 सर्व हक्क सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआय</a> द्वारा',
     urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
-    malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
-    gujarati: '© 2024 તમામ હકો અનામત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાિદની AI</a> દ્વારા',
-    odia: '© 2024 ସମସ୍ତ ଅଧିକାର ସଂରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
-    telugu: '© 2024 సర్వహక్కులు ప్రత్యేకించబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
-    tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாமினி AI</a> மூலம்'
+    gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા',
+    malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
+    odia: '© 2024 ସର୍ବସ୍ୱତ୍ୱ ସଂରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
+    telugu: '© 2024 అన్ని హక్కులూ ప్రత్యేకించబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
+    tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்'
   };
 
   const AUDIO_MISSING =
