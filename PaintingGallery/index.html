@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="bn">
+<html lang="hi">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>পেইন্টিং গ্যালারি (Painting Gallery) | Salar Jung Museum</title>
+  <title>चित्र दीर्घा (पश्चिमी खंड) | Salar Jung Museum</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -17,8 +17,13 @@
           <div class="langDiv">
             <span class="anuIcn"><img src="images/logo-anu.png" onerror="this.onerror=null; this.src='../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
             <select class="form formLang" id="languageSelector" aria-label="Select language">
-              <option value="bengali" selected>বাংলা (Bengali)</option>
+              <option value="hindi" selected>हिन्दी (Hindi)</option>
+              <option value="english">English</option>
+              <option value="bengali">বাংলা (Bengali)</option>
               <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="urdu">اردو (Urdu)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
             </select>
           </div>
         </div>
@@ -28,7 +33,15 @@
 
   <main>
     <!-- Intro -->
-    <section class="gallery-intro langCnt" id="bengali" style="display: block;">
+    <section class="gallery-intro langCnt" id="hindi" style="display: block;">
+      <h1>चित्र दीर्घा (पश्चिमी खंड)</h1>
+      <p>ऑडियो गाइड ऐप के लिए पेंटिंग गैलरी से चुनी गई वस्तुएँ।</p>
+    </section>
+    <section class="gallery-intro langCnt" id="english">
+      <h1>Paintings Gallery (Western Block)</h1>
+      <p>The following objects selected from the Painting Gallery for audio guide app.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="bengali">
       <h1>পেইন্টিং গ্যালারি (ওয়েস্টার্ন ব্লক)</h1>
       <p>অডিও গাইড অ্যাপের উদ্দেশ্যে পেইন্টিং গ্যালারি থেকে নির্বাচিত নিম্নলিখিত বস্তুগুলি।</p>
     </section>
@@ -36,13 +49,25 @@
       <h1>പെയിന്റിംഗ് ഗാലറി (വെസ്റ്റേൺ ബ്ലോക്ക്)</h1>
       <p>ആഡിയോ ഗൈഡ് ആപ്പ് ആവശ്യത്തിനായി പെയിന്റിംഗ് ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്തിരിക്കുന്ന വസ്തുക്കൾ.</p>
     </section>
+    <section class="gallery-intro langCnt" id="urdu" dir="rtl">
+      <h1>پینٹنگ گیلری (مغربی حصہ)</h1>
+      <p>آڈیو گائیڈ ایپ کے لیے پینٹنگ گیلری سے منتخب کی گئی اشیاء۔</p>
+    </section>
+    <section class="gallery-intro langCnt" id="tamil">
+      <h1>ஓவியக் காட்சிக்கூடம் (மேற்குப் பகுதி)</h1>
+      <p>ஆடியோ வழிகாட்டி செயலிக்காக ஓவியக் காட்சிக்கூடத்திலிருந்து தேர்ந்தெடுக்கப்பட்ட பொருட்கள்.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="gujarati">
+      <h1>ચિત્રકલા ગેલેરી (પશ્ચિમ વિભાગ)</h1>
+      <p>ઑડિયો ગાઇડ ઍપ માટે પશ્ચિમ વિભાગની ચિત્રકલા ગેલેરીમાંથી પસંદ કરેલી વસ્તુઓ.</p>
+    </section>
 
     <!-- Gallery Grid: cards are built from js/artworksData.js -->
     <section class="gallery-grid" id="galleryGrid"></section>
   </main>
 
   <footer>
-    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
 
   <script src="js/artworksData.js"></script>

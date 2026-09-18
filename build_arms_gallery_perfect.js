@@ -127,16 +127,16 @@ const labels = {
     'shield-serpent': ['LVI-175: డాలు (సర్ప చెక్కడము)', '18వ శతాబ్దపు దక్షిణ భారత సర్ప చెక్కడపు డాలు']
   },
   marathi: {
-    'chain-mail': ['LVI-245: चेन मेल (साखळी कवच)', 'पंजतन पवित्र नावे कोरलेले मुघल साखळी कवच'],
-    'arm-guard': ['LVI-94: भुजा कवच (आर्म-गार्ड)', '१७ व्या शतकातील मुघल भुजा कवच'],
-    'tabar': ['LVI-173: तबर (युद्ध-कुऱ्हाड)', 'फारसी काव्य कोरलेली दमास्कस पोलादी युद्ध कुऱ्हाड'],
-    'shield-shahjahan': ['LVI-125: ढाल (शहाजहान काळ)', '१७ व्या शतकातील शहाजहान काळातील सोन्याचे जरबुलंद काम असलेली ढाल'],
-    'kindjal': ['LIV-377: किंजाल / कटार', '१६ व्या शतकातील इंडो-तुर्की पोलादी कटार'],
-    'khanda': ['LIII-59: खंडा (तलवार)', '१७ व्या शतकातील दख्खनी खंडा सरळ तलवार'],
-    'chair-aina': ['LVI-93: चार-ऐना कवच', 'मुघल चार-ऐना पोलादी छातीचे कवच'],
-    'firangi': ['LIV-160: फिरंगी (सरळ तलवार)', '१८ व्या शतकातील दख्खनी फिरंगी सरळ तलवार'],
-    'jamadhar': ['LV-36: जमाधर (कटार)', '१७१० काळातील राजस्थानी जमाधर कटार'],
-    'shield-serpent': ['LVI-175: ढाल (नाग कोरीव काम)', '१८ व्या शतकातील दक्षिण भारतीय नाग कोरीव कामाची ढाल']
+    'chain-mail': ['LVI-245: चेन मेल', 'पंजतन पवित्र नावे कोरलेले मुघल साखळी कवच'],
+    'arm-guard': ['LVI-94: आर्म-गार्ड', '१७ व्या शतकातील मुघल आर्म-गार्ड (दस्ताना)'],
+    'tabar': ['LVI-173: तबर', 'सोन्याचे जडीकाम केलेली दमास्कस स्टिलची युद्धकुऱ्हाड'],
+    'shield-shahjahan': ['LVI-125: शील्ड (ढाल)', '१७ व्या शतकातील शाहजहान काळातील सोन्याचे जरबुलंद काम असलेली ढाल'],
+    'kindjal': ['LIV-377: किंडजल', '१६ व्या शतकातील इंडो-तुर्की स्टिलची कटार'],
+    'khanda': ['LIII-59: खंडा', '१७ व्या शतकातील दख्खनी खंडा तलवार'],
+    'chair-aina': ['LVI-93: चार-आइना', 'मुघल चार-आइना स्टिलचे चिलखत'],
+    'firangi': ['LIV-160: फरिंगी', '१८ व्या शतकातील दख्खनी फिरंगी सरळ तलवार'],
+    'jamadhar': ['LV-36: जमधर', '१७१० काळातील राजस्थानी जमधर कटार'],
+    'shield-serpent': ['LVI-175: शील्ड (नाग डिझाईन)', '१८ व्या शतकातील दक्षिण भारतीय नाग नक्षीची स्टिलची ढाल']
   },
   kannada: {
     'chain-mail': ['LVI-245: ಚೈನ್ ಮೇಲ್', 'ಪಂಚತನ್ ಹೆಸರುಗಳನ್ನು ಕೆತ್ತಲಾದ ಮೊಘಲ್ ಚೈನ್ ಮೇಲ್ ಕವಚ'],
@@ -163,22 +163,36 @@ const labels = {
     'shield-serpent': ['LVI-175: ଢାଲ (ସର୍ପ ନକ୍ସା)', '୧୮ଶ ଶତାବ୍ଦୀର ଦକ୍ଷିଣ ଭାରତୀୟ ସର୍ପ ନକ୍ସା ଢାଲ']
   },
   urdu: {
-    'chain-mail': ['LVI-245: چین میل', 'پنجتن کے ناموں سے مزین مغلیہ چین میل بکتر'],
-    'arm-guard': ['LVI-94: بازو بند (آرم گارڈ)', '17ویں صدی کا مغلیہ بازو بند'],
-    'tabar': ['LVI-173: تبر (جنگی کلہاڑی)', 'فارسی اشعار سے مزین دمشقی اسٹیل کا تبر'],
-    'shield-shahjahan': ['LVI-125: ڈھال (شاہجہانی عہد)', '17ویں صدی کے درمیانی عہد شاہجہانی کی زربلند زریں ڈھال'],
-    'kindjal': ['LIV-377: کنجال / خنجر', '16ویں صدی کا ہندو-ترکی اسٹیل خنجر'],
-    'khanda': ['LIII-59: کھانڈہ (تلوار)', '17ویں صدی کی دکنی کھانڈہ تلوار'],
-    'chair-aina': ['LVI-93: چار آئینہ (بکتر)', 'مغلیہ چار آئینہ اسٹیل کا بکتر'],
-    'firangi': ['LIV-160: فرنگی (سیدھی تلوار)', '18ویں صدی کی دکنی فرنگی سیدھی تلوار'],
-    'jamadhar': ['LV-36: جمادھر (خنجر)', '1710ء کا راجستھانی جمادھر خنجر'],
-    'shield-serpent': ['LVI-175: ڈھال (سانپ کی نقش نگاری)', '18ویں صدی کی جنوبی ہندی سانپ کی نقش نگاری والی اسٹیل ڈھال']
+    'chain-mail': ['LVI-245: زنجیری زرہ', 'پنجتن کے مقدس ناموں سے مزین مغلیہ زنجیری زرہ'],
+    'arm-guard': ['LVI-94: بازو کی زرہ', '17ویں صدی کا مغلیہ آرم گارڈ (بازو کی زرہ)'],
+    'tabar': ['LVI-173: تبر', 'فارسی اشعار اور سنہری نقاشی سے مزین دمشقی فولاد کا تبر'],
+    'shield-shahjahan': ['LVI-125: ڈھال', '17ویں صدی کے درمیانی عہد شاہجہانی کی زربولند زریں ڈھال'],
+    'kindjal': ['LIV-377: خنجر', '16ویں صدی کا ہند-ترک فولادی خنجر'],
+    'khanda': ['LIII-59: کھنڈا تلوار', '17ویں صدی کے اوائل کی دکنی کھنڈا تلوار'],
+    'chair-aina': ['LVI-93: چار آئینہ بکتر', 'مغلیہ چار آئینہ فولادی بکتر'],
+    'firangi': ['LIV-160: فرنگی', '18ویں صدی کے اواخر کی دکنی فرنگی سیدھی تلوار'],
+    'jamadhar': ['LV-36: جمادار', '1710ء کا راجستھانی جمادار خنجر'],
+    'shield-serpent': ['LVI-175: ڈھال', '18ویں صدی کی جنوبی ہند کی سانپ کی نقاشی والی فولادی ڈھال']
   }
 };
 
 function getAudioPath(lang, index) {
   let audioRel = '';
-  if (lang === 'bengali') {
+  if (lang === 'english') {
+    const map = [
+      'Audios/english/1. Chain Mail.wav',
+      'Audios/english/2. ARM-GUARD.wav',
+      'Audios/english/3. TABAR.wav',
+      'Audios/english/4. SHIELD.wav',
+      'Audios/english/5. KINDJAL.wav',
+      'Audios/english/6. KHANDA.wav',
+      'Audios/english/7.CHAIR AINA.wav',
+      'Audios/english/8. FIRANGI.wav',
+      'Audios/english/9. JAMADHAR.wav',
+      'Audios/english/10.  SHIELD.wav'
+    ];
+    audioRel = map[index];
+  } else if (lang === 'bengali') {
     const map = [
       'Audios/bengali/LVI-245_ Chain mail.wav',
       'Audios/bengali/LVI-94_ARM-GUARD.wav',
@@ -218,6 +232,48 @@ function getAudioPath(lang, index) {
       'Audios/tamil/8. FIRANGI.wav',
       'Audios/tamil/9. JAMADHAR.wav',
       'Audios/tamil/10. SHIELD.wav'
+    ];
+    audioRel = map[index];
+  } else if (lang === 'marathi') {
+    const map = [
+      'Audios/marathi/Chain Mail.wav',
+      'Audios/marathi/ARM-GUARD.wav',
+      'Audios/marathi/TABAR.wav',
+      'Audios/marathi/SHIELD.wav',
+      'Audios/marathi/KINDJAL.wav',
+      'Audios/marathi/KHANDA.wav',
+      'Audios/marathi/CHAR AINA.wav',
+      'Audios/marathi/FIRANGI.wav',
+      'Audios/marathi/JAMADHAR.wav',
+      'Audios/marathi/SHIELD LVI-175.wav'
+    ];
+    audioRel = map[index];
+  } else if (lang === 'urdu') {
+    const map = [
+      'Audios/urdu/1)  LVI-245.wav',
+      'Audios/urdu/2) LVI-94.wav',
+      'Audios/urdu/3) LVI -173.wav',
+      'Audios/urdu/4) LVI-125.wav',
+      'Audios/urdu/5)  LIV-377.wav',
+      'Audios/urdu/6) LIII-59.wav',
+      'Audios/urdu/7) LVI-93.wav',
+      'Audios/urdu/8) LIV-160.wav',
+      'Audios/urdu/9) LV-36.wav',
+      'Audios/urdu/10) LVI-175.wav'
+    ];
+    audioRel = map[index];
+  } else if (lang === 'odia') {
+    const map = [
+      'Audios/odia/1. Chain Mail.wav',
+      'Audios/odia/2. ARM-GUARD.wav',
+      'Audios/odia/3. TABAR.wav',
+      'Audios/odia/4. SHIELD.wav',
+      'Audios/odia/5. KINDJAL.wav',
+      'Audios/odia/6. KHANDA.wav',
+      'Audios/odia/7. CHAIR AINA.wav',
+      'Audios/odia/8. FIRANGI.wav',
+      'Audios/odia/9.  JAMADHAR.wav',
+      'Audios/odia/10. SHIELD.wav'
     ];
     audioRel = map[index];
   } else {
@@ -515,6 +571,11 @@ itemsMeta.forEach((meta, idx) => {
 </article>\n`;
 });
 
+const allAudiosMap = {};
+languages.forEach(l => {
+  allAudiosMap[l.id] = itemsMeta.map((m, idx) => getAudioPath(l.id, idx));
+});
+
 const indexHtmlContent = `<!doctype html>
 <html lang="en">
 <head>
@@ -580,6 +641,7 @@ const indexHtmlContent = `<!doctype html>
 <script>
 const selector = document.getElementById('languageSelector');
 const labels = ${JSON.stringify(labels, null, 2)};
+const allAudiosMap = ${JSON.stringify(allAudiosMap, null, 2)};
 
 function updateGalleryLanguage(lang) {
   document.querySelectorAll('.gallery-intro.langCnt').forEach(el => {
@@ -595,6 +657,16 @@ function updateGalleryLanguage(lang) {
     if (titleEl) titleEl.textContent = pair[0];
     if (subEl) subEl.textContent = pair[1];
   });
+
+  if (allAudiosMap[lang]) {
+    const cards = document.querySelectorAll('.item-card');
+    cards.forEach((card, idx) => {
+      const audioEl = card.querySelector('audio');
+      if (audioEl && allAudiosMap[lang][idx]) {
+        audioEl.src = encodeURI(allAudiosMap[lang][idx]);
+      }
+    });
+  }
 
   if (window.armsGalleryContent && window.armsGalleryContent[lang]) {
     const items = ${JSON.stringify(itemsMeta.map(m => m.key))};
