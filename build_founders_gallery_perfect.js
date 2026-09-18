@@ -9,6 +9,7 @@ const sourceAudioDir = 'C:/Users/ASUS/Downloads/audio/founders gallery';
 
 const languages = [
   'bengali',
+  'english',
   'gujarati',
   'hindi',
   'kannada',
@@ -22,6 +23,7 @@ const languages = [
 
 const languageLabels = {
   bengali: 'বাংলা (Bengali)',
+  english: 'English',
   gujarati: 'ગુજરાતી (Gujarati)',
   hindi: 'हिन्दी (Hindi)',
   kannada: 'ಕನ್ನಡ (Kannada)',
@@ -35,6 +37,7 @@ const languageLabels = {
 
 const footerTranslations = {
   bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, Anuvadini AI',
+  english: '© 2024 All rights reserved, By Anuvadini AI',
   gujarati: '© 2024 સર્વ હકો અનામત, Anuvadini AI',
   hindi: '© 2024 सर्वाधिकार सुरक्षित, Anuvadini AI',
   kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, Anuvadini AI',
@@ -84,172 +87,25 @@ function escapeHtml(value) {
 }
 
 function parseDocxContent() {
-  // Preserve existing Marathi data if content.js already exists
-  let existingMarathi = new Array(9).fill('');
-  const contentJsPath = path.join(galleryDir, 'content.js');
-  if (fs.existsSync(contentJsPath)) {
-    try {
-      const existingText = fs.readFileSync(contentJsPath, 'utf8');
-      const sandbox = {};
-      eval(existingText.replace('window.', 'sandbox.'));
-      if (sandbox.foundersGalleryContent && Array.isArray(sandbox.foundersGalleryContent.marathi)) {
-        existingMarathi = sandbox.foundersGalleryContent.marathi;
-      }
-    } catch (e) {
-      // Ignore fallback
-    }
-  }
-
-  const script = `
-import os, glob, zipfile, xml.etree.ElementTree as ET, json, re
-
-root = r'''${sourceDocxDir}'''
-
-def detect_lang(filename):
-    f = filename.lower()
-    if 'bengali' in f or '.bn' in f: return 'bengali'
-    if 'gujarati' in f or '.gu.' in f: return 'gujarati'
-    if 'marathi' in f or '.mr.' in f: return 'marathi'
-    if 'hindi' in f or '.hi.' in f: return 'hindi'
-    if 'kannada' in f or '.kn.' in f: return 'kannada'
-    if 'malayalam' in f or '.ml.' in f: return 'malayalam'
-    if 'odia' in f or '.or.' in f or 'oriya' in f: return 'odia'
-    if 'tamil' in f or '.ta.' in f: return 'tamil'
-    if 'telugu' in f or '.te.' in f: return 'telugu'
-    if 'urdu' in f or '.ur.' in f: return 'urdu'
-    return None
-
-item_markers_exact = [
-    'XLIV-548',
-    'XXVIII-160',
-    'ACQ-62-41-2',
-    'XLIV-231',
-    'XXVIII-20',
-    'LXIII-A-10',
-    'LXIII-A-13',
-    'LXIII-A-11',
-    'LX-352'
-]
-
-title_words = [
-    'બાઉલ', 'বাটি', 'कटोरा', 'ಬೌಲ್', 'ബൗൾ', 'ବୋଲ୍', 'ପାତ୍ର', 'பவுல்', 'கிண்ணம்', 'గిన్నె', 'గిన్నె/ పాత్ర', 'పాత్ర/ గిన్నె', 'پیالہ',
-    'શેરવાની', 'শেরওয়ানি', 'शेरवानी', 'ಶೆರ್ವಾನಿ', 'ഷെർവാണി', 'ଶେରୱାନୀ', 'ஷெர்வானி', 'షెర్వాని', 'شیروانی',
-    '4) કૅસકેટ', 'કૅસકેટ', 'সিন্দুক', 'कास्केट (संदूक)', 'कास्केट', 'संदूक', 'ಕ್ಯಾಸ್ಕೆಟ್', 'ಆಮಾಡപ്പെട്ടി', 'ആമാടപ്പെട്ടി', 'କ୍ୟାସ୍କେଟ୍', 'பெட்டகம்', 'పేటిక (Casket):', 'పేటిక', 'صندوقچہ',
-    'પ્લેટ', 'থালা', 'প্লেট', 'प्लेट', 'ತಟ್ಟೆ', 'ಪ್ಲೇಟ್', 'ଥାଳି', 'ପ୍ଲେଟ୍', 'தட்டு', 'పళ్ళెం', 'پلیٹ',
-    'ફૂલદાની', 'ফুলদানি', 'फूलदान', 'ಹೂದಾನಿ', 'പൂച്ചട്ടി', 'ଫୁଲଦାନୀ', 'ବାସ୍ ବା ଫୁଲଦାନୀ', 'ବାସ୍', 'குவளை', 'பூச்சாடி', 'జాడీ/ పాత్ర', 'జాడీ', 'పూలకుండీ', 'گلدان', '7) گلدان', '8)گلدان', 'कलश',
-    '9) હુક્કા', '9) হুক্কা', '9) हुक्का', '9) ಹುಕ್ಕಾ', '9)ഹുക്ക', '9) ହୁକ୍କା', '9) ஹுக்கா', '9) హుక్కಾ', '9 )حقہ', 'حقہ', 'హుక్కా', 'ಹುಕ್ಕಾ', 'हुक्का', 'હુક્કા', 'হুক্কা'
-]
-
-def clean_paragraph(p):
-    s = p.strip()
-    up = s.upper()
-    for m in item_markers_exact:
-        if m in up:
-            if len(s) < 40:
-                return None
-            s = re.sub(r'^(?:' + re.escape(m) + r'[\s\:\-]*)+', '', s, flags=re.IGNORECASE).strip()
-    if up in ['LX-352-352', 'LX -352', 'LX-352']:
-        return None
-    low = s.lower()
-    if any(low.startswith(wc) for wc in ['word', 'শব্দ', 'શબ્દો', 'शब्द', 'ಪದಗಳು', 'വാക്കുകൾ', 'ଶବ୍ଦ', 'சொற்கள்', 'பதங்கள்', 'పదాలు', 'الفاظ']):
-        return None
-    if re.match(r'^(word|words|শব্দ|શબ્દો|शब्द|ಪದಗಳು|വാക്കുകൾ|ଶବ୍ଦ|పదాలు|الفاظ)[\s\-\:\d]+$', low):
-        return None
-    if re.fullmatch(r'[\d\s\.\,\-]+', s):
-        return None
-    for tw in title_words:
-        if s == tw or s.rstrip('. :') == tw:
-            return None
-        if s.startswith(tw) and len(s) < len(tw) + 15:
-            return None
-    return s
-
-def extract_items_for_lang(paras):
-    boundaries = []
-    for i, p in enumerate(paras):
-        up = p.upper()
-        if 'XLIV-548' in up:
-            if not any(b[0] == 1 for b in boundaries): boundaries.append((1, i))
-        elif 'XXVIII-160' in up:
-            if not any(b[0] == 2 for b in boundaries): boundaries.append((2, i))
-        elif 'ACQ-62-41-2' in up or any(k in up for k in ['SHERWANI', 'शेरवानी', 'শেনওয়ানী', 'ಶೆರ್ವಾನಿ', 'ഷെർവാണി', 'ଶେରୱାନୀ', 'ஷெர்வானி', 'షెర్వాని', 'شیروانی', 'શેરવાની']):
-            if not any(b[0] == 3 for b in boundaries): boundaries.append((3, i))
-        elif 'XLIV-231' in up or '4) કૅસકેટ' in p or 'કૅસકેટ' in p or 'ಆಮಾಡಪೆಟ್ಟಿ' in p or 'CASKET' in up:
-            if not any(b[0] == 4 for b in boundaries): boundaries.append((4, i))
-        elif 'XXVIII-20' in up:
-            if not any(b[0] == 5 for b in boundaries): boundaries.append((5, i))
-        elif 'LXIII-A-10' in up:
-            if not any(b[0] == 6 for b in boundaries): boundaries.append((6, i))
-        elif 'LXIII-A-13' in up:
-            if not any(b[0] == 7 for b in boundaries): boundaries.append((7, i))
-        elif 'LXIII-A-11' in up:
-            if not any(b[0] == 8 for b in boundaries): boundaries.append((8, i))
-        elif 'LX-352' in up or 'LX -352' in up or '9)' in p or '9 )' in p or '9.' in p:
-            if not any(b[0] == 9 for b in boundaries): boundaries.append((9, i))
-            
-    boundaries.sort(key=lambda x: x[0])
-    items = []
-    for idx in range(len(boundaries)):
-        start = boundaries[idx][1]
-        end = boundaries[idx + 1][1] if idx + 1 < len(boundaries) else len(paras)
-        chunk_paras = paras[start:end]
-        clean_paras = []
-        for p in chunk_paras:
-            cp = clean_paragraph(p)
-            if cp:
-                clean_paras.append(cp)
-        items.append('\n\n'.join(clean_paras).strip())
-    return items
-
-result = {}
-files = sorted(glob.glob(os.path.join(root, '*.docx')))
-for fp in files:
-    name = os.path.basename(fp)
-    lang = detect_lang(name)
-    if not lang or lang == 'marathi':
-        # Ignore Marathi docx extraction - Marathi is intentionally left alone!
-        continue
-    with zipfile.ZipFile(fp) as z:
-        xml = z.read('word/document.xml')
-    x = ET.fromstring(xml)
-    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
-    paras = []
-    for p in x.findall('.//w:p', ns):
-        txt = ''.join((t.text or '') for t in p.findall('.//w:t', ns)).strip()
-        if txt:
-            paras.append(' '.join(txt.split()))
-    items = extract_items_for_lang(paras)
-    result[lang] = items
-
-print(json.dumps(result, ensure_ascii=False))
-`;
-
   const scriptPath = path.join(rootDir, 'extract_founders_content.py');
   const raw = execFileSync('python', ['-X', 'utf8', scriptPath], {
     encoding: 'utf-8',
     env: { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' }
   });
-  const parsed = JSON.parse(raw);
-  // Ensure Marathi remains intact without modification
-  parsed.marathi = existingMarathi;
-  return parsed;
+  return JSON.parse(raw);
 }
 
 function syncAudioFolders() {
   const audioDir = path.join(galleryDir, 'Audios');
   ensureDir(audioDir);
 
-  const stale = ['malyalam', 'marati', 'english'];
+  const stale = ['malyalam', 'marati'];
   for (const name of stale) {
     const target = path.join(audioDir, name);
     if (fs.existsSync(target)) fs.rmSync(target, { recursive: true, force: true });
   }
 
   for (const lang of languages) {
-    if (lang === 'marathi') {
-      // Do not touch Marathi audio
-      continue;
-    }
     const src = path.join(sourceAudioDir, lang);
     const dest = path.join(audioDir, lang);
     if (fs.existsSync(src)) {
@@ -271,15 +127,9 @@ function buildAudioMap() {
 
     const mapping = new Array(9).fill('');
 
-    if (lang === 'hindi' || lang === 'tamil') {
+    if (lang === 'english' || lang === 'hindi' || lang === 'tamil' || lang === 'odia' || lang === 'urdu') {
       for (const f of files) {
-        for (let i = 1; i <= 9; i++) {
-          if (f.startsWith(`${i}.`)) mapping[i - 1] = f;
-        }
-      }
-    } else if (lang === 'odia' || lang === 'urdu') {
-      for (const f of files) {
-        const m = f.match(/^([1-9])[\.\)]/);
+        const m = f.match(/^([1-9])[\.\)\s]/);
         if (m) {
           mapping[parseInt(m[1], 10) - 1] = f;
         }
@@ -297,8 +147,21 @@ function buildAudioMap() {
         else if (u.includes('LXIII-A-11')) mapping[7] = f;
         else if (u.includes('HUQQA')) mapping[8] = f;
       }
+    } else if (lang === 'marathi') {
+      for (const f of files) {
+        const u = f.toUpperCase();
+        if (u === 'BOWL.WAV') mapping[0] = f;
+        else if (u.includes('160')) mapping[1] = f;
+        else if (u.includes('SHERWANI')) mapping[2] = f;
+        else if (u.includes('231') || u.includes('CASKET')) mapping[3] = f;
+        else if (u.includes('20') || u.includes('PLATE')) mapping[4] = f;
+        else if (u.includes('LXIII-A-10') || u.includes('LXIII_A_10')) mapping[5] = f;
+        else if (u.includes('LXIII-A-13') || u.includes('XIII-A-13')) mapping[6] = f;
+        else if (u.includes('LXIII-A-11')) mapping[7] = f;
+        else if (u.includes('352') || u.includes('HUQQA')) mapping[8] = f;
+      }
     } else {
-      // bengali, kannada, malayalam, telugu, marathi
+      // bengali, kannada, malayalam, telugu
       for (const f of files) {
         const u = f.toUpperCase();
         if (u.includes('548')) mapping[0] = f;
@@ -325,7 +188,6 @@ function buildContentJs(content) {
 }
 
 function buildOverviewPage(audioMap, content) {
-  // Transpose audioMap for easy lookup per item: audioMapAll[item][lang]
   const audioMapAll = {};
   for (let i = 1; i <= 9; i++) {
     audioMapAll[i] = {};
@@ -345,7 +207,7 @@ function buildOverviewPage(audioMap, content) {
     return `
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="item-card" data-item="${itemNum}">
-                <a href="item${itemNum}.html" class="text-decoration-none">
+                <a href="item${itemNum}.html" class="text-decoration-none item-link" data-item-num="${itemNum}">
                     <img src="./images/Founder gallery item no${itemNum}.png" class="img-fluid rounded" alt="${escapeHtml(title)}">
                     <h4 class="mt-3">${escapeHtml(title)}</h4>
                     <audio class="item-audio" controls preload="none" data-audio-item="${itemNum}" src="${escapeHtml(initialAudio)}"></audio>
@@ -712,6 +574,8 @@ function updateFoundersFooter(language) {
 }
 
 function selectLanguage(language) {
+    localStorage.setItem('foundersGalleryLang', language);
+
     if (typeof updateFoundersFooter === 'function') {
         updateFoundersFooter(language);
     }
@@ -741,17 +605,27 @@ function selectLanguage(language) {
         }
     });
 
+    // Update item link query params to carry forward selected language
+    document.querySelectorAll('.item-link').forEach(function(link) {
+        const itemNum = link.getAttribute('data-item-num');
+        link.href = 'item' + itemNum + '.html?lang=' + encodeURIComponent(language);
+    });
+
     const selector = document.getElementById('languageSelector');
-    if (selector) {
+    if (selector && selector.value !== language) {
         selector.value = language;
     }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const savedLang = urlParams.get('lang') || localStorage.getItem('foundersGalleryLang');
     const selector = document.getElementById('languageSelector');
+    const langToUse = (savedLang && window.foundersGalleryContent && window.foundersGalleryContent[savedLang]) ? savedLang : (selector ? selector.value : 'hindi');
     if (selector) {
-        selectLanguage(selector.value);
+        selector.value = langToUse;
     }
+    selectLanguage(langToUse);
 });
 </script>
 
@@ -1048,9 +922,9 @@ ${selectorOptions}
     </div>
 ${sections}
     <div class="navBtnDiv">
-        <a class="navBtn" href="item${prev}.html">← Previous Item</a>
-        <a class="navBtn" href="index.html">Back to Gallery Overview</a>
-        <a class="navBtn" href="item${next}.html">Next Item →</a>
+        <a id="prevItemBtn" class="navBtn" href="item${prev}.html">← Previous Item</a>
+        <a id="overviewBtn" class="navBtn" href="index.html">Back to Gallery Overview</a>
+        <a id="nextItemBtn" class="navBtn" href="item${next}.html">Next Item →</a>
     </div>
 </main>
 
@@ -1079,17 +953,40 @@ function updateFoundersFooter(language) {
 }
 
 function setLanguage(lang) {
+    localStorage.setItem('foundersGalleryLang', lang);
+    if (selector && selector.value !== lang) {
+        selector.value = lang;
+    }
+
     sections.forEach((section) => {
         section.style.display = section.id === lang ? 'block' : 'none';
     });
+
     const track = (audioFiles[lang] || [])[${i}] || '';
-    audio.src = track;
-    audio.load();
+    if (track) {
+        audio.src = track;
+        audio.load();
+    }
+
     updateFoundersFooter(lang);
+
+    // Update nav links to carry selected language
+    const prevBtn = document.getElementById('prevItemBtn');
+    if (prevBtn) prevBtn.href = 'item${prev}.html?lang=' + encodeURIComponent(lang);
+    const overviewBtn = document.getElementById('overviewBtn');
+    if (overviewBtn) overviewBtn.href = 'index.html?lang=' + encodeURIComponent(lang);
+    const nextBtn = document.getElementById('nextItemBtn');
+    if (nextBtn) nextBtn.href = 'item${next}.html?lang=' + encodeURIComponent(lang);
 }
 
 selector.addEventListener('change', (event) => setLanguage(event.target.value));
-setLanguage('hindi');
+
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const savedLang = urlParams.get('lang') || localStorage.getItem('foundersGalleryLang');
+    const langToUse = (savedLang && audioFiles[savedLang]) ? savedLang : (selector ? selector.value : 'hindi');
+    setLanguage(langToUse);
+});
 </script>
 
 </body>
