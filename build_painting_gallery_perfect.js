@@ -8,14 +8,19 @@ const structuredJsonPath = path.join(__dirname, 'scratch', 'painting_gallery_ite
 // Read structured content
 const structuredItems = JSON.parse(fs.readFileSync(structuredJsonPath, 'utf8'));
 
-// Languages available for Painting Gallery (2 languages: Bengali and Malayalam)
+// Languages available for Painting Gallery (Hindi, English, Bengali, Malayalam, Urdu, Tamil, and Gujarati)
 const languages = [
+  { id: 'hindi', label: 'हिन्दी (Hindi)' },
+  { id: 'english', label: 'English' },
   { id: 'bengali', label: 'বাংলা (Bengali)' },
-  { id: 'malayalam', label: 'മലയാളം (Malayalam)' }
+  { id: 'malayalam', label: 'മലയാളം (Malayalam)' },
+  { id: 'urdu', label: 'اردو (Urdu)' },
+  { id: 'tamil', label: 'தமிழ் (Tamil)' },
+  { id: 'gujarati', label: 'ગુજરાતી (Gujarati)' }
 ];
 
-const langOptionsHtml = languages.map(l =>
-  `<option value="${l.id}"${l.id === 'bengali' ? ' selected' : ''}>${l.label}</option>`
+const langOptionsHtml = languages.map((l, idx) =>
+  `<option value="${l.id}"${idx === 0 ? ' selected' : ''}>${l.label}</option>`
 ).join('\n              ');
 
 const itemCount = 9;
@@ -34,29 +39,40 @@ function buildIndexHtml() {
   const introSections = languages.map((langObj, idx) => {
     const lang = langObj.id;
     const isDisplayAttr = idx === 0 ? ' style="display: block;"' : '';
+    const dirAttr = lang === 'urdu' ? ' dir="rtl"' : '';
 
     const titles = {
+      hindi: 'चित्र दीर्घा (पश्चिमी खंड)',
+      english: 'Paintings Gallery (Western Block)',
       bengali: 'পেইন্টিং গ্যালারি (ওয়েস্টার্ন ব্লক)',
-      malayalam: 'പെയിന്റിംഗ് ഗാലറി (വെസ്റ്റേൺ ബ്ലോക്ക്)'
+      malayalam: 'പെയിന്റിംഗ് ഗാലറി (വെസ്റ്റേൺ ബ്ലോക്ക്)',
+      urdu: 'پینٹنگ گیلری (مغربی حصہ)',
+      tamil: 'ஓவியக் காட்சிக்கூடம் (மேற்குப் பகுதி)',
+      gujarati: 'ચિત્રકલા ગેલેરી (પશ્ચિમ વિભાગ)'
     };
 
     const descs = {
+      hindi: 'ऑडियो गाइड ऐप के लिए पेंटिंग गैलरी से चुनी गई वस्तुएँ।',
+      english: 'The following objects selected from the Painting Gallery for audio guide app.',
       bengali: 'অডিও গাইড অ্যাপের উদ্দেশ্যে পেইন্টিং গ্যালারি থেকে নির্বাচিত নিম্নলিখিত বস্তুগুলি।',
-      malayalam: 'ആഡിയോ ഗൈഡ് ആപ്പ് ആവശ്യത്തിനായി പെയിന്റിംഗ് ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്തിരിക്കുന്ന വസ്തുക്കൾ.'
+      malayalam: 'ആഡിയോ ഗൈഡ് ആപ്പ് ആവശ്യത്തിനായി പെയിന്റിംഗ് ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്തിരിക്കുന്ന വസ്തുക്കൾ.',
+      urdu: 'آڈیو گائیڈ ایپ کے لیے پینٹنگ گیلری سے منتخب کی گئی اشیاء۔',
+      tamil: 'ஆடியோ வழிகாட்டி செயலிக்காக ஓவியக் காட்சிக்கூடத்திலிருந்து தேர்ந்தெடுக்கப்பட்ட பொருட்கள்.',
+      gujarati: 'ઑડિયો ગાઇડ ઍપ માટે પશ્ચિમ વિભાગની ચિત્રકલા ગેલેરીમાંથી પસંદ કરેલી વસ્તુઓ.'
     };
 
-    return `    <section class="gallery-intro langCnt" id="${lang}"${isDisplayAttr}>
+    return `    <section class="gallery-intro langCnt" id="${lang}"${dirAttr}${isDisplayAttr}>
       <h1>${titles[lang]}</h1>
       <p>${descs[lang]}</p>
     </section>`;
   }).join('\n');
 
   const html = `<!doctype html>
-<html lang="bn">
+<html lang="hi">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>পেইন্টিং গ্যালারি (Painting Gallery) | Salar Jung Museum</title>
+  <title>चित्र दीर्घा (पश्चिमी खंड) | Salar Jung Museum</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -87,7 +103,7 @@ ${introSections}
   </main>
 
   <footer>
-    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
 
   <script src="js/artworksData.js"></script>
@@ -109,13 +125,23 @@ function buildAppJs() {
   const itemsData = window.galleryItems || {};
 
   const langMetaMap = {
+    hindi: { code: "hi", dir: "ltr", title: "चित्र दीर्घा (पश्चिमी खंड) | Salar Jung Museum" },
+    english: { code: "en", dir: "ltr", title: "Paintings Gallery (Western Block) | Salar Jung Museum" },
     bengali: { code: "bn", dir: "ltr", title: "পেইন্টিং গ্যালারি (Painting Gallery) | Salar Jung Museum" },
-    malayalam: { code: "ml", dir: "ltr", title: "പെയിന്റിംഗ് ഗാലറി (Painting Gallery) | Salar Jung Museum" }
+    malayalam: { code: "ml", dir: "ltr", title: "പെയിന്റിംഗ് ഗാലറി (Painting Gallery) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "پینٹنگ گیلری (مغربی حصہ) | Salar Jung Museum" },
+    tamil: { code: "ta", dir: "ltr", title: "ஓவியக் காட்சிக்கூடம் (மேற்குப் பகுதி) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "ચિત્રકલા ગેલેરી (પશ્ચિમ વિભાગ) | Salar Jung Museum" }
   };
 
   const footerTranslations = {
+    hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा',
+    english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
     bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
-    malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന'
+    malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
+    urdu: '© 2024 تمام حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
+    tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
+    gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા'
   };
 
   const AUDIO_MISSING =
@@ -124,12 +150,14 @@ function buildAppJs() {
   function renderCards(language) {
     if (!galleryGrid) return;
 
-    const items = itemsData[language] || itemsData.bengali || [];
+    const items = itemsData[language] || itemsData.hindi || itemsData.english || [];
+    const isRtl = language === 'urdu';
 
     galleryGrid.innerHTML = "";
     items.forEach((item, index) => {
       const article = document.createElement("article");
       article.className = "utility-card";
+      if (isRtl) article.setAttribute("dir", "rtl");
 
       const hasAudio = item.audioSrc && item.audioSrc.trim() !== "";
       const itemNum = index + 1;
@@ -163,8 +191,9 @@ function buildAppJs() {
   }
 
   function updatePageLanguage(language) {
-    const meta = langMetaMap[language] || langMetaMap.bengali;
+    const meta = langMetaMap[language] || langMetaMap.hindi;
     document.documentElement.lang = meta.code;
+    document.documentElement.dir = meta.dir;
     document.title = meta.title;
 
     if (footerText && footerTranslations[language]) {
@@ -186,7 +215,7 @@ function buildAppJs() {
     languageSelector.addEventListener("change", (e) => {
       updatePageLanguage(e.target.value);
     });
-    updatePageLanguage(languageSelector.value || "bengali");
+    updatePageLanguage(languageSelector.value || "hindi");
   }
 });
 `;
@@ -208,20 +237,21 @@ function buildItemHtmlFiles() {
     // Audio sources map by language for this item
     const audioMap = {};
     languages.forEach(l => {
-      const itemData = structuredItems[l.id][i];
+      const itemData = structuredItems[l.id] ? structuredItems[l.id][i] : null;
       audioMap[l.id] = itemData ? itemData.audioSrc : '';
     });
 
     // Language content blocks
     const contentBlocks = languages.map((langObj, idx) => {
       const lang = langObj.id;
-      const itemData = structuredItems[lang][i];
+      const itemData = structuredItems[lang] ? structuredItems[lang][i] : null;
       if (!itemData) return '';
 
       const displayAttr = idx === 0 ? ' style="display: block;"' : ' style="display: none;"';
+      const dirAttr = lang === 'urdu' ? ' dir="rtl"' : '';
       const parasHtml = itemData.paras.map(p => p.trim()).join('<br><br>');
 
-      return `    <div class="bookContentDiv langCnt" id="${lang}"${displayAttr}>
+      return `    <div class="bookContentDiv langCnt" id="${lang}"${dirAttr}${displayAttr}>
       <h2 class="cntHdng">${itemNum}. ${itemData.title}</h2>
       <div class="booImgDiv">
         <img src="./${itemData.imgSrc}" width="100%" alt="${itemNum}. ${itemData.title}" onerror="this.onerror=null; this.src='./images/logo.png';">
@@ -234,7 +264,7 @@ function buildItemHtmlFiles() {
     }).join('\n');
 
     const html = `<!doctype html>
-<html lang="bn">
+<html lang="hi">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -344,7 +374,7 @@ ${contentBlocks}
   </main>
 
   <footer>
-    <p id="footerText">© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
 
   <script>
@@ -354,8 +384,13 @@ ${contentBlocks}
     const languageSelector = document.getElementById("languageSelector");
 
     const footerTranslations = {
+      hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा',
+      english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
       bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
-      malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന'
+      malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
+      urdu: '© 2024 تمام حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
+      tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
+      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા'
     };
 
     function selectLanguage(language) {
@@ -388,7 +423,7 @@ ${contentBlocks}
       languageSelector.addEventListener("change", function () {
         selectLanguage(this.value);
       });
-      selectLanguage(languageSelector.value || "bengali");
+      selectLanguage(languageSelector.value || "hindi");
     }
   </script>
 </body>
