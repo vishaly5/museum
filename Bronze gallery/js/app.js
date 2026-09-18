@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     urdu: { code: "ur", dir: "rtl", title: "کانسی گیلری (Bronze Gallery) | Salar Jung Museum" },
     bengali: { code: "bn", dir: "ltr", title: "ব্রোঞ্জ গ্যালারি (Bronze Gallery) | Salar Jung Museum" },
     gujarati: { code: "gu", dir: "ltr", title: "કાંસ્ય ગેલેરી (Bronze Gallery) | Salar Jung Museum" },
-    kannada: { code: "kn", dir: "ltr", title: "కంచిన గ్యాలరీ (Bronze Gallery) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "ಕಂಚಿನ ಗ್ಯಾಲರಿ (Bronze Gallery) | Salar Jung Museum" },
     odia: { code: "or", dir: "ltr", title: "କାଂସ୍ୟ ଗ୍ୟାଲେରୀ (Bronze Gallery) | Salar Jung Museum" },
     marathi: { code: "mr", dir: "ltr", title: "ब्रॉन्झ गॅलरी (Bronze Gallery) | Salar Jung Museum" },
     malayalam: { code: "ml", dir: "ltr", title: "ഓട്ടു പ്രതിമ ഗാലറി (Bronze Gallery) | Salar Jung Museum" },

@@ -87,82 +87,82 @@ window.galleryItems = {
       "id": "1",
       "accNo": "LXXI-25",
       "badge": "1. LXXI-25",
-      "title": "1. LXXI-25: The Last Supper",
-      "desc": "This artwork depicts the Last Supper of Jesus Christ with his twelve disciples before his crucifixion. It captures the dramatic moment after Jesus announces that one of them will betray him, showing varied expressions of shock, grief, and discussion among the disciples. Created in high-relief bronze, the composition emphasizes perspective, human emotion, and refined craftsmanship in European bronze casting.",
+      "title": "1. Last Supper (LXXI - 25)",
+      "desc": "This artwork shows the Last Supper, the final meal of Jesus Christ with his twelve disciples before his crucifixion. The scene is inspired by the famous painting by Leonardo da Vinci. In this moment, Jesus tells his disciples that one of them will betray him. This causes different emotional reactions - such as surprise, sadness, anger, and confusion - which can be seen in their gestures and facial expressions. The central figure is Jesus, shown calm and peaceful, while the disciples are arranged on both sides of him. The bronze surface has raised patterns and carvings that create a three-dimensional effect. It was made in England in the 20th century.",
       "image": "Images/Bronze gallery item-1.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/1. अंतिम भोज.wav"
+      "audioSrc": "Audio/english/1. Last Supper (LXXI - 25).wav"
     },
     {
       "id": "2",
       "accNo": "LXXI-194",
       "badge": "2. LXXI-194",
-      "title": "2. LXXI-194: Augustus Caesar",
-      "desc": "This bronze statue represents Augustus Caesar, the first Emperor of the Roman Empire, who ruled from 27 BCE to 14 CE. Depicted in royal stance with a commanding posture, he wears classic Roman armor and drapery. The sculpture highlights his leadership, statesmanship, and the golden age of Pax Romana.",
+      "title": "2. Augustus Caesar (LXXI - 194)",
+      "desc": "This statue represents Augustus Caesar, the first Emperor of the Roman Empire. He ruled from 27 BC to AD 14 and is remembered for bringing peace and stability to Rome after many years of war. He was a powerful ruler, a skilled politician, and a strong military leader. Augustus is shown standing confidently, wearing a leather armour that shows his role as a commander of the Roman army. His raised right arm shows authority and leadership. A small child figure near his leg represents Cupid, linking Augustus to the goddess Venus and symbolizing his divine origin and right to rule. The statue reflects Roman ideas of strength, order, and leadership.",
       "image": "Images/Bronze gallery item-2.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/2. ऑगस्टस सीज़र.wav"
+      "audioSrc": "Audio/english/2. Augustus Caesar (LXXI - 194).wav"
     },
     {
       "id": "3",
       "accNo": "LXV-49",
       "badge": "3. LXV-49",
-      "title": "3. LXV-49: Bust of Napoleon Bonaparte",
-      "desc": "This bronze bust captures the likeness of Napoleon Bonaparte (1769–1821), the renowned French military commander and Emperor. Resting on a dark marble pedestal, the bust conveys determination, strategic vision, and regal authority, celebrating his historical legacy across Europe.",
+      "title": "3. Bust of Napoleon Bonaparte (LXV - 49)",
+      "desc": "This bronze bust shows Napoleon Bonaparte, the famous French Emperor who lived from 1769 to 1821. He is shown wearing a heavy military dress, which gives him a strong and commanding appearance. His face looks serious and thoughtful, showing leadership, discipline, and confidence. At the base of the bust, there is an eagle, an important symbol of Napoleon’s empire. The eagle stands for strength, victory, and authority. The smooth bronze surface is having fine details in his face and clothing show skilled craftsmanship. This bust reflects how Napoleon was admired in Europe as a powerful ruler and military leader. It was made in France by the artist R. Colombo.",
       "image": "Images/Bronze gallery item-3.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/3. नेपोलियन बोनापार्ट की अर्धप्रतिमा.wav"
+      "audioSrc": "Audio/english/3. Bust of Napoleon Bonaparte (LXV - 49).wav"
     },
     {
       "id": "4",
       "accNo": "LXXI-188",
       "badge": "4. LXXI-188",
-      "title": "4. LXXI-188: Mercury",
-      "desc": "This bronze sculpture depicts Mercury, the Roman messenger god of speed, travel, and commerce. Balanced gracefully on one foot atop a wind-gust pedestal, Mercury is shown in mid-flight with winged sandals (talaria) and carrying the caduceus wand. The bronze figure embodies agility, balance, and classical Greco-Roman aesthetic elegance.",
+      "title": "4. Mercury (LXXI - 188)",
+      "desc": "This bronze sculpture shows Mercury, the Roman god of messages, travel, and speed. He is shown in a flying position, which makes the figure look light and full of movement. Mercury wears a winged cap and winged sandals, showing his great speed and his role as the messenger of the gods. One foot gently rests on the head of a small child figure, showing balance and control. His slim and well-shaped body reflects beauty and strength. The sculpture looks elegant and lively, showing the artist’s skill and clearly expressing the ideas of speed, grace, and motion.",
       "image": "Images/Bronze gallery item-4.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/4. मरकरी.wav"
+      "audioSrc": "Audio/english/4. Mercury (LXXI - 188).wav"
     },
     {
       "id": "5",
       "accNo": "LXXI-68",
       "badge": "5. LXXI-68",
-      "title": "5. LXXI-68: Winged Lady",
-      "desc": "Crafted in France, this elegant bronze statue features a winged female figure standing poised on a sphere mounted on a square marble base. Representing victory, freedom, or allegorical grace, her flowing drapery and outstretched wings highlight 19th-century European bronze artistry.",
+      "title": "5. Winged Lady (LXXI - 68) *",
+      "desc": "This bronze statue from France shows a beautiful winged lady standing gracefully on round ball placed over a square marble base. She wears a classical dress tied at the waist, inspired by ancient Greek style. She balances lightly on one foot, giving a feeling of movement and elegance. In her raised hand, this is a symbol of victory, honour, and success. She holds a trumpet, which represents announcement and celebration. The folds of her dress and the careful details of her face and wings show fine craftsmanship. This artwork reflects 19th-century European interest in classical beauty, balance, and symbolic meaning.",
       "image": "Images/Bronze gallery item-5.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/5. पंखों वाली महिला.wav"
+      "audioSrc": "Audio/english/5. Winged Lady (LXXI - 68).wav"
     },
     {
       "id": "6",
       "accNo": "LXVII-78-1",
       "badge": "6. LXVII-78-1",
-      "title": "6. LXVII-78-1: Alexander the Great",
-      "desc": "This French bronze sculpture depicts Alexander the Great (356–323 BCE), one of history’s greatest military leaders, mounted on his legendary stallion Bucephalus. The horse rears up on its hind legs with dynamic energy while Alexander wears armored regalia, capturing military valor and heroic conquest.",
+      "title": "6. Alexander the Great (LXVII-78-1)",
+      "desc": "This bronze sculpture shows Alexander the Great, one of the greatest generals in world history, who lived from 356 to 323 B.C. It is a French bronze copy based on an ancient original statue. Alexander is shown riding a strong and powerful horse named Bucephalus, his famous and loyal companion. The horse is rising on its back legs, which creates a feeling of movement and energy. Alexander wears a warrior’s helmet and armour, showing that he was a brave and skilled military leader. Overall, this artwork celebrates his strength, courage, and the great impact he had on the ancient world.",
       "image": "Images/Bronze gallery item-6.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/6. सिकंदर महान.wav"
+      "audioSrc": "Audio/english/6. Alexander the Great (LXVII-78-1).wav"
     },
     {
       "id": "7",
       "accNo": "LXXI-184",
       "badge": "7. LXXI-184",
-      "title": "7. LXXI-184: Statue of Mercury (Messenger God)",
-      "desc": "This bronze statue presents Mercury seated thoughtfully on a naturalistic rock formation. Depicted as a youthful male figure in classical nude form, his identifying winged sandals symbolize swift passage between gods and mortals, demonstrating serenity and refined bronze casting technique.",
+      "title": "7. Statue of MERCURY (God of Messenger) (LXXI - 184)",
+      "desc": "This bronze sculpture represents Mercury, the Roman god of messages, travel, and speed. He is shown as a young man sitting on a natural rock in a relaxed and thoughtful pose. His body is shown nude, following the classical tradition of ancient Greek and Roman art. The most important detail is the wings attached to his feet. These special winged slippers are his main symbol and show his ability to move quickly between the gods and humans. The rock base adds a natural touch to the sculpture. Overall, this French bronze statue beautifully represents Mercury as a swift, graceful, and powerful messenger of the gods.",
       "image": "Images/Bronze gallery item-7.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/7. मर्करी की प्रतिमा (संदेशवाहक देवता).wav"
+      "audioSrc": "Audio/english/7. Statue of MERCURY (God of Messenger) (LXXI - 184).wav"
     },
     {
       "id": "8",
       "accNo": "LXXI-66",
       "badge": "8. LXXI-66",
-      "title": "8. LXXI-66: Tarantella Dance by a Fisherman",
-      "desc": "This bronze figure captures a lively Italian fisherman performing the traditional Tarantella dance while holding castanets. With raised arms and crossed legs, the animated posture reflects the joy, rhythm, and folk traditions of southern European coastal communities.",
+      "title": "8. Tarantella Dance by a Fisherman (LXXI - 66)",
+      "desc": "This sculpture shows a man dancing with clappers in a lively and energetic pose. His raised arms and crossed legs make the figure look as if he is truly dancing. The clappers in his hands are simple musical instruments used to keep rhythm during folk dances. The sculpture is inspired by the Tarantella, a traditional folk dance from southern Europe, often performed by fishermen and villagers during celebrations. The dancer’s half-naked body and short garment suggest he is a working-class man. This bronze sculpture shows interest in common people, music, and village life rather than kings or gods.",
       "image": "Images/Bronze gallery item-8.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/8. एक मछुआरे द्वारा टारेंटेला नृत्य.wav"
+      "audioSrc": "Audio/english/8. Tarantella Dance by a Fisherman (LXXI - 66).wav"
     },
     {
       "id": "9",
       "accNo": "LXXI-189",
       "badge": "9. LXXI-189",
-      "title": "9. LXXI-189: Vulcan (Roman God of Fire)",
-      "desc": "This sculpture represents Vulcan, the Roman god of fire, metalworking, and the forge. Shown in muscular classical form, he holds a blacksmith's hammer in his right hand and tongs in his left, symbolizing craftsmanship, strength, and creative mastery over fire and iron.",
+      "title": "9. Vulcan (Roman God of Fire) (LXXI - 189)",
+      "desc": "This statue represents Vulcan, the Roman god of fire, metalwork, and blacksmiths. He was believed to make weapons, tools, and armour for the gods. The figure is shown nude, following the ancient classical tradition of showing gods with ideal human bodies to express strength and power. Vulcan holds a hammer in his right hand, which is the main symbol of a blacksmith and shows his skill in shaping metal. In his left hand, he holds tongs used to handle hot iron. His strong muscles show hard physical work, and his serious face shows focus and determination. Vulcan is a symbol of creative power, fire, and skilled craftsmanship.",
       "image": "Images/Bronze gallery item-9.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/9. वुल्कन (अग्नि के रोमन देवता).wav"
+      "audioSrc": "Audio/english/9. Vulcan (Roman God of Fire) (LXXI - 189).wav"
     }
   ],
   "telugu": [
@@ -215,7 +215,10 @@ window.galleryItems = {
       "id": "6",
       "accNo": "LXVII-78-1",
       "badge": "6. LXVII-78-1",
-      "title": "6. LXV      "desc": "[ODIA DESCRIPTION]",RY/6. सिकंदर महान.wav"
+      "title": "6. LXVII-78-1: అలెగ్జాండర్ ది గ్రేట్ (Alexander the Great)",
+      "desc": "ప్రపంచ ప్రసిద్ధ విజేత అలెగ్జాండర్ ది గ్రేట్ తన నమ్మకమైన గుర్రం బ్యూసెఫాలస్ పై స్వారీ చేస్తున్న దృశ్యాన్ని ఈ కాంస్య శిల్పం చూపుతుంది.",
+      "image": "Images/Bronze gallery item-6.png",
+      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/6. सिकंदर महान.wav"
     },
     {
       "id": "7",
@@ -328,90 +331,6 @@ window.galleryItems = {
       "audioSrc": "Audio/Tamil/BRONZE GALLERY/Vulcan (Roman God of Fire) (LXXI - 189).wav"
     }
   ],
-  "odia": [
-    {
-      "id": "1",
-      "accNo": "LXXI-25",
-      "badge": "1. LXXI-25",
-      "title": "1. LXXI-25: ଅନ୍ତିମ ଭୋଜନ (LXXI - 25)",
-      "desc": "ଅନ୍ତିମ ଭୋଜନ (LXXI - 25) ଏହି କଳାକୃତିଟି ଶେଷ ଭୋଜନର ଦୃଶ୍ୟକୁ ଦର୍ଶାଉଛି, ଯାହା ଯୀଶୁଙ୍କୁ ତାଙ୍କ ଶିଷ୍ୟମାନଙ୍କ ସହିତ ବିଶ୍ୱାସଘାତ ସମ୍ଭାବନା ଦେଖାଏ, ଏବଂ ଏହା ଆକାଶୀୟ, ଦୁଃଖ, କ୍ରୋଧ ଓ ବିଭ୍ରାଣ୍ଟତାର ଭାବନାକୁ ପ୍ରକାଶ କିରୁଛି।",
-      "image": "Images/Bronze gallery item-1.png",
-      "audioSrc": "Audio/odia/1. ଅନ୍ତିମ ଭୋଜନ (LXXI - 25).wav"
-    },
-    {
-      "id": "2",
-      "accNo": "LXXI-194",
-      "badge": "2. LXXI-194",
-      "title": "2. LXXI-194: ଅଗଷ୍ଟସ୍ ସିଜର (LXXI - 194)",
-      "desc": "[ODIA DESCRIPTION]",
-      "image": "Images/Bronze gallery item-2.png",
-      "audioSrc": "Audio/odia/2. ଅଗଷ୍ଟସ୍ ସିଜର (LXXI - 194).wav"
-    },
-    {
-      "id": "3",
-      "accNo": "LXV-49",
-      "badge": "3. LXV-49",
-      "title": "3. LXV-49: ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ ଆବକ୍ଷ-ପ୍ରତିମା",
-      "desc": "[ODIA DESCRIPTION]",
-      "image": "Images/Bronze gallery item-3.png",
-      "audioSrc": "Audio/odia/3. ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ ଆବକ୍ଷ-ପ୍ରତିମା.wav"
-    },
-    {
-      "id": "4",
-      "accNo": "LXXI-188",
-      "badge": "4. LXXI-188",
-      "title": "4. LXXI-188: ମରକ୍ୟୁରୀ",
-      "desc": "[ODIA DESCRIPTION]",
-      "image": "Images/Bronze gallery item-4.png",
-      "audioSrc": "Audio/odia/4. ମରକ୍ୟୁରୀ.wav"
-    },
-    {
-      "id": "5",
-      "accNo": "LXXI-68",
-      "badge": "5. LXXI-68",
-      "title": "5. LXXI-68: ଡେଣା ଥିବା ମହିଳାଙ୍କ ପ୍ରତିମା*",
-      "desc": "ଇସ୍ପାତରେ ନିର୍ମିତ ଏହି ଢାଲଟି ୧୮ଶ ସତାବ୍ଦୀର ଦକ୍ଷିଣ ଭାରତୀୟ ସୂକ୍ଷ୍ମ ଧାତବ କଳା ପରମ୍ପରାର ଏକ ଉତ୍କୃଷ୍ଟ ନିଦର୍ଶନ। ଏହାର ଧାରଗୁଡ଼ିକ ସୁନାର ମନୋରମ ସ୍ୱର୍ଣ୍ଣ-ଖଚିତ କାରୁକାର୍ଯ୍ୟରେ ସୁଶୋଭିତ, ଯାହା ଏହାର କଳାତ୍ମକ ନିପୁଣତା ଏବଂ ଦୃଶ୍ୟମାନ ସୌନ୍ଦର୍ଯ୍ୟକୁ ବହୁଗୁଣିତ କରିଥାଏ। ଏହାର ବାହ୍ୟ ପୃଷ୍ଠଭାଗରେ ଚାରୋଟି ସୁଦୃଢ଼ ଇସ୍ପାତର ନୋବ୍ ଲଗାଯାଇଛି, ଯାହା ଭିତର ପାର୍ଶ୍ୱରୁ ଧରିବା ପାଇଁ ମୁଠା ଭାବେ କାର୍ଯ୍ୟ କରିବା ସହ ଢାଲଟିର ଗଠନକୁ ଅଧିକ ଦୃଢ କରିଥାଏ। ଢାଲଟିର ମଧ୍ୟଭାଗରେ ସମଗ୍ର ପୃଷ୍ଠକୁ ବ୍ୟାପି ରହିଥିବା ଏକ କୁଣ୍ଡଳୀକୃତ ସର୍ପର ଆକୃତି ଖୋଦନ କରାଯାଇଛି। ସର୍ପଟିର ଏହି ଜୀବନ୍ତ ଚିତ୍ରଣ ଏହି କଳାକୃତିକୁ ପ୍ରତୀକାତ୍ମକ ଅର୍ଥ ଏବନ୍ତି ତଥା ନାଟକୀୟ ଗତିଶୀଳତା ଦେଇଥାଏ।",
-      "image": "Images/Bronze gallery item-5.png",
-      "audioSrc": "Audio/odia/5. ଡେଣା ଥିବା ମହିଳାଙ୍କ ପ୍ରତିମା.wav"
-    },
-    {
-      "id": "6",
-      "accNo": "LXVII-78-1",
-      "badge": "6. LXVII-78-1",
-      "title": "6. LXVII-78-1: ଆଲେକ୍ସାଣ୍ଡାର୍ ଦ ଗ୍ରେଟ୍",
-      "desc": "ଇସ୍ପାତରେ ନିର୍ମିତ ଏହି ଢାଲଟି ୧୮ଶ ଶତାବ୍ଦୀ...",
-      "image": "Images/Bronze gallery item-6.png",
-      "audioSrc": "Audio/odia/6. ଆଲେକ୍ସାଣ୍ଡାର୍ ଦ ଗ୍ରେଟ୍.wav"
-    },
-    {
-      "id": "7",
-      "accNo": "LXXI-184",
-      "badge": "7. LXXI-184",
-      "title": "7. LXXI-184: ମରକ୍ୟୁରୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି (ଦୂତଙ୍କ ଦେବତା)",
-      "desc": "ଇସ୍ପାତରେ ନିର୍ମିତ ଏହି ଢାଲଟି ୧୮ଶ ସତାବ୍ଦୀର ଦକ୍ଷିଣ ଭାରତୀୟ ସୂକ୍ଷ୍ମ ଧାତବ କଳା ପରମ୍ପରାର ଏକ ଉତ୍କୃଷ୍ଟ ନିଦର୍ଶନ। ଏହାର ଧାରଗୁଡ଼ିକ ସୁନାର ମନୋରମ ସ୍ୱର୍ଣ୍ଣ-ଖଚିତ କାରୁକାର୍ଯ୍ୟରେ ସୁଶୋଭିତ, ଯାହା ଏହାର କଳାତ୍ମକ ନିପୁଣତା ଏବଂ ଦୃଶ୍ୟମାନ ସୌନ୍ଦର୍ଯ୍ୟକୁ ବହୁଗୁଣିତ କରିଥାଏ।",
-      "image": "Images/Bronze gallery item-7.png",
-      "audioSrc": "Audio/odia/7. ମରକ୍ୟୁରୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି.wav"
-    },
-    {
-      "id": "8",
-      "accNo": "LXXI-66",
-      "badge": "8. LXXI-66",
-      "title": "8. LXXI-66: ମତ୍ସ୍ୟଜୀବୀଙ୍କ ଟାରାଣ୍ଟେଲା ନୃତ୍ୟ",
-      "desc": "ଇସ୍ପାତରେ ନିର୍ମିତ ଏହି ଢାଲଟି ୧୮ଶ ସତାବ୍ଦୀର ଦକ୍ଷିଣ ଭାରତୀୟ ସୂକ୍ଷ୍ମ ଧାତବ କଳା ପରମ୍ପରାର ଏକ ଉତ୍କୃଷ୍ଟ ନିଦର୍ଶନ।",
-      "image": "Images/Bronze gallery item-8.png",
-      "audioSrc": "Audio/odia/8. ମତ୍ସ୍ୟଜୀବୀଙ୍କ ଟାରାଣ୍ଟେଲା ନୃତ୍ୟ.wav"
-    },
-    {
-      "id": "9",
-      "accNo": "LXXI-189",
-      "badge": "9. LXXI-189",
-      "title": "9. LXXI-189: ଭଲକାନ୍ (ଅଗ୍ନିର ରୋମାନ୍ ଦେବତା)",
-      "desc": "ଇସ୍ପାତରେ ନିର୍ମିତ ଏହି ଢାଲଟି ୧୮ଶ ସତାବ୍ଦୀର ଦକ୍ଷିଣ ଭାରତୀୟ ସୂକ୍ଷ୍ମ ଧାତବ କଳା ପରମ୍ପରାର ଏକ ଉତ୍କୃଷ୍ଟ ନିଦର୍ଶନ।",
-      "image": "Images/Bronze gallery item-9.png",
-      "audioSrc": "Audio/odia/9. ଭଲକାନ୍.wav"
-    }
-  ],
-  "marathi": [
   "marathi": [
     {
       "id": "1",
@@ -583,82 +502,82 @@ window.galleryItems = {
       "id": "1",
       "accNo": "LXXI-25",
       "badge": "1. LXXI-25",
-      "title": "1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)",
-      "desc": "इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।",
+      "title": "1. ಕೊನೆಯ ಭೋಜನ (LXXI -25)",
+      "desc": "ಈ ಕಲಾಕೃತಿಯು ಯೇಸುಕ್ರಿಸ್ತರು ತಮನ್ನು ಶಿಲುಬೆಗೇರಿಸುವ ಮೊದಲು ತನ್ನ ಹನ್ನೆರಡು ಮಂದಿ ಶಿಷ್ಯರೊಂದಿಗೆ ಸೇವಿಸಿದ ಕೊನೆಯ ಊಟವಾದ 'ದ ಲಾಸ್ಟ್ ಸಪ್ಪರ್' (ಅಂತಿಮ ಭೋಜನ) ಅನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ಈ ದೃಶ್ಯವು ಲಿಯೋನಾರ್ಡೊ ಡಾ ವಿಂಚಿ ಅವರ ಪ್ರಸಿದ್ಧ ವರ್ಣಚಿತ್ರದಿಂದ ಪ್ರೇರಿತವಾಗಿದೆ. ಈ ಬೋಜನದ ಸಂಧರ್ಭದಲ್ಲಿವ ಯೇಸು ತಮ್ಮ ಶಿಷ್ಯರಿಗೆ, ನಮ್ಮಲಿನ ಒಬ್ಬನು ತನಗೆ ದ್ರೋಹ ಮಾಡುತ್ತಾನೆ ಎಂದು ಹೇಳುತ್ತಾರೆ. ಇದು ಆಶ್ಚರ್ಯ, ದುಃಖ, ಕೋಪ ಮತ್ತು ಗೊಂದಲದಂತಹ ವಿಭಿನ್ನ ಭಾವುಕ ಪ್ರತಿಕ್ರಿಯೆಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ - ಇದನ್ನು ಅವರ ಹಾವಭಾವಗಳು ಮತ್ತು ಮುಖಭಾವಗಳಲ್ಲಿ ಕಾಣಬಹುದು. ಯೇಸು ಕೇಂದ್ರ ವ್ಯಕ್ತಿಯಾಗಿದ್ದು, ಶಾಂತ ಮತ್ತು ನೆಮ್ಮದಿಯಿಂದಿರುವುದನ್ನು ತೋರಿಸಲಾಗಿದೆ; ಹಾಗೆಯೇ ಶಿಷ್ಯರನ್ನು ಅವನ ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. ಇದರ ಕಂಚಿನ ಮೇಲ್ಮೈಯು ಉಬ್ಬು ಮಾದರಿಗಳು ಮತ್ತು ಕೆತ್ತನೆಗಳನ್ನು ಹೊಂದಿದ್ದು, ಅದು ಮೂರು ಆಯಾಮದ (ತ್ರೀ-ಡಿ) ಪರಿಣಾಮವನ್ನು ಸೃಷ್ಟಿಸುತ್ತದೆ. ಇದನ್ನು 20ನೇ ಶತಮಾನದಲ್ಲಿ ಇಂಗ್ಲೆಂಡ್‌ನಲ್ಲಿ ತಯಾರಿಸಲಾಯಿತು.",
       "image": "Images/Bronze gallery item-1.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/1. अंतिम भोज.wav"
+      "audioSrc": "Audio/kannada/Last Supper (LXXI - 25).wav"
     },
     {
       "id": "2",
       "accNo": "LXXI-194",
       "badge": "2. LXXI-194",
-      "title": "2. LXXI-194: ऑगस्टस सीज़र (LXXI - 194)",
-      "desc": "यह प्रतिमा ऑगस्टस सीज़र को दर्शाती है, जो रोमन साम्राज्य के प्रथम सम्राट थे। उन्होंने 27 ईसा पूर्व से 14 ईस्वी तक शासन किया। कई वर्षों तक चले युद्धों के बाद रोम में शांति और स्थिरता स्थापित करने के लिए उन्हें याद किया जाता है। वे एक शक्तिशाली शासक, कुशल राजनीतिज्ञ और सशक्त सैन्य नेता थे। ऑगस्टस को आत्मविश्वास के साथ खड़े हुए दर्शाया गया है। उन्होंने चमड़े का कवच धारण किया है, जो रोमन सेना के सेनापति के रूप में उनकी भूमिका को दर्शाता है। उनका उठा हुआ दाहिना हाथ अधिकार और नेतृत्व का प्रतीक है। उनके पैर के पास बनी एक छोटी बालक की आकृति क्यूपिड (प्रेम के देवता) को दर्शाती है। यह ऑगस्टस के देवी वीनस से संबंध को स्थापित करती है तथा उनकी दैवी उत्पत्ति और शासन करने के अधिकार का प्रतीक है। यह प्रतिमा शक्ति, व्यवस्था और नेतृत्व से संबंधित रोमन विचारों को प्रतिबिंबित करती है।",
+      "title": "2. ಆಗಸ್ಟಸ್ ಸೀಸರ್ (LXXI - 194)",
+      "desc": "ಈ ಪ್ರತಿಮೆಯು ರೋಮನ್ ಸಾಮ್ರಾಜ್ಯದ ಮೊದಲ ಚಕ್ರವರ್ತಿಯಾದ ಆಗಸ್ಟಸ್ ಸೀಸರ್ ಅವರನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಇವರು ಕ್ರಿ.ಪೂ. 27 ರಿಂದ ಕ್ರಿ.ಶ. 14 ರವರೆಗೆ ಆಡಳಿತ ನಡೆಸಿದರು ಮತ್ತು ಅನೇಕ ವರ್ಷಗಳ ಯುದ್ಧದ ನಂತರ ರೋಮ್‌ಗೆ ಶಾಂತಿ ಹಾಗೂ ಸ್ಥಿರತೆಯನ್ನು ತಂದಿದ್ದಕ್ಕಾಗಿ ಸ್ಮರಿಸಲ್ಪಡುತ್ತಾರೆ. ಇವರು ಶಕ್ತಿಯುತ ಆಡಳಿತಗಾರ, ನುರಿತ ರಾಜಕಾರಣಿ ಮತ್ತು ಪ್ರಬಲ ಮಿಲಿಟರಿ ನಾಯಕರಾಗಿದ್ದರು. ಆಗಸ್ಟಸ್ ರೋಮನ್ ಸೈನ್ಯದ ದಂಡನಾಯಕನಾಗಿ ತಮ್ಮ ಪಾತ್ರವನ್ನು ತೋರಿಸುವ ಚರ್ಮದ ರಕ್ಷಾಕವಚವನ್ನು ಧರಿಸಿ, ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ನಿಂತಿರುವುದನ್ನು ತೋರಿಸಲಾಗಿದೆ. ಇವರ ಎತ್ತಿದ ಬಲಗೈ ಅಧಿಕಾರ ಮತ್ತು ನಾಯಕತ್ವವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ಇವರ ಕಾಲಿನ ಬಳಿ ಇರುವ ಸಣ್ಣ ಮಗುವಿನ ಆಕೃತಿಯು ಕ್ಯೂಪಿಡ್ ಅನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ; ಇದು ಆಗಸ್ಟಸ್ ಅವರನ್ನು ವೀನಸ್ ದೇವತೆಗೆ ಸಂಯೋಜಿಸುತ್ತದೆ ಮತ್ತು ಅವರ ದೈವಿಕ ಮೂಲ ಹಾಗೂ ಆಳುವ ಹಕ್ಕನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ. ಈ ಪ್ರತಿಮೆಯು ರೋಮನ್ನರ ಶಕ್ತಿ, ಸುವ್ಯವಸ್ಥೆ ಮತ್ತು ನಾಯಕತ್ವದ ಕಲ್ಪನೆಗಳನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ.",
       "image": "Images/Bronze gallery item-2.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/2. ऑगस्टस सीज़र.wav"
+      "audioSrc": "Audio/kannada/Augustus Caesar (LXXI - 194).wav"
     },
     {
       "id": "3",
       "accNo": "LXV-49",
       "badge": "3. LXV-49",
-      "title": "3. LXV-49: नेपोलियन बोनापार्ट की अर्धप्रतिमा (LXV - 49)",
-      "desc": "यह कांस्य अर्धप्रतिमा प्रसिद्ध फ्रांसीसी सम्राट नेपोलियन बोनापार्ट को दर्शाती है, जो 1769 से 1821 तक जीवित रहे। उन्हें भारी सैन्य पोशाक पहने हुए दिखाया गया है, जो उनके व्यक्तित्व को प्रभावशाली और अधिकारपूर्ण रूप प्रदान करती है। उनका चेहरा गंभीर एवं विचारशील दिखाई देता है, जो नेतृत्व, अनुशासन और आत्मविश्वास को अभिव्यक्त करता है। अर्धप्रतिमा के आधार पर एक गरुड़ बना हुआ है, जो नेपोलियन के साम्राज्य का एक महत्वपूर्ण प्रतीक था। गरुड़ शक्ति, विजय और प्रभुत्व का प्रतीक है। कांस्य की चिकनी सतह पर उनके चेहरे और वस्त्रों के बारीक विवरण कलाकार के कुशल शिल्पकौशल को दर्शाते हैं। यह अर्धप्रतिमा इस बात को प्रतिबिंबित करती है कि यूरोप में नेपोलियन को एक शक्तिशाली शासक और सैन्य नेता के रूप में कितना सम्मान प्राप्त था। इसका निर्माण फ्रांस में कलाकार आर. कोलंबो द्वारा किया गया था।",
+      "title": "3. ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯ ಪ್ರತಿಮೆ (LXV-49)",
+      "desc": "ಈ ಕಂಚಿನ ಅರ್ಧಪ್ರತಿಮೆಯು 1769 ರಿಂದ 1821 ರವರೆಗೆ ಜೀವಿಸಿದ್ದ ಫ್ರಾನ್ಸ್‌ನ ಪ್ರಸಿದ್ಧ ಚಕ್ರವರ್ತಿ ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯವರನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ.  ಅವರು ಭಾರವಾದ ಮಿಲಿಟರಿ ಉಡುಪನ್ನು ಧರಿಸಿರುವುದನ್ನು ಕಾಣಬಹುದು, ಇದು ಅವರಿಗೆ ಬಲವಾದ ಮತ್ತು ಪ್ರಭಾವಶಾಲಿ ನೋಟವನ್ನು ನೀಡುತ್ತದೆ.  ಅವರ ಮುಖವು ಗಂಭೀರ ಮತ್ತು ಚಿಂತನಶೀಲವಾಗಿ ಕಾಣುತ್ತದೆ, ಇದು ನಾಯಕತ್ವ, ಶಿಸ್ತು ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ.  ಪ್ರತಿಮೆಯ ಪೀಠದ ಭಾಗದಲ್ಲಿ ಹದ್ದು ಇದೆ, ಇದು ನೆಪೋಲಿಯನ್ ಸಾಮ್ರಾಜ್ಯದ ಪ್ರಮುಖ ಸಂಕೇತವಾಗಿದೆ.  ಹದ್ದು ಶಕ್ತಿ, ವಿಜಯ ಮತ್ತು ಅಧಿಕಾರದ ಸಂಕೇತವಾಗಿದೆ.  ನಯವಾದ ಕಂಚಿನ ಮೇಲ್ಮೈಯಲ್ಲಿರುವ ಅವರ ಮುಖ ಮತ್ತು ಉಡುಪಿನ ಸೂಕ್ಷ್ಮ ವಿವರಗಳು ನುರಿತ ಕಲಾತ್ಮಕ ಕೌಶಲ್ಯವನ್ನು ತೋರಿಸುತ್ತವೆ.  ಈ ಅರ್ಧಪ್ರತಿಮೆಯು ನೆಪೋಲಿಯನ್‌ರನ್ನು ಯುರೋಪ್‌ನಲ್ಲಿ ಒಬ್ಬ ಶಕ್ತಿಶಾಲಿ ಆಡಳಿತಗಾರ ಮತ್ತು ಮಿಲಿಟರಿ ನಾಯಕನಾಗಿ ಹೇಗೆ ಗೌರವಿಸಲಾಗುತ್ತಿತ್ತು ಎಂಬುದನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ.  ಇದನ್ನು ಫ್ರಾನ್ಸ್‌ನಲ್ಲಿ ಆರ್. ಕೊಲಂಬೊ (R. Colombo) ಎಂಬ ಕಲಾವಿದ ತಯಾರಿಸಿದ್ದಾರೆ.",
       "image": "Images/Bronze gallery item-3.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/3. नेपोलियन बोनापार्ट की अर्धप्रतिमा.wav"
+      "audioSrc": "Audio/kannada/Bust of Napoleon Bonaparte (LXV - 49).wav"
     },
     {
       "id": "4",
       "accNo": "LXXI-188",
       "badge": "4. LXXI-188",
-      "title": "4. LXXI-188: मरकरी (LXXI - 188)",
-      "desc": "यह कांस्य मूर्ति मरकरी को दर्शाती है, जो रोमन पौराणिक कथाओं में संदेशों, यात्रा और गति के देवता हैं। उन्हें उड़ने की मुद्रा में दर्शाया गया है, जिससे यह आकृति हल्की और गतिशील प्रतीत होती है। मरकरी ने पंखों वाली टोपी और पंखों वाली सैंडल पहन रखी हैं, जो उनकी तीव्र गति और देवताओं के दूत के रूप में उनकी भूमिका को दर्शाती हैं। उनका एक पैर एक छोटी बालक-आकृति के सिर पर हल्के से टिका हुआ है, जो संतुलन और नियंत्रण का प्रतीक है। उनका सुडौल और आकर्षक शरीर सौंदर्य तथा शक्ति को प्रतिबिंबित करता है। यह मूर्ति अत्यंत सुंदर और जीवंत प्रतीत होती है। इसमें कलाकार की कुशलता दिखाई देती है और गति, सौम्यता तथा गतिशीलता की भावनाएँ स्पष्ट रूप से अभिव्यक्त होती हैं।",
+      "title": "4. ಮರ್ಕ್ಯುರಿ (LXXI-188)",
+      "desc": "ಈ ಕಂಚಿನ  ಶಿಲ್ಪವು ಸಂದೇಶಗಳು, ಪ್ರಯಾಣ ಮತ್ತು ವೇಗದ ರೋಮನಿನ್‌ ದೇವತೆಯಾದ ಮರ್ಕ್ಯುರಿಯನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ.  ಅವರನ್ನು ಹಾರುವ ಭಂಗಿಯಲ್ಲಿ ಚಿತ್ರಿಸಲಾಗಿದೆ, ಇದು ಈ ಆಕೃತಿಯನ್ನು ಹಗುರವಾಗಿ ಮತ್ತು ಚಲನೆಯಿಂದ ಕೂಡಿದಂತೆ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ.  ಮರ್ಕ್ಯುರಿಯು ರೆಕ್ಕೆಗಳಿರುವ ಟೋಪಿ ಮತ್ತು ರೆಕ್ಕೆಗಳಿರುವ ಪಾದರಕ್ಷೆಗಳನ್ನು ಧರಿಸಿದ್ದಾರೆ, ಇದು ಅವರ ಅಪಾರ ವೇಗವನ್ನು ಮತ್ತು ದೇವತೆಗಳ ದೂತನಾಗಿ ಅವರ ಪಾತ್ರವನ್ನು ತೋರಿಸುತ್ತದೆ.  ಅವರ ಒಂದು ಪಾದವು ಸಣ್ಣ ಮಗುವಿನ ಆಕೃತಿಯ ತಲೆಯ ಮೇಲೆ ಮೆಲ್ಲನೆ ನಿಂತಿದೆ, ಇದು ಸಮತೋಲನ ಮತ್ತು ನಿಯಂತ್ರಣವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ.  ಅವರ ತೆಳ್ಳಗಿನ ಮತ್ತು ಸುಂದರ ಆಕಾರದ ದೇಹವು ಸೌಂದರ್ಯ ಹಾಗೂ ಶಕ್ತಿಯನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ.  ಈ ಶಿಲ್ಪವು ಸೊಗಸಾಗಿ ಮತ್ತು ಜೀವಂತವಾಗಿ ಕಾಣುತ್ತದೆ, ಕಲಾವಿದನ ಕೌಶಲ್ಯವನ್ನು ತೋರಿಸುತ್ತದೆ, ಹಾಗೆಯೇ ವೇಗ, ಸೌಂದರ್ಯ ಮತ್ತು ಚಲನೆಯ ಪರಿಕಲ್ಪನೆಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ವ್ಯಕ್ತಪಡಿಸುತ್ತದೆ.",
       "image": "Images/Bronze gallery item-4.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/4. मरकरी.wav"
+      "audioSrc": "Audio/kannada/Mercury (LXXI - 188).wav"
     },
     {
       "id": "5",
       "accNo": "LXXI-68",
       "badge": "5. LXXI-68",
-      "title": "5. LXXI-68: पंखों वाली महिला (LXXI–68) *",
-      "desc": "फ्रांस की यह कांस्य प्रतिमा एक सुंदर पंखों वाली महिला को दर्शाती है, जो चौकोर संगमरमर के आधार पर रखी गोल गेंद पर सुंदर मुद्रा में खड़ी है। उसने कमर पर बंधी हुई प्राचीन यूनानी शैली से प्रेरित शास्त्रीय पोशाक धारण की है। वह एक पैर पर हल्के संतुलन के साथ खड़ी है, जिससे गति और सौंदर्य का आभास होता है। उसके उठे हुए हाथ में विजय, सम्मान और सफलता का प्रतीक है। दूसरे हाथ में वह एक तुरही धारण किए हुए है, जो उद्घोषणा और उत्सव का प्रतिनिधित्व करती है। उसकी पोशाक की सिलवटें तथा चेहरे और पंखों की बारीकी से उकेरी गई आकृतियाँ उत्कृष्ट शिल्पकौशल को दर्शाती हैं। यह कलाकृति शास्त्रीय सौंदर्य, संतुलन और प्रतीकात्मक अर्थों के प्रति 19वीं शताब्दी के यूरोपीय आकर्षण को प्रतिबिंबित करती है।",
+      "title": "5. ರೆಕ್ಕೆಯ ಮಹಿಳೆ (LXXI-68) *",
+      "desc": "ಫ್ರಾನ್ಸ್‌ನ ಈ ಕಂಚಿನ  ವಿಗ್ರಹವು ಚೌಕಾಕಾರದ ಅಮೃತಶಿಲೆಯ ಪೀಠದ ಮೇಲಿಟ್ಟಿರುವ ದುಂಡಗಿನ ಚೆಂಡಿನ ಮೇಲೆ ಭವ್ಯವಾಗಿ ನಿಂತಿರುವ ಸುಂದರವಾದ ರೆಕ್ಕೆಗಳಿರುವ ಮಹಿಳೆಯನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ.  ಅವರು ಪ್ರಾಚೀನ ಗ್ರೀಕ್ ಶೈಲಿಯಿಂದ ಪ್ರೇರಿತವಾದ, ನಡುಭಾಗದಲ್ಲಿ ಕಟ್ಟಲಾದ ಸಾಂಪ್ರದಾಯಿಕ ಉಡುಪನ್ನು ಧರಿಸಿದ್ದಾರೆ.  ಅವರು ಒಂದು ಕಾಲಿನ ಮೇಲೆ ಹಗುರವಾಗಿ ಸಮತೋಲನ ಕಾಯ್ದುಕೊಂಡಿದ್ದು, ಇದು ಚಲನೆ ಮತ್ತು ಸೌಂದರ್ಯದ ಭಾವನೆಯನ್ನು ನೀಡುತ್ತದೆ.  ಅವರ ಎತ್ತಿದ ಕೈಯಲ್ಲಿರುವ ಸಂಕೇತವು ವಿಜಯ, ಗೌರವ ಮತ್ತು ಯಶಸ್ಸಿನ ಕುರುಹು ಆಗಿದೆ.  ಅವರು ಕಹಳೆಯನ್ನು ಹಿಡಿದಿದ್ದಾರೆ, ಇದು ಘೋಷಣೆ ಮತ್ತು ಆಚರಣೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.  ಅವರ ಉಡುಪಿನ ಮಡಿಕೆಗಳು ಹಾಗೂ ಮುಖ ಮತ್ತು ರೆಕ್ಕೆಗಳ ಸೂಕ್ಷ್ಮ ವಿವರಗಳು ನುರಿತ ಕಲಾತ್ಮಕ ಕೌಶಲ್ಯವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತವೆ.  ಈ ಕಲಾಕೃತಿಯು ಸಾಂಪ್ರದಾಯಿಕ ಸೌಂದರ್ಯ, ಸಮತೋಲನ ಮತ್ತು ಸಂಕೇತಾತ್ಮಕ ಅರ್ಥದಲ್ಲಿ 19ನೇ ಶತಮಾನದ ಯುರೋಪಿಯನ್ನರಿಗಿದ್ದ ಆಸಕ್ತಿಯನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ.",
       "image": "Images/Bronze gallery item-5.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/5. पंखों वाली महिला.wav"
+      "audioSrc": "Audio/kannada/Winged Lady (LXXI - 68).wav"
     },
     {
       "id": "6",
       "accNo": "LXVII-78-1",
       "badge": "6. LXVII-78-1",
-      "title": "6. LXVII-78-1: सिकंदर महान (LXVII-78-1)",
-      "desc": "यह कांस्य मूर्ति सिकंदर महान को दर्शाती है, जो विश्व इतिहास के महानतम सेनापतियों में से एक थे और 356 से 323 ईसा पूर्व तक जीवित रहे। यह प्राचीन मूल प्रतिमा पर आधारित फ्रांसीसी कांस्य प्रतिकृति है। सिकंदर को एक शक्तिशाली और बलशाली घोड़े पर सवार दिखाया गया है, जिसका नाम ब्यूसेफेलस था और जो उनका प्रसिद्ध तथा वफादार साथी था। घोड़ा अपने पिछले पैरों पर उठता हुआ दिखाई देता है, जिससे मूर्ति में गति और ऊर्जा का प्रभाव उत्पन्न होता है। सिकंदर ने योद्धा का हेलमेट और कवच धारण किया हुआ है, जो उनके साहस तथा कुशल सैन्य नेतृत्व को दर्शाता है। समग्र रूप से, यह कलाकृति उनकी शक्ति, वीरता और प्राचीन विश्व पर उनके व्यापक प्रभाव का गौरवगान करती है।",
+      "title": "6. ಅಲೆಕ್ಸಾಂಡರ್ ದಿ ಗ್ರೇಟ್ (LXVII-78-1)",
+      "desc": "ಈ ಕಂಚಿನ  ಶಿಲ್ಪವು ಕ್ರಿ.ಪೂ 356 ರಿಂದ 323 ರವರೆಗೆ ಜೀವಿಸಿದ್ದ ಪ್ರಪಂಚದ ಇತಿಹಾಸದಲ್ಲೇ ಅತ್ಯಂತ ಶ್ರೇಷ್ಠ ದಂಡನಾಯಕರಲ್ಲಿ ಒಬ್ಬನಾದ ಅಲೆಕ್ಸಾಂಡರ್‌ ದಿ ಗ್ರೇಟ್‌ನನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ.  ಇದು ಪ್ರಾಚೀನ ಮೂಲ ವಿಗ್ರಹವನ್ನು ಆಧರಿಸಿದ ಫ್ರೆಂಚ್ ಕಂಚಿನ  ಪ್ರತಿಯಾಗಿದೆ.  ಅಲೆಕ್ಸಾಂಡರ್ ಅವರು ತಮ್ಮ ಪ್ರಸಿದ್ಧ ಮತ್ತು ನಿಷ್ಠಾವಂತ ಸಂಗಾತಿಯಾದ ಬುಸೆಫಾಲಸ್ (Bucephalus) ಎಂಬ ಶಕ್ತಿಶಾಲಿ ಹಾಗೂ ಪ್ರಭಾವಿ ಕುದುರೆಯ ಮೇಲೆ ಸವಾರಿ ಮಾಡುತ್ತಿರುವುದನ್ನು ತೋರಿಸಲಾಗಿದೆ.  ಕುದುರೆಯು ತನ್ನ ಹಿಂದಿನ ಕಾಲುಗಳ ಮೇಲೆ ಮೇಲಕ್ಕೆದ್ದು ನಿಲ್ಲುತ್ತಿದೆ, ಇದು ಚಲನೆ ಮತ್ತು ಶಕ್ತಿಯ ಭಾವನೆಯನ್ನು ಸೃಷ್ಟಿಸುತ್ತದೆ.  ಅಲೆಕ್ಸಾಂಡರ್ ಅವರು ಯೋಧನ ಶಿರಸ್ತ್ರಾಣ ಮತ್ತು ಕವಚವನ್ನು ಧರಿಸಿದ್ದು, ಅವರು ಧೈರ್ಯಶಾಲಿ ಮತ್ತು ನುರಿತ ಮಿಲಿಟರಿ ನಾಯಕರಾಗಿದ್ದರು ಎಂಬುದನ್ನು ಇದು ತೋರಿಸುತ್ತದೆ.  ಒಟ್ಟಾರೆಯಾಗಿ, ಈ ಕಲಾಕೃತಿಯು ಅವರ ಶಕ್ತಿ, ಧೈರ್ಯ ಮತ್ತು ಪ್ರಾಚೀನ ಪ್ರಪಂಚದ ಮೇಲೆ ಅವರು ಬೀರಿದ ಮಹತ್ತರವಾದ ಪ್ರಭಾವವನ್ನು ಕೊಂಡಾಡುತ್ತದೆ.",
       "image": "Images/Bronze gallery item-6.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/6. सिकंदर महान.wav"
+      "audioSrc": "Audio/kannada/Alexander the Great (LXVII-78-1).wav"
     },
     {
       "id": "7",
       "accNo": "LXXI-184",
       "badge": "7. LXXI-184",
-      "title": "7. LXXI-184: मर्करी की प्रतिमा (संदेशवाहक देवता) (LXXI - 184)",
-      "desc": "यह कांस्य मूर्ति मर्करी को दर्शाती है, जो रोमन धर्म में संदेश, यात्रा और गति के देवता माने जाते हैं। उन्हें एक प्राकृतिक चट्टान पर बैठे हुए, शांत और विचारमग्न मुद्रा में एक युवा पुरुष के रूप में दर्शाया गया है। प्राचीन यूनानी और रोमन कला की शास्त्रीय परंपरा के अनुरूप उनका शरीर नग्न रूप में प्रदर्शित किया गया है। इस प्रतिमा की सबसे महत्वपूर्ण विशेषता उनके पैरों से जुड़े पंख हैं। ये विशेष पंखयुक्त चप्पलें उनका प्रमुख प्रतीक हैं और देवताओं तथा मनुष्यों के बीच तीव्र गति से आने-जाने की उनकी क्षमता को दर्शाते हैं। चट्टान का आधार इस मूर्ति को एक प्राकृतिक स्पर्श प्रदान करता है। समग्र रूप से, यह फ्रांसीसी कांस्य प्रतिमा मर्करी को देवताओं के एक तीव्रगामी, सौम्य और शक्तिशाली संदेशवाहक के रूप में सुंदर ढंग से प्रस्तुत करती है।",
+      "title": "7. ಮರ್ಕ್ಯುರಿ ಶಿಲ್ಪಕಲಾಕೃತಿ (ಸಂದೇಶವಾಹಕ ದೇವತೆ) (LXXI-184)",
+      "desc": "ಈ ಕಂಚಿನ  ಶಿಲ್ಪವು ಸಂದೇಶಗಳು, ಪ್ರಯಾಣ ಮತ್ತು ವೇಗದ ರೋಮನ್ ದೇವತೆಯಾದ ಮರ್ಕ್ಯುರಿಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.  ಅವರನ್ನು ನೈಸರ್ಗಿಕ ಬಂಡೆಯ ಮೇಲೆ ಪ್ರಶಾಂತ ಹಾಗೂ ಚಿಂತನಶೀಲ ಭಂಗಿಯಲ್ಲಿ ಕುಳಿತಿರುವ ಯುವಕನಾಗಿ ತೋರಿಸಲಾಗಿದೆ.  ಪ್ರಾಚೀನ ಗ್ರೀಕ್ ಮತ್ತು ರೋಮನ್ ಕಲೆಯ ಸಾಂಪ್ರದಾಯಿಕ ಶೈಲಿಯನ್ನು ಅನುಸರಿಸಿ ಅವರ ದೇಹವನ್ನು ಅನಾವೃತವಾಗಿ ಚಿತ್ರಿಸಲಾಗಿದೆ.  ಅವರ ಪಾದಗಳಿಗೆ ಜೋಡಿಸಲಾದ ರೆಕ್ಕೆಗಳು ಅತ್ಯಂತ ಪ್ರಮುಖವಾದ ವಿವರವಾಗಿದೆ.  ಈ ವಿಶೇಷ ರೆಕ್ಕೆಗಳಿರುವ ಪಾದರಕ್ಷೆಗಳು ಅವರ ಮುಖ್ಯ ಸಂಕೇತವಾಗಿದ್ದು, ದೇವತೆಗಳು ಮತ್ತು ಮಾನವರ ನಡುವೆ ವೇಗವಾಗಿ ಸಂಚರಿಸುವ ಅವರ ಸಾಮರ್ಥ್ಯವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತವೆ.  ಬಂಡೆಯ ಪೀಠವು ಶಿಲ್ಪಕ್ಕೆ ನೈಸರ್ಗಿಕ ಸ್ಪರ್ಶವನ್ನು ನೀಡುತ್ತದೆ.  ಒಟ್ಟಾರೆಯಾಗಿ, ಫ್ರಾನ್ಸ್‌ನ ಈ ಕಂಚಿನ  ವಿಗ್ರಹವು ಮರ್ಕ್ಯುರಿಯನ್ನು ದೇವತೆಗಳ ವೇಗದ, ಸೊಗಸಾದ ಮತ್ತು ಶಕ್ತಿಶಾಲಿ ದೂತನನ್ನಾಗಿ ಸುಂದರವಾಗಿ ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.",
       "image": "Images/Bronze gallery item-7.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/7. मर्करी की प्रतिमा (संदेशवाहक देवता).wav"
+      "audioSrc": "Audio/kannada/Statue of MERCURY (God of Messenger) (LXXI - 184).wav"
     },
     {
       "id": "8",
       "accNo": "LXXI-66",
       "badge": "8. LXXI-66",
-      "title": "8. LXXI-66: एक मछुआरे द्वारा टारेंटेला नृत्य (LXXI - 66)",
-      "desc": "इस मूर्ति में एक व्यक्ति हाथों में खड़ताल (ताल वाद्य) लिए हुए जीवंत और ऊर्जावान मुद्रा में नृत्य करता हुआ दिखाई देता है। उसके उठे हुए हाथ और एक-दूसरे पर क्रॉस किए हुए पैर इस आकृति को वास्तव में नृत्य करते हुए होने का आभास देते हैं। उसके हाथों में पकड़ी खड़ताल सरल वाद्य यंत्र हैं, जिनका उपयोग लोक नृत्यों के दौरान ताल बनाए रखने के लिए किया जाता है। यह मूर्ति दक्षिणी यूरोप के पारंपरिक लोक नृत्य टारेंटेला से प्रेरित है, जिसे उत्सवों के अवसर पर अक्सर मछुआरों और ग्रामीणों द्वारा किया जाता था। नर्तक का अर्धनग्न शरीर और छोटा वस्त्र यह संकेत देता है कि वह श्रमिक वर्ग से संबंधित व्यक्ति है। यह कांस्य मूर्ति राजाओं या देवताओं के बजाय सामान्य जनजीवन, संगीत और ग्रामीण जीवन में कलाकार की रुचि को दर्शाती है।",
+      "title": "8. ಮೀನುಗಾರನಿಂದ ಟ್ಯಾರಂಟೆಲ್ಲಾ ನೃತ್ಯ (LXXI-66)",
+      "desc": "ಈ ಶಿಲ್ಪವು ಚಿಟಿಕೆ/ಕಟ್‌ಪಟ್ಟಿ ವಾದ್ಯಗಳನ್ನು (clappers) ಹಿಡಿದು ಮೋಜಿನಲ್ಲಿ ಮತ್ತು ಉತ್ಸಾಹಭರಿತ ಭಂಗಿಯಲ್ಲಿ ನರ್ತಿಸುತ್ತಿರುವ ವ್ಯಕ್ತಿಯನ್ನು ತೋರಿಸುತ್ತದೆ.  ಆತನ ಎತ್ತಿದ ತೋಳುಗಳು ಮತ್ತು ಒಂದಕ್ಕೊಂದು ಹೆಣೆದುಕೊಂಡಿರುವ ಕಾಲುಗಳು, ಆ ಆಕೃತಿಯು ನಿಜವಾಗಿಯೂ ನರ್ತಿಸುತ್ತಿರುವಂತೆ ಕಾಣುವಂತೆ ಮಾಡುತ್ತವೆ.  ಆತನ ಕೈಯಲ್ಲಿರುವ ಈ ಪಟ್ಟಿಗಳು ಜಾನಪದ ನೃತ್ಯಗಳ ಸಮಯದಲ್ಲಿ ತಾಳ ಕಾಯ್ದುಕೊಳ್ಳಲು ಬಳಸುವ ಸರಳ ಸಂಗೀತ ವಾದ್ಯಗಳಾಗಿವೆ.  ಈ ಶಿಲ್ಪವು ದಕ್ಷಿಣ ಯುರೋಪ್‌ನ ಸಾಂಪ್ರದಾಯಿಕ ಜಾನಪದ ನೃತ್ಯವಾದ 'ಟ್ಯಾರಂಟೆಲ್ಲಾ'ದಿಂದ (Tarantella) ಪ್ರೇರಿತವಾಗಿದೆ, ಇದನ್ನು ಸಂಭ್ರಮಾಚರಣೆಯ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚಾಗಿ ಮೀನುಗಾರರು ಮತ್ತು ಗ್ರಾಮಸ್ಥರು ಪ್ರದರ್ಶಿಸುತ್ತಿದ್ದರು.  ನರ್ತಕನ ಅರ್ಧನಗ್ನ ದೇಹ ಮತ್ತು ಸಣ್ಣ ಉಡುಪು ಆತ ಶ್ರಮಿಕ ವರ್ಗದ ವ್ಯಕ್ತಿ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ.  ಈ ಕಂಚಿನ ಶಿಲ್ಪವು ರಾಜರು ಅಥವಾ ದೇವತೆಗಳಿಗಿಂತ ಹೆಚ್ಚಾಗಿ ಸಾಮಾನ್ಯ ಜನರು, ಸಂಗೀತ ಮತ್ತು ಗ್ರಾಮೀಣ ಜೀವನದ ಮೇಲಿನ ಆಸಕ್ತಿಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
       "image": "Images/Bronze gallery item-8.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/8. एक मछुआरे द्वारा टारेंटेला नृत्य.wav"
+      "audioSrc": "Audio/kannada/Tarantella Dance by a Fisherman (LXXI - 66).wav"
     },
     {
       "id": "9",
       "accNo": "LXXI-189",
       "badge": "9. LXXI-189",
-      "title": "9. LXXI-189: वुल्कन (अग्नि के रोमन देवता) (LXXI - 189)",
-      "desc": "यह प्रतिमा वुल्कन को दर्शाती है, जो रोमन अग्नि, धातु-कर्म और लोहारों के देवता थे। माना जाता था कि वे देवताओं के लिए हथियार, औजार और कवच बनाते थे। इस प्रतिमा में उन्हें नग्न रूप में दर्शाया गया है, जो प्राचीन शास्त्रीय परंपरा के अनुरूप है, जिसमें देवताओं को आदर्श मानव शरीर के रूप में प्रदर्शित कर उनकी शक्ति और सामर्थ्य को व्यक्त किया जाता था। वुल्कन के दाहिने हाथ में हथौड़ा है, जो लोहार का प्रमुख प्रतीक है और धातु को आकार देने में उनकी कुशलता को दर्शाता है। उनके बाएँ हाथ में चिमटा है, जिसका उपयोग गर्म लोहे को पकड़ने के लिए किया जाता है। उनकी सुदृढ़ मांसपेशियाँ कठिन शारीरिक श्रम को दर्शाती हैं, जबकि उनके गंभीर चेहरे पर एकाग्रता और दृढ़ संकल्प दिखाई देता है।",
+      "title": "9. ವಲ್ಕನ್ (ರೋಮನ್ ಅಗ್ನಿ ದೇವತೆ) (LXXI-189)",
+      "desc": "ಈ ವಿಗ್ರಹವು ಬೆಂಕಿ, ಲೋಹದ ಕೆಲಸ ಮತ್ತು ಕಮ್ಮಾರರ ರೋಮನ್ ದೇವತೆಯಾದ ವಲ್ಕನ್‌ರನ್ನು (Vulcan) ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.  ಅವರು ದೇವತೆಗಳಿಗಾಗಿ ಶಸ್ತ್ರಾಸ್ತ್ರಗಳು, ಉಪಕರಣಗಳು ಮತ್ತು ಕವಚಗಳನ್ನು ತಯಾರಿಸುತ್ತಿದ್ದರೆಂದು ನಂಬುತ್ತಿದ್ದರು.  ಶಕ್ತಿ ಮತ್ತು ಸಾಮರ್ಥ್ಯವನ್ನು ವ್ಯಕ್ತಪಡಿಸಲು ದೇವತೆಗಳನ್ನು ಆದರ್ಶ ಮಾನವ ದೇಹಗಳೊಂದಿಗೆ ತೋರಿಸುವ ಪ್ರಾಚೀನ ಸಾಂಪ್ರದಾಯಿಕ ಶೈಲಿಯನ್ನು ಅನುಸರಿಸಿ, ಈ ಆಕೃತಿಯನ್ನು ಅನಾವೃತವಾಗಿ ಚಿತ್ರಿಸಲಾಗಿದೆ.  ವಲ್ಕನ್ ಅವರು ತಮ್ಮ ಬಲಗೈಯಲ್ಲಿ ಸುತ್ತಿಗೆಯನ್ನು ಹಿಡಿದಿದ್ದಾರೆ, ಇದು ಕಮ್ಮಾರನ ಮುಖ್ಯ ಸಂಕೇತವಾಗಿದೆ ಮತ್ತು ಲೋಹಕ್ಕೆ ರೂಪ ನೀಡುವ ಅವರ ಕೌಶಲ್ಯವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ.  ತಮ್ಮ ಎಡಗೈಯಲ್ಲಿ, ಅವರು ಕಾಯಿಸಿದ ಕಬ್ಬಿಣವನ್ನು ಹಿಡಿಯಲು ಬಳಸುವ ಇಕ್ಕಳವನ್ನು ಹಿಡಿದಿದ್ದಾರೆ.  ಅವರ ಶಕ್ತಿಶಾಲಿ ಸ್ನಾಯುಗಳು ಕಠಿಣ ದೈಹಿಕ ಶ್ರಮವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತವೆ, ಮತ್ತು ಅವರ ಗಂಭೀರ ಮುಖವು ಏಕಾಗ್ರತೆ ಹಾಗೂ ದೃಢನಿಶ್ಚಯವನ್ನು ತೋರಿಸುತ್ತದೆ.  ವಲ್ಕನ್ ಸೃಜನಶೀಲ ಶಕ್ತಿ, ಬೆಂಕಿ ಮತ್ತು ನುರಿತ ಕಲಾತ್ಮಕ ಕೌಶಲ್ಯದ ಸಂಕೇತವಾಗಿದ್ದಾರೆ.",
       "image": "Images/Bronze gallery item-9.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/9. वुल्कन (अग्नि के रोमन देवता).wav"
+      "audioSrc": "Audio/kannada/Vulcan (Roman God of Fire) (LXXI - 189).wav"
     }
   ],
   "odia": [
@@ -666,82 +585,82 @@ window.galleryItems = {
       "id": "1",
       "accNo": "LXXI-25",
       "badge": "1. LXXI-25",
-      "title": "1. LXXI-25: कांस्य गैलरी (पश्चिमी खंड)",
-      "desc": "इस कलाकृति में ईसा मसीह द्वारा अपने बारह शिष्यों के साथ क्रूस पर चढ़ाए जाने से पूर्व किए गए अंतिम भोज का दृश्य दर्शाया गया है। यह दृश्य लियोनार्डो दा विंची की प्रसिद्ध चित्रकला से प्रेरित है। इस अवसर पर ईसा मसीह अपने शिष्यों से कहते हैं कि उनमें से कोई एक उनके साथ विश्वासघात करेगा। यह सुनकर शिष्यों में आश्चर्य, दुःख, क्रोध और भ्रम जैसी विभिन्न भावनाएँ उत्पन्न होती हैं, जो उनके हाव-भाव और चेहरे के भावों में दिखाई देती हैं। केंद्र में ईसा मसीह को शांत और सौम्य मुद्रा में दर्शाया गया है, जबकि उनके दोनों ओर शिष्यों को व्यवस्थित रूप से प्रस्तुत किया गया है। कांस्य की सतह पर उभरी हुई आकृतियाँ और नक्काशीदार अलंकरण हैं, जो त्रि-आयामी प्रभाव उत्पन्न करते हैं। इस कलाकृति का निर्माण 20वीं शताब्दी में इंग्लैंड में किया गया था।",
+      "title": "1. ଅନ୍ତିମ ଭୋଜନ (LXXI - 25)",
+      "desc": "ଆସନ୍ତୁ, 'ଅନ୍ତିମ ଭୋଜନ'କୁ ଦର୍ଶାଉଥିବା ଏହି ଆକର୍ଷଣୀୟ କଳାକୃତିଟିକୁ ନିକଟରୁ ଜାଣିବା, ଏଇଟି ଯୀଶୁ ଖ୍ରୀଷ୍ଟ କ୍ରୁଶବିଦ୍ଧ ହେବା ପୂର୍ବରୁ ତାଙ୍କର ଦ୍ୱାଦଶ ଶିଷ୍ୟଙ୍କ ସହ କରିଥିବା ଶେଷ ଭୋଜନର ଦୃଶ୍ୟ। ଏହି ଦୃଶ୍ୟଟି ଲିଓନାର୍ଡୋ ଦା ଭିଞ୍ଚିଙ୍କ ପ୍ରସିଦ୍ଧ ଚିତ୍ରକଳା ଦ୍ୱାରା ଅନୁପ୍ରାଣିତ। ଏହି ମୁହୂର୍ତ୍ତରେ, ଯୀଶୁ ତାଙ୍କ ଶିଷ୍ୟମାନଙ୍କୁ କହୁଛନ୍ତି ଯେ, ସେମାନଙ୍କ ମଧ୍ୟରୁ ଜଣେ ତାଙ୍କ ସହ ବିଶ୍ୱାସଘାତକତା କରିବ। ଏହା ସେମାନଙ୍କ ମଧ୍ୟରେ ଆଶ୍ଚର୍ଯ୍ୟ, ଦୁଃଖ, କ୍ରୋଧ ଏବଂ ଦ୍ୱନ୍ଦ୍ୱ ପରି ବିଭିନ୍ନ ଆବେଗ ସୃଷ୍ଟି କରୁଛି, ଯାହା ସେମାନଙ୍କର ହାବଭାବ ଓ ମୁଖଭଙ୍ଗୀରେ ସ୍ପଷ୍ଟ ଦେଖିହେଉଛି। ଆପଣ ଲକ୍ଷ୍ୟ କଲେ ଦେଖିପାରିବେ ଯେ, ଏହାର କେନ୍ଦ୍ରସ୍ଥଳରେ ଯୀଶୁ ଶାନ୍ତ ଏବଂ ସୌମ୍ୟ ରୂପରେ ବିରାଜମାନ ମାତ୍ର ତାଙ୍କର ଦୁଇ ପାର୍ଶ୍ୱରେ ଥିବା ଶିଷ୍ୟମାନେ ବିଚଳିତ। ଏହାର ବ୍ରୋଞ୍ଜ (କଂସା) ପୃଷ୍ଠଭାଗରେ ଥିବା ଉଦ୍ଭାସିତ ରେଖାଚିତ୍ର ଓ ଖୋଦେଇଗୁଡ଼ିକ ଏକ ଥ୍ରି,ଡି ପ୍ରଭାବ ସୃଷ୍ଟି କରୁଛି। ଏହି କଳାକୃତିଟି ବିଂଶ ଶତାବ୍ଦୀରେ ଇଂଲଣ୍ଡରେ ନିର୍ମିତ ହୋଇଥିଲା।",
       "image": "Images/Bronze gallery item-1.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/1. अंतिम भोज.wav"
+      "audioSrc": "Audio/odia/1. Last Supper (LXXI - 25).wav"
     },
     {
       "id": "2",
       "accNo": "LXXI-194",
       "badge": "2. LXXI-194",
-      "title": "2. LXXI-194: ऑगस्टस सीज़र (LXXI - 194)",
-      "desc": "यह प्रतिमा ऑगस्टस सीज़र को दर्शाती है, जो रोमन साम्राज्य के प्रथम सम्राट थे। उन्होंने 27 ईसा पूर्व से 14 ईस्वी तक शासन किया। कई वर्षों तक चले युद्धों के बाद रोम में शांति और स्थिरता स्थापित करने के लिए उन्हें याद किया जाता है। वे एक शक्तिशाली शासक, कुशल राजनीतिज्ञ और सशक्त सैन्य नेता थे। ऑगस्टस को आत्मविश्वास के साथ खड़े हुए दर्शाया गया है। उन्होंने चमड़े का कवच धारण किया है, जो रोमन सेना के सेनापति के रूप में उनकी भूमिका को दर्शाता है। उनका उठा हुआ दाहिना हाथ अधिकार और नेतृत्व का प्रतीक है। उनके पैर के पास बनी एक छोटी बालक की आकृति क्यूपिड (प्रेम के देवता) को दर्शाती है। यह ऑगस्टस के देवी वीनस से संबंध को स्थापित करती है तथा उनकी दैवी उत्पत्ति और शासन करने के अधिकार का प्रतीक है। यह प्रतिमा शक्ति, व्यवस्था और नेतृत्व से संबंधित रोमन विचारों को प्रतिबिंबित करती है।",
+      "title": "2. ଅଗଷ୍ଟସ୍ ସିଜର (LXXI - 194)",
+      "desc": "ରୋମାନ୍ ସାମ୍ରାଜ୍ୟର ପ୍ରଥମ ସମ୍ରାଟ ଅଗଷ୍ଟସ୍ ସିଜରଙ୍କ ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟିକୁ ଦେଖନ୍ତୁ। ସେ ଖ୍ରୀଷ୍ଟପୂର୍ବ ୨୭ ରୁ ଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୪ ପର୍ଯ୍ୟନ୍ତ ଶାସନ କରିଥିଲେ ଏବଂ ଦୀର୍ଘ ବର୍ଷର ଯୁଦ୍ଧ ପରେ ରୋମ୍‌ରେ ଶାନ୍ତି ଓ ସ୍ଥିରତା ଆଣିଥିବାରୁ ତାଙ୍କୁ ସ୍ମରଣ କରାଯାଏ। ସେ ଜଣେ ଶକ୍ତିଶାଳୀ ଶାସକ, ଦକ୍ଷ ରାଜନେତା ଏବଂ ସମର୍ଥ ସାମରିକ ନେତା ଥିଲେ। ଏହି ପ୍ରତିମୂର୍ତ୍ତିରେ ଆପଣ ଦେଖିପାରିବେ, ଅଗଷ୍ଟସ୍ ଅତ୍ୟନ୍ତ ଆତ୍ମବିଶ୍ୱାସର ସହ ଛିଡ଼ା ହୋଇଛନ୍ତି ଏବଂ ଚମଡ଼ାରେ ତିଆରି ଏକ ବର୍ମ୍ ପିନ୍ଧିଛନ୍ତି, ଯାହା ରୋମାନ୍ ସେନାର ସେନାପତି ଭାବରେ ତାଙ୍କର ଭୂମିକାକୁ ଦର୍ଶାଉଛି। ତାଙ୍କର ଉପରକୁ ଉଠିଥିବା ଡାହାଣ ହାତ କ୍ଷମତା ଏବଂ ନେତୃତ୍ୱର ସୂଚନା ଦିଏ। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ତାଙ୍କ ଗୋଡ଼ ପାଖରେ ଥିବା ଏକ କ୍ଷୁଦ୍ର ଶିଶୁ ଆକୃତି 'କ୍ୟୁପିଡ୍'କୁ ଦର୍ଶାଏ। ଏହା ଅଗଷ୍ଟସ୍‌ଙ୍କୁ ଦେବୀ ଭେନସ୍‌ଙ୍କ ସହ ଯୋଡ଼ିବା ସହ ତାଙ୍କର ଦୈବୀ ଉତ୍ପତ୍ତି ତଥା ଶାସନ କରିବାର ଅଧିକାରକୁ ସୂଚାଏ। ସାମଗ୍ରିକ ଭାବେ ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟି ଶକ୍ତି, ଶୃଙ୍ଖଳା ଏବଂ ନେତୃତ୍ୱର ରୋମାନ୍ ଆଦର୍ଶକୁ ପ୍ରତିଫଳିତ କରେ।",
       "image": "Images/Bronze gallery item-2.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/2. ऑगस्टस सीज़र.wav"
+      "audioSrc": "Audio/odia/2. Augustus Caesar (LXXI - 194).wav"
     },
     {
       "id": "3",
       "accNo": "LXV-49",
       "badge": "3. LXV-49",
-      "title": "3. LXV-49: नेपोलियन बोनापार्ट की अर्धप्रतिमा (LXV - 49)",
-      "desc": "यह कांस्य अर्धप्रतिमा प्रसिद्ध फ्रांसीसी सम्राट नेपोलियन बोनापार्ट को दर्शाती है, जो 1769 से 1821 तक जीवित रहे। उन्हें भारी सैन्य पोशाक पहने हुए दिखाया गया है, जो उनके व्यक्तित्व को प्रभावशाली और अधिकारपूर्ण रूप प्रदान करती है। उनका चेहरा गंभीर एवं विचारशील दिखाई देता है, जो नेतृत्व, अनुशासन और आत्मविश्वास को अभिव्यक्त करता है। अर्धप्रतिमा के आधार पर एक गरुड़ बना हुआ है, जो नेपोलियन के साम्राज्य का एक महत्वपूर्ण प्रतीक था। गरुड़ शक्ति, विजय और प्रभुत्व का प्रतीक है। कांस्य की चिकनी सतह पर उनके चेहरे और वस्त्रों के बारीक विवरण कलाकार के कुशल शिल्पकौशल को दर्शाते हैं। यह अर्धप्रतिमा इस बात को प्रतिबिंबित करती है कि यूरोप में नेपोलियन को एक शक्तिशाली शासक और सैन्य नेता के रूप में कितना सम्मान प्राप्त था। इसका निर्माण फ्रांस में कलाकार आर. कोलंबो द्वारा किया गया था।",
+      "title": "3. ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ ଆବକ୍ଷ-ପ୍ରତିମା (LXV - 49)",
+      "desc": "ଆସନ୍ତୁ, ପ୍ରସିଦ୍ଧ ଫରାସୀ ସମ୍ରାଟ ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ (୧୭୬୯–୧୮୨୧) ଏହି ବ୍ରୋଞ୍ଜ (କାଂସ୍ୟ) ଆବକ୍ଷ-ପ୍ରତିମାଟିକୁ ଦେଖିବା। ଏଥିରେ ସେ ଏକ ଓଜନଦାର ସାମରିକ ପୋଷାକ ପିନ୍ଧିଥିବାର ଦେଖାଯାଉଛନ୍ତି, ଯାହା ତାଙ୍କୁ ଏକ ଶକ୍ତିଶାଳୀ ଏବଂ ପ୍ରଭାବଶାଳୀ ରୂପ ପ୍ରଦାନ କରୁଛି। ତାଙ୍କ ମୁଖମଣ୍ଡଳ ଗମ୍ଭୀର ଏବଂ ଚିନ୍ତାଶୀଳ ଦେଖାଯାଉଛି, ଯାହା ନେତୃତ୍ୱ, ଶୃଙ୍ଖଳା ଏବଂ ଆତ୍ମବିଶ୍ୱାସକୁ ପ୍ରକାଶ କରେ। ଆପଣ ଯଦି ଏହି ପ୍ରତିମାର ଆଧାରକୁ ଲକ୍ଷ୍ୟ କରିବେ, ଏଥିରେ ଏକ ଇଗଲ୍ ଦେଖିପାରିବେ, ଯାହା ନେପୋଲିୟନ୍‌ ସାମ୍ରାଜ୍ୟର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରତୀକ। ଏହି ଇଗଲ୍‌ଟି ଶକ୍ତି, ବିଜୟ ଏବଂ କ୍ଷମତାକୁ ସୂଚାଇଥାଏ। ଏହାର ମସୃଣ ବ୍ରୋଞ୍ଜ ପୃଷ୍ଠଭାଗ ସହ ତାଙ୍କ ମୁହଁ ଓ ପୋଷାକରେ ଥିବା ସୂକ୍ଷ୍ମ କାରୁକାର୍ଯ୍ୟର କୁଶଳୀ ଶିଳ୍ପୀଙ୍କ ଦକ୍ଷତାକୁ ପ୍ରଦର୍ଶିତ କରେ। ଜଣେ ଶକ୍ତିଶାଳୀ ଶାସକ ଏବଂ ସାମରିକ ନେତା ଭାବରେ ନେପୋଲିୟନ୍ ୟୁରୋପରେ କିପରି ସମ୍ମାନିତ ହୋଇଥିଲେ, ଏହି ପ୍ରତିମାଟି ତାହା ଦର୍ଶାଏ। ଏହି କଳାକୃତିଟି ଫ୍ରାନ୍ସର ଶିଳ୍ପୀ ଆର୍. କୋଲମ୍ବୋଙ୍କ ଦ୍ୱାରା ନିର୍ମିତ।",
       "image": "Images/Bronze gallery item-3.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/3. नेपोलियन बोनापार्ट की अर्धप्रतिमा.wav"
+      "audioSrc": "Audio/odia/3. Bust of Napoleon Bonaparte (LXV - 49).wav"
     },
     {
       "id": "4",
       "accNo": "LXXI-188",
       "badge": "4. LXXI-188",
-      "title": "4. LXXI-188: मरकरी (LXXI - 188)",
-      "desc": "यह कांस्य मूर्ति मरकरी को दर्शाती है, जो रोमन पौराणिक कथाओं में संदेशों, यात्रा और गति के देवता हैं। उन्हें उड़ने की मुद्रा में दर्शाया गया है, जिससे यह आकृति हल्की और गतिशील प्रतीत होती है। मरकरी ने पंखों वाली टोपी और पंखों वाली सैंडल पहन रखी हैं, जो उनकी तीव्र गति और देवताओं के दूत के रूप में उनकी भूमिका को दर्शाती हैं। उनका एक पैर एक छोटी बालक-आकृति के सिर पर हल्के से टिका हुआ है, जो संतुलन और नियंत्रण का प्रतीक है। उनका सुडौल और आकर्षक शरीर सौंदर्य तथा शक्ति को प्रतिबिंबित करता है। यह मूर्ति अत्यंत सुंदर और जीवंत प्रतीत होती है। इसमें कलाकार की कुशलता दिखाई देती है और गति, सौम्यता तथा गतिशीलता की भावनाएँ स्पष्ट रूप से अभिव्यक्त होती हैं।",
+      "title": "4. ମରକ୍ୟୁରୀ (LXXI - 188)",
+      "desc": "ଆସନ୍ତୁ, ସନ୍ଦେଶ, ଯାତ୍ରା ଏବଂ ଦ୍ରୁତତାର ରୋମାନ୍ ଦେବତା ମରକ୍ୟୁରୀଙ୍କ ଏହି ବ୍ରୋଞ୍ଜ (କାଂସ୍ୟ) ଭାସ୍କର୍ଯ୍ୟଟି ବିଷୟରେ ଜାଣିବା। ଏଥିରେ ତାଙ୍କୁ ଉଡ଼ନ୍ତା ମୁଦ୍ରାରେ ଦର୍ଶାଯାଇଛି, ଯାହା ଏହି ଆକୃତିଟିକୁ ହାଲୁକା ଏବଂ ଗତିଶୀଳ ରୂପ ଦେଇଛି। ମରକ୍ୟୁରୀ ଡେଣା ଥିବା ଟୋପି ଏବଂ ଡେଣା ଥିବା ପାଦୁକା ପିନ୍ଧିଛନ୍ତି, ଯାହା ତାଙ୍କର ଅପାର ଗତି ଏବଂ ଦେବତାମାନଙ୍କର ଦୂତ ଭାବରେ ତାଙ୍କର ଭୂମିକାକୁ ସୂଚାଉଛି। ଦେଖନ୍ତୁ ତାଙ୍କର ଗୋଟିଏ ପାଦ ଏକ କ୍ଷୁଦ୍ର ଶିଶୁ ଆକୃତିର ମୁଣ୍ଡ ଉପରେ କୋମଳ ଭାବେ ରହିଛି, ଯାହା ସନ୍ତୁଳନ ଏବଂ ନିୟନ୍ତ୍ରଣକୁ ଦର୍ଶାଉଛି। ତାଙ୍କର ସୁଗଠିତ ଓ କ୍ଷୀଣ ଶରୀର ସୌନ୍ଦର୍ଯ୍ୟ ଏବଂ ଶକ୍ତିକୁ ପ୍ରତିଫଳିତ କରେ। ଏହି ଭାସ୍କର୍ଯ୍ୟଟି ଅତ୍ୟନ୍ତ ସୌମ୍ୟ ଓ ଜୀବନ୍ତ ଦେଖାଯାଉଛି, ଯାହା ଶିଳ୍ପୀଙ୍କ ଦକ୍ଷତାକୁ ଦର୍ଶାଇବା ସହ ଦ୍ରୁତତା, ସୌମ୍ୟତା ଓ ଗତିଶୀଳତାର ଭାବକୁ ସୁନ୍ଦର ଭାବେ ପ୍ରକାଶ କରୁଛି।",
       "image": "Images/Bronze gallery item-4.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/4. मरकरी.wav"
+      "audioSrc": "Audio/odia/4. Mercury (LXXI - 188).wav"
     },
     {
       "id": "5",
       "accNo": "LXXI-68",
       "badge": "5. LXXI-68",
-      "title": "5. LXXI-68: पंखों वाली महिला (LXXI–68) *",
-      "desc": "फ्रांस की यह कांस्य प्रतिमा एक सुंदर पंखों वाली महिला को दर्शाती है, जो चौकोर संगमरमर के आधार पर रखी गोल गेंद पर सुंदर मुद्रा में खड़ी है। उसने कमर पर बंधी हुई प्राचीन यूनानी शैली से प्रेरित शास्त्रीय पोशाक धारण की है। वह एक पैर पर हल्के संतुलन के साथ खड़ी है, जिससे गति और सौंदर्य का आभास होता है। उसके उठे हुए हाथ में विजय, सम्मान और सफलता का प्रतीक है। दूसरे हाथ में वह एक तुरही धारण किए हुए है, जो उद्घोषणा और उत्सव का प्रतिनिधित्व करती है। उसकी पोशाक की सिलवटें तथा चेहरे और पंखों की बारीकी से उकेरी गई आकृतियाँ उत्कृष्ट शिल्पकौशल को दर्शाती हैं। यह कलाकृति शास्त्रीय सौंदर्य, संतुलन और प्रतीकात्मक अर्थों के प्रति 19वीं शताब्दी के यूरोपीय आकर्षण को प्रतिबिंबित करती है।",
+      "title": "5. ଡେଣା ଥିବା ମହିଳାଙ୍କ ପ୍ରତିମା (LXXI - 68)*",
+      "desc": "ଆସନ୍ତୁ, ଫ୍ରାନ୍ସରୁ ଅଣାଯାଇଥିବା ବ୍ରୋଞ୍ଜରେ ନିର୍ମିତ ଏହି ସୁନ୍ଦର ଡେଣା ଥିବା ମହିଳାଙ୍କ ପ୍ରତିମାଟିକୁ ଦେଖିବା, ଯିଏ ଏକ ବର୍ଗାକାର ମାର୍ବଲ ଆଧାର ଉପରେ ରଖାଯାଇଥିବା ଗୋଲାକାର ବଲ୍ ଉପରେ ଅତ୍ୟନ୍ତ ସୌମ୍ୟ ଭାବେ ଛିଡ଼ା ହୋଇଛନ୍ତି। ସେ ପ୍ରାଚୀନ ଗ୍ରୀକ୍ ଶୈଳୀ ଦ୍ୱାରା ଅନୁପ୍ରାଣିତ ହୋଇ ଅଣ୍ଟାରେ ବନ୍ଧା ହୋଇଥିବା ଏକ ଶାସ୍ତ୍ରୀୟ ପୋଷାକ ପିନ୍ଧିଛନ୍ତି। ସେ ଗୋଟିଏ ପାଦରେ ହାଲୁକା ଭାବେ ନିଜର ସନ୍ତୁଳନ ରକ୍ଷା କରିଛନ୍ତି, ଯାହା ଗତିଶୀଳତା ଏବଂ ସୌନ୍ଦର୍ଯ୍ୟର ଅନୁଭୂତି ଦିଏ। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ତାଙ୍କର ଉପରକୁ ଉଠିଥିବା ହାତ ବିଜୟ, ସମ୍ମାନ ଏବଂ ସଫଳତାର ସୂଚନା ଦେଉଥିବାର ଦେଖିପାରିବେ। ସେ ଏକ ତୂରୀ ଧରିଛନ୍ତି, ଯାହା ଘୋଷଣା ଏବଂ ଉତ୍ସବର ପ୍ରତୀକ। ତାଙ୍କ ପୋଷାକର ସୂକ୍ଷ୍ମ ଭାଙ୍ଗ ଏବଂ ମୁଖମଣ୍ଡଳ ଓ ଡେଣାର ଜୀବନ୍ତ କାରୁକାର୍ଯ୍ୟ ଉଚ୍ଚକୋଟୀର ଶିଳ୍ପକଳାକୁ ପ୍ରଦର୍ଶିତ କରେ। ଏହି କଳାକୃତିଟି ଉନବିଂଶ ଶତାବ୍ଦୀର ୟୁରୋପରେ ଶାସ୍ତ୍ରୀୟ ସୌନ୍ଦର୍ଯ୍ୟ, ସନ୍ତୁଳନ ଏବଂ ପ୍ରତୀକାତ୍ମକ ଭାବନା ପ୍ରତି ଥିବା ଆଗ୍ରହକୁ ପ୍ରତିଫଳିତ କରେ।",
       "image": "Images/Bronze gallery item-5.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/5. पंखों वाली महिला.wav"
+      "audioSrc": "Audio/odia/5. Winged Lady (LXXI - 68).wav"
     },
     {
       "id": "6",
       "accNo": "LXVII-78-1",
       "badge": "6. LXVII-78-1",
-      "title": "6. LXVII-78-1: सिकंदर महान (LXVII-78-1)",
-      "desc": "यह कांस्य मूर्ति सिकंदर महान को दर्शाती है, जो विश्व इतिहास के महानतम सेनापतियों में से एक थे और 356 से 323 ईसा पूर्व तक जीवित रहे। यह प्राचीन मूल प्रतिमा पर आधारित फ्रांसीसी कांस्य प्रतिकृति है। सिकंदर को एक शक्तिशाली और बलशाली घोड़े पर सवार दिखाया गया है, जिसका नाम ब्यूसेफेलस था और जो उनका प्रसिद्ध तथा वफादार साथी था। घोड़ा अपने पिछले पैरों पर उठता हुआ दिखाई देता है, जिससे मूर्ति में गति और ऊर्जा का प्रभाव उत्पन्न होता है। सिकंदर ने योद्धा का हेलमेट और कवच धारण किया हुआ है, जो उनके साहस तथा कुशल सैन्य नेतृत्व को दर्शाता है। समग्र रूप से, यह कलाकृति उनकी शक्ति, वीरता और प्राचीन विश्व पर उनके व्यापक प्रभाव का गौरवगान करती है।",
+      "title": "6. ଆଲେକ୍‌ଜାଣ୍ଡାର୍ ଦ ଗ୍ରେଟ୍ (LXVII-78-1)",
+      "desc": "ଆସନ୍ତୁ, ବିଶ୍ୱ ଇତିହାସର ଅନ୍ୟତମ ମହାନ୍ ସେନାପତି ଆଲେକ୍‌ଜାଣ୍ଡାର୍ ଦ ଗ୍ରେଟ୍‌ଙ୍କ ଏହି ବ୍ରୋଞ୍ଜ (କଂସା) ଭାସ୍କର୍ଯ୍ୟଟିକୁ ନିକଟରୁ ଦେଖିବା। ଯାହାଙ୍କର ଜୀବନ କାଳ ଖ୍ରୀଷ୍ଟପୂର୍ବ 356–323।  ଏହା ଏକ ପ୍ରାଚୀନ ମୂଳ ପ୍ରତିମୂର୍ତ୍ତି ଉପରେ ଆଧାରିତ ଏକ ଫରାସୀ ବ୍ରୋଞ୍ଜ ପ୍ରତିକୃତି। ଏଥିରେ ଆଲେକ୍‌ଜାଣ୍ଡାର୍ ତାଙ୍କର ପ୍ରସିଦ୍ଧ ଓ ବିଶ୍ୱସ୍ତ ସାଥୀ 'ବୁସେଫାଲସ୍' ନାମକ ଏକ ଶକ୍ତିଶାଳୀ ଘୋଡ଼ା ଉପରେ ସବାର ହୋଇଛନ୍ତି। ଘୋଡ଼ାଟି ତା'ର ପଛ ପାଦ ଉପରେ ଭାର ଦେଇ ଉପରକୁ ଉଠୁଛି, ଯାହା ଏକ ପ୍ରବଳ ଗତିଶୀଳତା ଏବଂ ଉର୍ଜାର ଅନୁଭୂତି ସୃଷ୍ଟି କରୁଛି। ଆପଣ ଲକ୍ଷ୍ୟ କଲେ ଦେଖିପାରିବେ, ଆଲେକ୍‌ଜାଣ୍ଡାର୍ ଜଣେ ଯୋଦ୍ଧାର ଟୋପି ଏବଂ ବର୍ମ୍ ପିନ୍ଧିଛନ୍ତି, ଯାହା ଜଣେ ସାହସୀ ଓ କୁଶଳୀ ସାମରିକ ନେତା ଭାବରେ ତାଙ୍କର ପରିଚୟ ଦିଏ। ସାମଗ୍ରିକ ଭାବେ, ଏହି କଳାକୃତିଟି ତାଙ୍କର ଶକ୍ତି, ସାହସ ଏବଂ ପ୍ରାଚୀନ ବିଶ୍ୱ ଉପରେ ତାଙ୍କର ମହାନ୍ ପ୍ରଭାବକୁ ପ୍ରତିଫଳିତ କରେ।",
       "image": "Images/Bronze gallery item-6.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/6. सिकंदर महान.wav"
+      "audioSrc": "Audio/odia/6. Alexander the Great (LXVII-78-1).wav"
     },
     {
       "id": "7",
       "accNo": "LXXI-184",
       "badge": "7. LXXI-184",
-      "title": "7. LXXI-184: मर्करी की प्रतिमा (संदेशवाहक देवता) (LXXI - 184)",
-      "desc": "यह कांस्य मूर्ति मर्करी को दर्शाती है, जो रोमन धर्म में संदेश, यात्रा और गति के देवता माने जाते हैं। उन्हें एक प्राकृतिक चट्टान पर बैठे हुए, शांत और विचारमग्न मुद्रा में एक युवा पुरुष के रूप में दर्शाया गया है। प्राचीन यूनानी और रोमन कला की शास्त्रीय परंपरा के अनुरूप उनका शरीर नग्न रूप में प्रदर्शित किया गया है। इस प्रतिमा की सबसे महत्वपूर्ण विशेषता उनके पैरों से जुड़े पंख हैं। ये विशेष पंखयुक्त चप्पलें उनका प्रमुख प्रतीक हैं और देवताओं तथा मनुष्यों के बीच तीव्र गति से आने-जाने की उनकी क्षमता को दर्शाते हैं। चट्टान का आधार इस मूर्ति को एक प्राकृतिक स्पर्श प्रदान करता है। समग्र रूप से, यह फ्रांसीसी कांस्य प्रतिमा मर्करी को देवताओं के एक तीव्रगामी, सौम्य और शक्तिशाली संदेशवाहक के रूप में सुंदर ढंग से प्रस्तुत करती है।",
+      "title": "7. ମରକ୍ୟୁରୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି (ଦୂତଙ୍କ ଦେବତା) (LXXI - 184)",
+      "desc": "ରୋମାନ୍ ସଂସ୍କୃତିରେ ବାର୍ତ୍ତାବହ, ଯାତ୍ରା ଓ ଦ୍ରୁତତାର ଦେବତା ଭାବେ ଜଣାଶୁଣା 'ମରକ୍ୟୁରୀ'ଙ୍କ ଏହି ବ୍ରୋଞ୍ଜ ଭାସ୍କର୍ଯ୍ୟଟିକୁ ଦେଖିବା। ଏଥିରେ ତାଙ୍କୁ ଏକ ପ୍ରାକୃତିକ ପଥର ଉପରେ ଶାନ୍ତ ଏବଂ ଚିନ୍ତାମଗ୍ନ ମୁଦ୍ରାରେ ବସିଥିବା ଜଣେ ଯୁବକ ଭାବରେ ଦର୍ଶାଯାଇଛି। ପ୍ରାଚୀନ ଗ୍ରୀକ୍ ଏବଂ ରୋମାନ୍ କଳାର ଶାସ୍ତ୍ରୀୟ ପରମ୍ପରା ଅନୁଯାୟୀ ତାଙ୍କ ଶରୀରକୁ ଅନାବୃତ ରୂପେ ଚିତ୍ରିତ କରାଯାଇଛି। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ଏହାର ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ବିବରଣୀ ହେଉଛି ତାଙ୍କ ପାଦରେ ଲାଗିଥିବା ଡେଣାଗୁଡ଼ିକ। ଡେଣା ଥିବା ଏହି ବିଶେଷ ପାଦୁକାଗୁଡ଼ିକ ତାଙ୍କର ମୁଖ୍ୟ ପ୍ରତୀକ ଏବଂ ଏଗୁଡ଼ିକ ଦେବତା ଓ ମାନବଙ୍କ ମଧ୍ୟରେ ଦ୍ରୁତ ଗତିରେ ଯାତାୟାତ କରିବାର ତାଙ୍କ କ୍ଷମତାକୁ ସୂଚାଏ। ପଥରର ଆଧାରଟି ଏହି ଭାସ୍କର୍ଯ୍ୟକୁ ଏକ ପ୍ରାକୃତିକ ସ୍ପର୍ଶ ପ୍ରଦାନ କରେ। ସାମଗ୍ରିକ ଭାବେ, ଫ୍ରାନ୍ସରୁ ଅଣାଯାଇଥିବା ଏହି ବ୍ରୋଞ୍ଜ ପ୍ରତିମୂର୍ତ୍ତିଟି ମରକ୍ୟୁରୀଙ୍କୁ ଦେବତାମାନଙ୍କର ଜଣେ କ୍ଷିପ୍ର, ସୌମ୍ୟ ଏବଂ ଶକ୍ତିଶାଳୀ ଦୂତ ଭାବରେ ସୁନ୍ଦର ଭାବେ ଉପସ୍ଥାପିତ କରେ।",
       "image": "Images/Bronze gallery item-7.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/7. मर्करी की प्रतिमा (संदेशवाहक देवता).wav"
+      "audioSrc": "Audio/odia/7. Statue of MERCURY (LXXI - 184).wav"
     },
     {
       "id": "8",
       "accNo": "LXXI-66",
       "badge": "8. LXXI-66",
-      "title": "8. LXXI-66: एक मछुआरे द्वारा टारेंटेला नृत्य (LXXI - 66)",
-      "desc": "इस मूर्ति में एक व्यक्ति हाथों में खड़ताल (ताल वाद्य) लिए हुए जीवंत और ऊर्जावान मुद्रा में नृत्य करता हुआ दिखाई देता है। उसके उठे हुए हाथ और एक-दूसरे पर क्रॉस किए हुए पैर इस आकृति को वास्तव में नृत्य करते हुए होने का आभास देते हैं। उसके हाथों में पकड़ी खड़ताल सरल वाद्य यंत्र हैं, जिनका उपयोग लोक नृत्यों के दौरान ताल बनाए रखने के लिए किया जाता है। यह मूर्ति दक्षिणी यूरोप के पारंपरिक लोक नृत्य टारेंटेला से प्रेरित है, जिसे उत्सवों के अवसर पर अक्सर मछुआरों और ग्रामीणों द्वारा किया जाता था। नर्तक का अर्धनग्न शरीर और छोटा वस्त्र यह संकेत देता है कि वह श्रमिक वर्ग से संबंधित व्यक्ति है। यह कांस्य मूर्ति राजाओं या देवताओं के बजाय सामान्य जनजीवन, संगीत और ग्रामीण जीवन में कलाकार की रुचि को दर्शाती है।",
+      "title": "8. ମତ୍ସ୍ୟଜୀବୀଙ୍କ ଟାରାଣ୍ଟେଲା ନୃତ୍ୟ (LXXI - 66)",
+      "desc": "ଆସନ୍ତୁ, ହାତରେ ତାଳି-ବାଦ୍ୟ ଧରି ଅତ୍ୟନ୍ତ ଜୀବନ୍ତ ଏବଂ ଉର୍ଜାବାନ୍ ମୁଦ୍ରାରେ ନୃତ୍ୟରତ ଜଣେ ବ୍ୟକ୍ତିଙ୍କ ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟିକୁ ଦେଖିବା। ତାଙ୍କର ଉପରକୁ ଉଠିଥିବା ହାତ ଏବଂ ଛନ୍ଦା ହୋଇଥିବା ଗୋଡ଼ ଏହି ଆକୃତିଟିକୁ ସତସତ ନାଚୁଥିବା ପରି ଏକ ଜୀବନ୍ତ ରୂପ ଦେଇଛି। ତାଙ୍କ ହାତରେ ଥିବା କ୍ଲାପର୍ସଗୁଡ଼ିକ ହେଉଛି ସାଧାରଣ ବାଦ୍ୟଯନ୍ତ୍ର, ଯାହା ଲୋକନୃତ୍ୟ ସମୟରେ ତାଳ ରକ୍ଷା କରିବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ। ଏହି ଭାସ୍କର୍ଯ୍ୟଟି ଦକ୍ଷିଣ ୟୁରୋପର ଏକ ପାରମ୍ପରିକ ଲୋକନୃତ୍ୟ 'ଟାରାଣ୍ଟେଲା' ଦ୍ୱାରା ଅନୁପ୍ରାଣିତ, ଯାହା ଉତ୍ସବ ସମୟରେ ପ୍ରାୟତଃ ମତ୍ସ୍ୟଜୀବୀ ଏବଂ ଗ୍ରାମବାସୀମାନଙ୍କ ଦ୍ୱାରା ପରିବେଷିତ ହୋଇଥାଏ। ଆପଣ ଲକ୍ଷ୍ୟ କରିଲେ ଜାଣିବେ ଯେ, ନର୍ତ୍ତକଙ୍କ ଅର୍ଦ୍ଧ-ଅନାବୃତ ଶରୀର ଏବଂ ଛୋଟ ପୋଷାକ ସୂଚାଉଛି ଯେ ସେ ଜଣେ ଶ୍ରମଜୀବୀ ଶ୍ରେଣୀର ମଣିଷ। ଏହି ବ୍ରୋଞ୍ଜ ମୂର୍ତ୍ତିଟି ରାଜା କିମ୍ବା ଦେବତାମାନଙ୍କ ପରିବର୍ତ୍ତେ ସାଧାରଣ ଲୋକ, ସଙ୍ଗୀତ ଏବଂ ଗ୍ରାମୀଣ ଜୀବନ ପ୍ରତି ଥିବା ଆଗ୍ରହକୁ ସୁନ୍ଦର ଭାବେ ପ୍ରକାଶ କରୁଛି।",
       "image": "Images/Bronze gallery item-8.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/8. एक मछुआरे द्वारा टारेंटेला नृत्य.wav"
+      "audioSrc": "Audio/odia/8. Tarantella Dance by a Fisherman (LXXI - 66).wav"
     },
     {
       "id": "9",
       "accNo": "LXXI-189",
       "badge": "9. LXXI-189",
-      "title": "9. LXXI-189: वुल्कन (अग्नि के रोमन देवता) (LXXI - 189)",
-      "desc": "यह प्रतिमा वुल्कन को दर्शाती है, जो रोमन अग्नि, धातु-कर्म और लोहारों के देवता थे। माना जाता था कि वे देवताओं के लिए हथियार, औजार और कवच बनाते थे। इस प्रतिमा में उन्हें नग्न रूप में दर्शाया गया है, जो प्राचीन शास्त्रीय परंपरा के अनुरूप है, जिसमें देवताओं को आदर्श मानव शरीर के रूप में प्रदर्शित कर उनकी शक्ति और सामर्थ्य को व्यक्त किया जाता था। वुल्कन के दाहिने हाथ में हथौड़ा है, जो लोहार का प्रमुख प्रतीक है और धातु को आकार देने में उनकी कुशलता को दर्शाता है। उनके बाएँ हाथ में चिमटा है, जिसका उपयोग गर्म लोहे को पकड़ने के लिए किया जाता है। उनकी सुदृढ़ मांसपेशियाँ कठिन शारीरिक श्रम को दर्शाती हैं, जबकि उनके गंभीर चेहरे पर एकाग्रता और दृढ़ संकल्प दिखाई देता है।",
+      "title": "9. ଭଲକାନ୍ (ଅଗ୍ନିର ରୋମାନ୍ ଦେବତା) (LXXI - 189)",
+      "desc": "ଆସନ୍ତୁ, ଅଗ୍ନି, ଧାତୁକାର୍ଯ୍ୟ ଏବଂ କମାର ବୃତ୍ତିର ରୋମାନ୍ ଦେବତା 'ଭଲକାନ୍'ଙ୍କୁ ଦର୍ଶାଉଥିବା ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟି ବିଷୟରୋ ଜାଣିବା। ବିଶ୍ୱାସ କରାଯାଏ ଯେ ସେ ଦେବତାମାନଙ୍କ ପାଇଁ ଅସ୍ତ୍ରଶସ୍ତ୍ର, ଉପକରଣ ଏବଂ ବର୍ମ ତିଆରି କରୁଥିଲେ। ଶକ୍ତି ଏବଂ ସାମର୍ଥ୍ୟ ପ୍ରକାଶ କରିବା ପାଇଁ ଦେବତାମାନଙ୍କୁ ଆଦର୍ଶ ମାନବ ଶରୀରରେ ଦର୍ଶାଇବାର ପ୍ରାଚୀନ ଶାସ୍ତ୍ରୀୟ ପରମ୍ପରା ଅନୁଯାୟୀ, ଏହି ଆକୃତିଟିକୁ ଅନାବୃତ ରୂପେ ଚିତ୍ରିତ କରାଯାଇଛି। ଲକ୍ଷ୍ୟ କରନ୍ତୁ, ଭଲକାନ୍ ତାଙ୍କ ଡାହାଣ ହାତରେ ଏକ ହାତୁଡ଼ି ଧରିଛନ୍ତି, ଯାହା ଜଣେ କମାରଙ୍କ ମୁଖ୍ୟ ପ୍ରତୀକ ଏବଂ ଏହା ଧାତୁକୁ ଆକାର ଦେବାରେ ତାଙ୍କର ଦକ୍ଷତାକୁ ମଧ୍ୟ ଦର୍ଶାଉଛି। ତାଙ୍କ ବାମ ହାତରେ ସେ ଉତ୍ତପ୍ତ ଲୁହାକୁ ଧରିବା ପାଇଁ ବ୍ୟବହୃତ ହେଉଥିବା ଚିମୁଟା ଧରିଛନ୍ତି। ତାଙ୍କର ବଳିଷ୍ଠ ମାଂସପେଶୀ କଠିନ ଶାରୀରିକ ପରିଶ୍ରମକୁ ଦର୍ଶାଉଥିବା ବେଳେ ତାଙ୍କ ଗମ୍ଭୀର ମୁଖମଣ୍ଡଳ ଏକାଗ୍ରତା ଏବଂ ଦୃଢ଼ ସଂକଳ୍ପକୁ ପ୍ରକାଶ କରୁଛି। ସାମଗ୍ରିକ ଭାବେ, ଭଲକାନ୍ ସୃଜନଶୀଳ ଶକ୍ତି, ଅଗ୍ନି ଏବଂ ନିପୁଣ ଶିଳ୍ପକଳାର ପ୍ରତୀକ ଅଟନ୍ତି।",
       "image": "Images/Bronze gallery item-9.png",
-      "audioSrc": "Audio/hindi/11. Audio-BRONZE GALLERY/9. वुल्कन (अग्नि के रोमन देवता).wav"
+      "audioSrc": "Audio/odia/9. Vulcan (Roman God of Fire) (LXXI - 189).wav"
     }
   ],
   "bengali": [
