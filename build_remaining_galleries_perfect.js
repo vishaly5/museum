@@ -8,12 +8,17 @@ const structuredJsonPath = path.join(__dirname, 'scratch', 'remaining_gallery_it
 // Read structured content
 const structuredItems = JSON.parse(fs.readFileSync(structuredJsonPath, 'utf8'));
 
-// Languages available for this gallery (only 4 new languages)
+// Languages available for this gallery
 const languages = [
   { id: 'bengali', label: 'বাংলা (Bengali)' },
   { id: 'kannada', label: 'ಕನ್ನಡ (Kannada)' },
   { id: 'marathi', label: 'मराठी (Marathi)' },
-  { id: 'urdu', label: 'اردو (Urdu)' }
+  { id: 'urdu', label: 'اردو (Urdu)' },
+  { id: 'malayalam', label: 'മലയാളം (Malayalam)' },
+  { id: 'gujarati', label: 'ગુજરાતી (Gujarati)' },
+  { id: 'odia', label: 'ଓଡ଼ିଆ (Odia)' },
+  { id: 'telugu', label: 'తెలుగు (Telugu)' },
+  { id: 'tamil', label: 'தமிழ் (Tamil)' }
 ];
 
 const langOptionsHtml = languages.map(l =>
@@ -42,14 +47,24 @@ function buildIndexHtml() {
       bengali: 'অবশিষ্ট গ্যালারি (Remaining Galleries)',
       kannada: 'ಉಳಿದ ಗ್ಯಾಲರಿಗಳು (Remaining Galleries)',
       marathi: 'उर्वरित गॅलऱ्या (Remaining Galleries)',
-      urdu: 'باقی نمائش گاہیں (Remaining Galleries)'
+      urdu: 'باقی نمائش گاہیں (Remaining Galleries)',
+      malayalam: 'ശേഷിക്കുന്ന ഗാലറികൾ (Remaining Galleries)',
+      gujarati: 'બાકી રહેલી ગેલેરીઓ (Remaining Galleries)',
+      odia: 'ଅବଶିଷ୍ଟ ଗ୍ୟାଲେରୀ (Remaining Galleries)',
+      telugu: 'మిగిలిన గ్యాలరీలు (Remaining Galleries)',
+      tamil: 'மீதமுள்ள அரங்கங்கள் (Remaining Galleries)'
     };
 
     const descs = {
       bengali: 'অডিও গাইড অ্যাপের উদ্দেশ্যে অবশিষ্ট গ্যালারি থেকে নির্বাচিত নিম্নলিখিত বস্তুগুলি।',
       kannada: 'ಆಡಿಯೋ ಗೈಡ್ ಅಪ್ಲಿಕೇಶನ್ ಉದ್ದೇಶಕ್ಕಾಗಿ ಉಳಿದ ಗ್ಯಾಲರಿಗಳಿಂದ ಈ ಕೆಳಗಿನ ಆಯ್ದ ವಸ್ತುಗಳು.',
       marathi: 'ऑडिओ मार्गदर्शक ॲपच्या उद्देशाने उर्वरित गॅलरीमधून खालील निवडलेल्या वस्तू.',
-      urdu: 'آڈیو گائیڈ ایپ کے لیے باقی نمائش گاہوں سے منتخب کردہ درج ذیل اشیا۔'
+      urdu: 'آڈیو گائیڈ ایپ کے لیے باقی نمائش گاہوں سے منتخب کردہ درج ذیل اشیا۔',
+      malayalam: 'ഓഡിയോ ഗൈഡ് ആപ്പിനായി ശേഷിക്കുന്ന ഗാലറികളിൽ നിന്ന് തിരഞ്ഞെടുത്ത വസ്തുക്കൾ.',
+      gujarati: 'ઓડિયો ગાઇડ એપના હેતુ માટે બાકીની ગેલેરીઓમાંથી પસંદ કરેલી નીચે મુજબની વસ્તુઓ.',
+      odia: 'ଅଡିଓ ଗାଇଡ୍ ଆପ୍ ପାଇଁ ଅବଶିଷ୍ଟ ଗ୍ୟାଲେରୀରୁ ମନୋନୀତ ନିମ୍ନଲିଖିତ ବସ୍ତୁଗୁଡ଼ିକ।',
+      telugu: 'ఆడియో గైడ్ యాప్ ప్రయోజనం కోసం మిగిలిన గ్యాలరీల నుండి ఎంచుకున్న క్రింది వస్తువులు.',
+      tamil: 'ஒலி வழிகாட்டி பயன்பாட்டிற்காக மீதமுள்ள காட்சியகங்களிலிருந்து தேர்ந்தெடுக்கப்பட்ட பின்வரும் பொருட்கள்.'
     };
 
     return `    <section class="gallery-intro langCnt" id="${lang}"${isRtl}${isDisplayAttr}>
@@ -119,14 +134,24 @@ function buildAppJs() {
     bengali: { code: "bn", dir: "ltr", title: "অবশিষ্ট গ্যালারি (Remaining Galleries) | Salar Jung Museum" },
     kannada: { code: "kn", dir: "ltr", title: "ಉಳಿದ ಗ್ಯಾಲರಿಗಳು (Remaining Galleries) | Salar Jung Museum" },
     marathi: { code: "mr", dir: "ltr", title: "उर्वरित गॅलऱ्या (Remaining Galleries) | Salar Jung Museum" },
-    urdu: { code: "ur", dir: "rtl", title: "باقی نمائش گاہیں (Remaining Galleries) | Salar Jung Museum" }
+    urdu: { code: "ur", dir: "rtl", title: "باقی نمائش گاہیں (Remaining Galleries) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "ശേഷിക്കുന്ന ഗാലറികൾ (Remaining Galleries) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "બાકી રહેલી ગેલેરીઓ (Remaining Galleries) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "ଅବଶିଷ୍ଟ ଗ୍ୟାଲେରୀ (Remaining Galleries) | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "మిగిలిన గ్యాలరీలు (Remaining Galleries) | Salar Jung Museum" },
+    tamil: { code: "ta", dir: "ltr", title: "மீதமுள்ள அரங்கங்கள் (Remaining Galleries) | Salar Jung Museum" }
   };
 
   const footerTranslations = {
     bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
     kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
     marathi: '© 2024 सर्व हक्क सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआय</a> द्वारा',
-    urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>'
+    urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
+    malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
+    gujarati: '© 2024 તમામ હકો અનામત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાિદની AI</a> દ્વારા',
+    odia: '© 2024 ସମସ୍ତ ଅଧିକାର ସଂରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
+    telugu: '© 2024 సర్వహక్కులు ప్రత్యేకించబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
+    tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாமினி AI</a> மூலம்'
   };
 
   const AUDIO_MISSING =
