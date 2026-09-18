@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manuscript Gallery | Salar Jung Museum</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.gallery-intro{padding:28px 6%;background:#fff;color:#2e2e2e}
+.gallery-intro h1{font-size:42px;margin:0 0 12px}
+.gallery-intro p{font-size:20px;max-width:1100px}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}
+.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);transition:transform 0.2s}
+.item-card:hover{transform:translateY(-4px)}
+.item-card img{width:100%;height:270px;object-fit:contain;background:#ffffff;border-radius:6px;order:1}
+.item-card h2{font-size:18px;margin:14px 0 4px;order:2;color:#a50309;font-weight:700}
+.item-card p[data-card-label$="-subtitle"]{font-size:14px;color:#666;margin-bottom:8px;order:3}
+.item-card audio{width:100%;order:4;margin:10px 0}
+.item-card p.card-content{order:5;margin-top:10px;line-height:1.7;font-size:15px;color:#333;white-space:pre-line}
+.audioBar{padding:18px 6%;background:#2e2e2e;color:#fff}
+.audioBar audio{width:100%}
+.audioBar p{margin:0 0 8px}
+@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:767px){.gallery-intro h1{font-size:30px}.gallery-intro p{font-size:17px}.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.item-card img{height:240px}}
+</style>
+</head>
+<body>
+<div class="sliderHeaderDiv">
+  <div class="container">
+    <header>
+      <div class="logoLft">
+        <a href="#" class="logo logoTwo">
+          <img src="images/logo-moc.png" onerror="this.onerror=null; this.src='images/logo.png';" alt="Ministry of Culture">
+        </a>
+      </div>
+      <div class="logoRgt">
+        <div class="langDiv">
+          <span class="anuIcn">
+            <img src="images/logo-anu.png" alt="Anuvadini">
+          </span>
+          <select class="form formLang" id="languageSelector" aria-label="Select language">
+            <option value="bengali" selected>বাংলা (Bengali)</option>
+            <option value="english">English</option>
+            <option value="malayalam">മലയാളം (Malayalam)</option>
+            <option value="urdu">اردو (Urdu)</option>
+          </select>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+<main>
+<section class="gallery-intro langCnt" id="bengali" style="display:block"><h1 >পাণ্ডুলিপি গ্যালারি</h1><p >সালার জং মিউজিয়ামের পাণ্ডুলিপি গ্যালারি থেকে নির্বাচিত বিরল পাণ্ডুলিপির মধ্যে যুবরাজ দারা শিকোহের সির্-র-ই-আকবর, ফারসি ভাষায় শ্রীমদ্ভগবদ্গীতা, ওজন ও পরিমাপ সংক্রান্ত গ্রন্থ, সুলতান মুহাম্মদ কুতুব শাহের কবিতা, ফার্স নামা, কিতাব আল-কানুন ফি আল-তিব্ব, ইদুইয়া উলূম আল-দীন, কুফিক লিপিতে পবিত্র কোরআন এবং শাহনামা-এ-ফিরদৌসি অন্তর্ভুক্ত রয়েছে।</p></section><section class="gallery-intro langCnt" id="english" style="display:none"><h1 >Manuscript Gallery</h1><p >A selection of rare manuscripts from the Salar Jung Museum, including Sirr-e-Akbar by Prince Dara Shikoh, Shrimad Bhagwat Geeta in Persian, a treatise on weights and measures, poems of Sultan Muhammad Qutb Shah, Fars Nama, Kitab al-Qanun fi al-Tibb, Ihaya al-Uloom al-Deen, Holy Quran in Kufic script, and Shah Nama-e-Firdausi.</p></section><section class="gallery-intro langCnt" id="malayalam" style="display:none"><h1 >മാന്യുസ്ക്രിപ്റ്റ് ഗാലറി</h1><p >സലാർ ജംഗ് മ്യൂസിയത്തിലെ മാന്യുസ്ക്രിപ്റ്റ് ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്ത അപൂർവ്വ കൈയെഴുത്തുപ്രതികളിൽ പ്രിൻസ് ദാരാ ഷികോഹിന്‍റെ സിർ-ഇ-അക്ബർ, പേർഷ്യൻ ഭാഷയിലുള്ള ശ്രീമദ് ഭഗവദ്ഗീത, അളവുകളെയും തൂക്കങ്ങളെയും കുറിച്ചുള്ള ഗ്രന്ഥം, സുൽത്താൻ മുഹമ്മദ് കുത്ബ് ഷായുടെ കവിതകൾ, ഫാർസ് നാമ, കിതാബ് അൽ-ഖാനൂൻ ഫി അൽ-തിബ്ബ്, ഇഹ്യാ ഉലൂം അദ്-ദീൻ, കൂഫിക് ലിപിയിലുള്ള വിശുദ്ധ ഖുർആൻ, ഷാ നാമ-ഇ-ഫിർദൗസി എന്നിവ ഉൾപ്പെടുന്നു.</p></section><section class="gallery-intro langCnt" id="urdu" style="display:none"><h1 dir="rtl" style="text-align:right;">مخطوطات گیلری</h1><p dir="rtl" style="text-align:right;">سالار جنگ میوزیم کی مخطوطات گیلری سے منتخب کردہ نادر مخطوطات میں شہزادہ دارا شکوہ کی تصنیف سرِّ اکبر، فارسی میں شریمد بھاگوت گیتا، وزن اور پیمائش پر مقالہ، سلطان محمد قطب شاہ کی نظمیں، فارس نامہ، کتاب القانون فی الطب، احیاء علوم الدین، کوفی رسم الخط میں قرآن مجید اور شاہ نامہ فردوسی شامل ہیں۔</p></section>
+
+<section class="gallery-grid">
+<article class="item-card" data-audio-key="item1" onclick="if(!event.target.closest('audio')){location.href='item1.html'}">
+  <img src="images/manuscript-item1.png" alt="সির্-র-ই-আকবর - যুবরাজ দারা শিকোহ">
+  <h2 data-card-label="item1-title">সির্-র-ই-আকবর - যুবরাজ দারা শিকোহ</h2>
+  <p data-card-label="item1-subtitle">ক্যাটালগ নম্বর ৩৪৭৪</p>
+  <p class="card-content" data-card-content="item1"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-1.wav"></audio>
+</article><article class="item-card" data-audio-key="item2" onclick="if(!event.target.closest('audio')){location.href='item2.html'}">
+  <img src="images/manuscript-item2.png" alt="শ্রীমদ্ভগবদ্গীতার ফারসি ভাবানুবাদ">
+  <h2 data-card-label="item2-title">শ্রীমদ্ভগবদ্গীতার ফারসি ভাবানুবাদ</h2>
+  <p data-card-label="item2-subtitle">ক্যাটালগ নম্বর ২১৯৩</p>
+  <p class="card-content" data-card-content="item2"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-2.wav"></audio>
+</article><article class="item-card" data-audio-key="item3" onclick="if(!event.target.closest('audio')){location.href='item3.html'}">
+  <img src="images/manuscript-item3.png" alt="ওজন ও পরিমাপ সংক্রান্ত গ্রন্থ">
+  <h2 data-card-label="item3-title">ওজন ও পরিমাপ সংক্রান্ত গ্রন্থ</h2>
+  <p data-card-label="item3-subtitle">ক্যাটালগ নম্বর ১০৩২</p>
+  <p class="card-content" data-card-content="item3"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-3.wav"></audio>
+</article><article class="item-card" data-audio-key="item4" onclick="if(!event.target.closest('audio')){location.href='item4.html'}">
+  <img src="images/manuscript-item4.png" alt="সুলতান মুহাম্মদ কুতুব শাহের কবিতা">
+  <h2 data-card-label="item4-title">সুলতান মুহাম্মদ কুতুব শাহের কবিতা</h2>
+  <p data-card-label="item4-subtitle">ক্যাটালগ নম্বর ১৮৪৫</p>
+  <p class="card-content" data-card-content="item4"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-4.wav"></audio>
+</article><article class="item-card" data-audio-key="item5" onclick="if(!event.target.closest('audio')){location.href='item5.html'}">
+  <img src="images/manuscript-item5.png" alt="ফার্স নামা">
+  <h2 data-card-label="item5-title">ফার্স নামা</h2>
+  <p data-card-label="item5-subtitle">নস্তালিক লিপিতে রচিত কাব্যধর্মী পাণ্ডুলিপি</p>
+  <p class="card-content" data-card-content="item5"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-5.wav"></audio>
+</article><article class="item-card" data-audio-key="item6" onclick="if(!event.target.closest('audio')){location.href='item6.html'}">
+  <img src="images/manuscript-item6.png" alt="কিতাব আল-কানুন ফি আল-তিব্ব">
+  <h2 data-card-label="item6-title">কিতাব আল-কানুন ফি আল-তিব্ব</h2>
+  <p data-card-label="item6-subtitle">ইবনে সিনার চিকিৎসাবিজ্ঞানের কানুন</p>
+  <p class="card-content" data-card-content="item6"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-6.wav"></audio>
+</article><article class="item-card" data-audio-key="item7" onclick="if(!event.target.closest('audio')){location.href='item7.html'}">
+  <img src="images/manuscript-item7.png" alt="ইদুইয়া উলূম আল-দীন">
+  <h2 data-card-label="item7-title">ইদুইয়া উলূম আল-দীন</h2>
+  <p data-card-label="item7-subtitle">ধর্মীয় জ্ঞানের পুনর্জাগরণ (ইমাম আল-গাজ্জালি)</p>
+  <p class="card-content" data-card-content="item7"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-7.wav"></audio>
+</article><article class="item-card" data-audio-key="item8" onclick="if(!event.target.closest('audio')){location.href='item8.html'}">
+  <img src="images/manuscript-item8.png" alt="পবিত্র কোরআন (কুফিক লিপি)">
+  <h2 data-card-label="item8-title">পবিত্র কোরআন (কুফিক লিপি)</h2>
+  <p data-card-label="item8-subtitle">তৃতীয় হিজরি শতকের পার্চমেন্ট পাণ্ডুলিপি</p>
+  <p class="card-content" data-card-content="item8"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-8.wav"></audio>
+</article><article class="item-card" data-audio-key="item9" onclick="if(!event.target.closest('audio')){location.href='item9.html'}">
+  <img src="images/manuscript-item9.png" alt="শাহনামা-এ-ফিরদৌসি">
+  <h2 data-card-label="item9-title">শাহনামা-এ-ফিরদৌসি</h2>
+  <p data-card-label="item9-subtitle">৩৭টি মুঘল চিত্রকর্মসহ ফারসি মহাকাব্য</p>
+  <p class="card-content" data-card-content="item9"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/Manuscript-9.wav"></audio>
+</article>
+</section>
+</main>
+
+<footer>
+  <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+</footer>
+
+<script src="content.js"></script>
+<script>
+const itemsMeta = [
+  {
+    "key": "item1",
+    "img": "images/manuscript-item1.png",
+    "audio": {
+      "english": "Audios/English/1.%20LIST%20OF%2009%20MANUSCRIPTS%20FOR%20AUDIO%20VISUALS.wav",
+      "bengali": "Audios/Bengali/Manuscript-1.wav",
+      "malayalam": "Audios/Malayalam/manuscript%201.ml.wav",
+      "urdu": "Audios/Urdu/1.wav"
+    },
+    "labels": {
+      "english": [
+        "Sirr-e-Akbar by Prince Dara Shikoh",
+        "Catalogue No. 3474"
+      ],
+      "bengali": [
+        "সির্-র-ই-আকবর - যুবরাজ দারা শিকোহ",
+        "ক্যাটালগ নম্বর ৩৪৭৪"
+      ],
+      "malayalam": [
+        "സിർ-ഇ-അക്ബർ - പ്രിൻസ് ദാരാ ഷികോഹ്",
+        "കാറ്റലോഗ് നമ്പർ 3474"
+      ],
+      "urdu": [
+        "سرِّ اکبر - شہزادہ دارا شکوہ",
+        "اندراج نمبر 3474"
+      ]
+    }
+  },
+  {
+    "key": "item2",
+    "img": "images/manuscript-item2.png",
+    "audio": {
+      "english": "Audios/English/2.A%20Persian%20paraphrase%20of%20Shrimad%20Bhagwat%20Geeta.wav",
+      "bengali": "Audios/Bengali/Manuscript-2.wav",
+      "malayalam": "Audios/Malayalam/manuscript%202.ml.wav",
+      "urdu": "Audios/Urdu/2.wav"
+    },
+    "labels": {
+      "english": [
+        "A Persian Paraphrase of Shrimad Bhagwat Geeta",
+        "Catalogue No. 2193"
+      ],
+      "bengali": [
+        "শ্রীমদ্ভগবদ্গীতার ফারসি ভাবানুবাদ",
+        "ক্যাটালগ নম্বর ২১৯৩"
+      ],
+      "malayalam": [
+        "ശ്രീമദ് ഭഗവദ്ഗീതയുടെ പേർഷ്യൻ പരിഭാഷ",
+        "കാറ്റലോഗ് നമ്പർ 2193"
+      ],
+      "urdu": [
+        "شریمد بھاگوت گیتا کی فارسی تمثیل",
+        "اندراج نمبر 2193"
+      ]
+    }
+  },
+  {
+    "key": "item3",
+    "img": "images/manuscript-item3.png",
+    "audio": {
+      "english": "Audios/English/3.%20A%20treatise%20on%20weights%20and%20measures%2C.wav",
+      "bengali": "Audios/Bengali/Manuscript-3.wav",
+      "malayalam": "Audios/Malayalam/manuscript%203.ml.wav",
+      "urdu": "Audios/Urdu/3.wav"
+    },
+    "labels": {
+      "english": [
+        "A Treatise on Weights and Measures",
+        "Catalogue No. 1032"
+      ],
+      "bengali": [
+        "ওজন ও পরিমাপ সংক্রান্ত গ্রন্থ",
+        "ক্যাটালগ নম্বর ১০৩২"
+      ],
+      "malayalam": [
+        "അളവുകളെയും തൂക്കങ്ങളെയും കുറിച്ചുള്ള ഗ്രന്ഥം",
+        "കാറ്റലോഗ് നമ്പർ 3888"
+      ],
+      "urdu": [
+        "وزن اور پیمائش پر مقالہ",
+        "اندراج نمبر 1032"
+      ]
+    }
+  },
+  {
+    "key": "item4",
+    "img": "images/manuscript-item4.png",
+    "audio": {
+      "english": "Audios/English/4.%20Poems%20of%20Sultan%20Muhammad%20Qutb.wav",
+      "bengali": "Audios/Bengali/Manuscript-4.wav",
+      "malayalam": "Audios/Malayalam/manuscript%204.ml.wav",
+      "urdu": "Audios/Urdu/4.wav"
+    },
+    "labels": {
+      "english": [
+        "Poems of Sultan Muhammad Qutb Shah",
+        "Catalogue No. 1845"
+      ],
+      "bengali": [
+        "সুলতান মুহাম্মদ কুতুব শাহের কবিতা",
+        "ক্যাটালগ নম্বর ১৮৪৫"
+      ],
+      "malayalam": [
+        "സുൽത്താൻ മുഹമ്മദ് കുത്ബ് ഷായുടെ കവിതകൾ",
+        "കാറ്റലോഗ് നമ്പർ 1845"
+      ],
+      "urdu": [
+        "سلطان محمد قطب شاہ کی نظمیں",
+        "اندراج نمبر 1845"
+      ]
+    }
+  },
+  {
+    "key": "item5",
+    "img": "images/manuscript-item5.png",
+    "audio": {
+      "english": "Audios/English/5.%20%E2%80%9CFars%20Nama%E2%80%9D%20is%20an%20important.wav",
+      "bengali": "Audios/Bengali/Manuscript-5.wav",
+      "malayalam": "Audios/Malayalam/manuscript%205.ml.wav",
+      "urdu": "Audios/Urdu/5.wav"
+    },
+    "labels": {
+      "english": [
+        "Fars Nama",
+        "Nastaliq Poetic Manuscript"
+      ],
+      "bengali": [
+        "ফার্স নামা",
+        "নস্তালিক লিপিতে রচিত কাব্যধর্মী পাণ্ডুলিপি"
+      ],
+      "malayalam": [
+        "ഫാർസ് നാമ",
+        "നസ്താലിക് ലിപിയിലുള്ള കാവ്യ കൈയെഴുത്തുപ്രതി"
+      ],
+      "urdu": [
+        "فارس نامہ",
+        "نستعلیق رسم الخط میں تحریر شدہ منظوم مخطوطہ"
+      ]
+    }
+  },
+  {
+    "key": "item6",
+    "img": "images/manuscript-item6.png",
+    "audio": {
+      "english": "Audios/English/6.%20Kitab%20al-Qanun%20fi%20al-Tibb.wav",
+      "bengali": "Audios/Bengali/Manuscript-6.wav",
+      "malayalam": "Audios/Malayalam/manuscript%206.ml.wav",
+      "urdu": "Audios/Urdu/6.wav"
+    },
+    "labels": {
+      "english": [
+        "Kitab al-Qanun fi al-Tibb",
+        "The Canon of Medicine by Avicenna"
+      ],
+      "bengali": [
+        "কিতাব আল-কানুন ফি আল-তিব্ব",
+        "ইবনে সিনার চিকিৎসাবিজ্ঞানের কানুন"
+      ],
+      "malayalam": [
+        "കിതാബ് അൽ-ഖാനൂൻ ഫി അൽ-തിബ്ബ്",
+        "ഇബ്നെ സിനയുടെ മെഡിക്കൽ വിജ്ഞാനകോശം"
+      ],
+      "urdu": [
+        "کتاب القانون فی الطب",
+        "ابن سینا کی جامع طبی تصنیف"
+      ]
+    }
+  },
+  {
+    "key": "item7",
+    "img": "images/manuscript-item7.png",
+    "audio": {
+      "english": "Audios/English/7.%20Ihaya%20al-Uloom%20al-Deen%2C%20meaning.wav",
+      "bengali": "Audios/Bengali/Manuscript-7.wav",
+      "malayalam": "Audios/Malayalam/manuscript%207.ml.wav",
+      "urdu": "Audios/Urdu/7.wav"
+    },
+    "labels": {
+      "english": [
+        "Ihaya al-Uloom al-Deen",
+        "The Revival of the Religious Sciences"
+      ],
+      "bengali": [
+        "ইদুইয়া উলূম আল-দীন",
+        "ধর্মীয় জ্ঞানের পুনর্জাগরণ (ইমাম আল-গাজ্জালি)"
+      ],
+      "malayalam": [
+        "ഇഹ്യാ ഉലൂം അദ്-ദീൻ",
+        "മതവിജ്ഞാനങ്ങളുടെ പുനരുജ്ജീവനം (ഇമാം അൽ-ഗസാലി)"
+      ],
+      "urdu": [
+        "احیاء علوم الدین",
+        "مذہبی علوم کی تجدید (امام الغزالی)"
+      ]
+    }
+  },
+  {
+    "key": "item8",
+    "img": "images/manuscript-item8.png",
+    "audio": {
+      "english": "Audios/English/8.%20Holy%20Quran.wav",
+      "bengali": "Audios/Bengali/Manuscript-8.wav",
+      "malayalam": "Audios/Malayalam/manuscript%208.ml.wav",
+      "urdu": "Audios/Urdu/8.wav"
+    },
+    "labels": {
+      "english": [
+        "Holy Quran (Kufic Script)",
+        "3rd Century Hijri Parchment Codex"
+      ],
+      "bengali": [
+        "পবিত্র কোরআন (কুফিক লিপি)",
+        "তৃতীয় হিজরি শতকের পার্চমেন্ট পাণ্ডুলিপি"
+      ],
+      "malayalam": [
+        "വിശുദ്ധ ഖുർആൻ (കൂഫിക് ലിപി)",
+        "മൂന്നാം ഹിജ്റ നൂറ്റാണ്ടിലെ ചർമ്മപേപ്പർ കോഡെക്സ്"
+      ],
+      "urdu": [
+        "قرآن مجید (کوفی رسم الخط)",
+        "تیسری صدی ہجری کا چمڑے کے ورق پر مخطوطہ"
+      ]
+    }
+  },
+  {
+    "key": "item9",
+    "img": "images/manuscript-item9.png",
+    "audio": {
+      "english": "Audios/English/9.%20%28Book%20of%20Kings%29.wav",
+      "bengali": "Audios/Bengali/Manuscript-9.wav",
+      "malayalam": "Audios/Malayalam/manuscript%209.ml.wav",
+      "urdu": "Audios/Urdu/9.wav"
+    },
+    "labels": {
+      "english": [
+        "Shah Nama-e-Firdausi (Book of Kings)",
+        "Epic Persian Poem with 37 Mughal Paintings"
+      ],
+      "bengali": [
+        "শাহনামা-এ-ফিরদৌসি",
+        "৩৭টি মুঘল চিত্রকর্মসহ ফারসি মহাকাব্য"
+      ],
+      "malayalam": [
+        "ഷാ നാമ-ഇ-ഫിർദൗസി",
+        "37 മുഗൾ ചിത്രങ്ങളടങ്ങിയ പേർഷ്യൻ ഇതിഹാസ കാവ്യം"
+      ],
+      "urdu": [
+        "شاہ نامہ فردوسی",
+        "37 مغلیہ پینٹنگز کے ساتھ فارسی رزمیہ تصنیف"
+      ]
+    }
+  }
+];
+
+function applyLanguage(lang) {
+  document.querySelectorAll('.langCnt').forEach(el => {
+    el.style.display = (el.id === lang) ? 'block' : 'none';
+  });
+
+  itemsMeta.forEach((meta, idx) => {
+    const card = document.querySelector(`[data-audio-key="${meta.key}"]`);
+    if (!card) return;
+
+    const titleEl = card.querySelector(`[data-card-label="${meta.key}-title"]`);
+    const badgeEl = card.querySelector(`[data-card-label="${meta.key}-subtitle"]`);
+    const contentEl = card.querySelector(`[data-card-content="${meta.key}"]`);
+    const audioEl = card.querySelector('audio');
+
+    const labelPair = meta.labels[lang] || meta.labels.bengali;
+    if (titleEl) {
+      titleEl.textContent = labelPair[0];
+      if (lang === 'urdu') {
+        titleEl.setAttribute('dir', 'rtl');
+        titleEl.style.textAlign = 'right';
+      } else {
+        titleEl.removeAttribute('dir');
+        titleEl.style.textAlign = 'left';
+      }
+    }
+    if (badgeEl) {
+      badgeEl.textContent = labelPair[1];
+      if (lang === 'urdu') {
+        badgeEl.setAttribute('dir', 'rtl');
+        badgeEl.style.textAlign = 'right';
+      } else {
+        badgeEl.removeAttribute('dir');
+        badgeEl.style.textAlign = 'left';
+      }
+    }
+
+    if (contentEl && window.manuscriptContent && window.manuscriptContent[lang]) {
+      const text = window.manuscriptContent[lang][idx] || '';
+      contentEl.textContent = text;
+      if (lang === 'urdu') {
+        contentEl.setAttribute('dir', 'rtl');
+        contentEl.style.textAlign = 'right';
+      } else {
+        contentEl.removeAttribute('dir');
+        contentEl.style.textAlign = 'left';
+      }
+    }
+
+    if (audioEl) {
+      const audioSrc = meta.audio[lang] || meta.audio.bengali;
+      audioEl.src = audioSrc;
+    }
+  });
+}
+
+const selector = document.getElementById('languageSelector');
+selector.addEventListener('change', function() {
+  applyLanguage(this.value);
+});
+
+applyLanguage(selector.value);
+</script>
+</body>
+</html>
