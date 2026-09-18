@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Textile Gallery | Salar Jung Museum</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.gallery-intro{padding:28px 6%;background:#fff;color:#2e2e2e}
+.gallery-intro h1{font-size:42px;margin:0 0 12px}
+.gallery-intro p{font-size:20px;max-width:1100px}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}
+.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);transition:transform 0.2s}
+.item-card:hover{transform:translateY(-4px)}
+.item-card img{width:100%;height:270px;object-fit:contain;background:#ffffff;border-radius:6px;order:1}
+.item-card h2{font-size:18px;margin:14px 0 4px;order:2;color:#a50309;font-weight:700}
+.item-card p[data-card-label$="-subtitle"]{font-size:14px;color:#666;margin-bottom:8px;order:3}
+.item-card audio{width:100%;order:4;margin:10px 0}
+.item-card p.card-content{order:5;margin-top:10px;line-height:1.7;font-size:15px;color:#333;white-space:pre-line}
+.audioBar{padding:18px 6%;background:#2e2e2e;color:#fff}
+.audioBar audio{width:100%}
+.audioBar p{margin:0 0 8px}
+@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:767px){.gallery-intro h1{font-size:30px}.gallery-intro p{font-size:17px}.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.item-card img{height:240px}}
+</style>
+</head>
+<body>
+<div class="sliderHeaderDiv">
+  <div class="container">
+    <header>
+      <div class="logoLft">
+        <a href="#" class="logo logoTwo">
+          <img src="images/logo-moc.png" onerror="this.onerror=null; this.src='images/logo.png';" alt="Ministry of Culture">
+        </a>
+      </div>
+      <div class="logoRgt">
+        <div class="langDiv">
+          <span class="anuIcn">
+            <img src="images/logo-anu.png" alt="Anuvadini">
+          </span>
+          <select class="form formLang" id="languageSelector" aria-label="Select language">
+            <option value="bengali" selected>বাংলা (Bengali)</option>
+              <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="hindi">हिन्दी (Hindi)</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="marathi">मराठी (Marathi)</option>
+              <option value="tamil">தமிழ் (Tamil)</option>
+              <option value="urdu">اردو (Urdu)</option>
+          </select>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+<main>
+<section class="gallery-intro langCnt" id="bengali" style="display:block"><h1>ভারতীয় বস্ত্রশিল্প গ্যালারি</h1><p>সালার জং মিউজিয়ামের ভারতীয় বস্ত্রশিল্প গ্যালারি থেকে নির্বাচিত বস্তুসমূহ।</p></section><section class="gallery-intro langCnt" id="gujarati" style="display:none"><h1>ભારતીય વસ્ત્ર ગૅલેરી</h1><p>સાલાર જંગ મ્યુઝિયમની ભારતીય વસ્ત્ર ગૅલેરીમાંથી પસંદ કરેલી કલાકૃતિઓ.</p></section><section class="gallery-intro langCnt" id="hindi" style="display:none"><h1>भारतीय वस्त्र दीर्घा</h1><p>सालार जंग संग्रहालय की भारतीय वस्त्र दीर्घा से चयनित वस्तुएं।</p></section><section class="gallery-intro langCnt" id="malayalam" style="display:none"><h1>ഇന്ത്യൻ ടെക്സ്റ്റൈൽ ഗാലറി</h1><p>സലാർ ജംഗ് മ്യൂസിയത്തിലെ ഇന്ത്യൻ ടെക്സ്റ്റൈൽ ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്ത വസ്തുക്കൾ.</p></section><section class="gallery-intro langCnt" id="marathi" style="display:none"><h1>भारतीय वस्त्रोद्योग गॅलरी</h1><p>सालार जंग संग्रहालयाच्या भारतीय वस्त्रोद्योग गॅलरीमधून निवडलेल्या वस्तू.</p></section><section class="gallery-intro langCnt" id="tamil" style="display:none"><h1>இந்திய ஜவுளி காட்சியகம்</h1><p>சாலர் ஜங் அருங்காட்சியகத்தின் இந்திய ஜவுளி காட்சியகத்திலிருந்து தேர்ந்தெடுக்கப்பட்ட கலைப்பொருட்கள்.</p></section><section class="gallery-intro langCnt" id="urdu" style="display:none"><h1 dir="rtl" style="text-align:right;">ہندوستانی ٹیکسٹائل گیلری</h1><p dir="rtl" style="text-align:right;">سالار جنگ میوزیم کی ہندوستانی ٹیکسٹائل گیلری سے منتخب اشیا۔</p></section>
+
+<section class="gallery-grid">
+<article class="item-card" data-audio-key="item1" onclick="if(!event.target.closest('audio')){location.href='item1.html'}">
+  <img src="images/Indian-textile-item1.png" alt="ACQ-63-85 পর্দা (পিচওয়াই)">
+  <h2 data-card-label="item1-title">ACQ-63-85 পর্দা (পিচওয়াই)</h2>
+  <p data-card-label="item1-subtitle">Catalogue No. ACQ-63-85</p>
+  <p class="card-content" data-card-content="item1"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/ACQ-63-85%20Curtain%20(Pichwai).wav"></audio>
+</article><article class="item-card" data-audio-key="item2" onclick="if(!event.target.closest('audio')){location.href='item2.html'}">
+  <img src="images/Indian-textile-item2.png" alt="XLIX-367 হাত পাখা">
+  <h2 data-card-label="item2-title">XLIX-367 হাত পাখা</h2>
+  <p data-card-label="item2-subtitle">Catalogue No. XLIX-367</p>
+  <p class="card-content" data-card-content="item2"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/XLIX-367%20Hand%20Fan.wav"></audio>
+</article><article class="item-card" data-audio-key="item3" onclick="if(!event.target.closest('audio')){location.href='item3.html'}">
+  <img src="images/Indian-textile-item3.png" alt="ACQ-80-43 দেওয়ালে ঝোলানো শিল্পকর্ম">
+  <h2 data-card-label="item3-title">ACQ-80-43 দেওয়ালে ঝোলানো শিল্পকর্ম</h2>
+  <p data-card-label="item3-subtitle">Catalogue No. ACQ-80-43</p>
+  <p class="card-content" data-card-content="item3"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/ACQ-80-43%20WALL%20HANGING.wav"></audio>
+</article><article class="item-card" data-audio-key="item4" onclick="if(!event.target.closest('audio')){location.href='item4.html'}">
+  <img src="images/Indian-textile-item4.png" alt="XLII-70 বিছানার চাদর">
+  <h2 data-card-label="item4-title">XLII-70 বিছানার চাদর</h2>
+  <p data-card-label="item4-subtitle">Catalogue No. XLII-70</p>
+  <p class="card-content" data-card-content="item4"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/XLII-70%20BED%20SHEET.wav"></audio>
+</article><article class="item-card" data-audio-key="item5" onclick="if(!event.target.closest('audio')){location.href='item5.html'}">
+  <img src="images/Indian-textile-item5.png" alt="XXV-30 বেনারসি ওড়না">
+  <h2 data-card-label="item5-title">XXV-30 বেনারসি ওড়না</h2>
+  <p data-card-label="item5-subtitle">Catalogue No. XXV-30</p>
+  <p class="card-content" data-card-content="item5"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/XXV-30%20BANARASI%20DOOPATTA.wav"></audio>
+</article><article class="item-card" data-audio-key="item6" onclick="if(!event.target.closest('audio')){location.href='item6.html'}">
+  <img src="images/Indian-textile-item6.png" alt="XXV-40 শাল">
+  <h2 data-card-label="item6-title">XXV-40 শাল</h2>
+  <p data-card-label="item6-subtitle">Catalogue No. XXV-40</p>
+  <p class="card-content" data-card-content="item6"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/XXV-40%20Shawl.wav"></audio>
+</article><article class="item-card" data-audio-key="item7" onclick="if(!event.target.closest('audio')){location.href='item7.html'}">
+  <img src="images/Indian-textile-item7.png" alt="XXV-174 পাটকা">
+  <h2 data-card-label="item7-title">XXV-174 পাটকা</h2>
+  <p data-card-label="item7-subtitle">Catalogue No. XXV-174</p>
+  <p class="card-content" data-card-content="item7"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/XXV-174%20Patka.wav"></audio>
+</article><article class="item-card" data-audio-key="item8" onclick="if(!event.target.closest('audio')){location.href='item8.html'}">
+  <img src="images/Indian-textile-item8.png" alt="HQ-120 হুঁকোর তলদেশ">
+  <h2 data-card-label="item8-title">HQ-120 হুঁকোর তলদেশ</h2>
+  <p data-card-label="item8-subtitle">Catalogue No. HQ-120</p>
+  <p class="card-content" data-card-content="item8"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/HQ-120%20HUQQA%20BOTTOM.wav"></audio>
+</article><article class="item-card" data-audio-key="item9" onclick="if(!event.target.closest('audio')){location.href='item9.html'}">
+  <img src="images/Indian-textile-item9.png" alt="XXV-195 শাড়ি">
+  <h2 data-card-label="item9-title">XXV-195 শাড়ি</h2>
+  <p data-card-label="item9-subtitle">Catalogue No. XXV-195</p>
+  <p class="card-content" data-card-content="item9"></p>
+  <audio controls preload="metadata" src="Audios/Bengali/XXV-195%20Saree.wav"></audio>
+</article>
+</section>
+</main>
+
+<footer>
+  <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+</footer>
+
+<script src="./content.js"></script>
+<script>
+const titleMaps = {
+  item1Title: {"bengali": "ACQ-63-85 \u09aa\u09b0\u09cd\u09a6\u09be (\u09aa\u09bf\u099a\u0993\u09df\u09be\u0987)", "gujarati": "ACQ-63-85 \u0aaa\u0aa1\u0aa6\u0acb (\u0aaa\u0abf\u0a9b\u0ab5\u0abe\u0a88)", "hindi": "ACQ-63-85 \u092a\u0930\u094d\u0926\u093e (\u092a\u093f\u091b\u0935\u093e\u0908)", "malayalam": "ACQ-63-85 \u0d15\u0d7c\u0d1f\u0d4d\u0d1f\u0d7b (\u0d2a\u0d3f\u0d1a\u0d4d\u0d1a\u0d4d\u0d35\u0d3e\u0d2f\u0d4d)", "marathi": "ACQ-63-85 \u092a\u0921\u0926\u093e (\u092a\u093f\u091a\u0935\u093e\u0908)", "tamil": "ACQ-63-85 \u0ba4\u0bbf\u0bb0\u0bc8\u0b9a\u0bcd\u0b9a\u0bc0\u0bb2\u0bc8 (\u0baa\u0bbf\u0b9a\u0bcd\u0bb5\u0bbe\u0baf\u0bcd)", "urdu": "ACQ-63-85\u060c \u067e\u0631\u062f\u06c1 ) \u067e\u0686\u0648\u0627\u0626\u06cc("},
+  item1Subtitle: {"bengali": "Catalogue No. ACQ-63-85", "gujarati": "Catalogue No. ACQ-63-85", "hindi": "Catalogue No. ACQ-63-85", "malayalam": "Catalogue No. ACQ-63-85", "marathi": "Catalogue No. ACQ-63-85", "tamil": "Catalogue No. ACQ-63-85", "urdu": "Catalogue No. ACQ-63-85"},
+  item2Title: {"bengali": "XLIX-367 \u09b9\u09be\u09a4 \u09aa\u09be\u0996\u09be", "gujarati": "XLIX-367   \u0ab9\u0abe\u0aa5\u0aa8\u0acb \u0aaa\u0a82\u0a96\u0acb", "hindi": "XLIX-367 \u0939\u093e\u0925 \u0915\u093e \u092a\u0902\u0916\u093e", "malayalam": "XLIX-367 \u0d35\u0d3f\u0d36\u0d31\u0d3f", "marathi": "XLIX-367 \u0939\u093e\u0924\u092a\u0902\u0916\u093e", "tamil": "XLIX-367 \u0b95\u0bc8 \u0bb5\u0bbf\u0b9a\u0bbf\u0bb1\u0bbf", "urdu": "XLIX-367\u060c \u06c1\u0627\u062a\u06be \u06a9\u0627 \u067e\u0646\u06a9\u06be\u0627"},
+  item2Subtitle: {"bengali": "Catalogue No. XLIX-367", "gujarati": "Catalogue No. XLIX-367", "hindi": "Catalogue No. XLIX-367", "malayalam": "Catalogue No. XLIX-367", "marathi": "Catalogue No. XLIX-367", "tamil": "Catalogue No. XLIX-367", "urdu": "Catalogue No. XLIX-367"},
+  item3Title: {"bengali": "ACQ-80-43 \u09a6\u09c7\u0993\u09af\u09bc\u09be\u09b2\u09c7 \u099d\u09cb\u09b2\u09be\u09a8\u09cb \u09b6\u09bf\u09b2\u09cd\u09aa\u0995\u09b0\u09cd\u09ae", "gujarati": "ACQ-80-43 \u0aa6\u0ac0\u0ab5\u0abe\u0ab2 \u0aaa\u0ab0 \u0ab2\u0a9f\u0a95\u0abe\u0ab5\u0ab5\u0abe\u0aa8\u0ac0 \u0ab5\u0ab8\u0acd\u0aa4\u0ac1 (\u0ab5\u0acb\u0ab2 \u0ab9\u0ac7\u0a82\u0a97\u0abf\u0a82\u0a97)", "hindi": "ACQ-80-43 \u0926\u0940\u0935\u093e\u0930 \u092a\u0930 \u091f\u093e\u0902\u0917\u0928\u0947 \u0935\u093e\u0932\u093e \u092a\u0930\u094d\u0926\u093e", "malayalam": "ACQ-80-43 \u0d35\u0d3e\u0d7e \u0d39\u0d3e\u0d19\u0d4d\u0d19\u0d3f\u0d02\u0d17\u0d4d", "marathi": "ACQ-80-43 \u092d\u093f\u0902\u0924\u0940\u0935\u0930 \u091f\u093e\u0902\u0917\u0923\u094d\u092f\u093e\u091a\u0940 \u0935\u0938\u094d\u0924\u0942", "tamil": "ACQ-80-43 \u0b9a\u0bc1\u0bb5\u0bb0\u0bcd \u0b85\u0bb2\u0b99\u0bcd\u0b95\u0bbe\u0bb0\u0bae\u0bcd", "urdu": "ACQ-80-43  \u062f\u06cc\u0648\u0627\u0631 \u067e\u0631 \u0622\u0648\u06cc\u0632\u0627\u06ba \u06a9\u067e\u0691\u0627"},
+  item3Subtitle: {"bengali": "Catalogue No. ACQ-80-43", "gujarati": "Catalogue No. ACQ-80-43", "hindi": "Catalogue No. ACQ-80-43", "malayalam": "Catalogue No. ACQ-80-43", "marathi": "Catalogue No. ACQ-80-43", "tamil": "Catalogue No. ACQ-80-43", "urdu": "Catalogue No. ACQ-80-43"},
+  item4Title: {"bengali": "XLII-70 \u09ac\u09bf\u099b\u09be\u09a8\u09be\u09b0 \u099a\u09be\u09a6\u09b0", "gujarati": "XLII-70 \u0aac\u0ac7\u0aa1 \u0ab6\u0ac0\u0a9f (\u0aaa\u0ab2\u0a82\u0a97\u0aa8\u0ac0 \u0a9a\u0abe\u0aa6\u0ab0)", "hindi": "XLII-70 \u092c\u0947\u0921\u0936\u0940\u091f (\u091a\u093e\u0926\u0930)", "malayalam": "XLII-70 \u0d15\u0d3f\u0d1f\u0d15\u0d4d\u0d15 \u0d35\u0d3f\u0d30\u0d3f", "marathi": "XLII-70 \u092c\u0947\u0921 \u0936\u0940\u091f", "tamil": "XLII-70 \u0baa\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bc8 \u0bb5\u0bbf\u0bb0\u0bbf\u0baa\u0bcd\u0baa\u0bc1", "urdu": "XLII-70 \u0628\u06cc\u0688 \u0634\u06cc\u0679"},
+  item4Subtitle: {"bengali": "Catalogue No. XLII-70", "gujarati": "Catalogue No. XLII-70", "hindi": "Catalogue No. XLII-70", "malayalam": "Catalogue No. XLII-70", "marathi": "Catalogue No. XLII-70", "tamil": "Catalogue No. XLII-70", "urdu": "Catalogue No. XLII-70"},
+  item5Title: {"bengali": "XXV-30 \u09ac\u09c7\u09a8\u09be\u09b0\u09b8\u09bf \u0993\u09a1\u09bc\u09a8\u09be", "gujarati": "XXV-30 \u0aac\u0aa8\u0abe\u0ab8\u0ac0 \u0aa6\u0ac1\u0aaa\u0a9f\u0acd\u0a9f\u0acb (\u0aac\u0aa8\u0abe\u0ab8\u0ac0 \u0aa6\u0ac1\u0aaa\u0a9f\u0acd\u0a9f\u0acb)", "hindi": "XXV-30 \u092c\u0928\u093e\u0930\u0938\u0940 \u0926\u0941\u092a\u091f\u094d\u091f\u093e", "malayalam": "XXV-30 \u0d2c\u0d28\u0d3e\u0d31\u0d38\u0d3f \u0d26\u0d41\u0d2a\u0d4d\u0d2a\u0d1f\u0d4d\u0d1f", "marathi": "XXV-30 \u092c\u0928\u093e\u0930\u0938\u0940 \u0921\u0942\u092a\u091f\u094d\u091f\u093e", "tamil": "XXV-30 \u0baa\u0ba9\u0bbe\u0bb0\u0b9a\u0bbf \u0ba4\u0bc1\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0bbe", "urdu": "XXV-30 \u0628\u0646\u0627\u0631\u0633\u06cc \u0688\u0648\u067e\u0679\u0627"},
+  item5Subtitle: {"bengali": "Catalogue No. XXV-30", "gujarati": "Catalogue No. XXV-30", "hindi": "Catalogue No. XXV-30", "malayalam": "Catalogue No. XXV-30", "marathi": "Catalogue No. XXV-30", "tamil": "Catalogue No. XXV-30", "urdu": "Catalogue No. XXV-30"},
+  item6Title: {"bengali": "XXV-40 \u09b6\u09be\u09b2", "gujarati": "XXV-40 \u0ab6\u0abe\u0ab2", "hindi": "XXV-40 \u0936\u0949\u0932", "malayalam": "XXV-40 \u0d37\u0d3e\u0d7e", "marathi": "XXV-40 \u0936\u093e\u0932", "tamil": "XXV-40 \u0b9a\u0bbe\u0bb2\u0bcd\u0bb5\u0bc8", "urdu": "XXV-40 \u0634\u0627\u0644"},
+  item6Subtitle: {"bengali": "Catalogue No. XXV-40", "gujarati": "Catalogue No. XXV-40", "hindi": "Catalogue No. XXV-40", "malayalam": "Catalogue No. XXV-40", "marathi": "Catalogue No. XXV-40", "tamil": "Catalogue No. XXV-40", "urdu": "Catalogue No. XXV-40"},
+  item7Title: {"bengali": "XXV-174 \u09aa\u09be\u099f\u0995\u09be", "gujarati": "XXV-174  \u0aaa\u0a9f\u0a95\u0abe , \u0a95\u0aae\u0ab0\u0aac\u0a82\u0aa7\u0ac0", "hindi": "XXV-174 \u092a\u091f\u0915\u093e", "malayalam": "XXV-174 \u0d05\u0d30\u0d2a\u0d4d\u0d2a\u0d1f\u0d4d\u0d1f", "marathi": "XXV-174 \u092a\u091f\u0915\u093e", "tamil": "XXV-174 \u0baa\u0b9f\u0bcd\u0b95\u0bbe", "urdu": "XXV-174 \u06a9\u0645\u0631 \u0628\u0646\u062f"},
+  item7Subtitle: {"bengali": "Catalogue No. XXV-174", "gujarati": "Catalogue No. XXV-174", "hindi": "Catalogue No. XXV-174", "malayalam": "Catalogue No. XXV-174", "marathi": "Catalogue No. XXV-174", "tamil": "Catalogue No. XXV-174", "urdu": "Catalogue No. XXV-174"},
+  item8Title: {"bengali": "HQ-120 \u09b9\u09c1\u0981\u0995\u09cb\u09b0 \u09a4\u09b2\u09a6\u09c7\u09b6", "gujarati": "HQ-120 \u0ab9\u0ac1\u0a95\u0acd\u0a95\u0abe \u0aac\u0acb\u0a9f\u0aae (\u0ab9\u0ac1\u0a95\u0acd\u0a95\u0abe\u0aa8\u0acb \u0aa4\u0ab3\u0abf\u0aaf\u0abe\u0aa8\u0acb \u0aad\u0abe\u0a97)", "hindi": "HQ -120 \u0939\u0941\u0915\u094d\u0915\u0947 \u0915\u093e \u092a\u0947\u0902\u0926\u093e (\u0928\u093f\u091a\u0932\u093e \u0939\u093f\u0938\u094d\u0938\u093e)", "malayalam": "HQ-120 \u0d39\u0d41\u0d15\u0d4d\u0d15\u0d2f\u0d41\u0d1f\u0d46 \u0d05\u0d1f\u0d3f\u0d2d\u0d3e\u0d17\u0d02", "marathi": "XXV-195 \u0938\u093e\u0921\u0940", "tamil": "HQ-120 \u0bb9\u0bc1\u0b95\u0bcd\u0b95\u0bbe \u0b85\u0b9f\u0bbf\u0baa\u0bcd\u0baa\u0b95\u0bc1\u0ba4\u0bbf", "urdu": "HQ-120 \u062d\u0642\u06d2 \u06a9\u0627 \u0646\u0686\u0644\u0627 \u062d\u0635\u06c1"},
+  item8Subtitle: {"bengali": "Catalogue No. HQ-120", "gujarati": "Catalogue No. HQ-120", "hindi": "Catalogue No. HQ-120", "malayalam": "Catalogue No. HQ-120", "marathi": "Catalogue No. HQ-120", "tamil": "Catalogue No. HQ-120", "urdu": "Catalogue No. HQ-120"},
+  item9Title: {"bengali": "XXV-195 \u09b6\u09be\u09a1\u09bc\u09bf", "gujarati": "XXV-195  \u0ab8\u0abe\u0aa1\u0ac0", "hindi": "XXV-195 \u0938\u093e\u0921\u093c\u0940", "malayalam": "XXV-195 \u0d38\u0d3e\u0d30\u0d3f", "marathi": "Item 9", "tamil": "XXV-195 \u0baa\u0bc1\u0b9f\u0bb5\u0bc8", "urdu": "XXV-195 \u0633\u0627\u0691\u06cc"},
+  item9Subtitle: {"bengali": "Catalogue No. XXV-195", "gujarati": "Catalogue No. XXV-195", "hindi": "Catalogue No. XXV-195", "malayalam": "Catalogue No. XXV-195", "marathi": "Catalogue No. XXV-195", "tamil": "Catalogue No. XXV-195", "urdu": "Catalogue No. XXV-195"},
+};
+const audioMaps = {
+  item1: {"bengali": "./Audios/Bengali/ACQ-63-85%20Curtain%20(Pichwai).wav", "gujarati": "./Audios/Gujarathi/ACQ-63-85%20Curtain%20(Pichwai).wav", "hindi": "./Audios/Hindi/1.%20परदा%20(पिछवाई).wav", "malayalam": "./Audios/malaylam/Curtain%20(Pichwai).ml.wav", "marathi": "./Audios/marathi/ACQ-63-85%20Curtain%20(Pichwai).wav", "tamil": "./Audios/tamil/1.%20Curtain%20(Pichwai).wav", "urdu": "./Audios/Urdu/ACQ-63-85%20Curtain%20(Pichwai).wav"},
+  item2: {"bengali": "./Audios/Bengali/XLIX-367%20Hand%20Fan.wav", "gujarati": "./Audios/Gujarathi/XLIX-367%20Hand%20Fan.wav", "hindi": "./Audios/Hindi/2.%20हाथ%20का%20पंखा.wav", "malayalam": "./Audios/malaylam/Hand%20Fan.ml.wav", "marathi": "./Audios/marathi/XLIX-367%20Hand%20Fan.wav", "tamil": "./Audios/tamil/2.%20Hand%20Fan.wav", "urdu": "./Audios/Urdu/XLIX-367%20Hand%20Fan.wav"},
+  item3: {"bengali": "./Audios/Bengali/ACQ-80-43%20WALL%20HANGING.wav", "gujarati": "./Audios/Gujarathi/ACQ-80-43%20WALL%20HANGING.wav", "hindi": "./Audios/Hindi/3.%20दीवार%20पर%20टांगने%20वाला%20पर्दा.wav", "malayalam": "./Audios/malaylam/WALL%20HANGING.ml.wav", "marathi": "./Audios/marathi/ACQ-80-43%20WALL%20HANGING.wav", "tamil": "./Audios/tamil/3.%20WALL%20HANGING.wav", "urdu": "./Audios/Urdu/ACQ-80-43%20WALL%20HANGING.wav"},
+  item4: {"bengali": "./Audios/Bengali/XLII-70%20BED%20SHEET.wav", "gujarati": "./Audios/Gujarathi/XLII-70%20BED%20SHEET.wav", "hindi": "./Audios/Hindi/4.%20बेडशीट%20(चादर).wav", "malayalam": "./Audios/malaylam/BED%20SHEET.ml.wav", "marathi": "./Audios/marathi/XLII-70%20BED%20SHEET.wav", "tamil": "./Audios/tamil/4.%20BED%20SHEET.wav", "urdu": "./Audios/Urdu/XLII-70%20BED%20SHEET.wav"},
+  item5: {"bengali": "./Audios/Bengali/XXV-30%20BANARASI%20DOOPATTA.wav", "gujarati": "./Audios/Gujarathi/XXV-30%20BANARAS%20DOOPATTA.wav", "hindi": "./Audios/Hindi/5.%20बनारसी%20दुपट्टा.wav", "malayalam": "./Audios/malaylam/BANARASI%20DOOPATTA.ml.wav", "marathi": "./Audios/marathi/XXV-30%20BANARASI%20DOOPATTA.wav", "tamil": "./Audios/tamil/5.%20BANARASI%20DOOPATTA.wav", "urdu": "./Audios/Urdu/XXV-30%20BANARASI%20DOOPATTA.wav"},
+  item6: {"bengali": "./Audios/Bengali/XXV-40%20Shawl.wav", "gujarati": "./Audios/Gujarathi/XXV-40%20Shawl.wav", "hindi": "./Audios/Hindi/6.%20शॉल.wav", "malayalam": "./Audios/malaylam/Shawl.ml.wav", "marathi": "./Audios/marathi/XXV-40%20Shawl.wav", "tamil": "./Audios/tamil/6.%20Shawl.wav", "urdu": "./Audios/Urdu/XXV-40%20Shawl.wav"},
+  item7: {"bengali": "./Audios/Bengali/XXV-174%20Patka.wav", "gujarati": "./Audios/Gujarathi/XXV-174%20Patka.wav", "hindi": "./Audios/Hindi/7.%20पटका.wav", "malayalam": "./Audios/malaylam/Patka.ml.wav", "marathi": "./Audios/marathi/XXV-174%20Patka.wav", "tamil": "./Audios/tamil/7.%20PATKA.wav", "urdu": "./Audios/Urdu/XXV-174%20Patka.wav"},
+  item8: {"bengali": "./Audios/Bengali/HQ-120%20HUQQA%20BOTTOM.wav", "gujarati": "./Audios/Gujarathi/HQ-120%20HUQQA%20BOTTOM.wav", "hindi": "./Audios/Hindi/8.%20हुक्के%20का%20पेंदा.wav", "malayalam": "./Audios/malaylam/HUQQA%20BOTTOM.ml.wav", "marathi": "./Audios/marathi/HQ-120%20HUQQA%20BOTTOM.wav", "tamil": "./Audios/tamil/8.%20HUQQA%20BOTTOM.wav", "urdu": "./Audios/Urdu/HQ-120%20HUQQA%20BOTTOM.wav"},
+  item9: {"bengali": "./Audios/Bengali/XXV-195%20Saree.wav", "gujarati": "./Audios/Gujarathi/XXV-195%20Saree.wav", "hindi": "./Audios/Hindi/9.%20साड़ी.wav", "malayalam": "./Audios/malaylam/Saree.ml.wav", "marathi": "./Audios/marathi/XXV-195%20Saree.wav", "tamil": "./Audios/tamil/9.%20%20SAREE.wav", "urdu": "./Audios/Urdu/XXV-195%20Saree.wav"},
+};
+
+const selector = document.getElementById('languageSelector');
+
+function changeLanguage(lang) {
+  // Update intro sections
+  document.querySelectorAll('.langCnt').forEach(el => {
+    el.style.display = (el.id === lang) ? 'block' : 'none';
+  });
+  
+  // Update cards
+  for (let i = 1; i <= 9; i++) {
+    const key = 'item' + i;
+    const titleEl = document.querySelector('[data-card-label="' + key + '-title"]');
+    const subtitleEl = document.querySelector('[data-card-label="' + key + '-subtitle"]');
+    const contentEl = document.querySelector('[data-card-content="' + key + '"]');
+    const audioEl = document.querySelector('[data-audio-key="' + key + '"] audio');
+    
+    if (titleEl && titleMaps[key + 'Title']) titleEl.textContent = titleMaps[key + 'Title'][lang] || titleMaps[key + 'Title']['bengali'];
+    if (subtitleEl && titleMaps[key + 'Subtitle']) subtitleEl.textContent = titleMaps[key + 'Subtitle'][lang] || titleMaps[key + 'Subtitle']['bengali'];
+    
+    if (contentEl && window.textileContent && window.textileContent[lang]) {
+      contentEl.textContent = window.textileContent[lang][i - 1] || '';
+    }
+    
+    if (audioEl && audioMaps[key]) {
+      const newSrc = audioMaps[key][lang] || audioMaps[key]['bengali'];
+      audioEl.pause();
+      audioEl.src = newSrc;
+      audioEl.load();
+    }
+  }
+}
+
+selector.addEventListener('change', function() {
+  changeLanguage(this.value);
+});
+
+changeLanguage(selector.value);
+</script>
+</body>
+</html>

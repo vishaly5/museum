@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manuscript Gallery - Item 6 | Salar Jung Museum</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" onerror="this.remove()">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .audioPlayerDiv {
+      max-width: 900px;
+      margin: 20px auto 0 auto;
+      padding: 0 15px;
+    }
+    .bookContentDiv {
+      max-width: 900px;
+      margin: 20px auto 40px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-sizing: border-box;
+    }
+    .cntHdng {
+      font-size: 26px;
+      font-weight: 700;
+      color: #a50309;
+      margin: 0 0 16px 0;
+      line-height: 1.3;
+    }
+    .booImgDiv {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #eee;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .booImgDiv img {
+      max-height: 460px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .bookCntDiv {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #333;
+    }
+    .navBtnDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .navBtn {
+      background-color: #a50309;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .navBtn:hover {
+      background-color: #7a0206;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="./index.html" class="logo logoTwo">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+          </a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn">
+              <img src="./images/logo-anu.png" alt="Anuvadini">
+            </span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
+              <option value="bengali" selected>বাংলা (Bengali)</option>
+              <option value="english">English</option>
+              <option value="malayalam">മലയാളം (Malayalam)</option>
+              <option value="urdu">اردو (Urdu)</option>
+            </select>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main>
+    <div class="audioPlayerDiv">
+      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / অডিও বিবরণ / Audio Explanation / ഓഡിയോ വിവരണം / آڈیو وضاحت:</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/Manuscript-6.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
+      <h2 class="cntHdng" >কিতাব আল-কানুন ফি আল-তিব্ব</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item6.png" alt="কিতাব আল-কানুন ফি আল-তিব্ব" onerror="this.onerror=null; this.src='./images/manuscript-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" >ইবনে সিনার চিকিৎসাবিজ্ঞানের কানুন</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">কিতাব আল-কানুন ফি আল-তিব্ব’, যার অর্থ ‘চিকিৎসাবিজ্ঞানের কানুন’ বা ‘দ্য ক্যানন অব মেডিসিন’, বিখ্যাত চিকিৎসক ও দার্শনিক ইবনে সিনা বা অ্যাভিসেনা-র আরবি ভাষায় রচিত একটি সুবিস্তৃত চিকিৎসাবিষয়ক বিশ্বকোষ। এই গ্রন্থে গ্রিক, রোমান, ফারসি এবং ইসলামি চিকিৎসাবিজ্ঞানের জ্ঞানকে সুসংবদ্ধভাবে সংকলন করা হয়েছে। এতে শারীরস্থান, শারীরবৃত্তবিদ্যা, রোগ নির্ণয়, ঔষধবিদ্যা এবং চিকিৎসাপদ্ধতি-সহ চিকিৎসাবিজ্ঞানের বিভিন্ন গুরুত্বপূর্ণ বিষয় নিয়ে আলোচনা করা হয়েছে। কয়েক শতাব্দী ধরে ‘কানুন’ ইসলামি বিশ্ব এবং ইউরোপে চিকিৎসাবিজ্ঞানের একটি প্রামাণ্য পাঠ্যগ্রন্থ হিসেবে ব্যবহৃত হয়েছে। চিকিৎসাশিক্ষা ও চিকিৎসাচর্চার বিকাশে এই গ্রন্থ গভীর প্রভাব ফেলেছিল। বর্তমান পাণ্ডুলিপিটি শিকস্তা নস্তালিক লিপিতে সুস্পষ্টভাবে লিখেছেন জাফর আলি। এর তারিখ ১২৪৩ হিজরি, অর্থাৎ ১৮২৮ খ্রিস্টাব্দ। পাণ্ডুলিপিটি হায়দরাবাদের হাকিম গোলাম হুসাইন খানের মাদ্রাসায় রচিত হয়েছিল।</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng" >Kitab al-Qanun fi al-Tibb</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item6.png" alt="Kitab al-Qanun fi al-Tibb" onerror="this.onerror=null; this.src='./images/manuscript-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" >The Canon of Medicine by Avicenna</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">Kitab al-Qanun fi al-Tibb (the canon of medicine) is a comprehensive medical encyclopaedia written in the Arabic language by the renowned physician and philosopher Avicenna (Ibne Sina). It systemically compiles Greek, Roman, Persian, and Islamic medical knowledge, covering anatomy, physiology, diagnosis, pharmacology, and therapeutics. For several centuries, the Canon served as a standard medical text in the Islamic world and Europe, profoundly influencing medical education and practice. Written in clear Shikasta Nastaliq, by Jafar Ali in 1243 Hijri 1828 A.D. In Madrasa of Hakim Ghulam Husain Khan Hyderabad.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
+      <h2 class="cntHdng" >കിതാബ് അൽ-ഖാനൂൻ ഫി അൽ-തിബ്ബ്</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item6.png" alt="കിതാബ് അൽ-ഖാനൂൻ ഫി അൽ-തിബ്ബ്" onerror="this.onerror=null; this.src='./images/manuscript-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" >ഇബ്നെ സിനയുടെ മെഡിക്കൽ വിജ്ഞാനകോശം</p>
+        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">പ്രശസ്ത വൈദ്യനും തത്ത്വചിന്തകനുമായ അവിസെന്ന (ഇബ്നെ സിന) അറബി ഭാഷയിൽ എഴുതിയ സമഗ്രമായ ഒരു മെഡിക്കൽ വിജ്ഞാനകോശമാണ് കിതാബ് അൽ-ഖാനുൻ ഫി അൽ തിബ് (വൈദ്യശാസ്ത്രത്തിന്‍റെ കാനോൺ). അനാട്ടമി, ഫിസിയോളജി, ഡയഗ്നോസിസ്, ഫാർമക്കോളജി, തെറാപ്പിറ്റിക്സ് എന്നിവ ഉൾക്കൊള്ളുന്ന ഗ്രീക്ക്, റോമൻ, പേർഷ്യൻ, ഇസ്ലാമിക് മെഡിക്കൽ അറിവുകൾ ഇത് വ്യവസ്ഥാപിതമായി സമാഹരിക്കുന്നു. നിരവധി നൂറ്റാണ്ടുകളായി, കാനൺ ഇസ്ലാമിക ലോകത്തും യൂറോപ്പിലും ഒരു സാധാരണ മെഡിക്കൽ ഗ്രന്ഥമായി വർത്തിക്കുകയും വൈദ്യശാസ്ത്ര വിദ്യാഭ്യാസത്തെയും പ്രായോഗികതയെയും ആഴത്തിൽ സ്വാധീനിക്കുകയും ചെയ്തു. ഹൈദരാബാദിലെ ഹക്കീം ഗുലാം ഹുസൈൻ ഖാന്‍റെ മദ്രസയിൽ വെച്ച്, ജാഫർ അലി 1243 ഹിജ്റ - ക്രി.വ. 1828-ൽ വ്യക്തമായ ശികസ്ത നസ്തലീഖ് ലിപിയിലാണ് ഇത് പകർത്തി എഴുതിയത്.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">کتاب القانون فی الطب</h2>
+      <div class="booImgDiv">
+        <img src="./images/manuscript-item6.png" alt="کتاب القانون فی الطب" onerror="this.onerror=null; this.src='./images/manuscript-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">ابن سینا کی جامع طبی تصنیف</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">کتاب النون فی طب، جسے طب کا قانون بھی کہا جاتا ہے، معروف طبیب اور فلسفی ابن سینا کی عربی زبان میں لکھی گئی ایک جامع طبی انسائیکلوپیڈیا ہے۔ اس میں یونانی، رومی، فارسی اور اسلامی طب کے علم کو منظم انداز میں پیش کیا گیا ہے۔ کتاب میں تشریح الاعضا، جسمانی افعال، بیماریوں کی تشخیص، ادویہ اور علاج سمیت طب کے مختلف موضوعات شامل ہیں۔ کئی صدی تک یہ کتاب اسلامی دنیا اور یورپ میں طب کی ایک اہم کتاب کے طور پر استعمال ہوتی رہی اور طبی تعلیم اور علاج کے طریقوں پر اس کے گہرے اثرات مرتب ہوئے۔ یہ نسخہ 1243 ہجری، مطابق 1828 عیسوی میں جعفر علی نے واضح شکستہ نستعلیق رسم الخط میں تحریر کیا تھا۔ اسے حیدرآباد میں حکیم غلام حسین خان کے مدرسے میں لکھا گیا۔</div>
+      </div>
+    </div>
+
+    <div class="navBtnDiv">
+      <a href="./item5.html" class="navBtn">← Previous Item</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
+      <a href="./item7.html" class="navBtn">Next Item →</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
+
+  <script src="./content.js"></script>
+  <script>
+    const itemIndex = 5;
+    const selector = document.getElementById('languageSelector');
+    const audioPlayer = document.getElementById('languageAudio');
+    const missingNote = document.getElementById('audioMissingNote');
+    const audioMap = {
+  "bengali": "Audios/Bengali/Manuscript-6.wav",
+  "english": "Audios/English/6.%20Kitab%20al-Qanun%20fi%20al-Tibb.wav",
+  "malayalam": "Audios/Malayalam/manuscript%206.ml.wav",
+  "urdu": "Audios/Urdu/6.wav"
+};
+    const baseAudioSrc = "./Audios/Bengali/Manuscript-6.wav";
+
+    function changeLanguage(lang) {
+      document.querySelectorAll('.langCnt').forEach(el => {
+        el.style.display = (el.id === lang) ? 'block' : 'none';
+      });
+
+      const audioRel = audioMap[lang] || audioMap.bengali;
+      const audioSrc = "./" + audioRel;
+      if (audioPlayer) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+        audioPlayer.onerror = function() {
+          audioPlayer.onerror = null;
+          audioPlayer.src = baseAudioSrc;
+          audioPlayer.load();
+          if (missingNote) missingNote.style.display = 'block';
+        };
+        audioPlayer.src = audioSrc;
+        audioPlayer.load();
+        if (missingNote) missingNote.style.display = 'none';
+      }
+    }
+
+    selector.addEventListener('change', function() {
+      changeLanguage(this.value);
+    });
+
+    changeLanguage(selector.value);
+  </script>
+</body>
+</html>
