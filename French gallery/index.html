@@ -1,2 +1,317 @@
-<script>document.addEventListener('DOMContentLoaded',function(){var data=window.frenchGalleryContent,selector=document.getElementById('languageSelector'),grid=document.getElementById('galleryGrid');function render(language){language=String(language||'english').toLowerCase();var intro=document.getElementById(language)||document.getElementById('english');document.querySelectorAll('.langCnt').forEach(function(section){section.style.display=section===intro?'block':'none'});if(intro){intro.querySelector('h1').textContent=data.title[language]||data.title.english;intro.querySelector('p').textContent=data.intro[language]||data.intro.english}grid.innerHTML=data.items.map(function(item,index){var title=item[language+'Title']||item.englishTitle||item.accession;var text=item[language]||item.english||'';var audio=data.audioPath?data.audioPath(item,language):'';return '<article class="item-card" onclick="if(!event.target.closest(\'audio\'))location.href=\'item'+(index+1)+'.html\'"><img src="Images/'+item.image+'" alt="'+item.accession+': '+title+'"><h2>'+item.accession+': '+title+'</h2><audio controls preload="metadata" src="'+audio+'"></audio><p>'+text+'</p></article>'}).join('')}selector.onchange=function(){render(this.value)};render(selector.value)});</script>
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>French Gallery | Salar Jung Museum</title><link href="css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="css/styles.css"><style>.gallery-intro{padding:28px 6%;background:#fff;color:#2e2e2e}.gallery-intro h1{font-size:42px;margin:0 0 12px}.gallery-intro p{font-size:20px;max-width:1100px}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:transform .2s}.item-card:hover{transform:translateY(-4px)}.item-card img{width:100%;height:270px;object-fit:contain;background:#fff;border-radius:6px}.item-card h2{font-size:18px;margin:14px 0 4px;color:#a50309;font-weight:700}.item-card audio{width:100%;margin:10px 0}.item-card p{margin-top:10px;line-height:1.55;font-size:15px;color:#333}@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:767px){.gallery-intro h1{font-size:30px}.gallery-intro p{font-size:17px}.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.item-card img{height:240px}}</style></head><body><div class="sliderHeaderDiv"><div class="container"><header><div class="logoLft"><a href="#" class="logo logoTwo"><img src="Images/logo-moc.png" onerror="this.onerror=null;this.src='Images/logo.png'" alt="Ministry of Culture"></a></div><div class="logoRgt"><div class="langDiv"><span class="anuIcn"><img src="Images/logo-anu.png" alt="Anuvadini"></span><select class="form formLang" id="languageSelector"><option value="hindi">हिन्दी (Hindi)</option><option value="english">English</option></select></div></div></header></div></div><main><section class="gallery-intro langCnt" id="hindi"><h1></h1><p></p></section><section class="gallery-intro langCnt" id="english"><h1></h1><p></p></section><section class="gallery-grid" id="galleryGrid"></section></main><footer><p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p></footer><script src="content.js"></script><script>const d=frenchGalleryContent,s=document.getElementById('languageSelector'),g=document.getElementById('galleryGrid');function path(i,l){return 'Audio/'+(l==='hindi'?'Hindi/':'English/')+encodeURI(l==='hindi'?i.hindiAudio:i.englishAudio)}function render(l){l=String(l||'english').toLowerCase();document.querySelectorAll('.langCnt').forEach(e=>e.style.display=e.id===l?'block':'none');document.querySelector('#'+l+' h1').textContent=d.title[l];document.querySelector('#'+l+' p').textContent=d.intro[l];g.innerHTML=d.items.map((i,n)=>`<article class="item-card" onclick="if(!event.target.closest('audio'))location.href='item${n+1}.html'"><img src="Images/${i.image}" alt="${i.accession}: ${i[l+'Title']}"><h2>${i.accession}: ${i[l+'Title']}</h2><audio controls preload="metadata" src="${path(i,l)}"></audio><p>${i[l]}</p></article>`).join('')}s.onchange=()=>render(s.value);render(s.value)</script></body></html>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+var data=window.frenchGalleryContent,
+selector=document.getElementById('languageSelector'),
+grid=document.getElementById('galleryGrid');
+
+function render(language){
+language=String(language||'english').toLowerCase();
+
+var intro=document.getElementById(language)||document.getElementById('english');
+
+document.querySelectorAll('.langCnt').forEach(function(section){
+section.style.display=section===intro?'block':'none'
+});
+
+if(intro){
+intro.querySelector('h1').textContent=data.title[language]||data.title.english;
+intro.querySelector('p').textContent=data.intro[language]||data.intro.english
+}
+
+grid.innerHTML=data.items.map(function(item,index){
+var title=item[language+'Title']||item.englishTitle||item.accession;
+var text=item[language]||item.english||'';
+var audio=data.audioPath?data.audioPath(item,language):'';
+
+return '<article class="item-card" onclick="if(!event.target.closest(\'audio\'))location.href=\'item'+(index+1)+'.html\'"><img src="Images/'+item.image+'" alt="'+item.accession+': '+title+'"><h2>'+item.accession+': '+title+'</h2><audio controls preload="metadata" src="'+audio+'"></audio><p>'+text+'</p></article>'
+}).join('')
+}
+
+selector.onchange=function(){
+render(this.value)
+};
+
+render(selector.value)
+});
+</script>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>French Gallery | Salar Jung Museum</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<style>
+.gallery-intro{
+padding:28px 6%;
+background:#fff;
+color:#2e2e2e
+}
+
+.gallery-intro h1{
+font-size:42px;
+margin:0 0 12px
+}
+
+.gallery-intro p{
+font-size:20px;
+max-width:1100px
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+padding:28px 6%;
+background:#a50309
+}
+
+.item-card{
+background:#fff;
+padding:14px;
+color:#2e2e2e;
+cursor:pointer;
+display:flex;
+flex-direction:column;
+border-radius:8px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+transition:transform .2s
+}
+
+.item-card:hover{
+transform:translateY(-4px)
+}
+
+.item-card img{
+width:100%;
+height:270px;
+object-fit:contain;
+background:#fff;
+border-radius:6px
+}
+
+.item-card h2{
+font-size:18px;
+margin:14px 0 4px;
+color:#a50309;
+font-weight:700
+}
+
+.item-card audio{
+width:100%;
+margin:10px 0
+}
+
+.item-card p{
+margin-top:10px;
+line-height:1.55;
+font-size:15px;
+color:#333
+}
+
+@media(max-width:992px){
+.gallery-grid{
+grid-template-columns:repeat(2,1fr)
+}
+}
+
+@media(max-width:767px){
+.gallery-intro h1{
+font-size:30px
+}
+
+.gallery-intro p{
+font-size:17px
+}
+
+.gallery-grid{
+grid-template-columns:1fr;
+padding:18px 4%
+}
+
+.item-card img{
+height:240px
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="sliderHeaderDiv">
+<div class="container">
+
+<header>
+
+<div class="logoLft">
+<a href="#" class="logo logoTwo">
+<img src="Images/logo-moc.png"
+onerror="this.onerror=null;this.src='Images/logo.png'"
+alt="Ministry of Culture">
+</a>
+</div>
+
+<div class="logoRgt">
+
+<div class="langDiv">
+
+<span class="anuIcn">
+<img src="Images/logo-anu.png" alt="Anuvadini">
+</span>
+
+<select class="form formLang" id="languageSelector">
+
+<option value="hindi">
+हिन्दी (Hindi)
+</option>
+
+<option value="english">
+English
+</option>
+
+<option value="telugu">
+తెలుగు (Telugu)
+</option>
+
+</select>
+
+</div>
+
+</div>
+
+</header>
+
+</div>
+</div>
+
+
+<main>
+
+<section class="gallery-intro langCnt" id="hindi">
+<h1></h1>
+<p></p>
+</section>
+
+
+<section class="gallery-intro langCnt" id="english">
+<h1></h1>
+<p></p>
+</section>
+
+
+<section class="gallery-intro langCnt" id="telugu">
+<h1></h1>
+<p></p>
+</section>
+
+
+<section class="gallery-grid" id="galleryGrid">
+</section>
+
+</main>
+
+
+<footer>
+
+<p>
+© 2024 All rights reserved, By
+<a href="https://anuvadini.aicte-india.org/"
+target="_blank"
+rel="noreferrer">
+Anuvadini AI
+</a>
+</p>
+
+</footer>
+
+
+<script src="content.js"></script>
+
+
+<script>
+
+const d=frenchGalleryContent,
+s=document.getElementById('languageSelector'),
+g=document.getElementById('galleryGrid');
+
+
+function path(i,l){
+
+if(l==='hindi'){
+return 'Audio/Hindi/'+encodeURI(i.hindiAudio);
+}
+
+if(l==='telugu'){
+return 'Audio/Telugu/'+encodeURI(i.teluguAudio);
+}
+
+return 'Audio/English/'+encodeURI(i.englishAudio);
+
+}
+
+
+function render(l){
+
+l=String(l||'english').toLowerCase();
+
+document.querySelectorAll('.langCnt').forEach(e=>
+e.style.display=e.id===l?'block':'none'
+);
+
+
+document.querySelector('#'+l+' h1').textContent=
+d.title[l]||d.title.english;
+
+
+document.querySelector('#'+l+' p').textContent=
+d.intro[l]||d.intro.english;
+
+
+g.innerHTML=d.items.map((i,n)=>`
+
+<article
+class="item-card"
+onclick="if(!event.target.closest('audio'))location.href='item${n+1}.html'"
+>
+
+<img
+src="Images/${i.image}"
+alt="${i.accession}: ${i[l+'Title']||i.englishTitle}"
+>
+
+<h2>
+${i.accession}: ${i[l+'Title']||i.englishTitle}
+</h2>
+
+<audio
+controls
+preload="metadata"
+src="${path(i,l)}"
+></audio>
+
+<p>
+${i[l]||i.english}
+</p>
+
+</article>
+
+`).join('');
+
+}
+
+
+s.onchange=()=>render(s.value);
+
+render(s.value);
+
+</script>
+
+</body>
+</html>
