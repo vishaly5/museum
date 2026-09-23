@@ -1,5 +1,186 @@
-﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CS-I-424: Porcelain Vase | Salar Jung Museum</title><link rel="stylesheet" href="css/styles.css"><style>.gallery-intro{padding:28px 6%;background:#fff}.gallery-intro h1{font-size:42px;margin:0 0 12px;color:#a50309}.gallery-intro p{font-size:19px;max-width:1100px}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1)}.item-card img{width:100%;height:270px;object-fit:contain;background:#fff;border-radius:6px}.item-card h2{font-size:18px;margin:14px 0 4px;color:#a50309;line-height:1.55;overflow-wrap:anywhere}.item-card audio{width:100%;margin:10px 0}.card-content{line-height:1.8;font-size:15px;overflow-wrap:anywhere}.audioPlayerDiv,.bookContentDiv,.navBtnDiv{max-width:900px;margin:20px auto;padding:0 15px}.bookContentDiv{padding:25px;background:#fff;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.08)}.cntHdng{color:#a50309;line-height:1.7;overflow-wrap:anywhere}.booImgDiv{display:flex;justify-content:center;max-height:480px;padding:10px;border:1px solid #eee}.booImgDiv img{max-width:100%;max-height:460px;object-fit:contain}.bookCntDiv{font-size:16px;line-height:2.1;overflow-wrap:anywhere}.langCnt[dir=rtl]{direction:rtl;text-align:right}.langCnt[dir=rtl] .bookCntDiv p{text-align:right}.langCnt[lang=ml],.langCnt[lang=te]{font-family:"Noto Sans Malayalam","Noto Sans Telugu","Nirmala UI",sans-serif;line-height:2.25;word-spacing:.08em}.langCnt[lang=ml] .cntHdng,.langCnt[lang=te] .cntHdng{line-height:2}.navBtnDiv{display:flex;justify-content:space-between;gap:10px}.navBtn{background:#a50309;color:#fff;padding:10px 20px;border-radius:6px;text-decoration:none}@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:767px){.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.gallery-intro h1{font-size:30px}.navBtnDiv{flex-direction:column}.navBtn{text-align:center}}</style></head><body><div class="sliderHeaderDiv"><div class="container"><header><a href="index.html" class="logo logoTwo"><img src="images/logo-moc.png" onerror="this.onerror=null;this.src='images/logo.png' alt="Ministry of Culture"></a><div class="langDiv"><img src="images/logo-anu.png" alt="Anuvadini" style="width:26px;height:26px"><select class="form formLang" id="languageSelector" aria-label="Select language">
-<option value="english">English</option>
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS-I-424: Porcelain Vase | Salar Jung Museum</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .gallery-intro {
+            padding: 28px 6%;
+            background: #fff
+        }
+
+        .gallery-intro h1 {
+            font-size: 42px;
+            margin: 0 0 12px;
+            color: #a50309
+        }
+
+        .gallery-intro p {
+            font-size: 19px;
+            max-width: 1100px
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            padding: 28px 6%;
+            background: #a50309
+        }
+
+        .item-card {
+            background: #fff;
+            padding: 14px;
+            color: #2e2e2e;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+        }
+
+        .item-card img {
+            width: 100%;
+            height: 270px;
+            object-fit: contain;
+            background: #fff;
+            border-radius: 6px
+        }
+
+        .item-card h2 {
+            font-size: 18px;
+            margin: 14px 0 4px;
+            color: #a50309;
+            line-height: 1.55;
+            overflow-wrap: anywhere
+        }
+
+        .item-card audio {
+            width: 100%;
+            margin: 10px 0
+        }
+
+        .card-content {
+            line-height: 1.8;
+            font-size: 15px;
+            overflow-wrap: anywhere
+        }
+
+        .audioPlayerDiv,
+        .bookContentDiv,
+        .navBtnDiv {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px
+        }
+
+        .bookContentDiv {
+            padding: 25px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, .08)
+        }
+
+        .cntHdng {
+            color: #a50309;
+            line-height: 1.7;
+            overflow-wrap: anywhere
+        }
+
+        .booImgDiv {
+            display: flex;
+            justify-content: center;
+            max-height: 480px;
+            padding: 10px;
+            border: 1px solid #eee
+        }
+
+        .booImgDiv img {
+            max-width: 100%;
+            max-height: 460px;
+            object-fit: contain
+        }
+
+        .bookCntDiv {
+            font-size: 16px;
+            line-height: 2.1;
+            overflow-wrap: anywhere
+        }
+
+        .langCnt[dir=rtl] {
+            direction: rtl;
+            text-align: right
+        }
+
+        .langCnt[dir=rtl] .bookCntDiv p {
+            text-align: right
+        }
+
+        .langCnt[lang=ml],
+        .langCnt[lang=te] {
+            font-family: "Noto Sans Malayalam", "Noto Sans Telugu", "Nirmala UI", sans-serif;
+            line-height: 2.25;
+            word-spacing: .08em
+        }
+
+        .langCnt[lang=ml] .cntHdng,
+        .langCnt[lang=te] .cntHdng {
+            line-height: 2
+        }
+
+        .navBtnDiv {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px
+        }
+
+        .navBtn {
+            background: #a50309;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none
+        }
+
+        @media(max-width:992px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+        }
+
+        @media(max-width:767px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+                padding: 18px 4%
+            }
+
+            .gallery-intro h1 {
+                font-size: 30px
+            }
+
+            .navBtnDiv {
+                flex-direction: column
+            }
+
+            .navBtn {
+                text-align: center
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sliderHeaderDiv">
+        <div class="container">
+            <header><a href="index.html" class="logo logoTwo"><img src="images/logo-moc.png"
+                        onerror="this.onerror=null;this.src='images/logo.png' alt=" Ministry of Culture"></a>
+                <div class="langDiv"><img src="images/logo-anu.png" alt="Anuvadini"
+                        style="width:26px;height:26px"><select class="form formLang" id="languageSelector"
+                        aria-label="Select language">
+                        <option value="english">English</option>
                         <option value="bengali">Bengali</option>
                         <option value="hindi">Hindi</option>
                         <option value="malayalam">Malayalam</option>
@@ -9,20 +190,160 @@
                         <option value="kannada">Kannada</option>
                         <option value="marathi">Marathi</option>
                         <option value="odia">Odia</option>
-                    </select></div></header></div></div><main><div class="audioPlayerDiv"><audio id="languageAudio" controls preload="metadata" style="width:100%" src="Audio/English/5.%20Vase%2C%20Material%20Porcelain.wav"></audio></div>
+                        <option value="telugu">Telugu</option>
+                    </select></div>
+            </header>
+        </div>
+    </div>
+    <main>
+        <div class="audioPlayerDiv"><audio id="languageAudio" controls preload="metadata" style="width:100%"
+                src="Audio/English/5.%20Vase%2C%20Material%20Porcelain.wav"></audio></div>
         <section class="bookContentDiv langCnt" id="english" lang="en" dir="ltr" style="display:block">
             <h2 class="cntHdng">CS-I-424: Porcelain Vase</h2>
             <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="Porcelain Vase"></div>
             <div class="bookCntDiv">
-                <p>A tall porcelain vase finished in a smooth, light cream glaze with two vibrant green handles featuring delicate pink floral bases. A central female figure in a flowing soft pink gown is depicted in a relaxed, seated pose, complemented by a contrasting green rope-like sash tied around her waist and passing diagonally across her back.</p>
+                <p>A tall porcelain vase finished in a smooth, light cream glaze with two vibrant green handles
+                    featuring delicate pink floral bases. A central female figure in a flowing soft pink gown is
+                    depicted in a relaxed, seated pose, complemented by a contrasting green rope-like sash tied around
+                    her waist and passing diagonally across her back.</p>
             </div>
         </section>
-<section class="bookContentDiv langCnt" id="bengali" lang="bn" dir="ltr" style="display:block"><h2 class="cntHdng">CS-I-424: ফুলদানি</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="ফুলদানি"></div><div class="bookCntDiv"><p>এইলম্বাফুলদানিটিচিনামাটিদিয়েতৈরিএবংএরওপরমসৃণ, হালকাঘিয়েরঙেরচকচকেপ্রলেপদেওয়াহয়েছে, যারদুইপাশেদুটিমার্জিতহাতলরয়েছে।এইহাতলগুলোএকটিচমৎকারবৈপরীত্যতৈরিকরেছে—এগুলোউজ্জ্বলসবুজরঙেরঞ্জিতএবংএদেরপাদদেশটিকোমলগোলাপিফুলেরনকশায়সজ্জিত, যাকেন্দ্রীয়অবয়বেরপোশাকেরসাথেদারুণভাবেমিলেযায়।ফুলদানিরমূলমধ্যভাগেএকরূপসীনারীমূর্তিকেশান্তওসামান্যবসাভঙ্গিতেফুটিয়েতোলাহয়েছে।তিনিএকটিবহমান, নরমগোলাপিপোশাকেআবৃত।তাঁরকোমরেবিপরীতধর্মীসবুজরঙেরদড়িরমতোএকটিকোমরবন্ধনীঅত্যন্তসূক্ষ্মভাবেবাঁধারয়েছে, যাতাঁরপিঠেরওপরদিয়েতির্যকভাবেবিস্তৃতহয়েডানকাঁধথেকেবাঁবাহুরদিকেনেমেএসেছে।</p></div></section>
-<section class="bookContentDiv langCnt" id="hindi" lang="hi" dir="ltr" style="display:none"><h2 class="cntHdng">CS-I-424: फूलदान</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="फूलदान"></div><div class="bookCntDiv"><p>यह लंबा फूलदान चीनी मिट्टी (पोर्सिलेन) से निर्मित है और इस पर चिकनी, हल्के क्रीम रंग की चमकदार परत (ग्लेज़) की गई है। इसके दोनों ओर दो सुंदर हत्थे लगे हैं। ये हत्थे अपने चमकीले हरे रंग के कारण आकर्षक विरोधाभास प्रस्तुत करते हैं तथा इनके आधार पर नाजुक गुलाबी पुष्प सज्जा की गई है, जो मध्य में चित्रित महिला की पोशाक के रंग से पूरी तरह मेल खाती है। फूलदान के मध्य भाग में एक सुंदर महिला की आकृति अंकित है, जिसे सहज एवं हल्की-सी बैठी हुई मुद्रा में दर्शाया गया है। उसने हल्के गुलाबी रंग का लहराता हुआ परिधान धारण किया है। कमर के चारों ओर हरे रंग की रस्सीनुमा पट्टी कलात्मक ढंग से बाँधी गई है, जो तिरछे रूप में उसकी पीठ पर फैलती हुई दाहिने ऊपरी कंधे से होकर बाएँ हाथ की ओर जाती है।</p></div></section>
-<section class="bookContentDiv langCnt" id="malayalam" lang="ml" dir="ltr" style="display:none"><h2 class="cntHdng">CS-I-424: പൂച്ചട്ടി</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="പൂച്ചട്ടി"></div><div class="bookCntDiv"><p>പോർസലൈനിൽനിർമ്മിച്ച്മിനുസമാർന്നഇളംക്രീംനിറത്തിലുള്ളഗ്ലേസ്നൽകിയഈനീളമുള്ളപൂച്ചട്ടിക്ക്, ഇരുവശങ്ങളിലുംമനോഹരമായരണ്ട്പിടികളുണ്ട്. ഈപിടികൾക്ക്തിളക്കമുള്ളപച്ചനിറമാണ്നൽകിയിരിക്കുന്നത്; അവയുടെഅടിഭാഗത്താകട്ടെ, മധ്യഭാഗത്തുള്ളസ്ത്രീരൂപത്തിന്‍റെവസ്ത്രവുമായിതികച്ചുംഇണങ്ങുന്നമനോഹരമായപിങ്ക്പൂക്കളുംനൽകിയിരിക്കുന്നു. പൂച്ചട്ടിയുടെമധ്യഭാഗത്തായി, ശാന്തമായതുംഅല്പംഇരിക്കുന്നതുമായഭാവത്തിലുള്ളമനോഹരമായഒരുസ്ത്രീരൂപംചിത്രീകരിച്ചിരിക്കുന്നു. അവൾഒഴുകുന്നതുപോലെയുള്ളമൃദുവായപിങ്ക്വസ്ത്രംധരിച്ചിരിക്കുന്നു. അരയിൽചുറ്റി, വലത്തോളിന്‍റെമുകളിൽനിന്ന്ആരംഭിച്ച്ഇടത്കൈയിലേക്ക്കുറുകെപോകുന്നരീതിയിൽപച്ചനിറത്തിലുള്ളകയറുപോലെയുള്ളബെൽറ്റ്അവളുടെപുറകിലൂടെവളരെമനോഹരമായിനൽകിയിട്ടുണ്ട്.</p></div></section>
-<section class="bookContentDiv langCnt" id="tamil" lang="ta" dir="ltr" style="display:none"><h2 class="cntHdng">CS-I-424: பூச்சாடி</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="பூச்சாடி"></div><div class="bookCntDiv"><p>இது பீங்கானால் செய்யப்பட்ட நீண்ட வடிவிலான குவளையாகும். இதன் மேற்பரப்பில் மென்மையான வெளிர் கிரீம் நிற மெருகுப் பூச்சு காணப்படுகிறது. இருபுறங்களிலும் அழகிய கைப்பிடிகள் உள்ளன. இக்கைப்பிடிகள் பளிச்சென்ற பச்சை நிறத்தில் அமைக்கப்பட்டுள்ளன. அவற்றின் அடிப்பகுதியில் உள்ள மென்மையான இளஞ்சிவப்பு மலர் அலங்காரம், மையத்தில் இடம்பெற்றுள்ள பெண் உருவத்தின் உடையுடன் பொருந்துகிறது.குவளையின் மையப் பகுதியில் அழகிய பெண் உருவம் அமைதியான, சற்றே அமர்ந்த நிலையில் வடிவமைக்கப்பட்டுள்ளது. அவர் மென்மையான இளஞ்சிவப்பு நிற ஆடையை அணிந்துள்ளார். மாறுபட்ட பச்சை நிறக் கயிறு போன்ற இடைக்கச்சை அவரது இடுப்பைச் சுற்றி நுணுக்கமாகக் கட்டப்பட்டுள்ளது. அது அவரது முதுகின் குறுக்காகச் சென்று, வலது தோள்பகுதியிலிருந்து இடது கை நோக்கி இறங்கும் வகையில் அமைந்துள்ளது.</p></div></section>
-<section class="bookContentDiv langCnt" id="urdu" lang="ur" dir="rtl" style="display:none"><h2 class="cntHdng">CS-I-424: گلدان</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="گلدان"></div><div class="bookCntDiv"><p>یہ بلند گلدان چینی مٹی سے تیار کیا گیا ہے اور اس پر ہموار، ہلکی کریم رنگ کی تہہ چڑھائی گئی ہے۔ دونوں جانب خوب صورت دستے ہیں، جو شوخ سبز رنگ کے ہیں اور ان کی بنیاد پر نازک گلابی پھول بنائے گئے ہیں۔ یہ پھول گلدان کے مرکزی حصے میں موجود خاتون کی پوشاک سے ہم آہنگ ہیں۔گلدان کے مرکزی حصے پر ایک خوب صورت خاتون کی صورت بنائی گئی ہے، جسے پُرسکون اور قدرے بیٹھی ہوئی حالت میں دکھایا گیا ہے۔ وہ نرم گلابی لباس میں ملبوس ہے۔ اس کے برعکس سبز، رسی نما پٹی اس کی کمر کے گرد پیچیدہ انداز میں بندھی ہوئی ہے اور دائیں کندھے سے بائیں بازو کی جانب جاتی ہوئی اس کی پشت پر ترچھا انداز اختیار کرتی ہے۔</p></div></section>
-<section class="bookContentDiv langCnt" id="gujarati" lang="gu" dir="ltr" style="display:none"><h2 class="cntHdng">CS-I-424: શીર્ષકઃ ફૂલદાની</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="શીર્ષકઃ ફૂલદાની"></div><div class="bookCntDiv"><p>આ લાંબી ફૂલદાની પોર્સેલેઇન (ચીનાઈ માટી) માંથી બનાવવામાં આવી છે અને તેના પર લીસી, આછી ક્રીમ રંગની ગ્લેઝ (ચળકાટ) કરવામાં આવી છે. તેની બંને બાજુએ બે ભવ્ય હેન્ડલ આપવામાં આવ્યા છે, જે એક આકર્ષક કોન્ટ્રાસ્ટ (વિરોધાભાસી સુંદરતા) પૂરું પાડે છે. આ હેન્ડલ્સ વાઇબ્રન્ટ લીલા રંગના છે અને તેના પાયા પર નાજુક ગુલાબી ફૂલોની સજાવટ છે, જે બરાબર કેન્દ્રમાં રહેલી સ્ત્રી આકૃતિના પોશાક સાથે મેચ થાય છે. ફૂલદાનીના મધ્ય ભાગમાં એક સુંદર સ્ત્રી આકૃતિને આરામદાયક, થોડી બેઠેલી મુદ્રામાં દર્શાવવામાં આવી છે. તેણે હળવા ગુલાબી રંગનો વહેતો પોશાક પહેરેલો છે. તેની કમર પર એક વિરોધી લીલા રંગનો દોરડા જેવો પટ્ટો (સેશ) જટિલ રીતે બાંધેલો છે, જે તેના ઉપરના જમણા ખભાથી શરૂ થઈને ડાબા હાથ તરફ ત્રાંસા રૂપે તેની પીઠ પાછળ પસાર થાય છે.</p></div></section>
-<section class="bookContentDiv langCnt" id="kannada" lang="kn" dir="ltr" style="display:none"><h2 class="cntHdng">CS-I-424: ಶೀರ್ಷಿಕೆಃಹೂದಾನಿ</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="ಶೀರ್ಷಿಕೆಃಹೂದಾನಿ"></div><div class="bookCntDiv"><p>ಉದ್ದನೆಯ ಈ ಹೂದಾನಿಯನ್ನು ಪಿಂಗಾಣಿಯಿಂದ ತಯಾರಿಸಲಾಗಿದ್ದು, ನಯವಾದ, ತಿಳಿ ಕೆನೆ (ಕ್ರೀಮ್) ಬಣ್ಣದ ಮೆರುಗಿನಿಂದ ಮುಕ್ತಾಯಗೊಳಿಸಲಾಗಿದೆ ಮತ್ತು ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಆಕರ್ಷಕವಾದ ಎರಡು ಹಿಡಿಕೆಗಳಿಂದ ಅಲಂಕರಿಸಲ್ಪಟ್ಟಿದೆ. ಈ ಹಿಡಿಕೆಗಳು ಪ್ರಖರ ಹಸಿರು ಬಣ್ಣವನ್ನು ಹೊಂದಿದ್ದು, ಎದ್ದುಕಾಣುವ ವೈರುಧ್ಯವನ್ನು ನೀಡುತ್ತವೆ ಹಾಗೂ ಇವುಗಳ ತಳಭಾಗದಲ್ಲಿ ಮಧ್ಯದ ಆಕೃತಿಯ ಉಡುಪಿಗೆ ಸೂಕ್ತವಾಗಿ ಹೊಂದುವ ಸೂಕ್ಷ್ಮವಾದ ಗುಲಾಬಿ ಬಣ್ಣದ ಹೂವಿನ ವಿನ್ಯಾಸದ ಬೆಂಬಲವಿದೆ. ಹೂದಾನಿಯ ಮಧ್ಯ ಭಾಗವು ವಿಶ್ರಾಂತಿ ಭಾವದಲ್ಲಿ, ಸ್ವಲ್ಪ ಕುಳಿತಿರುವ ಭಂಗಿಯಲ್ಲಿ ಬಿಂಬಿಸಲಾದ ಸುಂದರ ಮಹಿಳೆಯ ಆಕೃತಿಯನ್ನು ಹೊಂದಿದೆ. ಆಕೆಯು ಹಗುರವಾದ, ಮೃದುವಾದ ಗುಲಾಬಿ ಬಣ್ಣದ ಉಡುಪನ್ನು ಧರಿಸಿದ್ದಾಳೆ. ವೈರುಧ್ಯಮಯ ಹಸಿರು ಬಣ್ಣದ, ಹಗ್ಗದಂತಿರುವ ಪಟ್ಟಿಯನ್ನು ಆಕೆಯ ನಡುಭಾಗದ ಸುತ್ತಲೂ ಸಂಕೀರ್ಣವಾಗಿ ಕಟ್ಟಲಾಗಿದ್ದು, ಇದು ಆಕೆಯ ಬಲ ಹೆಗಲಿನಿಂದ ಎಡಗೈನತ್ತ ಬೆನ್ನಿನಿಂದ ಅಡ್ಡಲಾಗಿ ಹಾದುಹೋಗುತ್ತದೆ.</p></div></section>
-<section class="bookContentDiv langCnt" id="marathi" lang="mr" dir="ltr" style="display:none"><h2 class="cntHdng">CS-I-424: फुलदाणी</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="फुलदाणी"></div><div class="bookCntDiv"><p>लांब फुलदाणी पोर्सेलीनपासून बनवलेली असून, तिला गुळगुळीत, हलक्या क्रिम रंगाचा ग्लेझ दिला आहे आणि तिच्या दोन्ही बाजूंना दोन आकर्षक हँडल आहेत. हे हँडल एक आकर्षक विरोधाभास निर्माण करतात, जे चमकदार हिरव्या रंगात फिनिश केलेले आहेत आणि त्यांच्या तळाशी नाजूक गुलाबी फुले आहेत जी मध्यवर्ती आकृतीच्या पोशाखाशी अगदी जुळतात. फुलदाणीच्या मध्यवर्ती भागावर एका सुंदर स्त्रीची आकृती दर्शवली आहे, जी एका विश्रांतीच्या, किंचित बसलेल्या स्थितीत आहे. तिने वाहणारा, मऊ गुलाबी रंगाचा पोशाख परिधान केला आहे. विरोधाभासी हिरवा, दोरीसारखा शेला तिच्या कंबरेभोवती गुंतागुंतीने बांधलेला आहे आणि उजव्या खांद्याच्या वरून डाव्या हाताकडे जात तिच्या पाठीवरून तिरकस पसरतो.</p></div></section>
-<section class="bookContentDiv langCnt" id="odia" lang="or" dir="ltr" style="display:none"><h2 class="cntHdng">CS-I-424: ଫୁଲଦାନୀ</h2><div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="ଫୁଲଦାନୀ"></div><div class="bookCntDiv"><p>ଆସନ୍ତୁ, ଚିନିମାଟିରେତିଆରିଏହିଲମ୍ବାଫୁଲଦାନୀଟିକୁନିକଟରୁଦେଖିବା, ଯାହାଏକଚିକ୍କଣ, ହାଲୁକାକ୍ରିମ୍ରଙ୍ଗରଆସ୍ତରଣରେଶୋଭିତ।ଏହାରଦୁଇପାଖରେଦୁଇଟିଆକର୍ଷଣୀୟମୁଠିରହିଛି, ଯାହାଜୀବନ୍ତସବୁଜରଙ୍ଗରେରଙ୍ଗାୟିତହୋଇଏକଚିତ୍ତାକର୍ଷକବୈଷମ୍ୟସୃଷ୍ଟିକରୁଛି।ଏହିମୁଠିଗୁଡ଼ିକରତଳଅଂଶସୂକ୍ଷ୍ମଗୋଲାପୀଫୁଲରକାରୁକାର୍ଯ୍ୟଆଧାରିତ, ଯାହାମୁଖ୍ୟଆକୃତିରପୋଷାକସହସମ୍ପୂର୍ଣ୍ଣମେଳଖାଉଛି।ଆପଣଯଦିଫୁଲଦାନୀରମଧ୍ୟଭାଗକୁଲକ୍ଷ୍ୟକରିବେ, ଏଥିରେଜଣେସୁନ୍ଦରମହିଳାଙ୍କଆକୃତିସ୍ୱାଭାବିକ, ସାମାନ୍ୟବସିଥିବାମୁଦ୍ରାରେଚିତ୍ରିତହୋଇଛି।ସେଏକହାଲୁକାଗୋଲାପୀରଙ୍ଗରପ୍ରସାରିତପୋଷାକପିନ୍ଧିଛନ୍ତି।ତାଙ୍କଅଣ୍ଟାରେଦଉଡ଼ି-ସଦୃଶଏକସବୁଜରଙ୍ଗରପଟିଜଟିଳଭାବେବନ୍ଧାହୋଇଛି, ଯାହାତାଙ୍କଡାହାଣକାନ୍ଧରଉପରିଭାଗରୁବାମହାତଆଡ଼କୁପିଠିଦେଇତେର୍ଛାଭାବେଲମ୍ବିଯାଇଛି।</p></div></section><div class="navBtnDiv"><a href="item4.html" class="navBtn">Previous Item</a><a href="index.html" class="navBtn">Back to Gallery Overview</a><a href="item6.html" class="navBtn">Next Item</a></div></main><footer><p>(c) 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p></footer><script>const selector = document.getElementById('languageSelector'); const player = document.getElementById('languageAudio'); const audioMap = [{"id":"english","src":"Audio/English/5.%20Vase%2C%20Material%20Porcelain.wav"},{"id":"bengali","src":"Audio/Bengali/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav"},{"id":"hindi","src":"Audio/Hindi/5.%20%E0%A4%AB%E0%A5%82%E0%A4%B2%E0%A4%A6%E0%A4%BE%E0%A4%A8.wav"},{"id":"malayalam","src":"Audio/Malayalam/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav"},{"id":"tamil","src":"Audio/Tamil/5.%20%20CS-I-424%20-%20Vase.wav"},{"id":"urdu","src":"Audio/Urdu/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav"},{"id":"gujarati","src":"Audio/Gujarati/Acc.%20No_%20CS-I-424%20Title%20Vase_Material_Porcelain.wav"},{"id":"kannada","src":"Audio/Kannada/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav"},{"id":"marathi","src":"Audio/Marathi/Acc.%20No%20CS-I-424%2C%20Title%20Vase.wav"},{"id":"odia","src":"Audio/Odia/5.%20Acc.%20No%20CS-I-424%2C%20Vase%2C.wav"}]; function changeLanguage(lang) { document.querySelectorAll('.langCnt').forEach(el => el.style.display = el.id === lang ? 'block' : 'none'); const source = audioMap.find(item => item.id === lang) || audioMap[0]; player.src = source && source.src ? encodeURI(decodeURIComponent(source.src)) : ''; if (player.src) player.load(); } selector.addEventListener('change', () => changeLanguage(selector.value)); changeLanguage(selector.value || 'english');</script>
+        <section class="bookContentDiv langCnt" id="bengali" lang="bn" dir="ltr" style="display:block">
+            <h2 class="cntHdng">CS-I-424: ফুলদানি</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="ফুলদানি"></div>
+            <div class="bookCntDiv">
+                <p>এইলম্বাফুলদানিটিচিনামাটিদিয়েতৈরিএবংএরওপরমসৃণ, হালকাঘিয়েরঙেরচকচকেপ্রলেপদেওয়াহয়েছে,
+                    যারদুইপাশেদুটিমার্জিতহাতলরয়েছে।এইহাতলগুলোএকটিচমৎকারবৈপরীত্যতৈরিকরেছে—এগুলোউজ্জ্বলসবুজরঙেরঞ্জিতএবংএদেরপাদদেশটিকোমলগোলাপিফুলেরনকশায়সজ্জিত,
+                    যাকেন্দ্রীয়অবয়বেরপোশাকেরসাথেদারুণভাবেমিলেযায়।ফুলদানিরমূলমধ্যভাগেএকরূপসীনারীমূর্তিকেশান্তওসামান্যবসাভঙ্গিতেফুটিয়েতোলাহয়েছে।তিনিএকটিবহমান,
+                    নরমগোলাপিপোশাকেআবৃত।তাঁরকোমরেবিপরীতধর্মীসবুজরঙেরদড়িরমতোএকটিকোমরবন্ধনীঅত্যন্তসূক্ষ্মভাবেবাঁধারয়েছে,
+                    যাতাঁরপিঠেরওপরদিয়েতির্যকভাবেবিস্তৃতহয়েডানকাঁধথেকেবাঁবাহুরদিকেনেমেএসেছে।</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="hindi" lang="hi" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: फूलदान</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="फूलदान"></div>
+            <div class="bookCntDiv">
+                <p>यह लंबा फूलदान चीनी मिट्टी (पोर्सिलेन) से निर्मित है और इस पर चिकनी, हल्के क्रीम रंग की चमकदार परत
+                    (ग्लेज़) की गई है। इसके दोनों ओर दो सुंदर हत्थे लगे हैं। ये हत्थे अपने चमकीले हरे रंग के कारण आकर्षक
+                    विरोधाभास प्रस्तुत करते हैं तथा इनके आधार पर नाजुक गुलाबी पुष्प सज्जा की गई है, जो मध्य में चित्रित
+                    महिला की पोशाक के रंग से पूरी तरह मेल खाती है। फूलदान के मध्य भाग में एक सुंदर महिला की आकृति अंकित
+                    है, जिसे सहज एवं हल्की-सी बैठी हुई मुद्रा में दर्शाया गया है। उसने हल्के गुलाबी रंग का लहराता हुआ
+                    परिधान धारण किया है। कमर के चारों ओर हरे रंग की रस्सीनुमा पट्टी कलात्मक ढंग से बाँधी गई है, जो तिरछे
+                    रूप में उसकी पीठ पर फैलती हुई दाहिने ऊपरी कंधे से होकर बाएँ हाथ की ओर जाती है।</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="malayalam" lang="ml" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: പൂച്ചട്ടി</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="പൂച്ചട്ടി"></div>
+            <div class="bookCntDiv">
+                <p>പോർസലൈനിൽനിർമ്മിച്ച്മിനുസമാർന്നഇളംക്രീംനിറത്തിലുള്ളഗ്ലേസ്നൽകിയഈനീളമുള്ളപൂച്ചട്ടിക്ക്,
+                    ഇരുവശങ്ങളിലുംമനോഹരമായരണ്ട്പിടികളുണ്ട്. ഈപിടികൾക്ക്തിളക്കമുള്ളപച്ചനിറമാണ്നൽകിയിരിക്കുന്നത്;
+                    അവയുടെഅടിഭാഗത്താകട്ടെ,
+                    മധ്യഭാഗത്തുള്ളസ്ത്രീരൂപത്തിന്‍റെവസ്ത്രവുമായിതികച്ചുംഇണങ്ങുന്നമനോഹരമായപിങ്ക്പൂക്കളുംനൽകിയിരിക്കുന്നു.
+                    പൂച്ചട്ടിയുടെമധ്യഭാഗത്തായി,
+                    ശാന്തമായതുംഅല്പംഇരിക്കുന്നതുമായഭാവത്തിലുള്ളമനോഹരമായഒരുസ്ത്രീരൂപംചിത്രീകരിച്ചിരിക്കുന്നു.
+                    അവൾഒഴുകുന്നതുപോലെയുള്ളമൃദുവായപിങ്ക്വസ്ത്രംധരിച്ചിരിക്കുന്നു. അരയിൽചുറ്റി,
+                    വലത്തോളിന്‍റെമുകളിൽനിന്ന്ആരംഭിച്ച്ഇടത്കൈയിലേക്ക്കുറുകെപോകുന്നരീതിയിൽപച്ചനിറത്തിലുള്ളകയറുപോലെയുള്ളബെൽറ്റ്അവളുടെപുറകിലൂടെവളരെമനോഹരമായിനൽകിയിട്ടുണ്ട്.
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="tamil" lang="ta" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: பூச்சாடி</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="பூச்சாடி"></div>
+            <div class="bookCntDiv">
+                <p>இது பீங்கானால் செய்யப்பட்ட நீண்ட வடிவிலான குவளையாகும். இதன் மேற்பரப்பில் மென்மையான வெளிர் கிரீம் நிற
+                    மெருகுப் பூச்சு காணப்படுகிறது. இருபுறங்களிலும் அழகிய கைப்பிடிகள் உள்ளன. இக்கைப்பிடிகள் பளிச்சென்ற
+                    பச்சை நிறத்தில் அமைக்கப்பட்டுள்ளன. அவற்றின் அடிப்பகுதியில் உள்ள மென்மையான இளஞ்சிவப்பு மலர்
+                    அலங்காரம், மையத்தில் இடம்பெற்றுள்ள பெண் உருவத்தின் உடையுடன் பொருந்துகிறது.குவளையின் மையப் பகுதியில்
+                    அழகிய பெண் உருவம் அமைதியான, சற்றே அமர்ந்த நிலையில் வடிவமைக்கப்பட்டுள்ளது. அவர் மென்மையான இளஞ்சிவப்பு
+                    நிற ஆடையை அணிந்துள்ளார். மாறுபட்ட பச்சை நிறக் கயிறு போன்ற இடைக்கச்சை அவரது இடுப்பைச் சுற்றி
+                    நுணுக்கமாகக் கட்டப்பட்டுள்ளது. அது அவரது முதுகின் குறுக்காகச் சென்று, வலது தோள்பகுதியிலிருந்து இடது
+                    கை நோக்கி இறங்கும் வகையில் அமைந்துள்ளது.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="urdu" lang="ur" dir="rtl" style="display:none">
+            <h2 class="cntHdng">CS-I-424: گلدان</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="گلدان"></div>
+            <div class="bookCntDiv">
+                <p>یہ بلند گلدان چینی مٹی سے تیار کیا گیا ہے اور اس پر ہموار، ہلکی کریم رنگ کی تہہ چڑھائی گئی ہے۔ دونوں
+                    جانب خوب صورت دستے ہیں، جو شوخ سبز رنگ کے ہیں اور ان کی بنیاد پر نازک گلابی پھول بنائے گئے ہیں۔ یہ
+                    پھول گلدان کے مرکزی حصے میں موجود خاتون کی پوشاک سے ہم آہنگ ہیں۔گلدان کے مرکزی حصے پر ایک خوب صورت
+                    خاتون کی صورت بنائی گئی ہے، جسے پُرسکون اور قدرے بیٹھی ہوئی حالت میں دکھایا گیا ہے۔ وہ نرم گلابی
+                    لباس میں ملبوس ہے۔ اس کے برعکس سبز، رسی نما پٹی اس کی کمر کے گرد پیچیدہ انداز میں بندھی ہوئی ہے اور
+                    دائیں کندھے سے بائیں بازو کی جانب جاتی ہوئی اس کی پشت پر ترچھا انداز اختیار کرتی ہے۔</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="gujarati" lang="gu" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: શીર્ષકઃ ફૂલદાની</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="શીર્ષકઃ ફૂલદાની"></div>
+            <div class="bookCntDiv">
+                <p>આ લાંબી ફૂલદાની પોર્સેલેઇન (ચીનાઈ માટી) માંથી બનાવવામાં આવી છે અને તેના પર લીસી, આછી ક્રીમ રંગની
+                    ગ્લેઝ (ચળકાટ) કરવામાં આવી છે. તેની બંને બાજુએ બે ભવ્ય હેન્ડલ આપવામાં આવ્યા છે, જે એક આકર્ષક
+                    કોન્ટ્રાસ્ટ (વિરોધાભાસી સુંદરતા) પૂરું પાડે છે. આ હેન્ડલ્સ વાઇબ્રન્ટ લીલા રંગના છે અને તેના પાયા પર
+                    નાજુક ગુલાબી ફૂલોની સજાવટ છે, જે બરાબર કેન્દ્રમાં રહેલી સ્ત્રી આકૃતિના પોશાક સાથે મેચ થાય છે.
+                    ફૂલદાનીના મધ્ય ભાગમાં એક સુંદર સ્ત્રી આકૃતિને આરામદાયક, થોડી બેઠેલી મુદ્રામાં દર્શાવવામાં આવી છે.
+                    તેણે હળવા ગુલાબી રંગનો વહેતો પોશાક પહેરેલો છે. તેની કમર પર એક વિરોધી લીલા રંગનો દોરડા જેવો પટ્ટો
+                    (સેશ) જટિલ રીતે બાંધેલો છે, જે તેના ઉપરના જમણા ખભાથી શરૂ થઈને ડાબા હાથ તરફ ત્રાંસા રૂપે તેની પીઠ
+                    પાછળ પસાર થાય છે.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="kannada" lang="kn" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: ಶೀರ್ಷಿಕೆಃಹೂದಾನಿ</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="ಶೀರ್ಷಿಕೆಃಹೂದಾನಿ"></div>
+            <div class="bookCntDiv">
+                <p>ಉದ್ದನೆಯ ಈ ಹೂದಾನಿಯನ್ನು ಪಿಂಗಾಣಿಯಿಂದ ತಯಾರಿಸಲಾಗಿದ್ದು, ನಯವಾದ, ತಿಳಿ ಕೆನೆ (ಕ್ರೀಮ್) ಬಣ್ಣದ ಮೆರುಗಿನಿಂದ
+                    ಮುಕ್ತಾಯಗೊಳಿಸಲಾಗಿದೆ ಮತ್ತು ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಆಕರ್ಷಕವಾದ ಎರಡು ಹಿಡಿಕೆಗಳಿಂದ ಅಲಂಕರಿಸಲ್ಪಟ್ಟಿದೆ. ಈ ಹಿಡಿಕೆಗಳು
+                    ಪ್ರಖರ ಹಸಿರು ಬಣ್ಣವನ್ನು ಹೊಂದಿದ್ದು, ಎದ್ದುಕಾಣುವ ವೈರುಧ್ಯವನ್ನು ನೀಡುತ್ತವೆ ಹಾಗೂ ಇವುಗಳ ತಳಭಾಗದಲ್ಲಿ ಮಧ್ಯದ
+                    ಆಕೃತಿಯ ಉಡುಪಿಗೆ ಸೂಕ್ತವಾಗಿ ಹೊಂದುವ ಸೂಕ್ಷ್ಮವಾದ ಗುಲಾಬಿ ಬಣ್ಣದ ಹೂವಿನ ವಿನ್ಯಾಸದ ಬೆಂಬಲವಿದೆ. ಹೂದಾನಿಯ ಮಧ್ಯ ಭಾಗವು
+                    ವಿಶ್ರಾಂತಿ ಭಾವದಲ್ಲಿ, ಸ್ವಲ್ಪ ಕುಳಿತಿರುವ ಭಂಗಿಯಲ್ಲಿ ಬಿಂಬಿಸಲಾದ ಸುಂದರ ಮಹಿಳೆಯ ಆಕೃತಿಯನ್ನು ಹೊಂದಿದೆ. ಆಕೆಯು
+                    ಹಗುರವಾದ, ಮೃದುವಾದ ಗುಲಾಬಿ ಬಣ್ಣದ ಉಡುಪನ್ನು ಧರಿಸಿದ್ದಾಳೆ. ವೈರುಧ್ಯಮಯ ಹಸಿರು ಬಣ್ಣದ, ಹಗ್ಗದಂತಿರುವ ಪಟ್ಟಿಯನ್ನು
+                    ಆಕೆಯ ನಡುಭಾಗದ ಸುತ್ತಲೂ ಸಂಕೀರ್ಣವಾಗಿ ಕಟ್ಟಲಾಗಿದ್ದು, ಇದು ಆಕೆಯ ಬಲ ಹೆಗಲಿನಿಂದ ಎಡಗೈನತ್ತ ಬೆನ್ನಿನಿಂದ ಅಡ್ಡಲಾಗಿ
+                    ಹಾದುಹೋಗುತ್ತದೆ.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="marathi" lang="mr" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: फुलदाणी</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="फुलदाणी"></div>
+            <div class="bookCntDiv">
+                <p>लांब फुलदाणी पोर्सेलीनपासून बनवलेली असून, तिला गुळगुळीत, हलक्या क्रिम रंगाचा ग्लेझ दिला आहे आणि
+                    तिच्या दोन्ही बाजूंना दोन आकर्षक हँडल आहेत. हे हँडल एक आकर्षक विरोधाभास निर्माण करतात, जे चमकदार
+                    हिरव्या रंगात फिनिश केलेले आहेत आणि त्यांच्या तळाशी नाजूक गुलाबी फुले आहेत जी मध्यवर्ती आकृतीच्या
+                    पोशाखाशी अगदी जुळतात. फुलदाणीच्या मध्यवर्ती भागावर एका सुंदर स्त्रीची आकृती दर्शवली आहे, जी एका
+                    विश्रांतीच्या, किंचित बसलेल्या स्थितीत आहे. तिने वाहणारा, मऊ गुलाबी रंगाचा पोशाख परिधान केला आहे.
+                    विरोधाभासी हिरवा, दोरीसारखा शेला तिच्या कंबरेभोवती गुंतागुंतीने बांधलेला आहे आणि उजव्या खांद्याच्या
+                    वरून डाव्या हाताकडे जात तिच्या पाठीवरून तिरकस पसरतो.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="odia" lang="or" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: ଫୁଲଦାନୀ</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="ଫୁଲଦାନୀ"></div>
+            <div class="bookCntDiv">
+                <p>ଆସନ୍ତୁ, ଚିନିମାଟିରେତିଆରିଏହିଲମ୍ବାଫୁଲଦାନୀଟିକୁନିକଟରୁଦେଖିବା, ଯାହାଏକଚିକ୍କଣ,
+                    ହାଲୁକାକ୍ରିମ୍ରଙ୍ଗରଆସ୍ତରଣରେଶୋଭିତ।ଏହାରଦୁଇପାଖରେଦୁଇଟିଆକର୍ଷଣୀୟମୁଠିରହିଛି,
+                    ଯାହାଜୀବନ୍ତସବୁଜରଙ୍ଗରେରଙ୍ଗାୟିତହୋଇଏକଚିତ୍ତାକର୍ଷକବୈଷମ୍ୟସୃଷ୍ଟିକରୁଛି।ଏହିମୁଠିଗୁଡ଼ିକରତଳଅଂଶସୂକ୍ଷ୍ମଗୋଲାପୀଫୁଲରକାରୁକାର୍ଯ୍ୟଆଧାରିତ,
+                    ଯାହାମୁଖ୍ୟଆକୃତିରପୋଷାକସହସମ୍ପୂର୍ଣ୍ଣମେଳଖାଉଛି।ଆପଣଯଦିଫୁଲଦାନୀରମଧ୍ୟଭାଗକୁଲକ୍ଷ୍ୟକରିବେ,
+                    ଏଥିରେଜଣେସୁନ୍ଦରମହିଳାଙ୍କଆକୃତିସ୍ୱାଭାବିକ,
+                    ସାମାନ୍ୟବସିଥିବାମୁଦ୍ରାରେଚିତ୍ରିତହୋଇଛି।ସେଏକହାଲୁକାଗୋଲାପୀରଙ୍ଗରପ୍ରସାରିତପୋଷାକପିନ୍ଧିଛନ୍ତି।ତାଙ୍କଅଣ୍ଟାରେଦଉଡ଼ି-ସଦୃଶଏକସବୁଜରଙ୍ଗରପଟିଜଟିଳଭାବେବନ୍ଧାହୋଇଛି,
+                    ଯାହାତାଙ୍କଡାହାଣକାନ୍ଧରଉପରିଭାଗରୁବାମହାତଆଡ଼କୁପିଠିଦେଇତେର୍ଛାଭାବେଲମ୍ବିଯାଇଛି।</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="telugu" lang="te" dir="ltr" style="display:none">
+            <h2 class="cntHdng">CS-I-424: జాడీ</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no5.png" alt="జాడీ"></div>
+            <div class="bookCntDiv">
+                <p>ఈ పొడవైన పింగాణి జాడీ మృదువైన లేత క్రీమ్ రంగు పూతతో (గ్లేజ్) రూపొందించబడి, ఇరువైపులా రెండు
+                    ఆకర్షణీయమైన పిడులను కలిగి ఉంది. ఈ పిడులు ముదురు ఆకుపచ్చ రంగులో ఉండి, పాత్రలోని ప్రధాన స్త్రీ ధరించిన
+                    వస్త్రాలకు సరిపోయే లేత గులాబీ పూల ఆధారాలతో చక్కటి విరుద్ధ వర్ణాన్ని (కాంట్రాస్ట్) కలిగి ఉన్నాయి.
+                    జాడీ మధ్యభాగంలో ప్రశాంతంగా, కొద్దిగా కూర్చున్న భంగిమలో ఉన్న ఒక అందమైన స్త్రీరూపం ఉంది. ఆమె లేత
+                    గులాబీ రంగు వస్త్రాన్ని ధరించింది. నడుము చుట్టూ ఆకుపచ్చని తాడు వంటి దట్టి బంధించబడి, ఆమె కుడి భుజం
+                    పైనుండి ఎడమ చేయి వైపునకు వీపు మీదుగా వాలుగా విస్తరించి ఉంది.</p>
+            </div>
+        </section>
+        <div class="navBtnDiv"><a href="item4.html" class="navBtn">Previous Item</a><a href="index.html"
+                class="navBtn">Back to Gallery Overview</a><a href="item6.html" class="navBtn">Next Item</a></div>
+    </main>
+    <footer>
+        <p>(c) 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+                rel="noreferrer">Anuvadini AI</a></p>
+    </footer>
+    <script>const selector = document.getElementById('languageSelector'); const player = document.getElementById('languageAudio'); const audioMap = [{ "id": "english", "src": "Audio/English/5.%20Vase%2C%20Material%20Porcelain.wav" }, { "id": "bengali", "src": "Audio/Bengali/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav" }, { "id": "hindi", "src": "Audio/Hindi/5.%20%E0%A4%AB%E0%A5%82%E0%A4%B2%E0%A4%A6%E0%A4%BE%E0%A4%A8.wav" }, { "id": "malayalam", "src": "Audio/Malayalam/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav" }, { "id": "tamil", "src": "Audio/Tamil/5.%20%20CS-I-424%20-%20Vase.wav" }, { "id": "urdu", "src": "Audio/Urdu/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav" }, { "id": "gujarati", "src": "Audio/Gujarati/Acc.%20No_%20CS-I-424%20Title%20Vase_Material_Porcelain.wav" }, { "id": "kannada", "src": "Audio/Kannada/Acc.%20No%20CS-I-424%2C%20Title%20Vase%2C%20Material%20Porcelain.wav" }, { "id": "marathi", "src": "Audio/Marathi/Acc.%20No%20CS-I-424%2C%20Title%20Vase.wav" }, { "id": "odia", "src": "Audio/Odia/5.%20Acc.%20No%20CS-I-424%2C%20Vase%2C.wav" }, { "id": "telugu", "src": "Audio/Telugu/Telugu_CS-I-424_Female.wav" }]; function changeLanguage(lang) { document.querySelectorAll('.langCnt').forEach(el => el.style.display = el.id === lang ? 'block' : 'none'); const source = audioMap.find(item => item.id === lang) || audioMap[0]; player.src = source && source.src ? encodeURI(decodeURIComponent(source.src)) : ''; if (player.src) player.load(); } selector.addEventListener('change', () => changeLanguage(selector.value)); changeLanguage(selector.value || 'english');</script>

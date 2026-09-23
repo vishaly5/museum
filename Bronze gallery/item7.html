@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./Images/logo-moc.png" onerror="this.onerror=null; this.src='./Images/logo.png';" alt="Ministry of Culture">
+            <img src="./Images/logo-moc.png" onerror="this.onerror=null; this.src='./Images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -112,122 +123,223 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/7.%20%E0%A4%AE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%A4%E0%A4%BE).wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available. Playing default audio.</p>
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:
+        </p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/7.%20%E0%A4%AE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%A4%E0%A4%BE).wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available. Playing default audio.</p>
       </div>
     </div>
 
-    
+
     <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
-      <h2 class="cntHdng" >7. LXXI-184: मर्करी की प्रतिमा (संदेशवाहक देवता) (LXXI - 184)</h2>
+      <h2 class="cntHdng">7. LXXI-184: मर्करी की प्रतिमा (संदेशवाहक देवता) (LXXI - 184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: मर्करी की प्रतिमा (संदेशवाहक देवता) (LXXI - 184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184: मर्करी की प्रतिमा (संदेशवाहक देवता) (LXXI - 184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">यह कांस्य मूर्ति मर्करी को दर्शाती है, जो रोमन धर्म में संदेश, यात्रा और गति के देवता माने जाते हैं। उन्हें एक प्राकृतिक चट्टान पर बैठे हुए, शांत और विचारमग्न मुद्रा में एक युवा पुरुष के रूप में दर्शाया गया है। प्राचीन यूनानी और रोमन कला की शास्त्रीय परंपरा के अनुरूप उनका शरीर नग्न रूप में प्रदर्शित किया गया है। इस प्रतिमा की सबसे महत्वपूर्ण विशेषता उनके पैरों से जुड़े पंख हैं। ये विशेष पंखयुक्त चप्पलें उनका प्रमुख प्रतीक हैं और देवताओं तथा मनुष्यों के बीच तीव्र गति से आने-जाने की उनकी क्षमता को दर्शाते हैं। चट्टान का आधार इस मूर्ति को एक प्राकृतिक स्पर्श प्रदान करता है। समग्र रूप से, यह फ्रांसीसी कांस्य प्रतिमा मर्करी को देवताओं के एक तीव्रगामी, सौम्य और शक्तिशाली संदेशवाहक के रूप में सुंदर ढंग से प्रस्तुत करती है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह कांस्य मूर्ति मर्करी को दर्शाती है, जो रोमन
+          धर्म में संदेश, यात्रा और गति के देवता माने जाते हैं। उन्हें एक प्राकृतिक चट्टान पर बैठे हुए, शांत और
+          विचारमग्न मुद्रा में एक युवा पुरुष के रूप में दर्शाया गया है। प्राचीन यूनानी और रोमन कला की शास्त्रीय परंपरा
+          के अनुरूप उनका शरीर नग्न रूप में प्रदर्शित किया गया है। इस प्रतिमा की सबसे महत्वपूर्ण विशेषता उनके पैरों से
+          जुड़े पंख हैं। ये विशेष पंखयुक्त चप्पलें उनका प्रमुख प्रतीक हैं और देवताओं तथा मनुष्यों के बीच तीव्र गति से
+          आने-जाने की उनकी क्षमता को दर्शाते हैं। चट्टान का आधार इस मूर्ति को एक प्राकृतिक स्पर्श प्रदान करता है। समग्र
+          रूप से, यह फ्रांसीसी कांस्य प्रतिमा मर्करी को देवताओं के एक तीव्रगामी, सौम्य और शक्तिशाली संदेशवाहक के रूप में
+          सुंदर ढंग से प्रस्तुत करती है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="english" style="display: none;">
-      <h2 class="cntHdng" >7. Statue of MERCURY (God of Messenger) (LXXI - 184)</h2>
+      <h2 class="cntHdng">7. Statue of MERCURY (God of Messenger) (LXXI - 184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. Statue of MERCURY (God of Messenger) (LXXI - 184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. Statue of MERCURY (God of Messenger) (LXXI - 184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">This bronze sculpture represents Mercury, the Roman god of messages, travel, and speed. He is shown as a young man sitting on a natural rock in a relaxed and thoughtful pose. His body is shown nude, following the classical tradition of ancient Greek and Roman art. The most important detail is the wings attached to his feet. These special winged slippers are his main symbol and show his ability to move quickly between the gods and humans. The rock base adds a natural touch to the sculpture. Overall, this French bronze statue beautifully represents Mercury as a swift, graceful, and powerful messenger of the gods.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This bronze sculpture represents Mercury, the
+          Roman god of messages, travel, and speed. He is shown as a young man sitting on a natural rock in a relaxed
+          and thoughtful pose. His body is shown nude, following the classical tradition of ancient Greek and Roman art.
+          The most important detail is the wings attached to his feet. These special winged slippers are his main symbol
+          and show his ability to move quickly between the gods and humans. The rock base adds a natural touch to the
+          sculpture. Overall, this French bronze statue beautifully represents Mercury as a swift, graceful, and
+          powerful messenger of the gods.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
-      <h2 class="cntHdng" >7. LXXI-184: మెర్క్యురీ విగ్రహం (Statue of Mercury)</h2>
+      <h2 class="cntHdng">7. LXXI-184:మెర్క్యురీ విగ్రహం- సందేశహర దేవుడు</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: మెర్క్యురీ విగ్రహం (Statue of Mercury)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184:  మెర్క్యురీ విగ్రహం- సందేశహర దేవుడు"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">సహజమైన రాతిపై ప్రశాంతంగా కూర్చున్న మెర్క్యురీ దేవతా విగ్రహం. కాంస్య శిల్పకళలో ఇది ఒక అత్యుత్తమ కళాఖండం.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184 మెర్క్యురీ విగ్రహం- సందేశహర దేవుడు
+        </p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">రోమన్ల వార్తా, ప్రయాణ, వేగ దేవత అయిన
+          మెర్క్యురీని ఈ కాంస్య శిల్పం సూచిస్తుంది. సహజసిద్ధమైన బండరాయిపై విశ్రాంతిలో ఉన్నట్టు, ఆలోచనలో మునిగిన యువకుని
+          రూపంలో ఆయన కనిపిస్తాడు. ప్రాచీన గ్రీకు, రోమన్ సాంప్రదాయ శైలిని అనుసరిస్తూ ఆయన శరీరం దిగంబరంగా
+          చిత్రీకరించబడింది. ఆయన పాదాలకు అమర్చిన రెక్కలు ఈ శిల్పంలో అత్యంత ప్రధానమైన అంశం. ఈ విశిష్ట రెక్కల పాదరక్షలు
+          ఆయనకు ప్రధాన చిహ్నం; దేవతలకు, మానవులకు మధ్య ఆయన శరవేగంతో రాకపోకలు సాగించగల సామర్థ్యాన్ని అవి సూచిస్తాయి.
+          దిగువన ఉన్న బండరాయి సహజత్వాన్ని చేకూర్చింది. దేవతల చురుకైన, హుందాతనం, శక్తిమంతమైన రాయబారిగా మెర్క్యురీ
+          రూపాన్ని ఈ ఫ్రెంచ్ కాంస్య విగ్రహం రమణీయంగా ఆవిష్కరించింది.
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
-      <h2 class="cntHdng" >7. LXXI-184: மெர்குரியின் சிலை (கடவுளின் தூதர்) (LXXI-184)</h2>
+      <h2 class="cntHdng">7. LXXI-184: மெர்குரியின் சிலை (கடவுளின் தூதர்) (LXXI-184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: மெர்குரியின் சிலை (கடவுளின் தூதர்) (LXXI-184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184: மெர்குரியின் சிலை (கடவுளின் தூதர்) (LXXI-184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">இந்த வெண்கலச் சிற்பம், செய்தி, பயணம் மற்றும் வேகத்தின் ரோமானிய கடவுளான மெர்குரியைக் குறிக்கிறது. அவர் இயற்கையான பாறையின் மீது அமர்ந்தபடி, அமைதியான மற்றும் சிந்தனையுள்ள நிலையில் காட்டப்பட்டுள்ளார். பண்டைய கிரேக்க மற்றும் ரோமானியக் கலை மரபைப் பின்பற்றி, அவரது உடல் ஆடையின்றி காட்டப்பட்டுள்ளது. இந்தச் சிற்பத்தின் முக்கியமான அம்சம் அவரது கால்களில் பொருத்தப்பட்டுள்ள இறக்கைகளாகும். இந்த சிறப்பு சிறகுகள் கொண்ட காலணிகளே அவரது முக்கிய அடையாளமாகும், அவை கடவுள்களுக்கும் மனிதர்களுக்கும் இடையே விரைவாகச் செல்லும் அவரது திறனைக் குறிக்கின்றன. பாறையால் அமைக்கப்பட்ட அடித்தளம் சிற்பத்திற்கு இயற்கையான தோற்றத்தை அளிக்கிறது. மொத்தத்தில், இந்தப் பிரெஞ்சு வெண்கலச் சிலை, மெர்குரியை வேகமான, நளினமான மற்றும் வலிமையான கடவுள்களின் தூதராக அழகாக வெளிப்படுத்துகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இந்த வெண்கலச் சிற்பம், செய்தி, பயணம் மற்றும்
+          வேகத்தின் ரோமானிய கடவுளான மெர்குரியைக் குறிக்கிறது. அவர் இயற்கையான பாறையின் மீது அமர்ந்தபடி, அமைதியான மற்றும்
+          சிந்தனையுள்ள நிலையில் காட்டப்பட்டுள்ளார். பண்டைய கிரேக்க மற்றும் ரோமானியக் கலை மரபைப் பின்பற்றி, அவரது உடல்
+          ஆடையின்றி காட்டப்பட்டுள்ளது. இந்தச் சிற்பத்தின் முக்கியமான அம்சம் அவரது கால்களில் பொருத்தப்பட்டுள்ள
+          இறக்கைகளாகும். இந்த சிறப்பு சிறகுகள் கொண்ட காலணிகளே அவரது முக்கிய அடையாளமாகும், அவை கடவுள்களுக்கும்
+          மனிதர்களுக்கும் இடையே விரைவாகச் செல்லும் அவரது திறனைக் குறிக்கின்றன. பாறையால் அமைக்கப்பட்ட அடித்தளம்
+          சிற்பத்திற்கு இயற்கையான தோற்றத்தை அளிக்கிறது. மொத்தத்தில், இந்தப் பிரெஞ்சு வெண்கலச் சிலை, மெர்குரியை வேகமான,
+          நளினமான மற்றும் வலிமையான கடவுள்களின் தூதராக அழகாக வெளிப்படுத்துகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
-      <h2 class="cntHdng" >7. LXXI-184: दयाळू पुतळा (संदेशवाहकाचा देव) (एलएक्सएक्सआय-184)</h2>
+      <h2 class="cntHdng">7. LXXI-184: दयाळू पुतळा (संदेशवाहकाचा देव) (एलएक्सएक्सआय-184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: दयाळू पुतळा (संदेशवाहकाचा देव) (एलएक्सएक्सआय-184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184: दयाळू पुतळा (संदेशवाहकाचा देव) (एलएक्सएक्सआय-184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">हा ब्रॉन्जचा पुतळा संदेश, प्रवास आणि वेगाचा रोमन देव मर्क्युरी याचे प्रतिनिधित्व करतो. त्याला एका नैसर्गिक खडकावर विश्रांतीच्या आणि विचारमग्न पोझमध्ये बसलेल्या तरुण पुरुषाच्या रूपात दाखवले आहे. प्राचीन ग्रीक आणि रोमन कलेच्या शास्त्रीय परंपरेनुसार त्याचे शरीर नग्न दाखवले आहे. सर्वात महत्त्वाची बाब म्हणजे त्याच्या पायांना जोडलेले पंख आहेत. ही विशेष पंख असलेली पादत्राणे त्याचे मुख्य प्रतीक आहेत आणि देव व मानवांमध्ये जलदगतीने हालचाल करण्याची त्याची क्षमता दर्शवतात. खडकाचा पायथा पुतळ्याला एक नैसर्गिक स्पर्श देतो. एकूणच, हा फ्रेंच ब्रॉन्जचा पुतळा मर्क्युरीला देवांचा एक वेगवान, लावण्यमय आणि शक्तिशाली संदेशवाहक म्हणून सुंदरपणे सादर करतो.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">हा ब्रॉन्जचा पुतळा संदेश, प्रवास आणि वेगाचा रोमन
+          देव मर्क्युरी याचे प्रतिनिधित्व करतो. त्याला एका नैसर्गिक खडकावर विश्रांतीच्या आणि विचारमग्न पोझमध्ये बसलेल्या
+          तरुण पुरुषाच्या रूपात दाखवले आहे. प्राचीन ग्रीक आणि रोमन कलेच्या शास्त्रीय परंपरेनुसार त्याचे शरीर नग्न दाखवले
+          आहे. सर्वात महत्त्वाची बाब म्हणजे त्याच्या पायांना जोडलेले पंख आहेत. ही विशेष पंख असलेली पादत्राणे त्याचे
+          मुख्य प्रतीक आहेत आणि देव व मानवांमध्ये जलदगतीने हालचाल करण्याची त्याची क्षमता दर्शवतात. खडकाचा पायथा
+          पुतळ्याला एक नैसर्गिक स्पर्श देतो. एकूणच, हा फ्रेंच ब्रॉन्जचा पुतळा मर्क्युरीला देवांचा एक वेगवान, लावण्यमय
+          आणि शक्तिशाली संदेशवाहक म्हणून सुंदरपणे सादर करतो.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
-      <h2 class="cntHdng" >7. LXXI-184: മെർക്കുറിയുടെ പ്രതിമ (ദൂതന്മാരുടെ ദൈവം) (LXXI-184)</h2>
+      <h2 class="cntHdng">7. LXXI-184: മെർക്കുറിയുടെ പ്രതിമ (ദൂതന്മാരുടെ ദൈവം) (LXXI-184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: മെർക്കുറിയുടെ പ്രതിമ (ദൂതന്മാരുടെ ദൈവം) (LXXI-184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184: മെർക്കുറിയുടെ പ്രതിമ (ദൂതന്മാരുടെ ദൈവം) (LXXI-184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">സന്ദേശങ്ങളുടെയും യാത്രയുടെയും വേഗതയുടെയും റോമൻ ദൈവമായ മെർക്കുറിയെ ഈ വെങ്കല ശിൽപം പ്രതിനിധീകരിക്കുന്നു. പാറപ്പുറത്ത് വിശ്രമിക്കുന്ന ചിന്താമഗ്നനായ ഭാവത്തിലിരിക്കുന്ന ഒരു യുവാവായിട്ടാണ് അദ്ദേഹത്തെ ചിത്രീകരിച്ചിരിക്കുന്നത്. പുരാതന ഗ്രീക്ക്, റോമൻ കലകളുടെ ക്ലാസിക്കൽ പാരമ്പര്യം പിന്തുടർന്ന് അദ്ദേഹത്തിന്റെ ശരീരം നഗ്നമായി ചിത്രീകരിച്ചിരിക്കുന്നു. ഏറ്റവും പ്രധാനപ്പെട്ട വിശദാംശം അദ്ദേഹത്തിന്റെ കാലുകളിൽ ഘടിപ്പിച്ചിട്ടുള്ള ചിറകുകളാണ്. ഈ പ്രത്യേക ചിറകുള്ള ചെരുപ്പുകൾ അദ്ദേഹത്തിന്റെ പ്രധാന ചിഹ്നമാണ്, കൂടാതെ ദൈവങ്ങൾക്കും മനുഷ്യർക്കും ഇടയിൽ വേഗത്തിൽ സഞ്ചരിക്കാനുള്ള അദ്ദേഹത്തിന്റെ കഴിവ് അവ കാണിക്കുന്നു. പാറയുടെ അടിത്തറ ശിൽപത്തിന് സ്വാഭാവികമായ ഒരു രൂപം നൽകുന്നു. മൊത്തത്തിൽ, ദൈവങ്ങളുടെ വേഗതയേറിയതും മനോഹരവും ശക്തവുമായ ദൂതനായി മെർക്കുറിയെ ഈ ഫ്രഞ്ച് വെങ്കല പ്രതിമ മനോഹരമായി പ്രതിനിധീകരിക്കുന്നു.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">സന്ദേശങ്ങളുടെയും യാത്രയുടെയും വേഗതയുടെയും റോമൻ
+          ദൈവമായ മെർക്കുറിയെ ഈ വെങ്കല ശിൽപം പ്രതിനിധീകരിക്കുന്നു. പാറപ്പുറത്ത് വിശ്രമിക്കുന്ന ചിന്താമഗ്നനായ
+          ഭാവത്തിലിരിക്കുന്ന ഒരു യുവാവായിട്ടാണ് അദ്ദേഹത്തെ ചിത്രീകരിച്ചിരിക്കുന്നത്. പുരാതന ഗ്രീക്ക്, റോമൻ കലകളുടെ
+          ക്ലാസിക്കൽ പാരമ്പര്യം പിന്തുടർന്ന് അദ്ദേഹത്തിന്റെ ശരീരം നഗ്നമായി ചിത്രീകരിച്ചിരിക്കുന്നു. ഏറ്റവും
+          പ്രധാനപ്പെട്ട വിശദാംശം അദ്ദേഹത്തിന്റെ കാലുകളിൽ ഘടിപ്പിച്ചിട്ടുള്ള ചിറകുകളാണ്. ഈ പ്രത്യേക ചിറകുള്ള ചെരുപ്പുകൾ
+          അദ്ദേഹത്തിന്റെ പ്രധാന ചിഹ്നമാണ്, കൂടാതെ ദൈവങ്ങൾക്കും മനുഷ്യർക്കും ഇടയിൽ വേഗത്തിൽ സഞ്ചരിക്കാനുള്ള
+          അദ്ദേഹത്തിന്റെ കഴിവ് അവ കാണിക്കുന്നു. പാറയുടെ അടിത്തറ ശിൽപത്തിന് സ്വാഭാവികമായ ഒരു രൂപം നൽകുന്നു. മൊത്തത്തിൽ,
+          ദൈവങ്ങളുടെ വേഗതയേറിയതും മനോഹരവും ശക്തവുമായ ദൂതനായി മെർക്കുറിയെ ഈ ഫ്രഞ്ച് വെങ്കല പ്രതിമ മനോഹരമായി
+          പ്രതിനിധീകരിക്കുന്നു.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
-      <h2 class="cntHdng" >7. ಮರ್ಕ್ಯುರಿ ಶಿಲ್ಪಕಲಾಕೃತಿ (ಸಂದೇಶವಾಹಕ ದೇವತೆ) (LXXI-184)</h2>
+      <h2 class="cntHdng">7. ಮರ್ಕ್ಯುರಿ ಶಿಲ್ಪಕಲಾಕೃತಿ (ಸಂದೇಶವಾಹಕ ದೇವತೆ) (LXXI-184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. ಮರ್ಕ್ಯುರಿ ಶಿಲ್ಪಕಲಾಕೃತಿ (ಸಂದೇಶವಾಹಕ ದೇವತೆ) (LXXI-184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. ಮರ್ಕ್ಯುರಿ ಶಿಲ್ಪಕಲಾಕೃತಿ (ಸಂದೇಶವಾಹಕ ದೇವತೆ) (LXXI-184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಈ ಕಂಚಿನ  ಶಿಲ್ಪವು ಸಂದೇಶಗಳು, ಪ್ರಯಾಣ ಮತ್ತು ವೇಗದ ರೋಮನ್ ದೇವತೆಯಾದ ಮರ್ಕ್ಯುರಿಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.  ಅವರನ್ನು ನೈಸರ್ಗಿಕ ಬಂಡೆಯ ಮೇಲೆ ಪ್ರಶಾಂತ ಹಾಗೂ ಚಿಂತನಶೀಲ ಭಂಗಿಯಲ್ಲಿ ಕುಳಿತಿರುವ ಯುವಕನಾಗಿ ತೋರಿಸಲಾಗಿದೆ.  ಪ್ರಾಚೀನ ಗ್ರೀಕ್ ಮತ್ತು ರೋಮನ್ ಕಲೆಯ ಸಾಂಪ್ರದಾಯಿಕ ಶೈಲಿಯನ್ನು ಅನುಸರಿಸಿ ಅವರ ದೇಹವನ್ನು ಅನಾವೃತವಾಗಿ ಚಿತ್ರಿಸಲಾಗಿದೆ.  ಅವರ ಪಾದಗಳಿಗೆ ಜೋಡಿಸಲಾದ ರೆಕ್ಕೆಗಳು ಅತ್ಯಂತ ಪ್ರಮುಖವಾದ ವಿವರವಾಗಿದೆ.  ಈ ವಿಶೇಷ ರೆಕ್ಕೆಗಳಿರುವ ಪಾದರಕ್ಷೆಗಳು ಅವರ ಮುಖ್ಯ ಸಂಕೇತವಾಗಿದ್ದು, ದೇವತೆಗಳು ಮತ್ತು ಮಾನವರ ನಡುವೆ ವೇಗವಾಗಿ ಸಂಚರಿಸುವ ಅವರ ಸಾಮರ್ಥ್ಯವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತವೆ.  ಬಂಡೆಯ ಪೀಠವು ಶಿಲ್ಪಕ್ಕೆ ನೈಸರ್ಗಿಕ ಸ್ಪರ್ಶವನ್ನು ನೀಡುತ್ತದೆ.  ಒಟ್ಟಾರೆಯಾಗಿ, ಫ್ರಾನ್ಸ್‌ನ ಈ ಕಂಚಿನ  ವಿಗ್ರಹವು ಮರ್ಕ್ಯುರಿಯನ್ನು ದೇವತೆಗಳ ವೇಗದ, ಸೊಗಸಾದ ಮತ್ತು ಶಕ್ತಿಶಾಲಿ ದೂತನನ್ನಾಗಿ ಸುಂದರವಾಗಿ ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಈ ಕಂಚಿನ ಶಿಲ್ಪವು ಸಂದೇಶಗಳು, ಪ್ರಯಾಣ ಮತ್ತು ವೇಗದ
+          ರೋಮನ್ ದೇವತೆಯಾದ ಮರ್ಕ್ಯುರಿಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಅವರನ್ನು ನೈಸರ್ಗಿಕ ಬಂಡೆಯ ಮೇಲೆ ಪ್ರಶಾಂತ ಹಾಗೂ ಚಿಂತನಶೀಲ ಭಂಗಿಯಲ್ಲಿ
+          ಕುಳಿತಿರುವ ಯುವಕನಾಗಿ ತೋರಿಸಲಾಗಿದೆ. ಪ್ರಾಚೀನ ಗ್ರೀಕ್ ಮತ್ತು ರೋಮನ್ ಕಲೆಯ ಸಾಂಪ್ರದಾಯಿಕ ಶೈಲಿಯನ್ನು ಅನುಸರಿಸಿ ಅವರ ದೇಹವನ್ನು
+          ಅನಾವೃತವಾಗಿ ಚಿತ್ರಿಸಲಾಗಿದೆ. ಅವರ ಪಾದಗಳಿಗೆ ಜೋಡಿಸಲಾದ ರೆಕ್ಕೆಗಳು ಅತ್ಯಂತ ಪ್ರಮುಖವಾದ ವಿವರವಾಗಿದೆ. ಈ ವಿಶೇಷ ರೆಕ್ಕೆಗಳಿರುವ
+          ಪಾದರಕ್ಷೆಗಳು ಅವರ ಮುಖ್ಯ ಸಂಕೇತವಾಗಿದ್ದು, ದೇವತೆಗಳು ಮತ್ತು ಮಾನವರ ನಡುವೆ ವೇಗವಾಗಿ ಸಂಚರಿಸುವ ಅವರ ಸಾಮರ್ಥ್ಯವನ್ನು
+          ಪ್ರದರ್ಶಿಸುತ್ತವೆ. ಬಂಡೆಯ ಪೀಠವು ಶಿಲ್ಪಕ್ಕೆ ನೈಸರ್ಗಿಕ ಸ್ಪರ್ಶವನ್ನು ನೀಡುತ್ತದೆ. ಒಟ್ಟಾರೆಯಾಗಿ, ಫ್ರಾನ್ಸ್‌ನ ಈ ಕಂಚಿನ
+          ವಿಗ್ರಹವು ಮರ್ಕ್ಯುರಿಯನ್ನು ದೇವತೆಗಳ ವೇಗದ, ಸೊಗಸಾದ ಮತ್ತು ಶಕ್ತಿಶಾಲಿ ದೂತನನ್ನಾಗಿ ಸುಂದರವಾಗಿ ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="odia" style="display: none;">
-      <h2 class="cntHdng" >7. ମରକ୍ୟୁରୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି (ଦୂତଙ୍କ ଦେବତା) (LXXI - 184)</h2>
+      <h2 class="cntHdng">7. ମରକ୍ୟୁରୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି (ଦୂତଙ୍କ ଦେବତା) (LXXI - 184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. ମରକ୍ୟୁରୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି (ଦୂତଙ୍କ ଦେବତା) (LXXI - 184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. ମରକ୍ୟୁରୀଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି (ଦୂତଙ୍କ ଦେବତା) (LXXI - 184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ରୋମାନ୍ ସଂସ୍କୃତିରେ ବାର୍ତ୍ତାବହ, ଯାତ୍ରା ଓ ଦ୍ରୁତତାର ଦେବତା ଭାବେ ଜଣାଶୁଣା 'ମରକ୍ୟୁରୀ'ଙ୍କ ଏହି ବ୍ରୋଞ୍ଜ ଭାସ୍କର୍ଯ୍ୟଟିକୁ ଦେଖିବା। ଏଥିରେ ତାଙ୍କୁ ଏକ ପ୍ରାକୃତିକ ପଥର ଉପରେ ଶାନ୍ତ ଏବଂ ଚିନ୍ତାମଗ୍ନ ମୁଦ୍ରାରେ ବସିଥିବା ଜଣେ ଯୁବକ ଭାବରେ ଦର୍ଶାଯାଇଛି। ପ୍ରାଚୀନ ଗ୍ରୀକ୍ ଏବଂ ରୋମାନ୍ କଳାର ଶାସ୍ତ୍ରୀୟ ପରମ୍ପରା ଅନୁଯାୟୀ ତାଙ୍କ ଶରୀରକୁ ଅନାବୃତ ରୂପେ ଚିତ୍ରିତ କରାଯାଇଛି। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ଏହାର ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ବିବରଣୀ ହେଉଛି ତାଙ୍କ ପାଦରେ ଲାଗିଥିବା ଡେଣାଗୁଡ଼ିକ। ଡେଣା ଥିବା ଏହି ବିଶେଷ ପାଦୁକାଗୁଡ଼ିକ ତାଙ୍କର ମୁଖ୍ୟ ପ୍ରତୀକ ଏବଂ ଏଗୁଡ଼ିକ ଦେବତା ଓ ମାନବଙ୍କ ମଧ୍ୟରେ ଦ୍ରୁତ ଗତିରେ ଯାତାୟାତ କରିବାର ତାଙ୍କ କ୍ଷମତାକୁ ସୂଚାଏ। ପଥରର ଆଧାରଟି ଏହି ଭାସ୍କର୍ଯ୍ୟକୁ ଏକ ପ୍ରାକୃତିକ ସ୍ପର୍ଶ ପ୍ରଦାନ କରେ। ସାମଗ୍ରିକ ଭାବେ, ଫ୍ରାନ୍ସରୁ ଅଣାଯାଇଥିବା ଏହି ବ୍ରୋଞ୍ଜ ପ୍ରତିମୂର୍ତ୍ତିଟି ମରକ୍ୟୁରୀଙ୍କୁ ଦେବତାମାନଙ୍କର ଜଣେ କ୍ଷିପ୍ର, ସୌମ୍ୟ ଏବଂ ଶକ୍ତିଶାଳୀ ଦୂତ ଭାବରେ ସୁନ୍ଦର ଭାବେ ଉପସ୍ଥାପିତ କରେ।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ରୋମାନ୍ ସଂସ୍କୃତିରେ ବାର୍ତ୍ତାବହ, ଯାତ୍ରା ଓ ଦ୍ରୁତତାର
+          ଦେବତା ଭାବେ ଜଣାଶୁଣା 'ମରକ୍ୟୁରୀ'ଙ୍କ ଏହି ବ୍ରୋଞ୍ଜ ଭାସ୍କର୍ଯ୍ୟଟିକୁ ଦେଖିବା। ଏଥିରେ ତାଙ୍କୁ ଏକ ପ୍ରାକୃତିକ ପଥର ଉପରେ ଶାନ୍ତ
+          ଏବଂ ଚିନ୍ତାମଗ୍ନ ମୁଦ୍ରାରେ ବସିଥିବା ଜଣେ ଯୁବକ ଭାବରେ ଦର୍ଶାଯାଇଛି। ପ୍ରାଚୀନ ଗ୍ରୀକ୍ ଏବଂ ରୋମାନ୍ କଳାର ଶାସ୍ତ୍ରୀୟ ପରମ୍ପରା
+          ଅନୁଯାୟୀ ତାଙ୍କ ଶରୀରକୁ ଅନାବୃତ ରୂପେ ଚିତ୍ରିତ କରାଯାଇଛି। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ଏହାର ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ବିବରଣୀ
+          ହେଉଛି ତାଙ୍କ ପାଦରେ ଲାଗିଥିବା ଡେଣାଗୁଡ଼ିକ। ଡେଣା ଥିବା ଏହି ବିଶେଷ ପାଦୁକାଗୁଡ଼ିକ ତାଙ୍କର ମୁଖ୍ୟ ପ୍ରତୀକ ଏବଂ ଏଗୁଡ଼ିକ ଦେବତା
+          ଓ ମାନବଙ୍କ ମଧ୍ୟରେ ଦ୍ରୁତ ଗତିରେ ଯାତାୟାତ କରିବାର ତାଙ୍କ କ୍ଷମତାକୁ ସୂଚାଏ। ପଥରର ଆଧାରଟି ଏହି ଭାସ୍କର୍ଯ୍ୟକୁ ଏକ ପ୍ରାକୃତିକ
+          ସ୍ପର୍ଶ ପ୍ରଦାନ କରେ। ସାମଗ୍ରିକ ଭାବେ, ଫ୍ରାନ୍ସରୁ ଅଣାଯାଇଥିବା ଏହି ବ୍ରୋଞ୍ଜ ପ୍ରତିମୂର୍ତ୍ତିଟି ମରକ୍ୟୁରୀଙ୍କୁ ଦେବତାମାନଙ୍କର
+          ଜଣେ କ୍ଷିପ୍ର, ସୌମ୍ୟ ଏବଂ ଶକ୍ତିଶାଳୀ ଦୂତ ଭାବରେ ସୁନ୍ଦର ଭାବେ ଉପସ୍ଥାପିତ କରେ।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
-      <h2 class="cntHdng" >7. LXXI-184: মার্কারির মূর্তি (বার্তাবাহক দেবতা ) (LXXI - 184)</h2>
+      <h2 class="cntHdng">7. LXXI-184: মার্কারির মূর্তি (বার্তাবাহক দেবতা ) (LXXI - 184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: মার্কারির মূর্তি (বার্তাবাহক দেবতা ) (LXXI - 184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184: মার্কারির মূর্তি (বার্তাবাহক দেবতা ) (LXXI - 184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এই ব্রোঞ্জের ভাস্কর্যটি রোমান বার্তা, ভ্রমণ ও গতির দেবতা মার্কারিকে ফুটিয়ে তুলেছে। এতে তাঁকে একটি প্রাকৃতিক পাথরের ওপর শান্ত ও চিন্তাশীল ভঙ্গিতে বসে থাকা এক তরুণ হিসেবে দেখানো হয়েছে। প্রাচীন গ্রিক ও রোমান শিল্পের চিরায়িত ঐতিহ্য মেনে তাঁর দেহটিকে অনাবৃত রূপ দেওয়া হয়েছে। এই ভাস্কর্যের সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্যটি হলো তাঁর পায়ে যুক্ত ডানা। এই বিশেষ ডানাওয়ালা চটি বা পাদুকা তাঁর প্রধান প্রতীক, যা দেব-দেবী ও মানুষের মধ্যে দ্রুত যাতায়াত করার অলৌকিক ক্ষমতাকে প্রকাশ করে। পাথুরে ভিত্তিটি ভাস্কর্যটিতে একটি প্রাকৃতিক ছোঁয়া এনে দিয়েছে। সামগ্রিকভাবে, এই ফরাসি ব্রোঞ্জের মূর্তিটি মার্কারিকে দেবতাদের এক ক্ষিপ্র, মার্জিত এবং শক্তিশালী বার্তাবাহক হিসেবে চমৎকারভাবে উপস্থাপন করেছে । শব্দ-106</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এই ব্রোঞ্জের ভাস্কর্যটি রোমান বার্তা, ভ্রমণ ও
+          গতির দেবতা মার্কারিকে ফুটিয়ে তুলেছে। এতে তাঁকে একটি প্রাকৃতিক পাথরের ওপর শান্ত ও চিন্তাশীল ভঙ্গিতে বসে থাকা
+          এক তরুণ হিসেবে দেখানো হয়েছে। প্রাচীন গ্রিক ও রোমান শিল্পের চিরায়িত ঐতিহ্য মেনে তাঁর দেহটিকে অনাবৃত রূপ
+          দেওয়া হয়েছে। এই ভাস্কর্যের সবচেয়ে গুরুত্বপূর্ণ বৈশিষ্ট্যটি হলো তাঁর পায়ে যুক্ত ডানা। এই বিশেষ ডানাওয়ালা
+          চটি বা পাদুকা তাঁর প্রধান প্রতীক, যা দেব-দেবী ও মানুষের মধ্যে দ্রুত যাতায়াত করার অলৌকিক ক্ষমতাকে প্রকাশ করে।
+          পাথুরে ভিত্তিটি ভাস্কর্যটিতে একটি প্রাকৃতিক ছোঁয়া এনে দিয়েছে। সামগ্রিকভাবে, এই ফরাসি ব্রোঞ্জের মূর্তিটি
+          মার্কারিকে দেবতাদের এক ক্ষিপ্র, মার্জিত এবং শক্তিশালী বার্তাবাহক হিসেবে চমৎকারভাবে উপস্থাপন করেছে । শব্দ-106
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
-      <h2 class="cntHdng" dir="rtl" style="text-align:right;">7. LXXI-184: مرکور کا مجسمہ (پیغام رساں دیوتا) (LXXI-184)</h2>
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">7. LXXI-184: مرکور کا مجسمہ (پیغام رساں دیوتا) (LXXI-184)
+      </h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: مرکور کا مجسمہ (پیغام رساں دیوتا) (LXXI-184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184: مرکور کا مجسمہ (پیغام رساں دیوتا) (LXXI-184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">کانسے کا یہ مجسمہ پیغامات، سفر اور رفتار کے رومی دیوتا مرکری کی شبیہ پیش کرتا ہے۔ اسے ایک نوجوان کی صورت میں دکھایا گیا ہے، جو پُرسکون اور متفکر انداز میں ایک قدرتی چٹان پر بیٹھا ہے۔ قدیم یونانی اور رومی فن کی کلاسیکی روایت کے مطابق، اس مجسمے کی نمایاں خصوصیت اس کے پیروں سے جڑے ہوئے پر ہیں۔ پروں والی یہ چپل مرکری کی بنیادی علامت ہیں اور دیوتاؤں اور انسانوں کے درمیان تیزی سے آمدورفت کی اس کی صلاحیت کو ظاہر کرتی ہیں۔ چٹان کی بنیاد مجسمے میں فطری پن کا احساس پیدا کرتی ہے۔ مجموعی طور پر، یہ فرانسیسی کانسے کا مجسمہ مرکری کو دیوتاؤں کے تیز رفتار، خوب صورت اور بااقتدار پیغام رساں کے طور پر مؤثر انداز میں پیش کرتا ہے۔</div>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">کانسے کا یہ
+          مجسمہ پیغامات، سفر اور رفتار کے رومی دیوتا مرکری کی شبیہ پیش کرتا ہے۔ اسے ایک نوجوان کی صورت میں دکھایا گیا
+          ہے، جو پُرسکون اور متفکر انداز میں ایک قدرتی چٹان پر بیٹھا ہے۔ قدیم یونانی اور رومی فن کی کلاسیکی روایت کے
+          مطابق، اس مجسمے کی نمایاں خصوصیت اس کے پیروں سے جڑے ہوئے پر ہیں۔ پروں والی یہ چپل مرکری کی بنیادی علامت ہیں
+          اور دیوتاؤں اور انسانوں کے درمیان تیزی سے آمدورفت کی اس کی صلاحیت کو ظاہر کرتی ہیں۔ چٹان کی بنیاد مجسمے میں
+          فطری پن کا احساس پیدا کرتی ہے۔ مجموعی طور پر، یہ فرانسیسی کانسے کا مجسمہ مرکری کو دیوتاؤں کے تیز رفتار، خوب
+          صورت اور بااقتدار پیغام رساں کے طور پر مؤثر انداز میں پیش کرتا ہے۔</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
-      <h2 class="cntHdng" >7. LXXI-184: સ્ટેચ્યુ ઓફ મર્ક્યુરી (ગોડ ઓફ મેસેન્જર) (LXXI-184)</h2>
+      <h2 class="cntHdng">7. LXXI-184: સ્ટેચ્યુ ઓફ મર્ક્યુરી (ગોડ ઓફ મેસેન્જર) (LXXI-184)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-7.png" width="100%" alt="7. LXXI-184: સ્ટેચ્યુ ઓફ મર્ક્યુરી (ગોડ ઓફ મેસેન્જર) (LXXI-184)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
+        <img src="./Images/Bronze gallery item-7.png" width="100%"
+          alt="7. LXXI-184: સ્ટેચ્યુ ઓફ મર્ક્યુરી (ગોડ ઓફ મેસેન્જર) (LXXI-184)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-184</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ બ્રોન્ઝ શિલ્પ રોમન સંસ્કૃતિમાં સંદેશાઓ, પ્રવાસ અને ઝડપના દેવ ગણાતા મર્ક્યુરીનું પ્રતિનિધિત્વ કરે છે. તેમને એક યુવાન તરીકે કુદરતી ખડક પર આરામદાયક અને વિચારશીલ મુદ્રામાં બેઠેલા દર્શાવવામાં આવ્યા છે. પ્રાચીન ગ્રીક અને રોમન કલાની શાસ્ત્રીય પરંપરા મુજબ તેમના શરીરને નગ્ન દર્શાવવામાં આવ્યું છે.<br><br>તેમાં સૌથી મહત્વપૂર્ણ વિગત તેમના પગ પર લગાવેલી પાંખો છે. આ ખાસ પાંખોવાળા સેન્ડલ તેમનું મુખ્ય પ્રતીક છે અને દેવતાઓ તથા મનુષ્યો વચ્ચે ઝડપથી હળવાશથી ગતિ કરવાની તેમની ક્ષમતા દર્શાવે છે. ખડકનો પાયો આ શિલ્પને એક કુદરતી સ્પર્શ આપે છે.<br><br>સમગ્રપણે, આ ફ્રેન્ચ બ્રોન્ઝ પ્રતિમા મર્ક્યુરીને દેવતાઓના એક ઝડપી, કૃપાપૂર્વક અને શક્તિશાળી સંદેશાવાહક તરીકે સુંદર રીતે રજૂ કરે છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ બ્રોન્ઝ શિલ્પ રોમન સંસ્કૃતિમાં સંદેશાઓ, પ્રવાસ
+          અને ઝડપના દેવ ગણાતા મર્ક્યુરીનું પ્રતિનિધિત્વ કરે છે. તેમને એક યુવાન તરીકે કુદરતી ખડક પર આરામદાયક અને વિચારશીલ
+          મુદ્રામાં બેઠેલા દર્શાવવામાં આવ્યા છે. પ્રાચીન ગ્રીક અને રોમન કલાની શાસ્ત્રીય પરંપરા મુજબ તેમના શરીરને નગ્ન
+          દર્શાવવામાં આવ્યું છે.<br><br>તેમાં સૌથી મહત્વપૂર્ણ વિગત તેમના પગ પર લગાવેલી પાંખો છે. આ ખાસ પાંખોવાળા સેન્ડલ
+          તેમનું મુખ્ય પ્રતીક છે અને દેવતાઓ તથા મનુષ્યો વચ્ચે ઝડપથી હળવાશથી ગતિ કરવાની તેમની ક્ષમતા દર્શાવે છે. ખડકનો
+          પાયો આ શિલ્પને એક કુદરતી સ્પર્શ આપે છે.<br><br>સમગ્રપણે, આ ફ્રેન્ચ બ્રોન્ઝ પ્રતિમા મર્ક્યુરીને દેવતાઓના એક
+          ઝડપી, કૃપાપૂર્વક અને શક્તિશાળી સંદેશાવાહક તરીકે સુંદર રીતે રજૂ કરે છે.</div>
       </div>
     </div>
 
@@ -239,7 +351,8 @@
   </main>
 
   <footer>
-    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script>
@@ -247,18 +360,18 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "hindi": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/7.%20%E0%A4%AE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%A4%E0%A4%BE).wav",
-  "english": "./Audio/english/7.%20Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
-  "telugu": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/7.%20%E0%A4%AE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%A4%E0%A4%BE).wav",
-  "tamil": "./Audio/Tamil/BRONZE%20GALLERY/Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
-  "marathi": "./Audio/marathi/BRONZE%20GALLERY/Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
-  "malayalam": "./Audio/malayalam/Statue%20of%20MERCURY%20(God%20of%20Messenger).wav",
-  "kannada": "./Audio/kannada/Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
-  "odia": "./Audio/odia/7.%20Statue%20of%20MERCURY%20(LXXI%20-%20184).wav",
-  "bengali": "./Audio/bengali/11.%20Bronze%20Gallery/Statue%20of%20MERCURY%20%20(LXXI%20-%20184).wav",
-  "urdu": "./Audio/urdu/7.%20Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
-  "gujarati": "./Audio/gujarati/7.%20Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav"
-};
+      "hindi": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/7.%20%E0%A4%AE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%A4%E0%A4%BE).wav",
+      "english": "./Audio/english/7.%20Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
+      "telugu": "./Audio/telugu/Telugu_Statue%20of%20MERCURY_Female.wav",
+      "tamil": "./Audio/Tamil/BRONZE%20GALLERY/Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
+      "marathi": "./Audio/marathi/BRONZE%20GALLERY/Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
+      "malayalam": "./Audio/malayalam/Statue%20of%20MERCURY%20(God%20of%20Messenger).wav",
+      "kannada": "./Audio/kannada/Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
+      "odia": "./Audio/odia/7.%20Statue%20of%20MERCURY%20(LXXI%20-%20184).wav",
+      "bengali": "./Audio/bengali/11.%20Bronze%20Gallery/Statue%20of%20MERCURY%20%20(LXXI%20-%20184).wav",
+      "urdu": "./Audio/urdu/7.%20Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav",
+      "gujarati": "./Audio/gujarati/7.%20Statue%20of%20MERCURY%20(God%20of%20Messenger)%20(LXXI%20-%20184).wav"
+    };
     const baseAudioSrc = "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/7.%20%E0%A4%AE%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%B0%E0%A5%80%20%E0%A4%95%E0%A5%80%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%B5%E0%A4%BE%E0%A4%B9%E0%A4%95%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%A4%E0%A4%BE).wav";
 
     function changeLanguage(lang) {
@@ -270,7 +383,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -282,11 +395,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>

@@ -1,45 +1,149 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Arms Gallery | Salar Jung Museum</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-<style>
-.gallery-intro{padding:28px 6%;background:#fff;color:#2e2e2e}
-.gallery-intro h1{font-size:42px;margin:0 0 12px}
-.gallery-intro p{font-size:20px;max-width:1100px}
-.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}
-.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);transition:transform 0.2s}
-.item-card:hover{transform:translateY(-4px)}
-.item-card img{width:100%;height:270px;object-fit:contain;background:#ffffff;border-radius:6px;order:1}
-.item-card h2{font-size:18px;margin:14px 0 4px;order:2;color:#a50309;font-weight:700}
-.item-card p[data-card-label$="-subtitle"]{font-size:14px;color:#666;margin-bottom:8px;order:3;display:none}
-.item-card audio{width:100%;order:3;margin:10px 0}
-.item-card p.card-content{order:4;margin-top:10px;line-height:1.55;font-size:15px;color:#333}
-.audioBar{padding:18px 6%;background:#2e2e2e;color:#fff}
-.audioBar audio{width:100%}
-.audioBar p{margin:0 0 8px}
-@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:767px){.gallery-intro h1{font-size:30px}.gallery-intro p{font-size:17px}.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.item-card img{height:240px}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arms Gallery | Salar Jung Museum</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .gallery-intro {
+      padding: 28px 6%;
+      background: #fff;
+      color: #2e2e2e
+    }
+
+    .gallery-intro h1 {
+      font-size: 42px;
+      margin: 0 0 12px
+    }
+
+    .gallery-intro p {
+      font-size: 20px;
+      max-width: 1100px
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      padding: 28px 6%;
+      background: #a50309
+    }
+
+    .item-card {
+      background: #fff;
+      padding: 14px;
+      color: #2e2e2e;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s
+    }
+
+    .item-card:hover {
+      transform: translateY(-4px)
+    }
+
+    .item-card img {
+      width: 100%;
+      height: 270px;
+      object-fit: contain;
+      background: #ffffff;
+      border-radius: 6px;
+      order: 1
+    }
+
+    .item-card h2 {
+      font-size: 18px;
+      margin: 14px 0 4px;
+      order: 2;
+      color: #a50309;
+      font-weight: 700
+    }
+
+    .item-card p[data-card-label$="-subtitle"] {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 8px;
+      order: 3;
+      display: none
+    }
+
+    .item-card audio {
+      width: 100%;
+      order: 3;
+      margin: 10px 0
+    }
+
+    .item-card p.card-content {
+      order: 4;
+      margin-top: 10px;
+      line-height: 1.55;
+      font-size: 15px;
+      color: #333
+    }
+
+    .audioBar {
+      padding: 18px 6%;
+      background: #2e2e2e;
+      color: #fff
+    }
+
+    .audioBar audio {
+      width: 100%
+    }
+
+    .audioBar p {
+      margin: 0 0 8px
+    }
+
+    @media(max-width:992px) {
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr)
+      }
+    }
+
+    @media(max-width:767px) {
+      .gallery-intro h1 {
+        font-size: 30px
+      }
+
+      .gallery-intro p {
+        font-size: 17px
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+        padding: 18px 4%
+      }
+
+      .item-card img {
+        height: 240px
+      }
+    }
+  </style>
 </head>
+
 <body>
-<div class="sliderHeaderDiv">
-  <div class="container">
-    <header>
-      <div class="logoLft">
-        <a href="#" class="logo logoTwo">
-          <img src="images/logo-moc.png" onerror="this.onerror=null; this.src='images/logo.png';" alt="Ministry of Culture">
-        </a>
-      </div>
-      <div class="logoRgt">
-        <div class="langDiv">
-          <span class="anuIcn">
-            <img src="images/logo-anu.png" alt="Anuvadini">
-          </span>
-          <select class="form formLang" id="languageSelector" aria-label="Select language">
+  <div class="sliderHeaderDiv">
+    <div class="container">
+      <header>
+        <div class="logoLft">
+          <a href="#" class="logo logoTwo">
+            <img src="images/logo-moc.png" onerror="this.onerror=null; this.src='images/logo.png';"
+              alt="Ministry of Culture">
+          </a>
+        </div>
+        <div class="logoRgt">
+          <div class="langDiv">
+            <span class="anuIcn">
+              <img src="images/logo-anu.png" alt="Anuvadini">
+            </span>
+            <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="hindi" selected>हिन्दी (Hindi)</option>
               <option value="english">English</option>
               <option value="telugu">తెలుగు (Telugu)</option>
@@ -51,749 +155,820 @@
               <option value="bengali">বাংলা (Bengali)</option>
               <option value="urdu">اردو (Urdu)</option>
               <option value="gujarati">ગુજરાતી (Gujarati)</option>
-          </select>
+            </select>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </div>
   </div>
-</div>
 
-<main>
-  <section class="gallery-intro langCnt" id="hindi" style="display:block"><h1 >शस्त्र दीर्घा</h1><p >सालार जंग संग्रहालय की शस्त्र दीर्घा से चयनित ऐतिहासिक शस्त्रों और सुरक्षात्मक कवचों में चेन मेल (लोह-जाल कवच), भुजा कवच, तबर (युद्ध-कुल्हाड़ी), मुगल इस्पाती ढाल, कटार, खंडा, चार-आइना कवच, फिरंगी तलवार और जमाधर शामिल हैं।</p></section>
-<section class="gallery-intro langCnt" id="english" style="display:none"><h1 >Arms Gallery</h1><p >A historic collection of arms and armour from the Salar Jung Museum, including chain mail, arm-guards, tabar battle axes, Mughal steel shields, daggers, Khanda swords, Char-Aina cuirasses, Firangi swords, and Jamadhar push daggers.</p></section>
-<section class="gallery-intro langCnt" id="telugu" style="display:none"><h1 >ఆయుధ శాల గ్యాలరీ</h1><p >సాలార్ జంగ్ మ్యూజియం లోని ఆయుధ శాల గ్యాలరీ నుండి ఎంపిక చేసిన చారిత్రక ఆయుధాలలో గొలుసు కవచము, భుజ కవచము, తబార్ యుద్ధ గొడ్డలి, మొఘల్ ఉక్కు డాలు, కింజల్ కటారము, ఖండా ఖడ్గము, చార్-ఐనా కవచము, ఫిరంగీ తలవారు మరియు జమాధార్ కటారము ఉన్నాయి.</p></section>
-<section class="gallery-intro langCnt" id="tamil" style="display:none"><h1 >ஆயுதக் காட்சியகம்</h1><p >சாலார் ஜங் அருங்காட்சியகத்தின் ஆயுதக் காட்சியகத்திலிருந்து தேர்ந்தெடுக்கப்பட்ட சில வரலாற்றுச் சிறப்புமிக்க ஆயுதங்கள்: சங்கிலிக் கவசம், கை-கவசம், தபார் போர்க் கோடாரி, முகலாய எஃகு கேடயம், கிஞ்சால் கத்தார், கந்தா வாள், சேர்-ஐனா கவசம், பிரங்கி வாள் மற்றும் ஜமாதார்.</p></section>
-<section class="gallery-intro langCnt" id="marathi" style="display:none"><h1 >शस्त्र गॅलरी</h1><p >सालार जंग संग्रहालयाच्या शस्त्र गॅलरीमधील ऐतिहासिक शस्त्रांमध्ये चेन मेल (साखळी कवच), भुजा कवच, तबर युद्ध-कुऱ्हाड, मुघल पोलादी ढाल, किंजाल कटार, खंडा तलवार, चार-ऐना कवच, फिरंगी तलवार आणि जमाधर समाविष्ट आहे.</p></section>
-<section class="gallery-intro langCnt" id="malayalam" style="display:none"><h1 >ആംസ് ഗാലറി</h1><p >സലാർ ജംഗ് മ്യൂസിയത്തിലെ ആംസ് ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്ത ചരിത്രപരമായ ആയുധങ്ങളിൽ ചെയിൻ മെയിൽ കവചം, കൈ-കവചം, തബാർ യുദ്ധക്കോടാലി, മുഗൾ സ്റ്റീൽ കേടയം, കിൻജാൽ കട്ടാരി, ഖണ്ഡ വാൾ, ചെയർ ഐന കവചം, ഫിരംഗി വാൾ, ജമാധാർ എന്നിവ ഉൾപ്പെടുന്നു.</p></section>
-<section class="gallery-intro langCnt" id="kannada" style="display:none"><h1 >ಆಯುಧಗಳ ಗ್ಯಾಲರಿ</h1><p >ಸಾಲಾರ್ ಜಂಗ್ ವಸ್ತುಸಂಗ್ರಹಾಲಯದ ಲೋಹದ ವಸ್ತುಗಳ ಗ್ಯಾಲರಿಯಿಂದ ಆಯ್ದ ಚೈನ್ ಮೇಲ್ ರಕ್ಷಾಕವಚ, ಬಾಹು ಕವಚ, ತಬಾರ್ ಯುದ್ಧ ಕೊಡಲಿ, ಮೊಘಲ್ ಉಕ್ಕಿನ ಗುರಾಣಿ, ಕಿಂಜಾಲ್ ಕಟಾರಿ, ಖಂಡ ಖಡ್ಗ, ಚಾರ್-ಐನಾ ಕವಚ, ಫಿರಂಗಿ ಖಡ್ಗ ಮತ್ತು ಜಮಾಧಾರ್ ಕಟಾರಿಗಳು ಇಲ್ಲಿವೆ.</p></section>
-<section class="gallery-intro langCnt" id="odia" style="display:none"><h1 >ଅସ୍ତ୍ରଶସ୍ତ୍ର ଗ୍ୟାଲେରୀ</h1><p >ସାଲାର୍ ଜଙ୍ଗ୍ ସଂଗ୍ରହାଳୟର ଅସ୍ତ୍ରଶସ୍ତ୍ର ଗ୍ୟାଲେରୀରୁ ନିମ୍ନଲିଖିତ ବଛା ଯାଇଥିବା ଐତିହାସିକ ଅସ୍ତ୍ରଶସ୍ତ୍ର ମଧ୍ୟରେ ଚେନ୍ ମେଲ୍ କବଚ, ବାହୁ କବଚ, ତବାର ଯୁଦ୍ଧ କୁରାଢ଼ି, ମୋଗଲ ଇସ୍ପାତ ଢାଲ, କିଞ୍ଜାଲ କଟାର, ଖଣ୍ଡା, ଚେୟାର-ଆଇନା କବଚ, ଫିରଙ୍ଗୀ ଏବଂ ଜମାଧର ସାମିଲ ରହିଛି।</p></section>
-<section class="gallery-intro langCnt" id="bengali" style="display:none"><h1 >অস্ত্রাগার গ্যালারি</h1><p >সালার জং মিউজিয়ামের অস্ত্রাগার গ্যালারি থেকে নির্বাচিত ঐতিহাসিক অস্ত্রের মধ্যে চেইন মেইল বর্ম, বাহু-রক্ষী, তবার যুদ্ধকুঠার, মুঘল ইস্পাতের ঢাল, কিনজল কাটার, খান্ডা তলোয়ার, চেয়ার আইনা বর্ম, ফিরঙ্গি এবং জামধার অন্তর্ভুক্ত রয়েছে।</p></section>
-<section class="gallery-intro langCnt" id="urdu" style="display:none"><h1 dir="rtl" style="text-align:right;">اسلحہ خانہ گیلری</h1><p dir="rtl" style="text-align:right;">سالار جنگ میوزیم کی اسلحہ خانہ گیلری سے منتخب کردہ تاریخی ہتھیاروں میں زنجیری درع (چین میل)، بازو بند، تبر، مغلیہ اسٹیل کی ڈھال، کنجال، کھانڈہ، چار آئینہ بکتر، فرنگی اور جمادھر شامل ہیں۔</p></section>
-<section class="gallery-intro langCnt" id="gujarati" style="display:none"><h1 >શસ્ત્ર ગેલેરી</h1><p >સાલાર જંગ મ્યુઝિયમની શસ્ત્ર ગેલેરીમાંથી પસંદ કરાયેલા ઐતિહાસિક શસ્ત્રોમાં ચેઇન મેઇલ બખ્તર, હાથનું રક્ષક બખ્તર, તબર યુદ્ધ કુહાડી, મુઘલ સ્ટીલની ઢાલ, કિંડજલ કટાર, ખંડા તલવાર, ચેર-આઇના બખ્તર, ફિરંગી તલવાર અને જમાધર સામેલ છે.</p></section>
+  <main>
+    <section class="gallery-intro langCnt" id="hindi" style="display:block">
+      <h1>शस्त्र दीर्घा</h1>
+      <p>सालार जंग संग्रहालय की शस्त्र दीर्घा से चयनित ऐतिहासिक शस्त्रों और सुरक्षात्मक कवचों में चेन मेल (लोह-जाल कवच),
+        भुजा कवच, तबर (युद्ध-कुल्हाड़ी), मुगल इस्पाती ढाल, कटार, खंडा, चार-आइना कवच, फिरंगी तलवार और जमाधर शामिल हैं।
+      </p>
+    </section>
+    <section class="gallery-intro langCnt" id="english" style="display:none">
+      <h1>Arms Gallery</h1>
+      <p>A historic collection of arms and armour from the Salar Jung Museum, including chain mail, arm-guards, tabar
+        battle axes, Mughal steel shields, daggers, Khanda swords, Char-Aina cuirasses, Firangi swords, and Jamadhar
+        push daggers.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="telugu" style="display:none">
+      <h1>ఆయుధ శాల గ్యాలరీ</h1>
+      <p>సాలార్ జంగ్ మ్యూజియం లోని ఆయుధ శాల గ్యాలరీ నుండి ఎంపిక చేసిన చారిత్రక ఆయుధాలలో గొలుసు కవచము, భుజ కవచము, తబార్
+        యుద్ధ గొడ్డలి, మొఘల్ ఉక్కు డాలు, కింజల్ కటారము, ఖండా ఖడ్గము, చార్-ఐనా కవచము, ఫిరంగీ తలవారు మరియు జమాధార్ కటారము
+        ఉన్నాయి.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="tamil" style="display:none">
+      <h1>ஆயுதக் காட்சியகம்</h1>
+      <p>சாலார் ஜங் அருங்காட்சியகத்தின் ஆயுதக் காட்சியகத்திலிருந்து தேர்ந்தெடுக்கப்பட்ட சில வரலாற்றுச் சிறப்புமிக்க
+        ஆயுதங்கள்: சங்கிலிக் கவசம், கை-கவசம், தபார் போர்க் கோடாரி, முகலாய எஃகு கேடயம், கிஞ்சால் கத்தார், கந்தா வாள்,
+        சேர்-ஐனா கவசம், பிரங்கி வாள் மற்றும் ஜமாதார்.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="marathi" style="display:none">
+      <h1>शस्त्र गॅलरी</h1>
+      <p>सालार जंग संग्रहालयाच्या शस्त्र गॅलरीमधील ऐतिहासिक शस्त्रांमध्ये चेन मेल (साखळी कवच), भुजा कवच, तबर
+        युद्ध-कुऱ्हाड, मुघल पोलादी ढाल, किंजाल कटार, खंडा तलवार, चार-ऐना कवच, फिरंगी तलवार आणि जमाधर समाविष्ट आहे.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="malayalam" style="display:none">
+      <h1>ആംസ് ഗാലറി</h1>
+      <p>സലാർ ജംഗ് മ്യൂസിയത്തിലെ ആംസ് ഗാലറിയിൽ നിന്ന് തിരഞ്ഞെടുത്ത ചരിത്രപരമായ ആയുധങ്ങളിൽ ചെയിൻ മെയിൽ കവചം, കൈ-കവചം,
+        തബാർ യുദ്ധക്കോടാലി, മുഗൾ സ്റ്റീൽ കേടയം, കിൻജാൽ കട്ടാരി, ഖണ്ഡ വാൾ, ചെയർ ഐന കവചം, ഫിരംഗി വാൾ, ജമാധാർ എന്നിവ
+        ഉൾപ്പെടുന്നു.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="kannada" style="display:none">
+      <h1>ಆಯುಧಗಳ ಗ್ಯಾಲರಿ</h1>
+      <p>ಸಾಲಾರ್ ಜಂಗ್ ವಸ್ತುಸಂಗ್ರಹಾಲಯದ ಲೋಹದ ವಸ್ತುಗಳ ಗ್ಯಾಲರಿಯಿಂದ ಆಯ್ದ ಚೈನ್ ಮೇಲ್ ರಕ್ಷಾಕವಚ, ಬಾಹು ಕವಚ, ತಬಾರ್ ಯುದ್ಧ ಕೊಡಲಿ,
+        ಮೊಘಲ್ ಉಕ್ಕಿನ ಗುರಾಣಿ, ಕಿಂಜಾಲ್ ಕಟಾರಿ, ಖಂಡ ಖಡ್ಗ, ಚಾರ್-ಐನಾ ಕವಚ, ಫಿರಂಗಿ ಖಡ್ಗ ಮತ್ತು ಜಮಾಧಾರ್ ಕಟಾರಿಗಳು ಇಲ್ಲಿವೆ.</p>
+    </section>
+    <section class="gallery-intro langCnt" id="odia" style="display:none">
+      <h1>ଅସ୍ତ୍ରଶସ୍ତ୍ର ଗ୍ୟାଲେରୀ</h1>
+      <p>ସାଲାର୍ ଜଙ୍ଗ୍ ସଂଗ୍ରହାଳୟର ଅସ୍ତ୍ରଶସ୍ତ୍ର ଗ୍ୟାଲେରୀରୁ ନିମ୍ନଲିଖିତ ବଛା ଯାଇଥିବା ଐତିହାସିକ ଅସ୍ତ୍ରଶସ୍ତ୍ର ମଧ୍ୟରେ ଚେନ୍ ମେଲ୍
+        କବଚ, ବାହୁ କବଚ, ତବାର ଯୁଦ୍ଧ କୁରାଢ଼ି, ମୋଗଲ ଇସ୍ପାତ ଢାଲ, କିଞ୍ଜାଲ କଟାର, ଖଣ୍ଡା, ଚେୟାର-ଆଇନା କବଚ, ଫିରଙ୍ଗୀ ଏବଂ ଜମାଧର ସାମିଲ
+        ରହିଛି।</p>
+    </section>
+    <section class="gallery-intro langCnt" id="bengali" style="display:none">
+      <h1>অস্ত্রাগার গ্যালারি</h1>
+      <p>সালার জং মিউজিয়ামের অস্ত্রাগার গ্যালারি থেকে নির্বাচিত ঐতিহাসিক অস্ত্রের মধ্যে চেইন মেইল বর্ম, বাহু-রক্ষী,
+        তবার যুদ্ধকুঠার, মুঘল ইস্পাতের ঢাল, কিনজল কাটার, খান্ডা তলোয়ার, চেয়ার আইনা বর্ম, ফিরঙ্গি এবং জামধার
+        অন্তর্ভুক্ত রয়েছে।</p>
+    </section>
+    <section class="gallery-intro langCnt" id="urdu" style="display:none">
+      <h1 dir="rtl" style="text-align:right;">اسلحہ خانہ گیلری</h1>
+      <p dir="rtl" style="text-align:right;">سالار جنگ میوزیم کی اسلحہ خانہ گیلری سے منتخب کردہ تاریخی ہتھیاروں میں
+        زنجیری درع (چین میل)، بازو بند، تبر، مغلیہ اسٹیل کی ڈھال، کنجال، کھانڈہ، چار آئینہ بکتر، فرنگی اور جمادھر شامل
+        ہیں۔</p>
+    </section>
+    <section class="gallery-intro langCnt" id="gujarati" style="display:none">
+      <h1>શસ્ત્ર ગેલેરી</h1>
+      <p>સાલાર જંગ મ્યુઝિયમની શસ્ત્ર ગેલેરીમાંથી પસંદ કરાયેલા ઐતિહાસિક શસ્ત્રોમાં ચેઇન મેઇલ બખ્તર, હાથનું રક્ષક બખ્તર,
+        તબર યુદ્ધ કુહાડી, મુઘલ સ્ટીલની ઢાલ, કિંડજલ કટાર, ખંડા તલવાર, ચેર-આઇના બખ્તર, ફિરંગી તલવાર અને જમાધર સામેલ છે.
+      </p>
+    </section>
 
-  <section class="gallery-grid">
-    <article class="item-card" data-audio-key="chain-mail" onclick="if(!event.target.closest('audio')){location.href='item1.html'}">
-  <img src="images/armsgallery_item1.png" alt="LVI-245: चेन मेल">
-  <h2 data-card-label="chain-mail-title">LVI-245: चेन मेल</h2>
-  <p data-card-label="chain-mail-subtitle">पंजतन नाम उत्कीर्णित मुगल चेन मेल सुरक्षात्मक कवच</p>
-  <p class="card-content" data-card-content="chain-mail"></p>
-  <audio controls preload="metadata" src="Audios/hindi/1.%20%E0%A4%9A%E0%A5%87%E0%A4%A8%20%E0%A4%AE%E0%A5%87%E0%A4%B2.wav"></audio>
-</article>
-<article class="item-card" data-audio-key="arm-guard" onclick="if(!event.target.closest('audio')){location.href='item2.html'}">
-  <img src="images/armsgallery_item2.png" alt="LVI-94: भुजा कवच (आर्म-गार्ड)">
-  <h2 data-card-label="arm-guard-title">LVI-94: भुजा कवच (आर्म-गार्ड)</h2>
-  <p data-card-label="arm-guard-subtitle">17वीं शताब्दी का मुगल भुजा कवच (दस्तिया)</p>
-  <p class="card-content" data-card-content="arm-guard"></p>
-  <audio controls preload="metadata" src="Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav"></audio>
-</article>
-<article class="item-card" data-audio-key="tabar" onclick="if(!event.target.closest('audio')){location.href='item3.html'}">
-  <img src="images/armsgallery_item3.png" alt="LVI-173: तबर (युद्ध-कुल्हाड़ी)">
-  <h2 data-card-label="tabar-title">LVI-173: तबर (युद्ध-कुल्हाड़ी)</h2>
-  <p data-card-label="tabar-subtitle">स्वर्ण जड़ाऊ फारसी पंक्तियों से युक्त दमिश्क इस्पाती तबर</p>
-  <p class="card-content" data-card-content="tabar"></p>
-  <audio controls preload="metadata" src="Audios/hindi/3.%20%E0%A4%A4%E0%A4%AC%E0%A4%B0.wav"></audio>
-</article>
-<article class="item-card" data-audio-key="shield-shahjahan" onclick="if(!event.target.closest('audio')){location.href='item4.html'}">
-  <img src="images/armsgallery_item4.png" alt="LVI-125: ढाल (शाहजहाँ काल)">
-  <h2 data-card-label="shield-shahjahan-title">LVI-125: ढाल (शाहजहाँ काल)</h2>
-  <p data-card-label="shield-shahjahan-subtitle">17वीं शताब्दी मध्य (शाहजहाँ काल) की ज़रबुलंद स्वर्ण जड़ित इस्पाती ढाल</p>
-  <p class="card-content" data-card-content="shield-shahjahan"></p>
-  <audio controls preload="metadata" src="Audios/hindi/4.%20%E0%A4%A2%E0%A4%BE%E0%A4%B2.wav"></audio>
-</article>
-<article class="item-card" data-audio-key="kindjal" onclick="if(!event.target.closest('audio')){location.href='item5.html'}">
-  <img src="images/armsgallery_item5.png" alt="LIV-377: किंजल (कटार)">
-  <h2 data-card-label="kindjal-title">LIV-377: किंजल (कटार)</h2>
-  <p data-card-label="kindjal-subtitle">16वीं शताब्दी इंडो-तुर्की कटार (कुरान आयतों युक्त)</p>
-  <p class="card-content" data-card-content="kindjal"></p>
-  <audio controls preload="metadata" src="Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav"></audio>
-</article>
-<article class="item-card" data-audio-key="khanda" onclick="if(!event.target.closest('audio')){location.href='item6.html'}">
-  <img src="images/armsgallery_item6.png" alt="LIII-59: खंडा">
-  <h2 data-card-label="khanda-title">LIII-59: खंडा</h2>
-  <p data-card-label="khanda-subtitle">17वीं शताब्दी दक्कनी खंडा (अरबी अभिलेख युक्त सीधी तलवार)</p>
-  <p class="card-content" data-card-content="khanda"></p>
-  <audio controls preload="metadata" src="Audios/hindi/6.%20%E0%A4%96%E0%A4%82%E0%A4%A1%E0%A4%BE.wav"></audio>
-</article>
-<article class="item-card" data-audio-key="chair-aina" onclick="if(!event.target.closest('audio')){location.href='item7.html'}">
-  <img src="images/armsgallery_item7.png" alt="LVI-93: चेयर-आइना (चार-आइना)">
-  <h2 data-card-label="chair-aina-title">LVI-93: चेयर-आइना (चार-आइना)</h2>
-  <p data-card-label="chair-aina-subtitle">उत्तर भारतीय मुगल चार-आइना इस्पाती कवच</p>
-  <p class="card-content" data-card-content="chair-aina"></p>
-  <audio controls preload="metadata" src="Audios/hindi/7.%20%E0%A4%9A%E0%A5%87%E0%A4%AF%E0%A4%B0-%E0%A4%86%E0%A4%87%E0%A4%A8%E0%A4%BE.wav"></audio>
-</article>
-<article class="item-card" data-audio-key="firangi" onclick="if(!event.target.closest('audio')){location.href='item8.html'}">
-  <img src="images/armsgallery_item8.png" alt="LIV-160: फिरंगी">
-  <h2 data-card-label="firangi-title">LIV-160: फिरंगी</h2>
-  <p data-card-label="firangi-subtitle">18वीं शताब्दी दक्कन शैली की सीधी धार वाली फिरंगी तलवार</p>
-  <p class="card-content" data-card-content="firangi"></p>
-  <audio controls preload="metadata" src="Audios/hindi/8.%20%E0%A4%AB%E0%A4%BF%E0%A4%B0%E0%A4%82%E0%A4%97%E0%A5%80.wav"></audio>
-</article>
-<article class="item-card" data-audio-key="jamadhar" onclick="if(!event.target.closest('audio')){location.href='item9.html'}">
-  <img src="images/armsgallery_item9.png" alt="LV-36: जमाधर (कटार)">
-  <h2 data-card-label="jamadhar-title">LV-36: जमाधर (कटार)</h2>
-  <p data-card-label="jamadhar-subtitle">लगभग 1710 ई. राजस्थान शैली का साइप्रस वृक्ष आकृति युक्त जमाधर</p>
-  <p class="card-content" data-card-content="jamadhar"></p>
-  <audio controls preload="metadata" src="Audios/hindi/9.%20%E0%A4%9C%E0%A4%AE%E0%A4%BE%E0%A4%A7%E0%A4%B0%20(%E0%A4%95%E0%A4%A4%E0%A4%BE%E0%A4%B0).wav"></audio>
-</article>
-<article class="item-card" data-audio-key="shield-serpent" onclick="if(!event.target.closest('audio')){location.href='item10.html'}">
-  <img src="images/armsgallery_item10.png" alt="LVI-175: ढाल (सर्प नक्काशी)">
-  <h2 data-card-label="shield-serpent-title">LVI-175: ढाल (सर्प नक्काशी)</h2>
-  <p data-card-label="shield-serpent-subtitle">18वीं शताब्दी दक्षिण भारत की सर्प आकृति उत्कीर्णित इस्पाती ढाल</p>
-  <p class="card-content" data-card-content="shield-serpent"></p>
-  <audio controls preload="metadata" src="Audios/hindi/10.%20%E0%A4%A2%E0%A4%BE%E0%A4%B2.wav"></audio>
-</article>
+    <section class="gallery-grid">
+      <article class="item-card" data-audio-key="chain-mail"
+        onclick="if(!event.target.closest('audio')){location.href='item1.html'}">
+        <img src="images/armsgallery_item1.png" alt="LVI-245: चेन मेल">
+        <h2 data-card-label="chain-mail-title">LVI-245: चेन मेल</h2>
+        <p data-card-label="chain-mail-subtitle">पंजतन नाम उत्कीर्णित मुगल चेन मेल सुरक्षात्मक कवच</p>
+        <p class="card-content" data-card-content="chain-mail"></p>
+        <audio controls preload="metadata"
+          src="Audios/hindi/1.%20%E0%A4%9A%E0%A5%87%E0%A4%A8%20%E0%A4%AE%E0%A5%87%E0%A4%B2.wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="arm-guard"
+        onclick="if(!event.target.closest('audio')){location.href='item2.html'}">
+        <img src="images/armsgallery_item2.png" alt="LVI-94: भुजा कवच (आर्म-गार्ड)">
+        <h2 data-card-label="arm-guard-title">LVI-94: भुजा कवच (आर्म-गार्ड)</h2>
+        <p data-card-label="arm-guard-subtitle">17वीं शताब्दी का मुगल भुजा कवच (दस्तिया)</p>
+        <p class="card-content" data-card-content="arm-guard"></p>
+        <audio controls preload="metadata"
+          src="Audios/hindi/2.%20%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%BE%20%E0%A4%95%E0%A4%B5%E0%A4%9A%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%97%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1).wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="tabar"
+        onclick="if(!event.target.closest('audio')){location.href='item3.html'}">
+        <img src="images/armsgallery_item3.png" alt="LVI-173: तबर (युद्ध-कुल्हाड़ी)">
+        <h2 data-card-label="tabar-title">LVI-173: तबर (युद्ध-कुल्हाड़ी)</h2>
+        <p data-card-label="tabar-subtitle">स्वर्ण जड़ाऊ फारसी पंक्तियों से युक्त दमिश्क इस्पाती तबर</p>
+        <p class="card-content" data-card-content="tabar"></p>
+        <audio controls preload="metadata" src="Audios/hindi/3.%20%E0%A4%A4%E0%A4%AC%E0%A4%B0.wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="shield-shahjahan"
+        onclick="if(!event.target.closest('audio')){location.href='item4.html'}">
+        <img src="images/armsgallery_item4.png" alt="LVI-125: ढाल (शाहजहाँ काल)">
+        <h2 data-card-label="shield-shahjahan-title">LVI-125: ढाल (शाहजहाँ काल)</h2>
+        <p data-card-label="shield-shahjahan-subtitle">17वीं शताब्दी मध्य (शाहजहाँ काल) की ज़रबुलंद स्वर्ण जड़ित इस्पाती
+          ढाल</p>
+        <p class="card-content" data-card-content="shield-shahjahan"></p>
+        <audio controls preload="metadata" src="Audios/hindi/4.%20%E0%A4%A2%E0%A4%BE%E0%A4%B2.wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="kindjal"
+        onclick="if(!event.target.closest('audio')){location.href='item5.html'}">
+        <img src="images/armsgallery_item5.png" alt="LIV-377: किंजल (कटार)">
+        <h2 data-card-label="kindjal-title">LIV-377: किंजल (कटार)</h2>
+        <p data-card-label="kindjal-subtitle">16वीं शताब्दी इंडो-तुर्की कटार (कुरान आयतों युक्त)</p>
+        <p class="card-content" data-card-content="kindjal"></p>
+        <audio controls preload="metadata" src="Audios/hindi/5.%20%E0%A4%95%E0%A4%9F%E0%A4%BE%E0%A4%B0.wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="khanda"
+        onclick="if(!event.target.closest('audio')){location.href='item6.html'}">
+        <img src="images/armsgallery_item6.png" alt="LIII-59: खंडा">
+        <h2 data-card-label="khanda-title">LIII-59: खंडा</h2>
+        <p data-card-label="khanda-subtitle">17वीं शताब्दी दक्कनी खंडा (अरबी अभिलेख युक्त सीधी तलवार)</p>
+        <p class="card-content" data-card-content="khanda"></p>
+        <audio controls preload="metadata" src="Audios/hindi/6.%20%E0%A4%96%E0%A4%82%E0%A4%A1%E0%A4%BE.wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="chair-aina"
+        onclick="if(!event.target.closest('audio')){location.href='item7.html'}">
+        <img src="images/armsgallery_item7.png" alt="LVI-93: चेयर-आइना (चार-आइना)">
+        <h2 data-card-label="chair-aina-title">LVI-93: चेयर-आइना (चार-आइना)</h2>
+        <p data-card-label="chair-aina-subtitle">उत्तर भारतीय मुगल चार-आइना इस्पाती कवच</p>
+        <p class="card-content" data-card-content="chair-aina"></p>
+        <audio controls preload="metadata"
+          src="Audios/hindi/7.%20%E0%A4%9A%E0%A5%87%E0%A4%AF%E0%A4%B0-%E0%A4%86%E0%A4%87%E0%A4%A8%E0%A4%BE.wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="firangi"
+        onclick="if(!event.target.closest('audio')){location.href='item8.html'}">
+        <img src="images/armsgallery_item8.png" alt="LIV-160: फिरंगी">
+        <h2 data-card-label="firangi-title">LIV-160: फिरंगी</h2>
+        <p data-card-label="firangi-subtitle">18वीं शताब्दी दक्कन शैली की सीधी धार वाली फिरंगी तलवार</p>
+        <p class="card-content" data-card-content="firangi"></p>
+        <audio controls preload="metadata"
+          src="Audios/hindi/8.%20%E0%A4%AB%E0%A4%BF%E0%A4%B0%E0%A4%82%E0%A4%97%E0%A5%80.wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="jamadhar"
+        onclick="if(!event.target.closest('audio')){location.href='item9.html'}">
+        <img src="images/armsgallery_item9.png" alt="LV-36: जमाधर (कटार)">
+        <h2 data-card-label="jamadhar-title">LV-36: जमाधर (कटार)</h2>
+        <p data-card-label="jamadhar-subtitle">लगभग 1710 ई. राजस्थान शैली का साइप्रस वृक्ष आकृति युक्त जमाधर</p>
+        <p class="card-content" data-card-content="jamadhar"></p>
+        <audio controls preload="metadata"
+          src="Audios/hindi/9.%20%E0%A4%9C%E0%A4%AE%E0%A4%BE%E0%A4%A7%E0%A4%B0%20(%E0%A4%95%E0%A4%A4%E0%A4%BE%E0%A4%B0).wav"></audio>
+      </article>
+      <article class="item-card" data-audio-key="shield-serpent"
+        onclick="if(!event.target.closest('audio')){location.href='item10.html'}">
+        <img src="images/armsgallery_item10.png" alt="LVI-175: ढाल (सर्प नक्काशी)">
+        <h2 data-card-label="shield-serpent-title">LVI-175: ढाल (सर्प नक्काशी)</h2>
+        <p data-card-label="shield-serpent-subtitle">18वीं शताब्दी दक्षिण भारत की सर्प आकृति उत्कीर्णित इस्पाती ढाल</p>
+        <p class="card-content" data-card-content="shield-serpent"></p>
+        <audio controls preload="metadata" src="Audios/hindi/10.%20%E0%A4%A2%E0%A4%BE%E0%A4%B2.wav"></audio>
+      </article>
 
-  </section>
-</main>
+    </section>
+  </main>
 
-<footer>
-  <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
-</footer>
+  <footer>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
+  </footer>
 
-<script src="content.js"></script>
-<script>
-const selector = document.getElementById('languageSelector');
-const labels = {
-  "english": {
-    "chain-mail": [
-      "LVI-245: Chain Mail",
-      "Mughal Chain Mail Armor with Inscribed Pentad (Panjtan)"
-    ],
-    "arm-guard": [
-      "LVI-94: Arm-Guard (Dastana)",
-      "17th Century Mughal Arm-Guard with Zardozi Velvet"
-    ],
-    "tabar": [
-      "LVI-173: Tabar (Battle Axe)",
-      "Damascus Steel Battle-Axe with Gold Inlaid Persian Verses"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: Shield",
-      "Mid 17th Century Shah Jahan Era Steel Shield with Zarbuland Gold Inlay"
-    ],
-    "kindjal": [
-      "LIV-377: Kindjal / Katar",
-      "16th Century Indo-Turkish Steel Dagger with Quranic Verses"
-    ],
-    "khanda": [
-      "LIII-59: Khanda Sword",
-      "17th Century Deccani Broadsword with Arabic Inscriptions"
-    ],
-    "chair-aina": [
-      "LVI-93: Chair-Aina (Char-Aina)",
-      "Mughal Four-Mirror Plate Cuirass Armor"
-    ],
-    "firangi": [
-      "LIV-160: Firangi Sword",
-      "18th Century Deccani Straight Sword with Basket Hilt"
-    ],
-    "jamadhar": [
-      "LV-36: Jamadhar (Push Dagger)",
-      "18th Century Rajasthani Push Dagger with Cypress Tree Motif"
-    ],
-    "shield-serpent": [
-      "LVI-175: Shield with Serpent Motif",
-      "18th Century South Indian Steel Shield with Coiled Serpent Relief"
-    ]
-  },
-  "hindi": {
-    "chain-mail": [
-      "LVI-245: चेन मेल",
-      "पंजतन नाम उत्कीर्णित मुगल चेन मेल सुरक्षात्मक कवच"
-    ],
-    "arm-guard": [
-      "LVI-94: भुजा कवच (आर्म-गार्ड)",
-      "17वीं शताब्दी का मुगल भुजा कवच (दस्तिया)"
-    ],
-    "tabar": [
-      "LVI-173: तबर (युद्ध-कुल्हाड़ी)",
-      "स्वर्ण जड़ाऊ फारसी पंक्तियों से युक्त दमिश्क इस्पाती तबर"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: ढाल (शाहजहाँ काल)",
-      "17वीं शताब्दी मध्य (शाहजहाँ काल) की ज़रबुलंद स्वर्ण जड़ित इस्पाती ढाल"
-    ],
-    "kindjal": [
-      "LIV-377: किंजल (कटार)",
-      "16वीं शताब्दी इंडो-तुर्की कटार (कुरान आयतों युक्त)"
-    ],
-    "khanda": [
-      "LIII-59: खंडा",
-      "17वीं शताब्दी दक्कनी खंडा (अरबी अभिलेख युक्त सीधी तलवार)"
-    ],
-    "chair-aina": [
-      "LVI-93: चेयर-आइना (चार-आइना)",
-      "उत्तर भारतीय मुगल चार-आइना इस्पाती कवच"
-    ],
-    "firangi": [
-      "LIV-160: फिरंगी",
-      "18वीं शताब्दी दक्कन शैली की सीधी धार वाली फिरंगी तलवार"
-    ],
-    "jamadhar": [
-      "LV-36: जमाधर (कटार)",
-      "लगभग 1710 ई. राजस्थान शैली का साइप्रस वृक्ष आकृति युक्त जमाधर"
-    ],
-    "shield-serpent": [
-      "LVI-175: ढाल (सर्प नक्काशी)",
-      "18वीं शताब्दी दक्षिण भारत की सर्प आकृति उत्कीर्णित इस्पाती ढाल"
-    ]
-  },
-  "tamil": {
-    "chain-mail": [
-      "LVI-245: சங்கிலிக் கவசம்",
-      "பஞ்சதன் திருப்பெயர்கள் பொறிக்கப்பட்ட முகலாய சங்கிலிக் கவசம்"
-    ],
-    "arm-guard": [
-      "LVI-94: கை-கவசம்",
-      "17ஆம் நூற்றாண்டு முகலாய கை-கவசம் (ஜரிகை வேலைப்பாடு)"
-    ],
-    "tabar": [
-      "LVI-173: தபார் (போர்க் கோடாரி)",
-      "பாரசீகக் கவிதைகள் பொறிக்கப்பட்ட டமாஸ்கஸ் எஃகு கோடாரி"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: கேடயம் (ஷாஹாஜகான் காலம்)",
-      "17ஆம் நூற்றாண்டு நடுப்பகுதி ஷாஜகான் காலத்து தங்க ஜர்புலந்த் கேடயம்"
-    ],
-    "kindjal": [
-      "LIV-377: கிஞ்சால் / கத்தார்",
-      "16ஆம் நூற்றாண்டு இந்தோ-துருக்கிய எஃகு வாள் (குர்ஆன் வசனங்கள்)"
-    ],
-    "khanda": [
-      "LIII-59: கந்தா வாள்",
-      "17ஆம் நூற்றாண்டு தக்காணப் பாணி கந்தா நேர் வாள்"
-    ],
-    "chair-aina": [
-      "LVI-93: சேர்-ஐனா (நான்கு கண்ணாடிகள் கவசம்)",
-      "முகலாய நான்கு-கண்ணாடி எஃகு மார்புக் கவசம்"
-    ],
-    "firangi": [
-      "LIV-160: பிரங்கி வாள்",
-      "18ஆம் நூற்றாண்டு பிற்பகுதி தக்காண பிரங்கி நேர் வாள்"
-    ],
-    "jamadhar": [
-      "LV-36: ஜமாதார் (கத்தார்)",
-      "1710 ஆம் ஆண்டு ராஜஸ்தானி பாணி ஜமாதார் கத்தார்"
-    ],
-    "shield-serpent": [
-      "LVI-175: கேடயம் (பாம்பு வடிவம்)",
-      "18ஆம் நூற்றாண்டு தென்னிந்திய பாம்பு வடிவ எஃகு கேடயம்"
-    ]
-  },
-  "malayalam": {
-    "chain-mail": [
-      "LVI-245: ചെയിൻ മെയിൽ",
-      "പഞ്ചതൻ നാമങ്ങൾ ആലേഖനം ചെയ്ത മുഗൾ ചെയിൻ മെയിൽ കവചം"
-    ],
-    "arm-guard": [
-      "LVI-94: കൈ-കവചം",
-      "17-ാം നൂറ്റാണ്ടിലെ മുഗൾ കൈ-കവചം (സരി വർക്ക്)"
-    ],
-    "tabar": [
-      "LVI-173: തബാർ (യുദ്ധക്കോടാലി)",
-      "പേർഷ്യൻ വരികൾ ആലേഖനം ചെയ്ത ഡമാസ്കസ് സ്റ്റീൽ കോടാലി"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: കേടയം (ഷാജഹാൻ കാലഘട്ടം)",
-      "17-ാം നൂറ്റാണ്ടിലെ ഷാജഹാൻ കാലഘട്ടത്തിലെ സ്വർണ്ണ ജർബുലന്ദ് കേടയം"
-    ],
-    "kindjal": [
-      "LIV-377: കിൻജാൽ / കട്ടാരി",
-      "16-ാം നൂറ്റാണ്ടിലെ ഇൻഡോ-തുർക്കിഷ് സ്റ്റീൽ വാൾ"
-    ],
-    "khanda": [
-      "LIII-59: ഖണ്ഡ വാൾ",
-      "17-ാം നൂറ്റാണ്ടിലെ ഡെക്കാനി ഖണ്ഡ നേർ വാൾ"
-    ],
-    "chair-aina": [
-      "LVI-93: ചെയർ ഐന കവചം",
-      "മുഗൾ നാല്-കണ്ണാടി സ്റ്റീൽ മார்ப് കവചം"
-    ],
-    "firangi": [
-      "LIV-160: ഫിരംഗി വാൾ",
-      "18-ാം നൂറ്റാണ്ടിലെ ഡെക്കാനി ഫിരംഗി വാൾ"
-    ],
-    "jamadhar": [
-      "LV-36: ജമാധാർ കട്ടാരി",
-      "1710 കാലഘട്ടത്തിലെ രാജസ്ഥാനി ജമാധാർ കട്ടാരി"
-    ],
-    "shield-serpent": [
-      "LVI-175: കേടയം (സർപ്പ കൊത്തുപണി)",
-      "18-ാം നൂറ്റാണ്ടിലെ തെന്നിന്ത്യൻ സർപ്പ കേടയം"
-    ]
-  },
-  "bengali": {
-    "chain-mail": [
-      "LVI-245: চেইন মেইল",
-      "পাঞ্জতন পবিত্র নাম খোদিত মুঘল চেইন মেইল বর্ম"
-    ],
-    "arm-guard": [
-      "LVI-94: বাহু-রক্ষী",
-      "১৭শ শতাব্দীর মুঘল বাহুরক্ষী (জরির কাজ)"
-    ],
-    "tabar": [
-      "LVI-173: তবার (যুদ্ধকুঠার)",
-      "ফারসি কবিতা উৎকীর্ণ দামেস্ক ইস্পাতের যুদ্ধকুঠার"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: ঢাল (শাহজাহানের আমল)",
-      "১৭শ শতাব্দীর মধ্যভাগের শাহজাহানি স্বর্ণ জরবুলন্দ ঢাল"
-    ],
-    "kindjal": [
-      "LIV-377: কিনজল / কাটার",
-      "১৬শ শতাব্দীর ইন্দো-তুর্কি ইস্পাতের তলোয়ার"
-    ],
-    "khanda": [
-      "LIII-59: খান্ডা",
-      "১৭শ শতাব্দীর দাক্ষিণাত্য প্রণালীর প্রাচীন খান্ডা তলোয়ার"
-    ],
-    "chair-aina": [
-      "LVI-93: চেয়ার আইনা",
-      "উত্তর ভারতীয় মুঘল চার-আইনা ইস্পাতের বর্ম"
-    ],
-    "firangi": [
-      "LIV-160: ফিরঙ্গি",
-      "১৮শ শতাব্দীর শেষভাগের দাক্ষিণাত্য ফিরঙ্গি সোজা তলোয়ার"
-    ],
-    "jamadhar": [
-      "LV-36: জামধার",
-      "১৭১০ খ্রিষ্টাব্দের রাজস্থানি জামধার কাটার"
-    ],
-    "shield-serpent": [
-      "LVI-175: ঢাল (সর্প নকশা)",
-      "১৮শ শতাব্দীর দক্ষিণ ভারতীয় সর্প খোদাইকৃত ইস্পাতের ঢাল"
-    ]
-  },
-  "gujarati": {
-    "chain-mail": [
-      "LVI-245: ચેઇન મેઇલ",
-      "પંજતન પવિત્ર નામો કંડારેલું મુઘલ ચેઇન મેઇલ બખ્તર"
-    ],
-    "arm-guard": [
-      "LVI-94: હાથનું રક્ષક બખ્તર (આર્મ-ગાર્ડ)",
-      "૧૭મી સદીનું મુઘલ હાથનું રક્ષક બખ્તર"
-    ],
-    "tabar": [
-      "LVI-173: તબર (યુદ્ધ કુહાડી)",
-      "પર્શિયન શિલાલેખ ધરાવતી દમાસ્કસ સ્ટીલની યુદ્ધ કુહાડી"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: ઢાલ (શાહજહાં કાળ)",
-      "૧૭મી સદીના મધ્યની શાહજહાં કાળની ઝરબુલંદ સોનેરી ઢાલ"
-    ],
-    "kindjal": [
-      "LIV-377: કિંડજલ / કટાર",
-      "૧૬મી સદીની ઇન્ડો-તુર્કી સ્ટીલ કટાર"
-    ],
-    "khanda": [
-      "LIII-59: ખંડા",
-      "૧૭મી સદીની દક્કની શૈલીની ખંડા તલવાર"
-    ],
-    "chair-aina": [
-      "LVI-93: ચેર-આઇના (ચાર આઇના બખ્તર)",
-      "મુઘલ ચાર-આઇના સ્ટીલનું બખ્તર"
-    ],
-    "firangi": [
-      "LIV-160: ફિરંગી",
-      "૧૮મી સદીના ઉત્તરાધની દક્કની ફિરંગી સીધી તલવાર"
-    ],
-    "jamadhar": [
-      "LV-36: જમાધર (કટાર)",
-      "આશરે ૧૭૧૦ ઇ.સ. ની રાજસ્થાની જમાધર કટાર"
-    ],
-    "shield-serpent": [
-      "LVI-175: ઢાલ (સર્પ કંડારણ)",
-      "૧૮મી સદીની દક્ષિણ ભારતની સર્પ આકૃતિ ધરાવતી સ્ટીલ ઢાલ"
-    ]
-  },
-  "telugu": {
-    "chain-mail": [
-      "LVI-245: గొలుసు కవచము (చైన్ మెయిల్)",
-      "పంచతన్ పవిత్ర నామాలు చెక్కబడిన మొఘల్ చైన్ మెయిల్ కవచము"
-    ],
-    "arm-guard": [
-      "LVI-94: భుజ కవచము (ఆర్మ్-గార్డ్)",
-      "17వ శతాబ్దపు మొఘల్ భుజ కవచము (దస్తానా)"
-    ],
-    "tabar": [
-      "LVI-173: తబార్ (యుద్ధ గొడ్డలి)",
-      "పారశీక కవితలు చెక్కబడిన డమాస్కస్ ఉక్కు గొడ్డలి"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: కేడెం / డాలు (షాజహాన్ కాలం)",
-      "17వ శతాబ్దపు షాజహాన్ కాలంనాటి బంగారు జర్పులంద్ డాలు"
-    ],
-    "kindjal": [
-      "LIV-377: కింజల్ / కటారము",
-      "16వ శతాబ్దపు ఇండో-టర్కిష్ ఉక్కు కటారము"
-    ],
-    "khanda": [
-      "LIII-59: ఖడ్గము / ఖండా",
-      "17వ శతాబ్దపు దక్కన్ శైలి ఖండా ఖడ్గము"
-    ],
-    "chair-aina": [
-      "LVI-93: చార్-ఐనా (నాలుగు అద్దాల కవచము)",
-      "మొఘల్ నాలుగు అద్దాల ఉక్కు కవచము"
-    ],
-    "firangi": [
-      "LIV-160: ఫిరంగీ (నేరు తలవారు)",
-      "18వ శతాబ్దపు దక్కన్ శైలి ఫిరంగీ నేరు తలవారు"
-    ],
-    "jamadhar": [
-      "LV-36: జమాధార్ (కటారము)",
-      "1710 నాటి రాజస్థానీ శైలి జమాధార్ కటారము"
-    ],
-    "shield-serpent": [
-      "LVI-175: డాలు (సర్ప చెక్కడము)",
-      "18వ శతాబ్దపు దక్షిణ భారత సర్ప చెక్కడపు డాలు"
-    ]
-  },
-  "marathi": {
-    "chain-mail": [
-      "LVI-245: चेन मेल",
-      "पंजतन पवित्र नावे कोरलेले मुघल साखळी कवच"
-    ],
-    "arm-guard": [
-      "LVI-94: आर्म-गार्ड",
-      "१७ व्या शतकातील मुघल आर्म-गार्ड (दस्ताना)"
-    ],
-    "tabar": [
-      "LVI-173: तबर",
-      "सोन्याचे जडीकाम केलेली दमास्कस स्टिलची युद्धकुऱ्हाड"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: शील्ड (ढाल)",
-      "१७ व्या शतकातील शाहजहान काळातील सोन्याचे जरबुलंद काम असलेली ढाल"
-    ],
-    "kindjal": [
-      "LIV-377: किंडजल",
-      "१६ व्या शतकातील इंडो-तुर्की स्टिलची कटार"
-    ],
-    "khanda": [
-      "LIII-59: खंडा",
-      "१७ व्या शतकातील दख्खनी खंडा तलवार"
-    ],
-    "chair-aina": [
-      "LVI-93: चार-आइना",
-      "मुघल चार-आइना स्टिलचे चिलखत"
-    ],
-    "firangi": [
-      "LIV-160: फरिंगी",
-      "१८ व्या शतकातील दख्खनी फिरंगी सरळ तलवार"
-    ],
-    "jamadhar": [
-      "LV-36: जमधर",
-      "१७१० काळातील राजस्थानी जमधर कटार"
-    ],
-    "shield-serpent": [
-      "LVI-175: शील्ड (नाग डिझाईन)",
-      "१८ व्या शतकातील दक्षिण भारतीय नाग नक्षीची स्टिलची ढाल"
-    ]
-  },
-  "kannada": {
-    "chain-mail": [
-      "LVI-245: ಚೈನ್ ಮೇಲ್",
-      "ಪಂಚತನ್ ಹೆಸರುಗಳನ್ನು ಕೆತ್ತಲಾದ ಮೊಘಲ್ ಚೈನ್ ಮೇಲ್ ಕವಚ"
-    ],
-    "arm-guard": [
-      "LVI-94: ಬಾಹು ಕವಚ",
-      "17 ನೇ ಶತಮಾನದ ಮೊಘಲ್ ಬಾಹು ಕವಚ"
-    ],
-    "tabar": [
-      "LVI-173: ತಬಾರ್ (ಯುದ್ಧ ಕೊಡಲಿ)",
-      "ಪರ್ಷಿಯನ್ ಸಾಲುಗಳನ್ನು ಕೆತ್ತಲಾದ ಡಮಾಸ್ಕಸ್ ಉಕ್ಕಿನ ಕೊಡಲಿ"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: ಗುರಾಣಿ (ಷಹಜಹಾನ್ ಕಾಲ)",
-      "17 ನೇ ಶತಮಾನದ ಷಹಜಹಾನ್ ಕಾಲದ ಚಿನ್ನದ ಜರ್ಬುಲಂದ್ ಗುರಾಣಿ"
-    ],
-    "kindjal": [
-      "LIV-377: ಕಿಂಜಾಲ್ / ಕಟಾರಿ",
-      "16 ನೇ ಶತಮಾನದ ಇಂಡೋ-ಟರ್ಕಿಶ್ ಉಕ್ಕಿನ ಕಟಾರಿ"
-    ],
-    "khanda": [
-      "LIII-59: ಖಂಡ (ಖಡ್ಗ)",
-      "17 ನೇ ಶತಮಾನದ ದಖ್ಖನಿ ಖಂಡ ನೇರ ಖಡ್ಗ"
-    ],
-    "chair-aina": [
-      "LVI-93: ಚಾರ್-ಐನಾ ಕವಚ",
-      "ಮೊಘಲ್ ನಾಲ್ಕು ಕನ್ನಡಿಗಳ ಉಕ್ಕಿನ ಕವಚ"
-    ],
-    "firangi": [
-      "LIV-160: ಫಿರಂಗಿ (ನೇರ ಖಡ್ಗ)",
-      "18 ನೇ ಶತಮಾನದ ದಖ್ಖನಿ ಫಿರಂಗಿ ನೇರ ಖಡ್ಗ"
-    ],
-    "jamadhar": [
-      "LV-36: ಜಮಾಧಾರ್ ಕಟಾರಿ",
-      "1710 ರ ರಾಜಸ್ಥಾನಿ ಜಮಾಧಾರ್ ಕಟಾರಿ"
-    ],
-    "shield-serpent": [
-      "LVI-175: ಗುರಾಣಿ (ಸರ್ಪ ಕೆತ್ತನೆ)",
-      "18 ನೇ ಶತಮಾನದ ದಕ್ಷಿಣ ಭಾರತದ ಸರ್ಪ ಕೆತ್ತನೆಯ ಗುರಾಣಿ"
-    ]
-  },
-  "odia": {
-    "chain-mail": [
-      "LVI-245: ଚେନ୍ ମେଲ୍",
-      "ପଞ୍ଜତନ ନାମ ଖୋଦିତ ମୋଗଲ ଚେନ୍ ମେଲ୍ କବଚ"
-    ],
-    "arm-guard": [
-      "LVI-94: ବାହୁ କବଚ",
-      "୧୭ଶ ଶତାବ୍ଦୀର ମୋଗଲ ବାହୁ କବଚ"
-    ],
-    "tabar": [
-      "LVI-173: ତବାର (ଯୁଦ୍ଧ କୁରାଢ଼ି)",
-      "ପାରସ୍ୟ କବିତା ଖୋଦିତ ଦମେସ୍କସ ଇସ୍ପାତ କୁରାଢ଼ି"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: ଢାଲ (ଶାହଜାହାନ କାଳ)",
-      "୧୭ଶ ଶତାବ୍ଦୀର ଶାହଜାହାନ କାଳର ସୁନା ଜରବୁଲନ୍ଦ ଢାଲ"
-    ],
-    "kindjal": [
-      "LIV-377: କିଞ୍ଜାଲ / କଟାର",
-      "୧୬ଶ ଶତାବ୍ଦୀର ଇଣ୍ଡୋ-ତୁର୍କୀ ଇସ୍ପାତ କଟାର"
-    ],
-    "khanda": [
-      "LIII-59: ଖଣ୍ଡା",
-      "୧୭ଶ ଶତାବ୍ଦୀର ଦାକ୍ଷିଣାତ୍ୟ ଶୈଳୀର ଖଣ୍ଡା"
-    ],
-    "chair-aina": [
-      "LVI-93: ଚେୟାର-ଆଇନା",
-      "ମୋଗଲ ଚାରି-ଆଇନା ଇସ୍ପାତ କବଚ"
-    ],
-    "firangi": [
-      "LIV-160: ଫିରଙ୍ଗୀ",
-      "୧୮ଶ ଶତାବ୍ଦୀର ଦାକ୍ଷିଣାତ୍ୟ ଫିରଙ୍ଗୀ ଖଣ୍ଡା"
-    ],
-    "jamadhar": [
-      "LV-36: ଜମାଧର (କଟାର)",
-      "୧୭୧୦ ଖ୍ରୀଷ୍ଟାବ୍ଦର ରାଜସ୍ଥାନୀ ଜମାଧର କଟାର"
-    ],
-    "shield-serpent": [
-      "LVI-175: ଢାଲ (ସର୍ପ ନକ୍ସା)",
-      "୧୮ଶ ଶତାବ୍ଦୀର ଦକ୍ଷିଣ ଭାରତୀୟ ସର୍ପ ନକ୍ସା ଢାଲ"
-    ]
-  },
-  "urdu": {
-    "chain-mail": [
-      "LVI-245: زنجیری زرہ",
-      "پنجتن کے مقدس ناموں سے مزین مغلیہ زنجیری زرہ"
-    ],
-    "arm-guard": [
-      "LVI-94: بازو کی زرہ",
-      "17ویں صدی کا مغلیہ آرم گارڈ (بازو کی زرہ)"
-    ],
-    "tabar": [
-      "LVI-173: تبر",
-      "فارسی اشعار اور سنہری نقاشی سے مزین دمشقی فولاد کا تبر"
-    ],
-    "shield-shahjahan": [
-      "LVI-125: ڈھال",
-      "17ویں صدی کے درمیانی عہد شاہجہانی کی زربولند زریں ڈھال"
-    ],
-    "kindjal": [
-      "LIV-377: خنجر",
-      "16ویں صدی کا ہند-ترک فولادی خنجر"
-    ],
-    "khanda": [
-      "LIII-59: کھنڈا تلوار",
-      "17ویں صدی کے اوائل کی دکنی کھنڈا تلوار"
-    ],
-    "chair-aina": [
-      "LVI-93: چار آئینہ بکتر",
-      "مغلیہ چار آئینہ فولادی بکتر"
-    ],
-    "firangi": [
-      "LIV-160: فرنگی",
-      "18ویں صدی کے اواخر کی دکنی فرنگی سیدھی تلوار"
-    ],
-    "jamadhar": [
-      "LV-36: جمادار",
-      "1710ء کا راجستھانی جمادار خنجر"
-    ],
-    "shield-serpent": [
-      "LVI-175: ڈھال",
-      "18ویں صدی کی جنوبی ہند کی سانپ کی نقاشی والی فولادی ڈھال"
-    ]
-  }
-};
-const allAudiosMap = {
-  "hindi": [
-    "Audios/hindi/1. चेन मेल.wav",
-    "Audios/hindi/2. भुजा कवच (आर्म-गार्ड).wav",
-    "Audios/hindi/3. तबर.wav",
-    "Audios/hindi/4. ढाल.wav",
-    "Audios/hindi/5. कटार.wav",
-    "Audios/hindi/6. खंडा.wav",
-    "Audios/hindi/7. चेयर-आइना.wav",
-    "Audios/hindi/8. फिरंगी.wav",
-    "Audios/hindi/9. जमाधर (कतार).wav",
-    "Audios/hindi/10. ढाल.wav"
-  ],
-  "english": [
-    "Audios/english/1. Chain Mail.wav",
-    "Audios/english/2. ARM-GUARD.wav",
-    "Audios/english/3. TABAR.wav",
-    "Audios/english/4. SHIELD.wav",
-    "Audios/english/5. KINDJAL.wav",
-    "Audios/english/6. KHANDA.wav",
-    "Audios/english/7.CHAIR AINA.wav",
-    "Audios/english/8. FIRANGI.wav",
-    "Audios/english/9. JAMADHAR.wav",
-    "Audios/english/10.  SHIELD.wav"
-  ],
-  "telugu": [
-    "Audios/hindi/1. चेन मेल.wav",
-    "Audios/hindi/2. भुजा कवच (आर्म-गार्ड).wav",
-    "Audios/hindi/3. तबर.wav",
-    "Audios/hindi/4. ढाल.wav",
-    "Audios/hindi/5. कटार.wav",
-    "Audios/hindi/6. खंडा.wav",
-    "Audios/hindi/7. चेयर-आइना.wav",
-    "Audios/hindi/8. फिरंगी.wav",
-    "Audios/hindi/9. जमाधर (कतार).wav",
-    "Audios/hindi/10. ढाल.wav"
-  ],
-  "tamil": [
-    "Audios/tamil/1. Chain Mail.wav",
-    "Audios/tamil/2. ARM-GUARD.wav",
-    "Audios/tamil/3. TABAR.wav",
-    "Audios/tamil/4. SHIELD.wav",
-    "Audios/tamil/5. KINDJAL.wav",
-    "Audios/tamil/6. KHANDA.wav",
-    "Audios/tamil/7. CHAIR AINA.wav",
-    "Audios/tamil/8. FIRANGI.wav",
-    "Audios/tamil/9. JAMADHAR.wav",
-    "Audios/tamil/10. SHIELD.wav"
-  ],
-  "marathi": [
-    "Audios/marathi/Chain Mail.wav",
-    "Audios/marathi/ARM-GUARD.wav",
-    "Audios/marathi/TABAR.wav",
-    "Audios/marathi/SHIELD.wav",
-    "Audios/marathi/KINDJAL.wav",
-    "Audios/marathi/KHANDA.wav",
-    "Audios/marathi/CHAR AINA.wav",
-    "Audios/marathi/FIRANGI.wav",
-    "Audios/marathi/JAMADHAR.wav",
-    "Audios/marathi/SHIELD LVI-175.wav"
-  ],
-  "malayalam": [
-    "Audios/malayalam/Chain Mail.wav",
-    "Audios/malayalam/ARM-GUARD.wav",
-    "Audios/malayalam/TABAR.wav",
-    "Audios/malayalam/1)_SHIELD   LVI-125.wav",
-    "Audios/malayalam/KINDJAL.wav",
-    "Audios/malayalam/KHANDA.wav",
-    "Audios/malayalam/CHAIR AINA.wav",
-    "Audios/malayalam/FIRANGI.wav",
-    "Audios/malayalam/JAMADHAR.wav",
-    "Audios/malayalam/SHIELD LVI-175.wav"
-  ],
-  "kannada": [
-    "Audios/hindi/1. चेन मेल.wav",
-    "Audios/hindi/2. भुजा कवच (आर्म-गार्ड).wav",
-    "Audios/hindi/3. तबर.wav",
-    "Audios/hindi/4. ढाल.wav",
-    "Audios/hindi/5. कटार.wav",
-    "Audios/hindi/6. खंडा.wav",
-    "Audios/hindi/7. चेयर-आइना.wav",
-    "Audios/hindi/8. फिरंगी.wav",
-    "Audios/hindi/9. जमाधर (कतार).wav",
-    "Audios/hindi/10. ढाल.wav"
-  ],
-  "odia": [
-    "Audios/odia/1. Chain Mail.wav",
-    "Audios/odia/2. ARM-GUARD.wav",
-    "Audios/odia/3. TABAR.wav",
-    "Audios/odia/4. SHIELD.wav",
-    "Audios/odia/5. KINDJAL.wav",
-    "Audios/odia/6. KHANDA.wav",
-    "Audios/odia/7. CHAIR AINA.wav",
-    "Audios/odia/8. FIRANGI.wav",
-    "Audios/odia/9.  JAMADHAR.wav",
-    "Audios/odia/10. SHIELD.wav"
-  ],
-  "bengali": [
-    "Audios/bengali/LVI-245_ Chain mail.wav",
-    "Audios/bengali/LVI-94_ARM-GUARD.wav",
-    "Audios/bengali/LVI-173_ TABAR.wav",
-    "Audios/bengali/LVI-125_SHIELD.wav",
-    "Audios/bengali/LIV-377_ KINDJAL.wav",
-    "Audios/bengali/LIII-59- KHANDA.wav",
-    "Audios/bengali/LVI-93_CHAIR AINA.wav",
-    "Audios/bengali/LIV-160_FIRANGI.wav",
-    "Audios/bengali/LV-36_ JAMADHAR.wav",
-    "Audios/bengali/LVI-175_SHIELD.wav"
-  ],
-  "urdu": [
-    "Audios/urdu/1)  LVI-245.wav",
-    "Audios/urdu/2) LVI-94.wav",
-    "Audios/urdu/3) LVI -173.wav",
-    "Audios/urdu/4) LVI-125.wav",
-    "Audios/urdu/5)  LIV-377.wav",
-    "Audios/urdu/6) LIII-59.wav",
-    "Audios/urdu/7) LVI-93.wav",
-    "Audios/urdu/8) LIV-160.wav",
-    "Audios/urdu/9) LV-36.wav",
-    "Audios/urdu/10) LVI-175.wav"
-  ],
-  "gujarati": [
-    "Audios/hindi/1. चेन मेल.wav",
-    "Audios/hindi/2. भुजा कवच (आर्म-गार्ड).wav",
-    "Audios/hindi/3. तबर.wav",
-    "Audios/hindi/4. ढाल.wav",
-    "Audios/hindi/5. कटार.wav",
-    "Audios/hindi/6. खंडा.wav",
-    "Audios/hindi/7. चेयर-आइना.wav",
-    "Audios/hindi/8. फिरंगी.wav",
-    "Audios/hindi/9. जमाधर (कतार).wav",
-    "Audios/hindi/10. ढाल.wav"
-  ]
-};
-
-function updateGalleryLanguage(lang) {
-  document.querySelectorAll('.gallery-intro.langCnt').forEach(el => {
-    el.style.display = (el.id === lang) ? 'block' : 'none';
-  });
-
-  const langLabels = labels[lang] || labels.english;
-  
-  Object.keys(langLabels).forEach(key => {
-    const pair = langLabels[key];
-    const titleEl = document.querySelector('[data-card-label="' + key + '-title"]');
-    const subEl = document.querySelector('[data-card-label="' + key + '-subtitle"]');
-    if (titleEl) titleEl.textContent = pair[0];
-    if (subEl) subEl.textContent = pair[1];
-  });
-
-  if (allAudiosMap[lang]) {
-    const cards = document.querySelectorAll('.item-card');
-    cards.forEach((card, idx) => {
-      const audioEl = card.querySelector('audio');
-      if (audioEl && allAudiosMap[lang][idx]) {
-        audioEl.src = encodeURI(allAudiosMap[lang][idx]);
+  <script src="content.js"></script>
+  <script>
+    const selector = document.getElementById('languageSelector');
+    const labels = {
+      "english": {
+        "chain-mail": [
+          "LVI-245: Chain Mail",
+          "Mughal Chain Mail Armor with Inscribed Pentad (Panjtan)"
+        ],
+        "arm-guard": [
+          "LVI-94: Arm-Guard (Dastana)",
+          "17th Century Mughal Arm-Guard with Zardozi Velvet"
+        ],
+        "tabar": [
+          "LVI-173: Tabar (Battle Axe)",
+          "Damascus Steel Battle-Axe with Gold Inlaid Persian Verses"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: Shield",
+          "Mid 17th Century Shah Jahan Era Steel Shield with Zarbuland Gold Inlay"
+        ],
+        "kindjal": [
+          "LIV-377: Kindjal / Katar",
+          "16th Century Indo-Turkish Steel Dagger with Quranic Verses"
+        ],
+        "khanda": [
+          "LIII-59: Khanda Sword",
+          "17th Century Deccani Broadsword with Arabic Inscriptions"
+        ],
+        "chair-aina": [
+          "LVI-93: Chair-Aina (Char-Aina)",
+          "Mughal Four-Mirror Plate Cuirass Armor"
+        ],
+        "firangi": [
+          "LIV-160: Firangi Sword",
+          "18th Century Deccani Straight Sword with Basket Hilt"
+        ],
+        "jamadhar": [
+          "LV-36: Jamadhar (Push Dagger)",
+          "18th Century Rajasthani Push Dagger with Cypress Tree Motif"
+        ],
+        "shield-serpent": [
+          "LVI-175: Shield with Serpent Motif",
+          "18th Century South Indian Steel Shield with Coiled Serpent Relief"
+        ]
+      },
+      "hindi": {
+        "chain-mail": [
+          "LVI-245: चेन मेल",
+          "पंजतन नाम उत्कीर्णित मुगल चेन मेल सुरक्षात्मक कवच"
+        ],
+        "arm-guard": [
+          "LVI-94: भुजा कवच (आर्म-गार्ड)",
+          "17वीं शताब्दी का मुगल भुजा कवच (दस्तिया)"
+        ],
+        "tabar": [
+          "LVI-173: तबर (युद्ध-कुल्हाड़ी)",
+          "स्वर्ण जड़ाऊ फारसी पंक्तियों से युक्त दमिश्क इस्पाती तबर"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: ढाल (शाहजहाँ काल)",
+          "17वीं शताब्दी मध्य (शाहजहाँ काल) की ज़रबुलंद स्वर्ण जड़ित इस्पाती ढाल"
+        ],
+        "kindjal": [
+          "LIV-377: किंजल (कटार)",
+          "16वीं शताब्दी इंडो-तुर्की कटार (कुरान आयतों युक्त)"
+        ],
+        "khanda": [
+          "LIII-59: खंडा",
+          "17वीं शताब्दी दक्कनी खंडा (अरबी अभिलेख युक्त सीधी तलवार)"
+        ],
+        "chair-aina": [
+          "LVI-93: चेयर-आइना (चार-आइना)",
+          "उत्तर भारतीय मुगल चार-आइना इस्पाती कवच"
+        ],
+        "firangi": [
+          "LIV-160: फिरंगी",
+          "18वीं शताब्दी दक्कन शैली की सीधी धार वाली फिरंगी तलवार"
+        ],
+        "jamadhar": [
+          "LV-36: जमाधर (कटार)",
+          "लगभग 1710 ई. राजस्थान शैली का साइप्रस वृक्ष आकृति युक्त जमाधर"
+        ],
+        "shield-serpent": [
+          "LVI-175: ढाल (सर्प नक्काशी)",
+          "18वीं शताब्दी दक्षिण भारत की सर्प आकृति उत्कीर्णित इस्पाती ढाल"
+        ]
+      },
+      "tamil": {
+        "chain-mail": [
+          "LVI-245: சங்கிலிக் கவசம்",
+          "பஞ்சதன் திருப்பெயர்கள் பொறிக்கப்பட்ட முகலாய சங்கிலிக் கவசம்"
+        ],
+        "arm-guard": [
+          "LVI-94: கை-கவசம்",
+          "17ஆம் நூற்றாண்டு முகலாய கை-கவசம் (ஜரிகை வேலைப்பாடு)"
+        ],
+        "tabar": [
+          "LVI-173: தபார் (போர்க் கோடாரி)",
+          "பாரசீகக் கவிதைகள் பொறிக்கப்பட்ட டமாஸ்கஸ் எஃகு கோடாரி"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: கேடயம் (ஷாஹாஜகான் காலம்)",
+          "17ஆம் நூற்றாண்டு நடுப்பகுதி ஷாஜகான் காலத்து தங்க ஜர்புலந்த் கேடயம்"
+        ],
+        "kindjal": [
+          "LIV-377: கிஞ்சால் / கத்தார்",
+          "16ஆம் நூற்றாண்டு இந்தோ-துருக்கிய எஃகு வாள் (குர்ஆன் வசனங்கள்)"
+        ],
+        "khanda": [
+          "LIII-59: கந்தா வாள்",
+          "17ஆம் நூற்றாண்டு தக்காணப் பாணி கந்தா நேர் வாள்"
+        ],
+        "chair-aina": [
+          "LVI-93: சேர்-ஐனா (நான்கு கண்ணாடிகள் கவசம்)",
+          "முகலாய நான்கு-கண்ணாடி எஃகு மார்புக் கவசம்"
+        ],
+        "firangi": [
+          "LIV-160: பிரங்கி வாள்",
+          "18ஆம் நூற்றாண்டு பிற்பகுதி தக்காண பிரங்கி நேர் வாள்"
+        ],
+        "jamadhar": [
+          "LV-36: ஜமாதார் (கத்தார்)",
+          "1710 ஆம் ஆண்டு ராஜஸ்தானி பாணி ஜமாதார் கத்தார்"
+        ],
+        "shield-serpent": [
+          "LVI-175: கேடயம் (பாம்பு வடிவம்)",
+          "18ஆம் நூற்றாண்டு தென்னிந்திய பாம்பு வடிவ எஃகு கேடயம்"
+        ]
+      },
+      "malayalam": {
+        "chain-mail": [
+          "LVI-245: ചെയിൻ മെയിൽ",
+          "പഞ്ചതൻ നാമങ്ങൾ ആലേഖനം ചെയ്ത മുഗൾ ചെയിൻ മെയിൽ കവചം"
+        ],
+        "arm-guard": [
+          "LVI-94: കൈ-കവചം",
+          "17-ാം നൂറ്റാണ്ടിലെ മുഗൾ കൈ-കവചം (സരി വർക്ക്)"
+        ],
+        "tabar": [
+          "LVI-173: തബാർ (യുദ്ധക്കോടാലി)",
+          "പേർഷ്യൻ വരികൾ ആലേഖനം ചെയ്ത ഡമാസ്കസ് സ്റ്റീൽ കോടാലി"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: കേടയം (ഷാജഹാൻ കാലഘട്ടം)",
+          "17-ാം നൂറ്റാണ്ടിലെ ഷാജഹാൻ കാലഘട്ടത്തിലെ സ്വർണ്ണ ജർബുലന്ദ് കേടയം"
+        ],
+        "kindjal": [
+          "LIV-377: കിൻജാൽ / കട്ടാരി",
+          "16-ാം നൂറ്റാണ്ടിലെ ഇൻഡോ-തുർക്കിഷ് സ്റ്റീൽ വാൾ"
+        ],
+        "khanda": [
+          "LIII-59: ഖണ്ഡ വാൾ",
+          "17-ാം നൂറ്റാണ്ടിലെ ഡെക്കാനി ഖണ്ഡ നേർ വാൾ"
+        ],
+        "chair-aina": [
+          "LVI-93: ചെയർ ഐന കവചം",
+          "മുഗൾ നാല്-കണ്ണാടി സ്റ്റീൽ മார்ப് കവചം"
+        ],
+        "firangi": [
+          "LIV-160: ഫിരംഗി വാൾ",
+          "18-ാം നൂറ്റാണ്ടിലെ ഡെക്കാനി ഫിരംഗി വാൾ"
+        ],
+        "jamadhar": [
+          "LV-36: ജമാധാർ കട്ടാരി",
+          "1710 കാലഘട്ടത്തിലെ രാജസ്ഥാനി ജമാധാർ കട്ടാരി"
+        ],
+        "shield-serpent": [
+          "LVI-175: കേടയം (സർപ്പ കൊത്തുപണി)",
+          "18-ാം നൂറ്റാണ്ടിലെ തെന്നിന്ത്യൻ സർപ്പ കേടയം"
+        ]
+      },
+      "bengali": {
+        "chain-mail": [
+          "LVI-245: চেইন মেইল",
+          "পাঞ্জতন পবিত্র নাম খোদিত মুঘল চেইন মেইল বর্ম"
+        ],
+        "arm-guard": [
+          "LVI-94: বাহু-রক্ষী",
+          "১৭শ শতাব্দীর মুঘল বাহুরক্ষী (জরির কাজ)"
+        ],
+        "tabar": [
+          "LVI-173: তবার (যুদ্ধকুঠার)",
+          "ফারসি কবিতা উৎকীর্ণ দামেস্ক ইস্পাতের যুদ্ধকুঠার"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: ঢাল (শাহজাহানের আমল)",
+          "১৭শ শতাব্দীর মধ্যভাগের শাহজাহানি স্বর্ণ জরবুলন্দ ঢাল"
+        ],
+        "kindjal": [
+          "LIV-377: কিনজল / কাটার",
+          "১৬শ শতাব্দীর ইন্দো-তুর্কি ইস্পাতের তলোয়ার"
+        ],
+        "khanda": [
+          "LIII-59: খান্ডা",
+          "১৭শ শতাব্দীর দাক্ষিণাত্য প্রণালীর প্রাচীন খান্ডা তলোয়ার"
+        ],
+        "chair-aina": [
+          "LVI-93: চেয়ার আইনা",
+          "উত্তর ভারতীয় মুঘল চার-আইনা ইস্পাতের বর্ম"
+        ],
+        "firangi": [
+          "LIV-160: ফিরঙ্গি",
+          "১৮শ শতাব্দীর শেষভাগের দাক্ষিণাত্য ফিরঙ্গি সোজা তলোয়ার"
+        ],
+        "jamadhar": [
+          "LV-36: জামধার",
+          "১৭১০ খ্রিষ্টাব্দের রাজস্থানি জামধার কাটার"
+        ],
+        "shield-serpent": [
+          "LVI-175: ঢাল (সর্প নকশা)",
+          "১৮শ শতাব্দীর দক্ষিণ ভারতীয় সর্প খোদাইকৃত ইস্পাতের ঢাল"
+        ]
+      },
+      "gujarati": {
+        "chain-mail": [
+          "LVI-245: ચેઇન મેઇલ",
+          "પંજતન પવિત્ર નામો કંડારેલું મુઘલ ચેઇન મેઇલ બખ્તર"
+        ],
+        "arm-guard": [
+          "LVI-94: હાથનું રક્ષક બખ્તર (આર્મ-ગાર્ડ)",
+          "૧૭મી સદીનું મુઘલ હાથનું રક્ષક બખ્તર"
+        ],
+        "tabar": [
+          "LVI-173: તબર (યુદ્ધ કુહાડી)",
+          "પર્શિયન શિલાલેખ ધરાવતી દમાસ્કસ સ્ટીલની યુદ્ધ કુહાડી"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: ઢાલ (શાહજહાં કાળ)",
+          "૧૭મી સદીના મધ્યની શાહજહાં કાળની ઝરબુલંદ સોનેરી ઢાલ"
+        ],
+        "kindjal": [
+          "LIV-377: કિંડજલ / કટાર",
+          "૧૬મી સદીની ઇન્ડો-તુર્કી સ્ટીલ કટાર"
+        ],
+        "khanda": [
+          "LIII-59: ખંડા",
+          "૧૭મી સદીની દક્કની શૈલીની ખંડા તલવાર"
+        ],
+        "chair-aina": [
+          "LVI-93: ચેર-આઇના (ચાર આઇના બખ્તર)",
+          "મુઘલ ચાર-આઇના સ્ટીલનું બખ્તર"
+        ],
+        "firangi": [
+          "LIV-160: ફિરંગી",
+          "૧૮મી સદીના ઉત્તરાધની દક્કની ફિરંગી સીધી તલવાર"
+        ],
+        "jamadhar": [
+          "LV-36: જમાધર (કટાર)",
+          "આશરે ૧૭૧૦ ઇ.સ. ની રાજસ્થાની જમાધર કટાર"
+        ],
+        "shield-serpent": [
+          "LVI-175: ઢાલ (સર્પ કંડારણ)",
+          "૧૮મી સદીની દક્ષિણ ભારતની સર્પ આકૃતિ ધરાવતી સ્ટીલ ઢાલ"
+        ]
+      },
+      "telugu": {
+        "chain-mail": [
+          "LVI-245: గొలుసు కవచము (చైన్ మెయిల్)",
+          "పంచతన్ పవిత్ర నామాలు చెక్కబడిన మొఘల్ చైన్ మెయిల్ కవచము"
+        ],
+        "arm-guard": [
+          "LVI-94: భుజ కవచము (ఆర్మ్-గార్డ్)",
+          "17వ శతాబ్దపు మొఘల్ భుజ కవచము (దస్తానా)"
+        ],
+        "tabar": [
+          "LVI-173: తబార్ (యుద్ధ గొడ్డలి)",
+          "పారశీక కవితలు చెక్కబడిన డమాస్కస్ ఉక్కు గొడ్డలి"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: కేడెం / డాలు (షాజహాన్ కాలం)",
+          "17వ శతాబ్దపు షాజహాన్ కాలంనాటి బంగారు జర్పులంద్ డాలు"
+        ],
+        "kindjal": [
+          "LIV-377: కింజల్ / కటారము",
+          "16వ శతాబ్దపు ఇండో-టర్కిష్ ఉక్కు కటారము"
+        ],
+        "khanda": [
+          "LIII-59: ఖడ్గము / ఖండా",
+          "17వ శతాబ్దపు దక్కన్ శైలి ఖండా ఖడ్గము"
+        ],
+        "chair-aina": [
+          "LVI-93: చార్-ఐనా (నాలుగు అద్దాల కవచము)",
+          "మొఘల్ నాలుగు అద్దాల ఉక్కు కవచము"
+        ],
+        "firangi": [
+          "LIV-160: ఫిరంగీ (నేరు తలవారు)",
+          "18వ శతాబ్దపు దక్కన్ శైలి ఫిరంగీ నేరు తలవారు"
+        ],
+        "jamadhar": [
+          "LV-36: జమాధార్ (కటారము)",
+          "1710 నాటి రాజస్థానీ శైలి జమాధార్ కటారము"
+        ],
+        "shield-serpent": [
+          "LVI-175: డాలు (సర్ప చెక్కడము)",
+          "18వ శతాబ్దపు దక్షిణ భారత సర్ప చెక్కడపు డాలు"
+        ]
+      },
+      "marathi": {
+        "chain-mail": [
+          "LVI-245: चेन मेल",
+          "पंजतन पवित्र नावे कोरलेले मुघल साखळी कवच"
+        ],
+        "arm-guard": [
+          "LVI-94: आर्म-गार्ड",
+          "१७ व्या शतकातील मुघल आर्म-गार्ड (दस्ताना)"
+        ],
+        "tabar": [
+          "LVI-173: तबर",
+          "सोन्याचे जडीकाम केलेली दमास्कस स्टिलची युद्धकुऱ्हाड"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: शील्ड (ढाल)",
+          "१७ व्या शतकातील शाहजहान काळातील सोन्याचे जरबुलंद काम असलेली ढाल"
+        ],
+        "kindjal": [
+          "LIV-377: किंडजल",
+          "१६ व्या शतकातील इंडो-तुर्की स्टिलची कटार"
+        ],
+        "khanda": [
+          "LIII-59: खंडा",
+          "१७ व्या शतकातील दख्खनी खंडा तलवार"
+        ],
+        "chair-aina": [
+          "LVI-93: चार-आइना",
+          "मुघल चार-आइना स्टिलचे चिलखत"
+        ],
+        "firangi": [
+          "LIV-160: फरिंगी",
+          "१८ व्या शतकातील दख्खनी फिरंगी सरळ तलवार"
+        ],
+        "jamadhar": [
+          "LV-36: जमधर",
+          "१७१० काळातील राजस्थानी जमधर कटार"
+        ],
+        "shield-serpent": [
+          "LVI-175: शील्ड (नाग डिझाईन)",
+          "१८ व्या शतकातील दक्षिण भारतीय नाग नक्षीची स्टिलची ढाल"
+        ]
+      },
+      "kannada": {
+        "chain-mail": [
+          "LVI-245: ಚೈನ್ ಮೇಲ್",
+          "ಪಂಚತನ್ ಹೆಸರುಗಳನ್ನು ಕೆತ್ತಲಾದ ಮೊಘಲ್ ಚೈನ್ ಮೇಲ್ ಕವಚ"
+        ],
+        "arm-guard": [
+          "LVI-94: ಬಾಹು ಕವಚ",
+          "17 ನೇ ಶತಮಾನದ ಮೊಘಲ್ ಬಾಹು ಕವಚ"
+        ],
+        "tabar": [
+          "LVI-173: ತಬಾರ್ (ಯುದ್ಧ ಕೊಡಲಿ)",
+          "ಪರ್ಷಿಯನ್ ಸಾಲುಗಳನ್ನು ಕೆತ್ತಲಾದ ಡಮಾಸ್ಕಸ್ ಉಕ್ಕಿನ ಕೊಡಲಿ"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: ಗುರಾಣಿ (ಷಹಜಹಾನ್ ಕಾಲ)",
+          "17 ನೇ ಶತಮಾನದ ಷಹಜಹಾನ್ ಕಾಲದ ಚಿನ್ನದ ಜರ್ಬುಲಂದ್ ಗುರಾಣಿ"
+        ],
+        "kindjal": [
+          "LIV-377: ಕಿಂಜಾಲ್ / ಕಟಾರಿ",
+          "16 ನೇ ಶತಮಾನದ ಇಂಡೋ-ಟರ್ಕಿಶ್ ಉಕ್ಕಿನ ಕಟಾರಿ"
+        ],
+        "khanda": [
+          "LIII-59: ಖಂಡ (ಖಡ್ಗ)",
+          "17 ನೇ ಶತಮಾನದ ದಖ್ಖನಿ ಖಂಡ ನೇರ ಖಡ್ಗ"
+        ],
+        "chair-aina": [
+          "LVI-93: ಚಾರ್-ಐನಾ ಕವಚ",
+          "ಮೊಘಲ್ ನಾಲ್ಕು ಕನ್ನಡಿಗಳ ಉಕ್ಕಿನ ಕವಚ"
+        ],
+        "firangi": [
+          "LIV-160: ಫಿರಂಗಿ (ನೇರ ಖಡ್ಗ)",
+          "18 ನೇ ಶತಮಾನದ ದಖ್ಖನಿ ಫಿರಂಗಿ ನೇರ ಖಡ್ಗ"
+        ],
+        "jamadhar": [
+          "LV-36: ಜಮಾಧಾರ್ ಕಟಾರಿ",
+          "1710 ರ ರಾಜಸ್ಥಾನಿ ಜಮಾಧಾರ್ ಕಟಾರಿ"
+        ],
+        "shield-serpent": [
+          "LVI-175: ಗುರಾಣಿ (ಸರ್ಪ ಕೆತ್ತನೆ)",
+          "18 ನೇ ಶತಮಾನದ ದಕ್ಷಿಣ ಭಾರತದ ಸರ್ಪ ಕೆತ್ತನೆಯ ಗುರಾಣಿ"
+        ]
+      },
+      "odia": {
+        "chain-mail": [
+          "LVI-245: ଚେନ୍ ମେଲ୍",
+          "ପଞ୍ଜତନ ନାମ ଖୋଦିତ ମୋଗଲ ଚେନ୍ ମେଲ୍ କବଚ"
+        ],
+        "arm-guard": [
+          "LVI-94: ବାହୁ କବଚ",
+          "୧୭ଶ ଶତାବ୍ଦୀର ମୋଗଲ ବାହୁ କବଚ"
+        ],
+        "tabar": [
+          "LVI-173: ତବାର (ଯୁଦ୍ଧ କୁରାଢ଼ି)",
+          "ପାରସ୍ୟ କବିତା ଖୋଦିତ ଦମେସ୍କସ ଇସ୍ପାତ କୁରାଢ଼ି"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: ଢାଲ (ଶାହଜାହାନ କାଳ)",
+          "୧୭ଶ ଶତାବ୍ଦୀର ଶାହଜାହାନ କାଳର ସୁନା ଜରବୁଲନ୍ଦ ଢାଲ"
+        ],
+        "kindjal": [
+          "LIV-377: କିଞ୍ଜାଲ / କଟାର",
+          "୧୬ଶ ଶତାବ୍ଦୀର ଇଣ୍ଡୋ-ତୁର୍କୀ ଇସ୍ପାତ କଟାର"
+        ],
+        "khanda": [
+          "LIII-59: ଖଣ୍ଡା",
+          "୧୭ଶ ଶତାବ୍ଦୀର ଦାକ୍ଷିଣାତ୍ୟ ଶୈଳୀର ଖଣ୍ଡା"
+        ],
+        "chair-aina": [
+          "LVI-93: ଚେୟାର-ଆଇନା",
+          "ମୋଗଲ ଚାରି-ଆଇନା ଇସ୍ପାତ କବଚ"
+        ],
+        "firangi": [
+          "LIV-160: ଫିରଙ୍ଗୀ",
+          "୧୮ଶ ଶତାବ୍ଦୀର ଦାକ୍ଷିଣାତ୍ୟ ଫିରଙ୍ଗୀ ଖଣ୍ଡା"
+        ],
+        "jamadhar": [
+          "LV-36: ଜମାଧର (କଟାର)",
+          "୧୭୧୦ ଖ୍ରୀଷ୍ଟାବ୍ଦର ରାଜସ୍ଥାନୀ ଜମାଧର କଟାର"
+        ],
+        "shield-serpent": [
+          "LVI-175: ଢାଲ (ସର୍ପ ନକ୍ସା)",
+          "୧୮ଶ ଶତାବ୍ଦୀର ଦକ୍ଷିଣ ଭାରତୀୟ ସର୍ପ ନକ୍ସା ଢାଲ"
+        ]
+      },
+      "urdu": {
+        "chain-mail": [
+          "LVI-245: زنجیری زرہ",
+          "پنجتن کے مقدس ناموں سے مزین مغلیہ زنجیری زرہ"
+        ],
+        "arm-guard": [
+          "LVI-94: بازو کی زرہ",
+          "17ویں صدی کا مغلیہ آرم گارڈ (بازو کی زرہ)"
+        ],
+        "tabar": [
+          "LVI-173: تبر",
+          "فارسی اشعار اور سنہری نقاشی سے مزین دمشقی فولاد کا تبر"
+        ],
+        "shield-shahjahan": [
+          "LVI-125: ڈھال",
+          "17ویں صدی کے درمیانی عہد شاہجہانی کی زربولند زریں ڈھال"
+        ],
+        "kindjal": [
+          "LIV-377: خنجر",
+          "16ویں صدی کا ہند-ترک فولادی خنجر"
+        ],
+        "khanda": [
+          "LIII-59: کھنڈا تلوار",
+          "17ویں صدی کے اوائل کی دکنی کھنڈا تلوار"
+        ],
+        "chair-aina": [
+          "LVI-93: چار آئینہ بکتر",
+          "مغلیہ چار آئینہ فولادی بکتر"
+        ],
+        "firangi": [
+          "LIV-160: فرنگی",
+          "18ویں صدی کے اواخر کی دکنی فرنگی سیدھی تلوار"
+        ],
+        "jamadhar": [
+          "LV-36: جمادار",
+          "1710ء کا راجستھانی جمادار خنجر"
+        ],
+        "shield-serpent": [
+          "LVI-175: ڈھال",
+          "18ویں صدی کی جنوبی ہند کی سانپ کی نقاشی والی فولادی ڈھال"
+        ]
       }
-    });
-  }
+    };
+    const allAudiosMap = {
+      "hindi": [
+        "Audios/hindi/1. चेन मेल.wav",
+        "Audios/hindi/2. भुजा कवच (आर्म-गार्ड).wav",
+        "Audios/hindi/3. तबर.wav",
+        "Audios/hindi/4. ढाल.wav",
+        "Audios/hindi/5. कटार.wav",
+        "Audios/hindi/6. खंडा.wav",
+        "Audios/hindi/7. चेयर-आइना.wav",
+        "Audios/hindi/8. फिरंगी.wav",
+        "Audios/hindi/9. जमाधर (कतार).wav",
+        "Audios/hindi/10. ढाल.wav"
+      ],
+      "english": [
+        "Audios/english/1. Chain Mail.wav",
+        "Audios/english/2. ARM-GUARD.wav",
+        "Audios/english/3. TABAR.wav",
+        "Audios/english/4. SHIELD.wav",
+        "Audios/english/5. KINDJAL.wav",
+        "Audios/english/6. KHANDA.wav",
+        "Audios/english/7.CHAIR AINA.wav",
+        "Audios/english/8. FIRANGI.wav",
+        "Audios/english/9. JAMADHAR.wav",
+        "Audios/english/10.  SHIELD.wav"
+      ],
+      "telugu": [
+        "Audios/telugu/Telugu_Chain Mail_Female.wav",
+        "Audios/telugu/Telugu_Arm Guard_Female.wav",
+        "Audios/telugu/Telugu_Tabar_Female.wav",
+        "Audios/telugu/Telugu_Shield-125_Female.wav",
+        "Audios/telugu/Telugu_Kindjal_Female.wav",
+        "Audios/telugu/Telugu_Khanda_Female.wav",
+        "Audios/telugu/Telugu_Chair Aina_Female.wav",
+        "Audios/telugu/Telugu_Firangi_Female.wav",
+        "Audios/telugu/Telugu_Jamadhar_Female.wav",
+        "Audios/telugu/Telugu_Shield-175_Female.wav"
+      ],
+      "tamil": [
+        "Audios/tamil/1. Chain Mail.wav",
+        "Audios/tamil/2. ARM-GUARD.wav",
+        "Audios/tamil/3. TABAR.wav",
+        "Audios/tamil/4. SHIELD.wav",
+        "Audios/tamil/5. KINDJAL.wav",
+        "Audios/tamil/6. KHANDA.wav",
+        "Audios/tamil/7. CHAIR AINA.wav",
+        "Audios/tamil/8. FIRANGI.wav",
+        "Audios/tamil/9. JAMADHAR.wav",
+        "Audios/tamil/10. SHIELD.wav"
+      ],
+      "marathi": [
+        "Audios/marathi/Chain Mail.wav",
+        "Audios/marathi/ARM-GUARD.wav",
+        "Audios/marathi/TABAR.wav",
+        "Audios/marathi/SHIELD.wav",
+        "Audios/marathi/KINDJAL.wav",
+        "Audios/marathi/KHANDA.wav",
+        "Audios/marathi/CHAR AINA.wav",
+        "Audios/marathi/FIRANGI.wav",
+        "Audios/marathi/JAMADHAR.wav",
+        "Audios/marathi/SHIELD LVI-175.wav"
+      ],
+      "malayalam": [
+        "Audios/malayalam/Chain Mail.wav",
+        "Audios/malayalam/ARM-GUARD.wav",
+        "Audios/malayalam/TABAR.wav",
+        "Audios/malayalam/1)_SHIELD   LVI-125.wav",
+        "Audios/malayalam/KINDJAL.wav",
+        "Audios/malayalam/KHANDA.wav",
+        "Audios/malayalam/CHAIR AINA.wav",
+        "Audios/malayalam/FIRANGI.wav",
+        "Audios/malayalam/JAMADHAR.wav",
+        "Audios/malayalam/SHIELD LVI-175.wav"
+      ],
+      "kannada": [
+        "Audios/kannada/Chain Mail LVI-245.wav",
+        "Audios/kannada/ARM-GUARD LVI-94.wav",
+        "Audios/kannada/TABAR LVI-173.wav",
+        "Audios/kannada/SHIELD LVI-125.wav",
+        "Audios/kannada/KINDJAL LIV-377.wav",
+        "Audios/kannada/KHANDA LIII-59.wav",
+        "Audios/kannada/CHAIR AINA  LVI-93.wav",
+        "Audios/kannada/FIRANGI LIV-160..wav",
+        "Audios/kannada/JAMADHAR LV-36 .wav",
+        "Audios/kannada/SHIELD LVI-175 .wav"
+      ],
+      "odia": [
+        "Audios/odia/1. Chain Mail.wav",
+        "Audios/odia/2. ARM-GUARD.wav",
+        "Audios/odia/3. TABAR.wav",
+        "Audios/odia/4. SHIELD.wav",
+        "Audios/odia/5. KINDJAL.wav",
+        "Audios/odia/6. KHANDA.wav",
+        "Audios/odia/7. CHAIR AINA.wav",
+        "Audios/odia/8. FIRANGI.wav",
+        "Audios/odia/9.  JAMADHAR.wav",
+        "Audios/odia/10. SHIELD.wav"
+      ],
+      "bengali": [
+        "Audios/bengali/LVI-245_ Chain mail.wav",
+        "Audios/bengali/LVI-94_ARM-GUARD.wav",
+        "Audios/bengali/LVI-173_ TABAR.wav",
+        "Audios/bengali/LVI-125_SHIELD.wav",
+        "Audios/bengali/LIV-377_ KINDJAL.wav",
+        "Audios/bengali/LIII-59- KHANDA.wav",
+        "Audios/bengali/LVI-93_CHAIR AINA.wav",
+        "Audios/bengali/LIV-160_FIRANGI.wav",
+        "Audios/bengali/LV-36_ JAMADHAR.wav",
+        "Audios/bengali/LVI-175_SHIELD.wav"
+      ],
+      "urdu": [
+        "Audios/urdu/1)  LVI-245.wav",
+        "Audios/urdu/2) LVI-94.wav",
+        "Audios/urdu/3) LVI -173.wav",
+        "Audios/urdu/4) LVI-125.wav",
+        "Audios/urdu/5)  LIV-377.wav",
+        "Audios/urdu/6) LIII-59.wav",
+        "Audios/urdu/7) LVI-93.wav",
+        "Audios/urdu/8) LIV-160.wav",
+        "Audios/urdu/9) LV-36.wav",
+        "Audios/urdu/10) LVI-175.wav"
+      ],
+      "gujarati": [
+        "Audios/gujarathi/LVI-245.wav",
+        "Audios/gujarathi/LVI-94.wav",
+        "Audios/gujarathi/LVI-173.wav",
+        "Audios/gujarathi/LVI-125.wav",
+        "Audios/gujarathi/LIV-377.wav",
+        "Audios/gujarathi/LIII-59.wav",
+        "Audios/gujarathi/LVI-93.wav",
+        "Audios/gujarathi/LIV-160.wav",
+        "Audios/gujarathi/LV-36.wav",
+        "Audios/gujarathi/LVI-175.wav"
+      ]
+    };
 
-  if (window.armsGalleryContent && window.armsGalleryContent[lang]) {
-    const items = ["chain-mail","arm-guard","tabar","shield-shahjahan","kindjal","khanda","chair-aina","firangi","jamadhar","shield-serpent"];
-    items.forEach((key, idx) => {
-      const contentEl = document.querySelector('[data-card-content="' + key + '"]');
-      if (contentEl && window.armsGalleryContent[lang][idx]) {
-        const txt = window.armsGalleryContent[lang][idx];
-        contentEl.textContent = txt.length > 180 ? txt.substring(0, 180) + '...' : txt;
+    function updateGalleryLanguage(lang) {
+      document.querySelectorAll('.gallery-intro.langCnt').forEach(el => {
+        el.style.display = (el.id === lang) ? 'block' : 'none';
+      });
+
+      const langLabels = labels[lang] || labels.english;
+
+      Object.keys(langLabels).forEach(key => {
+        const pair = langLabels[key];
+        const titleEl = document.querySelector('[data-card-label="' + key + '-title"]');
+        const subEl = document.querySelector('[data-card-label="' + key + '-subtitle"]');
+        if (titleEl) titleEl.textContent = pair[0];
+        if (subEl) subEl.textContent = pair[1];
+      });
+
+      if (allAudiosMap[lang]) {
+        const cards = document.querySelectorAll('.item-card');
+        cards.forEach((card, idx) => {
+          const audioEl = card.querySelector('audio');
+          if (audioEl && allAudiosMap[lang][idx]) {
+            audioEl.src = encodeURI(allAudiosMap[lang][idx]);
+          }
+        });
       }
+
+      if (window.armsGalleryContent && window.armsGalleryContent[lang]) {
+        const items = ["chain-mail", "arm-guard", "tabar", "shield-shahjahan", "kindjal", "khanda", "chair-aina", "firangi", "jamadhar", "shield-serpent"];
+        items.forEach((key, idx) => {
+          const contentEl = document.querySelector('[data-card-content="' + key + '"]');
+          if (contentEl && window.armsGalleryContent[lang][idx]) {
+            const txt = window.armsGalleryContent[lang][idx];
+            contentEl.textContent = txt.length > 180 ? txt.substring(0, 180) + '...' : txt;
+          }
+        });
+      }
+    }
+
+    selector.addEventListener('change', function () {
+      updateGalleryLanguage(this.value);
     });
-  }
-}
 
-selector.addEventListener('change', function() {
-  updateGalleryLanguage(this.value);
-});
-
-updateGalleryLanguage(selector.value);
-</script>
+    updateGalleryLanguage(selector.value);
+  </script>
 </body>
+
 </html>

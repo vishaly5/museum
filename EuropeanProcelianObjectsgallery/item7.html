@@ -1,5 +1,186 @@
-﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>LVII-338: Jewellery Box Casket | Salar Jung Museum</title><link rel="stylesheet" href="css/styles.css"><style>.gallery-intro{padding:28px 6%;background:#fff}.gallery-intro h1{font-size:42px;margin:0 0 12px;color:#a50309}.gallery-intro p{font-size:19px;max-width:1100px}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1)}.item-card img{width:100%;height:270px;object-fit:contain;background:#fff;border-radius:6px}.item-card h2{font-size:18px;margin:14px 0 4px;color:#a50309;line-height:1.55;overflow-wrap:anywhere}.item-card audio{width:100%;margin:10px 0}.card-content{line-height:1.8;font-size:15px;overflow-wrap:anywhere}.audioPlayerDiv,.bookContentDiv,.navBtnDiv{max-width:900px;margin:20px auto;padding:0 15px}.bookContentDiv{padding:25px;background:#fff;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.08)}.cntHdng{color:#a50309;line-height:1.7;overflow-wrap:anywhere}.booImgDiv{display:flex;justify-content:center;max-height:480px;padding:10px;border:1px solid #eee}.booImgDiv img{max-width:100%;max-height:460px;object-fit:contain}.bookCntDiv{font-size:16px;line-height:2.1;overflow-wrap:anywhere}.langCnt[dir=rtl]{direction:rtl;text-align:right}.langCnt[dir=rtl] .bookCntDiv p{text-align:right}.langCnt[lang=ml],.langCnt[lang=te]{font-family:"Noto Sans Malayalam","Noto Sans Telugu","Nirmala UI",sans-serif;line-height:2.25;word-spacing:.08em}.langCnt[lang=ml] .cntHdng,.langCnt[lang=te] .cntHdng{line-height:2}.navBtnDiv{display:flex;justify-content:space-between;gap:10px}.navBtn{background:#a50309;color:#fff;padding:10px 20px;border-radius:6px;text-decoration:none}@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:767px){.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.gallery-intro h1{font-size:30px}.navBtnDiv{flex-direction:column}.navBtn{text-align:center}}</style></head><body><div class="sliderHeaderDiv"><div class="container"><header><a href="index.html" class="logo logoTwo"><img src="images/logo-moc.png" onerror="this.onerror=null;this.src='images/logo.png' alt="Ministry of Culture"></a><div class="langDiv"><img src="images/logo-anu.png" alt="Anuvadini" style="width:26px;height:26px"><select class="form formLang" id="languageSelector" aria-label="Select language">
-<option value="english">English</option>
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LVII-338: Jewellery Box Casket | Salar Jung Museum</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .gallery-intro {
+            padding: 28px 6%;
+            background: #fff
+        }
+
+        .gallery-intro h1 {
+            font-size: 42px;
+            margin: 0 0 12px;
+            color: #a50309
+        }
+
+        .gallery-intro p {
+            font-size: 19px;
+            max-width: 1100px
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            padding: 28px 6%;
+            background: #a50309
+        }
+
+        .item-card {
+            background: #fff;
+            padding: 14px;
+            color: #2e2e2e;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+        }
+
+        .item-card img {
+            width: 100%;
+            height: 270px;
+            object-fit: contain;
+            background: #fff;
+            border-radius: 6px
+        }
+
+        .item-card h2 {
+            font-size: 18px;
+            margin: 14px 0 4px;
+            color: #a50309;
+            line-height: 1.55;
+            overflow-wrap: anywhere
+        }
+
+        .item-card audio {
+            width: 100%;
+            margin: 10px 0
+        }
+
+        .card-content {
+            line-height: 1.8;
+            font-size: 15px;
+            overflow-wrap: anywhere
+        }
+
+        .audioPlayerDiv,
+        .bookContentDiv,
+        .navBtnDiv {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px
+        }
+
+        .bookContentDiv {
+            padding: 25px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, .08)
+        }
+
+        .cntHdng {
+            color: #a50309;
+            line-height: 1.7;
+            overflow-wrap: anywhere
+        }
+
+        .booImgDiv {
+            display: flex;
+            justify-content: center;
+            max-height: 480px;
+            padding: 10px;
+            border: 1px solid #eee
+        }
+
+        .booImgDiv img {
+            max-width: 100%;
+            max-height: 460px;
+            object-fit: contain
+        }
+
+        .bookCntDiv {
+            font-size: 16px;
+            line-height: 2.1;
+            overflow-wrap: anywhere
+        }
+
+        .langCnt[dir=rtl] {
+            direction: rtl;
+            text-align: right
+        }
+
+        .langCnt[dir=rtl] .bookCntDiv p {
+            text-align: right
+        }
+
+        .langCnt[lang=ml],
+        .langCnt[lang=te] {
+            font-family: "Noto Sans Malayalam", "Noto Sans Telugu", "Nirmala UI", sans-serif;
+            line-height: 2.25;
+            word-spacing: .08em
+        }
+
+        .langCnt[lang=ml] .cntHdng,
+        .langCnt[lang=te] .cntHdng {
+            line-height: 2
+        }
+
+        .navBtnDiv {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px
+        }
+
+        .navBtn {
+            background: #a50309;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none
+        }
+
+        @media(max-width:992px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+        }
+
+        @media(max-width:767px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+                padding: 18px 4%
+            }
+
+            .gallery-intro h1 {
+                font-size: 30px
+            }
+
+            .navBtnDiv {
+                flex-direction: column
+            }
+
+            .navBtn {
+                text-align: center
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sliderHeaderDiv">
+        <div class="container">
+            <header><a href="index.html" class="logo logoTwo"><img src="images/logo-moc.png"
+                        onerror="this.onerror=null;this.src='images/logo.png' alt=" Ministry of Culture"></a>
+                <div class="langDiv"><img src="images/logo-anu.png" alt="Anuvadini"
+                        style="width:26px;height:26px"><select class="form formLang" id="languageSelector"
+                        aria-label="Select language">
+                        <option value="english">English</option>
                         <option value="bengali">Bengali</option>
                         <option value="hindi">Hindi</option>
                         <option value="malayalam">Malayalam</option>
@@ -9,20 +190,171 @@
                         <option value="kannada">Kannada</option>
                         <option value="marathi">Marathi</option>
                         <option value="odia">Odia</option>
-                    </select></div></header></div></div><main><div class="audioPlayerDiv"><audio id="languageAudio" controls preload="metadata" style="width:100%" src="Audio/English/7.%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav"></audio></div>
+                        <option value="telugu">Telugu</option>
+                    </select></div>
+            </header>
+        </div>
+    </div>
+    <main>
+        <div class="audioPlayerDiv"><audio id="languageAudio" controls preload="metadata" style="width:100%"
+                src="Audio/English/7.%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav"></audio></div>
         <section class="bookContentDiv langCnt" id="english" lang="en" dir="ltr" style="display:block">
             <h2 class="cntHdng">LVII-338: Jewellery Box Casket</h2>
             <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="Jewellery Box Casket"></div>
             <div class="bookCntDiv">
-                <p>An ornate porcelain casket decorated with hand-painted polychrome enamel scenes in high relief. Detailed gilt framing accents the panels, edges, feet, and decorative finial atop the domed, lion-inspired hinged lid. The body rests on four scrolled feet, showcasing vibrant scenes of reclining figures in shades of pink, purple, and green against a cream porcelain backdrop.</p>
+                <p>An ornate porcelain casket decorated with hand-painted polychrome enamel scenes in high relief.
+                    Detailed gilt framing accents the panels, edges, feet, and decorative finial atop the domed,
+                    lion-inspired hinged lid. The body rests on four scrolled feet, showcasing vibrant scenes of
+                    reclining figures in shades of pink, purple, and green against a cream porcelain backdrop.</p>
             </div>
         </section>
-<section class="bookContentDiv langCnt" id="bengali" lang="bn" dir="ltr" style="display:block"><h2 class="cntHdng">LVII-338: গয়নারবক্স/আলংকারিককৌটো</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="গয়নারবক্স/আলংকারিককৌটো"></div><div class="bookCntDiv"><p>এইকৌটোটিরউপরিভাগহাতেআঁকা, বহুবর্ণেরএনামেলেরচিত্রএবংস্পষ্টউঁচুখোদাইশিল্পেসুসজ্জিত।কারুকার্যময়সোনালিনকশাপ্যানেলগুলোকেফ্রেমেরমতোঘিরেরেখেছেএবংবাক্সেরপ্রান্তভাগ, পায়াওঢাকনারঅলংকৃতচূড়াগুলোকেবিশেষভাবেফুটিয়েতুলেছে।কবজাযুক্তঢাকনাটিগম্বুজাকৃতিরএবংসিংহেরআদলেতৈরি; পুরোবাক্সেরশরীরটিচারটিসুসজ্জিতগোলকবাকুঁকড়ানোনকশারপায়ারওপরদাঁড়িয়েরয়েছে।গম্বুজাকৃতিরঢাকনারকেন্দ্রভাগেসাধারণতশায়িতবাহেলানদেওয়াঅবয়বেরদৃশ্যদেখাযায়।সাদাবাঘিয়েরঙেরচিনামাটিরপটভূমিরওপরগোলাপি, বেগুনিএবংসবুজরঙেরপ্রাণবন্তশেডেবহুবর্ণেরএনামেলদিয়েদৃশ্যগুলোফুটিয়েতোলাহয়েছে।অবয়বগুলোএবংফ্রেমেরবিভিন্নঅংশচোখধাঁধানোওসূক্ষ্মসোনালিনকশায়ব্যাপকভাবেঅলংকৃত।</p></div></section>
-<section class="bookContentDiv langCnt" id="hindi" lang="hi" dir="ltr" style="display:none"><h2 class="cntHdng">LVII-338: आभूषण-पेटी / संदूकची</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="आभूषण-पेटी / संदूकची"></div><div class="bookCntDiv"><p>इस संदूकची की सतहों को हाथ से चित्रित, बहुरंगी एनामेल से सजाया गया है, जिसमें उभरी हुई नक्काशीदार आकृतियाँ दिखाई देती हैं। विस्तृत स्वर्ण-मढ़ित अलंकरण पैनलों की सीमा को उभारते हैं तथा पेटी के किनारों, पायों और ढक्कन पर बने अलंकृत शिखराकार सजावटी तत्वों को प्रमुखता प्रदान करते हैं। कब्ज़ेदार ढक्कन गुंबदाकार है और सिंह के आकार से प्रेरित दिखाई देता है। पेटी का मुख्य भाग चार अलंकृत गेंदाकार या घुमावदार आकृति वाले पायों पर टिका हुआ है। गुंबदाकार ढक्कन के मध्य भाग में सामान्यतः विश्राम करते हुए मानव-आकृतियों के दृश्य अंकित हैं। इन दृश्यों को बहुरंगी एनामेल से उकेरा गया है, जिसमें सफेद या क्रीम रंग की पोर्सिलेन पृष्ठभूमि पर गुलाबी, बैंगनी और हरे रंगों के चमकीले शेड दिखाई देते हैं। मानव-आकृतियों तथा उनके चारों ओर के सजावटी तत्वों पर अत्यंत विस्तृत स्वर्ण-मढ़ित अलंकरण किया गया है।</p></div></section>
-<section class="bookContentDiv langCnt" id="malayalam" lang="ml" dir="ltr" style="display:none"><h2 class="cntHdng">LVII-338: ആമാടപ്പെട്ടി</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ആമാടപ്പെട്ടി"></div><div class="bookCntDiv"><p>ഈപെട്ടിയുടെഉപരിതലത്തിൽഉയർന്നറിലീഫിൽകൈകൊണ്ട്പെയിന്‍റ്ചെയ്തവർണ്ണാഭമായഇനാമൽരംഗങ്ങൾആലേഖനംചെയ്തിരിക്കുന്നു. പാനലുകൾക്കുംപെട്ടിയുടെവശങ്ങൾ, കാലുകൾ, അടപ്പിന്‍റെമുകളിലെമനോഹരമായപിടികൾഎന്നിവയ്ക്കുംചുറ്റുംസങ്കീർണ്ണമായസ്വർണ്ണഡിസൈനുകൾനൽകിമനോഹരമാക്കിയിരിക്കുന്നു. തുറക്കാനും അടയ്ക്കാനും കഴിയുന്നഅടപ്പിന്സിംഹത്തിന്‍റെആകൃതിയിലുള്ളഉയർന്നതാഴികക്കുടത്തിന്‍റെരൂപമാണുള്ളത്. പെട്ടിയുടെപ്രധാനഭാഗംമനോഹരമായനാല്പന്ത്ആകൃതിയിലോസ്ക്രോൾആകൃതിയിലുള്ളതോആയകാലുകളിലാണ്നിൽക്കുന്നത്. താഴികക്കുടംപോലുള്ളമൂടിയുടെമധ്യഭാഗത്തെരംഗത്ത്സാധാരണയായികിടക്കുന്നരൂപങ്ങളെയാണ്ചിത്രീകരിച്ചിരിക്കുന്നത്. വെളുത്തഅല്ലെങ്കിൽക്രീംനിറത്തിലുള്ളപോർസലൈൻപശ്ചാത്തലത്തിൽപിങ്ക്, പർപ്പിൾ, പച്ചഎന്നീതിളക്കമുള്ളനിറങ്ങളോടുകൂടിയവർണ്ണാഭമായഇനാമലുകളിലാണ്ഈരംഗങ്ങൾതയ്യാറാക്കിയിരിക്കുന്നത്. രൂപങ്ങളുംഅവയെചുറ്റിനിൽക്കുന്നഭാഗങ്ങളുംസങ്കീർണ്ണമായസ്വർണ്ണവിശദാംശങ്ങളാൽഅലങ്കരിച്ചിരിക്കുന്നു.</p></div></section>
-<section class="bookContentDiv langCnt" id="tamil" lang="ta" dir="ltr" style="display:none"><h2 class="cntHdng">LVII-338: நகைபெட்டி/அலங்காரப் பெட்டி</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="நகைபெட்டி/அலங்காரப் பெட்டி"></div><div class="bookCntDiv"><p>இந்தப் பெட்டியின் மேற்பரப்புகள், கையால் வரையப்பட்ட பலவண்ண எனாமல் ஓவியக் காட்சிகளால் அலங்கரிக்கப்பட்டுள்ளன. இவை உயர்ந்த புடைப்புச் சிற்ப வேலைப்பாட்டில் அமைந்துள்ளன. பெட்டியின் ஓரங்கள், கால்கள் மற்றும் மூடியின் அலங்கார முனைப்பகுதிகளைச் சுற்றிலும் நுணுக்கமான தங்க நிற அலங்காரங்கள் இடம்பெற்றுள்ளன.கீல் பொருத்தப்பட்ட மூடி குவிமாடம் போன்ற அமைப்பைக் கொண்டுள்ளது. பெட்டியின் உடற்பகுதி நான்கு அலங்கரிக்கப்பட்ட உருண்டை அல்லது சுருள் வடிவக் கால்களின் மீது அமைந்துள்ளது.குவிமாட வடிவ மூடியின் மையத்தில் பொதுவாகச் சாய்ந்த நிலையில் உள்ள மனித உருவங்கள் இடம்பெற்றுள்ளன. வெள்ளை அல்லது கிரீம் நிறப் பீங்கான் பின்னணியில் இளஞ்சிவப்பு, ஊதா மற்றும் பச்சை போன்ற தெளிவான நிறங்களில் பலவண்ண எனாமல் ஓவியங்கள் வரையப்பட்டுள்ளன. மனித உருவங்கள் மற்றும் அவற்றைச் சுற்றியுள்ள அலங்காரப் பகுதிகளில் நுணுக்கமான தங்க நிற வேலைப்பாடுகள் சிறப்பாக இடம்பெற்றுள்ளன.</p></div></section>
-<section class="bookContentDiv langCnt" id="urdu" lang="ur" dir="rtl" style="display:none"><h2 class="cntHdng">LVII-338: زیوراتکاڈبہ/صندوق</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="زیوراتکاڈبہ/صندوق"></div><div class="bookCntDiv"><p>اس صندوق کی سطحوں پر ہاتھ سے بنائے گئے کثیر رنگی مینا کاری کے ابھرے ہوئے مناظر بنے ہیں۔ ان مناظر کے گرد سونے سے مزین چوڑی لہردار پٹیاں ہیں، جو صندوق کے کناروں، پیروں اور ڈھکن پر بنے نفیس فنیل نما سروں کو بھی نمایاں کرتی ہیں۔ قبضوں والا ڈھکن گنبد نما ہے اور شیر کی شکل میں بنایا گیا ہے، جبکہ صندوق کا جسم چار نفیس گیند نما یا بیل بوٹے کی شکل کے پیروں پر قائم ہے۔ ان مناظر میں سفید یا کریم رنگ کی چینی مٹی کے پس منظر پر گلابی، جامنی اور سبز رنگوں کی شوخ مینا کاری کی گئی ہے۔ انسانی صورتوں اور ان کے گرد بنائے گئے فریم نما نقش و نگار کو سونے کی باریک اور بھرپور تفصیلات سے نمایاں کیا گیا ہے۔</p></div></section>
-<section class="bookContentDiv langCnt" id="gujarati" lang="gu" dir="ltr" style="display:none"><h2 class="cntHdng">LVII-338: શીર્ષકઃ જ્વેલરી બોક્સ/કાસ્કેટ</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="શીર્ષકઃ જ્વેલરી બોક્સ/કાસ્કેટ"></div><div class="bookCntDiv"><p>આ ડબ્બાની સપાટી પર હાથથી દોરેલા, રંગબેરંગી (પોલીક્રોમ) મીનાકારીના દ્રશ્યો ખૂબ જ ઉપસેલી ભાત (હાઈ રિલિફ) માં સજાવેલા છે. આ પેનલ્સની આસપાસ અને ડબ્બાની કિારીઓ, પાયા તથા ઢાંકણ પરના અલંકૃત ફિનિયલ (ટોચના શોભાયુક્ત ભાગ) પર ઝીણવટભર્યું સોનેરી (ગિલ્ટ) કામ કરવામાં આવ્યું છે. તેનું હિન્જ્ડ (કબજાવાળું) ઢાંકણ ગુંબજાકાર અને સિંહના આકાર જેવું છે, અને ડબ્બાનું શરીર ચાર અલંકૃત ગોળાકાર કે સ્ક્રોલ આકારના પાયા પર ટેકવાયેલું છે. ગુંબજાકાર ઢાંકણ પરના કેન્દ્રીય દ્રશ્યમાં સામાન્ય રીતે આડા સૂતેલા (રિક્લાઇનિંગ) પાત્રો દર્શાવવામાં આવ્યા છે. આ દ્રશ્યો સફેદ કે ક્રીમ રંગની પોર્સેલેઇન પૃષ્ઠભૂમિ પર ગુલાબી, જાંબલી અને લીલા રંગના જીવંત શેડ્સ સાથે રંગબેરંગી મીનાકારીમાં તૈયાર કરવામાં આવ્યા છે. પાત્રો અને ફ્રેમની કિારીઓ પર સોનેરી રંગની ઝીણી વિગતોનું ભારે કામ કરવામાં આવ્યું છે.</p></div></section>
-<section class="bookContentDiv langCnt" id="kannada" lang="kn" dir="ltr" style="display:none"><h2 class="cntHdng">LVII-338: ಶೀರ್ಷಿಕೆಃಆಭರಣಪೆಟ್ಟಿಗೆ/ಕ್ಯಾಸ್ಕೆಟ್</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ಶೀರ್ಷಿಕೆಃಆಭರಣಪೆಟ್ಟಿಗೆ/ಕ್ಯಾಸ್ಕೆಟ್"></div><div class="bookCntDiv"><p>ಈ ಪೆಟ್ಟಿಗೆಯ ಮೇಲ್ಮೈಗಳು ಎದ್ದು ಕಾಣುವ ಉಬ್ಬುಚಿತ್ರದ (ಹೈ ರಿಲೀಫ್) ಶೈಲಿಯಲ್ಲಿ ಕೈಯಿಂದ ಬಿಡಿಸಲಾದ, ಬಹುಬಣ್ಣದ ಎನಾಮೆಲ್ ದೃಶ್ಯಗಳಿಂದ ಅಲಂಕರಿಸಲ್ಪಟ್ಟಿವೆ. ವಿಸ್ತಾರವಾದ ಚಿನ್ನದ ಲೇಪಿತ ವಿನ್ಯಾಸಗಳು ಫಲಕಗಳಿಗೆ ಚೌಕಟ್ಟನ್ನು ನೀಡುತ್ತವೆ ಹಾಗೂ ಪೆಟ್ಟಿಗೆಯ ಅಂಚುಗಳು, ಕಾಲುಗಳು ಮತ್ತು ಮುಚ್ಚಳದ ಮೇಲಿನ ಅಲಂಕಾರಿಕ ಕಳಸಗಳನ್ನು ಎದ್ದು ಕಾಣುವಂತೆ ಮಾಡುತ್ತವೆ. ಕೀಲುಗಳನ್ನು ಹೊಂದಿರುವ ಮುಚ್ಚಳವು ಗುಮ್ಮಟದಂತಿದ್ದು ಸಿಂಹದ ಆಕಾರದಲ್ಲಿದೆ, ಮತ್ತು ಪೆಟ್ಟಿಗೆಯ ಮುಖ್ಯ ಭಾಗವು ನಾಲ್ಕು ಅಲಂಕಾರಿಕ ಚೆಂಡು ಅಥವಾ ಸುರುಳಿಯಾಕಾರದ (ಸ್ಕ್ರೋಲ್) ಕಾಲುಗಳ ಮೇಲೆ ನಿಂತಿದೆ. ಗುಮ್ಮಟದಂತಹ ಮುಚ್ಚಳದ ಮೇಲಿನ ಮಧ್ಯದ ದೃಶ್ಯವು ಸಾಮಾನ್ಯವಾಗಿ ಒರಗಿರುವ ಆಕೃತಿಗಳನ್ನು ಬಿಂಬಿಸುತ್ತದೆ. ಬಿಳಿ ಅಥವಾ ಕೆನೆ ಬಣ್ಣದ ಪಿಂಗಾಣಿ ಹಿನ್ನೆಲೆಯ ಮೇಲೆ ಗುಲಾಬಿ, ನೇರಳೆ ಮತ್ತು ಹಸಿರು ಬಣ್ಣಗಳ ಎದ್ದುಕಾಣುವ ಛಾಯೆಗಳೊಂದಿಗೆ ಬಹುಬಣ್ಣದ ಎನಾಮೆಲ್‌ಗಳಲ್ಲಿ ಈ ದೃಶ್ಯಗಳನ್ನು ಚಿತ್ರಿಸಲಾಗಿದೆ. ಆಕೃತಿಗಳು ಮತ್ತು ಚೌಕಟ್ಟಿನ ವಿವರಗಳು ವಿಸ್ತಾರವಾದ ಚಿನ್ನದ ಲೇಪಿತ ಕೆಲಸಗಳಿಂದ ದಟ್ಟವಾಗಿ ಆವೃತವಾಗಿವೆ.</p></div></section>
-<section class="bookContentDiv langCnt" id="marathi" lang="mr" dir="ltr" style="display:none"><h2 class="cntHdng">LVII-338: ज्वेलरी बॉक्स/कास्केट</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ज्वेलरी बॉक्स/कास्केट"></div><div class="bookCntDiv"><p>पेटीच्यापृष्ठभागावरउच्चउठावातीलहातानेरंगवलेली, बहुरंगीइनॅमलदृश्येआहेत. विस्तृतसोनेरीनक्षीकामपॅनेल्सनाफ्रेमकरतेआणिपेटीच्याकडा, पायवझाकणावरीलअलंकृतफायनियलनाअधोरेखितकरते. बिजागरीअसलेल्याझाकणाचाआकारघुमटाकार, सिंहासारखाआहे, आणिपेटीचामुख्यभागचारअलंकृतगोलकिंवास्क्रोल-आकाराच्यापायांवरआधारलेलाआहे. घुमटाकारझाकणावरीलमुख्यदृश्यसामान्यपणेविश्रांतीघेणाऱ्याआकृत्यादर्शवते. पांढऱ्याकिंवाक्रिमरंगाच्यापोर्सेलीनपार्श्वभूमीवरगुलाबी, जांभळ्याआणिहिरव्यारंगांच्याजिवंतछटांसहहीदृश्येसाकारलीआहेत. आकृत्याआणिफ्रेमिंगघटकांवरविस्तृतसोनेरीतपशीलांचाजोरदारवापरकेलाआहे. . शब्द-101 अॅक्स. नाहीः एलएक्स-472, शीर्षकः रंगीत आणि चमकदार कुंभारकाम फुलदाणी, साहित्यः पोर्सिलेन पोर्सेलीनफुलदाणीच्यामानेवरसलग&#39;ग्रीककी&#39; पॅटर्नचीकिनारदर्शवलीआहे. मुख्यसजावटीमध्येकाळ्या, पांढऱ्याआणिलालरंगांमध्येपौराणिककिंवाशौर्यपूर्णवर्णनात्मकदृश्याचेचित्रणआहे. मुख्यपात्रांचारंगखालीलसाहित्याचानारंगी-लालरंगराहतोआणिपार्श्वभूमीदाट, चमकदारकाळ्यारंगानेभरलेलीआहे. मुख्यआकृतीउजव्याहातातभालाघेतलेल्यापांढऱ्याघोड्यावरीलएकयोद्धाआहे. तळाशीसापासारखा, अनेकपायांचाप्राणीभालालागल्यामुळेप्रतिक्रियादेतानादाखवलाआहे. डाव्याबाजूला, मशालहातातघेऊनहेदृश्यपाहणारीदुसरीआकृतीउभीआहे. शब्द-96 अ. नाहीः LXV-51, शीर्षकः एका थोर व्यक्तीचा पुतळा, साहित्यः पोर्सिलेन पोर्सेलीनचाअर्धपुतळाखंडीययुरोपियनवस्तूअसल्याचेदिसते, जीशक्यतोफ्रेंच, जर्मनकिंवाऑस्ट्रियनआहे, आणिजिचाकाळकदाचित19व्याशतकाच्याउत्तरार्धातीलकिंवा20व्याशतकाच्यापूर्वार्धातीलअसावा. द्विशिंगीटोपीआणिउंचकॉलरघातलेल्याव्यक्तीचीहीशैलीसामान्यतःऐतिहासिकलष्करीकिंवाराजकीयव्यक्तींच्या, बहुधानेपोलियनबोनापार्टकिंवामहानफ्रेडरिकयांच्याचित्रणाशीसंबंधितआहे. यातटोपीआणिजॅकेटवरमोठ्याप्रमाणावरसोनेरीनक्षीकाम, एकपांढरास्कार्फआणिचेहरावमानेवरविना-ग्लेझकिंवामॅटफिनिशदर्शवलेआहे.</p></div></section>
-<section class="bookContentDiv langCnt" id="odia" lang="or" dir="ltr" style="display:none"><h2 class="cntHdng">LVII-338: ସଂଖ୍ୟାଃ LVII-338</h2><div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ସଂଖ୍ୟାଃ LVII-338"></div><div class="bookCntDiv"><p>ଚିନିମାଟିରେନିର୍ମିତଏହିଅଳଙ୍କାରବାକ୍ସକିମ୍ବାକ୍ୟାସ୍କେଟ୍‌ଟିକୁଦେଖନ୍ତୁ।ଏହିକ୍ୟାସ୍କେଟ୍‌ରପୃଷ୍ଠଭାଗଟିହାତରେଚିତ୍ରିତ, ବହୁବର୍ଣ୍ଣୀଏନାମେଲ୍ଦୃଶ୍ୟଗୁଡ଼ିକଦ୍ୱାରାଉଚ୍ଚଉଦ୍ଭାସିତଶୈଳୀରେସଜ୍ଜିତ।ଜଟିଳସୁନେଲିକାରୁକାର୍ଯ୍ୟଗୁଡ଼ିକଏହାରପ୍ୟାନେଲ୍‌ଗୁଡ଼ିକୁଫ୍ରେମ୍କରୁଛିଏବଂବାକ୍ସରଧାର, ପାଦଓଢାଙ୍କୁଣିଉପରେଥିବାସଜାବଟିଚୂଳଗୁଡ଼ିକୁଆକର୍ଷଣୀୟଭାବେପ୍ରକାଶକରୁଛି।ଏହାରକବ୍‌ଜାଥିବାଢାଙ୍କୁଣିଟିଗୁମ୍ବଜ-ଆକୃତିରଓସିଂହଆକାରରଏବଂବାକ୍ସରମୁଖ୍ୟଭାଗଟିଚାରୋଟିସଜାବଟିବଲ୍କିମ୍ବାସ୍କ୍ରୋଲ୍-ଆକୃତିରପାଦଉପରେଆଧାରିତ।ଆପଣଯଦିଗୁମ୍ବଜ-ଆକୃତିରଢାଙ୍କୁଣିଉପରେଥିବାକେନ୍ଦ୍ରୀୟଦୃଶ୍ୟକୁଲକ୍ଷ୍ୟକରିବେ, ଏଥିରେବିଶ୍ରାମରତଆକୃତିଗୁଡ଼ିକଚିତ୍ରିତହୋଇଥିବାରଦେଖିପାରିବେ।ଧଳାକିମ୍ବାକ୍ରିମ୍ରଙ୍ଗରଚିନିମାଟିପୃଷ୍ଠଭୂମିଉପରେଗୋଲାପୀ, ବାଇଗଣୀଏବଂସବୁଜରଙ୍ଗରଜୀବନ୍ତମିଶ୍ରଣସହବହୁବର୍ଣ୍ଣୀଏନାମେଲ୍‌ରେଏହିଦୃଶ୍ୟଗୁଡ଼ିକଚିତ୍ରିତ।ଏହିଆକୃତିଏବଂଫ୍ରେମ୍‌ଗୁଡ଼ିକଜଟିଳସୁନେଲିକାରୁକାର୍ଯ୍ୟଦ୍ୱାରାଅତ୍ୟନ୍ତସୁନ୍ଦରଭାବେଶୋଭାପାଉଛି।</p></div></section><div class="navBtnDiv"><a href="item6.html" class="navBtn">Previous Item</a><a href="index.html" class="navBtn">Back to Gallery Overview</a><a href="item8.html" class="navBtn">Next Item</a></div></main><footer><p>(c) 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p></footer><script>const selector = document.getElementById('languageSelector'); const player = document.getElementById('languageAudio'); const audioMap = [{"id":"english","src":"Audio/English/7.%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav"},{"id":"bengali","src":"Audio/Bengali/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box.wav"},{"id":"hindi","src":"Audio/Hindi/7.%20%E0%A4%86%E0%A4%AD%E0%A5%82%E0%A4%B7%E0%A4%A3-%E0%A4%AA%E0%A5%87%E0%A4%9F%E0%A5%80%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%82%E0%A4%95%E0%A4%9A%E0%A5%80%20).wav"},{"id":"malayalam","src":"Audio/Malayalam/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav"},{"id":"tamil","src":"Audio/Tamil/7.%20Jewellery%20Box%20Casket%20_ta.wav"},{"id":"urdu","src":"Audio/Urdu/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav"},{"id":"gujarati","src":"Audio/Gujarati/Acc.%20No%20%20LVII%20338%2C%20Title%20%20Jewellery%20Box%20%20Casket%2C%20Material%20porcelain.wav"},{"id":"kannada","src":"Audio/Kannada/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box%20Casket.wav"},{"id":"marathi","src":"Audio/Marathi/Jewellery%20Box%20Casket.wav"},{"id":"odia","src":"Audio/Odia/7.%20No%20LVII-338%2C%20%20Jewellery%20Box%20Casket%2C.wav"}]; function changeLanguage(lang) { document.querySelectorAll('.langCnt').forEach(el => el.style.display = el.id === lang ? 'block' : 'none'); const source = audioMap.find(item => item.id === lang) || audioMap[0]; player.src = source && source.src ? encodeURI(decodeURIComponent(source.src)) : ''; if (player.src) player.load(); } selector.addEventListener('change', () => changeLanguage(selector.value)); changeLanguage(selector.value || 'english');</script>
+        <section class="bookContentDiv langCnt" id="bengali" lang="bn" dir="ltr" style="display:block">
+            <h2 class="cntHdng">LVII-338: গয়নারবক্স/আলংকারিককৌটো</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="গয়নারবক্স/আলংকারিককৌটো"></div>
+            <div class="bookCntDiv">
+                <p>এইকৌটোটিরউপরিভাগহাতেআঁকা,
+                    বহুবর্ণেরএনামেলেরচিত্রএবংস্পষ্টউঁচুখোদাইশিল্পেসুসজ্জিত।কারুকার্যময়সোনালিনকশাপ্যানেলগুলোকেফ্রেমেরমতোঘিরেরেখেছেএবংবাক্সেরপ্রান্তভাগ,
+                    পায়াওঢাকনারঅলংকৃতচূড়াগুলোকেবিশেষভাবেফুটিয়েতুলেছে।কবজাযুক্তঢাকনাটিগম্বুজাকৃতিরএবংসিংহেরআদলেতৈরি;
+                    পুরোবাক্সেরশরীরটিচারটিসুসজ্জিতগোলকবাকুঁকড়ানোনকশারপায়ারওপরদাঁড়িয়েরয়েছে।গম্বুজাকৃতিরঢাকনারকেন্দ্রভাগেসাধারণতশায়িতবাহেলানদেওয়াঅবয়বেরদৃশ্যদেখাযায়।সাদাবাঘিয়েরঙেরচিনামাটিরপটভূমিরওপরগোলাপি,
+                    বেগুনিএবংসবুজরঙেরপ্রাণবন্তশেডেবহুবর্ণেরএনামেলদিয়েদৃশ্যগুলোফুটিয়েতোলাহয়েছে।অবয়বগুলোএবংফ্রেমেরবিভিন্নঅংশচোখধাঁধানোওসূক্ষ্মসোনালিনকশায়ব্যাপকভাবেঅলংকৃত।
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="hindi" lang="hi" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: आभूषण-पेटी / संदूकची</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="आभूषण-पेटी / संदूकची"></div>
+            <div class="bookCntDiv">
+                <p>इस संदूकची की सतहों को हाथ से चित्रित, बहुरंगी एनामेल से सजाया गया है, जिसमें उभरी हुई नक्काशीदार
+                    आकृतियाँ दिखाई देती हैं। विस्तृत स्वर्ण-मढ़ित अलंकरण पैनलों की सीमा को उभारते हैं तथा पेटी के
+                    किनारों, पायों और ढक्कन पर बने अलंकृत शिखराकार सजावटी तत्वों को प्रमुखता प्रदान करते हैं। कब्ज़ेदार
+                    ढक्कन गुंबदाकार है और सिंह के आकार से प्रेरित दिखाई देता है। पेटी का मुख्य भाग चार अलंकृत गेंदाकार
+                    या घुमावदार आकृति वाले पायों पर टिका हुआ है। गुंबदाकार ढक्कन के मध्य भाग में सामान्यतः विश्राम करते
+                    हुए मानव-आकृतियों के दृश्य अंकित हैं। इन दृश्यों को बहुरंगी एनामेल से उकेरा गया है, जिसमें सफेद या
+                    क्रीम रंग की पोर्सिलेन पृष्ठभूमि पर गुलाबी, बैंगनी और हरे रंगों के चमकीले शेड दिखाई देते हैं।
+                    मानव-आकृतियों तथा उनके चारों ओर के सजावटी तत्वों पर अत्यंत विस्तृत स्वर्ण-मढ़ित अलंकरण किया गया है।
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="malayalam" lang="ml" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: ആമാടപ്പെട്ടി</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ആമാടപ്പെട്ടി"></div>
+            <div class="bookCntDiv">
+                <p>ഈപെട്ടിയുടെഉപരിതലത്തിൽഉയർന്നറിലീഫിൽകൈകൊണ്ട്പെയിന്‍റ്ചെയ്തവർണ്ണാഭമായഇനാമൽരംഗങ്ങൾആലേഖനംചെയ്തിരിക്കുന്നു.
+                    പാനലുകൾക്കുംപെട്ടിയുടെവശങ്ങൾ, കാലുകൾ,
+                    അടപ്പിന്‍റെമുകളിലെമനോഹരമായപിടികൾഎന്നിവയ്ക്കുംചുറ്റുംസങ്കീർണ്ണമായസ്വർണ്ണഡിസൈനുകൾനൽകിമനോഹരമാക്കിയിരിക്കുന്നു.
+                    തുറക്കാനും അടയ്ക്കാനും
+                    കഴിയുന്നഅടപ്പിന്സിംഹത്തിന്‍റെആകൃതിയിലുള്ളഉയർന്നതാഴികക്കുടത്തിന്‍റെരൂപമാണുള്ളത്.
+                    പെട്ടിയുടെപ്രധാനഭാഗംമനോഹരമായനാല്പന്ത്ആകൃതിയിലോസ്ക്രോൾആകൃതിയിലുള്ളതോആയകാലുകളിലാണ്നിൽക്കുന്നത്.
+                    താഴികക്കുടംപോലുള്ളമൂടിയുടെമധ്യഭാഗത്തെരംഗത്ത്സാധാരണയായികിടക്കുന്നരൂപങ്ങളെയാണ്ചിത്രീകരിച്ചിരിക്കുന്നത്.
+                    വെളുത്തഅല്ലെങ്കിൽക്രീംനിറത്തിലുള്ളപോർസലൈൻപശ്ചാത്തലത്തിൽപിങ്ക്, പർപ്പിൾ,
+                    പച്ചഎന്നീതിളക്കമുള്ളനിറങ്ങളോടുകൂടിയവർണ്ണാഭമായഇനാമലുകളിലാണ്ഈരംഗങ്ങൾതയ്യാറാക്കിയിരിക്കുന്നത്.
+                    രൂപങ്ങളുംഅവയെചുറ്റിനിൽക്കുന്നഭാഗങ്ങളുംസങ്കീർണ്ണമായസ്വർണ്ണവിശദാംശങ്ങളാൽഅലങ്കരിച്ചിരിക്കുന്നു.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="tamil" lang="ta" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: நகைபெட்டி/அலங்காரப் பெட்டி</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="நகைபெட்டி/அலங்காரப் பெட்டி">
+            </div>
+            <div class="bookCntDiv">
+                <p>இந்தப் பெட்டியின் மேற்பரப்புகள், கையால் வரையப்பட்ட பலவண்ண எனாமல் ஓவியக் காட்சிகளால்
+                    அலங்கரிக்கப்பட்டுள்ளன. இவை உயர்ந்த புடைப்புச் சிற்ப வேலைப்பாட்டில் அமைந்துள்ளன. பெட்டியின் ஓரங்கள்,
+                    கால்கள் மற்றும் மூடியின் அலங்கார முனைப்பகுதிகளைச் சுற்றிலும் நுணுக்கமான தங்க நிற அலங்காரங்கள்
+                    இடம்பெற்றுள்ளன.கீல் பொருத்தப்பட்ட மூடி குவிமாடம் போன்ற அமைப்பைக் கொண்டுள்ளது. பெட்டியின் உடற்பகுதி
+                    நான்கு அலங்கரிக்கப்பட்ட உருண்டை அல்லது சுருள் வடிவக் கால்களின் மீது அமைந்துள்ளது.குவிமாட வடிவ
+                    மூடியின் மையத்தில் பொதுவாகச் சாய்ந்த நிலையில் உள்ள மனித உருவங்கள் இடம்பெற்றுள்ளன. வெள்ளை அல்லது
+                    கிரீம் நிறப் பீங்கான் பின்னணியில் இளஞ்சிவப்பு, ஊதா மற்றும் பச்சை போன்ற தெளிவான நிறங்களில் பலவண்ண
+                    எனாமல் ஓவியங்கள் வரையப்பட்டுள்ளன. மனித உருவங்கள் மற்றும் அவற்றைச் சுற்றியுள்ள அலங்காரப் பகுதிகளில்
+                    நுணுக்கமான தங்க நிற வேலைப்பாடுகள் சிறப்பாக இடம்பெற்றுள்ளன.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="urdu" lang="ur" dir="rtl" style="display:none">
+            <h2 class="cntHdng">LVII-338: زیوراتکاڈبہ/صندوق</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="زیوراتکاڈبہ/صندوق"></div>
+            <div class="bookCntDiv">
+                <p>اس صندوق کی سطحوں پر ہاتھ سے بنائے گئے کثیر رنگی مینا کاری کے ابھرے ہوئے مناظر بنے ہیں۔ ان مناظر کے
+                    گرد سونے سے مزین چوڑی لہردار پٹیاں ہیں، جو صندوق کے کناروں، پیروں اور ڈھکن پر بنے نفیس فنیل نما سروں
+                    کو بھی نمایاں کرتی ہیں۔ قبضوں والا ڈھکن گنبد نما ہے اور شیر کی شکل میں بنایا گیا ہے، جبکہ صندوق کا
+                    جسم چار نفیس گیند نما یا بیل بوٹے کی شکل کے پیروں پر قائم ہے۔ ان مناظر میں سفید یا کریم رنگ کی چینی
+                    مٹی کے پس منظر پر گلابی، جامنی اور سبز رنگوں کی شوخ مینا کاری کی گئی ہے۔ انسانی صورتوں اور ان کے گرد
+                    بنائے گئے فریم نما نقش و نگار کو سونے کی باریک اور بھرپور تفصیلات سے نمایاں کیا گیا ہے۔</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="gujarati" lang="gu" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: શીર્ષકઃ જ્વેલરી બોક્સ/કાસ્કેટ</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="શીર્ષકઃ જ્વેલરી બોક્સ/કાસ્કેટ">
+            </div>
+            <div class="bookCntDiv">
+                <p>આ ડબ્બાની સપાટી પર હાથથી દોરેલા, રંગબેરંગી (પોલીક્રોમ) મીનાકારીના દ્રશ્યો ખૂબ જ ઉપસેલી ભાત (હાઈ
+                    રિલિફ) માં સજાવેલા છે. આ પેનલ્સની આસપાસ અને ડબ્બાની કિારીઓ, પાયા તથા ઢાંકણ પરના અલંકૃત ફિનિયલ (ટોચના
+                    શોભાયુક્ત ભાગ) પર ઝીણવટભર્યું સોનેરી (ગિલ્ટ) કામ કરવામાં આવ્યું છે. તેનું હિન્જ્ડ (કબજાવાળું) ઢાંકણ
+                    ગુંબજાકાર અને સિંહના આકાર જેવું છે, અને ડબ્બાનું શરીર ચાર અલંકૃત ગોળાકાર કે સ્ક્રોલ આકારના પાયા પર
+                    ટેકવાયેલું છે. ગુંબજાકાર ઢાંકણ પરના કેન્દ્રીય દ્રશ્યમાં સામાન્ય રીતે આડા સૂતેલા (રિક્લાઇનિંગ) પાત્રો
+                    દર્શાવવામાં આવ્યા છે. આ દ્રશ્યો સફેદ કે ક્રીમ રંગની પોર્સેલેઇન પૃષ્ઠભૂમિ પર ગુલાબી, જાંબલી અને લીલા
+                    રંગના જીવંત શેડ્સ સાથે રંગબેરંગી મીનાકારીમાં તૈયાર કરવામાં આવ્યા છે. પાત્રો અને ફ્રેમની કિારીઓ પર
+                    સોનેરી રંગની ઝીણી વિગતોનું ભારે કામ કરવામાં આવ્યું છે.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="kannada" lang="kn" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: ಶೀರ್ಷಿಕೆಃಆಭರಣಪೆಟ್ಟಿಗೆ/ಕ್ಯಾಸ್ಕೆಟ್</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png"
+                    alt="ಶೀರ್ಷಿಕೆಃಆಭರಣಪೆಟ್ಟಿಗೆ/ಕ್ಯಾಸ್ಕೆಟ್"></div>
+            <div class="bookCntDiv">
+                <p>ಈ ಪೆಟ್ಟಿಗೆಯ ಮೇಲ್ಮೈಗಳು ಎದ್ದು ಕಾಣುವ ಉಬ್ಬುಚಿತ್ರದ (ಹೈ ರಿಲೀಫ್) ಶೈಲಿಯಲ್ಲಿ ಕೈಯಿಂದ ಬಿಡಿಸಲಾದ, ಬಹುಬಣ್ಣದ ಎನಾಮೆಲ್
+                    ದೃಶ್ಯಗಳಿಂದ ಅಲಂಕರಿಸಲ್ಪಟ್ಟಿವೆ. ವಿಸ್ತಾರವಾದ ಚಿನ್ನದ ಲೇಪಿತ ವಿನ್ಯಾಸಗಳು ಫಲಕಗಳಿಗೆ ಚೌಕಟ್ಟನ್ನು ನೀಡುತ್ತವೆ ಹಾಗೂ
+                    ಪೆಟ್ಟಿಗೆಯ ಅಂಚುಗಳು, ಕಾಲುಗಳು ಮತ್ತು ಮುಚ್ಚಳದ ಮೇಲಿನ ಅಲಂಕಾರಿಕ ಕಳಸಗಳನ್ನು ಎದ್ದು ಕಾಣುವಂತೆ ಮಾಡುತ್ತವೆ.
+                    ಕೀಲುಗಳನ್ನು ಹೊಂದಿರುವ ಮುಚ್ಚಳವು ಗುಮ್ಮಟದಂತಿದ್ದು ಸಿಂಹದ ಆಕಾರದಲ್ಲಿದೆ, ಮತ್ತು ಪೆಟ್ಟಿಗೆಯ ಮುಖ್ಯ ಭಾಗವು ನಾಲ್ಕು
+                    ಅಲಂಕಾರಿಕ ಚೆಂಡು ಅಥವಾ ಸುರುಳಿಯಾಕಾರದ (ಸ್ಕ್ರೋಲ್) ಕಾಲುಗಳ ಮೇಲೆ ನಿಂತಿದೆ. ಗುಮ್ಮಟದಂತಹ ಮುಚ್ಚಳದ ಮೇಲಿನ ಮಧ್ಯದ
+                    ದೃಶ್ಯವು ಸಾಮಾನ್ಯವಾಗಿ ಒರಗಿರುವ ಆಕೃತಿಗಳನ್ನು ಬಿಂಬಿಸುತ್ತದೆ. ಬಿಳಿ ಅಥವಾ ಕೆನೆ ಬಣ್ಣದ ಪಿಂಗಾಣಿ ಹಿನ್ನೆಲೆಯ ಮೇಲೆ
+                    ಗುಲಾಬಿ, ನೇರಳೆ ಮತ್ತು ಹಸಿರು ಬಣ್ಣಗಳ ಎದ್ದುಕಾಣುವ ಛಾಯೆಗಳೊಂದಿಗೆ ಬಹುಬಣ್ಣದ ಎನಾಮೆಲ್‌ಗಳಲ್ಲಿ ಈ ದೃಶ್ಯಗಳನ್ನು
+                    ಚಿತ್ರಿಸಲಾಗಿದೆ. ಆಕೃತಿಗಳು ಮತ್ತು ಚೌಕಟ್ಟಿನ ವಿವರಗಳು ವಿಸ್ತಾರವಾದ ಚಿನ್ನದ ಲೇಪಿತ ಕೆಲಸಗಳಿಂದ ದಟ್ಟವಾಗಿ
+                    ಆವೃತವಾಗಿವೆ.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="marathi" lang="mr" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: ज्वेलरी बॉक्स/कास्केट</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ज्वेलरी बॉक्स/कास्केट"></div>
+            <div class="bookCntDiv">
+                <p>पेटीच्यापृष्ठभागावरउच्चउठावातीलहातानेरंगवलेली, बहुरंगीइनॅमलदृश्येआहेत.
+                    विस्तृतसोनेरीनक्षीकामपॅनेल्सनाफ्रेमकरतेआणिपेटीच्याकडा, पायवझाकणावरीलअलंकृतफायनियलनाअधोरेखितकरते.
+                    बिजागरीअसलेल्याझाकणाचाआकारघुमटाकार, सिंहासारखाआहे,
+                    आणिपेटीचामुख्यभागचारअलंकृतगोलकिंवास्क्रोल-आकाराच्यापायांवरआधारलेलाआहे.
+                    घुमटाकारझाकणावरीलमुख्यदृश्यसामान्यपणेविश्रांतीघेणाऱ्याआकृत्यादर्शवते.
+                    पांढऱ्याकिंवाक्रिमरंगाच्यापोर्सेलीनपार्श्वभूमीवरगुलाबी,
+                    जांभळ्याआणिहिरव्यारंगांच्याजिवंतछटांसहहीदृश्येसाकारलीआहेत.
+                    आकृत्याआणिफ्रेमिंगघटकांवरविस्तृतसोनेरीतपशीलांचाजोरदारवापरकेलाआहे
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="odia" lang="or" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: ସଂଖ୍ୟାଃ LVII-338</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ସଂଖ୍ୟାଃ LVII-338"></div>
+            <div class="bookCntDiv">
+                <p>ଚିନିମାଟିରେନିର୍ମିତଏହିଅଳଙ୍କାରବାକ୍ସକିମ୍ବାକ୍ୟାସ୍କେଟ୍‌ଟିକୁଦେଖନ୍ତୁ।ଏହିକ୍ୟାସ୍କେଟ୍‌ରପୃଷ୍ଠଭାଗଟିହାତରେଚିତ୍ରିତ,
+                    ବହୁବର୍ଣ୍ଣୀଏନାମେଲ୍ଦୃଶ୍ୟଗୁଡ଼ିକଦ୍ୱାରାଉଚ୍ଚଉଦ୍ଭାସିତଶୈଳୀରେସଜ୍ଜିତ।ଜଟିଳସୁନେଲିକାରୁକାର୍ଯ୍ୟଗୁଡ଼ିକଏହାରପ୍ୟାନେଲ୍‌ଗୁଡ଼ିକୁଫ୍ରେମ୍କରୁଛିଏବଂବାକ୍ସରଧାର,
+                    ପାଦଓଢାଙ୍କୁଣିଉପରେଥିବାସଜାବଟିଚୂଳଗୁଡ଼ିକୁଆକର୍ଷଣୀୟଭାବେପ୍ରକାଶକରୁଛି।ଏହାରକବ୍‌ଜାଥିବାଢାଙ୍କୁଣିଟିଗୁମ୍ବଜ-ଆକୃତିରଓସିଂହଆକାରରଏବଂବାକ୍ସରମୁଖ୍ୟଭାଗଟିଚାରୋଟିସଜାବଟିବଲ୍କିମ୍ବାସ୍କ୍ରୋଲ୍-ଆକୃତିରପାଦଉପରେଆଧାରିତ।ଆପଣଯଦିଗୁମ୍ବଜ-ଆକୃତିରଢାଙ୍କୁଣିଉପରେଥିବାକେନ୍ଦ୍ରୀୟଦୃଶ୍ୟକୁଲକ୍ଷ୍ୟକରିବେ,
+                    ଏଥିରେବିଶ୍ରାମରତଆକୃତିଗୁଡ଼ିକଚିତ୍ରିତହୋଇଥିବାରଦେଖିପାରିବେ।ଧଳାକିମ୍ବାକ୍ରିମ୍ରଙ୍ଗରଚିନିମାଟିପୃଷ୍ଠଭୂମିଉପରେଗୋଲାପୀ,
+                    ବାଇଗଣୀଏବଂସବୁଜରଙ୍ଗରଜୀବନ୍ତମିଶ୍ରଣସହବହୁବର୍ଣ୍ଣୀଏନାମେଲ୍‌ରେଏହିଦୃଶ୍ୟଗୁଡ଼ିକଚିତ୍ରିତ।ଏହିଆକୃତିଏବଂଫ୍ରେମ୍‌ଗୁଡ଼ିକଜଟିଳସୁନେଲିକାରୁକାର୍ଯ୍ୟଦ୍ୱାରାଅତ୍ୟନ୍ତସୁନ୍ଦରଭାବେଶୋଭାପାଉଛି।
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="telugu" lang="te" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LVII-338: ఆభరణాల పెట్టె/పేటిక</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no7.png" alt="ఆభరణాల పెట్టె/పేటిక"></div>
+            <div class="bookCntDiv">
+                <p>ఈ పేటిక ఉపరితలాలు చేతితో చిత్రించిన బహుళవర్ణ ఎనామెల్ (అంటే, Polychrome Enamel) ఉబ్బెత్తు దృశ్యాలతో
+                    అలంకరించబడ్డాయి. నగిషీల చుట్టూ మరియు పెట్టె అంచులు, పాదాలు, మూతపై ఉన్న శిఖరాలపై బంగారు తాపడం
+                    (గిల్ట్) చేయబడింది. కీలుతో కూడిన దీని మూత సింహపు ఆకృతి గల గుమ్మటం వలె ఉండి, పెట్టె ఆధారం నాలుగు
+                    అలంకార వలయాకార లేదా స్క్రోల్ తరహా పాదాలపై నిలుస్తుంది. గుమ్మటపు మూత మధ్యలో సాధారణంగా విశ్రాంతి
+                    భంగిమలో ఉన్న రూపాలు ఉంటాయి. తెలుపు లేదా క్రీమ్ రంగు పింగాణి నేపథ్యంపై గులాబీ, ఊదా మరియు ఆకుపచ్చ
+                    రంగుల ఎనామెల్‌తో ఈ దృశ్యాలు ప్రకాశవంతంగా తీర్చిదిద్దబడ్డాయి.</p>
+            </div>
+        </section>
+
+        <div class="navBtnDiv"><a href="item6.html" class="navBtn">Previous Item</a><a href="index.html"
+                class="navBtn">Back to Gallery Overview</a><a href="item8.html" class="navBtn">Next Item</a></div>
+    </main>
+    <footer>
+        <p>(c) 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+                rel="noreferrer">Anuvadini AI</a></p>
+    </footer>
+    <script>const selector = document.getElementById('languageSelector'); const player = document.getElementById('languageAudio'); const audioMap = [{ "id": "english", "src": "Audio/English/7.%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav" }, { "id": "bengali", "src": "Audio/Bengali/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box.wav" }, { "id": "hindi", "src": "Audio/Hindi/7.%20%E0%A4%86%E0%A4%AD%E0%A5%82%E0%A4%B7%E0%A4%A3-%E0%A4%AA%E0%A5%87%E0%A4%9F%E0%A5%80%20(%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%82%E0%A4%95%E0%A4%9A%E0%A5%80%20).wav" }, { "id": "malayalam", "src": "Audio/Malayalam/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav" }, { "id": "tamil", "src": "Audio/Tamil/7.%20Jewellery%20Box%20Casket%20_ta.wav" }, { "id": "urdu", "src": "Audio/Urdu/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box%20Casket%2C%20Material%20porcelain.wav" }, { "id": "gujarati", "src": "Audio/Gujarati/Acc.%20No%20%20LVII%20338%2C%20Title%20%20Jewellery%20Box%20%20Casket%2C%20Material%20porcelain.wav" }, { "id": "kannada", "src": "Audio/Kannada/Acc.%20No%20LVII-338%2C%20Title%20%20Jewellery%20Box%20Casket.wav" }, { "id": "marathi", "src": "Audio/Marathi/Jewellery%20Box%20Casket.wav" }, { "id": "odia", "src": "Audio/Odia/7.%20No%20LVII-338%2C%20%20Jewellery%20Box%20Casket%2C.wav" }, { "id": "telugu", "src": "Audio/Telugu/Telugu_LVII-338_Female.wav" }]; function changeLanguage(lang) { document.querySelectorAll('.langCnt').forEach(el => el.style.display = el.id === lang ? 'block' : 'none'); const source = audioMap.find(item => item.id === lang) || audioMap[0]; player.src = source && source.src ? encodeURI(decodeURIComponent(source.src)) : ''; if (player.src) player.load(); } selector.addEventListener('change', () => changeLanguage(selector.value)); changeLanguage(selector.value || 'english');</script>

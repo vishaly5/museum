@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./Images/logo-moc.png" onerror="this.onerror=null; this.src='./Images/logo.png';" alt="Ministry of Culture">
+            <img src="./Images/logo-moc.png" onerror="this.onerror=null; this.src='./Images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -112,122 +123,221 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/3.%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8%20%E0%A4%AC%E0%A5%8B%E0%A4%A8%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available. Playing default audio.</p>
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:
+        </p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/3.%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8%20%E0%A4%AC%E0%A5%8B%E0%A4%A8%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available. Playing default audio.</p>
       </div>
     </div>
 
-    
+
     <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
-      <h2 class="cntHdng" >3. LXV-49: नेपोलियन बोनापार्ट की अर्धप्रतिमा (LXV - 49)</h2>
+      <h2 class="cntHdng">3. LXV-49: नेपोलियन बोनापार्ट की अर्धप्रतिमा (LXV - 49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: नेपोलियन बोनापार्ट की अर्धप्रतिमा (LXV - 49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. LXV-49: नेपोलियन बोनापार्ट की अर्धप्रतिमा (LXV - 49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">यह कांस्य अर्धप्रतिमा प्रसिद्ध फ्रांसीसी सम्राट नेपोलियन बोनापार्ट को दर्शाती है, जो 1769 से 1821 तक जीवित रहे। उन्हें भारी सैन्य पोशाक पहने हुए दिखाया गया है, जो उनके व्यक्तित्व को प्रभावशाली और अधिकारपूर्ण रूप प्रदान करती है। उनका चेहरा गंभीर एवं विचारशील दिखाई देता है, जो नेतृत्व, अनुशासन और आत्मविश्वास को अभिव्यक्त करता है। अर्धप्रतिमा के आधार पर एक गरुड़ बना हुआ है, जो नेपोलियन के साम्राज्य का एक महत्वपूर्ण प्रतीक था। गरुड़ शक्ति, विजय और प्रभुत्व का प्रतीक है। कांस्य की चिकनी सतह पर उनके चेहरे और वस्त्रों के बारीक विवरण कलाकार के कुशल शिल्पकौशल को दर्शाते हैं। यह अर्धप्रतिमा इस बात को प्रतिबिंबित करती है कि यूरोप में नेपोलियन को एक शक्तिशाली शासक और सैन्य नेता के रूप में कितना सम्मान प्राप्त था। इसका निर्माण फ्रांस में कलाकार आर. कोलंबो द्वारा किया गया था।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह कांस्य अर्धप्रतिमा प्रसिद्ध फ्रांसीसी सम्राट
+          नेपोलियन बोनापार्ट को दर्शाती है, जो 1769 से 1821 तक जीवित रहे। उन्हें भारी सैन्य पोशाक पहने हुए दिखाया गया
+          है, जो उनके व्यक्तित्व को प्रभावशाली और अधिकारपूर्ण रूप प्रदान करती है। उनका चेहरा गंभीर एवं विचारशील दिखाई
+          देता है, जो नेतृत्व, अनुशासन और आत्मविश्वास को अभिव्यक्त करता है। अर्धप्रतिमा के आधार पर एक गरुड़ बना हुआ है,
+          जो नेपोलियन के साम्राज्य का एक महत्वपूर्ण प्रतीक था। गरुड़ शक्ति, विजय और प्रभुत्व का प्रतीक है। कांस्य की
+          चिकनी सतह पर उनके चेहरे और वस्त्रों के बारीक विवरण कलाकार के कुशल शिल्पकौशल को दर्शाते हैं। यह अर्धप्रतिमा इस
+          बात को प्रतिबिंबित करती है कि यूरोप में नेपोलियन को एक शक्तिशाली शासक और सैन्य नेता के रूप में कितना सम्मान
+          प्राप्त था। इसका निर्माण फ्रांस में कलाकार आर. कोलंबो द्वारा किया गया था।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="english" style="display: none;">
-      <h2 class="cntHdng" >3. Bust of Napoleon Bonaparte (LXV - 49)</h2>
+      <h2 class="cntHdng">3. Bust of Napoleon Bonaparte (LXV - 49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. Bust of Napoleon Bonaparte (LXV - 49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. Bust of Napoleon Bonaparte (LXV - 49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">This bronze bust shows Napoleon Bonaparte, the famous French Emperor who lived from 1769 to 1821. He is shown wearing a heavy military dress, which gives him a strong and commanding appearance. His face looks serious and thoughtful, showing leadership, discipline, and confidence. At the base of the bust, there is an eagle, an important symbol of Napoleon’s empire. The eagle stands for strength, victory, and authority. The smooth bronze surface is having fine details in his face and clothing show skilled craftsmanship. This bust reflects how Napoleon was admired in Europe as a powerful ruler and military leader. It was made in France by the artist R. Colombo.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This bronze bust shows Napoleon Bonaparte, the
+          famous French Emperor who lived from 1769 to 1821. He is shown wearing a heavy military dress, which gives him
+          a strong and commanding appearance. His face looks serious and thoughtful, showing leadership, discipline, and
+          confidence. At the base of the bust, there is an eagle, an important symbol of Napoleon’s empire. The eagle
+          stands for strength, victory, and authority. The smooth bronze surface is having fine details in his face and
+          clothing show skilled craftsmanship. This bust reflects how Napoleon was admired in Europe as a powerful ruler
+          and military leader. It was made in France by the artist R. Colombo.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
-      <h2 class="cntHdng" >3. LXV-49: నెపోలియన్ బోనాపార్టే అర్థప్రతిమ (Bust of Napoleon Bonaparte)</h2>
+      <h2 class="cntHdng">3. LXV-49: నెపోలియన్ బోనాపార్టే అర్ధశిల్పం </h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: నెపోలియన్ బోనాపార్టే అర్థప్రతిమ (Bust of Napoleon Bonaparte)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. LXV-49: నెపోలియన్ బోనాపార్టే అర్థప్రతిమ (Bust of Napoleon Bonaparte)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ప్రసిద్ధ ఫ్రెంచ్ చక్రవర్తి నెపోలియన్ బోనాపార్టే (1769-1821) యొక్క ఈ కాంస్య పక్షప్రతిమ, ఆయన నాయకత్వ పటిమను మరియు చారిత్రక ప్రాముఖ్యతను చాటిచెబుతుంది.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">కంచుతో తీర్చిదిద్దిన ఈ అర్ధ శిల్పం (అంటే, Bust)
+          1769 నుండి 1821 వరకు జీవించిన ప్రసిద్ధ ఫ్రెంచ్ చక్రవర్తి నెపోలియన్ బోనపార్టేను ఆవిష్కరిస్తుంది. ఆయన భారీ సైనిక
+          దుస్తులను ధరించి, గంభీరమైన మరియు ఆజ్ఞాపించే రూపంలో కనిపిస్తారు. ఆయన ముఖంలోని తీవ్రత, ఆలోచనాత్మక దృష్టి ఆయన
+          నాయకత్వాన్ని, క్రమశిక్షణను, దృఢ నిశ్చయాన్ని వెల్లడిస్తాయి. పీఠం దిగువ భాగంలో నెపోలియన్ సామ్రాజ్యపు ప్రధాన
+          చిహ్నమైన గద్ద (ఈగిల్) చెక్కబడి ఉంది. ఈ గద్ద బలానికి, విజయానికి మరియు ఆధిపత్యానికి నిదర్శనం. నునుపైన కంచు
+          ఉపరితలంపై ముఖ వర్చస్సును, దుస్తుల మడతలను తీర్చిదిద్దిన తీరు శిల్పి యొక్క అత్యున్నత నైపుణ్యానికి అద్దం
+          పడుతుంది. యూరప్‌లో బలమైన పాలకుడిగా, సైనిక వ్యూహకర్తగా నెపోలియన్‌కు ఉన్న ఖ్యాతిని ఈ శిల్పం చాటుతుంది. దీనిని
+          ఫ్రాన్స్‌కు చెందిన కళాకారుడు ఆర్. కొలంబో రూపొందించారు.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
-      <h2 class="cntHdng" >3. LXV-49: நெப்போலியன் பொனாபார்ட்டின் மார்பளவுச் சிற்பம் (LXV-49)</h2>
+      <h2 class="cntHdng">3. LXV-49: நெப்போலியன் பொனாபார்ட்டின் மார்பளவுச் சிற்பம் (LXV-49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: நெப்போலியன் பொனாபார்ட்டின் மார்பளவுச் சிற்பம் (LXV-49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. LXV-49: நெப்போலியன் பொனாபார்ட்டின் மார்பளவுச் சிற்பம் (LXV-49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">இந்த வெண்கல மார்பளவுச் சிற்பம், 1769 முதல் 1821 வரை வாழ்ந்த புகழ்பெற்ற பிரெஞ்சுப் பேரரசரான நெப்போலியன் போனபார்ட்டைக் காட்டுகிறது. அவர் வலிமையான மற்றும் கட்டளையிடும் தோற்றத்தை அளிக்கும் கனமான இராணுவ உடையை அணிந்துள்ளார். அவரது முகம் தீவிரமாகவும் சிந்தனையுடனும் காணப்படுகிறது. இது தலைமைத்துவம், ஒழுக்கம் மற்றும் தன்னம்பிக்கையை வெளிப்படுத்துகிறது. சிலையின் அடிப்பகுதியில் ஒரு கழுகு காணப்படுகிறது. இது நெப்போலியனின் பேரரசின் முக்கிய அடையாளமாகும். கழுகு வலிமை, வெற்றி மற்றும் அதிகாரத்தைக் குறிக்கிறது. அவரது முகம் மற்றும் உடையில் காணப்படும் நுணுக்கமான விவரங்கள் சிறந்த கைவினைத்திறனை வெளிப்படுத்துகின்றன. இந்த மார்பளவுச் சிலை, ஐரோப்பாவில் நெப்போலியன் ஒரு சக்திவாய்ந்த ஆட்சியாளராகவும் இராணுவத் தலைவராகவும் மதிக்கப்பட்டதை வெளிப்படுத்துகிறது. இதை ஆர். கொழும்போ என்ற கலைஞர் பிரான்சில் உருவாக்கினார்.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இந்த வெண்கல மார்பளவுச் சிற்பம், 1769 முதல் 1821
+          வரை வாழ்ந்த புகழ்பெற்ற பிரெஞ்சுப் பேரரசரான நெப்போலியன் போனபார்ட்டைக் காட்டுகிறது. அவர் வலிமையான மற்றும்
+          கட்டளையிடும் தோற்றத்தை அளிக்கும் கனமான இராணுவ உடையை அணிந்துள்ளார். அவரது முகம் தீவிரமாகவும் சிந்தனையுடனும்
+          காணப்படுகிறது. இது தலைமைத்துவம், ஒழுக்கம் மற்றும் தன்னம்பிக்கையை வெளிப்படுத்துகிறது. சிலையின் அடிப்பகுதியில்
+          ஒரு கழுகு காணப்படுகிறது. இது நெப்போலியனின் பேரரசின் முக்கிய அடையாளமாகும். கழுகு வலிமை, வெற்றி மற்றும்
+          அதிகாரத்தைக் குறிக்கிறது. அவரது முகம் மற்றும் உடையில் காணப்படும் நுணுக்கமான விவரங்கள் சிறந்த கைவினைத்திறனை
+          வெளிப்படுத்துகின்றன. இந்த மார்பளவுச் சிலை, ஐரோப்பாவில் நெப்போலியன் ஒரு சக்திவாய்ந்த ஆட்சியாளராகவும் இராணுவத்
+          தலைவராகவும் மதிக்கப்பட்டதை வெளிப்படுத்துகிறது. இதை ஆர். கொழும்போ என்ற கலைஞர் பிரான்சில் உருவாக்கினார்.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
-      <h2 class="cntHdng" >3. LXV-49: नेपोलियन बोनापार्टचा पुतळा (LXV-49)</h2>
+      <h2 class="cntHdng">3. LXV-49: नेपोलियन बोनापार्टचा पुतळा (LXV-49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: नेपोलियन बोनापार्टचा पुतळा (LXV-49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: नेपोलियन बोनापार्टचा पुतळा (LXV-49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">हा ब्रॉन्जचा अर्धपुतळा 1769 ते 1821 पर्यंत जगलेले प्रसिद्ध फ्रेंच सम्राट नेपोलियन बोनापार्ट यांचे चित्रण करतो. त्यांनी जड लष्करी पोशाख परिधान केला आहे, ज्यामुळे त्यांना एक मजबूत आणि प्रभावी स्वरूप मिळते. त्यांचा चेहरा गंभीर आणि विचारमग्न दिसतो, जो नेतृत्व, शिस्त आणि आत्मविश्वास दर्शवतो. अर्धपुतळ्याच्या पायथ्याशी नेपोलियनच्या साम्राज्याचे एक महत्त्वाचे प्रतीक असलेला गरुड आहे. गरुड शक्ती, विजय आणि अधिकाराचे प्रतीक आहे. गुळगुळीत ब्रॉन्जच्या पृष्ठभागावर त्यांच्या चेहऱ्यातील आणि पोशाखातील सूक्ष्म तपशील कुशल कारागिरी दर्शवतात. हा अर्धपुतळा नेपोलियन युरोपमध्ये एक शक्तिशाली शासक आणि लष्करी नेते म्हणून कसे आदरास पात्र होते हे प्रतिबिंबित करतो. हे फ्रान्समध्ये आर. कोलंबो या कलाकाराने बनवले होते.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">हा ब्रॉन्जचा अर्धपुतळा 1769 ते 1821 पर्यंत
+          जगलेले प्रसिद्ध फ्रेंच सम्राट नेपोलियन बोनापार्ट यांचे चित्रण करतो. त्यांनी जड लष्करी पोशाख परिधान केला आहे,
+          ज्यामुळे त्यांना एक मजबूत आणि प्रभावी स्वरूप मिळते. त्यांचा चेहरा गंभीर आणि विचारमग्न दिसतो, जो नेतृत्व, शिस्त
+          आणि आत्मविश्वास दर्शवतो. अर्धपुतळ्याच्या पायथ्याशी नेपोलियनच्या साम्राज्याचे एक महत्त्वाचे प्रतीक असलेला गरुड
+          आहे. गरुड शक्ती, विजय आणि अधिकाराचे प्रतीक आहे. गुळगुळीत ब्रॉन्जच्या पृष्ठभागावर त्यांच्या चेहऱ्यातील आणि
+          पोशाखातील सूक्ष्म तपशील कुशल कारागिरी दर्शवतात. हा अर्धपुतळा नेपोलियन युरोपमध्ये एक शक्तिशाली शासक आणि लष्करी
+          नेते म्हणून कसे आदरास पात्र होते हे प्रतिबिंबित करतो. हे फ्रान्समध्ये आर. कोलंबो या कलाकाराने बनवले होते.
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
-      <h2 class="cntHdng" >3. LXV-49: നെപ്പോളിയൻ ബോണപ്പാർട്ടിന്റെ പ്രതിമ (LXV-49)</h2>
+      <h2 class="cntHdng">3. LXV-49: നെപ്പോളിയൻ ബോണപ്പാർട്ടിന്റെ പ്രതിമ (LXV-49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: നെപ്പോളിയൻ ബോണപ്പാർട്ടിന്റെ പ്രതിമ (LXV-49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. LXV-49: നെപ്പോളിയൻ ബോണപ്പാർട്ടിന്റെ പ്രതിമ (LXV-49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">1769 മുതൽ 1821 വരെ ജീവിച്ചിരുന്ന പ്രശസ്തനായ ഫ്രഞ്ച് ചക്രവർത്തിയായ നേപ്പോളിയൻ ബോണപാർട്ടിനെ ഈ വെങ്കല പ്രതിമ കാണിക്കുന്നു. ശക്തവും പ്രതാപമുള്ളതുമായ രൂപം നൽകുന്ന ഭാരമുള്ള സൈനിക വേഷം ധരിച്ചാണ് അദ്ദേഹത്തെ ചിത്രീകരിച്ചിരിക്കുന്നത്. അദ്ദേഹത്തിന്റെ മുഖം ഗൗരവമുള്ളതും ചിന്താപരവുമായ ഭാവത്തിലുള്ളതാണ്; ഇത് നേതൃത്വവും ശിക്ഷണവും ആത്മവിശ്വാസവും പ്രകടമാക്കുന്നു. പ്രതിമയുടെ അടിഭാഗത്ത് നേപ്പോളിയന്റെ സാമ്രാജ്യത്തിന്റെ പ്രധാന ചിഹ്നമായ ഒരു കഴുകനുണ്ട്. ഈ കഴുകൻ ശക്തിയെയും വിജയത്തെയും അധികാരത്തെയും സൂചിപ്പിക്കുന്നു. മിനുസമാർന്ന വെങ്കല പ്രതലത്തിൽ മുഖത്തും വസ്ത്രത്തിലുമുള്ള സൂക്ഷ്മമായ വിശദാംശങ്ങൾ വിദഗ്ദ്ധമായ ശിൽപകലയെ കാണിക്കുന്നു. ശക്തനായ ഭരണാധികാരിയും സൈന്യാധിപനുമായി യൂറോപ്പിൽ നേപ്പോളിയൻ എങ്ങനെയാണ് ആദരിക്കപ്പെട്ടിരുന്നത് എന്ന് ഈ പ്രതിമ പ്രതിഫലിപ്പിക്കുന്നു. ഇത് ഫ്രാൻസിൽ ആർ. കൊളംബോ എന്ന കലാകാരനാണ് നിർമ്മിച്ചത്.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">1769 മുതൽ 1821 വരെ ജീവിച്ചിരുന്ന പ്രശസ്തനായ
+          ഫ്രഞ്ച് ചക്രവർത്തിയായ നേപ്പോളിയൻ ബോണപാർട്ടിനെ ഈ വെങ്കല പ്രതിമ കാണിക്കുന്നു. ശക്തവും പ്രതാപമുള്ളതുമായ രൂപം
+          നൽകുന്ന ഭാരമുള്ള സൈനിക വേഷം ധരിച്ചാണ് അദ്ദേഹത്തെ ചിത്രീകരിച്ചിരിക്കുന്നത്. അദ്ദേഹത്തിന്റെ മുഖം ഗൗരവമുള്ളതും
+          ചിന്താപരവുമായ ഭാവത്തിലുള്ളതാണ്; ഇത് നേതൃത്വവും ശിക്ഷണവും ആത്മവിശ്വാസവും പ്രകടമാക്കുന്നു. പ്രതിമയുടെ അടിഭാഗത്ത്
+          നേപ്പോളിയന്റെ സാമ്രാജ്യത്തിന്റെ പ്രധാന ചിഹ്നമായ ഒരു കഴുകനുണ്ട്. ഈ കഴുകൻ ശക്തിയെയും വിജയത്തെയും അധികാരത്തെയും
+          സൂചിപ്പിക്കുന്നു. മിനുസമാർന്ന വെങ്കല പ്രതലത്തിൽ മുഖത്തും വസ്ത്രത്തിലുമുള്ള സൂക്ഷ്മമായ വിശദാംശങ്ങൾ വിദഗ്ദ്ധമായ
+          ശിൽപകലയെ കാണിക്കുന്നു. ശക്തനായ ഭരണാധികാരിയും സൈന്യാധിപനുമായി യൂറോപ്പിൽ നേപ്പോളിയൻ എങ്ങനെയാണ്
+          ആദരിക്കപ്പെട്ടിരുന്നത് എന്ന് ഈ പ്രതിമ പ്രതിഫലിപ്പിക്കുന്നു. ഇത് ഫ്രാൻസിൽ ആർ. കൊളംബോ എന്ന കലാകാരനാണ്
+          നിർമ്മിച്ചത്.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
-      <h2 class="cntHdng" >3. ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯ ಪ್ರತಿಮೆ (LXV-49)</h2>
+      <h2 class="cntHdng">3. ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯ ಪ್ರತಿಮೆ (LXV-49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯ ಪ್ರತಿಮೆ (LXV-49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯ ಪ್ರತಿಮೆ (LXV-49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಈ ಕಂಚಿನ ಅರ್ಧಪ್ರತಿಮೆಯು 1769 ರಿಂದ 1821 ರವರೆಗೆ ಜೀವಿಸಿದ್ದ ಫ್ರಾನ್ಸ್‌ನ ಪ್ರಸಿದ್ಧ ಚಕ್ರವರ್ತಿ ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯವರನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ.  ಅವರು ಭಾರವಾದ ಮಿಲಿಟರಿ ಉಡುಪನ್ನು ಧರಿಸಿರುವುದನ್ನು ಕಾಣಬಹುದು, ಇದು ಅವರಿಗೆ ಬಲವಾದ ಮತ್ತು ಪ್ರಭಾವಶಾಲಿ ನೋಟವನ್ನು ನೀಡುತ್ತದೆ.  ಅವರ ಮುಖವು ಗಂಭೀರ ಮತ್ತು ಚಿಂತನಶೀಲವಾಗಿ ಕಾಣುತ್ತದೆ, ಇದು ನಾಯಕತ್ವ, ಶಿಸ್ತು ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ.  ಪ್ರತಿಮೆಯ ಪೀಠದ ಭಾಗದಲ್ಲಿ ಹದ್ದು ಇದೆ, ಇದು ನೆಪೋಲಿಯನ್ ಸಾಮ್ರಾಜ್ಯದ ಪ್ರಮುಖ ಸಂಕೇತವಾಗಿದೆ.  ಹದ್ದು ಶಕ್ತಿ, ವಿಜಯ ಮತ್ತು ಅಧಿಕಾರದ ಸಂಕೇತವಾಗಿದೆ.  ನಯವಾದ ಕಂಚಿನ ಮೇಲ್ಮೈಯಲ್ಲಿರುವ ಅವರ ಮುಖ ಮತ್ತು ಉಡುಪಿನ ಸೂಕ್ಷ್ಮ ವಿವರಗಳು ನುರಿತ ಕಲಾತ್ಮಕ ಕೌಶಲ್ಯವನ್ನು ತೋರಿಸುತ್ತವೆ.  ಈ ಅರ್ಧಪ್ರತಿಮೆಯು ನೆಪೋಲಿಯನ್‌ರನ್ನು ಯುರೋಪ್‌ನಲ್ಲಿ ಒಬ್ಬ ಶಕ್ತಿಶಾಲಿ ಆಡಳಿತಗಾರ ಮತ್ತು ಮಿಲಿಟರಿ ನಾಯಕನಾಗಿ ಹೇಗೆ ಗೌರವಿಸಲಾಗುತ್ತಿತ್ತು ಎಂಬುದನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ.  ಇದನ್ನು ಫ್ರಾನ್ಸ್‌ನಲ್ಲಿ ಆರ್. ಕೊಲಂಬೊ (R. Colombo) ಎಂಬ ಕಲಾವಿದ ತಯಾರಿಸಿದ್ದಾರೆ.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಈ ಕಂಚಿನ ಅರ್ಧಪ್ರತಿಮೆಯು 1769 ರಿಂದ 1821 ರವರೆಗೆ
+          ಜೀವಿಸಿದ್ದ ಫ್ರಾನ್ಸ್‌ನ ಪ್ರಸಿದ್ಧ ಚಕ್ರವರ್ತಿ ನೆಪೋಲಿಯನ್ ಬೋನಾಪಾರ್ಟೆಯವರನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ. ಅವರು ಭಾರವಾದ ಮಿಲಿಟರಿ
+          ಉಡುಪನ್ನು ಧರಿಸಿರುವುದನ್ನು ಕಾಣಬಹುದು, ಇದು ಅವರಿಗೆ ಬಲವಾದ ಮತ್ತು ಪ್ರಭಾವಶಾಲಿ ನೋಟವನ್ನು ನೀಡುತ್ತದೆ. ಅವರ ಮುಖವು ಗಂಭೀರ ಮತ್ತು
+          ಚಿಂತನಶೀಲವಾಗಿ ಕಾಣುತ್ತದೆ, ಇದು ನಾಯಕತ್ವ, ಶಿಸ್ತು ಮತ್ತು ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ಪ್ರತಿಮೆಯ ಪೀಠದ ಭಾಗದಲ್ಲಿ
+          ಹದ್ದು ಇದೆ, ಇದು ನೆಪೋಲಿಯನ್ ಸಾಮ್ರಾಜ್ಯದ ಪ್ರಮುಖ ಸಂಕೇತವಾಗಿದೆ. ಹದ್ದು ಶಕ್ತಿ, ವಿಜಯ ಮತ್ತು ಅಧಿಕಾರದ ಸಂಕೇತವಾಗಿದೆ. ನಯವಾದ
+          ಕಂಚಿನ ಮೇಲ್ಮೈಯಲ್ಲಿರುವ ಅವರ ಮುಖ ಮತ್ತು ಉಡುಪಿನ ಸೂಕ್ಷ್ಮ ವಿವರಗಳು ನುರಿತ ಕಲಾತ್ಮಕ ಕೌಶಲ್ಯವನ್ನು ತೋರಿಸುತ್ತವೆ. ಈ
+          ಅರ್ಧಪ್ರತಿಮೆಯು ನೆಪೋಲಿಯನ್‌ರನ್ನು ಯುರೋಪ್‌ನಲ್ಲಿ ಒಬ್ಬ ಶಕ್ತಿಶಾಲಿ ಆಡಳಿತಗಾರ ಮತ್ತು ಮಿಲಿಟರಿ ನಾಯಕನಾಗಿ ಹೇಗೆ
+          ಗೌರವಿಸಲಾಗುತ್ತಿತ್ತು ಎಂಬುದನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ. ಇದನ್ನು ಫ್ರಾನ್ಸ್‌ನಲ್ಲಿ ಆರ್. ಕೊಲಂಬೊ (R. Colombo) ಎಂಬ ಕಲಾವಿದ
+          ತಯಾರಿಸಿದ್ದಾರೆ.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="odia" style="display: none;">
-      <h2 class="cntHdng" >3. ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ ଆବକ୍ଷ-ପ୍ରତିମା (LXV - 49)</h2>
+      <h2 class="cntHdng">3. ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ ଆବକ୍ଷ-ପ୍ରତିମା (LXV - 49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ ଆବକ୍ଷ-ପ୍ରତିମା (LXV - 49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ ଆବକ୍ଷ-ପ୍ରତିମା (LXV - 49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ଆସନ୍ତୁ, ପ୍ରସିଦ୍ଧ ଫରାସୀ ସମ୍ରାଟ ନେପୋଲିୟନ୍ ବୋନାପାର୍ଟଙ୍କ (୧୭୬୯–୧୮୨୧) ଏହି ବ୍ରୋଞ୍ଜ (କାଂସ୍ୟ) ଆବକ୍ଷ-ପ୍ରତିମାଟିକୁ ଦେଖିବା। ଏଥିରେ ସେ ଏକ ଓଜନଦାର ସାମରିକ ପୋଷାକ ପିନ୍ଧିଥିବାର ଦେଖାଯାଉଛନ୍ତି, ଯାହା ତାଙ୍କୁ ଏକ ଶକ୍ତିଶାଳୀ ଏବଂ ପ୍ରଭାବଶାଳୀ ରୂପ ପ୍ରଦାନ କରୁଛି। ତାଙ୍କ ମୁଖମଣ୍ଡଳ ଗମ୍ଭୀର ଏବଂ ଚିନ୍ତାଶୀଳ ଦେଖାଯାଉଛି, ଯାହା ନେତୃତ୍ୱ, ଶୃଙ୍ଖଳା ଏବଂ ଆତ୍ମବିଶ୍ୱାସକୁ ପ୍ରକାଶ କରେ। ଆପଣ ଯଦି ଏହି ପ୍ରତିମାର ଆଧାରକୁ ଲକ୍ଷ୍ୟ କରିବେ, ଏଥିରେ ଏକ ଇଗଲ୍ ଦେଖିପାରିବେ, ଯାହା ନେପୋଲିୟନ୍‌ ସାମ୍ରାଜ୍ୟର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରତୀକ। ଏହି ଇଗଲ୍‌ଟି ଶକ୍ତି, ବିଜୟ ଏବଂ କ୍ଷମତାକୁ ସୂଚାଇଥାଏ। ଏହାର ମସୃଣ ବ୍ରୋଞ୍ଜ ପୃଷ୍ଠଭାଗ ସହ ତାଙ୍କ ମୁହଁ ଓ ପୋଷାକରେ ଥିବା ସୂକ୍ଷ୍ମ କାରୁକାର୍ଯ୍ୟର କୁଶଳୀ ଶିଳ୍ପୀଙ୍କ ଦକ୍ଷତାକୁ ପ୍ରଦର୍ଶିତ କରେ। ଜଣେ ଶକ୍ତିଶାଳୀ ଶାସକ ଏବଂ ସାମରିକ ନେତା ଭାବରେ ନେପୋଲିୟନ୍ ୟୁରୋପରେ କିପରି ସମ୍ମାନିତ ହୋଇଥିଲେ, ଏହି ପ୍ରତିମାଟି ତାହା ଦର୍ଶାଏ। ଏହି କଳାକୃତିଟି ଫ୍ରାନ୍ସର ଶିଳ୍ପୀ ଆର୍. କୋଲମ୍ବୋଙ୍କ ଦ୍ୱାରା ନିର୍ମିତ।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ଆସନ୍ତୁ, ପ୍ରସିଦ୍ଧ ଫରାସୀ ସମ୍ରାଟ ନେପୋଲିୟନ୍
+          ବୋନାପାର୍ଟଙ୍କ (୧୭୬୯–୧୮୨୧) ଏହି ବ୍ରୋଞ୍ଜ (କାଂସ୍ୟ) ଆବକ୍ଷ-ପ୍ରତିମାଟିକୁ ଦେଖିବା। ଏଥିରେ ସେ ଏକ ଓଜନଦାର ସାମରିକ ପୋଷାକ
+          ପିନ୍ଧିଥିବାର ଦେଖାଯାଉଛନ୍ତି, ଯାହା ତାଙ୍କୁ ଏକ ଶକ୍ତିଶାଳୀ ଏବଂ ପ୍ରଭାବଶାଳୀ ରୂପ ପ୍ରଦାନ କରୁଛି। ତାଙ୍କ ମୁଖମଣ୍ଡଳ ଗମ୍ଭୀର ଏବଂ
+          ଚିନ୍ତାଶୀଳ ଦେଖାଯାଉଛି, ଯାହା ନେତୃତ୍ୱ, ଶୃଙ୍ଖଳା ଏବଂ ଆତ୍ମବିଶ୍ୱାସକୁ ପ୍ରକାଶ କରେ। ଆପଣ ଯଦି ଏହି ପ୍ରତିମାର ଆଧାରକୁ ଲକ୍ଷ୍ୟ
+          କରିବେ, ଏଥିରେ ଏକ ଇଗଲ୍ ଦେଖିପାରିବେ, ଯାହା ନେପୋଲିୟନ୍‌ ସାମ୍ରାଜ୍ୟର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରତୀକ। ଏହି ଇଗଲ୍‌ଟି ଶକ୍ତି, ବିଜୟ
+          ଏବଂ କ୍ଷମତାକୁ ସୂଚାଇଥାଏ। ଏହାର ମସୃଣ ବ୍ରୋଞ୍ଜ ପୃଷ୍ଠଭାଗ ସହ ତାଙ୍କ ମୁହଁ ଓ ପୋଷାକରେ ଥିବା ସୂକ୍ଷ୍ମ କାରୁକାର୍ଯ୍ୟର କୁଶଳୀ
+          ଶିଳ୍ପୀଙ୍କ ଦକ୍ଷତାକୁ ପ୍ରଦର୍ଶିତ କରେ। ଜଣେ ଶକ୍ତିଶାଳୀ ଶାସକ ଏବଂ ସାମରିକ ନେତା ଭାବରେ ନେପୋଲିୟନ୍ ୟୁରୋପରେ କିପରି ସମ୍ମାନିତ
+          ହୋଇଥିଲେ, ଏହି ପ୍ରତିମାଟି ତାହା ଦର୍ଶାଏ। ଏହି କଳାକୃତିଟି ଫ୍ରାନ୍ସର ଶିଳ୍ପୀ ଆର୍. କୋଲମ୍ବୋଙ୍କ ଦ୍ୱାରା ନିର୍ମିତ।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
-      <h2 class="cntHdng" >3. LXV-49: নেপোলিয়ন বোনাপার্টের আবক্ষ মূর্তি (LXV - 49)</h2>
+      <h2 class="cntHdng">3. LXV-49: নেপোলিয়ন বোনাপার্টের আবক্ষ মূর্তি (LXV - 49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: নেপোলিয়ন বোনাপার্টের আবক্ষ মূর্তি (LXV - 49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. LXV-49: নেপোলিয়ন বোনাপার্টের আবক্ষ মূর্তি (LXV - 49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এই ব্রোঞ্জের আবক্ষ মূর্তিটি বিখ্যাত ফরাসি সম্রাট নেপোলিয়ন বোনাপার্টকে দেখায়, যিনি ১৭৬৯ থেকে ১৮২১ সাল পর্যন্ত বেঁচে ছিলেন। এতে তাঁকে ভারী সামরিক পোশাকে দেখানো হয়েছে, যা তাঁকে এক বলিষ্ঠ ও কর্তৃত্বপূর্ণ রূপ দান করেছে। তাঁর মুখাবয়ব গম্ভীর ও চিন্তাশীল, যা নেতৃত্ব, শৃঙ্খলা এবং আত্মবিশ্বাসকে প্রকাশ করে। আবক্ষ মূর্তির পাদদেশে রয়েছে একটি ঈগল, যা নেপোলিয়নের সাম্রাজ্যের একটি গুরুত্বপূর্ণ প্রতীক। এই ঈগলটি শক্তি, বিজয় এবং কর্তৃত্বের প্রতীক। ব্রোঞ্জের মসৃণ উপরিভাগে তাঁর মুখ ও পোশাকের সূক্ষ্ম কারুকাজ দক্ষ কারিগরির পরিচয় দেয়। এই আবক্ষ ভাস্কর্যটি তুলে ধরে যে এক পরাক্রমশালী শাসক ও সামরিক নেতা হিসেবে গোটা ইউরোপ জুড়ে নেপোলিয়ন কতটা জনপ্রিয় ছিলেন। এটি ফ্রান্সে শিল্পী আর. কলম্বো দ্বারা নির্মিত হয়েছিল । শব্দ-109</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এই ব্রোঞ্জের আবক্ষ মূর্তিটি বিখ্যাত ফরাসি সম্রাট
+          নেপোলিয়ন বোনাপার্টকে দেখায়, যিনি ১৭৬৯ থেকে ১৮২১ সাল পর্যন্ত বেঁচে ছিলেন। এতে তাঁকে ভারী সামরিক পোশাকে দেখানো
+          হয়েছে, যা তাঁকে এক বলিষ্ঠ ও কর্তৃত্বপূর্ণ রূপ দান করেছে। তাঁর মুখাবয়ব গম্ভীর ও চিন্তাশীল, যা নেতৃত্ব,
+          শৃঙ্খলা এবং আত্মবিশ্বাসকে প্রকাশ করে। আবক্ষ মূর্তির পাদদেশে রয়েছে একটি ঈগল, যা নেপোলিয়নের সাম্রাজ্যের একটি
+          গুরুত্বপূর্ণ প্রতীক। এই ঈগলটি শক্তি, বিজয় এবং কর্তৃত্বের প্রতীক। ব্রোঞ্জের মসৃণ উপরিভাগে তাঁর মুখ ও পোশাকের
+          সূক্ষ্ম কারুকাজ দক্ষ কারিগরির পরিচয় দেয়। এই আবক্ষ ভাস্কর্যটি তুলে ধরে যে এক পরাক্রমশালী শাসক ও সামরিক নেতা
+          হিসেবে গোটা ইউরোপ জুড়ে নেপোলিয়ন কতটা জনপ্রিয় ছিলেন। এটি ফ্রান্সে শিল্পী আর. কলম্বো দ্বারা নির্মিত হয়েছিল ।
+          শব্দ-109</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">3. LXV-49: نپولین بوناپارٹ کا نیم مجسمہ (LXV-49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: نپولین بوناپارٹ کا نیم مجسمہ (LXV-49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. LXV-49: نپولین بوناپارٹ کا نیم مجسمہ (LXV-49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">اس کانسے کے مجسمے میں مشہور فرانسیسی شہنشاہ نپولین بوناپارٹ کو دکھایا گیا ہے جو 1769 سے 1821 تک زندہ رہا۔ اسے بھاری فوجی لباس پہنے ہوئے دکھایا گیا، جس سے وہ ایک مضبوط اور کمانڈنگ شکل اختیار کرتا ہے۔ ان کا چہرہ سنجیدہ اور فکر مند نظر آتا ہے، قیادت، نظم و ضبط اور اعتماد کو ظاہر کرتا ہے۔ مجسمہ کی بنیاد پر ایک عقاب ہے، جو نپولین کی سلطنت کی ایک اہم علامت ہے۔ عقاب طاقت، فتح اور اختیار کے لیے کھڑا ہے۔ ہموار کانسی کی سطح پر اس کے چہرے میں عمدہ تفصیلات ہیں اور لباس ہنر مند کاریگری کا مظاہرہ کرتے ہیں۔ یہ مجسمہ اس بات کی عکاسی کرتا ہے کہ کس طرح نپولین کو یورپ میں ایک طاقتور حکمران اور فوجی رہنما کے طور پر سراہا جاتا تھا۔ اسے فرانس میں آرٹسٹ آر کولمبو نے بنایا تھا۔</div>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">اس کانسے کے
+          مجسمے میں مشہور فرانسیسی شہنشاہ نپولین بوناپارٹ کو دکھایا گیا ہے جو 1769 سے 1821 تک زندہ رہا۔ اسے بھاری فوجی
+          لباس پہنے ہوئے دکھایا گیا، جس سے وہ ایک مضبوط اور کمانڈنگ شکل اختیار کرتا ہے۔ ان کا چہرہ سنجیدہ اور فکر مند
+          نظر آتا ہے، قیادت، نظم و ضبط اور اعتماد کو ظاہر کرتا ہے۔ مجسمہ کی بنیاد پر ایک عقاب ہے، جو نپولین کی سلطنت کی
+          ایک اہم علامت ہے۔ عقاب طاقت، فتح اور اختیار کے لیے کھڑا ہے۔ ہموار کانسی کی سطح پر اس کے چہرے میں عمدہ تفصیلات
+          ہیں اور لباس ہنر مند کاریگری کا مظاہرہ کرتے ہیں۔ یہ مجسمہ اس بات کی عکاسی کرتا ہے کہ کس طرح نپولین کو یورپ میں
+          ایک طاقتور حکمران اور فوجی رہنما کے طور پر سراہا جاتا تھا۔ اسے فرانس میں آرٹسٹ آر کولمبو نے بنایا تھا۔</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
-      <h2 class="cntHdng" >3. LXV-49: નેપોલિયન બોનાપાર્ટની પ્રતિમા (LXV-49)</h2>
+      <h2 class="cntHdng">3. LXV-49: નેપોલિયન બોનાપાર્ટની પ્રતિમા (LXV-49)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-3.png" width="100%" alt="3. LXV-49: નેપોલિયન બોનાપાર્ટની પ્રતિમા (LXV-49)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
+        <img src="./Images/Bronze gallery item-3.png" width="100%"
+          alt="3. LXV-49: નેપોલિયન બોનાપાર્ટની પ્રતિમા (LXV-49)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXV-49</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ બ્રોન્ઝ બસ્ટ (પ્રતિમા) ૧૭૬૯ થી ૧૮૨૧ સુધી જીવનાર પ્રખ્યાત ફ્રેન્ચ સમ્રાટ નેપોલિયન બોનાપાર્ટની છે. તેમને ભારે લશ્કરી પોશાક પહેરેલા દર્શાવવામાં આવ્યા છે, જે તેમને એક મજબૂત અને પ્રભાવશાળી દેખાવ આપે છે. તેમનો ચહેરો ગંભીર અને વિચારશીલ લાગે છે, જે નેતૃત્વ, શિસ્ત અને આત્મવિશ્વાસ દર્શાવે છે.પ્રતિમાના પાયા પર એક ગરુડ (ઇગલ) છે, જે નેપોલિયન સામ્રાજ્યનું એક મહત્વપૂર્ણ પ્રતીક છે. ગરુડ એ શક્તિ, વિજય અને સત્તાનું પ્રતીક છે. બ્રોન્ઝની લીસી સપાટી પર તેમના ચહેરા અને કપડાંની ઝીણી વિગતો કુશળ કારીગરી દર્શાવે છે.આ બસ્ટ એ વાતનું પ્રતિબિંબ પાડે છે કે યુરોપમાં નેપોલિયનને એક શક્તિશાળી શાસક અને લશ્કરી નેતા તરીકે કેટલા માનવામાં આવતા હતા. આ પ્રતિમા ફ્રાન્સમાં કલાકાર આર. કોલંબો દ્વારા બનાવવામાં આવી હતી.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ બ્રોન્ઝ બસ્ટ (પ્રતિમા) ૧૭૬૯ થી ૧૮૨૧ સુધી
+          જીવનાર પ્રખ્યાત ફ્રેન્ચ સમ્રાટ નેપોલિયન બોનાપાર્ટની છે. તેમને ભારે લશ્કરી પોશાક પહેરેલા દર્શાવવામાં આવ્યા છે,
+          જે તેમને એક મજબૂત અને પ્રભાવશાળી દેખાવ આપે છે. તેમનો ચહેરો ગંભીર અને વિચારશીલ લાગે છે, જે નેતૃત્વ, શિસ્ત અને
+          આત્મવિશ્વાસ દર્શાવે છે.પ્રતિમાના પાયા પર એક ગરુડ (ઇગલ) છે, જે નેપોલિયન સામ્રાજ્યનું એક મહત્વપૂર્ણ પ્રતીક છે.
+          ગરુડ એ શક્તિ, વિજય અને સત્તાનું પ્રતીક છે. બ્રોન્ઝની લીસી સપાટી પર તેમના ચહેરા અને કપડાંની ઝીણી વિગતો કુશળ
+          કારીગરી દર્શાવે છે.આ બસ્ટ એ વાતનું પ્રતિબિંબ પાડે છે કે યુરોપમાં નેપોલિયનને એક શક્તિશાળી શાસક અને લશ્કરી નેતા
+          તરીકે કેટલા માનવામાં આવતા હતા. આ પ્રતિમા ફ્રાન્સમાં કલાકાર આર. કોલંબો દ્વારા બનાવવામાં આવી હતી.</div>
       </div>
     </div>
 
@@ -239,7 +349,8 @@
   </main>
 
   <footer>
-    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script>
@@ -247,18 +358,18 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "hindi": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/3.%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8%20%E0%A4%AC%E0%A5%8B%E0%A4%A8%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav",
-  "english": "./Audio/english/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
-  "telugu": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/3.%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8%20%E0%A4%AC%E0%A5%8B%E0%A4%A8%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav",
-  "tamil": "./Audio/Tamil/BRONZE%20GALLERY/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
-  "marathi": "./Audio/marathi/BRONZE%20GALLERY/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
-  "malayalam": "./Audio/malayalam/Bust%20of%20Napoleon%20Bonaparte.wav",
-  "kannada": "./Audio/kannada/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
-  "odia": "./Audio/odia/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
-  "bengali": "./Audio/bengali/11.%20Bronze%20Gallery/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
-  "urdu": "./Audio/urdu/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
-  "gujarati": "./Audio/gujarati/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav"
-};
+      "hindi": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/3.%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8%20%E0%A4%AC%E0%A5%8B%E0%A4%A8%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav",
+      "english": "./Audio/english/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
+      "telugu": "./Audio/telugu/Telugu_Bust%20of%20Napoleon%20Bonaparte_Female.wav",
+      "tamil": "./Audio/Tamil/BRONZE%20GALLERY/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
+      "marathi": "./Audio/marathi/BRONZE%20GALLERY/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
+      "malayalam": "./Audio/malayalam/Bust%20of%20Napoleon%20Bonaparte.wav",
+      "kannada": "./Audio/kannada/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
+      "odia": "./Audio/odia/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
+      "bengali": "./Audio/bengali/11.%20Bronze%20Gallery/Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
+      "urdu": "./Audio/urdu/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav",
+      "gujarati": "./Audio/gujarati/3.%20Bust%20of%20Napoleon%20Bonaparte%20(LXV%20-%2049).wav"
+    };
     const baseAudioSrc = "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/3.%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%A8%20%E0%A4%AC%E0%A5%8B%E0%A4%A8%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%20%E0%A4%95%E0%A5%80%20%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A4%BE.wav";
 
     function changeLanguage(lang) {
@@ -270,7 +381,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -282,11 +393,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>

@@ -1,5 +1,186 @@
-﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>LX-472: Painted and Glazed Ceramic Vase | Salar Jung Museum</title><link rel="stylesheet" href="css/styles.css"><style>.gallery-intro{padding:28px 6%;background:#fff}.gallery-intro h1{font-size:42px;margin:0 0 12px;color:#a50309}.gallery-intro p{font-size:19px;max-width:1100px}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 6%;background:#a50309}.item-card{background:#fff;padding:14px;color:#2e2e2e;cursor:pointer;display:flex;flex-direction:column;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1)}.item-card img{width:100%;height:270px;object-fit:contain;background:#fff;border-radius:6px}.item-card h2{font-size:18px;margin:14px 0 4px;color:#a50309;line-height:1.55;overflow-wrap:anywhere}.item-card audio{width:100%;margin:10px 0}.card-content{line-height:1.8;font-size:15px;overflow-wrap:anywhere}.audioPlayerDiv,.bookContentDiv,.navBtnDiv{max-width:900px;margin:20px auto;padding:0 15px}.bookContentDiv{padding:25px;background:#fff;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.08)}.cntHdng{color:#a50309;line-height:1.7;overflow-wrap:anywhere}.booImgDiv{display:flex;justify-content:center;max-height:480px;padding:10px;border:1px solid #eee}.booImgDiv img{max-width:100%;max-height:460px;object-fit:contain}.bookCntDiv{font-size:16px;line-height:2.1;overflow-wrap:anywhere}.langCnt[dir=rtl]{direction:rtl;text-align:right}.langCnt[dir=rtl] .bookCntDiv p{text-align:right}.langCnt[lang=ml],.langCnt[lang=te]{font-family:"Noto Sans Malayalam","Noto Sans Telugu","Nirmala UI",sans-serif;line-height:2.25;word-spacing:.08em}.langCnt[lang=ml] .cntHdng,.langCnt[lang=te] .cntHdng{line-height:2}.navBtnDiv{display:flex;justify-content:space-between;gap:10px}.navBtn{background:#a50309;color:#fff;padding:10px 20px;border-radius:6px;text-decoration:none}@media(max-width:992px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:767px){.gallery-grid{grid-template-columns:1fr;padding:18px 4%}.gallery-intro h1{font-size:30px}.navBtnDiv{flex-direction:column}.navBtn{text-align:center}}</style></head><body><div class="sliderHeaderDiv"><div class="container"><header><a href="index.html" class="logo logoTwo"><img src="images/logo-moc.png" onerror="this.onerror=null;this.src='images/logo.png' alt="Ministry of Culture"></a><div class="langDiv"><img src="images/logo-anu.png" alt="Anuvadini" style="width:26px;height:26px"><select class="form formLang" id="languageSelector" aria-label="Select language">
-<option value="english">English</option>
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LX-472: Painted and Glazed Ceramic Vase | Salar Jung Museum</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .gallery-intro {
+            padding: 28px 6%;
+            background: #fff
+        }
+
+        .gallery-intro h1 {
+            font-size: 42px;
+            margin: 0 0 12px;
+            color: #a50309
+        }
+
+        .gallery-intro p {
+            font-size: 19px;
+            max-width: 1100px
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            padding: 28px 6%;
+            background: #a50309
+        }
+
+        .item-card {
+            background: #fff;
+            padding: 14px;
+            color: #2e2e2e;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+        }
+
+        .item-card img {
+            width: 100%;
+            height: 270px;
+            object-fit: contain;
+            background: #fff;
+            border-radius: 6px
+        }
+
+        .item-card h2 {
+            font-size: 18px;
+            margin: 14px 0 4px;
+            color: #a50309;
+            line-height: 1.55;
+            overflow-wrap: anywhere
+        }
+
+        .item-card audio {
+            width: 100%;
+            margin: 10px 0
+        }
+
+        .card-content {
+            line-height: 1.8;
+            font-size: 15px;
+            overflow-wrap: anywhere
+        }
+
+        .audioPlayerDiv,
+        .bookContentDiv,
+        .navBtnDiv {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px
+        }
+
+        .bookContentDiv {
+            padding: 25px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, .08)
+        }
+
+        .cntHdng {
+            color: #a50309;
+            line-height: 1.7;
+            overflow-wrap: anywhere
+        }
+
+        .booImgDiv {
+            display: flex;
+            justify-content: center;
+            max-height: 480px;
+            padding: 10px;
+            border: 1px solid #eee
+        }
+
+        .booImgDiv img {
+            max-width: 100%;
+            max-height: 460px;
+            object-fit: contain
+        }
+
+        .bookCntDiv {
+            font-size: 16px;
+            line-height: 2.1;
+            overflow-wrap: anywhere
+        }
+
+        .langCnt[dir=rtl] {
+            direction: rtl;
+            text-align: right
+        }
+
+        .langCnt[dir=rtl] .bookCntDiv p {
+            text-align: right
+        }
+
+        .langCnt[lang=ml],
+        .langCnt[lang=te] {
+            font-family: "Noto Sans Malayalam", "Noto Sans Telugu", "Nirmala UI", sans-serif;
+            line-height: 2.25;
+            word-spacing: .08em
+        }
+
+        .langCnt[lang=ml] .cntHdng,
+        .langCnt[lang=te] .cntHdng {
+            line-height: 2
+        }
+
+        .navBtnDiv {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px
+        }
+
+        .navBtn {
+            background: #a50309;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none
+        }
+
+        @media(max-width:992px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+        }
+
+        @media(max-width:767px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+                padding: 18px 4%
+            }
+
+            .gallery-intro h1 {
+                font-size: 30px
+            }
+
+            .navBtnDiv {
+                flex-direction: column
+            }
+
+            .navBtn {
+                text-align: center
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sliderHeaderDiv">
+        <div class="container">
+            <header><a href="index.html" class="logo logoTwo"><img src="images/logo-moc.png"
+                        onerror="this.onerror=null;this.src='images/logo.png' alt=" Ministry of Culture"></a>
+                <div class="langDiv"><img src="images/logo-anu.png" alt="Anuvadini"
+                        style="width:26px;height:26px"><select class="form formLang" id="languageSelector"
+                        aria-label="Select language">
+                        <option value="english">English</option>
                         <option value="bengali">Bengali</option>
                         <option value="hindi">Hindi</option>
                         <option value="malayalam">Malayalam</option>
@@ -9,20 +190,170 @@
                         <option value="kannada">Kannada</option>
                         <option value="marathi">Marathi</option>
                         <option value="odia">Odia</option>
-                    </select></div></header></div></div><main><div class="audioPlayerDiv"><audio id="languageAudio" controls preload="metadata" style="width:100%" src="Audio/English/8.%20Painted%20and%20glazed%20ceramic%20vase.wav"></audio></div>
+                        <option value="telugu">Telugu</option>
+                    </select></div>
+            </header>
+        </div>
+    </div>
+    <main>
+        <div class="audioPlayerDiv"><audio id="languageAudio" controls preload="metadata" style="width:100%"
+                src="Audio/English/8.%20Painted%20and%20glazed%20ceramic%20vase.wav"></audio></div>
         <section class="bookContentDiv langCnt" id="english" lang="en" dir="ltr" style="display:block">
             <h2 class="cntHdng">LX-472: Painted and Glazed Ceramic Vase</h2>
-            <div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="Painted and Glazed Ceramic Vase"></div>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="Painted and Glazed Ceramic Vase"></div>
             <div class="bookCntDiv">
-                <p>A ceramic vase featuring a continuous Greek key pattern around the neck and a mythological or heroic narrative scene painted in black, white, and red pigments. The figures retain the natural orange-red tone of the clay against a dense, glossy black background, showcasing a knight on a white horse wielding a spear against a multi-legged serpentine creature while a torchbearer looks on.</p>
+                <p>A ceramic vase featuring a continuous Greek key pattern around the neck and a mythological or heroic
+                    narrative scene painted in black, white, and red pigments. The figures retain the natural orange-red
+                    tone of the clay against a dense, glossy black background, showcasing a knight on a white horse
+                    wielding a spear against a multi-legged serpentine creature while a torchbearer looks on.</p>
             </div>
         </section>
-<section class="bookContentDiv langCnt" id="bengali" lang="bn" dir="ltr" style="display:block"><h2 class="cntHdng">LX-472: আঁকাএবংচকচকেসিরামিকফুলদানি</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="আঁকাএবংচকচকেসিরামিকফুলদানি"></div><div class="bookCntDiv"><p>চিনামাটিরএইফুলদানিটিরগলায়একটিঅবিচ্ছিন্নআঁকাবাঁকানকশাবা&#39;গ্রিককি&#39; প্যাটার্নেরবর্ডারফুটিয়েতোলাহয়েছে।এরমূলসজ্জায়কালো, সাদাএবংলালরঙেরসমন্বয়েএকটিপৌরাণিকবাবীরত্বপূর্ণআখ্যানেরদৃশ্যচিত্রিতহয়েছে।মূলচরিত্রগুলোতাদেরঅন্তর্নিহিতউপাদানেরকমলাটে-লালরঙেফুটেউঠেছেএবংপটভূমিটিভরাটকরাহয়েছেএকটিঘন, চকচকেকালোরঙদিয়ে।চিত্রেরকেন্দ্রীয়চরিত্রটিএকটিসাদাঘোড়ায়আরোহণকারীযোদ্ধারয়েছে, যাঁরডানহাতেএকটিবর্শারয়েছে।নিচেরঅংশেএকটিসর্পিল, বহু-পদবিশিষ্টপ্রাণীকেদেখানোহয়েছে, যাবর্শাবিদ্ধহওয়ারপ্রতিক্রিয়াজানাচ্ছে।বাঁদিকেঅন্যএকব্যক্তিকেএকটিমশালহাতেদাঁড়িয়েসম্পূর্ণদৃশ্যটিপর্যবেক্ষণকরতেদেখাযায়।</p></div></section>
-<section class="bookContentDiv langCnt" id="hindi" lang="hi" dir="ltr" style="display:none"><h2 class="cntHdng">LX-472: चित्रितऔरचमकीलेलेप वाला चीनी-मिट्टी का कलश</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="चित्रितऔरचमकीलेलेप वाला चीनी-मिट्टी का कलश"></div><div class="bookCntDiv"><p>कलश की गर्दन पर निरंतर मेअंडर या “ग्रीक की” आकृति वाली अलंकरण-पट्टी बनी हुई है। मुख्य सज्जा में काले, सफेद और लाल रंगद्रव्यों से किसी पौराणिक अथवा वीरतापूर्ण कथा-दृश्य को दर्शाया गया है। प्रमुख पात्रों का रंग आधार सामग्री के नारंगी-लाल रंग में ही रखा गया है, जबकि पृष्ठभूमि को घने, चमकदार काले रंग से भरा गया है। मुख्य आकृति सफेद घोड़े पर सवार एक योद्धा की है, जिसके दाहिने हाथ में भाला है। नीचे एक सर्पाकार, बहुपाद प्राणी को दर्शाया गया है, जो भाला मारे जाने पर प्रतिक्रिया करता हुआ दिखाई देता है। बाईं ओर एक अन्य व्यक्ति मशाल हाथ में लिए खड़ा है और इस दृश्य को देख रहा है।</p></div></section>
-<section class="bookContentDiv langCnt" id="malayalam" lang="ml" dir="ltr" style="display:none"><h2 class="cntHdng">LX-472: പെയിന്‍റ്ചെയ്തതുംതിളക്കമുള്ളതുമായസെറാമിക്പൂച്ചട്ടി</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="പെയിന്‍റ്ചെയ്തതുംതിളക്കമുള്ളതുമായസെറാമിക്പൂച്ചട്ടി"></div><div class="bookCntDiv"><p>ഈപോർസലൈൻപൂച്ചട്ടിയുടെകഴുത്തിൽതുടർച്ചയായവളഞ്ഞുപുളഞ്ഞതോ &quot;ഗ്രീക്ക്കീ&quot; പാറ്റേണോആയബോർഡർചിത്രീകരിച്ചിരിക്കുന്നു. കറുപ്പ്, വെളുപ്പ്, ചുവപ്പ്നിറങ്ങൾഉപയോഗിച്ച്ഒരുപൗരാണികപുരാണകഥയോവീരഗാഥയോആണ്ഇതിന്‍റെപ്രധാനഅലങ്കാരമായിചിത്രീകരിച്ചിരിക്കുന്നത്. പ്രധാനകഥാപാത്രങ്ങൾഅടിയിലുള്ളവസ്തുവിന്‍റെഓറഞ്ച്-ചുവപ്പ്നിറത്തിൽതന്നെനിലകൊള്ളുന്നു, പശ്ചാത്തലംതിളക്കമുള്ളകറുത്തനിറംനൽകിപൂർത്തിയാക്കിയിരിക്കുന്നു. വലതുകയ്യിൽകുന്തമേന്തിവെള്ളക്കുതിരപ്പുറത്തിരിക്കുന്നഒരുയോദ്ധാവാണ്പ്രധാനകഥാപാത്രം. താഴെയായി, കുന്തംകുത്തിയിറക്കപ്പെടുന്നതിൽപരിക്കേറ്റ്പ്രതികരിക്കുന്നപാമ്പിന്‍റെരൂപത്തിലുള്ള, നിരവധികാലുകളുള്ളഒരുജീവിയെചിത്രീകരിച്ചിരിക്കുന്നു. ഇടതുവശത്തായി, പന്തംപിടിച്ചുകൊണ്ട്ഈരംഗംനോക്കിനിൽക്കുന്നമറ്റൊരുരൂപവുമുണ്ട്.</p></div></section>
-<section class="bookContentDiv langCnt" id="tamil" lang="ta" dir="ltr" style="display:none"><h2 class="cntHdng">LX-472: வர்ணம்பூசப்பட்டமற்றும்மெருகூட்டப்பட்டபீங்கான்குவளை</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="வர்ணம்பூசப்பட்டமற்றும்மெருகூட்டப்பட்டபீங்கான்குவளை"></div><div class="bookCntDiv"><p>இந்த பீங்கான் குவளையின் கழுத்துப் பகுதியில், தொடர்ச்சியான வளைவு அல்லது &quot;கிரேக்க சாவி&quot; வடிவத்தில் விளிம்பு சித்தரிக்கப்பட்டுள்ளது. இதன் முதன்மை அலங்காரத்தில், கருப்பு, வெள்ளை மற்றும் சிவப்பு வண்ணங்களில் ஒரு புராண அல்லது வீர காவியக் காட்சி சித்தரிக்கப்பட்டுள்ளது. முக்கிய கதாபாத்திரங்கள், அதன் அடிப்பகுதியில் உள்ள பொருளின் ஆரஞ்சு-சிவப்பு நிறத்திலேயே இருக்கின்றன, மேலும் பின்னணி அடர்த்தியான, பளபளப்பான கருப்பு நிறத்தால் நிரப்பப்பட்டுள்ளது. முக்கிய உருவமாக வெள்ளை நிறக் குதிரையின் மீது அமர்ந்திருக்கும் ஒரு வீரர் காணப்படுகிறார். குவளையின் அடிப்பகுதியில், ஈட்டியால் குத்தப்பட்டதற்கு எதிர்வினையாற்றும் ஒரு பாம்பு போன்ற, பல கால்கள் கொண்டஒரு உயிரினம் காட்டப்பட்டுள்ளது. இடதுபுறத்தில், மற்றொரு உருவம் ஒரு தீப்பந்தத்தை ஏந்தியபடி காட்சியைக் கவனித்துக் கொண்டிருக்கிறது. .</p></div></section>
-<section class="bookContentDiv langCnt" id="urdu" lang="ur" dir="rtl" style="display:none"><h2 class="cntHdng">LX-472: رنگین اور ملمع شدہ مٹی کا گلدان</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="رنگین اور ملمع شدہ مٹی کا گلدان"></div><div class="bookCntDiv"><p>یہ چینی مٹی کا گلدان ہے، جس کی گردن کے گرد مسلسل گھومتی ہوئی ’’یونانی کلید‘‘ کے نقش کی پٹی بنی ہوئی ہے۔ اس کی بنیادی سجاوٹ میں سیاہ، سفید اور سرخ رنگوں سے ایک اساطیری یا بہادری پر مبنی داستانی منظر پیش کیا گیا ہے۔ گلدان کی اصل نارنجی مائل سرخ رنگت نمایاں رہتی ہے، جبکہ پس منظر کو گہرے، چمک دار سیاہ رنگ سے بھر دیا گیا ہے۔ مرکزی منظر میں ایک سوار سفید گھوڑے پر بیٹھا ہے اور اس کے دائیں ہاتھ میں نیزہ ہے۔ بائیں جانب ایک اور شخص ہاتھ میں مشعل لیے کھڑا ہے اور منظر کو دیکھ رہا ہے۔</p></div></section>
-<section class="bookContentDiv langCnt" id="gujarati" lang="gu" dir="ltr" style="display:none"><h2 class="cntHdng">LX-472: શીર્ષકઃ પેઇન્ટેડ અને ગ્લેઝ્ડ સિરામિક ફૂલદાની</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="શીર્ષકઃ પેઇન્ટેડ અને ગ્લેઝ્ડ સિરામિક ફૂલદાની"></div><div class="bookCntDiv"><p>આ પોર્સેલેઇન ફૂલદાનીના ગળાના ભાગ પર સળંગ વળાંકવાળી અથવા &quot;ગ્રીક કી&quot; પેટર્નની કિારી દોરેલી છે. તેની મુખ્ય સજાવટમાં કાળા, સફેદ અને લાલ રંગના રંગદ્રવ્યો (પિગમેન્ટ્સ) દ્વારા એક પૌરાણિક કે વીરતાપૂર્ણ કથાનું દ્રશ્ય દર્શાવવામાં આવ્યું છે.મુખ્ય પાત્રો નીચે રહેલી સામગ્રીના કુદરતી નારંગી-લાલ રંગના છે, જ્યારે તેની પૃષ્ઠભૂમિ (બેકગ્રાઉન્ડ) ગાઢ અને ચમકદાર કાળા રંગથી ભરેલી છે. મુખ્ય આકૃતિ સફેદ ઘોડા પર સવાર એક નાઈટ (યોદ્ધા) ની છે, જેના જમણા હાથમાં ભાલો છે. સૌથી નીચેના ભાગમાં એક સાપ જેવું, ઘણા પગવાળું વિચિત્ર જીવ દર્શાવવામાં આવ્યું છે, જે ભાલો વાગવાથી પ્રતિક્રિયા આપી રહ્યું છે. ડાબી બાજુએ, અન્ય એક આકૃતિ હાથમાં મશાલ પકડીને આ દ્રશ્યનું નિરીક્ષણ કરતી ઊભેલી છે.</p></div></section>
-<section class="bookContentDiv langCnt" id="kannada" lang="kn" dir="ltr" style="display:none"><h2 class="cntHdng">LX-472: ಶೀರ್ಷಿಕೆಃವರ್ಣರಂಜಿತಮತ್ತುಮೆರುಗುಗೊಳಿಸಲಾದಸೆರಾಮಿಕ್ಹೂದಾನಿ</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="ಶೀರ್ಷಿಕೆಃವರ್ಣರಂಜಿತಮತ್ತುಮೆರುಗುಗೊಳಿಸಲಾದಸೆರಾಮಿಕ್ಹೂದಾನಿ"></div><div class="bookCntDiv"><p>ಈ ಪಿಂಗಾಣಿ ಹೂದಾನಿಯ ಕತ್ತಿನ ಭಾಗವು ನಿರಂತರವಾಗಿ ಹರಿಯುವ ಶೈಲಿಯ ಅಥವಾ &quot;ಗ್ರೀಕ್ ಕೀ&quot; ಮಾದರಿಯ ಅಂಚಿನ ವಿನ್ಯಾಸವನ್ನು ಬಿಂಬಿಸುತ್ತದೆ. ಇದರ ಪ್ರಮುಖ ಅಲಂಕಾರವು ಕಪ್ಪು, ಬಿಳಿ ಮತ್ತು ಕೆಂಪು ಬಣ್ಣಗಳಲ್ಲಿ ಪೌರಾಣಿಕ ಅಥವಾ ಸಾಹಸಮಯ ಕಥಾನಕದ ದೃಶ್ಯವನ್ನು ಬಿಂಬಿಸುತ್ತದೆ. ಮುಖ್ಯ ಪಾತ್ರಗಳು ಮೂಲ ವಸ್ತುವಿನ ಕಿತ್ತಳೆ-ಕೆಂಪು ಬಣ್ಣದಲ್ಲೇ ಉಳಿದುಕೊಂಡಿದ್ದು, ಹಿನ್ನೆಲೆಯನ್ನು ದಟ್ಟವಾದ, ಹೊಳೆಯುವ ಕಪ್ಪು ಬಣ್ಣದಿಂದ ತುಂಬಿಸಲಾಗಿದೆ. ಪ್ರಮುಖ ಆಕೃತಿಯು ತನ್ನ ಬಲಗೈಯಲ್ಲಿ ಈಟಿಯನ್ನು ಹಿಡಿದು ಬಿಳಿ ಕುದುರೆಯ ಮೇಲಿರುವ ವೀರನದ್ದಾಗಿದೆ. ತಳಭಾಗದಲ್ಲಿ ಹಾವಿನಂತಿರುವ, ಹಲವು ಕಾಲುಗಳ ಜೀವಿಯು ಈಟಿಯಿಂದ ಚುಚ್ಚಲ್ಪಟ್ಟಾಗ ಪ್ರತಿಕ್ರಿಯಿಸುವುದನ್ನು ತೋರಿಸಲಾಗಿದೆ. ಎಡಬದಿಯಲ್ಲಿ, ಮತ್ತೊಂದು ಆಕೃತಿಯು ದೀವಟಿಗೆಯನ್ನು ಹಿಡಿದು ಈ ದೃಶ್ಯವನ್ನು ವೀಕ್ಷಿಸುತ್ತಾ ನಿಂತಿದೆ.</p></div></section>
-<section class="bookContentDiv langCnt" id="marathi" lang="mr" dir="ltr" style="display:none"><h2 class="cntHdng">LX-472: Painted and Glazed Ceramic Vase</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="Painted and Glazed Ceramic Vase"></div><div class="bookCntDiv"><p>युरोपीय प्रवाहाचे उद्दिष्ट अ. क्र. संख्याः LII-722, शीर्षकः फुलदाणी, साहित्यः पोर्सिलेन संगमरवरासारखीदिसण्यासाठीडिझाइनकेलेलीविना-ग्लेझपोर्सेलीनफुलदाणी, जिलामॅटफिनिशआहे. याफुलदाणीवरलॅव्हेंडररंगाच्यापार्श्वभूमीवरपांढऱ्याउठावाच्याआकृत्याआहेत. याफुलदाणीवरबायबलमधीलरुथच्यापुस्तकातीलनओमी, रुथआणिओरपायांच्यापांढऱ्याआकृत्यांचेसलगउठावाचेदृश्यचित्रितकेलेलेआहे. शब्द-46 अ. क्र. संख्याः LII-676, शीर्षकः सजावटीची वस्तू, साहित्यः वेजवुड पॉटरी हीएकमोठीसजावटीचीवस्तू &quot;वेड्जवुडब्लू&quot; रंगातबनवलेलीअसून, जिच्यावरनिओक्लासिकलशैलीतविस्तृतपांढरेउठावाचेनक्षीकामकेलेलेआहे. याघुमटावरशास्त्रीयशैलीपासूनप्रेरितआकृत्याआहेत, ज्यामध्येएकामध्यवर्तीझाडाभोवतीवस्तू (भांडे) हातातधरलेलीएकमहिलाआणिबासरीवाजवणारीदुसरीआकृतीअसून, वरच्यावतळाशीओकच्यापानांचीआणिअकोर्नचीएकप्रमुखकिनारआहे. यातलहानवनस्पतीआणिफुलांचाएककलशदेखीलआहे. खालच्याप्लेटच्याकाठावरओकचीपानेआणिअकोर्नचीअशीचकिनारआहे. वरचाफायनियलफुगीरअकोर्नच्याआकाराचाआहे. शब्द-95 प्रमाण क्र.: CS-I-522, शीर्षकः फुलदाणी हीउंच, देखणीपोर्सेलीनचीफुलदाणीहलक्याहिरव्यारंगाचीअसूनतिलादोन्हीबाजूंनाहँडल्सआहेत. फुलदाणीस्वतःएकाझाडासारखीदिसते. फुलदाणीच्यामध्यवर्तीभागावरगुलाबीरंगाचेकपडेघातलेलीएकतपशीलवारस्त्रीचीआकृतीमध्यभागीउभीआहे, जिनेउजव्याहातातशंखआणिडाव्याहातातमाशांचीपिशवीधरलीआहे. तीएकाझाडाच्याखोडासारख्याडिझाइनकेलेल्यापायथ्यावरउभीआहे. तिच्यापायाचेखालचेभागतिच्याभोवतीगुंडाळलेल्याफुलांनीआणिपानांनीझाकलेलेदिसतात. तळासहसंपूर्णफुलदाणीवरलांबपाने, उमटलेलीफुलेआणिकळ्यांच्याउठावदारडिझाईन्सआहेत. शब्द-99 अ. क्र. क्रमांकः एमएस-1065, शीर्षकः फुलदाणी (अर्ध-नग्न रिलीफसह एक काळा फुलदाणा) पानांच्या आणि फुलांच्या नैसर्गिक मोटिफ्सचे चित्रण करणारी पोर्सेलीनची फुलदाणी, जिच्या पुढच्या पृष्ठभागावर मध्यभागी एक अर्ध-नग्न स्त्रीची आकृती आहे. ही आकृती भावपूर्ण पद्धतीने साकारली असून, ती एका विश्रांतीच्या, मागे झुकलेल्या पोझमध्ये दर्शवली आहे. तिने आपले डोके डाव्या बाजूला झुकवले आहे, आधारासाठी फुलदाणीच्या वळणाविरुद्ध आपली पाठ वाकवली आहे, आणि तिचे हात तिच्या शरीराच्या दोन्ही बाजूंना आहेत. विश्रांतीच्या नैसर्गिक स्थितीत तिने आपला एक गुडघा थोडा वर उचलला आहे. तिचे लांब केस तिच्या छातीवर खाली पडले आहेत, जे तिच्या उघड्या छातीचा काही भाग अतिशय सुंदरपणे झाकतात. संपूर्ण फुलदाणी अतिशय गडद, समृद्ध काळ्या रंगाने रंगवलेली आहे. शब्द-97 अ. क्र. संख्याः CS-I-424, शीर्षकः फुलदाणी, साहित्यः पोर्सिलेन लांब फुलदाणी पोर्सेलीनपासून बनवलेली असून, तिला गुळगुळीत, हलक्या क्रिम रंगाचा ग्लेझ दिला आहे आणि तिच्या दोन्ही बाजूंना दोन आकर्षक हँडल आहेत. हे हँडल एक आकर्षक विरोधाभास निर्माण करतात, जे चमकदार हिरव्या रंगात फिनिश केलेले आहेत आणि त्यांच्या तळाशी नाजूक गुलाबी फुले आहेत जी मध्यवर्ती आकृतीच्या पोशाखाशी अगदी जुळतात. फुलदाणीच्या मध्यवर्ती भागावर एका सुंदर स्त्रीची आकृती दर्शवली आहे, जी एका विश्रांतीच्या, किंचित बसलेल्या स्थितीत आहे. तिने वाहणारा, मऊ गुलाबी रंगाचा पोशाख परिधान केला आहे. विरोधाभासी हिरवा, दोरीसारखा शेला तिच्या कंबरेभोवती गुंतागुंतीने बांधलेला आहे आणि उजव्या खांद्याच्या वरून डाव्या हाताकडे जात तिच्या पाठीवरून तिरकस पसरतो. शब्द-107 प्रमाण क्र.: CS-I-1093, शीर्षकः फुलदाणी/अँफोरा, साहित्यः पोर्सिलेन रुंदशरीरआणिअरुंदमानअसलेलीपोर्सेलीनचीफुलदाणी, जिलाचौकोनीकिंवाआयताकृतीपायथाआहे. याफुलदाणीचेतोंडगोलाकारआणिरुंदअसून, फुलदाणीच्याखांद्यापासूनतोंडापर्यंतपसरलेलेदोनवक्रहँडलआहेत. फुलदाणीच्यामध्यवर्तीभागावरएकाबाजूलाखडकासारख्यारचनेवरबसलेलीप्रेमीयुगुलांसारखीभासणारीदोनस्त्री-पुरुषआकृत्याआणिदुसऱ्याबाजूलाड्रमआणिबाटन्ससहएकसंगीताचेपुस्तकयांचेतपशीलवारचित्रणआहे. पायथ्यावरपारंपारिकप्राचीनग्रीकसजावटीचेमोटिफअसलेल्या&#39;ग्रीककी&#39; पॅटर्नचीनक्षीआहे. शब्द-90 अ. क्र. क्रमांकः LVII-338, शीर्षकः ज्वेलरी बॉक्स/कास्केट, सामग्रीः पोर्सिलेन पेटीच्यापृष्ठभागावरउच्चउठावातीलहातानेरंगवलेली, बहुरंगीइनॅमलदृश्येआहेत. विस्तृतसोनेरीनक्षीकामपॅनेल्सनाफ्रेमकरतेआणिपेटीच्याकडा, पायवझाकणावरीलअलंकृतफायनियलनाअधोरेखितकरते. बिजागरीअसलेल्याझाकणाचाआकारघुमटाकार, सिंहासारखाआहे, आणिपेटीचामुख्यभागचारअलंकृतगोलकिंवास्क्रोल-आकाराच्यापायांवरआधारलेलाआहे. घुमटाकारझाकणावरीलमुख्यदृश्यसामान्यपणेविश्रांतीघेणाऱ्याआकृत्यादर्शवते. पांढऱ्याकिंवाक्रिमरंगाच्यापोर्सेलीनपार्श्वभूमीवरगुलाबी, जांभळ्याआणिहिरव्यारंगांच्याजिवंतछटांसहहीदृश्येसाकारलीआहेत. आकृत्याआणिफ्रेमिंगघटकांवरविस्तृतसोनेरीतपशीलांचाजोरदारवापरकेलाआहे. . शब्द-101 अॅक्स. नाहीः एलएक्स-472, शीर्षकः रंगीत आणि चमकदार कुंभारकाम फुलदाणी, साहित्यः पोर्सिलेन पोर्सेलीनफुलदाणीच्यामानेवरसलग&#39;ग्रीककी&#39; पॅटर्नचीकिनारदर्शवलीआहे. मुख्यसजावटीमध्येकाळ्या, पांढऱ्याआणिलालरंगांमध्येपौराणिककिंवाशौर्यपूर्णवर्णनात्मकदृश्याचेचित्रणआहे. मुख्यपात्रांचारंगखालीलसाहित्याचानारंगी-लालरंगराहतोआणिपार्श्वभूमीदाट, चमकदारकाळ्यारंगानेभरलेलीआहे. मुख्यआकृतीउजव्याहातातभालाघेतलेल्यापांढऱ्याघोड्यावरीलएकयोद्धाआहे. तळाशीसापासारखा, अनेकपायांचाप्राणीभालालागल्यामुळेप्रतिक्रियादेतानादाखवलाआहे. डाव्याबाजूला, मशालहातातघेऊनहेदृश्यपाहणारीदुसरीआकृतीउभीआहे.</p></div></section>
-<section class="bookContentDiv langCnt" id="odia" lang="or" dir="ltr" style="display:none"><h2 class="cntHdng">LX-472: Painted and Glazed Ceramic Vase</h2><div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="Painted and Glazed Ceramic Vase"></div><div class="bookCntDiv"><p>ଆପଣ ଦେଖୁଥିବା, ଚିନିମାଟିରଏହିଆକର୍ଷଣୀୟଫୁଲଦାନୀଟିର ବେକଭାଗରେପ୍ରାଚୀନ&#39;ଗ୍ରୀକ୍କି&#39; ପ୍ୟାଟର୍ନ&#39;ରଏକକ୍ରମାଗତରେଖାଚିତ୍ରରହିଛି।ଏହାରମୁଖ୍ୟଭାଗରେକଳା, ଧଳାଏବଂଲାଲ୍ରଙ୍ଗରେଏକପୌରାଣିକବୀରତ୍ୱରକାହାଣୀଚିତ୍ରିତହୋଇଛି।ଗାଢ଼ଚିକ୍କଣକଳାପୃଷ୍ଠଭୂମିଉପରେମୁଖ୍ୟଚରିତ୍ରଗୁଡ଼ିକୁନାରଙ୍ଗୀ-ଲାଲ୍ରଙ୍ଗରେଦର୍ଶାଯାଇଛି। ଆପଣଦେଖିପାରିବେ, ମୁଖ୍ୟଆକୃତିରେଧଳାଘୋଡ଼ାଉପରେସବାରଜଣେଯୋଦ୍ଧାଡାହାଣହାତରେବର୍ଚ୍ଛାଧରିତଳେଥିବାଏକବହୁ-ପାଦବିଶିଷ୍ଟସର୍ପାକୃତିଜୀବକୁଆକ୍ରମଣକରୁଛନ୍ତିଏବଂବାମଭାଗରେଅନ୍ୟଜଣେବ୍ୟକ୍ତିମଶାଲଧରିଏହିଦୃଶ୍ୟକୁଲକ୍ଷ୍ୟକରୁଛନ୍ତି।</p></div></section><div class="navBtnDiv"><a href="item7.html" class="navBtn">Previous Item</a><a href="index.html" class="navBtn">Back to Gallery Overview</a><a href="item9.html" class="navBtn">Next Item</a></div></main><footer><p>(c) 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p></footer><script>const selector = document.getElementById('languageSelector'); const player = document.getElementById('languageAudio'); const audioMap = [{"id":"english","src":"Audio/English/8.%20Painted%20and%20glazed%20ceramic%20vase.wav"},{"id":"bengali","src":"Audio/Bengali/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase.wav"},{"id":"hindi","src":"Audio/Hindi/8.%20%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%A4%20%E0%A4%94%E0%A4%B0%20%E0%A4%9A%E0%A4%AE%E0%A4%95%E0%A5%80%E0%A4%B2%E0%A5%87%20%E0%A4%B2%E0%A5%87%E0%A4%AA%20%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A4%BE%20%E0%A4%9A%E0%A5%80%E0%A4%A8%E0%A5%80-%E0%A4%AE%E0%A4%BF%E0%A4%9F%E0%A5%8D%E0%A4%9F%E0%A5%80%20%E0%A4%95%E0%A4%BE%20%E0%A4%95%E0%A4%B2%E0%A4%B6.wav"},{"id":"malayalam","src":"Audio/Malayalam/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase%20%2C%20Material%20Porcelain.wav"},{"id":"tamil","src":"Audio/Tamil/8.%20Painted%20and%20glazed%20ceramic%20vase%20_ta.wav"},{"id":"urdu","src":"Audio/Urdu/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase%20%2C%20Material%20Porcelain.wav"},{"id":"gujarati","src":"Audio/Gujarati/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase%20%2C%20Material%20Porcelain.wav"},{"id":"kannada","src":"Audio/Kannada/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase.wav"},{"id":"marathi","src":"Audio/Marathi/Painted%20and%20glazed%20ceramic%20vase.wav"},{"id":"odia","src":"Audio/Odia/8.%20Acc.%20No%20%20LX-472%20%2C%20Painted%20and%20glazed%20ceramic%20vase%20%2C.wav"}]; function changeLanguage(lang) { document.querySelectorAll('.langCnt').forEach(el => el.style.display = el.id === lang ? 'block' : 'none'); const source = audioMap.find(item => item.id === lang) || audioMap[0]; player.src = source && source.src ? encodeURI(decodeURIComponent(source.src)) : ''; if (player.src) player.load(); } selector.addEventListener('change', () => changeLanguage(selector.value)); changeLanguage(selector.value || 'english');</script>
+        <section class="bookContentDiv langCnt" id="bengali" lang="bn" dir="ltr" style="display:block">
+            <h2 class="cntHdng">LX-472: আঁকাএবংচকচকেসিরামিকফুলদানি</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png" alt="আঁকাএবংচকচকেসিরামিকফুলদানি">
+            </div>
+            <div class="bookCntDiv">
+                <p>চিনামাটিরএইফুলদানিটিরগলায়একটিঅবিচ্ছিন্নআঁকাবাঁকানকশাবা&#39;গ্রিককি&#39;
+                    প্যাটার্নেরবর্ডারফুটিয়েতোলাহয়েছে।এরমূলসজ্জায়কালো,
+                    সাদাএবংলালরঙেরসমন্বয়েএকটিপৌরাণিকবাবীরত্বপূর্ণআখ্যানেরদৃশ্যচিত্রিতহয়েছে।মূলচরিত্রগুলোতাদেরঅন্তর্নিহিতউপাদানেরকমলাটে-লালরঙেফুটেউঠেছেএবংপটভূমিটিভরাটকরাহয়েছেএকটিঘন,
+                    চকচকেকালোরঙদিয়ে।চিত্রেরকেন্দ্রীয়চরিত্রটিএকটিসাদাঘোড়ায়আরোহণকারীযোদ্ধারয়েছে,
+                    যাঁরডানহাতেএকটিবর্শারয়েছে।নিচেরঅংশেএকটিসর্পিল, বহু-পদবিশিষ্টপ্রাণীকেদেখানোহয়েছে,
+                    যাবর্শাবিদ্ধহওয়ারপ্রতিক্রিয়াজানাচ্ছে।বাঁদিকেঅন্যএকব্যক্তিকেএকটিমশালহাতেদাঁড়িয়েসম্পূর্ণদৃশ্যটিপর্যবেক্ষণকরতেদেখাযায়।
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="hindi" lang="hi" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: चित्रितऔरचमकीलेलेप वाला चीनी-मिट्टी का कलश</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="चित्रितऔरचमकीलेलेप वाला चीनी-मिट्टी का कलश"></div>
+            <div class="bookCntDiv">
+                <p>कलश की गर्दन पर निरंतर मेअंडर या “ग्रीक की” आकृति वाली अलंकरण-पट्टी बनी हुई है। मुख्य सज्जा में काले,
+                    सफेद और लाल रंगद्रव्यों से किसी पौराणिक अथवा वीरतापूर्ण कथा-दृश्य को दर्शाया गया है। प्रमुख पात्रों
+                    का रंग आधार सामग्री के नारंगी-लाल रंग में ही रखा गया है, जबकि पृष्ठभूमि को घने, चमकदार काले रंग से
+                    भरा गया है। मुख्य आकृति सफेद घोड़े पर सवार एक योद्धा की है, जिसके दाहिने हाथ में भाला है। नीचे एक
+                    सर्पाकार, बहुपाद प्राणी को दर्शाया गया है, जो भाला मारे जाने पर प्रतिक्रिया करता हुआ दिखाई देता है।
+                    बाईं ओर एक अन्य व्यक्ति मशाल हाथ में लिए खड़ा है और इस दृश्य को देख रहा है।</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="malayalam" lang="ml" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: പെയിന്‍റ്ചെയ്തതുംതിളക്കമുള്ളതുമായസെറാമിക്പൂച്ചട്ടി</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="പെയിന്‍റ്ചെയ്തതുംതിളക്കമുള്ളതുമായസെറാമിക്പൂച്ചട്ടി"></div>
+            <div class="bookCntDiv">
+                <p>ഈപോർസലൈൻപൂച്ചട്ടിയുടെകഴുത്തിൽതുടർച്ചയായവളഞ്ഞുപുളഞ്ഞതോ &quot;ഗ്രീക്ക്കീ&quot;
+                    പാറ്റേണോആയബോർഡർചിത്രീകരിച്ചിരിക്കുന്നു. കറുപ്പ്, വെളുപ്പ്,
+                    ചുവപ്പ്നിറങ്ങൾഉപയോഗിച്ച്ഒരുപൗരാണികപുരാണകഥയോവീരഗാഥയോആണ്ഇതിന്‍റെപ്രധാനഅലങ്കാരമായിചിത്രീകരിച്ചിരിക്കുന്നത്.
+                    പ്രധാനകഥാപാത്രങ്ങൾഅടിയിലുള്ളവസ്തുവിന്‍റെഓറഞ്ച്-ചുവപ്പ്നിറത്തിൽതന്നെനിലകൊള്ളുന്നു,
+                    പശ്ചാത്തലംതിളക്കമുള്ളകറുത്തനിറംനൽകിപൂർത്തിയാക്കിയിരിക്കുന്നു.
+                    വലതുകയ്യിൽകുന്തമേന്തിവെള്ളക്കുതിരപ്പുറത്തിരിക്കുന്നഒരുയോദ്ധാവാണ്പ്രധാനകഥാപാത്രം. താഴെയായി,
+                    കുന്തംകുത്തിയിറക്കപ്പെടുന്നതിൽപരിക്കേറ്റ്പ്രതികരിക്കുന്നപാമ്പിന്‍റെരൂപത്തിലുള്ള,
+                    നിരവധികാലുകളുള്ളഒരുജീവിയെചിത്രീകരിച്ചിരിക്കുന്നു. ഇടതുവശത്തായി,
+                    പന്തംപിടിച്ചുകൊണ്ട്ഈരംഗംനോക്കിനിൽക്കുന്നമറ്റൊരുരൂപവുമുണ്ട്.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="tamil" lang="ta" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: வர்ணம்பூசப்பட்டமற்றும்மெருகூட்டப்பட்டபீங்கான்குவளை</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="வர்ணம்பூசப்பட்டமற்றும்மெருகூட்டப்பட்டபீங்கான்குவளை"></div>
+            <div class="bookCntDiv">
+                <p>இந்த பீங்கான் குவளையின் கழுத்துப் பகுதியில், தொடர்ச்சியான வளைவு அல்லது &quot;கிரேக்க சாவி&quot;
+                    வடிவத்தில் விளிம்பு சித்தரிக்கப்பட்டுள்ளது. இதன் முதன்மை அலங்காரத்தில், கருப்பு, வெள்ளை மற்றும்
+                    சிவப்பு வண்ணங்களில் ஒரு புராண அல்லது வீர காவியக் காட்சி சித்தரிக்கப்பட்டுள்ளது. முக்கிய
+                    கதாபாத்திரங்கள், அதன் அடிப்பகுதியில் உள்ள பொருளின் ஆரஞ்சு-சிவப்பு நிறத்திலேயே இருக்கின்றன, மேலும்
+                    பின்னணி அடர்த்தியான, பளபளப்பான கருப்பு நிறத்தால் நிரப்பப்பட்டுள்ளது. முக்கிய உருவமாக வெள்ளை நிறக்
+                    குதிரையின் மீது அமர்ந்திருக்கும் ஒரு வீரர் காணப்படுகிறார். குவளையின் அடிப்பகுதியில், ஈட்டியால்
+                    குத்தப்பட்டதற்கு எதிர்வினையாற்றும் ஒரு பாம்பு போன்ற, பல கால்கள் கொண்டஒரு உயிரினம் காட்டப்பட்டுள்ளது.
+                    இடதுபுறத்தில், மற்றொரு உருவம் ஒரு தீப்பந்தத்தை ஏந்தியபடி காட்சியைக் கவனித்துக் கொண்டிருக்கிறது. .
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="urdu" lang="ur" dir="rtl" style="display:none">
+            <h2 class="cntHdng">LX-472: رنگین اور ملمع شدہ مٹی کا گلدان</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="رنگین اور ملمع شدہ مٹی کا گلدان"></div>
+            <div class="bookCntDiv">
+                <p>یہ چینی مٹی کا گلدان ہے، جس کی گردن کے گرد مسلسل گھومتی ہوئی ’’یونانی کلید‘‘ کے نقش کی پٹی بنی ہوئی
+                    ہے۔ اس کی بنیادی سجاوٹ میں سیاہ، سفید اور سرخ رنگوں سے ایک اساطیری یا بہادری پر مبنی داستانی منظر
+                    پیش کیا گیا ہے۔ گلدان کی اصل نارنجی مائل سرخ رنگت نمایاں رہتی ہے، جبکہ پس منظر کو گہرے، چمک دار سیاہ
+                    رنگ سے بھر دیا گیا ہے۔ مرکزی منظر میں ایک سوار سفید گھوڑے پر بیٹھا ہے اور اس کے دائیں ہاتھ میں نیزہ
+                    ہے۔ بائیں جانب ایک اور شخص ہاتھ میں مشعل لیے کھڑا ہے اور منظر کو دیکھ رہا ہے۔</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="gujarati" lang="gu" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: શીર્ષકઃ પેઇન્ટેડ અને ગ્લેઝ્ડ સિરામિક ફૂલદાની</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="શીર્ષકઃ પેઇન્ટેડ અને ગ્લેઝ્ડ સિરામિક ફૂલદાની"></div>
+            <div class="bookCntDiv">
+                <p>આ પોર્સેલેઇન ફૂલદાનીના ગળાના ભાગ પર સળંગ વળાંકવાળી અથવા &quot;ગ્રીક કી&quot; પેટર્નની કિારી દોરેલી
+                    છે. તેની મુખ્ય સજાવટમાં કાળા, સફેદ અને લાલ રંગના રંગદ્રવ્યો (પિગમેન્ટ્સ) દ્વારા એક પૌરાણિક કે
+                    વીરતાપૂર્ણ કથાનું દ્રશ્ય દર્શાવવામાં આવ્યું છે.મુખ્ય પાત્રો નીચે રહેલી સામગ્રીના કુદરતી નારંગી-લાલ
+                    રંગના છે, જ્યારે તેની પૃષ્ઠભૂમિ (બેકગ્રાઉન્ડ) ગાઢ અને ચમકદાર કાળા રંગથી ભરેલી છે. મુખ્ય આકૃતિ સફેદ
+                    ઘોડા પર સવાર એક નાઈટ (યોદ્ધા) ની છે, જેના જમણા હાથમાં ભાલો છે. સૌથી નીચેના ભાગમાં એક સાપ જેવું, ઘણા
+                    પગવાળું વિચિત્ર જીવ દર્શાવવામાં આવ્યું છે, જે ભાલો વાગવાથી પ્રતિક્રિયા આપી રહ્યું છે. ડાબી બાજુએ,
+                    અન્ય એક આકૃતિ હાથમાં મશાલ પકડીને આ દ્રશ્યનું નિરીક્ષણ કરતી ઊભેલી છે.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="kannada" lang="kn" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: ಶೀರ್ಷಿಕೆಃವರ್ಣರಂಜಿತಮತ್ತುಮೆರುಗುಗೊಳಿಸಲಾದಸೆರಾಮಿಕ್ಹೂದಾನಿ</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="ಶೀರ್ಷಿಕೆಃವರ್ಣರಂಜಿತಮತ್ತುಮೆರುಗುಗೊಳಿಸಲಾದಸೆರಾಮಿಕ್ಹೂದಾನಿ"></div>
+            <div class="bookCntDiv">
+                <p>ಈ ಪಿಂಗಾಣಿ ಹೂದಾನಿಯ ಕತ್ತಿನ ಭಾಗವು ನಿರಂತರವಾಗಿ ಹರಿಯುವ ಶೈಲಿಯ ಅಥವಾ &quot;ಗ್ರೀಕ್ ಕೀ&quot; ಮಾದರಿಯ ಅಂಚಿನ
+                    ವಿನ್ಯಾಸವನ್ನು ಬಿಂಬಿಸುತ್ತದೆ. ಇದರ ಪ್ರಮುಖ ಅಲಂಕಾರವು ಕಪ್ಪು, ಬಿಳಿ ಮತ್ತು ಕೆಂಪು ಬಣ್ಣಗಳಲ್ಲಿ ಪೌರಾಣಿಕ ಅಥವಾ
+                    ಸಾಹಸಮಯ ಕಥಾನಕದ ದೃಶ್ಯವನ್ನು ಬಿಂಬಿಸುತ್ತದೆ. ಮುಖ್ಯ ಪಾತ್ರಗಳು ಮೂಲ ವಸ್ತುವಿನ ಕಿತ್ತಳೆ-ಕೆಂಪು ಬಣ್ಣದಲ್ಲೇ
+                    ಉಳಿದುಕೊಂಡಿದ್ದು, ಹಿನ್ನೆಲೆಯನ್ನು ದಟ್ಟವಾದ, ಹೊಳೆಯುವ ಕಪ್ಪು ಬಣ್ಣದಿಂದ ತುಂಬಿಸಲಾಗಿದೆ. ಪ್ರಮುಖ ಆಕೃತಿಯು ತನ್ನ
+                    ಬಲಗೈಯಲ್ಲಿ ಈಟಿಯನ್ನು ಹಿಡಿದು ಬಿಳಿ ಕುದುರೆಯ ಮೇಲಿರುವ ವೀರನದ್ದಾಗಿದೆ. ತಳಭಾಗದಲ್ಲಿ ಹಾವಿನಂತಿರುವ, ಹಲವು ಕಾಲುಗಳ
+                    ಜೀವಿಯು ಈಟಿಯಿಂದ ಚುಚ್ಚಲ್ಪಟ್ಟಾಗ ಪ್ರತಿಕ್ರಿಯಿಸುವುದನ್ನು ತೋರಿಸಲಾಗಿದೆ. ಎಡಬದಿಯಲ್ಲಿ, ಮತ್ತೊಂದು ಆಕೃತಿಯು
+                    ದೀವಟಿಗೆಯನ್ನು ಹಿಡಿದು ಈ ದೃಶ್ಯವನ್ನು ವೀಕ್ಷಿಸುತ್ತಾ ನಿಂತಿದೆ.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="marathi" lang="mr" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: Painted and Glazed Ceramic Vase</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="Painted and Glazed Ceramic Vase"></div>
+            <div class="bookCntDiv">
+                <p> एलएक्स-472, शीर्षकः रंगीत आणि चमकदार कुंभारकाम फुलदाणी, साहित्यः पोर्सिलेन
+                    पोर्सेलीनफुलदाणीच्यामानेवरसलग&#39;ग्रीककी&#39; पॅटर्नचीकिनारदर्शवलीआहे. मुख्यसजावटीमध्येकाळ्या,
+                    पांढऱ्याआणिलालरंगांमध्येपौराणिककिंवाशौर्यपूर्णवर्णनात्मकदृश्याचेचित्रणआहे.
+                    मुख्यपात्रांचारंगखालीलसाहित्याचानारंगी-लालरंगराहतोआणिपार्श्वभूमीदाट, चमकदारकाळ्यारंगानेभरलेलीआहे.
+                    मुख्यआकृतीउजव्याहातातभालाघेतलेल्यापांढऱ्याघोड्यावरीलएकयोद्धाआहे. तळाशीसापासारखा,
+                    अनेकपायांचाप्राणीभालालागल्यामुळेप्रतिक्रियादेतानादाखवलाआहे. डाव्याबाजूला,
+                    मशालहातातघेऊनहेदृश्यपाहणारीदुसरीआकृतीउभीआहे.</p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="odia" lang="or" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: Painted and Glazed Ceramic Vase</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="Painted and Glazed Ceramic Vase"></div>
+            <div class="bookCntDiv">
+                <p>ଆପଣ ଦେଖୁଥିବା, ଚିନିମାଟିରଏହିଆକର୍ଷଣୀୟଫୁଲଦାନୀଟିର ବେକଭାଗରେପ୍ରାଚୀନ&#39;ଗ୍ରୀକ୍କି&#39;
+                    ପ୍ୟାଟର୍ନ&#39;ରଏକକ୍ରମାଗତରେଖାଚିତ୍ରରହିଛି।ଏହାରମୁଖ୍ୟଭାଗରେକଳା,
+                    ଧଳାଏବଂଲାଲ୍ରଙ୍ଗରେଏକପୌରାଣିକବୀରତ୍ୱରକାହାଣୀଚିତ୍ରିତହୋଇଛି।ଗାଢ଼ଚିକ୍କଣକଳାପୃଷ୍ଠଭୂମିଉପରେମୁଖ୍ୟଚରିତ୍ରଗୁଡ଼ିକୁନାରଙ୍ଗୀ-ଲାଲ୍ରଙ୍ଗରେଦର୍ଶାଯାଇଛି।
+                    ଆପଣଦେଖିପାରିବେ,
+                    ମୁଖ୍ୟଆକୃତିରେଧଳାଘୋଡ଼ାଉପରେସବାରଜଣେଯୋଦ୍ଧାଡାହାଣହାତରେବର୍ଚ୍ଛାଧରିତଳେଥିବାଏକବହୁ-ପାଦବିଶିଷ୍ଟସର୍ପାକୃତିଜୀବକୁଆକ୍ରମଣକରୁଛନ୍ତିଏବଂବାମଭାଗରେଅନ୍ୟଜଣେବ୍ୟକ୍ତିମଶାଲଧରିଏହିଦୃଶ୍ୟକୁଲକ୍ଷ୍ୟକରୁଛନ୍ତି।
+                </p>
+            </div>
+        </section>
+        <section class="bookContentDiv langCnt" id="telugu" lang="te" dir="ltr" style="display:none">
+            <h2 class="cntHdng">LX-472: పెయింటెడ్ మరియు గ్లేజ్డ్ సిరామిక్ జాడీ</h2>
+            <div class="booImgDiv"><img src="Images/European gallery item no8.png"
+                    alt="పెయింటెడ్ మరియు గ్లేజ్డ్ సిరామిక్ జాడీ"></div>
+            <div class="bookCntDiv">
+                <p>ఈ పోర్సిలిన్ జాడీ మెడ భాగం చుట్టూ నిరంతర "గ్రీక్ కీ" నమూనా అంచు ఉంది. దీని ప్రధాన ఉపరితలంపై నలుపు,
+                    తెలుపు మరియు ఎరుపు వర్ణాలతో ఒక పౌరాణిక లేదా వీరోచిత గాథా దృశ్యం చిత్రీకరించబడింది. ప్రధాన జాడీలు సహజ
+                    నారింజ-ఎరుపు రంగులో ఉండగా, నేపథ్యం దట్టమైన నిగనిగలాడే నలుపు రంగుతో నింపబడింది. ప్రధాన రూపంగా తెల్లటి
+                    గుర్రంపై చేతిలో ఈటె పట్టుకున్న ఒక యోధుడు (నైట్) కనిపిస్తాడు. అడుగు భాగంలో ఈటె దెబ్బకు
+                    ప్రతిస్పందిస్తున్న పాము వంటి, అనేక కాళ్లు కలిగిన ఒక విచిత్ర జీవి ఉంది. ఎడమ వైపున మరొక వ్యక్తి దివిటీ
+                    (టార్చ్) పట్టుకుని ఈ దృశ్యాన్ని గమనిస్తూ నిలబడి ఉన్నాడు.</p>
+            </div>
+        </section>
+
+        <div class="navBtnDiv"><a href="item7.html" class="navBtn">Previous Item</a><a href="index.html"
+                class="navBtn">Back to Gallery Overview</a><a href="item9.html" class="navBtn">Next Item</a></div>
+    </main>
+    <footer>
+        <p>(c) 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+                rel="noreferrer">Anuvadini AI</a></p>
+    </footer>
+    <script>const selector = document.getElementById('languageSelector'); const player = document.getElementById('languageAudio'); const audioMap = [{ "id": "english", "src": "Audio/English/8.%20Painted%20and%20glazed%20ceramic%20vase.wav" }, { "id": "bengali", "src": "Audio/Bengali/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase.wav" }, { "id": "hindi", "src": "Audio/Hindi/8.%20%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%A4%20%E0%A4%94%E0%A4%B0%20%E0%A4%9A%E0%A4%AE%E0%A4%95%E0%A5%80%E0%A4%B2%E0%A5%87%20%E0%A4%B2%E0%A5%87%E0%A4%AA%20%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A4%BE%20%E0%A4%9A%E0%A5%80%E0%A4%A8%E0%A5%80-%E0%A4%AE%E0%A4%BF%E0%A4%9F%E0%A5%8D%E0%A4%9F%E0%A5%80%20%E0%A4%95%E0%A4%BE%20%E0%A4%95%E0%A4%B2%E0%A4%B6.wav" }, { "id": "malayalam", "src": "Audio/Malayalam/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase%20%2C%20Material%20Porcelain.wav" }, { "id": "tamil", "src": "Audio/Tamil/8.%20Painted%20and%20glazed%20ceramic%20vase%20_ta.wav" }, { "id": "urdu", "src": "Audio/Urdu/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase%20%2C%20Material%20Porcelain.wav" }, { "id": "gujarati", "src": "Audio/Gujarati/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase%20%2C%20Material%20Porcelain.wav" }, { "id": "kannada", "src": "Audio/Kannada/Acc.%20No%20%20LX-472%20%2C%20Title%20Painted%20and%20glazed%20ceramic%20vase.wav" }, { "id": "marathi", "src": "Audio/Marathi/Painted%20and%20glazed%20ceramic%20vase.wav" }, { "id": "odia", "src": "Audio/Odia/8.%20Acc.%20No%20%20LX-472%20%2C%20Painted%20and%20glazed%20ceramic%20vase%20%2C.wav" }, { "id": "telugu", "src": "Audio/Telugu/Telugu_LX-472_Female.wav" }]; function changeLanguage(lang) { document.querySelectorAll('.langCnt').forEach(el => el.style.display = el.id === lang ? 'block' : 'none'); const source = audioMap.find(item => item.id === lang) || audioMap[0]; player.src = source && source.src ? encodeURI(decodeURIComponent(source.src)) : ''; if (player.src) player.load(); } selector.addEventListener('change', () => changeLanguage(selector.value)); changeLanguage(selector.value || 'english');</script>

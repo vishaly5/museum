@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./Images/logo-moc.png" onerror="this.onerror=null; this.src='./Images/logo.png';" alt="Ministry of Culture">
+            <img src="./Images/logo-moc.png" onerror="this.onerror=null; this.src='./Images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -112,122 +123,220 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/2.%20%E0%A4%91%E0%A4%97%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B8%20%E0%A4%B8%E0%A5%80%E0%A4%9C%E0%A4%BC%E0%A4%B0.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available. Playing default audio.</p>
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation / ऑडियो विवरण:
+        </p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/2.%20%E0%A4%91%E0%A4%97%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B8%20%E0%A4%B8%E0%A5%80%E0%A4%9C%E0%A4%BC%E0%A4%B0.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available. Playing default audio.</p>
       </div>
     </div>
 
-    
+
     <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
-      <h2 class="cntHdng" >2. LXXI-194: ऑगस्टस सीज़र (LXXI - 194)</h2>
+      <h2 class="cntHdng">2. LXXI-194: ऑगस्टस सीज़र (LXXI - 194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ऑगस्टस सीज़र (LXXI - 194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ऑगस्टस सीज़र (LXXI - 194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">यह प्रतिमा ऑगस्टस सीज़र को दर्शाती है, जो रोमन साम्राज्य के प्रथम सम्राट थे। उन्होंने 27 ईसा पूर्व से 14 ईस्वी तक शासन किया। कई वर्षों तक चले युद्धों के बाद रोम में शांति और स्थिरता स्थापित करने के लिए उन्हें याद किया जाता है। वे एक शक्तिशाली शासक, कुशल राजनीतिज्ञ और सशक्त सैन्य नेता थे। ऑगस्टस को आत्मविश्वास के साथ खड़े हुए दर्शाया गया है। उन्होंने चमड़े का कवच धारण किया है, जो रोमन सेना के सेनापति के रूप में उनकी भूमिका को दर्शाता है। उनका उठा हुआ दाहिना हाथ अधिकार और नेतृत्व का प्रतीक है। उनके पैर के पास बनी एक छोटी बालक की आकृति क्यूपिड (प्रेम के देवता) को दर्शाती है। यह ऑगस्टस के देवी वीनस से संबंध को स्थापित करती है तथा उनकी दैवी उत्पत्ति और शासन करने के अधिकार का प्रतीक है। यह प्रतिमा शक्ति, व्यवस्था और नेतृत्व से संबंधित रोमन विचारों को प्रतिबिंबित करती है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह प्रतिमा ऑगस्टस सीज़र को दर्शाती है, जो रोमन
+          साम्राज्य के प्रथम सम्राट थे। उन्होंने 27 ईसा पूर्व से 14 ईस्वी तक शासन किया। कई वर्षों तक चले युद्धों के बाद
+          रोम में शांति और स्थिरता स्थापित करने के लिए उन्हें याद किया जाता है। वे एक शक्तिशाली शासक, कुशल राजनीतिज्ञ और
+          सशक्त सैन्य नेता थे। ऑगस्टस को आत्मविश्वास के साथ खड़े हुए दर्शाया गया है। उन्होंने चमड़े का कवच धारण किया है,
+          जो रोमन सेना के सेनापति के रूप में उनकी भूमिका को दर्शाता है। उनका उठा हुआ दाहिना हाथ अधिकार और नेतृत्व का
+          प्रतीक है। उनके पैर के पास बनी एक छोटी बालक की आकृति क्यूपिड (प्रेम के देवता) को दर्शाती है। यह ऑगस्टस के देवी
+          वीनस से संबंध को स्थापित करती है तथा उनकी दैवी उत्पत्ति और शासन करने के अधिकार का प्रतीक है। यह प्रतिमा शक्ति,
+          व्यवस्था और नेतृत्व से संबंधित रोमन विचारों को प्रतिबिंबित करती है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="english" style="display: none;">
-      <h2 class="cntHdng" >2. Augustus Caesar (LXXI - 194)</h2>
+      <h2 class="cntHdng">2. Augustus Caesar (LXXI - 194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. Augustus Caesar (LXXI - 194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. Augustus Caesar (LXXI - 194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">This statue represents Augustus Caesar, the first Emperor of the Roman Empire. He ruled from 27 BC to AD 14 and is remembered for bringing peace and stability to Rome after many years of war. He was a powerful ruler, a skilled politician, and a strong military leader. Augustus is shown standing confidently, wearing a leather armour that shows his role as a commander of the Roman army. His raised right arm shows authority and leadership. A small child figure near his leg represents Cupid, linking Augustus to the goddess Venus and symbolizing his divine origin and right to rule. The statue reflects Roman ideas of strength, order, and leadership.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This statue represents Augustus Caesar, the
+          first Emperor of the Roman Empire. He ruled from 27 BC to AD 14 and is remembered for bringing peace and
+          stability to Rome after many years of war. He was a powerful ruler, a skilled politician, and a strong
+          military leader. Augustus is shown standing confidently, wearing a leather armour that shows his role as a
+          commander of the Roman army. His raised right arm shows authority and leadership. A small child figure near
+          his leg represents Cupid, linking Augustus to the goddess Venus and symbolizing his divine origin and right to
+          rule. The statue reflects Roman ideas of strength, order, and leadership.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
-      <h2 class="cntHdng" >2. LXXI-194: ఆగస్టస్ సీజర్ (Augustus Caesar)</h2>
+      <h2 class="cntHdng">2. LXXI-194: ఆగస్టస్ సీజర్ </h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ఆగస్టస్ సీజర్ (Augustus Caesar)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ఆగస్టస్ సీజర్"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ఈ కాంస్య విగ్రహం రోమన్ సామ్రాజ్య మొదటి చక్రవర్తి ఆగస్టస్ సీజర్‌ను సూచిస్తుంది (క్రీ.పూ. 27 నుండి క్రీ.శ. 14 వరకు పాలన). ఆయన గౌరవప్రదమైన రాజఠీవి మరియు రోమన్ శిల్పకళా వైభవం ఇందులో ప్రతిబింబిస్తాయి.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;"> ఈ కాంస్య శిల్పం రోమన్ సామ్రాజ్యపు మొట్టమొదటి
+          చక్రవర్తి అయిన అగస్టస్ సీజర్‌ను సూచిస్తుంది. ఆయన క్రీస్తుపూర్వం 27 నుండి క్రీస్తుశకం 14 వరకు పాలించి, ఎన్నో
+          ఏళ్ల అంతర్యుద్ధాల తర్వాత రోమ్‌కు శాంతిభద్రతలను, స్థిరత్వాన్ని చేకూర్చిన పాలకుడిగా గుర్తింపు పొందారు. ఆయన ఒక
+          బలమైన పాలకుడు, సమర్థుడైన రాజకీయవేత్త మరియు అజేయమైన సైనిక నాయకుడు. రోమన్ సైన్యాధిపతి పాత్రను ప్రతిబింబిస్తూ,
+          తోలు కవచాన్ని ధరించి ఆత్మవిశ్వాసంతో నిలబడిన భంగిమలో అగస్టస్ ఇక్కడ కనిపిస్తాడు. పైకెత్తిన ఆయన కుడి చేయి
+          నాయకత్వానికి, అధికారానికి ప్రతీకగా నిలుస్తుంది. ఆయన పాదాల చెంత ఉన్న చిన్న శిశువు రూపం 'క్యూపిడ్' (మన్మథుని
+          వంటి ప్రేమ దేవత); ఇది అగస్టస్‌కు వీనస్ దేవతతో ఉన్న అనుబంధాన్ని, తద్వారా ఆయన దైవసంభూతుడని మరియు పాలించే దైవిక
+          హక్కు కలవాడని చాటుతుంది. ఈ విగ్రహం బలం, క్రమశిక్షణ మరియు నాయకత్వానికి సంబంధించిన రోమన్ ఆదర్శాలను
+          వ్యక్తీకరిస్తుంది.
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
-      <h2 class="cntHdng" >2. LXXI-194: அகஸ்டஸ் சீசர் (LXXI-194)</h2>
+      <h2 class="cntHdng">2. LXXI-194: அகஸ்டஸ் சீசர் (LXXI-194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: அகஸ்டஸ் சீசர் (LXXI-194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: அகஸ்டஸ் சீசர் (LXXI-194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">இந்தச் சிலை, ரோமப் பேரரசின் முதல் பேரரசரான அகஸ்டஸ் சீசரைக் குறிக்கிறது. இவர் கி.மு. 27 முதல் கி.பி. 14 வரை ஆட்சி செய்தார். பல ஆண்டுகளாக நடைபெற்ற போர்களுக்குப் பிறகு ரோமில் அமைதியையும் நிலைத்தன்மையையும் ஏற்படுத்தியதற்காக இவர் நினைவுகூரப்படுகிறார். இவர் ஒரு வலிமையான ஆட்சியாளராகவும், திறமையான அரசியல்வாதியாகவும், சிறந்த இராணுவத் தலைவராகவும் விளங்கினார். ரோம இராணுவத்தின் தளபதியாக தனது நிலையைக் காட்டும் வகையில், அகஸ்டஸ் தோல் கவசம் அணிந்து நம்பிக்கையுடன் நிற்பது போல் காட்டப்பட்டுள்ளார். அவரது உயர்த்தப்பட்ட வலது கை அதிகாரத்தையும் தலைமைத்துவத்தையும் வெளிப்படுத்துகிறது. அவரது காலருகே காணப்படும் சிறிய குழந்தை உருவம் கியூபிட் எனப்படுகிறது. இது அகஸ்டஸை வீனஸ் தேவதையுடன் இணைத்து, அவரது தெய்வீகத் தோற்றத்தையும் ஆட்சி செய்யும் உரிமையையும் குறிக்கிறது. இந்தச் சிலை ரோமானியர்களின் வலிமை, ஒழுங்கு மற்றும் தலைமைத்துவக் கருத்துகளை வெளிப்படுத்துகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இந்தச் சிலை, ரோமப் பேரரசின் முதல் பேரரசரான
+          அகஸ்டஸ் சீசரைக் குறிக்கிறது. இவர் கி.மு. 27 முதல் கி.பி. 14 வரை ஆட்சி செய்தார். பல ஆண்டுகளாக நடைபெற்ற
+          போர்களுக்குப் பிறகு ரோமில் அமைதியையும் நிலைத்தன்மையையும் ஏற்படுத்தியதற்காக இவர் நினைவுகூரப்படுகிறார். இவர் ஒரு
+          வலிமையான ஆட்சியாளராகவும், திறமையான அரசியல்வாதியாகவும், சிறந்த இராணுவத் தலைவராகவும் விளங்கினார். ரோம
+          இராணுவத்தின் தளபதியாக தனது நிலையைக் காட்டும் வகையில், அகஸ்டஸ் தோல் கவசம் அணிந்து நம்பிக்கையுடன் நிற்பது போல்
+          காட்டப்பட்டுள்ளார். அவரது உயர்த்தப்பட்ட வலது கை அதிகாரத்தையும் தலைமைத்துவத்தையும் வெளிப்படுத்துகிறது. அவரது
+          காலருகே காணப்படும் சிறிய குழந்தை உருவம் கியூபிட் எனப்படுகிறது. இது அகஸ்டஸை வீனஸ் தேவதையுடன் இணைத்து, அவரது
+          தெய்வீகத் தோற்றத்தையும் ஆட்சி செய்யும் உரிமையையும் குறிக்கிறது. இந்தச் சிலை ரோமானியர்களின் வலிமை, ஒழுங்கு
+          மற்றும் தலைமைத்துவக் கருத்துகளை வெளிப்படுத்துகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
-      <h2 class="cntHdng" >2. LXXI-194: ऑगस्टस सीझर (एलएक्सएक्सआय-194)</h2>
+      <h2 class="cntHdng">2. LXXI-194: ऑगस्टस सीझर (एलएक्सएक्सआय-194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ऑगस्टस सीझर (एलएक्सएक्सआय-194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ऑगस्टस सीझर (एलएक्सएक्सआय-194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">हा पुतळा रोमन साम्राज्याचे पहिले सम्राट ऑगस्टस सीझर यांचे प्रतिनिधित्व करतो. त्यांनी इसवी सन पूर्व सत्तावीस ते इसवी सन चौदा पर्यंत राज्य केले आणि अनेक वर्षांच्या युद्धानंतर रोममध्ये शांतता आणि स्थिरता आणल्याबद्दल त्यांना स्मरण केले जाते. ते एक शक्तिशाली शासक, कुशल राजकारणी आणि खंदे लष्करी नेते होते. रोमन लष्कराचे कमांडर म्हणून त्यांची भूमिका दर्शवणारे चामड्याचे चिलखत घालून ऑगस्टस यांना आत्मविश्वासाने उभे असलेले दाखवले आहे. त्यांचा उंचावलेला उजवा हात अधिकार आणि नेतृत्व दर्शवतो. त्यांच्या पायाजवळ असलेली एका लहान मुलाची आकृती क्युपिडचे प्रतिनिधित्व करते, जी ऑगस्टस यांना व्हीनस देवीशी जोडते आणि त्यांच्या दैवी उत्पत्तीचे व राज्य करण्याच्या अधिकाराचे प्रतीक आहे. हा पुतळा शक्ती, सुव्यवस्था आणि नेतृत्वाच्या रोमन कल्पनांचे प्रतिबिंबित करतो.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">हा पुतळा रोमन साम्राज्याचे पहिले सम्राट ऑगस्टस
+          सीझर यांचे प्रतिनिधित्व करतो. त्यांनी इसवी सन पूर्व सत्तावीस ते इसवी सन चौदा पर्यंत राज्य केले आणि अनेक
+          वर्षांच्या युद्धानंतर रोममध्ये शांतता आणि स्थिरता आणल्याबद्दल त्यांना स्मरण केले जाते. ते एक शक्तिशाली शासक,
+          कुशल राजकारणी आणि खंदे लष्करी नेते होते. रोमन लष्कराचे कमांडर म्हणून त्यांची भूमिका दर्शवणारे चामड्याचे चिलखत
+          घालून ऑगस्टस यांना आत्मविश्वासाने उभे असलेले दाखवले आहे. त्यांचा उंचावलेला उजवा हात अधिकार आणि नेतृत्व
+          दर्शवतो. त्यांच्या पायाजवळ असलेली एका लहान मुलाची आकृती क्युपिडचे प्रतिनिधित्व करते, जी ऑगस्टस यांना व्हीनस
+          देवीशी जोडते आणि त्यांच्या दैवी उत्पत्तीचे व राज्य करण्याच्या अधिकाराचे प्रतीक आहे. हा पुतळा शक्ती, सुव्यवस्था
+          आणि नेतृत्वाच्या रोमन कल्पनांचे प्रतिबिंबित करतो.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
-      <h2 class="cntHdng" >2. LXXI-194: അഗസ്റ്റസ് സീസർ (LXXI-194)</h2>
+      <h2 class="cntHdng">2. LXXI-194: അഗസ്റ്റസ് സീസർ (LXXI-194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: അഗസ്റ്റസ് സീസർ (LXXI-194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: അഗസ്റ്റസ് സീസർ (LXXI-194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">റോമാസാമ്രാജ്യത്തിലെ ആദ്യത്തെ ചക്രവർത്തിയായ അഗസ്റ്റസ് സീസറിനെ പ്രതിനിധീകരിക്കുന്നതാണ് ഈ പ്രതിമ. ക്രി.മു. 27 മുതൽ ക്രി.വ. 14 വരെ ഭരണത്തിലിരുന്ന അദ്ദേഹം, വർഷങ്ങളോളം നീണ്ട യുദ്ധങ്ങൾക്ക് ശേഷം റോമിൽ സമാധാനവും സ്ഥിരതയും കൊണ്ടുവന്നതിന്റെ പേരിൽ ഓർമ്മിക്കപ്പെടുന്നു. അദ്ദേഹം ശക്തനായ ഭരണാധികാരിയും പ്രഗത്ഭനായ രാഷ്ട്രീയ പ്രതിനിധിയും ശക്തനായ സൈന്യാധിപനുമായിരുന്നു. റോമൻ സൈന്യത്തിന്റെ കമാൻഡർ എന്ന അദ്ദേഹത്തിന്റെ പങ്ക് വ്യക്തമാക്കുന്ന തുകൽ കവചം ധരിച്ചുകൊണ്ട്, ആത്മവിശ്വാസത്തോടെ നിൽക്കുന്ന രീതിയിലാണ് അഗസ്റ്റസിനെ ചിത്രീകരിച്ചിരിക്കുന്നത്. ഉയർത്തിയ അദ്ദേഹത്തിന്റെ വലതു കൈ അധികാരത്തെയും നേതൃത്വത്തെയും കാണിക്കുന്നു. അദ്ദേഹത്തിന്റെ കാലിനടുത്തുള്ള ഒരു ചെറിയ കുട്ടിയുടെ രൂപം ക്യൂപിഡിനെ പ്രതിനിധീകരിക്കുന്നു; ഇത് അഗസ്റ്റസിനെ വീനസ് ദേവതയുമായി ബന്ധിപ്പിക്കുകയും അദ്ദേഹത്തിന്റെ ദിവ്യമായ ഉത്ഭവത്തെയും ഭരണത്തിനുള്ള അവകാശത്തെയും പ്രതീകപ്പെടുത്തുകയും ചെയ്യുന്നു. ഈ പ്രതിഫലനം റോമൻ ശക്തിയുടെയും ക്രമത്തിന്റെയും നേതൃത്വത്തിന്റെയും ആശയങ്ങളെ പ്രതിഫലിപ്പിക്കുന്നു.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">റോമാസാമ്രാജ്യത്തിലെ ആദ്യത്തെ ചക്രവർത്തിയായ
+          അഗസ്റ്റസ് സീസറിനെ പ്രതിനിധീകരിക്കുന്നതാണ് ഈ പ്രതിമ. ക്രി.മു. 27 മുതൽ ക്രി.വ. 14 വരെ ഭരണത്തിലിരുന്ന അദ്ദേഹം,
+          വർഷങ്ങളോളം നീണ്ട യുദ്ധങ്ങൾക്ക് ശേഷം റോമിൽ സമാധാനവും സ്ഥിരതയും കൊണ്ടുവന്നതിന്റെ പേരിൽ ഓർമ്മിക്കപ്പെടുന്നു.
+          അദ്ദേഹം ശക്തനായ ഭരണാധികാരിയും പ്രഗത്ഭനായ രാഷ്ട്രീയ പ്രതിനിധിയും ശക്തനായ സൈന്യാധിപനുമായിരുന്നു. റോമൻ
+          സൈന്യത്തിന്റെ കമാൻഡർ എന്ന അദ്ദേഹത്തിന്റെ പങ്ക് വ്യക്തമാക്കുന്ന തുകൽ കവചം ധരിച്ചുകൊണ്ട്, ആത്മവിശ്വാസത്തോടെ
+          നിൽക്കുന്ന രീതിയിലാണ് അഗസ്റ്റസിനെ ചിത്രീകരിച്ചിരിക്കുന്നത്. ഉയർത്തിയ അദ്ദേഹത്തിന്റെ വലതു കൈ അധികാരത്തെയും
+          നേതൃത്വത്തെയും കാണിക്കുന്നു. അദ്ദേഹത്തിന്റെ കാലിനടുത്തുള്ള ഒരു ചെറിയ കുട്ടിയുടെ രൂപം ക്യൂപിഡിനെ
+          പ്രതിനിധീകരിക്കുന്നു; ഇത് അഗസ്റ്റസിനെ വീനസ് ദേവതയുമായി ബന്ധിപ്പിക്കുകയും അദ്ദേഹത്തിന്റെ ദിവ്യമായ ഉത്ഭവത്തെയും
+          ഭരണത്തിനുള്ള അവകാശത്തെയും പ്രതീകപ്പെടുത്തുകയും ചെയ്യുന്നു. ഈ പ്രതിഫലനം റോമൻ ശക്തിയുടെയും ക്രമത്തിന്റെയും
+          നേതൃത്വത്തിന്റെയും ആശയങ്ങളെ പ്രതിഫലിപ്പിക്കുന്നു.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
-      <h2 class="cntHdng" >2. ಆಗಸ್ಟಸ್ ಸೀಸರ್ (LXXI - 194)</h2>
+      <h2 class="cntHdng">2. ಆಗಸ್ಟಸ್ ಸೀಸರ್ (LXXI - 194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. ಆಗಸ್ಟಸ್ ಸೀಸರ್ (LXXI - 194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. ಆಗಸ್ಟಸ್ ಸೀಸರ್ (LXXI - 194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ಈ ಪ್ರತಿಮೆಯು ರೋಮನ್ ಸಾಮ್ರಾಜ್ಯದ ಮೊದಲ ಚಕ್ರವರ್ತಿಯಾದ ಆಗಸ್ಟಸ್ ಸೀಸರ್ ಅವರನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಇವರು ಕ್ರಿ.ಪೂ. 27 ರಿಂದ ಕ್ರಿ.ಶ. 14 ರವರೆಗೆ ಆಡಳಿತ ನಡೆಸಿದರು ಮತ್ತು ಅನೇಕ ವರ್ಷಗಳ ಯುದ್ಧದ ನಂತರ ರೋಮ್‌ಗೆ ಶಾಂತಿ ಹಾಗೂ ಸ್ಥಿರತೆಯನ್ನು ತಂದಿದ್ದಕ್ಕಾಗಿ ಸ್ಮರಿಸಲ್ಪಡುತ್ತಾರೆ. ಇವರು ಶಕ್ತಿಯುತ ಆಡಳಿತಗಾರ, ನುರಿತ ರಾಜಕಾರಣಿ ಮತ್ತು ಪ್ರಬಲ ಮಿಲಿಟರಿ ನಾಯಕರಾಗಿದ್ದರು. ಆಗಸ್ಟಸ್ ರೋಮನ್ ಸೈನ್ಯದ ದಂಡನಾಯಕನಾಗಿ ತಮ್ಮ ಪಾತ್ರವನ್ನು ತೋರಿಸುವ ಚರ್ಮದ ರಕ್ಷಾಕವಚವನ್ನು ಧರಿಸಿ, ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ನಿಂತಿರುವುದನ್ನು ತೋರಿಸಲಾಗಿದೆ. ಇವರ ಎತ್ತಿದ ಬಲಗೈ ಅಧಿಕಾರ ಮತ್ತು ನಾಯಕತ್ವವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ಇವರ ಕಾಲಿನ ಬಳಿ ಇರುವ ಸಣ್ಣ ಮಗುವಿನ ಆಕೃತಿಯು ಕ್ಯೂಪಿಡ್ ಅನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ; ಇದು ಆಗಸ್ಟಸ್ ಅವರನ್ನು ವೀನಸ್ ದೇವತೆಗೆ ಸಂಯೋಜಿಸುತ್ತದೆ ಮತ್ತು ಅವರ ದೈವಿಕ ಮೂಲ ಹಾಗೂ ಆಳುವ ಹಕ್ಕನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ. ಈ ಪ್ರತಿಮೆಯು ರೋಮನ್ನರ ಶಕ್ತಿ, ಸುವ್ಯವಸ್ಥೆ ಮತ್ತು ನಾಯಕತ್ವದ ಕಲ್ಪನೆಗಳನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಈ ಪ್ರತಿಮೆಯು ರೋಮನ್ ಸಾಮ್ರಾಜ್ಯದ ಮೊದಲ ಚಕ್ರವರ್ತಿಯಾದ
+          ಆಗಸ್ಟಸ್ ಸೀಸರ್ ಅವರನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಇವರು ಕ್ರಿ.ಪೂ. 27 ರಿಂದ ಕ್ರಿ.ಶ. 14 ರವರೆಗೆ ಆಡಳಿತ ನಡೆಸಿದರು ಮತ್ತು ಅನೇಕ
+          ವರ್ಷಗಳ ಯುದ್ಧದ ನಂತರ ರೋಮ್‌ಗೆ ಶಾಂತಿ ಹಾಗೂ ಸ್ಥಿರತೆಯನ್ನು ತಂದಿದ್ದಕ್ಕಾಗಿ ಸ್ಮರಿಸಲ್ಪಡುತ್ತಾರೆ. ಇವರು ಶಕ್ತಿಯುತ ಆಡಳಿತಗಾರ,
+          ನುರಿತ ರಾಜಕಾರಣಿ ಮತ್ತು ಪ್ರಬಲ ಮಿಲಿಟರಿ ನಾಯಕರಾಗಿದ್ದರು. ಆಗಸ್ಟಸ್ ರೋಮನ್ ಸೈನ್ಯದ ದಂಡನಾಯಕನಾಗಿ ತಮ್ಮ ಪಾತ್ರವನ್ನು ತೋರಿಸುವ
+          ಚರ್ಮದ ರಕ್ಷಾಕವಚವನ್ನು ಧರಿಸಿ, ಆತ್ಮವಿಶ್ವಾಸದಿಂದ ನಿಂತಿರುವುದನ್ನು ತೋರಿಸಲಾಗಿದೆ. ಇವರ ಎತ್ತಿದ ಬಲಗೈ ಅಧಿಕಾರ ಮತ್ತು
+          ನಾಯಕತ್ವವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ಇವರ ಕಾಲಿನ ಬಳಿ ಇರುವ ಸಣ್ಣ ಮಗುವಿನ ಆಕೃತಿಯು ಕ್ಯೂಪಿಡ್ ಅನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ; ಇದು
+          ಆಗಸ್ಟಸ್ ಅವರನ್ನು ವೀನಸ್ ದೇವತೆಗೆ ಸಂಯೋಜಿಸುತ್ತದೆ ಮತ್ತು ಅವರ ದೈವಿಕ ಮೂಲ ಹಾಗೂ ಆಳುವ ಹಕ್ಕನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ. ಈ ಪ್ರತಿಮೆಯು
+          ರೋಮನ್ನರ ಶಕ್ತಿ, ಸುವ್ಯವಸ್ಥೆ ಮತ್ತು ನಾಯಕತ್ವದ ಕಲ್ಪನೆಗಳನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="odia" style="display: none;">
-      <h2 class="cntHdng" >2. ଅଗଷ୍ଟସ୍ ସିଜର (LXXI - 194)</h2>
+      <h2 class="cntHdng">2. ଅଗଷ୍ଟସ୍ ସିଜର (LXXI - 194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. ଅଗଷ୍ଟସ୍ ସିଜର (LXXI - 194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. ଅଗଷ୍ଟସ୍ ସିଜର (LXXI - 194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">ରୋମାନ୍ ସାମ୍ରାଜ୍ୟର ପ୍ରଥମ ସମ୍ରାଟ ଅଗଷ୍ଟସ୍ ସିଜରଙ୍କ ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟିକୁ ଦେଖନ୍ତୁ। ସେ ଖ୍ରୀଷ୍ଟପୂର୍ବ ୨୭ ରୁ ଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୪ ପର୍ଯ୍ୟନ୍ତ ଶାସନ କରିଥିଲେ ଏବଂ ଦୀର୍ଘ ବର୍ଷର ଯୁଦ୍ଧ ପରେ ରୋମ୍‌ରେ ଶାନ୍ତି ଓ ସ୍ଥିରତା ଆଣିଥିବାରୁ ତାଙ୍କୁ ସ୍ମରଣ କରାଯାଏ। ସେ ଜଣେ ଶକ୍ତିଶାଳୀ ଶାସକ, ଦକ୍ଷ ରାଜନେତା ଏବଂ ସମର୍ଥ ସାମରିକ ନେତା ଥିଲେ। ଏହି ପ୍ରତିମୂର୍ତ୍ତିରେ ଆପଣ ଦେଖିପାରିବେ, ଅଗଷ୍ଟସ୍ ଅତ୍ୟନ୍ତ ଆତ୍ମବିଶ୍ୱାସର ସହ ଛିଡ଼ା ହୋଇଛନ୍ତି ଏବଂ ଚମଡ଼ାରେ ତିଆରି ଏକ ବର୍ମ୍ ପିନ୍ଧିଛନ୍ତି, ଯାହା ରୋମାନ୍ ସେନାର ସେନାପତି ଭାବରେ ତାଙ୍କର ଭୂମିକାକୁ ଦର୍ଶାଉଛି। ତାଙ୍କର ଉପରକୁ ଉଠିଥିବା ଡାହାଣ ହାତ କ୍ଷମତା ଏବଂ ନେତୃତ୍ୱର ସୂଚନା ଦିଏ। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ତାଙ୍କ ଗୋଡ଼ ପାଖରେ ଥିବା ଏକ କ୍ଷୁଦ୍ର ଶିଶୁ ଆକୃତି 'କ୍ୟୁପିଡ୍'କୁ ଦର୍ଶାଏ। ଏହା ଅଗଷ୍ଟସ୍‌ଙ୍କୁ ଦେବୀ ଭେନସ୍‌ଙ୍କ ସହ ଯୋଡ଼ିବା ସହ ତାଙ୍କର ଦୈବୀ ଉତ୍ପତ୍ତି ତଥା ଶାସନ କରିବାର ଅଧିକାରକୁ ସୂଚାଏ। ସାମଗ୍ରିକ ଭାବେ ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟି ଶକ୍ତି, ଶୃଙ୍ଖଳା ଏବଂ ନେତୃତ୍ୱର ରୋମାନ୍ ଆଦର୍ଶକୁ ପ୍ରତିଫଳିତ କରେ।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ରୋମାନ୍ ସାମ୍ରାଜ୍ୟର ପ୍ରଥମ ସମ୍ରାଟ ଅଗଷ୍ଟସ୍ ସିଜରଙ୍କ
+          ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟିକୁ ଦେଖନ୍ତୁ। ସେ ଖ୍ରୀଷ୍ଟପୂର୍ବ ୨୭ ରୁ ଖ୍ରୀଷ୍ଟାବ୍ଦ ୧୪ ପର୍ଯ୍ୟନ୍ତ ଶାସନ କରିଥିଲେ ଏବଂ ଦୀର୍ଘ ବର୍ଷର
+          ଯୁଦ୍ଧ ପରେ ରୋମ୍‌ରେ ଶାନ୍ତି ଓ ସ୍ଥିରତା ଆଣିଥିବାରୁ ତାଙ୍କୁ ସ୍ମରଣ କରାଯାଏ। ସେ ଜଣେ ଶକ୍ତିଶାଳୀ ଶାସକ, ଦକ୍ଷ ରାଜନେତା ଏବଂ
+          ସମର୍ଥ ସାମରିକ ନେତା ଥିଲେ। ଏହି ପ୍ରତିମୂର୍ତ୍ତିରେ ଆପଣ ଦେଖିପାରିବେ, ଅଗଷ୍ଟସ୍ ଅତ୍ୟନ୍ତ ଆତ୍ମବିଶ୍ୱାସର ସହ ଛିଡ଼ା ହୋଇଛନ୍ତି ଏବଂ
+          ଚମଡ଼ାରେ ତିଆରି ଏକ ବର୍ମ୍ ପିନ୍ଧିଛନ୍ତି, ଯାହା ରୋମାନ୍ ସେନାର ସେନାପତି ଭାବରେ ତାଙ୍କର ଭୂମିକାକୁ ଦର୍ଶାଉଛି। ତାଙ୍କର ଉପରକୁ
+          ଉଠିଥିବା ଡାହାଣ ହାତ କ୍ଷମତା ଏବଂ ନେତୃତ୍ୱର ସୂଚନା ଦିଏ। ଆପଣ ଯଦି ଲକ୍ଷ୍ୟ କରିବେ, ତାଙ୍କ ଗୋଡ଼ ପାଖରେ ଥିବା ଏକ କ୍ଷୁଦ୍ର ଶିଶୁ
+          ଆକୃତି 'କ୍ୟୁପିଡ୍'କୁ ଦର୍ଶାଏ। ଏହା ଅଗଷ୍ଟସ୍‌ଙ୍କୁ ଦେବୀ ଭେନସ୍‌ଙ୍କ ସହ ଯୋଡ଼ିବା ସହ ତାଙ୍କର ଦୈବୀ ଉତ୍ପତ୍ତି ତଥା ଶାସନ କରିବାର
+          ଅଧିକାରକୁ ସୂଚାଏ। ସାମଗ୍ରିକ ଭାବେ ଏହି ପ୍ରତିମୂର୍ତ୍ତିଟି ଶକ୍ତି, ଶୃଙ୍ଖଳା ଏବଂ ନେତୃତ୍ୱର ରୋମାନ୍ ଆଦର୍ଶକୁ ପ୍ରତିଫଳିତ କରେ।
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
-      <h2 class="cntHdng" >2. LXXI-194: অগাস্টাস সিজার (LXXI - 194)</h2>
+      <h2 class="cntHdng">2. LXXI-194: অগাস্টাস সিজার (LXXI - 194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: অগাস্টাস সিজার (LXXI - 194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: অগাস্টাস সিজার (LXXI - 194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">এই ভাস্কর্যটি রোমান সাম্রাজ্যের প্রথম সম্রাট অগাস্টাস সিজারকে উপস্থাপন করে। তিনি খ্রিস্টপূর্ব ২৭ অব্দ থেকে খ্রিস্টীয় ১৪ অব্দ পর্যন্ত শাসন করেছিলেন এবং দীর্ঘ বছরের যুদ্ধের পর রোমে শান্তি ও স্থিতিশীলতা ফিরিয়ে আনার জন্য স্মরণীয় হয়ে আছেন। তিনি ছিলেন একজন পরাক্রমশালী শাসক, দক্ষ রাজনীতিবিদ এবং শক্তিশালী সামরিক নেতা। অগাস্টাসকে আত্মবিশ্বাসের সঙ্গে দাঁড়িয়ে থাকা ভঙ্গিমায় দেখানো হয়েছে, যেখানে তাঁর পরনে থাকা চামড়ার বর্মটি রোমান সেনাবাহিনীর প্রধান সেনাপতি হিসেবে তাঁর ভূমিকাকে প্রকাশ করে। তাঁর উত্থিত ডান হাতটি কর্তৃত্ব ও নেতৃত্বের প্রতীক। তাঁর পায়ের কাছে থাকা ছোট শিশুর মূর্তিটি কিউপিডকে নির্দেশ করে, যা অগাস্টাসের সঙ্গে দেবী ভেনাসের সংযোগ স্থাপন করে এবং তাঁর দৈব উৎস ও শাসন করার অধিকারের প্রতীক হিসেবে কাজ করে। ভাস্কর্যটি শক্তি, শৃঙ্খলা ও নেতৃত্ব সম্পর্কে রোমান আদর্শকে প্রতিফলিত করে । শব্দ-111</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এই ভাস্কর্যটি রোমান সাম্রাজ্যের প্রথম সম্রাট
+          অগাস্টাস সিজারকে উপস্থাপন করে। তিনি খ্রিস্টপূর্ব ২৭ অব্দ থেকে খ্রিস্টীয় ১৪ অব্দ পর্যন্ত শাসন করেছিলেন এবং
+          দীর্ঘ বছরের যুদ্ধের পর রোমে শান্তি ও স্থিতিশীলতা ফিরিয়ে আনার জন্য স্মরণীয় হয়ে আছেন। তিনি ছিলেন একজন
+          পরাক্রমশালী শাসক, দক্ষ রাজনীতিবিদ এবং শক্তিশালী সামরিক নেতা। অগাস্টাসকে আত্মবিশ্বাসের সঙ্গে দাঁড়িয়ে থাকা
+          ভঙ্গিমায় দেখানো হয়েছে, যেখানে তাঁর পরনে থাকা চামড়ার বর্মটি রোমান সেনাবাহিনীর প্রধান সেনাপতি হিসেবে তাঁর
+          ভূমিকাকে প্রকাশ করে। তাঁর উত্থিত ডান হাতটি কর্তৃত্ব ও নেতৃত্বের প্রতীক। তাঁর পায়ের কাছে থাকা ছোট শিশুর
+          মূর্তিটি কিউপিডকে নির্দেশ করে, যা অগাস্টাসের সঙ্গে দেবী ভেনাসের সংযোগ স্থাপন করে এবং তাঁর দৈব উৎস ও শাসন করার
+          অধিকারের প্রতীক হিসেবে কাজ করে। ভাস্কর্যটি শক্তি, শৃঙ্খলা ও নেতৃত্ব সম্পর্কে রোমান আদর্শকে প্রতিফলিত করে ।
+          শব্দ-111</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">2. LXXI-194: اگستس سیزر (LXXI-194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: اگستس سیزر (LXXI-194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: اگستس سیزر (LXXI-194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ مجسمہ رومی سلطنت کے پہلے شہنشاہ اگستس سیزر کی شبیہ پیش کرتا ہے۔ ان کا عہدِ حکومت 27 قبل مسیح سے چودہ عیسوی تک رہا۔ کئی برس کی جنگوں کے بعد روم میں امن و استحکام قائم کرنے کے حوالے سے انہیں یاد کیا جاتا ہے۔ وہ ایک بااقتدار فرمانروا، ماہر سیاست دان اور مضبوط فوجی رہنما تھے۔ اگستس کو پُراعتماد انداز میں کھڑا دکھایا گیا ہے۔ ان کے جسم پر چمڑے کا زرہ ہے، جو رومی فوج کے سپہ سالار کی حیثیت سے ان کے منصب کی عکاسی کرتا ہے۔ ان کی ٹانگ کے قریب ایک ننھا سا مجسمہ کامدیو کی شبیہ پیش کرتا ہے، جو اگستس کو دیوی وینس سے منسلک کرتا اور ان کی الوہی نسبت اور حقِ حکمرانی کی علامت بنتا ہے۔ یہ مجسمہ طاقت، نظم و ضبط اور قیادت سے متعلق رومی تصورات کی بھرپور عکاسی کرتا ہے۔</div>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ مجسمہ
+          رومی سلطنت کے پہلے شہنشاہ اگستس سیزر کی شبیہ پیش کرتا ہے۔ ان کا عہدِ حکومت 27 قبل مسیح سے چودہ عیسوی تک رہا۔
+          کئی برس کی جنگوں کے بعد روم میں امن و استحکام قائم کرنے کے حوالے سے انہیں یاد کیا جاتا ہے۔ وہ ایک بااقتدار
+          فرمانروا، ماہر سیاست دان اور مضبوط فوجی رہنما تھے۔ اگستس کو پُراعتماد انداز میں کھڑا دکھایا گیا ہے۔ ان کے جسم
+          پر چمڑے کا زرہ ہے، جو رومی فوج کے سپہ سالار کی حیثیت سے ان کے منصب کی عکاسی کرتا ہے۔ ان کی ٹانگ کے قریب ایک
+          ننھا سا مجسمہ کامدیو کی شبیہ پیش کرتا ہے، جو اگستس کو دیوی وینس سے منسلک کرتا اور ان کی الوہی نسبت اور حقِ
+          حکمرانی کی علامت بنتا ہے۔ یہ مجسمہ طاقت، نظم و ضبط اور قیادت سے متعلق رومی تصورات کی بھرپور عکاسی کرتا ہے۔
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
-      <h2 class="cntHdng" >2. LXXI-194: ઑગસ્ટસ સીઝર (LXXI-194)</h2>
+      <h2 class="cntHdng">2. LXXI-194: ઑગસ્ટસ સીઝર (LXXI-194)</h2>
       <div class="booImgDiv">
-        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ઑગસ્ટસ સીઝર (LXXI-194)" onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
+        <img src="./Images/Bronze gallery item-2.png" width="100%" alt="2. LXXI-194: ઑગસ્ટસ સીઝર (LXXI-194)"
+          onerror="this.onerror=null; this.src='./Images/Bronze gallery item-2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">LXXI-194</p>
-        <div  style="font-size: 16px; line-height: 1.8; color: #333333;">આ પ્રતિમા રોમન સામ્રાજ્યના પ્રથમ સમ્રાટ ઓગસ્ટસ સીઝરની છે. તેમણે ઈ.સ. પૂર્વ ૨૭ થી ઈ.સ. ૧૪ સુધી શાસન કર્યું હતું અને લાંબા યુદ્ધો પછી રોમમાં શાંતિ અને સ્થિરતા લાવવા માટે તેમને યાદ કરવામાં આવે છે. તેઓ એક શક્તિશાળી શાસક, કુશળ રાજકારણી અને મજબૂત લશ્કરી નેતા હતા.<br><br>પ્રતિમામાં ઓગસ્ટસને આત્મવિશ્વાસ સાથે ઊભેલા દર્શાવવામાં આવ્યા છે, જેમણે રોમન લશ્કરના સેનાપતિ તરીકેની તેમની ભૂમિકા દર્શાવતું ચામડાનું બખ્તર પહેરેલું છે. તેમનો ઊંચો કરેલો જમણો હાથ સત્તા અને નેતૃત્વનું પ્રતીક છે.<br><br>તેમના પગ પાસે રહેલી એક નાની બાળકની આકૃતિ "ક્યુપિડ" (પ્રેમ અને કામદેવ) દર્શાવે છે, જે ઓગસ્ટસને દેવી વિનસ સાથે જોડે છે અને તેમના દૈવી મૂળ તથા શાસન કરવાના ઈશ્વરીય અધિકારનું પ્રતીક છે. આ પ્રતિમા શક્તિ, વ્યવસ્થા અને નેતૃત્વના રોમન વિચારોને પ્રતિબિંબિત કરે છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ પ્રતિમા રોમન સામ્રાજ્યના પ્રથમ સમ્રાટ ઓગસ્ટસ
+          સીઝરની છે. તેમણે ઈ.સ. પૂર્વ ૨૭ થી ઈ.સ. ૧૪ સુધી શાસન કર્યું હતું અને લાંબા યુદ્ધો પછી રોમમાં શાંતિ અને સ્થિરતા
+          લાવવા માટે તેમને યાદ કરવામાં આવે છે. તેઓ એક શક્તિશાળી શાસક, કુશળ રાજકારણી અને મજબૂત લશ્કરી નેતા
+          હતા.<br><br>પ્રતિમામાં ઓગસ્ટસને આત્મવિશ્વાસ સાથે ઊભેલા દર્શાવવામાં આવ્યા છે, જેમણે રોમન લશ્કરના સેનાપતિ
+          તરીકેની તેમની ભૂમિકા દર્શાવતું ચામડાનું બખ્તર પહેરેલું છે. તેમનો ઊંચો કરેલો જમણો હાથ સત્તા અને નેતૃત્વનું
+          પ્રતીક છે.<br><br>તેમના પગ પાસે રહેલી એક નાની બાળકની આકૃતિ "ક્યુપિડ" (પ્રેમ અને કામદેવ) દર્શાવે છે, જે
+          ઓગસ્ટસને દેવી વિનસ સાથે જોડે છે અને તેમના દૈવી મૂળ તથા શાસન કરવાના ઈશ્વરીય અધિકારનું પ્રતીક છે. આ પ્રતિમા
+          શક્તિ, વ્યવસ્થા અને નેતૃત્વના રોમન વિચારોને પ્રતિબિંબિત કરે છે.</div>
       </div>
     </div>
 
@@ -239,7 +348,8 @@
   </main>
 
   <footer>
-    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script>
@@ -247,18 +357,18 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "hindi": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/2.%20%E0%A4%91%E0%A4%97%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B8%20%E0%A4%B8%E0%A5%80%E0%A4%9C%E0%A4%BC%E0%A4%B0.wav",
-  "english": "./Audio/english/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav",
-  "telugu": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/2.%20%E0%A4%91%E0%A4%97%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B8%20%E0%A4%B8%E0%A5%80%E0%A4%9C%E0%A4%BC%E0%A4%B0.wav",
-  "tamil": "./Audio/Tamil/BRONZE%20GALLERY/Augustus%20Caesar%20(LXXI%20-%20194).wav",
-  "marathi": "./Audio/marathi/BRONZE%20GALLERY/Augustus%20Caesar%20(LXXI%20-%20194).wav",
-  "malayalam": "./Audio/malayalam/Augustus%20Caesar.wav",
-  "kannada": "./Audio/kannada/Augustus%20Caesar%20(LXXI%20-%20194).wav",
-  "odia": "./Audio/odia/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav",
-  "bengali": "./Audio/bengali/11.%20Bronze%20Gallery/Augustus%20Caesar%20(LXXI%20-%20194).wav",
-  "urdu": "./Audio/urdu/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav",
-  "gujarati": "./Audio/gujarati/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav"
-};
+      "hindi": "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/2.%20%E0%A4%91%E0%A4%97%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B8%20%E0%A4%B8%E0%A5%80%E0%A4%9C%E0%A4%BC%E0%A4%B0.wav",
+      "english": "./Audio/english/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav",
+      "telugu": "./Audio/telugu/Telugu_Augustus%20Caesar_Female.wav",
+      "tamil": "./Audio/Tamil/BRONZE%20GALLERY/Augustus%20Caesar%20(LXXI%20-%20194).wav",
+      "marathi": "./Audio/marathi/BRONZE%20GALLERY/Augustus%20Caesar%20(LXXI%20-%20194).wav",
+      "malayalam": "./Audio/malayalam/Augustus%20Caesar.wav",
+      "kannada": "./Audio/kannada/Augustus%20Caesar%20(LXXI%20-%20194).wav",
+      "odia": "./Audio/odia/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav",
+      "bengali": "./Audio/bengali/11.%20Bronze%20Gallery/Augustus%20Caesar%20(LXXI%20-%20194).wav",
+      "urdu": "./Audio/urdu/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav",
+      "gujarati": "./Audio/gujarati/2.%20Augustus%20Caesar%20(LXXI%20-%20194).wav"
+    };
     const baseAudioSrc = "./Audio/hindi/11.%20Audio-BRONZE%20GALLERY/2.%20%E0%A4%91%E0%A4%97%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%B8%20%E0%A4%B8%E0%A5%80%E0%A4%9C%E0%A4%BC%E0%A4%B0.wav";
 
     function changeLanguage(lang) {
@@ -270,7 +380,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -282,11 +392,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>
