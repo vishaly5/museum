@@ -98,6 +98,7 @@
             <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="bengali" selected>বাংলা (Bengali)</option>
               <option value="hindi">हिन्दी (Hindi)</option>
+              <option value="english">English (English)</option>
               <option value="kannada">ಕನ್ನಡ (Kannada)</option>
               <option value="marathi">मराठी (Marathi)</option>
               <option value="urdu">اردو (Urdu)</option>
@@ -190,6 +191,44 @@
           कुछ छड़ियाँ चीनी मिट्टी के बने हैंडल से सजी हैं।</div>
       </div>
     </div>
+
+
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">1. WALKING STICKS GALLERY</h2>
+      <div class="booImgDiv">
+        <img src="./images/logo.png" width="100%" alt="1. WALKING STICKS GALLERY"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1. WALKING STICKS GALLERY</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          We have all seen walking sticks. We have certainly encountered the plain ones, and possibly even seen some
+          fancifully carved sticks. But nothing really prepares us for the treat that awaits us at the Walking Sticks
+          Gallery of the Salar Jung Museum.
+          The stick has evolved over time. From the one held by a village head or a chieftain, it went on to emerge as a
+          symbol of authority and power. In the 17th and 18th centuries, the walking stick became an object of fashion
+          for Europeans, and others. Gentlemen of wealth and taste -- such as the Salar Jungs -- carried exquisite
+          sticks with elaborate designs.
+          About 220 such sticks are on display here, each one more magnificent than the other. They are of all kinds --
+          made of Malacca cane, wood, sandal, ivory, fishbone, jade, glass and leather. You will spot walking sticks
+          that double as snuff boxes or golf clubs. They could even conceal an umbrella or a knife inside them. In fact,
+          one 20th century ornamental walking stick made of metal has several mechanisms that open and shut the stick,
+          turning it into a knife, dagger, even a pistol and gun [location - RIGHT SIDE WALL SHOWCASE NO. 12 ] .
+          Others have ivory heads carved into animal shapes. Dog shaped stick heads with eyes made of glass seemed to
+          have been much in vogue once. There are more elaborate ones as well. Such as the one with tigers attacking
+          their prey or an elephant swallowing a lion. Look out also for a 19th century wooden stick inlaid with ivory
+          [location - LEFT WALL SHOWCASE NO. 5 ] .
+          Some of the walking sticks are astounding, to say the least. Take the one with a handle shaped like a skull. A
+          click on the push button behind the skull opens the jaw. There are walking sticks with heads that are shaped
+          as footwear. Some of them have mother-of-pearl heads shaped as axes or birds. Many have beautiful gold inlay
+          work or porcelain handles.
+
+
+
+        </div>
+      </div>
+    </div>
+
 
     <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
       <h2 class="cntHdng">1. ಊರುಗೋಲುಗಳ ಗ್ಯಾಲರಿ</h2>
@@ -454,6 +493,7 @@
     const audioByLanguage = {
       "bengali": "./Audios/Bengali/Remaining%20gallaries/WALKING%20STICKS%20GALLERY.wav",
       "hindi": "./Audios/Hindi/1.%20वॉकिंग%20स्टिक्स%20गैलरी.wav",
+      "english": "./Audios/English/1.%20WALKING%20STICKS%20GALLERY%20%5B322%20words%5D.wav",
       "kannada": "./Audios/kannada/REMAINING%20GALLERYS/WALKING%20STICKS%20GALLERY.wav",
       "marathi": "./Audios/marathi/Remaining%20gallaries/WALKING%20STICKS%20GALLERY.wav",
       "urdu": "./Audios/Urdu/Urdu_remaining%20gallaries.ur-IN/WALKING%20STICKS%20GALLERY.wav",
@@ -469,6 +509,7 @@
     const footerTranslations = {
       bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
       hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा',
+      english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
       kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
       marathi: '© 2024 सर्व हक्क सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआय</a> द्वारा',
       urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
