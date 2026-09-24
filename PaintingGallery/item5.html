@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="hi">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-width: 100%;
       max-height: 460px;
@@ -50,6 +55,7 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .navBtnDiv {
       max-width: 900px;
       margin: 0 auto 40px auto;
@@ -57,6 +63,7 @@
       display: flex;
       justify-content: space-between;
     }
+
     .navBtn {
       display: inline-block;
       padding: 10px 24px;
@@ -68,21 +75,26 @@
       font-size: 15px;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background: #8e1d20;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
-          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png"
+              onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';"
+              alt="Ministry of Culture"></a>
         </div>
         <div class="logoRgt">
           <div class="langDiv">
-            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <span class="anuIcn"><img src="./images/logo-anu.png"
+                onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
             <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="hindi" selected>हिन्दी (Hindi)</option>
               <option value="english">English</option>
@@ -91,6 +103,10 @@
               <option value="urdu">اردو (Urdu)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="marathi">मराठी (Marathi)</option>
             </select>
           </div>
         </div>
@@ -101,7 +117,8 @@
   <main>
     <div class="audioPlayerDiv">
       <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
-      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+      <div id="audioMissingNote"
+        style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
         🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
       </div>
     </div>
@@ -109,96 +126,264 @@
     <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
       <h2 class="cntHdng">5. वॉचिंग सेंटिनल</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. वॉचिंग सेंटिनल" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. वॉचिंग सेंटिनल"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, इंग्लैंड, सर एडविन लैंडसीयर द्वारा</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह चित्र एक “सतर्क प्रहरी” को दर्शाता है। इसमें एक बैठा हुआ कुत्ता अपने मालिक के सामान की रखवाली करता हुआ दिखाई देता है। पृष्ठभूमि में 3 घोड़े और खच्चर भी दिखाई दे रहे हैं। यह चित्र एडविन लैंडसीयर आर.ए. द्वारा बनाया गया है और इसे नक्काशीदार सुनहरे रंग के लकड़ी के फ्रेम में रखा गया है। चित्र के ऊपरी मध्य भाग में लिखा हुआ विवरण स्पष्ट रूप से पढ़ा नहीं जा सकता।<br><br>सर एडविन लैंडसीयर एक प्रसिद्ध अंग्रेज़ चित्रकार थे, जो विशेष रूप से घोड़ों, कुत्तों और हिरणों जैसे पशुओं के चित्र बनाने के लिए जाने जाते थे। इस चित्र में एक बड़ा काला कुत्ता सड़क किनारे रखे सामान की सतर्कता से रखवाली करता हुआ दिखाई देता है। यह आकर्षक चित्र कुत्ते के सजग भाव को प्रमुखता देता है, जो अपने मालिक की प्रतीक्षा करते हुए किसी चोर या अनजान व्यक्ति पर भी नज़र रख रहा है। यह चित्र निष्ठा, सतर्कता, कर्तव्य और चिंता का प्रतीक माना जाता है। चित्र की रचना प्रभावशाली है और इसकी चित्रण शैली में जोश दिखाई देता है, जो लैंडसीयर की शैली की प्रसिद्ध विशेषताओं को दर्शाता है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह चित्र एक “सतर्क प्रहरी” को दर्शाता है। इसमें
+          एक बैठा हुआ कुत्ता अपने मालिक के सामान की रखवाली करता हुआ दिखाई देता है। पृष्ठभूमि में 3 घोड़े और खच्चर भी
+          दिखाई दे रहे हैं। यह चित्र एडविन लैंडसीयर आर.ए. द्वारा बनाया गया है और इसे नक्काशीदार सुनहरे रंग के लकड़ी के
+          फ्रेम में रखा गया है। चित्र के ऊपरी मध्य भाग में लिखा हुआ विवरण स्पष्ट रूप से पढ़ा नहीं जा सकता।<br><br>सर
+          एडविन लैंडसीयर एक प्रसिद्ध अंग्रेज़ चित्रकार थे, जो विशेष रूप से घोड़ों, कुत्तों और हिरणों जैसे पशुओं के चित्र
+          बनाने के लिए जाने जाते थे। इस चित्र में एक बड़ा काला कुत्ता सड़क किनारे रखे सामान की सतर्कता से रखवाली करता
+          हुआ दिखाई देता है। यह आकर्षक चित्र कुत्ते के सजग भाव को प्रमुखता देता है, जो अपने मालिक की प्रतीक्षा करते हुए
+          किसी चोर या अनजान व्यक्ति पर भी नज़र रख रहा है। यह चित्र निष्ठा, सतर्कता, कर्तव्य और चिंता का प्रतीक माना जाता
+          है। चित्र की रचना प्रभावशाली है और इसकी चित्रण शैली में जोश दिखाई देता है, जो लैंडसीयर की शैली की प्रसिद्ध
+          विशेषताओं को दर्शाता है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="english" style="display: none;">
       <h2 class="cntHdng">5. Watching Sentinel</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. Watching Sentinel" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. Watching Sentinel"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, England, By Sir Edwin Land-seer</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">Painting represents a 'WATCHFUL SENTINEL' – a seated dog looking after his masters luggage and 3 horses and mules in the background. By Edwin Land-seer R.A. in a carved gilt wooden frame. Inscription on center top is not legible.<br><br>Sir Edwin Landseer was an English painter well known for his paintings of animals particularly horses, dogs and stags. This painting is of a large black dog watchfully guarding over package that has been left by the roadside. A charming work, it emphasizes the dog's attentive expression, looking for his master, and for the thief or intruder. This picture is seen as a symbol of faithfulness, watchfulness, duty and concern. The composition is vigorous and the execution feisty, which exhibits the famous qualities of Land seer's style.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">Painting represents a 'WATCHFUL SENTINEL' – a
+          seated dog looking after his masters luggage and 3 horses and mules in the background. By Edwin Land-seer R.A.
+          in a carved gilt wooden frame. Inscription on center top is not legible.<br><br>Sir Edwin Landseer was an
+          English painter well known for his paintings of animals particularly horses, dogs and stags. This painting is
+          of a large black dog watchfully guarding over package that has been left by the roadside. A charming work, it
+          emphasizes the dog's attentive expression, looking for his master, and for the thief or intruder. This picture
+          is seen as a symbol of faithfulness, watchfulness, duty and concern. The composition is vigorous and the
+          execution feisty, which exhibits the famous qualities of Land seer's style.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
       <h2 class="cntHdng">5. পাহারা রত প্রহরী</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. পাহারা রত প্রহরী" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. পাহারা রত প্রহরী"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৮২২, ইংল্যান্ড, স্যার এডউইন ল্যান্ডসিয়ার।</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এই চিত্রকর্মটিতে একটি "সতর্ক প্রহরী"-কে ফুটিয়ে তোলা হয়েছে—যেখানে একটি বসে থাকা কুকুর তার মালিকের মালপত্র পাহারা দিচ্ছে এবং পটভূমিতে ৩টি ঘোড়া ও খচ্চর রয়েছে। শিল্পকর্মটি এডউইন ল্যান্ডসিয়ার (বা আর.এ.) কর্তৃক খোদাই করা সোনালী কাঠের ফ্রেমে বাঁধানো। ওপরের অংশের ঠিক মাঝখানের লিপিটি পড়া যায় না।<br><br>স্যার এডউইন ল্যান্ডসিয়ার ছিলেন একজন ইংরেজ চিত্রশিল্পী, যিনি বিশেষ করে ঘোড়া, কুকুর এবং হরিণের মতো বিভিন্ন প্রাণীর চিত্রকর্মের জন্য অত্যন্ত সুপরিচিত ছিলেন। এই চিত্রকর্মটিতে রাস্তার পাশে ফেলে যাওয়া একটি প্যাকেজ বা মালপত্রের ওপর সতর্ক দৃষ্টি রেখে পাহারারত এক বৃহৎ কালো কুকুরকে তুলে ধরা হয়েছে। এক মনোমুগ্ধকর শিল্পকর্ম, যা কুকুরের গভীর মনোযোগপূর্ণ অভিব্যক্তিকে ফুটিয়ে তোলে—যেখানে সে একদিকে যেমন তার মনিবের অপেক্ষায় দৃষ্টি মেলে রেখেছে, অন্যদিকে তেমনি কোনো চোর বা অনধিকারপ্রবেশকারীর আশঙ্কায় সজাগ। এই ছবিটি বিশ্বস্ততা, অতন্দ্র নজরদারি, কর্তব্যপরায়ণতা এবং আন্তরিক সুরক্ষার এক অনন্য প্রতীক হিসেবে বিবেচিত। এর সুদৃঢ় কাঠামো এবং প্রাণবন্ত রূপায়ণ ল্যান্ডসিয়ারের নিজস্ব চিত্রশৈলীর সেই বিখ্যাত বৈশিষ্ট্যগুলোকেই স্পষ্টভাবে প্রকাশ করে।</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৮২২, ইংল্যান্ড, স্যার এডউইন ল্যান্ডসিয়ার।
+        </p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এই চিত্রকর্মটিতে একটি "সতর্ক প্রহরী"-কে ফুটিয়ে
+          তোলা হয়েছে—যেখানে একটি বসে থাকা কুকুর তার মালিকের মালপত্র পাহারা দিচ্ছে এবং পটভূমিতে ৩টি ঘোড়া ও খচ্চর রয়েছে।
+          শিল্পকর্মটি এডউইন ল্যান্ডসিয়ার (বা আর.এ.) কর্তৃক খোদাই করা সোনালী কাঠের ফ্রেমে বাঁধানো। ওপরের অংশের ঠিক
+          মাঝখানের লিপিটি পড়া যায় না।<br><br>স্যার এডউইন ল্যান্ডসিয়ার ছিলেন একজন ইংরেজ চিত্রশিল্পী, যিনি বিশেষ করে
+          ঘোড়া, কুকুর এবং হরিণের মতো বিভিন্ন প্রাণীর চিত্রকর্মের জন্য অত্যন্ত সুপরিচিত ছিলেন। এই চিত্রকর্মটিতে রাস্তার
+          পাশে ফেলে যাওয়া একটি প্যাকেজ বা মালপত্রের ওপর সতর্ক দৃষ্টি রেখে পাহারারত এক বৃহৎ কালো কুকুরকে তুলে ধরা
+          হয়েছে। এক মনোমুগ্ধকর শিল্পকর্ম, যা কুকুরের গভীর মনোযোগপূর্ণ অভিব্যক্তিকে ফুটিয়ে তোলে—যেখানে সে একদিকে যেমন
+          তার মনিবের অপেক্ষায় দৃষ্টি মেলে রেখেছে, অন্যদিকে তেমনি কোনো চোর বা অনধিকারপ্রবেশকারীর আশঙ্কায় সজাগ। এই ছবিটি
+          বিশ্বস্ততা, অতন্দ্র নজরদারি, কর্তব্যপরায়ণতা এবং আন্তরিক সুরক্ষার এক অনন্য প্রতীক হিসেবে বিবেচিত। এর সুদৃঢ়
+          কাঠামো এবং প্রাণবন্ত রূপায়ণ ল্যান্ডসিয়ারের নিজস্ব চিত্রশৈলীর সেই বিখ্যাত বৈশিষ্ট্যগুলোকেই স্পষ্টভাবে প্রকাশ
+          করে।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">5. വാച്ചിംഗ് സെൻ്റീനൽ</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. വാച്ചിംഗ് സെൻ്റീനൽ" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. വാച്ചിംഗ് സെൻ്റീനൽ"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, ഇംഗ്ലണ്ട്, സർ എഡ്വിൻ ലാൻഡ്-സീർ</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">എഡ്വിൻ ലാൻഡ്സീർ ആർ.എ. വരച്ച "വാച്ച്ഫുൾ സെന്റിനൽ" എന്ന പെയിന്റിംഗാണിത്. കൊത്തിയെടുത്ത സ്വർണ്ണ നിറത്തിലുള്ള തടി ഫ്രെയിമിലാണ് ഇത് സജ്ജീകരിച്ചിരിക്കുന്നത്. തന്‍റെ യജമാനന്‍റെ ലഗേജിന് കാവലിരിക്കുന്ന ഒരു നായയെയും, പശ്ചാത്തലത്തിൽ മൂന്ന് കുതിരകളെയും കോവർകഴുതകളെയും ഈ പെയിന്റിംഗിൽ ചിത്രീകരിച്ചിരിക്കുന്നു. ചിത്രത്തിന്‍റെ മധ്യഭാഗത്തിന് മുകളിലുള്ള ലിഖിതം വ്യക്തമല്ല.<br><br>കുതിരകൾ, നായകൾ, മാൻ തുടങ്ങിയ മൃഗങ്ങളെ വരയ്ക്കുന്നതിൽ പ്രശസ്തനായ ഒരു ഇംഗ്ലീഷ് ചിത്രകാരനായിരുന്നു സർ എഡ്വിൻ ലാൻഡ്സീർ. വഴിയരികിൽ ഉപേക്ഷിക്കപ്പെട്ട ഒരു പൊതിക്ക് കാവൽ നിൽക്കുന്ന വലിയൊരു കറുത്ത നായയെയാണ് ഈ പെയിന്റിംഗിൽ ചിത്രീകരിച്ചിരിക്കുന്നത്. തന്‍റെ യജമാനനുവേണ്ടിയും, കള്ളന്മാരെയോ കടന്നുകയറ്റക്കാരെയോ ലക്ഷ്യമിട്ടും ജാഗ്രതയോടെ നോക്കുന്ന നായയുടെ ഭാവം വ്യക്തമാക്കുന്ന മനോഹരമായ ഒരു സൃഷ്ടിയാണിത്. ഈ ചിത്രം വിശ്വസ്തത, ജാഗ്രത, കടമ, കരുതൽ എന്നിവയുടെ പ്രതീകമായി കണക്കാക്കപ്പെടുന്നു. ലാൻഡ്സീറിന്‍റെ ശൈലിയുടെ പ്രശസ്തമായ സവിശേഷതകൾ പ്രകടമാക്കുന്ന ശക്തമായ ഘടനയും സജീവമായ ആവിഷ്കാരവുമാണ് ഈ ചിത്രത്തിലുള്ളത്.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">എഡ്വിൻ ലാൻഡ്സീർ ആർ.എ. വരച്ച "വാച്ച്ഫുൾ സെന്റിനൽ"
+          എന്ന പെയിന്റിംഗാണിത്. കൊത്തിയെടുത്ത സ്വർണ്ണ നിറത്തിലുള്ള തടി ഫ്രെയിമിലാണ് ഇത് സജ്ജീകരിച്ചിരിക്കുന്നത്. തന്‍റെ
+          യജമാനന്‍റെ ലഗേജിന് കാവലിരിക്കുന്ന ഒരു നായയെയും, പശ്ചാത്തലത്തിൽ മൂന്ന് കുതിരകളെയും കോവർകഴുതകളെയും ഈ
+          പെയിന്റിംഗിൽ ചിത്രീകരിച്ചിരിക്കുന്നു. ചിത്രത്തിന്‍റെ മധ്യഭാഗത്തിന് മുകളിലുള്ള ലിഖിതം
+          വ്യക്തമല്ല.<br><br>കുതിരകൾ, നായകൾ, മാൻ തുടങ്ങിയ മൃഗങ്ങളെ വരയ്ക്കുന്നതിൽ പ്രശസ്തനായ ഒരു ഇംഗ്ലീഷ്
+          ചിത്രകാരനായിരുന്നു സർ എഡ്വിൻ ലാൻഡ്സീർ. വഴിയരികിൽ ഉപേക്ഷിക്കപ്പെട്ട ഒരു പൊതിക്ക് കാവൽ നിൽക്കുന്ന വലിയൊരു കറുത്ത
+          നായയെയാണ് ഈ പെയിന്റിംഗിൽ ചിത്രീകരിച്ചിരിക്കുന്നത്. തന്‍റെ യജമാനനുവേണ്ടിയും, കള്ളന്മാരെയോ കടന്നുകയറ്റക്കാരെയോ
+          ലക്ഷ്യമിട്ടും ജാഗ്രതയോടെ നോക്കുന്ന നായയുടെ ഭാവം വ്യക്തമാക്കുന്ന മനോഹരമായ ഒരു സൃഷ്ടിയാണിത്. ഈ ചിത്രം വിശ്വസ്തത,
+          ജാഗ്രത, കടമ, കരുതൽ എന്നിവയുടെ പ്രതീകമായി കണക്കാക്കപ്പെടുന്നു. ലാൻഡ്സീറിന്‍റെ ശൈലിയുടെ പ്രശസ്തമായ സവിശേഷതകൾ
+          പ്രകടമാക്കുന്ന ശക്തമായ ഘടനയും സജീവമായ ആവിഷ്കാരവുമാണ് ഈ ചിത്രത്തിലുള്ളത്.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" dir="rtl" style="display: none;">
       <h2 class="cntHdng">5. وفادار نگہبان</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. وفادار نگہبان" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. وفادار نگہبان"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822، برطانیہ، سر ایڈون لینڈسیئر کی مصوری</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">اس تصویر میں ایک وفادار کتا اپنے مالک کے سامان کی حفاظت کرتا دکھائی دیتا ہے۔ پس منظر میں تین گھوڑے اور خچر بھی نظر آتے ہیں۔ یہ فن پارہ ایڈون لینڈسیئر، آر اے، کا ہے اور گلٹ لکڑی کے نقش و نگار سے مزین فریم میں جڑا ہوا ہے۔ فریم کے اوپری وسط میں موجود نوشتہ اب پڑھا نہیں جا سکتا۔<br><br>سر ایڈون لینڈسیئر ایک نامور انگریز مصور تھے، جو بالخصوص جانوروں، خصوصاً گھوڑوں، کتوں اور ہرنوں کی مصوری کے لیے مشہور تھے۔ اس پینٹنگ میں ایک بڑے سیاہ کتے کو سڑک کے کنارے رکھے ہوئے ایک سامان کے گٹھڑ کی چوکس نگرانی کرتے دکھایا گیا ہے۔ یہ دل کش فن پارہ کتے کے چوکنے اور متوجہ انداز کو نمایاں کرتا ہے؛ وہ گویا اپنے مالک کی واپسی کا منتظر ہے اور کسی چور یا اجنبی کی آہٹ پر بھی نگاہ رکھے ہوئے ہے۔ یہ تصویر وفاداری، چوکسی، فرض شناسی اور فکر مندی کی علامت سمجھی جاتی ہے۔ اس کی ترکیب میں توانائی اور اثر انگیزی ہے، جبکہ فنی پیش کش میں جوش اور قوت نمایاں ہے، جو لینڈسیئر کے اسلوب کی معروف خصوصیات کو بخوبی اجاگر کرتی ہے۔</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">اس تصویر میں ایک وفادار کتا اپنے مالک کے سامان
+          کی حفاظت کرتا دکھائی دیتا ہے۔ پس منظر میں تین گھوڑے اور خچر بھی نظر آتے ہیں۔ یہ فن پارہ ایڈون لینڈسیئر، آر اے،
+          کا ہے اور گلٹ لکڑی کے نقش و نگار سے مزین فریم میں جڑا ہوا ہے۔ فریم کے اوپری وسط میں موجود نوشتہ اب پڑھا نہیں
+          جا سکتا۔<br><br>سر ایڈون لینڈسیئر ایک نامور انگریز مصور تھے، جو بالخصوص جانوروں، خصوصاً گھوڑوں، کتوں اور ہرنوں
+          کی مصوری کے لیے مشہور تھے۔ اس پینٹنگ میں ایک بڑے سیاہ کتے کو سڑک کے کنارے رکھے ہوئے ایک سامان کے گٹھڑ کی چوکس
+          نگرانی کرتے دکھایا گیا ہے۔ یہ دل کش فن پارہ کتے کے چوکنے اور متوجہ انداز کو نمایاں کرتا ہے؛ وہ گویا اپنے مالک
+          کی واپسی کا منتظر ہے اور کسی چور یا اجنبی کی آہٹ پر بھی نگاہ رکھے ہوئے ہے۔ یہ تصویر وفاداری، چوکسی، فرض شناسی
+          اور فکر مندی کی علامت سمجھی جاتی ہے۔ اس کی ترکیب میں توانائی اور اثر انگیزی ہے، جبکہ فنی پیش کش میں جوش اور
+          قوت نمایاں ہے، جو لینڈسیئر کے اسلوب کی معروف خصوصیات کو بخوبی اجاگر کرتی ہے۔</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">5. கண்காணிக்கும் காவலன்</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. கண்காணிக்கும் காவலன்" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. கண்காணிக்கும் காவலன்"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, இங்கிலாந்து, சர் எட்வின் லேண்ட்-சீர்</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இந்த ஓவியம், தன் எஜமானரின் உடைமைகளைக் கவனித்துக்கொண்டிருக்கும் ஒரு அமர்ந்திருக்கும் நாயையும், பின்னணியில் உள்ள 3 குதிரைகள் மற்றும் கோவேறு கழுதைகளையும் சித்தரிக்கிறது. இந்தப் படைப்பு எட்வின் லேண்ட்ஸீர் R.A. அவர்களால் வரையப்பட்ட, தங்க நிற மரச்சட்டகத்தில் பொருத்தப்பட்டுள்ளது. மேல் மையத்தில் உள்ள வாசகம் தெளிவாக இல்லை.<br><br>சர் எட்வின் லேண்ட்ஸீர் ஒரு ஆங்கில ஓவியர் ஆவார். இவர் விலங்குகள், குறிப்பாக குதிரைகள், நாய்கள் மற்றும் மான்களைச் சித்தரித்த ஓவியங்களுக்காகப் புகழ்பெற்ற ஆங்கில ஓவியர் ஆவார். இந்த ஓவியம், சாலையோரத்தில் விடப்பட்ட ஒரு பொதியை ஒரு பெரிய கருப்பு நாய் விழிப்புடன் பாதுகாப்பதைக் காட்டுகிறது. இது ஒரு வசீகரமான படைப்பு. தன் எஜமானரையும், திருடன் அல்லது ஊடுருவியவனையும் தேடும் நாயின் கவனமான முகபாவனையை இது வலியுறுத்துகிறது. இந்த ஓவியம் விசுவாசம், கண்காணிப்பு, கடமை மற்றும் அக்கறை ஆகியவற்றின் சின்னமாகக் கருதப்படுகிறது. இதன் அமைப்பு வலிமையானதாகவும், அதன் சித்தரிப்பு உற்சாகமானதாகவும் உள்ளது. இது லேண்ட்ஸீரின் பாணியின் புகழ்பெற்ற சிறப்பம்சங்களை வெளிப்படுத்துகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இந்த ஓவியம், தன் எஜமானரின் உடைமைகளைக்
+          கவனித்துக்கொண்டிருக்கும் ஒரு அமர்ந்திருக்கும் நாயையும், பின்னணியில் உள்ள 3 குதிரைகள் மற்றும் கோவேறு
+          கழுதைகளையும் சித்தரிக்கிறது. இந்தப் படைப்பு எட்வின் லேண்ட்ஸீர் R.A. அவர்களால் வரையப்பட்ட, தங்க நிற
+          மரச்சட்டகத்தில் பொருத்தப்பட்டுள்ளது. மேல் மையத்தில் உள்ள வாசகம் தெளிவாக இல்லை.<br><br>சர் எட்வின் லேண்ட்ஸீர்
+          ஒரு ஆங்கில ஓவியர் ஆவார். இவர் விலங்குகள், குறிப்பாக குதிரைகள், நாய்கள் மற்றும் மான்களைச் சித்தரித்த
+          ஓவியங்களுக்காகப் புகழ்பெற்ற ஆங்கில ஓவியர் ஆவார். இந்த ஓவியம், சாலையோரத்தில் விடப்பட்ட ஒரு பொதியை ஒரு பெரிய
+          கருப்பு நாய் விழிப்புடன் பாதுகாப்பதைக் காட்டுகிறது. இது ஒரு வசீகரமான படைப்பு. தன் எஜமானரையும், திருடன் அல்லது
+          ஊடுருவியவனையும் தேடும் நாயின் கவனமான முகபாவனையை இது வலியுறுத்துகிறது. இந்த ஓவியம் விசுவாசம், கண்காணிப்பு, கடமை
+          மற்றும் அக்கறை ஆகியவற்றின் சின்னமாகக் கருதப்படுகிறது. இதன் அமைப்பு வலிமையானதாகவும், அதன் சித்தரிப்பு
+          உற்சாகமானதாகவும் உள்ளது. இது லேண்ட்ஸீரின் பாணியின் புகழ்பெற்ற சிறப்பம்சங்களை வெளிப்படுத்துகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">5. સાવચેત ચોકીદાર</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. સાવચેત ચોકીદાર" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. સાવચેત ચોકીદાર"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">૧૮૨૨, ઈંગ્લેન્ડ, સર એડવિન લેન્ડ-સીર</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ ચિત્રમાં એક કાળો કૂતરો પોતાના માલિકના સામાનની ચોકી કરતા દર્શાવવામાં આવ્યો છે. કૂતરો બેઠેલી સ્થિતિમાં છે અને તેની પાછળ ત્રણ ઘોડા તથા ખચ્ચરો જોવા મળે છે. આ કૃતિ સુંદર કોતરણીવાળી સોનેરી રંગની લાકડાની ફ્રેમમાં મૂકવામાં આવી છે. ઉપરના મધ્ય ભાગમાં લખાણ છે, પરંતુ તે સ્પષ્ટ વાંચી શકાતું નથી.<br><br>સર એડવિન લેન્ડસીર અંગ્રેજ ચિત્રકાર હતા અને તેઓ ખાસ કરીને પ્રાણીઓનાં ચિત્રો, જેમાં ઘોડા, કૂતરા અને હરણનો સમાવેશ થાય છે, માટે જાણીતા હતા. આ ચિત્રમાં રસ્તાની બાજુએ મૂકવામાં આવેલા સામાનની કૂતરો ખૂબ જ સાવચેતીપૂર્વક ચોકી કરી રહ્યો છે. તેની નજર અને હાવભાવમાં માલિકની રાહ જોવાની સાથે કોઈ ચોર કે અજાણી વ્યક્તિથી સામાનનું રક્ષણ કરવાની સજાગતા જોવા મળે છે. આ કૃતિ વફાદારી, સાવચેતી, ફરજ અને જવાબદારીનું પ્રતીક માનવામાં આવે છે. ચિત્રની રચના અસરકારક છે અને પ્રાણીને જીવંત તથા સ્વાભાવિક રીતે રજૂ કરવામાં આવ્યું છે. આ કૃતિમાં લેન્ડસીરની વિશિષ્ટ ચિત્રશૈલી અને પ્રાણીઓના હાવભાવને જીવંત રીતે દર્શાવવાની તેમની કુશળતા સ્પષ્ટ જોવા મળે છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ ચિત્રમાં એક કાળો કૂતરો પોતાના માલિકના સામાનની
+          ચોકી કરતા દર્શાવવામાં આવ્યો છે. કૂતરો બેઠેલી સ્થિતિમાં છે અને તેની પાછળ ત્રણ ઘોડા તથા ખચ્ચરો જોવા મળે છે. આ
+          કૃતિ સુંદર કોતરણીવાળી સોનેરી રંગની લાકડાની ફ્રેમમાં મૂકવામાં આવી છે. ઉપરના મધ્ય ભાગમાં લખાણ છે, પરંતુ તે
+          સ્પષ્ટ વાંચી શકાતું નથી.<br><br>સર એડવિન લેન્ડસીર અંગ્રેજ ચિત્રકાર હતા અને તેઓ ખાસ કરીને પ્રાણીઓનાં ચિત્રો,
+          જેમાં ઘોડા, કૂતરા અને હરણનો સમાવેશ થાય છે, માટે જાણીતા હતા. આ ચિત્રમાં રસ્તાની બાજુએ મૂકવામાં આવેલા સામાનની
+          કૂતરો ખૂબ જ સાવચેતીપૂર્વક ચોકી કરી રહ્યો છે. તેની નજર અને હાવભાવમાં માલિકની રાહ જોવાની સાથે કોઈ ચોર કે અજાણી
+          વ્યક્તિથી સામાનનું રક્ષણ કરવાની સજાગતા જોવા મળે છે. આ કૃતિ વફાદારી, સાવચેતી, ફરજ અને જવાબદારીનું પ્રતીક
+          માનવામાં આવે છે. ચિત્રની રચના અસરકારક છે અને પ્રાણીને જીવંત તથા સ્વાભાવિક રીતે રજૂ કરવામાં આવ્યું છે. આ
+          કૃતિમાં લેન્ડસીરની વિશિષ્ટ ચિત્રશૈલી અને પ્રાણીઓના હાવભાવને જીવંત રીતે દર્શાવવાની તેમની કુશળતા સ્પષ્ટ જોવા મળે
+          છે.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">5. నిఘా పెట్టె కాపలాదారు</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. నిఘా పెట్టె కాపలాదారు"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, ఇంగ్లాండ్, బై సర్ ఎడ్విన్ ల్యాండ్-సీర్
+        </p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          చెక్కబడిన బంగారు పూత ఫ్రేమ్లో ఉన్న ఈ చిత్రం రహదారి పక్కన పడి ఉన్న తన యజమాని
+          వస్తువులకు కాపలాగా కూర్చున్న ఒక పెద్ద నల్లటి కుక్కను చూపిస్తుంది; నేపథ్యంలో మూడు గుర్రాలు
+          మరియు కంచరగాడిదలు కనిపిస్తాయి. జంతువుల చిత్రణలో, ముఖ్యంగా గుర్రాలు, కుక్కలు మరియు
+          దుప్పిల చిత్రణలో ఎడ్విన్ ల్యాండ్సీర్ అంతర్జాతీయ ప్రసిద్ధి చెందారు. ఈ చిత్రంలో కుక్క కళ్లలోని
+          అప్రమత్తత, తన యజమాని రాక కోసం మరియు దొంగలు లేదా అపరిచితుల కోసం చూసే తీరు
+          హృదయానికి హత్తుకుంటుంది. ఈ కళాఖండం విశ్వాసానికి, అప్రమత్తతకు, బాధ్యతకు మరియు
+          సంరక్షణకు తిరుగులేని చిహ్నంగా నిలుస్తుంది.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">5. ವಾಚಿಂಗ್ ಸೆಂಟಿನೆಲ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. ವಾಚಿಂಗ್ ಸೆಂಟಿನೆಲ್"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, ಇಂಗ್ಲೆಂಡ್, ಸರ್ ಎಡ್ವಿನ್ ಲ್ಯಾಂಡ್-ಸೀರ್
+          ಅವರಿಂದ ಬಿಡಿಸಲಾದ ವರ್ಣಚಿತ್ರ</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ಈ ವರ್ಣಚಿತ್ರವು "ವಾಚ್ಫುಲ್ ಸೆಂಟಿನೆಲ್" (ಜಾಗರೂಕ ಕಾವಲುಗಾರ) ಅನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ;
+          ಕುಳಿತಿರುವ ನಾಯಿಯೊಂದು ತನ್ನ ಒಡೆಯನ ಸಾಮಾನನ್ನು ಕಾಯುತ್ತಿರುವುದು ಹಾಗೂ ಹಿನ್ನೆಲೆಯಲ್ಲಿ
+          3 ಕುದುರೆಗಳು ಮತ್ತು ಖಚ್ಚರಗಳು ಇರುವುದು ಕಂಡುಬರುತ್ತದೆ. ಎಡ್ವಿನ್ ಲ್ಯಾಂಡ್ಸೀರ್ ಆರ್.ಎ.
+          ಅವರು ರಚಿಸಿರುವ ಈ ಚಿತ್ರಕ್ಕೆ ಕೆತ್ತನೆ ಮಾಡಿದ ಚಿನ್ನದ ಬಣ್ಣದ ಮರದ ಚೌಕಟ್ಟನ್ನು ಹಚ್ಚಲಾಗಿದೆ.
+          ಮೇಲ್ಭಾಗದ ಮಧ್ಯದಲ್ಲಿರುವ ಶಾಸನವು ಸ್ಪಷ್ಟವಾಗಿ ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ. ಸರ್ ಎಡ್ವಿನ್ ಲ್ಯಾಂಡ್ಸೀರ್
+          ಅವರು ಇಂಗ್ಲಿಷ್ ವರ್ಣಚಿತ್ರಕಾರರಾಗಿದ್ದು, ಪ್ರಾಣಿಗಳ — ವಿಶೇಷವಾಗಿ ಕುದುರೆಗಳು, ನಾಯಿಗಳು ಮತ್ತು
+          ಜಿಂಕೆಗಳ ವರ್ಣಚಿತ್ರಗಳಿಗೆ ಹೆಸರುವಾಸಿಯಾಗಿದ್ದರು. ಈ ವರ್ಣಚಿತ್ರವು ರಸ್ತೆಬದಿಯಲ್ಲಿ ಬಿಟ್ಟುಹೋದ
+          ಸಾಮಾನಿನ ಮೂಟೆಯನ್ನು ಜಾಗರೂಕತೆಯಿಂದ ಕಾಯುತ್ತಿರುವ ದೊಡ್ಡ ಕಪ್ಪು ನಾಯಿಯದ್ದಾಗಿದೆ. ಮನಮೋಹಕ
+          ಕಲಾಕೃತಿಯಾದ ಇದು, ತನ್ನ ಒಡೆಯನಿಗಾಗಿ ಹಾಗೂ ಕಳ್ಳ ಅಥವಾ ಅತಿಕ್ರಮಣಕಾರರಿಗಾಗಿ ಕಾಯುತ್ತಿರುವ ನಾಯಿಯ
+          ಏಕಾಗ್ರತೆಯ ಅಭಿವ್ಯಕ್ತಿಯನ್ನು ಎತ್ತಿತೋರಿಸುತ್ತದೆ. ಈ ಚಿತ್ರವನ್ನು ನಿಷ್ಠೆ, ಜಾಗರೂಕತೆ, ಕರ್ತವ್ಯ ಮತ್ತು
+          ಕಾಳಜಿಯ ಸಂಕೇತವೆಂದು ನೋಡಲಾಗುತ್ತದೆ. ಇದರ ಸಂಯೋಜನೆಯು ಶಕ್ತಿಶಾಲಿಯಾಗಿದ್ದು,
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng">5. ୱାଚିଙ୍ଗ ସେଣ୍ଟିନେଲ (ଜାଗ୍ରତ ପ୍ରହରୀ)</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. ୱାଚିଙ୍ଗ ସେଣ୍ଟିନେଲ (ଜାଗ୍ରତ ପ୍ରହରୀ)"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, ଇଂଲଣ୍ଡ, ସାର୍ ଏଡୱିନ୍ ଲ୍ୟାଣ୍ଡ-ସିଅର୍ -ଙ୍କ
+          ଦ୍ୱାରା ଚିତ୍ରିତ</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ବ୍ରିଟିଶ୍ ଶିଳ୍ପୀ ସାର୍ ଏଡୱିନ୍ ଲ୍ୟାଣ୍ଡସିଅର୍ ତାଙ୍କର ଜୀବନ୍ତ ପଶୁପକ୍ଷୀ ଚିତ୍ରାଙ୍କନ—ବିଶେଷ କରି
+          ଘୋଡ଼ା, କୁକୁର ଏବଂ ହରିଣଗୁଡ଼ିକର ଆଲେଖ୍ୟ ପାଇଁ ବିଶ୍ୱବିଖ୍ୟାତ। ସୂକ୍ଷ୍ମ ଖୋଦିତ ସୁବର୍ଣ୍ଣାଭ
+          କାଷ୍ଠ-ଚୌକାଠ ମଧ୍ୟରେ ସୁସଜ୍ଜିତ ଏହି ତୈଳଚିତ୍ରଟି ତାଙ୍କ ସୃଜନଶୀଳତାର ଏକ ସୁନ୍ଦର ନିଦର୍ଶନ।
+          ଚିତ୍ରପଟର ଉପରିସ୍ଥ ମଧ୍ୟଭାଗରେ ଥିବା ଲେଖାଟି ଅସ୍ପଷ୍ଟ ହେତୁ ସହଜରେ ପଢ଼ିହୁଏ ନାହିଁ।
+          'ଜାଗ୍ରତ ପ୍ରହରୀ' ନାମକ ଏହି କୃତିଟିରେ ଏକ ବୃହତ୍ କଳା ରଙ୍ଗର କୁକୁର ରାସ୍ତାକଡ଼ରେ ଗଚ୍ଛିତ
+          ତାଙ୍କ ମାଲିକଙ୍କ ସାମଗ୍ରୀକୁ ଅତ୍ୟନ୍ତ ସତର୍କତାର ସହ ଜଗି ରହିଥିବାର ଦୃଶ୍ୟାୟିତ। ପୃଷ୍ଠଭୂମିରେ
+          ତିନୋଟି ଘୋଡ଼ା ଏବଂ ଖଚର ଛିଡ଼ା ହୋଇଥିବାର ଦେଖାଯାଉଛି। ନିଜ ମାଲିକଙ୍କୁ ଖୋଜୁଥିବା ଏବଂ
+          କୌଣସି ଚୋର ବା ଅନୁପ୍ରବେଶକାରୀ ପ୍ରତି ସନ୍ଦେହୀ ନୟନରେ ଚାହିଁଥିବା କୁକୁରଟିର ଆକୁଳ
+          ଓ ତୀକ୍ଷ୍ଣ ଆଭାସ ଅତ୍ୟନ୍ତ ସ୍ୱାଭାବିକ ଭାବେ ଅଙ୍କିତ ହୋଇଛି। ଏହି ଆଲେଖ୍ୟଟି ସ୍ୱାମୀଭକ୍ତି,
+          ସତର୍କତା, କର୍ତ୍ତବ୍ୟବୋଧ ଏବଂ ଆନ୍ତରିକତାର ଏକ ନିରୁପମ ପ୍ରତୀକ। କାନଭାସର ବଳିଷ୍ଠ
+          ଆଲେଖ୍ୟ ସଂରଚନା ଏବଂ ଓଜସ୍ୱୀ ଚିତ୍ରଣ ଶୈଳୀ ଲ୍ୟାଣ୍ଡସିଅର୍ଙ୍କ ସୁବିଖ୍ୟାତ ଚିତ୍ରକଳା ପ୍ରତିଭାକୁ
+          ପ୍ରତିଫଳିତ କରେ।
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng">5. वॉचिंग सेंटीनेल</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item5.png" width="100%" alt="5. वॉचिंग सेंटीनेल"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1822, इंग्लंड, सर एडविन लँड-सीअर</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          हेचित्र एका "दक्ष पहारेकऱ्याचे" प्रतिनिधित्व करते, ज्यामध्ये एक बसलेला कुत्रा आपल्यामालकाच्या सामानाची राखण
+          करत आहे आणि पार्श्वभूमीत 3 घोडे आणि खेचरे आहेत. एडविन लँडसीर आर.ए. यांचेहेचित्र कोरलेल्या सोनेरी लाकडी
+          फ्रेममध्ये आहे. मध्यभागी वरच्या बाजूला असलेलामजकूर वाचता येत नाही. सर एडविन लँडसीर हे एक इंग्रज चित्रकार होते
+          जे त्यांच्या प्राण्यांच्या, विशेषतः घोडे, कुत्रे आणि हरणांच्या चित्रांसाठी सुप्रसिद्ध होते. हेचित्र
+          रस्त्याच्या कडेला ठेवलेल्या
+          सामानाचे अत्यंत काळजीपूर्वक रक्षण करणाऱ्या एकामोठ्या काळ्या कुत्र्याचे आहे. या आकर्षक कलाकृतीमध्येकुत्र्याचे
+          लक्षवेधी भाव, तो त्याच्यामालकाची आणि चोर किंवा घुसखोराची पाहत असलेली वाट यावर भर देण्यात आला आहे. हेचित्र
+          इमानदारी, दक्षता, कर्तव्य आणि काळजीचे प्रतीक म्हणून पाहिलेजाते. ही रचना अतिशय जोमदार आणि सादरीकरण प्रबळ
+          आहे, जेलँडसीर यांच्या शैलीचे प्रसिद्ध गुण प्रदर्शित करते.
+        </div>
       </div>
     </div>
 
     <div class="navBtnDiv">
       <a href="item4.html" class="navBtn">← Previous</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
       <a href="item6.html" class="navBtn">Next →</a>
     </div>
   </main>
 
   <footer>
-    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
 
   <script>
     const languageAudio = document.getElementById("languageAudio");
     const audioMissingNote = document.getElementById("audioMissingNote");
     const audioByLanguage = {
-  "hindi": "Audios/Hindi/5). XV-3, वॉचिंग सेंटिनल.wav",
-  "english": "Audios/English/5). XV-3, WATCHING SENTINEL.wav",
-  "bengali": "Audios/Bengali/5). XV-3, WATCHING SENTINEL.wav",
-  "malayalam": "Audios/Malayalam/WATCHING SENTINEL.ml.wav",
-  "urdu": "Audios/Urdu/5). XV-3, WATCHING SENTINEL.wav",
-  "tamil": "Audios/Tamil/5. WATCHING SENTINEL.wav",
-  "gujarati": "Audios/Gujarati/XV-3.wav"
-};
+      "hindi": "Audios/Hindi/5). XV-3, वॉचिंग सेंटिनल.wav",
+      "english": "Audios/English/5). XV-3, WATCHING SENTINEL.wav",
+      "bengali": "Audios/Bengali/5). XV-3, WATCHING SENTINEL.wav",
+      "malayalam": "Audios/Malayalam/WATCHING SENTINEL.ml.wav",
+      "urdu": "Audios/Urdu/5). XV-3, WATCHING SENTINEL.wav",
+      "tamil": "Audios/Tamil/5. WATCHING SENTINEL.wav",
+      "gujarati": "Audios/Gujarati/XV-3.wav",
+      "kannada": "Audios/Kannada/XV-3, WATCHING SENTINEL.wav",
+      "telugu": "Audios/Telugu/Telugu_WATCHING SENTINEL_Female.wav",
+      "marathi": "Audios/Marathi/XV-3, WATCHING SENTINEL.wav",
+      "odia": "Audios/odia/5. WATCHING SENTINEL.wav"
+    };
     const languageSelector = document.getElementById("languageSelector");
 
     const footerTranslations = {
@@ -208,7 +393,11 @@
       malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
       urdu: '© 2024 تمام حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
       tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
-      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા'
+      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા',
+      telugu: '© 2024 అన్ని హక్కులు రిజర్వు చేయబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
+      kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
+      odia: '© 2024 ସମସ୍ତ ଅଧିକାର ସଂରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
+      marathi: '© 2024 सर्व हक्क राखीव, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारे'
     };
 
     function selectLanguage(language) {
@@ -245,4 +434,5 @@
     }
   </script>
 </body>
+
 </html>

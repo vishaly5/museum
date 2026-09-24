@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="hi">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-width: 100%;
       max-height: 460px;
@@ -50,6 +55,7 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .navBtnDiv {
       max-width: 900px;
       margin: 0 auto 40px auto;
@@ -57,6 +63,7 @@
       display: flex;
       justify-content: space-between;
     }
+
     .navBtn {
       display: inline-block;
       padding: 10px 24px;
@@ -68,21 +75,26 @@
       font-size: 15px;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background: #8e1d20;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
-          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png"
+              onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';"
+              alt="Ministry of Culture"></a>
         </div>
         <div class="logoRgt">
           <div class="langDiv">
-            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <span class="anuIcn"><img src="./images/logo-anu.png"
+                onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
             <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="hindi" selected>हिन्दी (Hindi)</option>
               <option value="english">English</option>
@@ -91,6 +103,10 @@
               <option value="urdu">اردو (Urdu)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="marathi">मराठी (Marathi)</option>
             </select>
           </div>
         </div>
@@ -101,7 +117,8 @@
   <main>
     <div class="audioPlayerDiv">
       <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
-      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+      <div id="audioMissingNote"
+        style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
         🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
       </div>
     </div>
@@ -109,96 +126,243 @@
     <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
       <h2 class="cntHdng">7. मेफिस्टोफिलीज़ और मार्गरेटा</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. मेफिस्टोफिलीज़ और मार्गरेटा" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. मेफिस्टोफिलीज़ और मार्गरेटा"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19वीं शताब्दी, फ्रांस, डॉ. फॉस्ट (1808)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">संग्रह की सबसे आकर्षक कलाकृतियों में से एक ‘मेफिस्टोफिलीज़ और मार्गरेटा’ की लकड़ी की मूर्ति है, जो बुराई और अच्छाई का प्रतिनिधित्व करती है। ये पात्र गोएथे की प्रसिद्ध रचना ‘डॉ. फॉस्ट’ (1808) से लिए गए हैं और प्रेम, वीरता तथा त्रासदी की कहानी बताते हैं। शिल्पकार ने एक ही गूलर की लकड़ी के लट्ठे से दोनों ओर दो अलग-अलग आकृतियाँ उकेरी हैं। पुरुष आकृति को सिर ढकने वाले चोगे और एड़ी वाले जूतों में दिखाया गया है। उसका चेहरा लंबा और दुबला है तथा चेहरे पर व्यंग्यपूर्ण मुस्कान है। वहीं, मार्गरेटा को एक संकोची और सरल लड़की के रूप में दिखाया गया है। उसके एक हाथ में प्रार्थना-पुस्तक है और उसकी आँखें नीचे की ओर झुकी हुई हैं, मानो वह प्रेम में खोई हुई हो।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">संग्रह की सबसे आकर्षक कलाकृतियों में से एक
+          ‘मेफिस्टोफिलीज़ और मार्गरेटा’ की लकड़ी की मूर्ति है, जो बुराई और अच्छाई का प्रतिनिधित्व करती है। ये पात्र
+          गोएथे की प्रसिद्ध रचना ‘डॉ. फॉस्ट’ (1808) से लिए गए हैं और प्रेम, वीरता तथा त्रासदी की कहानी बताते हैं।
+          शिल्पकार ने एक ही गूलर की लकड़ी के लट्ठे से दोनों ओर दो अलग-अलग आकृतियाँ उकेरी हैं। पुरुष आकृति को सिर ढकने
+          वाले चोगे और एड़ी वाले जूतों में दिखाया गया है। उसका चेहरा लंबा और दुबला है तथा चेहरे पर व्यंग्यपूर्ण मुस्कान
+          है। वहीं, मार्गरेटा को एक संकोची और सरल लड़की के रूप में दिखाया गया है। उसके एक हाथ में प्रार्थना-पुस्तक है और
+          उसकी आँखें नीचे की ओर झुकी हुई हैं, मानो वह प्रेम में खोई हुई हो।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="english" style="display: none;">
       <h2 class="cntHdng">7. Mephistopheles and Margaretta</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. Mephistopheles and Margaretta" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. Mephistopheles and Margaretta"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19th Century, France by Dr.Faust (1808)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">The most intriguing treasure in the collection is the wooden statue of 'Mephistopheles and Margaretta' representing evil and good. These are characters from Goethe's famous work 'Dr.Faust' (1808) and tell the story of love, heroism and tragedy. From a single log of Sycamore wood the sculptor has carved two distinct images on either side. The male image is clad in a hooded cloak, heeled boots and has a long gaunt face with a cynical smile, while Margaretta is shown as a shy, simple girl with a prayer book in one hand and downcast eyes, lost in love.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">The most intriguing treasure in the collection
+          is the wooden statue of 'Mephistopheles and Margaretta' representing evil and good. These are characters from
+          Goethe's famous work 'Dr.Faust' (1808) and tell the story of love, heroism and tragedy. From a single log of
+          Sycamore wood the sculptor has carved two distinct images on either side. The male image is clad in a hooded
+          cloak, heeled boots and has a long gaunt face with a cynical smile, while Margaretta is shown as a shy, simple
+          girl with a prayer book in one hand and downcast eyes, lost in love.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
       <h2 class="cntHdng">7. মেফিস্টোফেলস এবং মার্গারেট</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. মেফিস্টোফেলস এবং মার্গারেট" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. মেফিস্টোফেলস এবং মার্গারেট"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৯শ শতাব্দী, ফ্রান্স; ‘ডক্টর ফাউস্ট’ (১৮০৮) অবলম্বনে</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এই সংগ্রহের সবচেয়ে আকর্ষণীয় নিদর্শনটি হলো ‘মেফিস্টোফিলিস ও মার্গারেট’-র কাঠের মূর্তি, যা অশুভ ও শুভ শক্তির প্রতীক। এরা গ্যেটের বিখ্যাত সৃষ্টি ‘ডক্টর ফাউস্ট’ (১৮০৮)-এর চরিত্র এবং তাদের কাহিনী প্রেম, বীরত্ব ও বিয়োগান্তক পরিণতির আখ্যান। ভাস্কর একটিমাত্র সাইকামোর কাঠের গুঁড়ি থেকে এর দুই পাশে দুটি ভিন্ন অবয়ব খোদাই করেছেন। পুরুষ মূর্তিটি হুড-যুক্ত আলখাল্লা ও হিল-তোলা বুট পরিহিত; তার মুখমণ্ডল দীর্ঘ ও শীর্ণ এবং ঠোঁটে এক ব্যঙ্গাত্মক হাসি। অন্যদিকে, মার্গারেটাকে দেখানো হয়েছে এক লাজুক ও সরল তরুণী হিসেবে—যার এক হাতে প্রার্থনার বই এবং দৃষ্টি অবনত, যেন সে প্রেমে বিভোর।</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৯শ শতাব্দী, ফ্রান্স; ‘ডক্টর ফাউস্ট’ (১৮০৮)
+          অবলম্বনে</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এই সংগ্রহের সবচেয়ে আকর্ষণীয় নিদর্শনটি হলো
+          ‘মেফিস্টোফিলিস ও মার্গারেট’-র কাঠের মূর্তি, যা অশুভ ও শুভ শক্তির প্রতীক। এরা গ্যেটের বিখ্যাত সৃষ্টি ‘ডক্টর
+          ফাউস্ট’ (১৮০৮)-এর চরিত্র এবং তাদের কাহিনী প্রেম, বীরত্ব ও বিয়োগান্তক পরিণতির আখ্যান। ভাস্কর একটিমাত্র সাইকামোর
+          কাঠের গুঁড়ি থেকে এর দুই পাশে দুটি ভিন্ন অবয়ব খোদাই করেছেন। পুরুষ মূর্তিটি হুড-যুক্ত আলখাল্লা ও হিল-তোলা বুট
+          পরিহিত; তার মুখমণ্ডল দীর্ঘ ও শীর্ণ এবং ঠোঁটে এক ব্যঙ্গাত্মক হাসি। অন্যদিকে, মার্গারেটাকে দেখানো হয়েছে এক লাজুক
+          ও সরল তরুণী হিসেবে—যার এক হাতে প্রার্থনার বই এবং দৃষ্টি অবনত, যেন সে প্রেমে বিভোর।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">7. മെഫിസ്റ്റോഫെലെസ് ആൻഡ് മാർഗരെറ്റ</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. മെഫിസ്റ്റോഫെലെസ് ആൻഡ് മാർഗരെറ്റ" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. മെഫിസ്റ്റോഫെലെസ് ആൻഡ് മാർഗരെറ്റ"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19-ാം നൂറ്റാണ്ട്, ഫ്രാൻസ്, ഡോ.ഫൗസ്റ്റ് (1808)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ഈ ശേഖരത്തിലെ ഏറ്റവും കൗതുകകരമായ നിധിയാണ് തിന്മയുടെയും നന്മയുടെയും പ്രതീകമായ 'മെഫിസ്റ്റോഫെൽസ് ആൻഡ് മാർഗരറ്റ' എന്ന മരശില്പം. ഗോഥെയുടെ പ്രശസ്തമായ 'ഡോ. ഫൗസ്റ്റ്' (1808) എന്ന കൃതിയിലെ കഥാപാത്രങ്ങളാണിവർ; പ്രണയം, വീരത്വം, ദുരന്തം എന്നിവയാണ് ഈ കഥയുടെ ഉള്ളടക്കം.<br><br>ഒരൊറ്റ സിസമരം തടിയിൽ നിന്നാണ് ശില്പി ഇതിന്‍റെ ഇരുവശങ്ങളിലുമായി രണ്ട് വ്യത്യസ്ത രൂപങ്ങൾ കൊത്തിവെച്ചിരിക്കുന്നത്. പുരുഷ രൂപം (മെഫിസ്റ്റോഫെൽസ്) തൊപ്പിയുള്ള കുപ്പായവും ഉയർന്ന കുതിക്കാലുള്ള ബൂട്ടും ധരിച്ചവനാണ്; നീണ്ടു മെലിഞ്ഞ മുഖവും പരിഹാസ്യമായ ചിരിയും അദ്ദേഹത്തിനുണ്ട്. അതേസമയം, മാർഗരറ്റയെ ഒരു കയ്യിൽ പ്രാർത്ഥനാ പുസ്തകവും താഴേക്ക് താഴ്ത്തിയ കണ്ണുകളുമായി, പ്രണയത്തിൽ മുഴുകിയ ലജ്ജാശീലയായ ഒരു സാധാരണ പെൺകുട്ടിയായാണ് ചിത്രീകരിച്ചിരിക്കുന്നത്.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19-ാം നൂറ്റാണ്ട്, ഫ്രാൻസ്, ഡോ.ഫൗസ്റ്റ് (1808)
+        </p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ഈ ശേഖരത്തിലെ ഏറ്റവും കൗതുകകരമായ നിധിയാണ്
+          തിന്മയുടെയും നന്മയുടെയും പ്രതീകമായ 'മെഫിസ്റ്റോഫെൽസ് ആൻഡ് മാർഗരറ്റ' എന്ന മരശില്പം. ഗോഥെയുടെ പ്രശസ്തമായ 'ഡോ.
+          ഫൗസ്റ്റ്' (1808) എന്ന കൃതിയിലെ കഥാപാത്രങ്ങളാണിവർ; പ്രണയം, വീരത്വം, ദുരന്തം എന്നിവയാണ് ഈ കഥയുടെ
+          ഉള്ളടക്കം.<br><br>ഒരൊറ്റ സിസമരം തടിയിൽ നിന്നാണ് ശില്പി ഇതിന്‍റെ ഇരുവശങ്ങളിലുമായി രണ്ട് വ്യത്യസ്ത രൂപങ്ങൾ
+          കൊത്തിവെച്ചിരിക്കുന്നത്. പുരുഷ രൂപം (മെഫിസ്റ്റോഫെൽസ്) തൊപ്പിയുള്ള കുപ്പായവും ഉയർന്ന കുതിക്കാലുള്ള ബൂട്ടും
+          ധരിച്ചവനാണ്; നീണ്ടു മെലിഞ്ഞ മുഖവും പരിഹാസ്യമായ ചിരിയും അദ്ദേഹത്തിനുണ്ട്. അതേസമയം, മാർഗരറ്റയെ ഒരു കയ്യിൽ
+          പ്രാർത്ഥനാ പുസ്തകവും താഴേക്ക് താഴ്ത്തിയ കണ്ണുകളുമായി, പ്രണയത്തിൽ മുഴുകിയ ലജ്ജാശീലയായ ഒരു സാധാരണ
+          പെൺകുട്ടിയായാണ് ചിത്രീകരിച്ചിരിക്കുന്നത്.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" dir="rtl" style="display: none;">
       <h2 class="cntHdng">7. میفسٹوفیلس اور مارگریٹا کے مجسمے</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. میفسٹوفیلس اور مارگریٹا کے مجسمے" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. میفسٹوفیلس اور مارگریٹا کے مجسمے"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">انیسویں صدی، فرانس، ڈاکٹر فاؤسٹ کی مصوری (1808)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">اس مجموعے میں شامل دلچسپ فن پاروں میں ’’میفسٹوفیلس اور مارگریٹا‘‘ کا یہ لکڑی کا مجسمہ نمایاں ہے۔ اس میں برائی اور اچھائی کودومختلف کرداروں کے ذریعے پیش کیا گیا ہے۔ یہ دونوں کردار گوئٹے کی مشہور تصنیف ’’فاؤسٹ‘‘ (1808) سے لیے گئے ہیں، جس میں محبت، بہادری اور سانحے کی داستان بیان کی گئی ہے۔<br><br>مجسمہ ساز نے سکامور کی لکڑی کے ایک ہی لٹھے سے مجسمے کے دونوں رخ تراش کردو الگ پیکر بنائے ہیں۔ ایک طرف میفسٹوفیلس کو ڈھال نما لباس اور ایڑی والے جوتے پہنے دکھایا گیا ہے۔ اس کا لمبا اور بدصورت چہرہ ایک طنزیہ مسکراہٹ لیے ہوئے ہے۔ دوسری طرف مارگریٹا کو ایک شرمیلی اور سادہ لڑکی کے روپ میں دکھایا گیا ہے۔ اس کے ایک ہاتھ میں دعاؤں کی کتاب ہے، جبکہ اس کی اداس آنکھیں محبت کی گہری کیفیت کو ظاہر کرتی ہیں۔</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">انیسویں صدی، فرانس، ڈاکٹر فاؤسٹ کی مصوری
+          (1808)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">اس مجموعے میں شامل دلچسپ فن پاروں میں
+          ’’میفسٹوفیلس اور مارگریٹا‘‘ کا یہ لکڑی کا مجسمہ نمایاں ہے۔ اس میں برائی اور اچھائی کودومختلف کرداروں کے ذریعے
+          پیش کیا گیا ہے۔ یہ دونوں کردار گوئٹے کی مشہور تصنیف ’’فاؤسٹ‘‘ (1808) سے لیے گئے ہیں، جس میں محبت، بہادری اور
+          سانحے کی داستان بیان کی گئی ہے۔<br><br>مجسمہ ساز نے سکامور کی لکڑی کے ایک ہی لٹھے سے مجسمے کے دونوں رخ تراش
+          کردو الگ پیکر بنائے ہیں۔ ایک طرف میفسٹوفیلس کو ڈھال نما لباس اور ایڑی والے جوتے پہنے دکھایا گیا ہے۔ اس کا لمبا
+          اور بدصورت چہرہ ایک طنزیہ مسکراہٹ لیے ہوئے ہے۔ دوسری طرف مارگریٹا کو ایک شرمیلی اور سادہ لڑکی کے روپ میں
+          دکھایا گیا ہے۔ اس کے ایک ہاتھ میں دعاؤں کی کتاب ہے، جبکہ اس کی اداس آنکھیں محبت کی گہری کیفیت کو ظاہر کرتی
+          ہیں۔</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">7. மெஃபிஸ்டோபில்ஸ் மற்றும் மார்கரெட்டா</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. மெஃபிஸ்டோபில்ஸ் மற்றும் மார்கரெட்டா" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. மெஃபிஸ்டோபில்ஸ் மற்றும் மார்கரெட்டா"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19 ஆம் நூற்றாண்டு, பிரான்ஸ், டாக்டர் ஃபாஸ்ட் (1808)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இந்தத் தொகுப்பில் உள்ள மிகவும் கவர்ச்சிகரமான புதையல் தீமை மற்றும் நன்மையைக் குறிக்கும் 'மெஃபிஸ்டோபில்ஸ் மற்றும் மார்கரெட்டா' மரச் சிற்பமாகும். இவை கோதேவின் புகழ்பெற்ற படைப்பான 'டாக்டர் ஃபாஸ்ட்' (1808) இன் கதாபாத்திரங்கள் மற்றும் அன்பு, வீரவாதம் மற்றும் சோகம் பற்றிய கதையைச் சொல்கின்றன.<br><br>சைக்காமோர் மரத்தின் ஒற்றைத் துண்டிலிருந்து சிற்பி இருபுறமும் இரண்டு தனித்த ட்டு உருவங்களை செதுக்கியுள்ளார். ஆண் உருவம் ஒரு ஹூட் அணிந்த மேலாடை, குதிகால் கொண்ட பூட்ஸ் மற்றும் கேலிச் சிரிப்புடன் கூடிய நீண்ட ஒல்லியான முகத்தைக் கொண்டுள்ளது. அதே நேரத்தில் மார்கரெட்டா ஒரு கையில் பிரார்த்தனைப் புத்தகத்துடனும், காதலில் தோய்ந்த தாழ்ந்த கண்களுடனும் வெட்கப்படும், எளிய பெண்ணாகக் காட்டப்படுகிறாள்.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19 ஆம் நூற்றாண்டு, பிரான்ஸ், டாக்டர் ஃபாஸ்ட்
+          (1808)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இந்தத் தொகுப்பில் உள்ள மிகவும் கவர்ச்சிகரமான
+          புதையல் தீமை மற்றும் நன்மையைக் குறிக்கும் 'மெஃபிஸ்டோபில்ஸ் மற்றும் மார்கரெட்டா' மரச் சிற்பமாகும். இவை கோதேவின்
+          புகழ்பெற்ற படைப்பான 'டாக்டர் ஃபாஸ்ட்' (1808) இன் கதாபாத்திரங்கள் மற்றும் அன்பு, வீரவாதம் மற்றும் சோகம் பற்றிய
+          கதையைச் சொல்கின்றன.<br><br>சைக்காமோர் மரத்தின் ஒற்றைத் துண்டிலிருந்து சிற்பி இருபுறமும் இரண்டு தனித்த ட்டு
+          உருவங்களை செதுக்கியுள்ளார். ஆண் உருவம் ஒரு ஹூட் அணிந்த மேலாடை, குதிகால் கொண்ட பூட்ஸ் மற்றும் கேலிச்
+          சிரிப்புடன் கூடிய நீண்ட ஒல்லியான முகத்தைக் கொண்டுள்ளது. அதே நேரத்தில் மார்கரெட்டா ஒரு கையில் பிரார்த்தனைப்
+          புத்தகத்துடனும், காதலில் தோய்ந்த தாழ்ந்த கண்களுடனும் வெட்கப்படும், எளிய பெண்ணாகக் காட்டப்படுகிறாள்.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">7. મેફિસ્ટોફિલિસ અને માર્ગારેટા</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. મેફિસ્ટોફિલિસ અને માર્ગારેટા" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. મેફિસ્ટોફિલિસ અને માર્ગારેટા"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">૧૯મી સદી, ફ્રાન્સ ડૉ. ફાઉસ્ટ (1808)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ સંગ્રહની રસપ્રદ કૃતિઓમાંની એક ‘મેફિસ્ટોફિલિસ અને માર્ગારેટા’ની લાકડાની પ્રતિમા છે. આ પ્રતિમા અશુભ અને શુભનું પ્રતીક રજૂ કરે છે. બંને પાત્રો જર્મન લેખક ગોથેની પ્રસિદ્ધ કૃતિ ‘ડૉ. ફાઉસ્ટ’ (1808) સાથે સંબંધિત છે. આ કથામાં પ્રેમ, વીરતા અને કરુણ ઘટનાનું વર્ણન જોવા મળે છે.શિલ્પકારે સાયકેમોર લાકડાના એક જ લાકડાના ટુકડામાંથી બંને પાત્રોને કોતરીને અલગ-અલગ આકાર આપ્યા છે. લાકડાની એક બાજુ પુરુષ પાત્ર મેફિસ્ટોફિલિસ અને બીજી બાજુ માર્ગારેટાનું શિલ્પ છે.મેફિસ્ટોફિલિસને માથું ઢાંકતી લાંબી ચાદર, ઊંચી એડીવાળા બૂટ અને લાંબા, પાતળા ચહેરા સાથે દર્શાવવામાં આવ્યો છે. તેના ચહેરા પર વ્યંગપૂર્ણ સ્મિત જોવા મળે છે.બીજી તરફ, માર્ગારેટાને શરમાળ અને સરળ યુવતી તરીકે દર્શાવવામાં આવી છે. તેના એક હાથમાં પ્રાર્થનાનું પુસ્તક છે અને તેની નજર નીચે તરફ છે. તે પ્રેમની લાગણીમાં તલ્લીન દેખાય છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ સંગ્રહની રસપ્રદ કૃતિઓમાંની એક ‘મેફિસ્ટોફિલિસ
+          અને માર્ગારેટા’ની લાકડાની પ્રતિમા છે. આ પ્રતિમા અશુભ અને શુભનું પ્રતીક રજૂ કરે છે. બંને પાત્રો જર્મન લેખક
+          ગોથેની પ્રસિદ્ધ કૃતિ ‘ડૉ. ફાઉસ્ટ’ (1808) સાથે સંબંધિત છે. આ કથામાં પ્રેમ, વીરતા અને કરુણ ઘટનાનું વર્ણન જોવા
+          મળે છે.શિલ્પકારે સાયકેમોર લાકડાના એક જ લાકડાના ટુકડામાંથી બંને પાત્રોને કોતરીને અલગ-અલગ આકાર આપ્યા છે. લાકડાની
+          એક બાજુ પુરુષ પાત્ર મેફિસ્ટોફિલિસ અને બીજી બાજુ માર્ગારેટાનું શિલ્પ છે.મેફિસ્ટોફિલિસને માથું ઢાંકતી લાંબી
+          ચાદર, ઊંચી એડીવાળા બૂટ અને લાંબા, પાતળા ચહેરા સાથે દર્શાવવામાં આવ્યો છે. તેના ચહેરા પર વ્યંગપૂર્ણ સ્મિત જોવા
+          મળે છે.બીજી તરફ, માર્ગારેટાને શરમાળ અને સરળ યુવતી તરીકે દર્શાવવામાં આવી છે. તેના એક હાથમાં પ્રાર્થનાનું પુસ્તક
+          છે અને તેની નજર નીચે તરફ છે. તે પ્રેમની લાગણીમાં તલ્લીન દેખાય છે.</div>
       </div>
     </div>
 
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">7. మెఫిస్టోఫెల్స్ మరియు మార్గరెట్టా</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. మెఫిస్టోఫెల్స్ మరియు మార్గరెట్టా"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19 వ శతాబ్దం, ఫ్రాన్స్ Dr.Faust (1808)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          మ్యూజియం సేకరణలోని అత్యంత ఆసక్తికరమైన అద్భుతం ఈ చెక్క శిల్పం. ఇది చెడు మరియు మంచిల
+          మధ్య వైరుధ్యాన్ని ఏకకాలంలో ప్రతిబింబిస్తుంది. జర్మన్ మహాకవి గోథే రచించిన 'డాక్టర్ ఫాస్ట్' నాటకంలోని
+          ప్రేమ, శౌర్యం మరియు విషాద కథకు చెందిన పాత్రలు ఇవి. సికమోర్ (Sycamore) చెక్క మొద్దు నుండి
+          శిల్పి ఒకే దుంగకు ఇరువైపులా రెండు భిన్నమైన రూపాలను చెక్కాడు. ముందు వైపు పురుష రూపం
+          (మెఫిస్టోఫెలిస్ - సైతాను) తలకు టోపీతో కూడిన వస్త్రాన్ని, మడమ బూట్లను ధరించి, మోసపూరిత
+          చిరునవ్వుతో పొడవాటి బక్కపల్చని ముఖంతో కనిపిస్తాడు; వెనుక వైపు మార్గరెట్టా అమాయకమైన,
+          సిగ్గుపడుతున్న ముగ్ధలా, చేతిలో ప్రార్థనా పుస్తకాన్ని పట్టుకుని, కిందికి వాలిన చూపులతో ప్రేమలో
+          మునిగిపోయిన రూపంలో దర్శనమిస్తుంది.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">7. ಮೆಫಿಸ್ಟೋಫೆಲ್ಸ್ ಮತ್ತು ಮಾರ್ಗರೇಟ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. ಮೆಫಿಸ್ಟೋಫೆಲ್ಸ್ ಮತ್ತು ಮಾರ್ಗರೇಟ್"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19 ನೇ ಶತಮಾನ, ಫ್ರಾನ್ಸ್'ಡಾ. ಫೌಸ್ಟ್ ಅವರಿಂದ
+          ಬಿಡಿಸಲಾದ ವರ್ಣಚಿತ್ರ(1808)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ಸಂಗ್ರಹದಲ್ಲಿರುವ ಅತ್ಯಂತ ಕುತೂಹಲಕಾರಿ ಕಲಾಕೃತಿಯೆಂದರೆ ಕೆಟ್ಟದ್ದು ಮತ್ತು ಒಳ್ಳೆಯದನ್ನು ಪ್ರತಿನಿಧಿಸುವ
+          'ಮೆಫಿಸ್ಟೊಫೀಲಿಸ್ ಮತ್ತು ಮಾರ್ಗರೇಟಾ' ಅವರ ಮರದ ಶಿಲ್ಪವಾಗಿದೆ. ಇವು ಗೋಥೆ ಅವರ ಪ್ರಸಿದ್ಧಕೃತಿಯಾದ 'ಡಾ.
+          ಫೌಸ್ಟ್' (1808) ಕೃತಿಯ ಪಾತ್ರಗಳಾಗಿದ್ದು, ಪ್ರೀತಿ, ಶೌರ್ಯ ಮತ್ತುದುರಂತದ ಕಥೆಯನ್ನುಹೇಳುತ್ತವೆ. ಸಿಕ್ಯಾಮೋರ್
+          ಮರದ ಒಂದೇ ದಿಮ್ಮಿಯಿಂದ ಶಿಲ್ಪಿ ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಎರಡು ವಿಭಿನ್ನ ಆಕೃತಿಗಳನ್ನುಕೆತ್ತಿದ್ದಾನೆ. ಪುರುಷ ಆಕೃತಿಯು
+          ಹುಡ್ ಹೊಂದಿರುವ ನಿಲುವಂಗಿ, ಹೀಲ್ಡ್ಬೂಟುಗಳನ್ನುಧರಿಸಿದ್ದು, ವ್ಯಂಗ್ಯದ ನಗೆಯೊಂದಿಗೆ ಉದ್ದನೆಯ ಕೃಶ
+          ಮುಖವನ್ನುಹೊಂದಿದೆ; ಇನ್ನೊಂದೆಡೆ ಮಾರ್ಗರೇಟಾಳನ್ನುಪ್ರೇಮದಲ್ಲಿಮುಳುಗಿರುವ, ಒಂದು ಕೈಯಲ್ಲಿಪ್ರಾರ್ಥನಾ
+          ಪುಸ್ತಕವನ್ನು ಹಿಡಿದು ಕೆಳಗೆ ನೋಡುತ್ತಿರುವ ನಾಚಿಕೆ ಸ್ವಭಾವದ ಸರಳ ಹುಡುಗಿಯಾಗಿ ತೋರಿಸಲಾಗಿದೆ.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng">7. ମେଫିଷ୍ଟୋଫେଲ୍ସ ଏବଂ ମାର୍ଗାରେଟା</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. ମେଫିଷ୍ଟୋଫେଲ୍ସ ଏବଂ ମାର୍ଗାରେଟା"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">୧୯ଶ ଶତାବ୍ଦୀ, ଫ୍ରାନ୍ସ, ଡକ୍ଟର ଫଷ୍ଟ (1808)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ମେଫିଷ୍ଟୋଫେଲିସ୍ ଏବଂ ମାର୍ଗାରେଟା
+          ଏହି ସଂଗ୍ରହାଳୟର ସବୁଠାରୁ ବିସ୍ମୟକର ଓ କୌତୂହଳପୂର୍ଣ୍ଣ ସମ୍ପଦଗୁଡ଼ିକ ମଧ୍ୟରେ
+          'ମେଫିଷ୍ଟୋଫେଲିସ୍ ଏବଂ ମାର୍ଗାରେଟା'ଙ୍କ ଏହି କାଷ୍ଠ-ପ୍ରତିମା ଅନ୍ୟତମ, ଯାହା ସତ୍ ଓ ଅସତ୍
+          (ପୁଣ୍ୟ ଓ ପାପ)ର ପ୍ରତୀକ। ଏହି ଦୁଇଟି ଚରିତ୍ର ଜର୍ମାନ ସାହିତ୍ୟିକ ଗେଟେଙ୍କ ପ୍ରସିଦ୍ଧ ରଚନା
+          'ଡକ୍ଟର ଫଷ୍ଟ' (1808)ରୁ ଗୃହୀତ, ଯାହା ପ୍ରେମ, ବୀରତ୍ୱ ଏବଂ ତ୍ରାସଦୀର କାହାଣୀ ବର୍ଣ୍ଣନା କରେ।
+          'ସାଇକାମୋର' କାଠର ଗୋଟିଏ ମାତ୍ର ଗଣ୍ଡିରୁ ଭାସ୍କର ଏହି ପ୍ରତିମାର ଦୁଇ ବିପରୀତ ପାର୍ଶ୍ୱରେ
+          ଦୁଇଟି ସମ୍ପୂର୍ଣ୍ଣ ଭିନ୍ନ ଆକୃତି ଖୋଦନ କରିଛନ୍ତି। ଏହାର ଏକ ପାର୍ଶ୍ୱରେ ଥିବା ପୁରୁଷ ପ୍ରତିମାଟି
+          (ମେଫିଷ୍ଟୋଫେଲିସ୍) ଟୋପିଯୁକ୍ତ ଚୋଗା ଏବଂ ଗୋଡ଼ାଳିଯୁକ୍ତ ଜୋତା ପିନ୍ଧିଛନ୍ତି; ତାଙ୍କର କୃଶ ଓ
+          ଦୀର୍ଘ ମୁଖମଣ୍ଡଳରେ ଏକ କୁଟିଳ ବିଦ୍ରୂପାତ୍ମକ ହାସ୍ୟ ଫୁଟିଉଠୁଛି। ଅନ୍ୟପାର୍ଶ୍ୱରେ
+          ମାର୍ଗାରେଟାଙ୍କୁ ଜଣେ ଲଜ୍ଜାବତୀ, ସରଳ ଯୁବତୀ ଭାବେ ଦର୍ଶାଯାଇଛି, ଯାହାଙ୍କ ଗୋଟିଏ ହାତରେ
+          ପ୍ରାର୍ଥନା ପୁସ୍ତକ ରହିଛି ଏବଂ ସେ ନତନୟନରେ ଗଭୀର ପ୍ରେମର ମୋହରେ ନିମଗ୍ନ ହୋଇରହିଛନ୍ତି।
+        </div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng">7. मेफीस्टोफेल्स आणि मार्गारेटा</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item7.png" width="100%" alt="7. मेफीस्टोफेल्स आणि मार्गारेटा"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">19 वेशतक, फ्रान्स Dr.Faust द्वारे(1808)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          संग्रहातील सर्वात कुतूहल निर्माण करणारा खजिना म्हणजे वाईट आणि चांगल्या प्रवृत्तींचे प्रतिनिधित्व करणारा
+          'मेफिस्टोफेलेस आणिमार्गारेटा' यांचा लाकडी पुतळा. ही गटेयांच्या 'डॉ. फॉस्ट' (1808) या प्रसिद्ध कृतीतील पात्रे
+          आहेत जी
+          प्रेम, शौर्य आणि शोकांतिकेची कथा सांगतात. सायकॅमोर लाकडाच्या एकाच ओंडक्यातून शिल्पकारानेदोन्ही बाजूंना दोन
+          भिन्न प्रतिमा कोरल्या आहेत. पुरुषी प्रतिमा टोपी असलेल्या झब्ब्यात आणि टाचांच्या बुटांमध्ये सजलेली असून त्याचा
+          चेहरा
+          लांबट, कृश आणि कुत्सित हास्य असलेला आहे, तरमार्गारेटा ही एका हातात प्रार्थना पुस्तक घेऊन खाली पाहणारी, प्रेमात
+          हरवलेली एक लाजाळू, साधीमुलगी म्हणून दर्शविली आहे.
+        </div>
+      </div>
+    </div>
+
+
     <div class="navBtnDiv">
       <a href="item6.html" class="navBtn">← Previous</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
       <a href="item8.html" class="navBtn">Next →</a>
     </div>
   </main>
 
   <footer>
-    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
 
   <script>
     const languageAudio = document.getElementById("languageAudio");
     const audioMissingNote = document.getElementById("audioMissingNote");
     const audioByLanguage = {
-  "hindi": "Audios/Hindi/7). LXIV-21, मेफिस्टोफिलीज़ और मार्गरेटा.wav",
-  "english": "Audios/English/7). LXIV-21,.wav",
-  "bengali": "Audios/Bengali/7). LXIV-21, MEPHISTOPHELES AND MARGARETTA _.wav",
-  "malayalam": "Audios/Malayalam/MEPHISTOPHELES AND MARGARETTA.ml.wav",
-  "urdu": "Audios/Urdu/7). LXIV-21, MEPHISTOPHELES AND MARGARETTA.wav",
-  "tamil": "Audios/Tamil/7. MEPHISTOPHELES AND MARGARETTA.wav",
-  "gujarati": "Audios/Gujarati/LXIV-21,.wav"
-};
+      "hindi": "Audios/Hindi/7). LXIV-21, मेफिस्टोफिलीज़ और मार्गरेटा.wav",
+      "english": "Audios/English/7). LXIV-21,.wav",
+      "bengali": "Audios/Bengali/7). LXIV-21, MEPHISTOPHELES AND MARGARETTA _.wav",
+      "malayalam": "Audios/Malayalam/MEPHISTOPHELES AND MARGARETTA.ml.wav",
+      "urdu": "Audios/Urdu/7). LXIV-21, MEPHISTOPHELES AND MARGARETTA.wav",
+      "tamil": "Audios/Tamil/7. MEPHISTOPHELES AND MARGARETTA.wav",
+      "gujarati": "Audios/Gujarati/LXIV-21,.wav",
+      "kannada": "Audios/Kannada/LXIV-21, MEPHISTOPHELES AND MARGARETTA.wav",
+      "telugu": "Audios/Telugu/Telugu_MEPHISTOPHELES AND MARGARETTA_Female.wav",
+      "marathi": "Audios/Marathi/LXIV-21, MEPHISTOPHELES AND MARGARETTA.wav",
+      "odia": "Audios/odia/7. MEPHISTOPHELES AND MARGARETTA.wav"
+    };
     const languageSelector = document.getElementById("languageSelector");
 
     const footerTranslations = {
@@ -208,7 +372,11 @@
       malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
       urdu: '© 2024 تمام حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
       tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
-      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા'
+      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા',
+      telugu: '© 2024 అన్ని హక్కులు రిజర్వు చేయబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
+      kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
+      odia: '© 2024 ସମସ୍ତ ଅଧିକାର ସଂରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
+      marathi: '© 2024 सर्व हक्क राखीव, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारे'
     };
 
     function selectLanguage(language) {
@@ -245,4 +413,5 @@
     }
   </script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="hi">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-width: 100%;
       max-height: 460px;
@@ -50,6 +55,7 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .navBtnDiv {
       max-width: 900px;
       margin: 0 auto 40px auto;
@@ -57,6 +63,7 @@
       display: flex;
       justify-content: space-between;
     }
+
     .navBtn {
       display: inline-block;
       padding: 10px 24px;
@@ -68,21 +75,26 @@
       font-size: 15px;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background: #8e1d20;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
-          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png"
+              onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';"
+              alt="Ministry of Culture"></a>
         </div>
         <div class="logoRgt">
           <div class="langDiv">
-            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <span class="anuIcn"><img src="./images/logo-anu.png"
+                onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
             <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="hindi" selected>हिन्दी (Hindi)</option>
               <option value="english">English</option>
@@ -91,6 +103,10 @@
               <option value="urdu">اردو (Urdu)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="marathi">मराठी (Marathi)</option>
             </select>
           </div>
         </div>
@@ -101,7 +117,8 @@
   <main>
     <div class="audioPlayerDiv">
       <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
-      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+      <div id="audioMissingNote"
+        style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
         🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
       </div>
     </div>
@@ -109,96 +126,244 @@
     <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
       <h2 class="cntHdng">4. वेनिस का सान मार्को चौक</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. वेनिस का सान मार्को चौक" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. वेनिस का सान मार्को चौक"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750–1760, इटली — कैनेलेटो (जियोवानी एंटोनियो कैनाल)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">“सान मार्को चौक” नामक यह तैलचित्र कैनेलेटो द्वारा बनाया गया है और संग्रहालय के यूरोपीय चित्रकला कक्ष में प्रदर्शित है। उस समय की शैली के अनुसार बने सुंदर फ्रेम में सजा यह चित्र सान मार्को जलाशय की ओर से दिखाई देने वाले सान मार्को चौक को दर्शाता है। इसमें भव्य वास्तुकला, सुंदर छोटी-छोटी आकृतियाँ और मनमोहक प्राकृतिक दृश्य का सुंदर मेल दिखाई देता है। वास्तुकला की सटीकता, सड़कों की ठोस बनावट, बारीक विवरण और परिप्रेक्ष्य की शुद्धता के कारण यह चित्र कैनेलेटो की उत्कृष्ट कृतियों में से एक माना जाता है। संभवतः इसे उन्होंने 1750 से 1760 के बीच बनाया था।</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750–1760, इटली — कैनेलेटो (जियोवानी एंटोनियो
+          कैनाल)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">“सान मार्को चौक” नामक यह तैलचित्र कैनेलेटो
+          द्वारा बनाया गया है और संग्रहालय के यूरोपीय चित्रकला कक्ष में प्रदर्शित है। उस समय की शैली के अनुसार बने सुंदर
+          फ्रेम में सजा यह चित्र सान मार्को जलाशय की ओर से दिखाई देने वाले सान मार्को चौक को दर्शाता है। इसमें भव्य
+          वास्तुकला, सुंदर छोटी-छोटी आकृतियाँ और मनमोहक प्राकृतिक दृश्य का सुंदर मेल दिखाई देता है। वास्तुकला की सटीकता,
+          सड़कों की ठोस बनावट, बारीक विवरण और परिप्रेक्ष्य की शुद्धता के कारण यह चित्र कैनेलेटो की उत्कृष्ट कृतियों में
+          से एक माना जाता है। संभवतः इसे उन्होंने 1750 से 1760 के बीच बनाया था।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="english" style="display: none;">
       <h2 class="cntHdng">4. Piazza San Marco of Venice</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. Piazza San Marco of Venice" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. Piazza San Marco of Venice"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, Italy by Canaletto (Giovanni Antonio Canal)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">"Piazza San Marco", oil on canvas, authored by Canaletto hangs in European paintings hall of the Museum. Richly framed in the style of the period the picture shows the 'Piazza of San Marco' on the side facing the basin of San Marco. It is a delightful piece combing magnificent architecture, dainty figures and pleasant natural scenery. In the architectural correctness solidity of the streets, minuteness of details and correctness of perspective this composition claims to be one of the best productions of Canaletto who probably painted it between 1750 and 1760.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, Italy by Canaletto (Giovanni
+          Antonio Canal)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">"Piazza San Marco", oil on canvas, authored by
+          Canaletto hangs in European paintings hall of the Museum. Richly framed in the style of the period the picture
+          shows the 'Piazza of San Marco' on the side facing the basin of San Marco. It is a delightful piece combing
+          magnificent architecture, dainty figures and pleasant natural scenery. In the architectural correctness
+          solidity of the streets, minuteness of details and correctness of perspective this composition claims to be
+          one of the best productions of Canaletto who probably painted it between 1750 and 1760.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
       <h2 class="cntHdng">4. ভেনিসের পিয়াৎসা সান মার্কো</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. ভেনিসের পিয়াৎসা সান মার্কো" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. ভেনিসের পিয়াৎসা সান মার্কো"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৭৫০–১৭৬০, ইতালি, ক্যানালেত্তো (জোভান্নি আন্তোনিও কানাল) কর্তৃক নির্মিত</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ক্যানালেত্তোর আঁকা ক্যানভাসে তেলরঙে তৈরি 'পিয়াৎসা সান মার্কো' চিত্রকর্মটি জাদুঘরের ইউরোপীয় চিত্রশালায় প্রদর্শিত রয়েছে। তৎকালীন যুগের শৈলীতে চমৎকারভাবে ফ্রেমবন্দী এই ছবিতে সান মার্কোর অববাহিকার মুখোমুখি থাকা 'পিয়াৎসা অব সান মার্কো'-কে ফুটিয়ে তোলা হয়েছে। এটি একটি মনোমুগ্ধকর শিল্পকর্ম, যাতে অপূর্ব স্থাপত্যকলা, সূক্ষ্ম ও মার্জিত মানব অবয়ব এবং মনোরম প্রাকৃতিক দৃশ্যের এক চমৎকার সমন্বয় ঘটেছে। স্থাপত্যশৈলীর নির্ভুলতা, রাজপথের সুদৃঢ় রূপায়ণ, খুঁটিনাটি বিষয়ের সূক্ষ্মতা এবং পার্সপেক্টিভ বা পরিপ্রেক্ষিতের যথার্থতার বিচারে এই চিত্রকর্মটি ক্যানালেত্তোর অন্যতম সেরা সৃষ্টি হিসেবে দাবি রাখে, যা তিনি সম্ভবত ১৭৫০ থেকে ১৭৬০ সালের মাঝামাঝি সময়ে এঁকেছিলেন।</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">১৭৫০–১৭৬০, ইতালি, ক্যানালেত্তো (জোভান্নি
+          আন্তোনিও কানাল) কর্তৃক নির্মিত</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ক্যানালেত্তোর আঁকা ক্যানভাসে তেলরঙে তৈরি
+          'পিয়াৎসা সান মার্কো' চিত্রকর্মটি জাদুঘরের ইউরোপীয় চিত্রশালায় প্রদর্শিত রয়েছে। তৎকালীন যুগের শৈলীতে
+          চমৎকারভাবে ফ্রেমবন্দী এই ছবিতে সান মার্কোর অববাহিকার মুখোমুখি থাকা 'পিয়াৎসা অব সান মার্কো'-কে ফুটিয়ে তোলা
+          হয়েছে। এটি একটি মনোমুগ্ধকর শিল্পকর্ম, যাতে অপূর্ব স্থাপত্যকলা, সূক্ষ্ম ও মার্জিত মানব অবয়ব এবং মনোরম
+          প্রাকৃতিক দৃশ্যের এক চমৎকার সমন্বয় ঘটেছে। স্থাপত্যশৈলীর নির্ভুলতা, রাজপথের সুদৃঢ় রূপায়ণ, খুঁটিনাটি বিষয়ের
+          সূক্ষ্মতা এবং পার্সপেক্টিভ বা পরিপ্রেক্ষিতের যথার্থতার বিচারে এই চিত্রকর্মটি ক্যানালেত্তোর অন্যতম সেরা সৃষ্টি
+          হিসেবে দাবি রাখে, যা তিনি সম্ভবত ১৭৫০ থেকে ১৭৬০ সালের মাঝামাঝি সময়ে এঁকেছিলেন।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">4. പിയാസാ സാൻ മാർക്കോ ഓഫ് വെനീസ്</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. പിയാസാ സാൻ മാർക്കോ ഓഫ് വെനീസ്" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. പിയാസാ സാൻ മാർക്കോ ഓഫ് വെനീസ്"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, ഇറ്റലി, കാനാലെറ്റോ (ജിയോവന്നി അന്റോണിയോ കനാൽ)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">മ്യൂസിയത്തിലെ യൂറോപ്യൻ പെയിന്റിംഗ് ഹാളിൽ കനലെറ്റോ രചിച്ച "പിയാസ സാൻ മാർക്കോ" എന്ന ഓയിൽ ഓൺ ക്യാൻവാസ് പെയിന്റിംഗ് തൂക്കിയിട്ടിരിക്കുന്നു. കാലഘട്ടത്തിന്‍റെ ശൈലിയിൽ മനോഹരമായി ഫ്രെയിം ചെയ്തിരിക്കുന്ന ഈ ചിത്രം, സാൻ മാർക്കോയുടെ തടാകത്തിന്  അഭിമുഖമായുള്ള ഭാഗത്തെ 'പിയാസ ഓഫ് സാൻ മാർക്കോ'  കാണിക്കുന്നു. ഗാംഭീര്യമുള്ള വാസ്തുവിദ്യ, മനോഹരമായ രൂപങ്ങൾ, മനോഹരമായ പ്രകൃതിദൃശ്യങ്ങൾ എന്നിവ സമയോചിതമായി സംയോജിപ്പിക്കുന്ന ഒരു മനോഹരമായ സൃഷ്ടിയാണിത്. വാസ്തുവിദ്യയുടെ കൃത്യത, തെരുവുകളുടെ ദൃഢത, വിശദാംശങ്ങളുടെ സൂക്ഷ്മത, കാഴ്ചയുടെ  കൃത്യത എന്നിവയാൽ കനലെറ്റോയുടെ ഏറ്റവും മികച്ച സൃഷ്ടികളിലൊന്നായി ഇത് അവകാശപ്പെടുന്നു; അദ്ദേഹം ഇത് ഒരുപക്ഷേ 1750-നും 1760-നും ഇടയിലാകാം വരച്ചത്.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, ഇറ്റലി, കാനാലെറ്റോ (ജിയോവന്നി
+          അന്റോണിയോ കനാൽ)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">മ്യൂസിയത്തിലെ യൂറോപ്യൻ പെയിന്റിംഗ് ഹാളിൽ
+          കനലെറ്റോ രചിച്ച "പിയാസ സാൻ മാർക്കോ" എന്ന ഓയിൽ ഓൺ ക്യാൻവാസ് പെയിന്റിംഗ് തൂക്കിയിട്ടിരിക്കുന്നു.
+          കാലഘട്ടത്തിന്‍റെ ശൈലിയിൽ മനോഹരമായി ഫ്രെയിം ചെയ്തിരിക്കുന്ന ഈ ചിത്രം, സാൻ മാർക്കോയുടെ തടാകത്തിന് അഭിമുഖമായുള്ള
+          ഭാഗത്തെ 'പിയാസ ഓഫ് സാൻ മാർക്കോ' കാണിക്കുന്നു. ഗാംഭീര്യമുള്ള വാസ്തുവിദ്യ, മനോഹരമായ രൂപങ്ങൾ, മനോഹരമായ
+          പ്രകൃതിദൃശ്യങ്ങൾ എന്നിവ സമയോചിതമായി സംയോജിപ്പിക്കുന്ന ഒരു മനോഹരമായ സൃഷ്ടിയാണിത്. വാസ്തുവിദ്യയുടെ കൃത്യത,
+          തെരുവുകളുടെ ദൃഢത, വിശദാംശങ്ങളുടെ സൂക്ഷ്മത, കാഴ്ചയുടെ കൃത്യത എന്നിവയാൽ കനലെറ്റോയുടെ ഏറ്റവും മികച്ച
+          സൃഷ്ടികളിലൊന്നായി ഇത് അവകാശപ്പെടുന്നു; അദ്ദേഹം ഇത് ഒരുപക്ഷേ 1750-നും 1760-നും ഇടയിലാകാം വരച്ചത്.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" dir="rtl" style="display: none;">
       <h2 class="cntHdng">4. وینس کا پیازا سان مارکو</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. وینس کا پیازا سان مارکو" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. وینس کا پیازا سان مارکو"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750–1760، اٹلی، کینالیٹو (جیووانی انتونیو کینال) کی مصوری</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">کینالیٹو کا یہ دل کش فن پارہ ’’پیازا سان مارکو‘‘ آئل آن کینوس ہے اور میوزیم کے یورپی مصوری کے ہال میں آویزاں ہے۔ اس میں سان مارکو کے طاس کی سمت سے نظر آنے والا مشہور «پیازا سان مارکو» نہایت خوب صورتی سے پیش کیا گیا ہے۔ تصویر میں شاندار عمارتوں، انسانی پیکروں اور دل فریب قدرتی مناظر کو اس طرح یکجا کیا گیا ہے کہ وینس کی زندگی اور اس کے حسن کی ایک جیتی جاگتی تصویر سامنے آتی ہے۔ عمارتوں اور گلیوں کی تعمیراتی جزئیات کو غیر معمولی باریک بینی اور درستگی سے پیش کیا گیا ہے۔ نقطۂ نظر کی متوازن عکاسی اور جزئیات پر گہری نظر کینالیٹو کی فنی مہارت کو نمایاں کرتی ہے۔ یہی خصوصیات اس فن پارے کو ان کی عمدہ تخلیقات میں نمایاں مقام عطا کرتی ہیں۔ غالباً یہ تصویر 1750 سے 1760 کے درمیان تخلیق کی گئی تھی۔</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750–1760، اٹلی، کینالیٹو (جیووانی انتونیو
+          کینال) کی مصوری</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">کینالیٹو کا یہ دل کش فن پارہ ’’پیازا سان مارکو‘‘
+          آئل آن کینوس ہے اور میوزیم کے یورپی مصوری کے ہال میں آویزاں ہے۔ اس میں سان مارکو کے طاس کی سمت سے نظر آنے والا
+          مشہور «پیازا سان مارکو» نہایت خوب صورتی سے پیش کیا گیا ہے۔ تصویر میں شاندار عمارتوں، انسانی پیکروں اور دل فریب
+          قدرتی مناظر کو اس طرح یکجا کیا گیا ہے کہ وینس کی زندگی اور اس کے حسن کی ایک جیتی جاگتی تصویر سامنے آتی ہے۔
+          عمارتوں اور گلیوں کی تعمیراتی جزئیات کو غیر معمولی باریک بینی اور درستگی سے پیش کیا گیا ہے۔ نقطۂ نظر کی متوازن
+          عکاسی اور جزئیات پر گہری نظر کینالیٹو کی فنی مہارت کو نمایاں کرتی ہے۔ یہی خصوصیات اس فن پارے کو ان کی عمدہ
+          تخلیقات میں نمایاں مقام عطا کرتی ہیں۔ غالباً یہ تصویر 1750 سے 1760 کے درمیان تخلیق کی گئی تھی۔</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">4. வெனிஸின் பியாசா சான் மார்க்கோ</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. வெனிஸின் பியாசா சான் மார்க்கோ" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. வெனிஸின் பியாசா சான் மார்க்கோ"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750–1760, இத்தாலி — கனாலெட்டோ (ஜியோவானி அன்டோனியோ கனால்)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">“பியாசா சான் மார்க்கோ” என்ற இந்த எண்ணெய் வண்ண ஓவியம், கனாலெட்டோவால் வரையப்பட்டது. இது அருங்காட்சியகத்தின் ஐரோப்பிய ஓவியங்கள் கூடத்தில் தொங்கவிடப்பட்டுள்ளது. அக்காலப் பாணியில் நேர்த்தியாகச் சட்டமிடப்பட்ட இந்த ஓவியம், சான் மார்கோ நீர்த்தேக்கத்தை நோக்கிய பக்கத்தில் 'பியாஸ்ஸா ஆஃப் சான் மார்கோ'வைக் காட்டுகிறது. இது அற்புதமான கட்டிடக்கலை, நேர்த்தியான உருவங்கள் மற்றும் ரம்மியமான இயற்கைக் காட்சிகள் ஆகியவற்றை ஒன்றிணைக்கும் ஒரு மனதைக் கவரும் படைப்பாகும். கட்டிடக்கலையின் நேர்த்தி, தெருக்களின் திடத்தன்மை, விவரங்களின் நுணுக்கம் மற்றும் காட்சியமைப்பின் துல்லியம் ஆகியவற்றில், இந்த ஓவியம் கனலெட்டோவின் சிறந்த படைப்புகளில் ஒன்றாகத் திகழ்கிறது. அவர் இதை அநேகமாக 1750 மற்றும் 1760 க்கும் இடையில் வரைந்திருக்கலாம்.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750–1760, இத்தாலி — கனாலெட்டோ (ஜியோவானி
+          அன்டோனியோ கனால்)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">“பியாசா சான் மார்க்கோ” என்ற இந்த எண்ணெய் வண்ண
+          ஓவியம், கனாலெட்டோவால் வரையப்பட்டது. இது அருங்காட்சியகத்தின் ஐரோப்பிய ஓவியங்கள் கூடத்தில் தொங்கவிடப்பட்டுள்ளது.
+          அக்காலப் பாணியில் நேர்த்தியாகச் சட்டமிடப்பட்ட இந்த ஓவியம், சான் மார்கோ நீர்த்தேக்கத்தை நோக்கிய பக்கத்தில்
+          'பியாஸ்ஸா ஆஃப் சான் மார்கோ'வைக் காட்டுகிறது. இது அற்புதமான கட்டிடக்கலை, நேர்த்தியான உருவங்கள் மற்றும்
+          ரம்மியமான இயற்கைக் காட்சிகள் ஆகியவற்றை ஒன்றிணைக்கும் ஒரு மனதைக் கவரும் படைப்பாகும். கட்டிடக்கலையின் நேர்த்தி,
+          தெருக்களின் திடத்தன்மை, விவரங்களின் நுணுக்கம் மற்றும் காட்சியமைப்பின் துல்லியம் ஆகியவற்றில், இந்த ஓவியம்
+          கனலெட்டோவின் சிறந்த படைப்புகளில் ஒன்றாகத் திகழ்கிறது. அவர் இதை அநேகமாக 1750 மற்றும் 1760 க்கும் இடையில்
+          வரைந்திருக்கலாம்.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">4. વેનેસનું પિયાઝા સાન માર્કો</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. વેનેસનું પિયાઝા સાન માર્કો" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. વેનેસનું પિયાઝા સાન માર્કો"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ઇ.સ. 1750–1760, ઇટાલી  કાનાલેટ્ટો (જીઓવાની એન્ટોનિયો કાનાલ)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ સુંદર તૈલચિત્ર “પિયાઝા સાન માર્કો” યુરોપિયન ચિત્રકલા ગેલેરીમાં પ્રદર્શિત કરવામાં આવ્યું છે. તે સમયની શૈલી મુજબ સુંદર રીતે સજાવેલી ફ્રેમમાં આ કૃતિ મૂકવામાં આવી છે. ચિત્રમાં સાન માર્કો બેસિન તરફથી દેખાતો સાન માર્કોનો ચોક દર્શાવવામાં આવ્યો છે. તેમાં ભવ્ય ઇમારતો, નાના માનવ આકારો અને સુંદર કુદરતી દૃશ્યનું મનોહર સંયોજન જોવા મળે છે. ચિત્રમાં ઇમારતો અને રસ્તાઓને ખૂબ જ ચોકસાઈથી દર્શાવવામાં આવ્યા છે. નાની-નાની વિગતોનું બારીક ચિત્રણ અને પરિપ્રેક્ષ્યનો યોગ્ય ઉપયોગ આ કૃતિની વિશેષતા છે. કાનાલેટ્ટોએ સંભવત  આ ચિત્ર ઇ.સ. 1750થી 1760 દરમિયાન બનાવ્યું હતું.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ઇ.સ. 1750–1760, ઇટાલી કાનાલેટ્ટો (જીઓવાની
+          એન્ટોનિયો કાનાલ)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ સુંદર તૈલચિત્ર “પિયાઝા સાન માર્કો” યુરોપિયન
+          ચિત્રકલા ગેલેરીમાં પ્રદર્શિત કરવામાં આવ્યું છે. તે સમયની શૈલી મુજબ સુંદર રીતે સજાવેલી ફ્રેમમાં આ કૃતિ મૂકવામાં
+          આવી છે. ચિત્રમાં સાન માર્કો બેસિન તરફથી દેખાતો સાન માર્કોનો ચોક દર્શાવવામાં આવ્યો છે. તેમાં ભવ્ય ઇમારતો, નાના
+          માનવ આકારો અને સુંદર કુદરતી દૃશ્યનું મનોહર સંયોજન જોવા મળે છે. ચિત્રમાં ઇમારતો અને રસ્તાઓને ખૂબ જ ચોકસાઈથી
+          દર્શાવવામાં આવ્યા છે. નાની-નાની વિગતોનું બારીક ચિત્રણ અને પરિપ્રેક્ષ્યનો યોગ્ય ઉપયોગ આ કૃતિની વિશેષતા છે.
+          કાનાલેટ્ટોએ સંભવત આ ચિત્ર ઇ.સ. 1750થી 1760 દરમિયાન બનાવ્યું હતું.</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">4. వెనిస్ నగర పియాజ్జా శాన్ మార్కో</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. వెనిస్ నగర పియాజ్జా శాన్ మార్కో"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, ఇటలీ బై కానాలెట్టో (జియోవన్నీ
+          ఆంటోనియో కెనాల్)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          కాన్వాస్పై నూనె రంగులతో (ఆయిల్ ఆన్ కాన్వాస్) కెనలెట్టో గీసిన ఈ ప్రసిద్ధ పెయింటింగ్ యూరోపియన్
+          పెయింటింగ్స్ హాల్లో కొలువై ఉంది. ఆ కాలపు శైలికి తగిన అద్భుతమైన బంగారు చట్రంలో అమర్చిన ఈ
+          చిత్రం, వెనిస్ నగరంలోని ప్రసిద్ధ శాన్ మార్కో బేసిన్ వైపునకు ఉండే ‘పియాజ్జా శాన్ మార్కో’ ప్రాంగణాన్ని
+          ఆవిష్కరిస్తుంది. అద్భుతమైన వాస్తుశిల్పం, సున్నితమైన మానవ రూపాలు మరియు ఆహ్లాదకరమైన
+          ప్రకృతి దృశ్యాల మేళవింపు ఇది. భ
+          వనాల నిర్మాణ ఖచ్చితత్వం, వీధుల దృఢత్వం, సూక్ష్మ వివరాలు
+          మరియు సరైన పర్స్పెక్టివ్ (దూరపు దృక్కోణం) కలగలిసిన ఈ రచన కెనలెట్టో అత్యుత్తమ కళాఖండాలలో
+          ఒకటిగా నిలుస్తుంది.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">4. ಪಿಯಾಜಾ ಸ್ಯಾನ್ ಮಾರ್ಕೊ ಆಫ್ ವೆನಿಸ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. ಪಿಯಾಜಾ ಸ್ಯಾನ್ ಮಾರ್ಕೊ ಆಫ್ ವೆನಿಸ್"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, ಇಟಲಿಯಿಂದ ಕ್ಯಾನಲೆಟ್ಟೊ (ಜಿಯೋವನ್ನಿ
+          ಆಂಟೋನಿಯೊ ಕ್ಯನಾಲ್) ಅವರಿಂದ ಬಿಡಿಸಲಾದ ವರ್ಣಚಿತ್ರ</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ಕ್ಯಾನಾಲೆಟ್ಟೊ ಅವರು ರಚಿಸಿದ, ಕ್ಯಾನ್ವಾಸ್ ಮೇಲಿನ ಎಣ್ಣೆವರ್ಣ ಚಿತ್ರವಾದ "ಪಿಯಾಝಾ ಸ್ಯಾನ್
+          ಮಾರ್ಕೋ" ವಸ್ತುಸಂಗ್ರಹಾಲಯದ ಯುರೋಪಿಯನ್ ವರ್ಣಚಿತ್ರಗಳ ಸಭಾಂಗಣದಲ್ಲಿದೆ. ಆ
+          ಕಾಲದ ಶೈಲಿಯಲ್ಲಿ ವೈಭವೋಪೇತವಾಗಿ ಚೌಕಟ್ಟುಹಾಕಲಾದ ಈ ಚಿತ್ರವು, ಸ್ಯಾನ್ ಮಾರ್ಕೋ
+          ಜಲಾಶಯದ ಕಡೆಗೆ ಮುಖ ಮಾಡಿರುವ 'ಸ್ಯಾನ್ ಮಾರ್ಕೋ ಚೌಕವನ್ನು' ತೋರಿಸುತ್ತದೆ. ಇದು
+          ಭವ್ಯವಾದ ವಾಸ್ತುಶಿಲ್ಪ, ಸುಂದರ ಆಕೃತಿಗಳು ಮತ್ತು ಆಹ್ಲಾದಕರ ನೈಸರ್ಗಿಕ ದೃಶ್ಯಾವಳಿಗಳನ್ನು
+          ಸಂಯೋಜಿಸುವ ಮನಮೋಹಕ ಕಲಾಕೃತಿಯಾಗಿದೆ. ವಾಸ್ತುಶಿಲ್ಪದ ನಿಖರತೆ, ಬೀದಿಗಳ ದೃಢತೆ, ಸೂಕ್ಷ್ಮ
+          ವಿವರಗಳು ಮತ್ತುದೃಷ್ಟಿಕೋನದ ನಿಖರತೆಯಲ್ಲಿ ಈ ಕಲಾಕೃತಿಯು, ಬಹುಶಃ 1750 ಮತ್ತು1760 ರ
+          ನಡುವೆ ಇದನ್ನು ಬಿಡಿಸಿದ ಕ್ಯಾನಾಲೆಟ್ಟೊ ಅವರ ಅತ್ಯುತ್ತಮ ಸೃಷ್ಟಿಗಳಲ್ಲಿಒಂದಾಗಿದೆ.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng">4. ପିଆଜା ସାନ୍ ମାର୍କୋ ଅଫ୍ ଭେନିସ୍</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. ପିଆଜା ସାନ୍ ମାର୍କୋ ଅଫ୍ ଭେନିସ୍"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, ଇଟାଲୀ, କାନାଲେଟୋ (ଜିଓଭାନୀ ଆଣ୍ଟୋନିଓ
+          କାନାଲ୍ ) ଦ୍ୱାରା ଚିତ୍ରିତ</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ସଂଗ୍ରହାଳୟର ୟୁରୋପୀୟ ଚିତ୍ରକଳା ଗ୍ୟାଲେରୀରେ ଶୋଭାପାଉଥିବା 'ପିଆଜା ସାନ୍ ମାର୍କୋ'
+          ହେଉଛି ଇଟାଲୀର ବିଖ୍ୟାତ ଚିତ୍ରଶିଳ୍ପୀ କାନାଲେଟୋ (ଜିଓଭାନୀ ଆଣ୍ଟୋନିଓ କାନାଲ୍ )ଙ୍କ ଦ୍ୱାରା
+          ଅଙ୍କିତ ଏକ ଅବର୍ଣ୍ଣନୀୟ ତୈଳଚିତ୍ର । ତତ୍କାଳୀନ ଯୁଗର ଭବ୍ୟ ଓ ସମୃଦ୍ଧ ଚୌକାଠ ମଧ୍ୟରେ
+          ସୁସଜ୍ଜିତ ଏହି ଚିତ୍ରପଟଟି ସାନ୍ ମାର୍କୋ ଜଳାଶୟ (ବେସିନ୍) ଆଡ଼କୁ ମୁହାଁଇଥିବା ପ୍ରସିଦ୍ଧ 'ସାନ୍
+          ମାର୍କୋ ଚତ୍ୱର'କୁ ଦୃଶ୍ୟାୟିତ କରେ। ଏହା ମହାନ ସ୍ଥାପତ୍ୟ, ସୂକ୍ଷ୍ମ ଭାବେ ଚିତ୍ରିତ ମାନବୀୟ ଆକୃତି
+          ଏବଂ ମନୋରମ ପ୍ରାକୃତିକ ଦୃଶ୍ୟାବଳୀର ଏକ ଅପୂର୍ବ ସମ୍ମିଶ୍ରଣ। ସ୍ଥାପତ୍ୟଗତ ସଠିକତା,
+          ରାସ୍ତାଘାଟର ଗଠନମୂଳକ ଦୃଢ଼ତା, ସୂକ୍ଷ୍ମାତିସୂକ୍ଷ୍ମ ବିବରଣୀ ଏବଂ ପରିପ୍ରେକ୍ଷୀର ଯଥାର୍ଥ ପ୍ରୟୋଗ
+          ଦୃଷ୍ଟିରୁ ଏହି ସର୍ଜନାଟି କାନାଲେଟୋଙ୍କ ଅନ୍ୟତମ ଶ୍ରେଷ୍ଠ କୃତି ଭାବେ ପରିଗଣିତ। ସମ୍ଭବତଃ 1750
+          ରୁ 1760 ଖ୍ରୀଷ୍ଟାବ୍ଦ ମଧ୍ୟରେ ଅଙ୍କିତ ଏହି ଆଲେଖ୍ୟଟି ଶିଳ୍ପୀଙ୍କ ଅସାଧାରଣ ନିପୁଣତା ଓ
+          ଦୃଶ୍ୟକଳାର ଶ୍ରେଷ୍ଠତା ପ୍ରତିପାଦିତ କରେ।
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng">4. व्हेनिसचा पियाझा सान मार्को</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item4.png" width="100%" alt="4. व्हेनिसचा पियाझा सान मार्को"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">1750-1760, इटली बाय कॅनाल्टो (जिओव्हानी
+          अँटोनियो कालवा)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          कॅनालेटो यांनी कॅनव्हासवर तैलरंगात रेखाटलेले"पियाझा सान मार्को" हेचित्र संग्रहालयाच्या युरोपियन चित्रदालनात
+          लावले
+          आहे. तत्कालीन शैलीत समृद्धपणेफ्रेमकेलेलेहेचित्र सान मार्कोच्या बेसिनकडेतोंड करून असलेल्या 'पियाझा ऑफ सान
+          मार्को'ची बाजूदाखवते. भव्य वास्तुकला, नाजूक आकृत्या आणि सुखद नैसर्गिक दृश्य यांची सांगड घालणारी ही एक
+          आनंददायी कलाकृती आहे. वास्तूची अचूकता, रस्त्यांचा भक्कमपणा, तपशिलातील सूक्ष्मता आणि योग्य दृष्टिकोन यामुळेही
+          रचना कॅनालेटोच्या सर्वोत्कृष्ट कलाकृतींपैकी एक मानली जाते, जी त्यांनी बहुधा 1750 ते1760 च्या दरम्यान रेखाटली
+          असावी.
+        </div>
       </div>
     </div>
 
     <div class="navBtnDiv">
       <a href="item3.html" class="navBtn">← Previous</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
       <a href="item5.html" class="navBtn">Next →</a>
     </div>
   </main>
 
   <footer>
-    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
 
   <script>
     const languageAudio = document.getElementById("languageAudio");
     const audioMissingNote = document.getElementById("audioMissingNote");
     const audioByLanguage = {
-  "hindi": "Audios/Hindi/4. प्रवेश संख्या LXV-90, वेनिस का सान मार्को चौक.wav",
-  "english": "Audios/English/4). LXV-90,.wav",
-  "bengali": "Audios/Bengali/4) LXV-90,   PIAZZA SAN MARCO OF VENICE.wav",
-  "malayalam": "Audios/Malayalam/PIAZZA SAN MARCO OF VENICE.ml.wav",
-  "urdu": "Audios/Urdu/4). LXV-90,   PIAZZA SAN MARCO OF VENICE.wav",
-  "tamil": "Audios/Tamil/4. PIAZZA SAN MARCO OF VENICE.wav",
-  "gujarati": "Audios/Gujarati/LXV-90,.wav"
-};
+      "hindi": "Audios/Hindi/4. प्रवेश संख्या LXV-90, वेनिस का सान मार्को चौक.wav",
+      "english": "Audios/English/4). LXV-90,.wav",
+      "bengali": "Audios/Bengali/4) LXV-90,   PIAZZA SAN MARCO OF VENICE.wav",
+      "malayalam": "Audios/Malayalam/PIAZZA SAN MARCO OF VENICE.ml.wav",
+      "urdu": "Audios/Urdu/4). LXV-90,   PIAZZA SAN MARCO OF VENICE.wav",
+      "tamil": "Audios/Tamil/4. PIAZZA SAN MARCO OF VENICE.wav",
+      "gujarati": "Audios/Gujarati/LXV-90,.wav",
+      "kannada": "Audios/Kannada/LXV-90,   PIAZZA SAN MARCO OF VENICE.wav",
+      "telugu": "Audios/Telugu/Telugu_PIAZZA SAN MARCO_Female.wav",
+      "marathi": "Audios/Marathi/LXV-90,   PIAZZA SAN MARCO OF VENICE.wav",
+      "odia": "Audios/odia/4. PIAZZA SAN MARCO OF VENICE.wav"
+    };
     const languageSelector = document.getElementById("languageSelector");
 
     const footerTranslations = {
@@ -208,7 +373,11 @@
       malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
       urdu: '© 2024 تمام حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
       tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
-      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા'
+      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા',
+      telugu: '© 2024 అన్ని హక్కులు రిజర్వు చేయబడ్డాయి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">అనువాదిని AI</a> ద్వారా',
+      kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
+      odia: '© 2024 ସମସ୍ତ ଅଧିକାର ସଂରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା',
+      marathi: '© 2024 सर्व हक्क राखीव, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारे'
     };
 
     function selectLanguage(language) {
@@ -245,4 +414,5 @@
     }
   </script>
 </body>
+
 </html>
