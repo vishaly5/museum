@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -99,6 +110,9 @@
               <option value="marathi">मराठी (Marathi)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="urdu">اردو (Urdu)</option>
+              <option value="english">English</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
             </select>
           </div>
         </div>
@@ -108,81 +122,187 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/HQ-120%20HUQQA%20BOTTOM.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audios/Bengali/HQ-120%20HUQQA%20BOTTOM.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available.</p>
       </div>
     </div>
 
     <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
       <h2 class="cntHdng">HQ-120 হুঁকোর তলদেশ</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item8.png" alt="HQ-120 হুঁকোর তলদেশ" onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 হুঁকোর তলদেশ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি গোলাকার ও স্ফীত দেহবিশিষ্ট একটি হুঁকোর তলা, যার উপরের দিকে সরু গলা এবং নল ও পাইপ সংযুক্ত করার জন্য একটি ছোট মুখ রয়েছে। এটি স্বচ্ছ কাচ দিয়ে তৈরি। গোলাকার হুঁকোর তলাটিতে খিলানাকৃতি খোপের মধ্যে ফুলের নকশা আঁকা হয়েছে। প্রতিটি খিলানের দুইপাশে স্তম্ভের নকশা রয়েছে। দেহের নিচের অংশে লাল, সবুজ ও হলুদসহ বিভিন্ন রঙে লতাপাতা ও ফুলের নকশা অঙ্কিত হয়েছে। কাঁধের চারপাশে লাল, নীল, সাদা ও সোনালি রঙে ফুল ও পাতার (তামাকপাতার) নকশা আঁকা রয়েছে। এই হুঁকোর তলাটি মুঘল আমলের ভারতের এবং এটি খ্রিস্টীয় সপ্তদশ শতাব্দীর বলে নির্ধারিত।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি গোলাকার ও স্ফীত দেহবিশিষ্ট একটি হুঁকোর তলা,
+          যার উপরের দিকে সরু গলা এবং নল ও পাইপ সংযুক্ত করার জন্য একটি ছোট মুখ রয়েছে। এটি স্বচ্ছ কাচ দিয়ে তৈরি। গোলাকার
+          হুঁকোর তলাটিতে খিলানাকৃতি খোপের মধ্যে ফুলের নকশা আঁকা হয়েছে। প্রতিটি খিলানের দুইপাশে স্তম্ভের নকশা রয়েছে।
+          দেহের নিচের অংশে লাল, সবুজ ও হলুদসহ বিভিন্ন রঙে লতাপাতা ও ফুলের নকশা অঙ্কিত হয়েছে। কাঁধের চারপাশে লাল, নীল,
+          সাদা ও সোনালি রঙে ফুল ও পাতার (তামাকপাতার) নকশা আঁকা রয়েছে। এই হুঁকোর তলাটি মুঘল আমলের ভারতের এবং এটি
+          খ্রিস্টীয় সপ্তদশ শতাব্দীর বলে নির্ধারিত।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">HQ-120 હુક્કા બોટમ (હુક્કાનો તળિયાનો ભાગ)</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item8.png" alt="HQ-120 હુક્કા બોટમ (હુક્કાનો તળિયાનો ભાગ)" onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 હુક્કા બોટમ (હુક્કાનો તળિયાનો ભાગ)"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક ગોળાકાર અને ફૂલેલા શરીરવાળો હુક્કાનો તળિયાનો ભાગ છે, જેની ડોક સાંકડી છે અને નળી (પાઇપ) જોડવા માટે ઉપરના ભાગમાં એક નાનું છિદ્ર છે. તે પારદર્શક (આરપાર દેખાય તેવા) કાચમાંથી બનેલો છે. આ ગોળાકાર હુક્કાના તળિયા પર લાલ, લીલો અને પીળો જેવા વિવિધ રંગોમાં ફૂલોની ડિઝાઇનો દોરેલી છે, જે કમાર આકારના પૅનલ્સમાં બંને બાજુ સ્તંભો (પિલર્સ) સાથે છે અને શરીરના નીચેના ભાગમાં વેલ તથા ફૂલોની ડિઝાઇનો છે. ખભાની આસપાસના ભાગમાં લાલ, વાદળી, સફેદ અને સોનેરી રંગમાં ફૂલો અને પાંદડાઓ (તમાકુ) દોરેલા છે. આ હુક્કા બોટમ ભારત (મુઘલ સમયગાળા) ની છે અને તે ૧૭મી સદીની છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક ગોળાકાર અને ફૂલેલા શરીરવાળો હુક્કાનો
+          તળિયાનો ભાગ છે, જેની ડોક સાંકડી છે અને નળી (પાઇપ) જોડવા માટે ઉપરના ભાગમાં એક નાનું છિદ્ર છે. તે પારદર્શક
+          (આરપાર દેખાય તેવા) કાચમાંથી બનેલો છે. આ ગોળાકાર હુક્કાના તળિયા પર લાલ, લીલો અને પીળો જેવા વિવિધ રંગોમાં ફૂલોની
+          ડિઝાઇનો દોરેલી છે, જે કમાર આકારના પૅનલ્સમાં બંને બાજુ સ્તંભો (પિલર્સ) સાથે છે અને શરીરના નીચેના ભાગમાં વેલ તથા
+          ફૂલોની ડિઝાઇનો છે. ખભાની આસપાસના ભાગમાં લાલ, વાદળી, સફેદ અને સોનેરી રંગમાં ફૂલો અને પાંદડાઓ (તમાકુ) દોરેલા છે.
+          આ હુક્કા બોટમ ભારત (મુઘલ સમયગાળા) ની છે અને તે ૧૭મી સદીની છે.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="hindi" style="display: none;">
       <h2 class="cntHdng">HQ -120 हुक्के का पेंदा (निचला हिस्सा)</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item8.png" alt="HQ -120 हुक्के का पेंदा (निचला हिस्सा)" onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+        <img src="./images/Indian-textile-item8.png" alt="HQ -120 हुक्के का पेंदा (निचला हिस्सा)"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">गोलाकार एवं उभरे हुए शरीर वाला यह हुक्का-पेंदा संकुचित गर्दन तथा ऊपरी भाग में तने और पाइप के संयोजन के लिए एक छोटे से छिद्र के साथ निर्मित है। यह पारदर्शी काँच से बना है। गोलाकार हुक्के के पेंदे (निचला हिस्सा) पर मेहराबनुमा पैनलों में पुष्पीय आकृतियाँ चित्रित हैं, जिनके दोनों ओर स्तंभ बने हुए हैं। शरीर के निचले भाग में लाल, हरे और पीले जैसे विभिन्न रंगों में लताओं और फूलों की आकृतियाँ बनाई गई हैं। कंधे वाले भाग के चारों ओर लाल, नीले, सफेद और सुनहरे रंगों में फूलों और पत्तियों (तंबाकू) की चित्रकारी की गई है। यह हुक्के का पेंदा मुगलकालीन भारत से संबंधित है और इसका काल 17वीं शताब्दी ईस्वी माना जाता है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">गोलाकार एवं उभरे हुए शरीर वाला यह हुक्का-पेंदा
+          संकुचित गर्दन तथा ऊपरी भाग में तने और पाइप के संयोजन के लिए एक छोटे से छिद्र के साथ निर्मित है। यह पारदर्शी
+          काँच से बना है। गोलाकार हुक्के के पेंदे (निचला हिस्सा) पर मेहराबनुमा पैनलों में पुष्पीय आकृतियाँ चित्रित हैं,
+          जिनके दोनों ओर स्तंभ बने हुए हैं। शरीर के निचले भाग में लाल, हरे और पीले जैसे विभिन्न रंगों में लताओं और फूलों
+          की आकृतियाँ बनाई गई हैं। कंधे वाले भाग के चारों ओर लाल, नीले, सफेद और सुनहरे रंगों में फूलों और पत्तियों
+          (तंबाकू) की चित्रकारी की गई है। यह हुक्के का पेंदा मुगलकालीन भारत से संबंधित है और इसका काल 17वीं शताब्दी
+          ईस्वी माना जाता है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">HQ-120 ഹുക്കയുടെ അടിഭാഗം</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item8.png" alt="HQ-120 ഹുക്കയുടെ അടിഭാഗം" onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 ഹുക്കയുടെ അടിഭാഗം"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">വട്ടത്തിലുള്ളതും വീർത്തതുമായ ഉടലും, കുഴൽ ഘടിപ്പിക്കുന്നതിനായി ചെറുതായ ചുരുങ്ങിയ കഴുത്തും മുകളിൽ ചെറിയ തുറന്ന ഭാഗവുമുള്ള ഹുക്കയുടെ അടിഭാഗം. ഇത് സുതാര്യമായ ഗ്ലാസിലാണ് നിർമ്മിച്ചിരിക്കുന്നത്. ഗോളാകൃതിയിലുള്ള ഹുക്കയുടെ അടിഭാഗം ചുവപ്പ്, പച്ച, മഞ്ഞ തുടങ്ങിയ വിവിധ നിറങ്ങളിൽ, ഇരുവശത്തും തൂണുകളുള്ള ആർച്ച് പോലെയുള്ള പാനലുകളിൽ പൂക്കളുടെ രൂപങ്ങൾ നൽകി ചിത്രീകരിച്ചിരിക്കുന്നു. ശരീരത്തിന്റെ താഴെയായി വള്ളികളുടെയും പൂക്കളുടെയും ഡിസൈനുകളുണ്ട്. ചുമപ്പ്, നീല, വെളുപ്പ്, സ്വർണ്ണ നിറങ്ങളിൽ പൂക്കളും ഇലകളും (പുകയില) കഴുത്തിനു താഴെ ചുറ്റുമായി ചിത്രീകരിച്ചിരിക്കുന്നു. ഈ ഹുക്കാ അടിഭാഗം ഇന്ത്യയിലെ മുഗൾ കാലഘട്ടത്തിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 17-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-93</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">വട്ടത്തിലുള്ളതും വീർത്തതുമായ ഉടലും, കുഴൽ
+          ഘടിപ്പിക്കുന്നതിനായി ചെറുതായ ചുരുങ്ങിയ കഴുത്തും മുകളിൽ ചെറിയ തുറന്ന ഭാഗവുമുള്ള ഹുക്കയുടെ അടിഭാഗം. ഇത്
+          സുതാര്യമായ ഗ്ലാസിലാണ് നിർമ്മിച്ചിരിക്കുന്നത്. ഗോളാകൃതിയിലുള്ള ഹുക്കയുടെ അടിഭാഗം ചുവപ്പ്, പച്ച, മഞ്ഞ തുടങ്ങിയ
+          വിവിധ നിറങ്ങളിൽ, ഇരുവശത്തും തൂണുകളുള്ള ആർച്ച് പോലെയുള്ള പാനലുകളിൽ പൂക്കളുടെ രൂപങ്ങൾ നൽകി
+          ചിത്രീകരിച്ചിരിക്കുന്നു. ശരീരത്തിന്റെ താഴെയായി വള്ളികളുടെയും പൂക്കളുടെയും ഡിസൈനുകളുണ്ട്. ചുമപ്പ്, നീല,
+          വെളുപ്പ്, സ്വർണ്ണ നിറങ്ങളിൽ പൂക്കളും ഇലകളും (പുകയില) കഴുത്തിനു താഴെ ചുറ്റുമായി ചിത്രീകരിച്ചിരിക്കുന്നു. ഈ
+          ഹുക്കാ അടിഭാഗം ഇന്ത്യയിലെ മുഗൾ കാലഘട്ടത്തിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 17-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ
+          പെട്ടതുമാണ്. വാക്കുകൾ-93</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
       <h2 class="cntHdng">XXV-195 साडी</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item8.png" alt="XXV-195 साडी" onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+        <img src="./images/Indian-textile-item8.png" alt="XXV-195 साडी"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">गडद लाल रंगाच्या साडीवर सर्वत्र एकाआड एक तिरप्या ओळींमध्ये जरीची फुलांची वेल आणि फुलांची नक्षी आहे. ही भारतीय पारंपारिक वस्त्रकला प्रकारची शुद्ध हातमाग सुती साडी आहे. या साडीची रचना वेगळी असून, तिच्या वरच्या भागात तिरप्या पट्ट्यांसह सोन्याच्या रंगाचा भाग आहे आणि खालचा भाग तांबूस-तपकिरी रंगाचा आहे. दोन्ही टोकांवर जरीचे रोझेंगे पॅटर्न आणि झिग-झॅग डिझाईन्स आहेत. ठळक किनार गडद गुलाबी रंगाची असून त्यावर सोन्याच्या जरीचे काम केले आहे. साडीच्या मुख्य भागापासून किनाऱ्यांना वेगळे करणाऱ्या पातळ काळ्या आणि सोन्याच्या पट्ट्या किनाऱ्यांवर आहेत. ही साडी भारताची असून ती 19 व्या शतकातील आहे. शब्द-102</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">गडद लाल रंगाच्या साडीवर सर्वत्र एकाआड एक तिरप्या
+          ओळींमध्ये जरीची फुलांची वेल आणि फुलांची नक्षी आहे. ही भारतीय पारंपारिक वस्त्रकला प्रकारची शुद्ध हातमाग सुती
+          साडी आहे. या साडीची रचना वेगळी असून, तिच्या वरच्या भागात तिरप्या पट्ट्यांसह सोन्याच्या रंगाचा भाग आहे आणि
+          खालचा भाग तांबूस-तपकिरी रंगाचा आहे. दोन्ही टोकांवर जरीचे रोझेंगे पॅटर्न आणि झिग-झॅग डिझाईन्स आहेत. ठळक किनार
+          गडद गुलाबी रंगाची असून त्यावर सोन्याच्या जरीचे काम केले आहे. साडीच्या मुख्य भागापासून किनाऱ्यांना वेगळे
+          करणाऱ्या पातळ काळ्या आणि सोन्याच्या पट्ट्या किनाऱ्यांवर आहेत. ही साडी भारताची असून ती 19 व्या शतकातील आहे.
+          शब्द-102</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">HQ-120 ஹுக்கா அடிப்பகுதி</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item8.png" alt="HQ-120 ஹுக்கா அடிப்பகுதி" onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 ஹுக்கா அடிப்பகுதி"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இது குறுகிய கழுத்துப் பகுதியையும், தண்டையும் குழாயையும் இணைப்பதற்கான சிறிய மேல் துளையையும் கொண்ட, உருண்டையான மற்றும் குடுவை போன்ற வடிவமுடைய பகுதியாகும். இது ஒளிபுகும் கண்ணாடியால் செய்யப்பட்டுள்ளது. இதன் மேற்புறத்தில் வளைவு போன்ற அமைப்புகளுக்குள் மலர் வடிவங்கள் வரையப்பட்டுள்ளன; இவ்வமைப்புகளின் இருபுறமும் தூண் போன்ற வடிவங்கள் காணப்படுகின்றன. குடுவையின் அடிப்பகுதியில் சிவப்பு, பச்சை மற்றும் மஞ்சள் போன்ற வண்ணங்களில் கொடி மற்றும் மலர் வடிவங்கள் தீட்டப்பட்டுள்ளன. இதன் தோள்பட்டைப் பகுதியில் சிவப்பு, நீலம், வெள்ளை மற்றும் தங்க நிறங்களில் மலர்கள் மற்றும் இலைகள் (புகையிலை இலைகள்) வரையப்பட்டுள்ளன. இந்த ஹுக்கா அடிப்பகுதி இந்தியாவைச் சேர்ந்தது (முகலாயர் காலத்தைச் சார்ந்தது) மற்றும் இது கி.பி. 17-ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இது குறுகிய கழுத்துப் பகுதியையும், தண்டையும்
+          குழாயையும் இணைப்பதற்கான சிறிய மேல் துளையையும் கொண்ட, உருண்டையான மற்றும் குடுவை போன்ற வடிவமுடைய பகுதியாகும்.
+          இது ஒளிபுகும் கண்ணாடியால் செய்யப்பட்டுள்ளது. இதன் மேற்புறத்தில் வளைவு போன்ற அமைப்புகளுக்குள் மலர் வடிவங்கள்
+          வரையப்பட்டுள்ளன; இவ்வமைப்புகளின் இருபுறமும் தூண் போன்ற வடிவங்கள் காணப்படுகின்றன. குடுவையின் அடிப்பகுதியில்
+          சிவப்பு, பச்சை மற்றும் மஞ்சள் போன்ற வண்ணங்களில் கொடி மற்றும் மலர் வடிவங்கள் தீட்டப்பட்டுள்ளன. இதன் தோள்பட்டைப்
+          பகுதியில் சிவப்பு, நீலம், வெள்ளை மற்றும் தங்க நிறங்களில் மலர்கள் மற்றும் இலைகள் (புகையிலை இலைகள்)
+          வரையப்பட்டுள்ளன. இந்த ஹுக்கா அடிப்பகுதி இந்தியாவைச் சேர்ந்தது (முகலாயர் காலத்தைச் சார்ந்தது) மற்றும் இது
+          கி.பி. 17-ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">HQ-120 حقے کا نچلا حصہ</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item8.png" alt="HQ-120 حقے کا نچلا حصہ" onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 حقے کا نچلا حصہ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue No. HQ-120</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ گول، ابھری ہوئی شکل کا شیشے کا حقہ ہے، جس کی گردن تنگ ہے اور اوپر ایک چھوٹا سا سوراخ ہے، جہاں نلکی اور حقے کا دستہ لگایا جاتا ہے۔ یہ شفاف شیشے سے بنایا گیا ہے۔ حقے کے نچلے حصے پر محراب نما خانوں میں پھولوں کے نقش بنائے گئے ہیں۔ ان کے دونوں جانب ستون نما نقش ہیں، جبکہ نچلے حصے پر مختلف رنگوں، جیسے سرخ، سبز اور پیلے رنگ میں بیل اور پھولوں کے نقش بنے ہوئے ہیں۔ گردن کے نچلے حصے کے گرد سرخ، نیلے، سفید اور سنہری رنگوں میں پھولوں اور پتوں کے نقش بنائے گئے ہیں۔ یہ مغل دور کا حقے کا نچلا حصہ ہے، جو ہندوستان کا ہے اور اس کا تعلق سترہویں صدی عیسوی سے ہے۔ الفاظ-93</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue
+          No. HQ-120</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ گول،
+          ابھری ہوئی شکل کا شیشے کا حقہ ہے، جس کی گردن تنگ ہے اور اوپر ایک چھوٹا سا سوراخ ہے، جہاں نلکی اور حقے کا دستہ
+          لگایا جاتا ہے۔ یہ شفاف شیشے سے بنایا گیا ہے۔ حقے کے نچلے حصے پر محراب نما خانوں میں پھولوں کے نقش بنائے گئے
+          ہیں۔ ان کے دونوں جانب ستون نما نقش ہیں، جبکہ نچلے حصے پر مختلف رنگوں، جیسے سرخ، سبز اور پیلے رنگ میں بیل اور
+          پھولوں کے نقش بنے ہوئے ہیں۔ گردن کے نچلے حصے کے گرد سرخ، نیلے، سفید اور سنہری رنگوں میں پھولوں اور پتوں کے نقش
+          بنائے گئے ہیں۔ یہ مغل دور کا حقے کا نچلا حصہ ہے، جو ہندوستان کا ہے اور اس کا تعلق سترہویں صدی عیسوی سے ہے۔
+          الفاظ-93</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">HQ-120 HUQQA BOTTOM</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 HUQQA BOTTOM"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This huqqa bottom features a spherical, bulging
+          body with a narrow neck and a small opening at the top for attaching a stem and pipe. It is made of
+          transparent glass. This spherical huqqa bottom is painted with floral designs in arched panels with pillars on
+          either side in various colours like red, green, and yellow, along with vine and floral designs on the lower
+          part of the body. Around the shoulder, flowers and leaves (tobacco) are painted in red, blue, white, and gold.
+          This huqqa bottom belongs to India (Mughal period) and dates to the 17th century.</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">HQ-120 ಹುಕ್ಕಾ ಬಾಟಮ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 ಹುಕ್ಕಾ ಬಾಟಮ್"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಗೋಲಾಕಾರದ, ಉಬ್ಬಿದ ದೇಹ ಹಾಗೂ ಕಿರಿದಾದ ಕುತ್ತಿಗೆ ಮತ್ತು
+          ಮೇಲ್ಭಾಗದಲ್ಲಿ ಕಾಂಡ ಹಾಗೂ ಕೊಳವೆಯ ಸಂಪರ್ಕಕ್ಕಾಗಿವ ಸಣ್ಣ ದ್ವಾರವನ್ನು ಹೊಂದಿದೆ. ಇದು ಪಾರದರ್ಶಕ ಗಾಜಿನಿಂದ ಮಾಡಲ್ಪಟ್ಟಿದೆ.
+          ಗೋಳಾಕಾರದ ಈ ಹುಕ್ಕಾ ತಳಭಾಗವು ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಕಂಬಗಳಿರುವ ಕಮಾನು ಮಾದರಿಯ ವಿಭಾಗಗಳಲ್ಲಿ ಹೂವಿನ ವಿನ್ಯಾಸಗಳನ್ನು
+          ಪ್ರತಿನಿಧಿಸುವಂತೆ ಬಣ್ಣ ಬಳೆಯಲ್ಪಟ್ಟಿದೆ ಹಾಗೂ ದೇಹದ ಕೆಳಗಿನ ಭಾಗದಲ್ಲಿ ಕೆಂಪು, ಹಸಿರು, ಹಳದಿಯಂತಹ ವಿವಿಧ ಬಣ್ಣಗಳಲ್ಲಿ ಬಳ್ಳಿ
+          ಮತ್ತು ಹೂವಿನ ವಿನ್ಯಾಸಗಳಿವೆ. ಮೇಲ್ಭಾಗದ ಹೆಗಲಿನ ಸುತ್ತಲೂ ಕೆಂಪು, ನೀಲಿ, ಬಿಳಿ ಮತ್ತು ಚಿನ್ನದ ಬಣ್ಣಗಳಲ್ಲಿ ಹೂವುಗಳು ಹಾಗೂ
+          (ತಂಬಾಕು) ಎಲೆಗಳನ್ನು ಚಿತ್ರಿಸಲಾಗಿದೆ. ಈ ಹುಕ್ಕಾ ತಳಭಾಗವು ಭಾರತದ (ಮೊಘಲರು) ಅವಧಿಗೆ ಸೇರಿದ್ದು, ಇದು ಹದಿನೇಳನೇ ಶತಮಾನದ್ದಾಗಿದೆ.
+          ಪದಗಳು</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">HQ-120 హుక్కా బాటమ్</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item8.png" alt="HQ-120 హుక్కా బాటమ్"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item8.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. HQ-120</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ఇది గుండ్రంగా ఉబ్బెత్తుగా ఉన్న హుక్కా అడుగు
+          భాగం. ఇది సన్నని మెడను మరియు పైప్‌ను అమర్చడానికి పైభాగంలో ఒక చిన్న రంధ్రాన్ని కలిగి ఉంది. ఇది పారదర్శకమైన
+          గాజుతో తయారు చేయబడింది. ఈ గుండ్రని హుక్కా అడుగుభాగంపై ఎరుపు, ఆకుపచ్చ, పసుపు వంటి విభిన్న రంగులలో—ఇరువైపులా
+          స్తంభాలు కలిగిన వంపు తిరిగిన (అంటే, ఆర్చ్ ఆకారపు) ప్యానెళ్లలో పూల డిజైన్లు, అలాగే కింది భాగంలో తీగలు మరియు పూల
+          నమూనాలు చిత్రించబడ్డాయి. మెడ/భుజం చుట్టూ ఉన్న భాగంలో ఎరుపు, నీలం, తెలుపు మరియు బంగారు వర్ణాలలో పూలు మరియు ఆకుల
+          (పొగాకు ఆకులు) నమూనాలు చిత్రించబడ్డాయి. ఈ హుక్కా అడుగు భాగం భారతదేశానికి (మొఘలుల కాలం) చెందినది మరియు ఇది
+          క్రీస్తుశకం. 17వ శతాబ్దానికి చెందినది. పదాలు-93</div>
       </div>
     </div>
 
@@ -191,10 +311,12 @@
       <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
       <a href="./item9.html" class="navBtn">Next Item →</a>
     </div>
+
   </main>
 
   <footer>
-    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script src="./content.js"></script>
@@ -204,14 +326,17 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "bengali": "./Audios/Bengali/HQ-120%20HUQQA%20BOTTOM.wav",
-  "gujarati": "./Audios/Gujarathi/HQ-120%20HUQQA%20BOTTOM.wav",
-  "hindi": "./Audios/Hindi/8.%20हुक्के%20का%20पेंदा.wav",
-  "malayalam": "./Audios/malaylam/HUQQA%20BOTTOM.ml.wav",
-  "marathi": "./Audios/marathi/HQ-120%20HUQQA%20BOTTOM.wav",
-  "tamil": "./Audios/tamil/8.%20HUQQA%20BOTTOM.wav",
-  "urdu": "./Audios/Urdu/HQ-120%20HUQQA%20BOTTOM.wav"
-};
+      "bengali": "./Audios/Bengali/HQ-120%20HUQQA%20BOTTOM.wav",
+      "gujarati": "./Audios/Gujarathi/HQ-120%20HUQQA%20BOTTOM.wav",
+      "hindi": "./Audios/Hindi/8.%20हुक्के%20का%20पेंदा.wav",
+      "malayalam": "./Audios/malaylam/HUQQA%20BOTTOM.ml.wav",
+      "marathi": "./Audios/marathi/HQ-120%20HUQQA%20BOTTOM.wav",
+      "tamil": "./Audios/tamil/8.%20HUQQA%20BOTTOM.wav",
+      "urdu": "./Audios/Urdu/HQ-120%20HUQQA%20BOTTOM.wav",
+      "english": "./Audios/English/HUQQA%20BOTTOM.wav",
+      "kannada": "./Audios/Kannada/HQ-120%20HUQQA%20BOTTOM.wav",
+      "telugu": "./Audios/Telugu/Telugu_HUQQA%20BOTTOM_Female.wav"
+    };
     const baseAudioSrc = "./Audios/Bengali/HQ-120%20HUQQA%20BOTTOM.wav";
 
     function changeLanguage(lang) {
@@ -223,7 +348,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -235,11 +360,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>

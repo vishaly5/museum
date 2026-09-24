@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -99,6 +110,9 @@
               <option value="marathi">मराठी (Marathi)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="urdu">اردو (Urdu)</option>
+              <option value="english">English</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
             </select>
           </div>
         </div>
@@ -108,81 +122,182 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/XXV-174%20Patka.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audios/Bengali/XXV-174%20Patka.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available.</p>
       </div>
     </div>
 
     <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
       <h2 class="cntHdng">XXV-174 পাটকা</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item7.png" alt="XXV-174 পাটকা" onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 পাটকা"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি লম্বা ও সরু আয়তাকার আকৃতির একটি গাঢ় সবুজ রঙের পাটকা, যা রেশম দিয়ে তৈরি। সমগ্র পাটকাজুড়ে ছোট ছোট বিন্দুযুক্ত নকশা রয়েছে। চারপাশের পাড়ে রুপালি পটভূমির উপর সবুজ ও কালো রঙে ফুল ও লতাপাতার নকশা করা হয়েছে। এটি অপেক্ষাকৃত ভারী ধরনের উপাদান দিয়ে তৈরি বলে মনে হয় এবং এর পৃষ্ঠ মসৃণ। উপরের ও নিচের প্রান্তে ছোট ঝালর বা ছেঁড়া সুতার প্রান্ত রয়েছে। বিশেষ শনাক্তকরণ বৈশিষ্ট্য হিসেবে উভয় প্রান্তে ছয়টি করে ফুলের গুচ্ছ রয়েছে। এই পাটকাটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ শতকের প্রথম দিকের বলে নির্ধারিত।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি লম্বা ও সরু আয়তাকার আকৃতির একটি গাঢ় সবুজ
+          রঙের পাটকা, যা রেশম দিয়ে তৈরি। সমগ্র পাটকাজুড়ে ছোট ছোট বিন্দুযুক্ত নকশা রয়েছে। চারপাশের পাড়ে রুপালি
+          পটভূমির উপর সবুজ ও কালো রঙে ফুল ও লতাপাতার নকশা করা হয়েছে। এটি অপেক্ষাকৃত ভারী ধরনের উপাদান দিয়ে তৈরি বলে
+          মনে হয় এবং এর পৃষ্ঠ মসৃণ। উপরের ও নিচের প্রান্তে ছোট ঝালর বা ছেঁড়া সুতার প্রান্ত রয়েছে। বিশেষ শনাক্তকরণ
+          বৈশিষ্ট্য হিসেবে উভয় প্রান্তে ছয়টি করে ফুলের গুচ্ছ রয়েছে। এই পাটকাটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ শতকের
+          প্রথম দিকের বলে নির্ধারিত।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
-      <h2 class="cntHdng">XXV-174  પટકા , કમરબંધી</h2>
+      <h2 class="cntHdng">XXV-174 પટકા , કમરબંધી</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item7.png" alt="XXV-174  પટકા , કમરબંધી" onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174  પટકા , કમરબંધી"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક લાંબો, સાંકડો અને લંબચોરસ આકારનો ઘેરા લીલા રંગનો પટકા કમરે બાંધવાનું વસ્ત્ર  છે, જે રેશમ (સિલ્ક) માંથી બનેલો છે. તેના પર આખા ભાગમાં ટપકાંની ડિઝાઇન છે. ચાંદીની પૃષ્ઠભૂમિની આસપાસ લીલા અને કાળા રંગમાં ફૂલોની વેલની બોર્ડર ડિઝાઇન આપેલી છે. તે પ્રમાણમાં સરળ અને સુંવાળી ફિનિશિંગ સાથે ભારે સામગ્રીથી બનેલો દેખાય છે. ઉપરના અને નીચેના છેડા પર ટૂંકી ઝાલર અથવા કિારીઓ છે. તેની વિશેષ ઓળખ માટે બંને છેડા પર ફૂલોના છ ગુચ્છા આવેલા છે. આ પટકા ભારતનો છે અને તે ૧૯મી સદીની શરૂઆતનો છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક લાંબો, સાંકડો અને લંબચોરસ આકારનો ઘેરા લીલા
+          રંગનો પટકા કમરે બાંધવાનું વસ્ત્ર છે, જે રેશમ (સિલ્ક) માંથી બનેલો છે. તેના પર આખા ભાગમાં ટપકાંની ડિઝાઇન છે.
+          ચાંદીની પૃષ્ઠભૂમિની આસપાસ લીલા અને કાળા રંગમાં ફૂલોની વેલની બોર્ડર ડિઝાઇન આપેલી છે. તે પ્રમાણમાં સરળ અને
+          સુંવાળી ફિનિશિંગ સાથે ભારે સામગ્રીથી બનેલો દેખાય છે. ઉપરના અને નીચેના છેડા પર ટૂંકી ઝાલર અથવા કિારીઓ છે. તેની
+          વિશેષ ઓળખ માટે બંને છેડા પર ફૂલોના છ ગુચ્છા આવેલા છે. આ પટકા ભારતનો છે અને તે ૧૯મી સદીની શરૂઆતનો છે.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="hindi" style="display: none;">
       <h2 class="cntHdng">XXV-174 पटका</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item7.png" alt="XXV-174 पटका" onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 पटका"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">रेशम से बना यह लंबा, संकरा और आयताकार पटका गहरे हरे रंग का है। इस पर चारों ओर बिंदुओं के रूपांकन बने हुए हैं। इसके चारों ओर चाँदी की पृष्ठभूमि पर हरे और काले रंग में पुष्प एवं लता के अलंकरण वाली किनारी बनी है। यह अपेक्षाकृत चिकनी सतह वाले भारी कपड़े से बना प्रतीत होता है। इसके ऊपरी और निचले सिरों पर छोटी झालर अथवा उधड़े हुए किनारे हैं। विशेष पहचान के रूप में दोनों सिरों पर फूलों के छह-छह गुच्छे बने हुए हैं। यह पटका भारत का है और इसे ईस्वी सन् 19वीं शताब्दी के प्रारंभिक काल का माना जाता है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">रेशम से बना यह लंबा, संकरा और आयताकार पटका गहरे
+          हरे रंग का है। इस पर चारों ओर बिंदुओं के रूपांकन बने हुए हैं। इसके चारों ओर चाँदी की पृष्ठभूमि पर हरे और काले
+          रंग में पुष्प एवं लता के अलंकरण वाली किनारी बनी है। यह अपेक्षाकृत चिकनी सतह वाले भारी कपड़े से बना प्रतीत होता
+          है। इसके ऊपरी और निचले सिरों पर छोटी झालर अथवा उधड़े हुए किनारे हैं। विशेष पहचान के रूप में दोनों सिरों पर
+          फूलों के छह-छह गुच्छे बने हुए हैं। यह पटका भारत का है और इसे ईस्वी सन् 19वीं शताब्दी के प्रारंभिक काल का माना
+          जाता है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">XXV-174 അരപ്പട്ട</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item7.png" alt="XXV-174 അരപ്പട്ട" onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 അരപ്പട്ട"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">നീളമുള്ളതും ഇടുങ്ങിയതുമായ ദീർഘചതുരാകൃതിയിലുള്ള ഇരുണ്ട പച്ച അരപ്പട്ട പട്ടുതുണിയിലാണ് നിർമ്മിച്ചിരിക്കുന്നത്. ഇതിൽ ഉടനീളം പുള്ളി കുത്തിയതുപോലെയുള്ള ഡിസൈനുകളുണ്ട്. വെള്ളി പശ്ചാത്തലത്തിൽ പച്ച, കറുപ്പ് നിറങ്ങളിൽ പൂക്കളുടെ വള്ളികൾ കൊണ്ടുളള ബോർഡർ ഡിസൈനുകൾ ഇതിന്റെ ചുറ്റുമുണ്ട്. ഇത് താരതമ്യേന മിനുസമാർന്നതും കട്ടിയുള്ളതുമായ വസ്തുവുകൊണ്ടാണ് നിർമ്മിച്ചിരിക്കുന്നത് എന്ന് തോന്നുന്നു. മുകളിലും താഴെയുമുള്ള അറ്റങ്ങളിൽ ചെറിയ ചാമരം പോലുള്ള അറ്റമോ പൊളിഞ്ഞ വശമോ ഉണ്ട്. പ്രത്യേക അടയാളപ്പെടുത്തലിനായി ഇതിന്റെ ഇരുവശങ്ങളിലും ആറ് പൂക്കളുടെ കൂട്ടങ്ങൾ വീതമുണ്ട്. ഈ അരപ്പട്ട ഇന്ത്യയിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിന്റെ ആദ്യഘട്ടത്തിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. . വാക്കുകൾ-86</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">നീളമുള്ളതും ഇടുങ്ങിയതുമായ ദീർഘചതുരാകൃതിയിലുള്ള
+          ഇരുണ്ട പച്ച അരപ്പട്ട പട്ടുതുണിയിലാണ് നിർമ്മിച്ചിരിക്കുന്നത്. ഇതിൽ ഉടനീളം പുള്ളി കുത്തിയതുപോലെയുള്ള
+          ഡിസൈനുകളുണ്ട്. വെള്ളി പശ്ചാത്തലത്തിൽ പച്ച, കറുപ്പ് നിറങ്ങളിൽ പൂക്കളുടെ വള്ളികൾ കൊണ്ടുളള ബോർഡർ ഡിസൈനുകൾ ഇതിന്റെ
+          ചുറ്റുമുണ്ട്. ഇത് താരതമ്യേന മിനുസമാർന്നതും കട്ടിയുള്ളതുമായ വസ്തുവുകൊണ്ടാണ് നിർമ്മിച്ചിരിക്കുന്നത് എന്ന്
+          തോന്നുന്നു. മുകളിലും താഴെയുമുള്ള അറ്റങ്ങളിൽ ചെറിയ ചാമരം പോലുള്ള അറ്റമോ പൊളിഞ്ഞ വശമോ ഉണ്ട്. പ്രത്യേക
+          അടയാളപ്പെടുത്തലിനായി ഇതിന്റെ ഇരുവശങ്ങളിലും ആറ് പൂക്കളുടെ കൂട്ടങ്ങൾ വീതമുണ്ട്. ഈ അരപ്പട്ട ഇന്ത്യയിൽ
+          നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിന്റെ ആദ്യഘട്ടത്തിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. . വാക്കുകൾ-86
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
       <h2 class="cntHdng">XXV-174 पटका</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item7.png" alt="XXV-174 पटका" onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 पटका"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">एक लांब, संकुचित आयताकृती आकाराचा गडद हिरवा पटका रेशीमपासून बनवलेला आहे. यावर सर्वत्र ठिपक्यांची नक्षी आहे. भोवती चांदीच्या पार्श्वभूमीवर हिरव्या आणि काळ्या रंगात फुलांच्या वेलींची किनार आहे. हा तुलनेने गुळगुळीत फिनिश असलेल्या जड साहित्यापासून बनवलेला दिसतो. वरच्या आणि खालच्या टोकांना छोटी झालर किंवा विस्कटलेली कडा आहे. याच्या दोन्ही टोकांना विशेष ओळखीसाठी फुलांचे सहा झुपके आहेत. हा पटका भारताचा असून तो 19 व्या शतकाच्या सुरुवातीचा आहे. शब्द-86 मुख्यालय-120 हुक्क्याच्या बुडावर अरुंद मान आणि दांडा व नळी जोडण्यासाठी वरच्या बाजूला एक छोटे तोंड असलेले गोल, फुगीर शरीर. हे पारदर्शक काचेचे बनलेले आहे. गोल हुक्क्याच्या बुडावर दोन्ही बाजूंना खांब असलेल्या कमानीसारख्या पॅनेल्समध्ये फुलांची नक्षी रंगवलेली आहे आणि शरीराच्या खालच्या भागात लाल, हिरवा, पिवळा यांसारख्या वेगवेगळ्या रंगांमध्ये वेल व फुलांची नक्षी आहे. खांद्याभोवती लाल, निळा, पांढरा आणि सोन्याच्या रंगात फुले आणि पाने (तंबाखू) रंगवलेली आहेत. हा हुक्क्याचा बुडाचा भाग भारताच्या मुघल काळातील असून तो 17 व्या शतकातील आहे. शब्द-93</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">एक लांब, संकुचित आयताकृती आकाराचा गडद हिरवा पटका
+          रेशीमपासून बनवलेला आहे. यावर सर्वत्र ठिपक्यांची नक्षी आहे. भोवती चांदीच्या पार्श्वभूमीवर हिरव्या आणि काळ्या
+          रंगात फुलांच्या वेलींची किनार आहे. हा तुलनेने गुळगुळीत फिनिश असलेल्या जड साहित्यापासून बनवलेला दिसतो. वरच्या
+          आणि खालच्या टोकांना छोटी झालर किंवा विस्कटलेली कडा आहे. याच्या दोन्ही टोकांना विशेष ओळखीसाठी फुलांचे सहा झुपके
+          आहेत. हा पटका भारताचा असून तो 19 व्या शतकाच्या सुरुवातीचा आहे. शब्द-86 मुख्यालय-120 हुक्क्याच्या बुडावर अरुंद
+          मान आणि दांडा व नळी जोडण्यासाठी वरच्या बाजूला एक छोटे तोंड असलेले गोल, फुगीर शरीर. हे पारदर्शक काचेचे बनलेले
+          आहे. गोल हुक्क्याच्या बुडावर दोन्ही बाजूंना खांब असलेल्या कमानीसारख्या पॅनेल्समध्ये फुलांची नक्षी रंगवलेली आहे
+          आणि शरीराच्या खालच्या भागात लाल, हिरवा, पिवळा यांसारख्या वेगवेगळ्या रंगांमध्ये वेल व फुलांची नक्षी आहे.
+          खांद्याभोवती लाल, निळा, पांढरा आणि सोन्याच्या रंगात फुले आणि पाने (तंबाखू) रंगवलेली आहेत. हा हुक्क्याचा बुडाचा
+          भाग भारताच्या मुघल काळातील असून तो 17 व्या शतकातील आहे. शब्द-93</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">XXV-174 பட்கா</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item7.png" alt="XXV-174 பட்கா" onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 பட்கா"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">நீண்ட, குறுகிய, செவ்வக வடிவிலான அடர் பச்சை நிற பட்கா பட்டு நூலால் ஆனது. இது முழுவதும் புள்ளி வடிவங்களைக் கொண்டுள்ளது. சுற்றிலும் வெள்ளிப் பின்னணியில், ஓரங்களில் பச்சை மற்றும் கருப்பு நிறங்களில் பூக்கொத்து வடிவமைப்புகள் உள்ளன. இது கனமான பொருளால் செய்யப்பட்டதாகவும், ஒப்பீட்டளவில் மென்மையான மேற்பரப்புடனும் காணப்படுகிறது. இதன் மேல் மற்றும் கீழ் முனைகளில் சிறிய விளிம்பு அல்லது நைந்த ஓரம் உள்ளது. இதன் சிறப்பு அடையாளத்தின் இரு முனைகளிலும் ஆறு பூங்கொத்துகள் உள்ளன. இந்தப் பட்கா இந்தியாவைச் சேர்ந்தது மற்றும் இது கி.பி. 19 ஆம் நூற்றாண்டின் முற்பகுதியைச் சேர்ந்தது எனக் கணிக்கப்படுகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">நீண்ட, குறுகிய, செவ்வக வடிவிலான அடர் பச்சை நிற
+          பட்கா பட்டு நூலால் ஆனது. இது முழுவதும் புள்ளி வடிவங்களைக் கொண்டுள்ளது. சுற்றிலும் வெள்ளிப் பின்னணியில்,
+          ஓரங்களில் பச்சை மற்றும் கருப்பு நிறங்களில் பூக்கொத்து வடிவமைப்புகள் உள்ளன. இது கனமான பொருளால்
+          செய்யப்பட்டதாகவும், ஒப்பீட்டளவில் மென்மையான மேற்பரப்புடனும் காணப்படுகிறது. இதன் மேல் மற்றும் கீழ் முனைகளில்
+          சிறிய விளிம்பு அல்லது நைந்த ஓரம் உள்ளது. இதன் சிறப்பு அடையாளத்தின் இரு முனைகளிலும் ஆறு பூங்கொத்துகள் உள்ளன.
+          இந்தப் பட்கா இந்தியாவைச் சேர்ந்தது மற்றும் இது கி.பி. 19 ஆம் நூற்றாண்டின் முற்பகுதியைச் சேர்ந்தது எனக்
+          கணிக்கப்படுகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">XXV-174 کمر بند</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item7.png" alt="XXV-174 کمر بند" onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 کمر بند"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue No. XXV-174</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ لمبی، تنگ اور چوکور شکل کا گہرے سبز رنگ کا کمر بند ہے، جو ریشم سے تیار کیا گیا ہے۔ اس پر چاروں طرف بکھرے ہوئے نقش بنے ہوئے ہیں۔ کناروں پر چاندی کے رنگ کے پس منظر میں سبز اور سیاہ رنگ کی پھولوں کی بیل کے نقش ہیں۔ کپڑا قدرے موٹا ہے اور اس کی سطح ہموار ہے۔ کمر بند کے اوپری اور نچلے سروں پر باریک جھالر لگی ہوئی ہے۔ دونوں سروں پر چھ چھ پھولوں کے گچھے بھی بنے ہوئے ہیں، جو اس کی نمایاں خصوصیات میں شامل ہیں۔ یہ کمر بند ہندوستان کا ہے اور اس کا تعلق انیسویں صدی عیسوی کے اوائل سے ہے۔ الفاظ-86</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue
+          No. XXV-174</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ لمبی، تنگ
+          اور چوکور شکل کا گہرے سبز رنگ کا کمر بند ہے، جو ریشم سے تیار کیا گیا ہے۔ اس پر چاروں طرف بکھرے ہوئے نقش بنے
+          ہوئے ہیں۔ کناروں پر چاندی کے رنگ کے پس منظر میں سبز اور سیاہ رنگ کی پھولوں کی بیل کے نقش ہیں۔ کپڑا قدرے موٹا
+          ہے اور اس کی سطح ہموار ہے۔ کمر بند کے اوپری اور نچلے سروں پر باریک جھالر لگی ہوئی ہے۔ دونوں سروں پر چھ چھ
+          پھولوں کے گچھے بھی بنے ہوئے ہیں، جو اس کی نمایاں خصوصیات میں شامل ہیں۔ یہ کمر بند ہندوستان کا ہے اور اس کا
+          تعلق انیسویں صدی عیسوی کے اوائل سے ہے۔ الفاظ-86</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">XXV-174 Patka</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 Patka"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This dark green patka, made of silk, is long,
+          narrow, and rectangular in shape. It has a dotted pattern all over. Around the silver background, there is a
+          floral vine border design in green and black. It appears to be made of heavy material with a relatively smooth
+          finish. The upper and lower ends have short fringes or unravelled edges. For special identification, it has
+          six bunches of flowers at both ends. This patka belongs to India and dates to the early 19th century.</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">XXV-174 ಪಟ್ಕಾ</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 ಪಟ್ಕಾ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ರೇಷ್ಮೆಯಿಂದ ಮಾಡಲ್ಪಟ್ಟ ಈ ಗಾಢ ಹಸಿರು ಬಣ್ಣದ ಪಟ್ಕಾವು
+          ಉದ್ದನೆಯ, ಕಿರಿದಾದ ಆಯತಾಕಾರದಲ್ಲಿದೆ. ಇದು ಇಡೀ ಜವಳಿಯಾದ್ಯಂತ ಚುಕ್ಕಿಗಳ ವಿನ್ಯಾಸವನ್ನು ಹೊಂದಿದೆ. ಸುತ್ತಲಿನ ಬೆಳ್ಳಿಯ ಹಿನ್ನೆಲೆಯ
+          ವಿರುದ್ಧವಾಗಿ ಅಂಚಿನಲ್ಲಿ ಹಸಿರು ಮತ್ತು ಕಪ್ಪು ಬಣ್ಣಗಳಲ್ಲಿ ಹೂವಿನ ಬಳ್ಳಿಯ ವಿನ್ಯಾಸಗಳಿವೆ. ಇದು ತುಲನಾತ್ಮಕವಾಗಿ ನಯವಾದ
+          ಮುಕ್ತಾಯದೊಂದಿಗೆ ಭಾರವಾದ ವಸ್ತುವಿನಿಂದ ಮಾಡಲ್ಪಟ್ಟಂತೆ ಕಂಡುಬರುತ್ತದೆ. ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ಕೊನೆಗಳು ಸಣ್ಣ ಕುಚ್ಚು ಅಥವಾ ನೂಲಿನ
+          ಅಂಚುಗಳನ್ನು ಹೊಂದಿವೆ. ವಿಶೇಷ ಗುರುತಿಗಾಗಿ ಇದು ಎರಡೂ ಕೊನೆಗಳಲ್ಲಿ ತಲಾ ಆರು ಹೂವಿನ ಗೊಂಚಲುಗಳನ್ನು ಹೊಂದಿದೆ. ಈ ಪಟ್ಕಾವು
+          ಭಾರತಕ್ಕೆ ಸೇರಿದ್ದಾಗಿದ್ದು, ಇದು ಹತ್ತೊಂಬತ್ತನೇ ಶತಮಾನದ ಆರಂಭದ ಅವಧಿಯದ್ದಾಗಿದೆ. ಪದಗಳು</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">XXV-174 పట్కా</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item7.png" alt="XXV-174 పట్కా"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item7.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-174</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ఇది పట్టుతో తయారు చేయబడిన పొడవైన, సన్నని మరియు
+          దీర్ఘచతురస్రాకారపు ముదురు ఆకుపచ్చ రంగు పట్కా. దీనిపై భాగమంతటా చుక్కల నమూనా ఉంది. వెండి నేపథ్యం చుట్టూ ఆకుపచ్చ
+          మరియు నలుపు రంగులలో పూల తీగల అంచు డిజైన్ ఇవ్వబడింది. ఇది నునుపైన ముగింపుతో కూడిన బరువైన వస్త్రంతో తయారు
+          చేయబడినట్లు కనిపిస్తుంది. పై మరియు కింది అంచులలో చిన్న జాలర్లు లేదా అంచులు ఉన్నాయి. ప్రత్యేక గుర్తింపుగా దీని
+          రెండు చివరలలో ఆరేసి పూల గుత్తుల నమూనాలు ఉన్నాయి. ఈ పట్కా భారతదేశానికి చెందినది మరియు ఇది క్రీస్తుశకం. 19వ
+          శతాబ్దం ప్రారంభ కాలానికి చెందినది. పదాలు-86</div>
       </div>
     </div>
 
@@ -191,10 +306,12 @@
       <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
       <a href="./item8.html" class="navBtn">Next Item →</a>
     </div>
+
   </main>
 
   <footer>
-    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script src="./content.js"></script>
@@ -204,14 +321,17 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "bengali": "./Audios/Bengali/XXV-174%20Patka.wav",
-  "gujarati": "./Audios/Gujarathi/XXV-174%20Patka.wav",
-  "hindi": "./Audios/Hindi/7.%20पटका.wav",
-  "malayalam": "./Audios/malaylam/Patka.ml.wav",
-  "marathi": "./Audios/marathi/XXV-174%20Patka.wav",
-  "tamil": "./Audios/tamil/7.%20PATKA.wav",
-  "urdu": "./Audios/Urdu/XXV-174%20Patka.wav"
-};
+      "bengali": "./Audios/Bengali/XXV-174%20Patka.wav",
+      "gujarati": "./Audios/Gujarathi/XXV-174%20Patka.wav",
+      "hindi": "./Audios/Hindi/7.%20पटका.wav",
+      "malayalam": "./Audios/malaylam/Patka.ml.wav",
+      "marathi": "./Audios/marathi/XXV-174%20Patka.wav",
+      "tamil": "./Audios/tamil/7.%20PATKA.wav",
+      "urdu": "./Audios/Urdu/XXV-174%20Patka.wav",
+      "english": "./Audios/English/XXV-174%20Patka.wav",
+      "kannada": "./Audios/Kannada/XXV-174%20Patka.wav",
+      "telugu": "./Audios/Telugu/Telugu_Patka_Female.wav"
+    };
     const baseAudioSrc = "./Audios/Bengali/XXV-174%20Patka.wav";
 
     function changeLanguage(lang) {
@@ -223,7 +343,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -235,11 +355,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>

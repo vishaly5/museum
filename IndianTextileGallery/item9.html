@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -99,6 +110,9 @@
               <option value="marathi">मराठी (Marathi)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="urdu">اردو (Urdu)</option>
+              <option value="english">English</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
             </select>
           </div>
         </div>
@@ -108,81 +122,139 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/XXV-195%20Saree.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audios/Bengali/XXV-195%20Saree.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available.</p>
       </div>
     </div>
 
     <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
       <h2 class="cntHdng">XXV-195 শাড়ি</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item9.png" alt="XXV-195 শাড়ি" onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 শাড়ি"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">গাঢ় লাল রঙের শাড়িটিতে সমগ্র পৃষ্ঠজুড়ে জরি দিয়ে ফুল ও লতাপাতার নকশা করা হয়েছে, যা পর্যায়ক্রমে তির্যক সারিতে বিন্যস্ত।এটি ভারতীয় বস্ত্রশিল্পের ঐতিহ্যবাহী ধারার খাঁটি হস্তচালিত তাঁতের (হ্যান্ডলুম) সুতির শাড়ি। শাড়িটিতে একটি স্বতন্ত্র ও সুস্পষ্ট বিভাজনের নকশা রয়েছে, যার ওপরের অংশে সোনালী আভার তির্যক ডোরাকাটা প্যাটার্ন এবং নিচের অংশে লালচে-বাদামি রঙের জমিন বিদ্যমান। এর উভয় প্রান্তেই জরির রম্বসাকৃতির ও আঁকাবাঁকা নকশা দেখা যায়। এর প্রধান ও লক্ষণীয় পাড়গুলো গাঢ় গোলাপি রঙের, যা সোনালী জারির সূক্ষ্ম কারুকার্যে ফুটিয়ে তোলা হয়েছে। মূল জমিন থেকে পাড়কে পৃথক করার জন্য সূক্ষ্ম কালো ও সোনালী স্ট্রাইপ বা রেখা টানা রয়েছে। এই শাড়িটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ (১৯শ) শতকের বলে নির্ধারণ করা হয়।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">গাঢ় লাল রঙের শাড়িটিতে সমগ্র পৃষ্ঠজুড়ে জরি
+          দিয়ে ফুল ও লতাপাতার নকশা করা হয়েছে, যা পর্যায়ক্রমে তির্যক সারিতে বিন্যস্ত।এটি ভারতীয় বস্ত্রশিল্পের
+          ঐতিহ্যবাহী ধারার খাঁটি হস্তচালিত তাঁতের (হ্যান্ডলুম) সুতির শাড়ি। শাড়িটিতে একটি স্বতন্ত্র ও সুস্পষ্ট বিভাজনের
+          নকশা রয়েছে, যার ওপরের অংশে সোনালী আভার তির্যক ডোরাকাটা প্যাটার্ন এবং নিচের অংশে লালচে-বাদামি রঙের জমিন
+          বিদ্যমান। এর উভয় প্রান্তেই জরির রম্বসাকৃতির ও আঁকাবাঁকা নকশা দেখা যায়। এর প্রধান ও লক্ষণীয় পাড়গুলো গাঢ়
+          গোলাপি রঙের, যা সোনালী জারির সূক্ষ্ম কারুকার্যে ফুটিয়ে তোলা হয়েছে। মূল জমিন থেকে পাড়কে পৃথক করার জন্য
+          সূক্ষ্ম কালো ও সোনালী স্ট্রাইপ বা রেখা টানা রয়েছে। এই শাড়িটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ (১৯শ) শতকের
+          বলে নির্ধারণ করা হয়।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
-      <h2 class="cntHdng">XXV-195  સાડી</h2>
+      <h2 class="cntHdng">XXV-195 સાડી</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item9.png" alt="XXV-195  સાડી" onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195  સાડી"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ ઘેરા લાલ રંગની સાડી પર આખા ભાગમાં ત્રાંસી હરોળમાં વૈકલ્પિક રીતે જરીની ફૂલોની વેલ અને ફૂલોની ભાત આપેલી છે. તે ભારતીય ટેક્સટાઇલ કળાની પરંપરાગત શૈલીની શુદ્ધ હાથશાળ (હેન્ડલૂમ) સૂતરાઉ સાડી છે. આ સાડી એક વિશિષ્ટ ડિઝાઇન ધરાવે છે, જેમાં ત્રાંસા પટ્ટાઓ સાથેનો સોનેરી રંગનો ઉપરનો ભાગ અને લાલ-કથ્થઈ રંગનો નીચેનો ભાગ છે. સાડીના બંને છેડા પર જરીની લૉઝેન્જ (સમચતુર્ભુજ) ભાત અને ઝિગ-ઝાગ (વાંકીચૂકી) ડિઝાઇનો આપેલી છે. તેની આકર્ષક બોર્ડર ઘેરા ગુલાબી રંગની છે, જે સોનેરી જરીના કામથી સજાવેલી છે. આ બોર્ડરને સાડીના મુખ્ય ભાગથી અલગ કરતી પાતળી કાળી અને સોનેરી પટ્ટાઓ છે. આ સાડી ભારતની છે અને તે ૧૯મી સદીની છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ ઘેરા લાલ રંગની સાડી પર આખા ભાગમાં ત્રાંસી
+          હરોળમાં વૈકલ્પિક રીતે જરીની ફૂલોની વેલ અને ફૂલોની ભાત આપેલી છે. તે ભારતીય ટેક્સટાઇલ કળાની પરંપરાગત શૈલીની
+          શુદ્ધ હાથશાળ (હેન્ડલૂમ) સૂતરાઉ સાડી છે. આ સાડી એક વિશિષ્ટ ડિઝાઇન ધરાવે છે, જેમાં ત્રાંસા પટ્ટાઓ સાથેનો સોનેરી
+          રંગનો ઉપરનો ભાગ અને લાલ-કથ્થઈ રંગનો નીચેનો ભાગ છે. સાડીના બંને છેડા પર જરીની લૉઝેન્જ (સમચતુર્ભુજ) ભાત અને
+          ઝિગ-ઝાગ (વાંકીચૂકી) ડિઝાઇનો આપેલી છે. તેની આકર્ષક બોર્ડર ઘેરા ગુલાબી રંગની છે, જે સોનેરી જરીના કામથી સજાવેલી
+          છે. આ બોર્ડરને સાડીના મુખ્ય ભાગથી અલગ કરતી પાતળી કાળી અને સોનેરી પટ્ટાઓ છે. આ સાડી ભારતની છે અને તે ૧૯મી સદીની
+          છે.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="hindi" style="display: none;">
       <h2 class="cntHdng">XXV-195 साड़ी</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item9.png" alt="XXV-195 साड़ी" onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 साड़ी"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">गहरे लाल रंग की इस साड़ी पर पूरे वस्त्र में बारी-बारी से तिरछी पंक्तियों में जरी से बने पुष्पीय लता एवं पुष्प पैटर्न अंकित हैं। यह पारंपरिक भारतीय वस्त्र कला का एक उत्कृष्ट उदाहरण और शुद्ध हथकरघा सूती साड़ी है। साड़ी के डिज़ाइन में एक विशिष्ट विन्यास दिखाई देता है, जिसमें ऊपरी भाग सुनहरे आभा वाला तथा तिरछी धारियों से अलंकृत है, जबकि निचला भाग लाल-भूरे रंग का है। दोनों छोरों पर जरी से बने समचतुर्भुज (लोज़ेंज) पैटर्न तथा टेढ़ी-मेढ़ी (ज़िग-ज़ैग) डिज़ाइन अंकित हैं। साड़ी की प्रमुख किनारियाँ गहरे गुलाबी रंग की हैं, जिन्हें सुनहरे जरी कार्य से सजाया गया है। मुख्य वस्त्र और किनारियों के बीच पतली काली एवं सुनहरी धारियाँ बनी हुई हैं। यह साड़ी भारत की है और इसे ईस्वी सन् 19वीं शताब्दी का माना जाता है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">गहरे लाल रंग की इस साड़ी पर पूरे वस्त्र में
+          बारी-बारी से तिरछी पंक्तियों में जरी से बने पुष्पीय लता एवं पुष्प पैटर्न अंकित हैं। यह पारंपरिक भारतीय वस्त्र
+          कला का एक उत्कृष्ट उदाहरण और शुद्ध हथकरघा सूती साड़ी है। साड़ी के डिज़ाइन में एक विशिष्ट विन्यास दिखाई देता
+          है, जिसमें ऊपरी भाग सुनहरे आभा वाला तथा तिरछी धारियों से अलंकृत है, जबकि निचला भाग लाल-भूरे रंग का है। दोनों
+          छोरों पर जरी से बने समचतुर्भुज (लोज़ेंज) पैटर्न तथा टेढ़ी-मेढ़ी (ज़िग-ज़ैग) डिज़ाइन अंकित हैं। साड़ी की प्रमुख
+          किनारियाँ गहरे गुलाबी रंग की हैं, जिन्हें सुनहरे जरी कार्य से सजाया गया है। मुख्य वस्त्र और किनारियों के बीच
+          पतली काली एवं सुनहरी धारियाँ बनी हुई हैं। यह साड़ी भारत की है और इसे ईस्वी सन् 19वीं शताब्दी का माना जाता है।
+        </div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">XXV-195 സാരി</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item9.png" alt="XXV-195 സാരി" onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 സാരി"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">കടും ചുവപ്പ് നിറത്തിലുള്ള സാരിയിൽ ഉടനീളം മാറിമാറി വരുന്ന ചരിഞ്ഞ നിരകളിൽ സരി പൂക്കളുടെ വള്ളികളും പൂക്കളുടെ മാതൃകകളുമുണ്ട്. ഇത് പരമ്പരാഗത ഇന്ത്യൻ തുണിത്തര കലാരൂപത്തിൽ പെട്ട ശുദ്ധമായ കൈത്തറി പരുത്തി സാരിയാണ്. ഈ സാരിയിൽ സ്വർണ്ണ നിറത്തിലുള്ള മേൽഭാഗവും ഡയഗണൽ വരകളും, ചുവപ്പ് കലർന്ന തവിട്ട് നിറത്തിലുള്ള താഴെഭാഗവും അടങ്ങിയ പ്രത്യേക രൂപകൽപ്പനയുണ്ട്. രണ്ട്  അറ്റങ്ങളിലും സരി ലോസെഞ്ച് (വജ്ര) മാതൃകയും സിഗ്-സാഗ് ഡിസൈനുകളുമുണ്ട്. സ്വർണ്ണ സരി വർക്കിൽ അലങ്കരിച്ച കടുത്ത പിങ്ക് നിറത്തിലുള്ള പ്രധാന ബോർഡറുകൾ ഇതിലുണ്ട്. സാരിയുടെ പ്രധാന ഭാഗത്തുനിന്ന് ബോർഡറുകളെ വേർതിരിക്കുന്ന നേർത്ത കറുപ്പും സ്വർണ്ണവുമായ വരകൾ ബോർഡറുകളിലുണ്ട്. ഈ സാരി ഇന്ത്യയിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-102</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">കടും ചുവപ്പ് നിറത്തിലുള്ള സാരിയിൽ ഉടനീളം
+          മാറിമാറി വരുന്ന ചരിഞ്ഞ നിരകളിൽ സരി പൂക്കളുടെ വള്ളികളും പൂക്കളുടെ മാതൃകകളുമുണ്ട്. ഇത് പരമ്പരാഗത ഇന്ത്യൻ
+          തുണിത്തര കലാരൂപത്തിൽ പെട്ട ശുദ്ധമായ കൈത്തറി പരുത്തി സാരിയാണ്. ഈ സാരിയിൽ സ്വർണ്ണ നിറത്തിലുള്ള മേൽഭാഗവും ഡയഗണൽ
+          വരകളും, ചുവപ്പ് കലർന്ന തവിട്ട് നിറത്തിലുള്ള താഴെഭാഗവും അടങ്ങിയ പ്രത്യേക രൂപകൽപ്പനയുണ്ട്. രണ്ട് അറ്റങ്ങളിലും
+          സരി ലോസെഞ്ച് (വജ്ര) മാതൃകയും സിഗ്-സാഗ് ഡിസൈനുകളുമുണ്ട്. സ്വർണ്ണ സരി വർക്കിൽ അലങ്കരിച്ച കടുത്ത പിങ്ക്
+          നിറത്തിലുള്ള പ്രധാന ബോർഡറുകൾ ഇതിലുണ്ട്. സാരിയുടെ പ്രധാന ഭാഗത്തുനിന്ന് ബോർഡറുകളെ വേർതിരിക്കുന്ന നേർത്ത കറുപ്പും
+          സ്വർണ്ണവുമായ വരകൾ ബോർഡറുകളിലുണ്ട്. ഈ സാരി ഇന്ത്യയിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിലെ
+          കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-102</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
       <h2 class="cntHdng">XXV-195 শাড়ি</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item9.png" alt="XXV-195 শাড়ি" onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 শাড়ি"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">গাঢ় লাল রঙের শাড়িটিতে সমগ্র পৃষ্ঠজুড়ে জরি দিয়ে ফুল ও লতাপাতার নকশা করা হয়েছে, যা পর্যায়ক্রমে তির্যক সারিতে বিন্যস্ত।এটি ভারতীয় বস্ত্রশিল্পের ঐতিহ্যবাহী ধারার খাঁটি হস্তচালিত তাঁতের (হ্যান্ডলুম) সুতির শাড়ি। শাড়িটিতে একটি স্বতন্ত্র ও সুস্পষ্ট বিভাজনের নকশা রয়েছে, যার ওপরের অংশে সোনালী আভার তির্যক ডোরাকাটা প্যাটার্ন এবং নিচের অংশে লালচে-বাদামি রঙের জমিন বিদ্যমান। এর উভয় প্রান্তেই জরির রম্বসাকৃতির ও আঁকাবাঁকা নকশা দেখা যায়। এর প্রধান ও লক্ষণীয় পাড়গুলো গাঢ় গোলাপি রঙের, যা সোনালী জারির সূক্ষ্ম কারুকার্যে ফুটিয়ে তোলা হয়েছে। মূল জমিন থেকে পাড়কে পৃথক করার জন্য সূক্ষ্ম কালো ও সোনালী স্ট্রাইপ বা রেখা টানা রয়েছে। এই শাড়িটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ (১৯শ) শতকের বলে নির্ধারণ করা হয়।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">গাঢ় লাল রঙের শাড়িটিতে সমগ্র পৃষ্ঠজুড়ে জরি
+          দিয়ে ফুল ও লতাপাতার নকশা করা হয়েছে, যা পর্যায়ক্রমে তির্যক সারিতে বিন্যস্ত।এটি ভারতীয় বস্ত্রশিল্পের
+          ঐতিহ্যবাহী ধারার খাঁটি হস্তচালিত তাঁতের (হ্যান্ডলুম) সুতির শাড়ি। শাড়িটিতে একটি স্বতন্ত্র ও সুস্পষ্ট বিভাজনের
+          নকশা রয়েছে, যার ওপরের অংশে সোনালী আভার তির্যক ডোরাকাটা প্যাটার্ন এবং নিচের অংশে লালচে-বাদামি রঙের জমিন
+          বিদ্যমান। এর উভয় প্রান্তেই জরির রম্বসাকৃতির ও আঁকাবাঁকা নকশা দেখা যায়। এর প্রধান ও লক্ষণীয় পাড়গুলো গাঢ়
+          গোলাপি রঙের, যা সোনালী জারির সূক্ষ্ম কারুকার্যে ফুটিয়ে তোলা হয়েছে। মূল জমিন থেকে পাড়কে পৃথক করার জন্য
+          সূক্ষ্ম কালো ও সোনালী স্ট্রাইপ বা রেখা টানা রয়েছে। এই শাড়িটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ (১৯শ) শতকের
+          বলে নির্ধারণ করা হয়।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">XXV-195 புடவை</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item9.png" alt="XXV-195 புடவை" onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 புடவை"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">அடர் சிவப்பு நிறப் புடவை முழுவதும் ஜரிகை மலர் கொடி மற்றும் மாற்று சாய்வான வரிசைகளில் மலர் வடிவத்தைக் கொண்டுள்ளது. இது பாரம்பரிய இந்திய ஜவுளி கலையின் தூய கைத்தறி பருத்திப் புடவை ஆகும். இந்த புடவை மூலைவிட்டக் கோடுகளுடன் தங்க நிற மேல் பகுதியையும், சிவப்பு கலந்த பழுப்பு நிற கீழ் பகுதியையும் கொண்ட தனித்துவமான வடிவமைப்பைக் கொண்டுள்ளது. ஜரிகை வைர வடிவமும் ஜிக்-சாக் வடிவங்களும் இரு முனைகளிலும் உள்ளன. முக்கிய விளிம்புகள் தங்க ஜரிகை வேலையுடன் கூடிய அடர்ந்த இளஞ்சிவப்பு நிறத்தில் தனித்து நிற்கின்றன. விளிம்புகள் துணியின் முக்கியப் பகுதியிலிருந்து பிரிக்கும் மெல்லிய கருப்பு மற்றும் தங்கக் கோடுகளைக் கொண்டுள்ளன. இந்த புடவை இந்தியாவைச் சேர்ந்தது மற்றும் கி.பி. 19 ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கணிக்கப்பட்டுள்ளது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">அடர் சிவப்பு நிறப் புடவை முழுவதும் ஜரிகை மலர்
+          கொடி மற்றும் மாற்று சாய்வான வரிசைகளில் மலர் வடிவத்தைக் கொண்டுள்ளது. இது பாரம்பரிய இந்திய ஜவுளி கலையின் தூய
+          கைத்தறி பருத்திப் புடவை ஆகும். இந்த புடவை மூலைவிட்டக் கோடுகளுடன் தங்க நிற மேல் பகுதியையும், சிவப்பு கலந்த
+          பழுப்பு நிற கீழ் பகுதியையும் கொண்ட தனித்துவமான வடிவமைப்பைக் கொண்டுள்ளது. ஜரிகை வைர வடிவமும் ஜிக்-சாக்
+          வடிவங்களும் இரு முனைகளிலும் உள்ளன. முக்கிய விளிம்புகள் தங்க ஜரிகை வேலையுடன் கூடிய அடர்ந்த இளஞ்சிவப்பு
+          நிறத்தில் தனித்து நிற்கின்றன. விளிம்புகள் துணியின் முக்கியப் பகுதியிலிருந்து பிரிக்கும் மெல்லிய கருப்பு
+          மற்றும் தங்கக் கோடுகளைக் கொண்டுள்ளன. இந்த புடவை இந்தியாவைச் சேர்ந்தது மற்றும் கி.பி. 19 ஆம் நூற்றாண்டைச்
+          சேர்ந்ததாகக் கணிக்கப்பட்டுள்ளது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">XXV-195 ساڑی</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item9.png" alt="XXV-195 ساڑی" onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 ساڑی"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue No. XXV-195</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ گہرے سرخ رنگ کی ہاتھ سے بُنی ہوئی خالص سوتی ساڑی ہے، جس پر زری سے پھولوں اور بیل کے نقش بنائے گئے ہیں۔ اس کے نقش ترچھی قطاروں میں ترتیب دیے گئے ہیں۔ ساڑی کا ڈیزائن دو حصوں پر مشتمل ہے: اوپری حصے میں سنہری ترچھی پٹیاں اور نچلے حصے میں سرخ بھورا رنگ نمایاں ہے۔ دونوں سروں پر زری سے بنے ہیرے نما نقش اور ٹیڑھے میڑھے نقش موجود ہیں۔ نمایاں حاشیے گہرے گلابی رنگ کے ہیں، جن پر سنہری زری کا کام کیا گیا ہے۔ حاشیوں کو کپڑے کے مرکزی حصے سے الگ کرنے کے لیے باریک سیاہ اور سنہری پٹیاں بنائی گئی ہیں۔ یہ ساڑی ہندوستان کی ہے اور اس کا تعلق انیسویں صدی عیسوی سے ہے۔ الفاظ-102</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue
+          No. XXV-195</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ گہرے سرخ
+          رنگ کی ہاتھ سے بُنی ہوئی خالص سوتی ساڑی ہے، جس پر زری سے پھولوں اور بیل کے نقش بنائے گئے ہیں۔ اس کے نقش ترچھی
+          قطاروں میں ترتیب دیے گئے ہیں۔ ساڑی کا ڈیزائن دو حصوں پر مشتمل ہے: اوپری حصے میں سنہری ترچھی پٹیاں اور نچلے حصے
+          میں سرخ بھورا رنگ نمایاں ہے۔ دونوں سروں پر زری سے بنے ہیرے نما نقش اور ٹیڑھے میڑھے نقش موجود ہیں۔ نمایاں حاشیے
+          گہرے گلابی رنگ کے ہیں، جن پر سنہری زری کا کام کیا گیا ہے۔ حاشیوں کو کپڑے کے مرکزی حصے سے الگ کرنے کے لیے باریک
+          سیاہ اور سنہری پٹیاں بنائی گئی ہیں۔ یہ ساڑی ہندوستان کی ہے اور اس کا تعلق انیسویں صدی عیسوی سے ہے۔ الفاظ-102
+        </div>
       </div>
     </div>
 
@@ -191,10 +263,71 @@
       <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
       <span></span>
     </div>
+
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">XXV-195 Saree</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 Saree"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This dark red saree features a zari floral vine
+          and flower pattern in alternate diagonal rows all over. It is a pure handloom cotton saree in the traditional
+          Indian textile art style. The saree has a distinct design comprising a golden-hued upper part with diagonal
+          stripes and a red-brown lower part. Both ends have zari lozenge patterns and zig-zag designs. The prominent
+          borders are dark pink, adorned with golden zari work. These borders have thin black and golden stripes
+          separating them from the main body. This saree belongs to India and dates to the 19th century.</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">XXV-195 ಸೀರೆ</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 ಸೀರೆ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಗಾಢ ಕೆಂಪು ಬಣ್ಣದ ಸೀರೆಯು ಇಡೀ ಜವಳಿಯಾದ್ಯಂತ ಪರ್ಯಾಯ
+          ಓರೆ ಸಾಲುಗಳಲ್ಲಿ ಜರಿ ಹೂವಿನ ಬಳ್ಳಿ ಹಾಗೂ ಹೂವಿನ ವಿನ್ಯಾಸವನ್ನು ಹೊಂದಿದೆ. ಇದು ಸಾಂಪ್ರದಾಯಿಕ ಭಾರತೀಯ ಜವಳಿ ಕಲಾ ಪ್ರಕಾರದ ಶುದ್ಧ
+          ಕೈಮಗ್ಗದ ಹತ್ತಿ ಸೀರೆಯಾಗಿದೆ. ಈ ಸೀರೆಯು ಕರ್ಣೀಯ ಪಟ್ಟಿಗಳನ್ನು ಹೊಂದಿರುವ ಬಂಗಾರದ ಛಾಯೆಯ ಮೇಲ್ಭಾಗ ಮತ್ತು ಕೆಂಪು-ಕಂದು ಬಣ್ಣದ
+          ಕೆಳಭಾಗವನ್ನು ಒಳಗೊಂಡ ವಿಶಿಷ್ಟ ವಿನ್ಯಾಸವನ್ನು ಹೊಂದಿದೆ. ಎರಡೂ ಕೊನೆಗಳಲ್ಲಿ ಜರಿ ವಜ್ರಾಕಾರದ ಮಾದರಿ ಮತ್ತು ಡೊಂಕು-ಡೊಂಕಾದ
+          ವಿನ್ಯಾಸಗಳಿವೆ. ಎದ್ದುಕಾಣುವ ಅಂಚುಗಳು ಗಾಢ ಗುಲಾಬಿ ಬಣ್ಣದಲ್ಲಿದ್ದು, ಚಿನ್ನದ ಜರಿ ಕೆಲಸದಿಂದ ಶೃಂಗರಿಸಲ್ಪಟ್ಟಿವೆ. ಈ ಅಂಚುಗಳು
+          ಬಟ್ಟೆಯ ಮುಖ್ಯ ಭಾಗದಿಂದ ಅವುಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸುವ ಸಣ್ಣ ಕಪ್ಪು ಮತ್ತು ಚಿನ್ನದ ಪಟ್ಟಿಗಳನ್ನು ಹೊಂದಿವೆ. ಈ ಸೀರೆಯು ಭಾರತಕ್ಕೆ
+          ಸೇರಿದ್ದಾಗಿದ್ದು, ಇದು ಹತ್ತೊಂಬತ್ತನೇ ಶತಮಾನದ್ದಾಗಿದೆ. ಪದಗಳು</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">XXV-195 చీర</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item9.png" alt="XXV-195 చీర"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item9.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-195</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ఈ ముదురు ఎరుపు రంగు చీరపై భాగమంతటా వాలు వరుసలలో
+          ఒకదాని తర్వాత ఒకటిగా జరీ పూల తీగలు మరియు పూల నమూనాలు ఉన్నాయి. ఇది భారతీయ వస్త్ర కళా సంప్రదాయానికి చెందిన
+          స్వచ్ఛమైన చేనేత (హ్యాండ్‌లూమ్) నూలు చీర. ఈ చీర ఒక ప్రత్యేకమైన డిజైన్‌ను కలిగి ఉంది; ఇందులో వాలు చారలతో కూడిన
+          బంగారు రంగు పైభాగం మరియు ఎరుపు-గోధుమ రంగు కింది భాగం ఉన్నాయి. చీర ఇరువైపులా జరీతో చేసిన వజ్రపు ఆకారపు (అంటే,
+          లొజెంజ్) మరియు జిగ్‌-జాగ్ డిజైన్లు ఉన్నాయి. దీని ఆకర్షణీయమైన ముదురు గులాబీ రంగు అంచు బంగారు జరీ పనితనంతో
+          తీర్చిదిద్దబడింది. ఈ అంచును చీర ప్రధాన భాగం నుండి వేరు చేస్తూ సన్నని నలుపు మరియు బంగారు చారలు ఉన్నాయి. ఈ చీర
+          భారతదేశానికి చెందినది మరియు క్రీస్తుశకం. 19వ శతాబ్దానికి చెందినది. పదాలు-102</div>
+      </div>
+    </div>
+
+    <div class="navBtnDiv">
+      <a href="./item8.html" class="navBtn">← Previous Item</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
+      <span></span>
+    </div>
+
   </main>
 
   <footer>
-    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script src="./content.js"></script>
@@ -204,14 +337,17 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "bengali": "./Audios/Bengali/XXV-195%20Saree.wav",
-  "gujarati": "./Audios/Gujarathi/XXV-195%20Saree.wav",
-  "hindi": "./Audios/Hindi/9.%20साड़ी.wav",
-  "malayalam": "./Audios/malaylam/Saree.ml.wav",
-  "marathi": "./Audios/marathi/XXV-195%20Saree.wav",
-  "tamil": "./Audios/tamil/9.%20%20SAREE.wav",
-  "urdu": "./Audios/Urdu/XXV-195%20Saree.wav"
-};
+      "bengali": "./Audios/Bengali/XXV-195%20Saree.wav",
+      "gujarati": "./Audios/Gujarathi/XXV-195%20Saree.wav",
+      "hindi": "./Audios/Hindi/9.%20साड़ी.wav",
+      "malayalam": "./Audios/malaylam/Saree.ml.wav",
+      "marathi": "./Audios/marathi/XXV-195%20Saree.wav",
+      "tamil": "./Audios/tamil/9.%20%20SAREE.wav",
+      "urdu": "./Audios/Urdu/XXV-195%20Saree.wav",
+      "english": "./Audios/English/9.%20XXV-195%20Saree.wav",
+      "kannada": "./Audios/Kannada/XXV-195%20Saree.wav",
+      "telugu": "./Audios/Telugu/Telugu_Saree_Female.wav"
+    };
     const baseAudioSrc = "./Audios/Bengali/XXV-195%20Saree.wav";
 
     function changeLanguage(lang) {
@@ -223,7 +359,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -235,11 +371,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>
