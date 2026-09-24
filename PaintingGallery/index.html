@@ -1,21 +1,26 @@
 <!doctype html>
 <html lang="hi">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>चित्र दीर्घा (पश्चिमी खंड) | Salar Jung Museum</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
-          <a href="../index.html" class="logo logoTwo"><img src="images/logo-moc.png" onerror="this.onerror=null; this.src='../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+          <a href="../index.html" class="logo logoTwo"><img src="images/logo-moc.png"
+              onerror="this.onerror=null; this.src='../MusicalClock/images/logo-moc.png';"
+              alt="Ministry of Culture"></a>
         </div>
         <div class="logoRgt">
           <div class="langDiv">
-            <span class="anuIcn"><img src="images/logo-anu.png" onerror="this.onerror=null; this.src='../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <span class="anuIcn"><img src="images/logo-anu.png"
+                onerror="this.onerror=null; this.src='../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
             <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="hindi" selected>हिन्दी (Hindi)</option>
               <option value="english">English</option>
@@ -24,6 +29,10 @@
               <option value="urdu">اردو (Urdu)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="marathi">मराठी (Marathi)</option>
             </select>
           </div>
         </div>
@@ -61,16 +70,36 @@
       <h1>ચિત્રકલા ગેલેરી (પશ્ચિમ વિભાગ)</h1>
       <p>ઑડિયો ગાઇડ ઍપ માટે પશ્ચિમ વિભાગની ચિત્રકલા ગેલેરીમાંથી પસંદ કરેલી વસ્તુઓ.</p>
     </section>
+    <section class="gallery-intro langCnt" id="odia">
+      <h1>ପେଣ୍ଟିଙ୍ଗ୍ସ ଗ୍ୟାଲେରୀ (ୱେଷ୍ଟର୍ନ ବ୍ଲକ୍)</h1>
+      <p>ଅଡିଓ ଗାଇଡ୍ ଆପ୍ ପାଇଁ ପେଣ୍ଟିଙ୍ଗ୍ସ ଗ୍ୟାଲେରୀରୁ ନିମ୍ନଲିଖିତ ବସ୍ତୁଗୁଡ଼ିକ ଚୟନ କରାଯାଇଛି।</p>
+    </section>
+
+    <section class="gallery-intro langCnt" id="marathi">
+      <h1>चित्रकला दालन (पश्चिम विभाग)</h1>
+      <p>ऑडिओ गाइड ॲपसाठी चित्रकला दालनातील खालील वस्तू निवडण्यात आल्या आहेत.</p>
+    </section>
+
+    <section class="gallery-intro langCnt" id="telugu">
+      <h1>పెయింటింగ్స్ గ్యాలరీ (వెస్ట్రన్ బ్లాక్)</h1>
+      <p>ఆడియో గైడ్ యాప్ కోసం పెయింటింగ్స్ గ్యాలరీ నుండి క్రింది వస్తువులు ఎంపిక చేయబడ్డాయి.</p>
+    </section>
+
+    <section class="gallery-intro langCnt" id="kannada">
+      <h1>ಚಿತ್ರಕಲಾ ಗ್ಯಾಲರಿ (ಪಶ್ಚಿಮ ವಿಭಾಗ)</h1>
+      <p>ಆಡಿಯೋ ಗೈಡ್ ಅಪ್ಲಿಕೇಶನ್‌ಗಾಗಿ ಚಿತ್ರಕಲಾ ಗ್ಯಾಲರಿಯಿಂದ ಕೆಳಗಿನ ವಸ್ತುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ.</p>
+    </section>
 
     <!-- Gallery Grid: cards are built from js/artworksData.js -->
     <section class="gallery-grid" id="galleryGrid"></section>
   </main>
 
   <footer>
-    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
-
   <script src="js/artworksData.js"></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>

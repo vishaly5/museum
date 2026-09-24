@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -99,6 +110,10 @@
               <option value="marathi">मराठी (Marathi)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="urdu">اردو (Urdu)</option>
+              <option value="english">English</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
             </select>
           </div>
         </div>
@@ -108,81 +123,217 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/ACQ-80-43%20WALL%20HANGING.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audios/Bengali/ACQ-80-43%20WALL%20HANGING.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available.</p>
       </div>
     </div>
 
     <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
       <h2 class="cntHdng">ACQ-80-43 দেওয়ালে ঝোলানো শিল্পকর্ম</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 দেওয়ালে ঝোলানো শিল্পকর্ম" onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 দেওয়ালে ঝোলানো শিল্পকর্ম"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি একটি আয়তাকার বস্ত্রখণ্ড, সম্ভবত দেওয়ালসজ্জা হিসেবে ব্যবহৃত হতো। এর নকশা উজ্জ্বল ও আকর্ষণীয় এবং চারপাশে কমলা রঙের মখমলের পাড় রয়েছে। মূল নকশায় একটি গাছের ডালের উপর বসে থাকা বড় আকারের ময়ূরকে দেখানো হয়েছে, যার মাথা পিছনের দিকে ঘোরানো। ময়ূরটির দেহে নীল ও সবুজ পালকের সূক্ষ্ম নকশা রয়েছে এবং এর দীর্ঘ, ঝুলে থাকা লেজটি বাদামি ও সোনালি রঙের বিভিন্ন আভায় সজ্জিত; লেজে চক্ষুর মতো গোলাকার নকশা বা ‘আই-স্পট’ রয়েছে। গাছটির কাণ্ড হালকা বাদামি রঙের এবং এর শাখাগুলি সমগ্র বস্ত্রপৃষ্ঠ জুড়ে বিস্তৃত। পটভূমির বস্ত্রটি মসৃণ, হালকা রঙের রেশম দিয়ে তৈরি। এর উপর ম্লান সবুজ, বাদামি ও সাদা রঙের ফুল ও পাতার নকশা জরি-সুতার সূচিকর্মের মাধ্যমে অলংকৃত করা হয়েছে । এই বস্ত্রশিল্পটি ভারতের এবং এটি খ্রিস্টীয় বিংশ শতাব্দীর বলে নির্ধারিত । .</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি একটি আয়তাকার বস্ত্রখণ্ড, সম্ভবত
+          দেওয়ালসজ্জা হিসেবে ব্যবহৃত হতো। এর নকশা উজ্জ্বল ও আকর্ষণীয় এবং চারপাশে কমলা রঙের মখমলের পাড় রয়েছে। মূল
+          নকশায় একটি গাছের ডালের উপর বসে থাকা বড় আকারের ময়ূরকে দেখানো হয়েছে, যার মাথা পিছনের দিকে ঘোরানো। ময়ূরটির
+          দেহে নীল ও সবুজ পালকের সূক্ষ্ম নকশা রয়েছে এবং এর দীর্ঘ, ঝুলে থাকা লেজটি বাদামি ও সোনালি রঙের বিভিন্ন আভায়
+          সজ্জিত; লেজে চক্ষুর মতো গোলাকার নকশা বা ‘আই-স্পট’ রয়েছে। গাছটির কাণ্ড হালকা বাদামি রঙের এবং এর শাখাগুলি সমগ্র
+          বস্ত্রপৃষ্ঠ জুড়ে বিস্তৃত। পটভূমির বস্ত্রটি মসৃণ, হালকা রঙের রেশম দিয়ে তৈরি। এর উপর ম্লান সবুজ, বাদামি ও সাদা
+          রঙের ফুল ও পাতার নকশা জরি-সুতার সূচিকর্মের মাধ্যমে অলংকৃত করা হয়েছে । এই বস্ত্রশিল্পটি ভারতের এবং এটি
+          খ্রিস্টীয় বিংশ শতাব্দীর বলে নির্ধারিত । .</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">ACQ-80-43 દીવાલ પર લટકાવવાની વસ્તુ (વોલ હેંગિંગ)</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 દીવાલ પર લટકાવવાની વસ્તુ (વોલ હેંગિંગ)" onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 દીવાલ પર લટકાવવાની વસ્તુ (વોલ હેંગિંગ)"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ લંબચોરસ કાપડ કદાચ દીવાલ પર લટકાવવા માટેનું છે, જે એક આકર્ષક ડિઝાઇન અને નારંગી રંગની મખમલ (વેલવેટ) ની બોર્ડર ધરાવે છે. તેની મુખ્ય ડિઝાઇનમાં ઝાડની ડાળી પર બેઠેલો એક મોટો મોર છે, જેનું માથું પાછળની તરફ વળેલું છે. મોરના શરીર પર વાદળી અને લીલા રંગના પીંછા છે, અને તેની લાંબી, ઢળતી પૂંછડી કથ્થઈ તથા સોનેરી રંગના શેડ્સમાં છે, જેમાં આંખ જેવા ગોળાકાર ચિહ્નોની ઝીણવટભરી કોતરણી છે. આ ઝાડનું થડ હળવા કથ્થઈ રંગનું છે અને તેની ડાળીઓ સમગ્ર કાપડ પર ફેલાયેલી છે. પૃષ્ઠભૂમિનું કાપડ ચમકદાર, હળવા રંગનું સિલ્ક (રેશમ) છે, જે ઝાંખા લીલા, કથ્થઈ અને સફેદ રંગના જરી ભરતકામવાળા ફૂલો તથા પાંદડાની ભાતોથી સજાવેલું છે. આ ટેપે (ભરતકામવાળું કાપડ) ભારતની છે અને તે ૨૦મી સદીની છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ લંબચોરસ કાપડ કદાચ દીવાલ પર લટકાવવા માટેનું છે,
+          જે એક આકર્ષક ડિઝાઇન અને નારંગી રંગની મખમલ (વેલવેટ) ની બોર્ડર ધરાવે છે. તેની મુખ્ય ડિઝાઇનમાં ઝાડની ડાળી પર
+          બેઠેલો એક મોટો મોર છે, જેનું માથું પાછળની તરફ વળેલું છે. મોરના શરીર પર વાદળી અને લીલા રંગના પીંછા છે, અને તેની
+          લાંબી, ઢળતી પૂંછડી કથ્થઈ તથા સોનેરી રંગના શેડ્સમાં છે, જેમાં આંખ જેવા ગોળાકાર ચિહ્નોની ઝીણવટભરી કોતરણી છે. આ
+          ઝાડનું થડ હળવા કથ્થઈ રંગનું છે અને તેની ડાળીઓ સમગ્ર કાપડ પર ફેલાયેલી છે. પૃષ્ઠભૂમિનું કાપડ ચમકદાર, હળવા રંગનું
+          સિલ્ક (રેશમ) છે, જે ઝાંખા લીલા, કથ્થઈ અને સફેદ રંગના જરી ભરતકામવાળા ફૂલો તથા પાંદડાની ભાતોથી સજાવેલું છે. આ
+          ટેપે (ભરતકામવાળું કાપડ) ભારતની છે અને તે ૨૦મી સદીની છે.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="hindi" style="display: none;">
       <h2 class="cntHdng">ACQ-80-43 दीवार पर टांगने वाला पर्दा</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 दीवार पर टांगने वाला पर्दा" onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 दीवार पर टांगने वाला पर्दा"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह आयताकार वस्त्र संभवतः दीवार पर लटकाने के लिए बनाई गई सजावटी वस्तु है, जिसकी डिजाइन अत्यंत जीवंत है और किनारे पर नारंगी रंग की मखमली पट्टी लगी हुई है। मुख्य डिजाइन में एक बड़ा मोर पेड़ की शाखा पर बैठा हुआ है और उसका सिर पीछे की ओर मुड़ा हुआ है। मोर के शरीर पर नीले और हरे रंग के पंख हैं तथा उसकी लंबी, नीचे की ओर झुकी हुई पूँछ भूरे और सुनहरे रंगों में है, जिस पर आँख जैसी आकृतियों वाले पंखों के चिह्न (eye-spots) बारीकी से बनाए गए हैं। पेड़ का तना हल्के भूरे रंग का है और उसकी शाखाएँ पूरे वस्त्र पर फैली हुई हैं। पृष्ठभूमि का कपड़ा चमकदार, हल्के रंग का रेशम है, जिस पर मद्धिम हरे, भूरे और सफेद रंगों में जरी से कढ़ाई किए गए पुष्प एवं पत्तियों के अलंकरण बने हुए हैं। यह टेपेस्ट्री/वस्त्र सज्जा भारत से संबंधित है और इसका काल 20वीं शताब्दी ईस्वी का माना जाता है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह आयताकार वस्त्र संभवतः दीवार पर लटकाने के लिए
+          बनाई गई सजावटी वस्तु है, जिसकी डिजाइन अत्यंत जीवंत है और किनारे पर नारंगी रंग की मखमली पट्टी लगी हुई है। मुख्य
+          डिजाइन में एक बड़ा मोर पेड़ की शाखा पर बैठा हुआ है और उसका सिर पीछे की ओर मुड़ा हुआ है। मोर के शरीर पर नीले और
+          हरे रंग के पंख हैं तथा उसकी लंबी, नीचे की ओर झुकी हुई पूँछ भूरे और सुनहरे रंगों में है, जिस पर आँख जैसी
+          आकृतियों वाले पंखों के चिह्न (eye-spots) बारीकी से बनाए गए हैं। पेड़ का तना हल्के भूरे रंग का है और उसकी
+          शाखाएँ पूरे वस्त्र पर फैली हुई हैं। पृष्ठभूमि का कपड़ा चमकदार, हल्के रंग का रेशम है, जिस पर मद्धिम हरे, भूरे
+          और सफेद रंगों में जरी से कढ़ाई किए गए पुष्प एवं पत्तियों के अलंकरण बने हुए हैं। यह टेपेस्ट्री/वस्त्र सज्जा
+          भारत से संबंधित है और इसका काल 20वीं शताब्दी ईस्वी का माना जाता है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">ACQ-80-43 വാൾ ഹാങ്ങിംഗ്</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 വാൾ ഹാങ്ങിംഗ്" onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 വാൾ ഹാങ്ങിംഗ്"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ഓറഞ്ച് വെൽവെറ്റ് ബോർഡറോട് കൂടിയതും ഊർജ്ജസ്വലമായ രൂപകൽപ്പനയുള്ളതുമായ ദീർഘചതുരാകൃതിയിലുള്ള ഒരു തുണിത്തരമാണിത്, ഇത് ഒരുപക്ഷേ ചുവരില്‍ തൂക്കിയിടുന്നതായിരിക്കാം. പ്രധാന രൂപകൽപ്പന മരക്കൊമ്പിലിരിക്കുന്ന ഒരു വലിയ മയിലാണ്, അതിന്റെ തല പിന്നിലേക്ക് തിരിഞ്ഞിരിക്കുന്നു. മയിലിന്റെ ശരീരത്തിൽ നീലയും പച്ചയും നിറമുള്ള തൂവലുകളുണ്ട്, കൂടാതെ തവിട്ട്, സ്വർണ്ണ നിഴലുകളിലുള്ള നീണ്ടതും താഴേക്ക് തൂങ്ങിക്കിടക്കുന്നതുമായ വാലുമുണ്ട്, അതിൽ കണ്ണിന്റെ ആകൃതിയിലുള്ള അടയാളങ്ങൾ വിശദമായി നൽകിയിരിക്കുന്നു. മരത്തിന് ഇളം തവിട്ട് നിറത്തിലുള്ള തടിയും തുണിയിലുടനീളം വ്യാപിച്ചുകിടക്കുന്ന കൊമ്പുകളുമുണ്ട്. പശ്ചാത്തലത്തിലുള്ള തുണി തിളക്കമുള്ളതും ഇളം നിറത്തിലുള്ളതുമായ പട്ടുതുണിയാണ്; മങ്ങിയ പച്ച, തവിട്ട്, വെളുപ്പ് എന്നീ നിറങ്ങളിലുള്ള സരി എംബ്രോയ്ഡറി ചെയ്ത പൂക്കളുടെയും ഇലകളുടെയും രൂപങ്ങൾ ഇതിൽ അലങ്കരിച്ചിരിക്കുന്നു. ഈ ചിത്രത്തുന്നൽ ഇന്ത്യയിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 20-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-104</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ഓറഞ്ച് വെൽവെറ്റ് ബോർഡറോട് കൂടിയതും ഊർജ്ജസ്വലമായ
+          രൂപകൽപ്പനയുള്ളതുമായ ദീർഘചതുരാകൃതിയിലുള്ള ഒരു തുണിത്തരമാണിത്, ഇത് ഒരുപക്ഷേ ചുവരില്‍ തൂക്കിയിടുന്നതായിരിക്കാം.
+          പ്രധാന രൂപകൽപ്പന മരക്കൊമ്പിലിരിക്കുന്ന ഒരു വലിയ മയിലാണ്, അതിന്റെ തല പിന്നിലേക്ക് തിരിഞ്ഞിരിക്കുന്നു. മയിലിന്റെ
+          ശരീരത്തിൽ നീലയും പച്ചയും നിറമുള്ള തൂവലുകളുണ്ട്, കൂടാതെ തവിട്ട്, സ്വർണ്ണ നിഴലുകളിലുള്ള നീണ്ടതും താഴേക്ക്
+          തൂങ്ങിക്കിടക്കുന്നതുമായ വാലുമുണ്ട്, അതിൽ കണ്ണിന്റെ ആകൃതിയിലുള്ള അടയാളങ്ങൾ വിശദമായി നൽകിയിരിക്കുന്നു. മരത്തിന്
+          ഇളം തവിട്ട് നിറത്തിലുള്ള തടിയും തുണിയിലുടനീളം വ്യാപിച്ചുകിടക്കുന്ന കൊമ്പുകളുമുണ്ട്. പശ്ചാത്തലത്തിലുള്ള തുണി
+          തിളക്കമുള്ളതും ഇളം നിറത്തിലുള്ളതുമായ പട്ടുതുണിയാണ്; മങ്ങിയ പച്ച, തവിട്ട്, വെളുപ്പ് എന്നീ നിറങ്ങളിലുള്ള സരി
+          എംബ്രോയ്ഡറി ചെയ്ത പൂക്കളുടെയും ഇലകളുടെയും രൂപങ്ങൾ ഇതിൽ അലങ്കരിച്ചിരിക്കുന്നു. ഈ ചിത്രത്തുന്നൽ ഇന്ത്യയിൽ
+          നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 20-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-104</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
       <h2 class="cntHdng">ACQ-80-43 भिंतीवर टांगण्याची वस्तू</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 भिंतीवर टांगण्याची वस्तू" onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 भिंतीवर टांगण्याची वस्तू"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">एक आयताकृती कापड बहुधा भिंतीवर टांगण्याची वस्तू आहे, जी आकर्षक रचना आणि नारिंगी मखमली किनाऱ्यासह आहे. मुख्य रचना म्हणजे झाडाच्या फांदीवर बसलेला आणि मान मागे वळवलेला एक मोठा मोर. मोराच्या शरीरावर निळी आणि हिरवी पिसे आहेत आणि तपकिरी व सोन्याच्या छटा असलेली, डोळ्यांच्या डिझाईनची एक लांब, खाली झुकलेली शेपूट आहे. झाडाचे खोड हलक्या तपकिरी रंगाचे असून फांद्या संपूर्ण कापडावर पसरलेल्या आहेत. पाठीमागचे कापड चमकदार, हलक्या रंगाचे रेशीम असून त्यावर फिकट हिरव्या, तपकिरी आणि पांढऱ्या रंगांच्या जरी भरतकामातील फुलांची व पानांची नक्षी काढलेली आहे. ही टॅपस्ट्री भारताची असून ती 20 व्या शतकातील आहे. शब्द-104</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">एक आयताकृती कापड बहुधा भिंतीवर टांगण्याची वस्तू
+          आहे, जी आकर्षक रचना आणि नारिंगी मखमली किनाऱ्यासह आहे. मुख्य रचना म्हणजे झाडाच्या फांदीवर बसलेला आणि मान मागे
+          वळवलेला एक मोठा मोर. मोराच्या शरीरावर निळी आणि हिरवी पिसे आहेत आणि तपकिरी व सोन्याच्या छटा असलेली, डोळ्यांच्या
+          डिझाईनची एक लांब, खाली झुकलेली शेपूट आहे. झाडाचे खोड हलक्या तपकिरी रंगाचे असून फांद्या संपूर्ण कापडावर
+          पसरलेल्या आहेत. पाठीमागचे कापड चमकदार, हलक्या रंगाचे रेशीम असून त्यावर फिकट हिरव्या, तपकिरी आणि पांढऱ्या
+          रंगांच्या जरी भरतकामातील फुलांची व पानांची नक्षी काढलेली आहे. ही टॅपस्ट्री भारताची असून ती 20 व्या शतकातील
+          आहे. शब्द-104</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">ACQ-80-43 சுவர் அலங்காரம்</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 சுவர் அலங்காரம்" onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 சுவர் அலங்காரம்"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ஒரு செவ்வக வடிவத் துணி, அநேகமாக ஒரு சுவர் அலங்காரமாக இருக்கலாம். இது ஒரு துடிப்பான வடிவமைப்பையும் ஆரஞ்சு நிற வெல்வெட் ஓரத்தையும் கொண்டுள்ளது. இதன் பிரதான வடிவமைப்பு, ஒரு மரக்கிளையில் அமர்ந்திருக்கும் ஒரு பெரிய மயிலாகும், அதன் தலை பின்புறம் திரும்பியுள்ளது. மயிலின் உடலில் நீலம் மற்றும் பச்சை நிற இறகுகளும், பழுப்பு மற்றும் தங்க நிறங்களின் சாயல்களில் நீண்ட, தொங்கும் வாலும் உள்ளன; அதில் கண் புள்ளிகள் நுணுக்கமாக வரையப்பட்டுள்ளன. அந்த மரம் வெளிர் பழுப்பு நிறத் தண்டு மற்றும் துணியின் குறுக்கே நீண்டு செல்லும் கிளைகளைக் கொண்டுள்ளது. பின்னணித் துணி, பளபளப்பான, வெளிர் நிறப் பட்டுத் துணியாகும். இது மங்கிய பச்சை, பழுப்பு மற்றும் வெள்ளை நிறங்களில் ஜரிகை வேலைப்பாடுகளுடன் கூடிய மலர் மற்றும் இலை வடிவங்களால் அலங்கரிக்கப்பட்டுள்ளது. இந்தத் திரைச்சீலை இந்தியாவைச் சேர்ந்தது மற்றும் கி.பி. 20 ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ஒரு செவ்வக வடிவத் துணி, அநேகமாக ஒரு சுவர்
+          அலங்காரமாக இருக்கலாம். இது ஒரு துடிப்பான வடிவமைப்பையும் ஆரஞ்சு நிற வெல்வெட் ஓரத்தையும் கொண்டுள்ளது. இதன்
+          பிரதான வடிவமைப்பு, ஒரு மரக்கிளையில் அமர்ந்திருக்கும் ஒரு பெரிய மயிலாகும், அதன் தலை பின்புறம் திரும்பியுள்ளது.
+          மயிலின் உடலில் நீலம் மற்றும் பச்சை நிற இறகுகளும், பழுப்பு மற்றும் தங்க நிறங்களின் சாயல்களில் நீண்ட, தொங்கும்
+          வாலும் உள்ளன; அதில் கண் புள்ளிகள் நுணுக்கமாக வரையப்பட்டுள்ளன. அந்த மரம் வெளிர் பழுப்பு நிறத் தண்டு மற்றும்
+          துணியின் குறுக்கே நீண்டு செல்லும் கிளைகளைக் கொண்டுள்ளது. பின்னணித் துணி, பளபளப்பான, வெளிர் நிறப் பட்டுத்
+          துணியாகும். இது மங்கிய பச்சை, பழுப்பு மற்றும் வெள்ளை நிறங்களில் ஜரிகை வேலைப்பாடுகளுடன் கூடிய மலர் மற்றும் இலை
+          வடிவங்களால் அலங்கரிக்கப்பட்டுள்ளது. இந்தத் திரைச்சீலை இந்தியாவைச் சேர்ந்தது மற்றும் கி.பி. 20 ஆம் நூற்றாண்டைச்
+          சேர்ந்ததாகக் கருதப்படுகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
-      <h2 class="cntHdng" dir="rtl" style="text-align:right;">ACQ-80-43  دیوار پر آویزاں کپڑا</h2>
+      <h2 class="cntHdng" dir="rtl" style="text-align:right;">ACQ-80-43 دیوار پر آویزاں کپڑا</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43  دیوار پر آویزاں کپڑا" onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43  دیوار پر آویزاں کپڑا"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue No. ACQ-80-43</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ لمبی چوکور شکل کا ایک کپڑے کا ٹکڑا ہے، جو غالباً دیوار پر لٹکانے کے لیے بنایا گیا تھا۔ اس کے کناروں پر نارنجی مخمل کی پٹی ہے۔ درمیان میں ایک بڑا مور درخت کی شاخ پر بیٹھا ہوا دکھایا گیا ہے۔ مور نے اپنا سر پیچھے کی طرف موڑ رکھا ہے۔ اس کے جسم پر نیلے اور سبز پر ہیں، جبکہ اس کی لمبی دم بھورے اور سنہری رنگوں میں ہے اور اس پر آنکھ جیسے نقش بنے ہوئے ہیں۔ درخت کا تنا ہلکے بھورے رنگ کا ہے اور اس کی شاخیں پورے کپڑے پر پھیلی ہوئی ہیں۔ پس منظر میں چمک دار، ہلکے رنگ کا ریشمی کپڑا استعمال کیا گیا ہے، جس پر زری کے دھاگے سے پھولوں اور پتوں کے نقش کڑھے گئے ہیں۔ ان نقشوں میں ہلکے سبز، بھورے اور سفید رنگ نمایاں ہیں۔ یہ نقش و نگار والا کپڑا ہندوستان کا ہے اور اس کا تعلق بیسویں صدی عیسوی سے ہے۔ الفاظ-104</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue
+          No. ACQ-80-43</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ لمبی
+          چوکور شکل کا ایک کپڑے کا ٹکڑا ہے، جو غالباً دیوار پر لٹکانے کے لیے بنایا گیا تھا۔ اس کے کناروں پر نارنجی مخمل
+          کی پٹی ہے۔ درمیان میں ایک بڑا مور درخت کی شاخ پر بیٹھا ہوا دکھایا گیا ہے۔ مور نے اپنا سر پیچھے کی طرف موڑ رکھا
+          ہے۔ اس کے جسم پر نیلے اور سبز پر ہیں، جبکہ اس کی لمبی دم بھورے اور سنہری رنگوں میں ہے اور اس پر آنکھ جیسے نقش
+          بنے ہوئے ہیں۔ درخت کا تنا ہلکے بھورے رنگ کا ہے اور اس کی شاخیں پورے کپڑے پر پھیلی ہوئی ہیں۔ پس منظر میں چمک
+          دار، ہلکے رنگ کا ریشمی کپڑا استعمال کیا گیا ہے، جس پر زری کے دھاگے سے پھولوں اور پتوں کے نقش کڑھے گئے ہیں۔ ان
+          نقشوں میں ہلکے سبز، بھورے اور سفید رنگ نمایاں ہیں۔ یہ نقش و نگار والا کپڑا ہندوستان کا ہے اور اس کا تعلق
+          بیسویں صدی عیسوی سے ہے۔ الفاظ-104</div>
+      </div>
+    </div>
+
+
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">ACQ-80-43 WALL HANGING</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 WALL HANGING"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This rectangular textile is probably a wall
+          hanging, featuring a vibrant design and an orange velvet border. The main design shows a large peacock perched
+          on a tree branch, its head turned backward. The peacock's body has blue and green feathers, and its long,
+          drooping tail is in shades of brown and gold, detailed with eye-like markings. The tree has a light brown
+          trunk, and its branches extend across the textile. The background fabric is shiny, light-colored silk
+          decorated with zari-embroidered flower and leaf patterns in muted green, brown, and white. This tapestry
+          belongs to India and dates to the 20th century.</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">ACQ-80-43 ವಾಲ್ ಹ್ಯಾಂಗಿಂಗ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 ವಾಲ್ ಹ್ಯಾಂಗಿಂಗ್"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಆಯತಾಕಾರದ ಈ ಜವಳಿ ಬಹುಶಃ ವಾಲ್ ಹ್ಯಾಂಗಿಂಗ್ (ಗೋಡೆಗೆ
+          ತೂಗುಹಾಕುವ ಕಲಾಕೃತಿ) ಆಗಿರಬಹುದು, ಇದು ಪ್ರಕಾಶಮಾನವಾದ ವಿನ್ಯಾಸ ಹಾಗೂ ಕಿತ್ತಳೆ ಬಣ್ಣದ ವೆಲ್ವೆಟ್ ಅಂಚನ್ನು ಹೊಂದಿದೆ. ಇದರ ಮುಖ್ಯ
+          ವಿನ್ಯಾಸವು ಮರದ ಕೊಂಬೆಯ ಮೇಲೆ ಕುಳಿತು, ತಲೆಯನ್ನು ಹಿಂಭಾಗಕ್ಕೆ ತಿರುಗಿಸಿರುವ ದೊಡ್ಡ ನವಿಲಾಗಿದೆ. ನವಿಲಿನ ದೇಹದ ಮೇಲೆ ನೀಲಿ ಮತ್ತು
+          ಹಸಿರು ಗರಿಗಳಿದ್ದು, ಕಣ್ಣಿನಂತಹ ಗುರುತುಗಳ ವಿವರಣೆಯೊಂದಿಗೆ ಕಂದು ಹಾಗೂ ಚಿನ್ನದ ಬಣ್ಣದ ಛಾಯೆಗಳಲ್ಲಿ ಉದ್ದನೆಯ, ಕೆಳಗೆ ನೇತಾಡುವ
+          ಬಾಲವನ್ನು ಹೊಂದಿದೆ. ಮರವು ತಿಳಿ ಕಂದು ಬಣ್ಣದ ಕಾಂಡವನ್ನು ಹೊಂದಿದ್ದು, ಇದರ ಕೊಂಬೆಗಳು ಜವಳಿಯಾದ್ಯಂತ ವಿಸ್ತರಿಸಿವೆ. ಹಿನ್ನೆಲೆಯ
+          ಬಟ್ಟೆಯು ಹೊಳೆಯುವ, ತಿಳಿ ಬಣ್ಣದ ರೇಷ್ಮೆಯಾಗಿದ್ದು, ಮಂದವಾದ ಹಸಿರು, ಕಂದು ಮತ್ತು ಬಿಳಿ ಬಣ್ಣಗಳಲ್ಲಿ ಜರಿ ಕಸೂತಿ ಮಾಡಿದ ಹೂವು ಹಾಗೂ
+          ಎಲೆಗಳ ವಿನ್ಯಾಸಗಳಿಂದ ಅಲಂಕರಿಸಲ್ಪಟ್ಟಿದೆ. ಈ ಕಲಾಕೃತಿಯು ಭಾರತಕ್ಕೆ ಸೇರಿದ್ದು, ಇದು ಇಪ್ಪತ್ತನೇ ಶತಮಾನದ್ದಾಗಿದೆ. ಪದಗಳು</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">ACQ-80-43 గోడ కుడ్యము (వాల్ హ్యాంగింగ్)</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 గోడ కుడ్యము (వాల్ హ్యాంగింగ్)"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ఈ దీర్ఘచతురస్రాకార వస్త్రం బహుశా గోడపై అలంకరణకు
+          వేలాడదీసేది కావచ్చు; ఇది ఆకర్షణీయమైన డిజైన్ మరియు నారింజ రంగు వెల్వెట్ అంచును కలిగి ఉంది. దీని ప్రధాన
+          డిజైన్‌లో ఒక చెట్టు కొమ్మపై కూర్చుని, వెనుకకు తల తిప్పి చూస్తున్న ఒక పెద్ద నెమలి కనిపిస్తుంది. నెమలి శరీరంపై
+          నీలం, ఆకుపచ్చ ఈకలు ఉన్నాయి; దాని పొడవైన, కిందకు జారిన తోక గోధుమ మరియు బంగారు ఛాయలలో కన్ను వంటి గుండ్రని మచ్చల
+          నమూనాలతో తీర్చిదిద్దబడింది. చెట్టు కాండం లేత గోధుమ రంగులో ఉండి, దాని కొమ్మలు వస్త్రమంతటా విస్తరించి ఉన్నాయి.
+          నేపథ్య వస్త్రం మెరిసే లేత రంగు పట్టుతో చేయబడి, లేత ఆకుపచ్చ, గోధుమ మరియు తెలుపు రంగుల జరీ ఎంబ్రాయిడరీ పూలు,
+          ఆకుల నమూనాలతో అలంకరించబడింది. ఈ ఎంబ్రాయిడరీ వస్త్రం (టేపెస్ట్రీ) భారతదేశానికి చెందినది మరియు ఇది క్రీస్తుశకం.
+          20వ శతాబ్దానికి చెందినది. పదాలు-104</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng">ACQ-80-43 ୱାଲ୍ ହ୍ୟାଙ୍ଗିଂ</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item3.png" alt="ACQ-80-43 ୱାଲ୍ ହ୍ୟାଙ୍ଗିଂ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item3.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. ACQ-80-43</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ଆୟତାକାର ଆକୃତିର ଏହି ବୟନକଳାଟି ସମ୍ଭବତଃ ୱାଲ୍ ହ୍ୟାଙ୍ଗିଂ ପାଇଁ ବ୍ୟବହୃତ ହେଉଥିବା ଏକ ଚିତ୍ରିତ ପରଦା, ଯାହାର ଚାରିପାଖରେ କମଳା
+          ରଙ୍ଗର ଭେଲ୍‌ଭେଟ୍ ବୋର୍ଡର୍ ରହିଛି। ଏହାର ମୁଖ୍ୟ ଆଲେଖ୍ୟରେ ଏକ ବୃକ୍ଷଶାଖା ଉପରେ ବସିଥିବା ଏକ ମନୋରମ ମୟୂର ଦୃଶ୍ୟାୟିତ, ଯାହାର
+          ମୁଖଟି ପଛପଟକୁ ବୁଲିରହିଛି। ମୟୂରର ଶରୀରରେ ନୀଳ ଓ ସବୁଜ ରଙ୍ଗର ପର ଏବଂ ତଳକୁ ଢଳିରହିଥିବା ଦୀର୍ଘ ପୁଚ୍ଛରେ ବାଦାମୀ ଓ ସୁବର୍ଣ୍ଣ
+          ବର୍ଣ୍ଣର ସୂକ୍ଷ୍ମ ଚନ୍ଦ୍ରିକା ଶୋଭାପାଉଛି। ବୃକ୍ଷଟିର ହାଲୁକା ବାଦାମୀ ଗଣ୍ଡି ଓ ଶାଖାପ୍ରଶାଖାଗୁଡ଼ିକ ସମଗ୍ର କପଡ଼ାସାରା ପ୍ରସାରିତ
+          ହୋଇରହିଛି। ଏହାର ପୃଷ୍ଠଭୂମିଟି ଏକ ଉଜ୍ଜ୍ୱଳ, ହାଲୁକା ରଙ୍ଗର ରେଶମୀ ବସ୍ତ୍ର, ଯାହା ଉପରେ ଜରୀ ଏମ୍ବ୍ରୋଇଡରୀ କାରୁକାର୍ଯ୍ୟରେ
+          ହାଲୁକା ସବୁଜ, ବାଦାମୀ ଓ ଧଳା ରଙ୍ଗର ଲତା, ଫୁଲ ଓ ପତ୍ରର ମନୋହର ନକ୍ସା ଫୁଟିଉଠିଛି। ଭାରତରୁ ପ୍ରାପ୍ତ ଏହି ସୁନ୍ଦର
+          ବସ୍ତ୍ରଚିତ୍ରଟି ଖ୍ରୀଷ୍ଟୀୟ ବିଂଶ ଶତାବ୍ଦୀର ବୋଲି ଆକଳନ କରାଯାଏ। ଶବ୍ଦ-104
+        </div>
       </div>
     </div>
 
@@ -194,7 +345,8 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script src="./content.js"></script>
@@ -204,14 +356,18 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "bengali": "./Audios/Bengali/ACQ-80-43%20WALL%20HANGING.wav",
-  "gujarati": "./Audios/Gujarathi/ACQ-80-43%20WALL%20HANGING.wav",
-  "hindi": "./Audios/Hindi/3.%20दीवार%20पर%20टांगने%20वाला%20पर्दा.wav",
-  "malayalam": "./Audios/malaylam/WALL%20HANGING.ml.wav",
-  "marathi": "./Audios/marathi/ACQ-80-43%20WALL%20HANGING.wav",
-  "tamil": "./Audios/tamil/3.%20WALL%20HANGING.wav",
-  "urdu": "./Audios/Urdu/ACQ-80-43%20WALL%20HANGING.wav"
-};
+      "bengali": "./Audios/Bengali/ACQ-80-43%20WALL%20HANGING.wav",
+      "gujarati": "./Audios/Gujarathi/ACQ-80-43%20WALL%20HANGING.wav",
+      "hindi": "./Audios/Hindi/3.%20दीवार%20पर%20टांगने%20वाला%20पर्दा.wav",
+      "malayalam": "./Audios/malaylam/WALL%20HANGING.ml.wav",
+      "marathi": "./Audios/marathi/ACQ-80-43%20WALL%20HANGING.wav",
+      "tamil": "./Audios/tamil/3.%20WALL%20HANGING.wav",
+      "urdu": "./Audios/Urdu/ACQ-80-43%20WALL%20HANGING.wav",
+      "english": "./Audios/English/3.%20ACQ-80-43%20WALL%20HANGING.wav",
+      "kannada": "./Audios/Kannada/ACQ-80-43%20WALL%20HANGING.wav",
+      "telugu": "./Audios/Telugu/Telugu_WALL%20HANGING_Female.wav",
+      "odia": "./Audios/Odia/3. WALL HANGING.wav"
+    };
     const baseAudioSrc = "./Audios/Bengali/ACQ-80-43%20WALL%20HANGING.wav";
 
     function changeLanguage(lang) {
@@ -223,7 +379,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -235,11 +391,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>

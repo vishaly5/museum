@@ -98,6 +98,7 @@
             <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="bengali" selected>বাংলা (Bengali)</option>
               <option value="hindi">हिन्दी (Hindi)</option>
+              <option value="english">English (English)</option>
               <option value="kannada">ಕನ್ನಡ (Kannada)</option>
               <option value="marathi">मराठी (Marathi)</option>
               <option value="urdu">اردو (Urdu)</option>
@@ -188,6 +189,44 @@
           इतिहास तथा समय के साथ सिक्कों के आकार, डिजाइन और विशेषताओं के विकास को दर्शाया गया है।</div>
       </div>
     </div>
+
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">2. COINS GALLERY</h2>
+      <div class="booImgDiv">
+        <img src="./images/logo.png" width="100%" alt="2. COINS GALLERY"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">2. COINS GALLERY</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          A coin is like a window to its times. These small pieces of embossed metal tell us about the governing
+          authorities who issued them. At times, they give us the name of rulers or the years in which they reigned.
+          Sometimes the coin hails a deity, or a popular symbol or a motif reflecting the beliefs and aesthetics of the
+          age.
+          The Coin Gallery displays about 600 of the museum’s rare collection of coins from the 3rd century BC to
+          present times. Unlike most other collections at the museum which were acquired by Salar Jung the third, these
+          coins were donated to the museum.
+          The first coins in India date back to 7th century BC. The earliest are called punch-marked coins as symbols
+          were imprinted on metallic coins with punches. These coins are of two types – one issued by janapadas or
+          oligarchic republics and the other by the imperial dynasties of ancient India. The museum has samples of both.
+          [location - LEFT SIDE SHOWCASE NO 1]
+          The display includes coins from the ancient southern Vishnukundin and Ikshvaku dynasties, the Satavahana,
+          Chola and Vijayanagara kingdoms, the Delhi sultanate, Mughal, Nizam shahi, British colonial era and newly
+          independent India.
+          Most of the coins are cast in copper, silver and lead. Just a few are in gold. These include two tiny coins
+          belonging to the Vijayanagara Empire. [location LEFT SIDE WALL SHOWCASE NO. 13] . Most of the coins from
+          ancient dynasties of southern India have symbols and animals such as the lion or elephant printed on them.
+          [location, showcase 2,] The ones issued by the medieval kings of northern India have Arabic and Persian
+          inscriptions.
+          The gallery also displays coins from at least 20 other countries.
+          A touchscreen display donated by the Reserve Bank of India showcases the history of Indian coins and how they
+          evolved over the years.
+
+        </div>
+      </div>
+    </div>
+
+
     <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
       <h2 class="cntHdng">2. ನಾಣ್ಯಗಳ ಗ್ಯಾಲರಿ</h2>
       <div class="booImgDiv">
@@ -441,6 +480,7 @@
     const audioByLanguage = {
       "bengali": "./Audios/Bengali/Remaining%20gallaries/COINS%20GALLERY.wav",
       "hindi": "./Audios/Hindi/2.%20सिक्का%20गैलरी.wav",
+      "english": "./Audios/English/2.COINS%20GALLERY%20%5B290%20words%5D.wav",
       "kannada": "./Audios/kannada/REMAINING%20GALLERYS/COINS%20GALLERY.wav",
       "marathi": "./Audios/marathi/Remaining%20gallaries/COINS%20GALLERY.wav",
       "urdu": "./Audios/Urdu/Urdu_remaining%20gallaries.ur-IN/COINS%20GALLERY.wav",
@@ -456,6 +496,7 @@
     const footerTranslations = {
       bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
       hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा',
+      english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
       kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
       marathi: '© 2024 सर्व हक्क सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआय</a> द्वारा',
       urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',

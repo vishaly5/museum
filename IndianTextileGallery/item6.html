@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -99,6 +110,10 @@
               <option value="marathi">मराठी (Marathi)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="urdu">اردو (Urdu)</option>
+              <option value="english">English</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
             </select>
           </div>
         </div>
@@ -108,83 +123,219 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/XXV-40%20Shawl.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audios/Bengali/XXV-40%20Shawl.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available.</p>
       </div>
     </div>
 
     <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
       <h2 class="cntHdng">XXV-40 শাল</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item6.png" alt="XXV-40 শাল" onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 শাল"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">হলুদ রঙের পশমি শাল (হিমরু), যার সমগ্র শালটিতে সবুজ ও কালো রঙের ফুলের নকশা রয়েছে। কাশ্মীরি শাল মূলত উপাদানের ভিত্তিতে শ্রেণিবদ্ধ তাদের সূক্ষ্ম কারুকার্যের জন্য বিশ্বজুড়ে খ্যাত। শালের কেন্দ্রভাগে বিভিন্ন ফুলের নকশাসমন্বিত একটি বৃত্তাকার খাঁজকাটা প্যানেল এবং চার কোণে অনুরূপ এক-চতুর্থাংশ প্যানেল রয়েছে। এর চারধারে রয়েছে পুষ্পলতার পাড় এবং উভয় প্রান্তে রয়েছে সাদামাটা পাড়, যার একটিতে '৯৯১ হিজরি' (991 A.H.) তারিখ খোদাই করা প্যানেল বিদ্যমান। শালের নিচের কিনারায় একটি চওড়া, সাদামাটা উজ্জ্বল কমলা রঙের পাড় রয়েছে এবং অন্য কিনারাগুলোতে রয়েছে একটি সরু, নকশাদার পাড়। কেন্দ্রীয় প্যানেল ও কোণের এক-চতুর্থাংশ প্যানেলগুলোতে আঁকাবাঁকা (জিগ-জ্যাগ) নকশা ফুটিয়ে তোলা হয়েছে। এই শালটি ভারতের কাশ্মীরের এবং এটি খ্রিস্টীয় ১৬শ শতকের বলে নির্ধারণ করা হয় । .</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">হলুদ রঙের পশমি শাল (হিমরু), যার সমগ্র শালটিতে
+          সবুজ ও কালো রঙের ফুলের নকশা রয়েছে। কাশ্মীরি শাল মূলত উপাদানের ভিত্তিতে শ্রেণিবদ্ধ তাদের সূক্ষ্ম কারুকার্যের
+          জন্য বিশ্বজুড়ে খ্যাত। শালের কেন্দ্রভাগে বিভিন্ন ফুলের নকশাসমন্বিত একটি বৃত্তাকার খাঁজকাটা প্যানেল এবং চার
+          কোণে অনুরূপ এক-চতুর্থাংশ প্যানেল রয়েছে। এর চারধারে রয়েছে পুষ্পলতার পাড় এবং উভয় প্রান্তে রয়েছে সাদামাটা
+          পাড়, যার একটিতে '৯৯১ হিজরি' (991 A.H.) তারিখ খোদাই করা প্যানেল বিদ্যমান। শালের নিচের কিনারায় একটি চওড়া,
+          সাদামাটা উজ্জ্বল কমলা রঙের পাড় রয়েছে এবং অন্য কিনারাগুলোতে রয়েছে একটি সরু, নকশাদার পাড়। কেন্দ্রীয় প্যানেল
+          ও কোণের এক-চতুর্থাংশ প্যানেলগুলোতে আঁকাবাঁকা (জিগ-জ্যাগ) নকশা ফুটিয়ে তোলা হয়েছে। এই শালটি ভারতের কাশ্মীরের
+          এবং এটি খ্রিস্টীয় ১৬শ শতকের বলে নির্ধারণ করা হয় । .</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">XXV-40 શાલ</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item6.png" alt="XXV-40 શાલ" onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 શાલ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ પીળા રંગની ઊનની શાલ (હિમરૂ) છે, જેના પર આખા ભાગમાં લીલા અને કાળા રંગની ફૂલોની ડિઝાઇન કરવામાં આવી છે. કશ્મીરી શાલો તેમની જટિલ કારીગરી માટે ખૂબ પ્રખ્યાત છે, જે મુખ્યત્વે સામગ્રીના આધારે વર્ગીકૃત કરવામાં આવે છે. કેન્દ્રમાં વિવિધ ફૂલોની ભાત સાથેનું ગોળાકાર કાંગરેદાર પૅનલ છે અને ખૂણા પર તેના જેવા જ ચતુર્થાંશ પૅનલ આવેલા છે. તેની આસપાસ ફૂલોની વેલની બોર્ડર છે અને બંને છેડા પર તારીખ પૅનલ ૯૯૧ A.H. (હિજરી) સાથે સાદી બોર્ડર છે. શાલની નીચેની કિારી પર એક પહોળી, સાદી અને તેજસ્વી નારંગી રંગની બોર્ડર છે. અન્ય કિારીઓ પર સાંકડી, ભાતવાળી બોર્ડર છે. કેન્દ્રના પૅનલ પર અને ખૂણાના ચતુર્થાંશ પૅનલ પર ઝિગ-ઝાગ (વાંકીચૂકી) ડિઝાઇન છે. આ શાલ ભારતના કશ્મીરની છે અને તે ૧૬મી સદીની છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ પીળા રંગની ઊનની શાલ (હિમરૂ) છે, જેના પર આખા
+          ભાગમાં લીલા અને કાળા રંગની ફૂલોની ડિઝાઇન કરવામાં આવી છે. કશ્મીરી શાલો તેમની જટિલ કારીગરી માટે ખૂબ પ્રખ્યાત છે,
+          જે મુખ્યત્વે સામગ્રીના આધારે વર્ગીકૃત કરવામાં આવે છે. કેન્દ્રમાં વિવિધ ફૂલોની ભાત સાથેનું ગોળાકાર કાંગરેદાર
+          પૅનલ છે અને ખૂણા પર તેના જેવા જ ચતુર્થાંશ પૅનલ આવેલા છે. તેની આસપાસ ફૂલોની વેલની બોર્ડર છે અને બંને છેડા પર
+          તારીખ પૅનલ ૯૯૧ A.H. (હિજરી) સાથે સાદી બોર્ડર છે. શાલની નીચેની કિારી પર એક પહોળી, સાદી અને તેજસ્વી નારંગી રંગની
+          બોર્ડર છે. અન્ય કિારીઓ પર સાંકડી, ભાતવાળી બોર્ડર છે. કેન્દ્રના પૅનલ પર અને ખૂણાના ચતુર્થાંશ પૅનલ પર ઝિગ-ઝાગ
+          (વાંકીચૂકી) ડિઝાઇન છે. આ શાલ ભારતના કશ્મીરની છે અને તે ૧૬મી સદીની છે.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="hindi" style="display: none;">
       <h2 class="cntHdng">XXV-40 शॉल</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item6.png" alt="XXV-40 शॉल" onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 शॉल"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह हरे और काले रंग के पुष्पीय डिज़ाइन से सुसज्जित पीले रंग की ऊनी शॉल (हिमरू)है। कश्मीरी शॉल अपनी बारीक और उत्कृष्ट शिल्पकारी के लिए प्रसिद्ध हैं तथा इन्हें मुख्यतः उनकी सामग्री के आधार पर वर्गीकृत किया जाता है। शॉल के मध्य भाग में विभिन्न पुष्प आकृतियों वाला वृत्ताकार, कंगूरेदार (दाँतेदार) पैनल है तथा कोनों पर इसी प्रकार के चौथाई पैनल बने हुए हैं। चारों ओर फूलों और लताओं की किनारी है। दोनों सिरों पर सादी किनारी के साथ 991 हिजरी (A.H.) का दिनांक-पैनल अंकित है। शॉल के निचले किनारे पर चौड़ी, सादी और चमकीले नारंगी रंग की पट्टी है, जबकि अन्य किनारों पर संकरी, अलंकृत किनारी बनी हुई है। मध्य पैनल तथा कोनों के चौथाई पैनलों पर ज़िग-ज़ैग डिज़ाइन भी दिखाई देता है। यह शॉल कश्मीर, भारत की है और इसे 16वीं शताब्दी ईस्वी का माना जाता है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह हरे और काले रंग के पुष्पीय डिज़ाइन से
+          सुसज्जित पीले रंग की ऊनी शॉल (हिमरू)है। कश्मीरी शॉल अपनी बारीक और उत्कृष्ट शिल्पकारी के लिए प्रसिद्ध हैं तथा
+          इन्हें मुख्यतः उनकी सामग्री के आधार पर वर्गीकृत किया जाता है। शॉल के मध्य भाग में विभिन्न पुष्प आकृतियों वाला
+          वृत्ताकार, कंगूरेदार (दाँतेदार) पैनल है तथा कोनों पर इसी प्रकार के चौथाई पैनल बने हुए हैं। चारों ओर फूलों और
+          लताओं की किनारी है। दोनों सिरों पर सादी किनारी के साथ 991 हिजरी (A.H.) का दिनांक-पैनल अंकित है। शॉल के निचले
+          किनारे पर चौड़ी, सादी और चमकीले नारंगी रंग की पट्टी है, जबकि अन्य किनारों पर संकरी, अलंकृत किनारी बनी हुई है।
+          मध्य पैनल तथा कोनों के चौथाई पैनलों पर ज़िग-ज़ैग डिज़ाइन भी दिखाई देता है। यह शॉल कश्मीर, भारत की है और इसे
+          16वीं शताब्दी ईस्वी का माना जाता है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">XXV-40 ഷാൾ</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item6.png" alt="XXV-40 ഷാൾ" onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 ഷാൾ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">പച്ചയും കറുപ്പും നിറത്തിലുള്ള പൂക്കളുടെ ഡിസൈനുകൾ അടങ്ങിയ മഞ്ഞ കമ്പളി ഷാൾ (ഹിംരൂ). സങ്കീർണ്ണമായ കരകൗശലവിദ്യയ്ക്ക് പേരുകേട്ട കാശ്മീരി ഷാളുകൾ പ്രധാനമായും നിർമ്മിച്ചിരിക്കുന്ന വസ്തുക്കളുടെ അടിസ്ഥാനത്തിലാണ് തരംതിരിച്ചിരിക്കുന്നത്. നടുവിലായി വ്യത്യസ്ത പൂക്കളുടെ ഡിസൈനുകളുള്ള വൃത്തത്തിലുള്ള കൊത്തുവേല ചെയ്ത പാനലും, കോണുകളിൽ സമാനമായ കാൽഭാഗം പാനലുകളും ഉണ്ട്. ചുറ്റും പൂക്കളുടെ വള്ളികൾ കൊണ്ടുള്ള ബോർഡറും, രണ്ട് അറ്റങ്ങളിലും 991 എ.എച്ച്. (ഹിജ്റ വർഷം) എന്ന് രേഖപ്പെടുത്തിയ തീയതി പാനലോട് കൂടിയ ലളിതമായ ബോർഡറുകളുമുണ്ട്. ഷാളിന്റെ താഴത്തെ അറ്റത്ത് വീതിയുള്ളതും തിളക്കമുള്ളതുമായ ഓറഞ്ച് നിറത്തിലുള്ള ബോർഡറുണ്ട്. മറ്റ് അറ്റങ്ങളിൽ ചെറിയതും രൂപകൽപ്പന ചെയ്തതുമായ ബോർഡറുണ്ട്. സെൻട്രൽ പാനലിലും കോണുകളിലെ ക്വാർട്ടർ പാനലുകളിലും സിഗ്-സാഗ് രൂപകൽപ്പനകളുണ്ട്. ഈ ഷാൾ ഇന്ത്യയിലെ കാശ്മീരിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 16-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-105</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">പച്ചയും കറുപ്പും നിറത്തിലുള്ള പൂക്കളുടെ ഡിസൈനുകൾ
+          അടങ്ങിയ മഞ്ഞ കമ്പളി ഷാൾ (ഹിംരൂ). സങ്കീർണ്ണമായ കരകൗശലവിദ്യയ്ക്ക് പേരുകേട്ട കാശ്മീരി ഷാളുകൾ പ്രധാനമായും
+          നിർമ്മിച്ചിരിക്കുന്ന വസ്തുക്കളുടെ അടിസ്ഥാനത്തിലാണ് തരംതിരിച്ചിരിക്കുന്നത്. നടുവിലായി വ്യത്യസ്ത പൂക്കളുടെ
+          ഡിസൈനുകളുള്ള വൃത്തത്തിലുള്ള കൊത്തുവേല ചെയ്ത പാനലും, കോണുകളിൽ സമാനമായ കാൽഭാഗം പാനലുകളും ഉണ്ട്. ചുറ്റും
+          പൂക്കളുടെ വള്ളികൾ കൊണ്ടുള്ള ബോർഡറും, രണ്ട് അറ്റങ്ങളിലും 991 എ.എച്ച്. (ഹിജ്റ വർഷം) എന്ന് രേഖപ്പെടുത്തിയ തീയതി
+          പാനലോട് കൂടിയ ലളിതമായ ബോർഡറുകളുമുണ്ട്. ഷാളിന്റെ താഴത്തെ അറ്റത്ത് വീതിയുള്ളതും തിളക്കമുള്ളതുമായ ഓറഞ്ച്
+          നിറത്തിലുള്ള ബോർഡറുണ്ട്. മറ്റ് അറ്റങ്ങളിൽ ചെറിയതും രൂപകൽപ്പന ചെയ്തതുമായ ബോർഡറുണ്ട്. സെൻട്രൽ പാനലിലും കോണുകളിലെ
+          ക്വാർട്ടർ പാനലുകളിലും സിഗ്-സാഗ് രൂപകൽപ്പനകളുണ്ട്. ഈ ഷാൾ ഇന്ത്യയിലെ കാശ്മീരിൽ നിന്നുള്ളതാണ്, കൂടാതെ
+          ക്രിസ്തുവർഷം 16-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-105</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
       <h2 class="cntHdng">XXV-40 शाल</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item6.png" alt="XXV-40 शाल" onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 शाल"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">सर्व बाजूंना हिरव्या आणि काळ्या रंगांच्या फुलांच्या नक्षीची पिवळी लोकरीची शाल (हिमरो). काश्मिरी शली त्यांच्या क्लिष्ट कारागिरीसाठी प्रसिद्ध आहेत, ज्या प्रामुख्याने सामग्रीनुसार वर्गीकृत केल्या जातात. मध्यभागी वेगवेगळ्या फुलांच्या पॅटर्नसह वर्तुळाकार कांगऱ्यांचे पॅनेल आणि कोपऱ्यांवर अशीच चतुर्थांश पॅनेल्स आहेत. भोवती फुलांच्या वेलीची किनार आणि दोन्ही टोकांना साध्या किनाऱ्यांसह 991 A.H. चे तारीख पॅनेल आहे. शालच्या तळाच्या कडेला रुंद, साधी, चमकदार केशरी किनार आहे. इतर कड्यांना अरुंद, नक्षीदार किनार आहे. मध्यवर्ती पॅनेलवर आणि कोपऱ्यांमधील चतुर्थांश पॅनेल्सवर झिग-झॅग डिझाईन्स आहेत. ही शाल भारताच्या काश्मीरची असून ती 16 व्या शतकातील आहे. शब्द-105</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">सर्व बाजूंना हिरव्या आणि काळ्या रंगांच्या
+          फुलांच्या नक्षीची पिवळी लोकरीची शाल (हिमरो). काश्मिरी शली त्यांच्या क्लिष्ट कारागिरीसाठी प्रसिद्ध आहेत, ज्या
+          प्रामुख्याने सामग्रीनुसार वर्गीकृत केल्या जातात. मध्यभागी वेगवेगळ्या फुलांच्या पॅटर्नसह वर्तुळाकार कांगऱ्यांचे
+          पॅनेल आणि कोपऱ्यांवर अशीच चतुर्थांश पॅनेल्स आहेत. भोवती फुलांच्या वेलीची किनार आणि दोन्ही टोकांना साध्या
+          किनाऱ्यांसह 991 A.H. चे तारीख पॅनेल आहे. शालच्या तळाच्या कडेला रुंद, साधी, चमकदार केशरी किनार आहे. इतर
+          कड्यांना अरुंद, नक्षीदार किनार आहे. मध्यवर्ती पॅनेलवर आणि कोपऱ्यांमधील चतुर्थांश पॅनेल्सवर झिग-झॅग डिझाईन्स
+          आहेत. ही शाल भारताच्या काश्मीरची असून ती 16 व्या शतकातील आहे. शब्द-105</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">XXV-40 சால்வை</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item6.png" alt="XXV-40 சால்வை" onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 சால்வை"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">முழுவதும் பச்சை மற்றும் கருப்பு நிறங்களில் பூ வடிவமைப்புடன் கூடிய மஞ்சள் நிற கம்பளி சால்வை (ஹிம்ரூ). காஷ்மீரி சால்வைகள் அவற்றின் நுணுக்கமான கைவினைத்திறனுக்காகப் புகழ்பெற்றவை, அவை முதன்மையாகப் பயன்படுத்தப்படும் பொருளின் அடிப்படையில் வகைப்படுத்தப்படுகின்றன. மையத்தில் பல்வேறு பூ வடிவங்களைக் கொண்ட வட்டமான கோட்டைப் பகுதியும், மூலைகளில் இதே போன்ற கால் பகுதிகளும் உள்ளன. சால்வையைச் சுற்றி பூக்கொத்து வடிவ ஓரமும், இரு முனைகளிலும் 991 ஹிஜ்ரி ஆண்டு என்ற தேதியைக் கொண்ட வெற்று ஓரங்களும் உள்ளன. சால்வையின் கீழ் விளிம்பில் அகலமான, வெற்று, பிரகாசமான ஆரஞ்சு நிற ஓரம் உள்ளது. மற்ற விளிம்புகளில் குறுகிய, வடிவங்கள் கொண்ட ஓரம் உள்ளது. மையப் பகுதியிலும் மூலைகளில் உள்ள கால் பகுதிகளிலும் நெளிவு சுளிவான வடிவமைப்புகள் உள்ளன. இந்த சால்வை இந்தியாவின் காஷ்மீரைச் சேர்ந்தது மற்றும் கி.பி. 16 ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">முழுவதும் பச்சை மற்றும் கருப்பு நிறங்களில் பூ
+          வடிவமைப்புடன் கூடிய மஞ்சள் நிற கம்பளி சால்வை (ஹிம்ரூ). காஷ்மீரி சால்வைகள் அவற்றின் நுணுக்கமான
+          கைவினைத்திறனுக்காகப் புகழ்பெற்றவை, அவை முதன்மையாகப் பயன்படுத்தப்படும் பொருளின் அடிப்படையில்
+          வகைப்படுத்தப்படுகின்றன. மையத்தில் பல்வேறு பூ வடிவங்களைக் கொண்ட வட்டமான கோட்டைப் பகுதியும், மூலைகளில் இதே போன்ற
+          கால் பகுதிகளும் உள்ளன. சால்வையைச் சுற்றி பூக்கொத்து வடிவ ஓரமும், இரு முனைகளிலும் 991 ஹிஜ்ரி ஆண்டு என்ற
+          தேதியைக் கொண்ட வெற்று ஓரங்களும் உள்ளன. சால்வையின் கீழ் விளிம்பில் அகலமான, வெற்று, பிரகாசமான ஆரஞ்சு நிற ஓரம்
+          உள்ளது. மற்ற விளிம்புகளில் குறுகிய, வடிவங்கள் கொண்ட ஓரம் உள்ளது. மையப் பகுதியிலும் மூலைகளில் உள்ள கால்
+          பகுதிகளிலும் நெளிவு சுளிவான வடிவமைப்புகள் உள்ளன. இந்த சால்வை இந்தியாவின் காஷ்மீரைச் சேர்ந்தது மற்றும் கி.பி.
+          16 ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">XXV-40 شال</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item6.png" alt="XXV-40 شال" onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 شال"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue No. XXV-40</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ پیلے رنگ کی اونی شال ہے، جس پر سبز اور سیاہ رنگ کے پھولوں کے نقش بنے ہوئے ہیں۔ کشمیری شالیں اپنی نفیس اور باریک کاریگری کے لیے مشہور ہیں اور انہیں بنیادی طور پر استعمال ہونے والے مواد کے لحاظ سے مختلف اقسام میں تقسیم کیا جاتا ہے۔ شال کے وسط میں گول کنگرے دار نقش ہے، جس میں مختلف پھولوں کے نقش بنے ہوئے ہیں، جبکہ چاروں کونوں میں اسی طرز کے چوتھائی حصے کے نقش ہیں۔ مرکزی حصے کے گرد پھولوں کی بیل والی پٹی ہے اور دونوں سروں پر سادہ پٹیاں ہیں۔ ان میں سے ایک پٹی پر 991 ہجری کی تاریخ درج ہے۔ شال کے نچلے کنارے پر چوڑی، سادہ اور شوخ نارنجی پٹی ہے، جبکہ باقی کناروں پر باریک نقش دار پٹیاں ہیں۔ مرکزی نقش اور کونوں کے نقشوں میں زیگ زیگ طرز کے نقش بھی بنے ہوئے ہیں۔ یہ شال کشمیر، ہندوستان کی ہے اور اس کا تعلق سولہویں صدی عیسوی سے ہے۔ الفاظ-105</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue
+          No. XXV-40</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ پیلے رنگ
+          کی اونی شال ہے، جس پر سبز اور سیاہ رنگ کے پھولوں کے نقش بنے ہوئے ہیں۔ کشمیری شالیں اپنی نفیس اور باریک کاریگری
+          کے لیے مشہور ہیں اور انہیں بنیادی طور پر استعمال ہونے والے مواد کے لحاظ سے مختلف اقسام میں تقسیم کیا جاتا ہے۔
+          شال کے وسط میں گول کنگرے دار نقش ہے، جس میں مختلف پھولوں کے نقش بنے ہوئے ہیں، جبکہ چاروں کونوں میں اسی طرز کے
+          چوتھائی حصے کے نقش ہیں۔ مرکزی حصے کے گرد پھولوں کی بیل والی پٹی ہے اور دونوں سروں پر سادہ پٹیاں ہیں۔ ان میں سے
+          ایک پٹی پر 991 ہجری کی تاریخ درج ہے۔ شال کے نچلے کنارے پر چوڑی، سادہ اور شوخ نارنجی پٹی ہے، جبکہ باقی کناروں
+          پر باریک نقش دار پٹیاں ہیں۔ مرکزی نقش اور کونوں کے نقشوں میں زیگ زیگ طرز کے نقش بھی بنے ہوئے ہیں۔ یہ شال
+          کشمیر، ہندوستان کی ہے اور اس کا تعلق سولہویں صدی عیسوی سے ہے۔ الفاظ-105</div>
       </div>
     </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">XXV-40 Shawl</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 Shawl"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This is a yellow woollen shawl (Himroo) with a
+          floral design in green and black all over. Kashmiri shawls are well known for their intricate craftsmanship,
+          primarily classified based on the material. The center has a circular scalloped panel with various floral
+          patterns, and similar quarter panels at the corners. It has a floral vine border all around and a plain border
+          at both ends, with a date panel of 991 A.H. The bottom edge of the shawl has a wide, plain, bright orange
+          border. The other edges have a narrow, patterned border. The central panel and corner quarter panels feature
+          zig-zag designs. This shawl belongs to Kashmir, India, and dates to the 16th century.</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">XXV-40 ಶಾಲು</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 ಶಾಲು"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಇಡೀ ಜವಳಿಯಾದ್ಯಂತ ಹಸಿರು ಮತ್ತು ಕಪ್ಪು ಬಣ್ಣಗಳಲ್ಲಿ
+          ಹೂವಿನ ವಿನ್ಯಾಸವನ್ನು ಹೊಂದಿರುವ ಹಳದಿ ಬಣ್ಣದ ಉಣ್ಣೆಯ ಶಾಲು (ಹಿಮ್ರೂ) ಇದಾಗಿದೆ. ಕಾಶ್ಮೀರಿ ಶಾಲುಗಳು ತಮ್ಮ ಸಂಕೀರ್ಣ ಕೌಶಲ್ಯಕ್ಕೆ
+          ಹೆಸರುವಾಸಿಯಾಗಿದ್ದು, ಮುಖ್ಯವಾಗಿ ವಸ್ತುವಿನ ಆಧಾರದ ಮೇಲೆ ವರ್ಗೀಕರಿಸಲ್ಪಡುತ್ತವೆ. ಮಧ್ಯಭಾಗದಲ್ಲಿ ವಿವಿಧ ಹೂವಿನ ಮಾದರಿಗಳಿರುವ
+          ವೃತ್ತಾಕಾರದ ವಿಭಾಗ ಹಾಗೂ ಮೂಲೆಗಳಲ್ಲಿ ಅಂತಹದೇ ಕಾಲು ಭಾಗದ ವಿಭಾಗಗಳಿವೆ. ಸುತ್ತಲೂ ಹೂವಿನ ಬಳ್ಳಿಯ ಅಂಚು ಮತ್ತು ಎರಡೂ ಕೊನೆಗಳಲ್ಲಿ
+          ಸಾಧಾರಣ ಅಂಚುಗಳಿದ್ದು, 991 ಎ.ಹೆಚ್. ದಿನಾಂಕದ ಫಲಕವನ್ನು ಹೊಂದಿದೆ. ಶಾಲಿನ ಕೆಳಗಿನ ಅಂಚು ಅಗಲವಾದ, ಸಾಧಾರಣವಾದ ಪ್ರಕಾಶಮಾನ
+          ಕಿತ್ತಳೆ ಬಣ್ಣದ ಅಂಚನ್ನು ಹೊಂದಿದೆ. ಇತರ ಅಂಚುಗಳು ಕಿರಿದಾದ, ವಿನ್ಯಾಸಪೂರ್ಣ ಅಂಚನ್ನು ಹೊಂದಿವೆ. ಮಧ್ಯದ ವಿಭಾಗದಲ್ಲಿ ಮತ್ತು
+          ಮೂಲೆಗಳಲ್ಲಿರುವ ಕಾಲು ಭಾಗದ ವಿಭಾಗಗಳಲ್ಲಿ ಡೊಂಕು-ಡೊಂಕಾದ ವಿನ್ಯಾಸಗಳಿವೆ. ಈ ಶಾಲು ಭಾರತದ ಕಾಶ್ಮೀರಕ್ಕೆ ಸೇರಿದ್ದು, ಇದು ಹದಿನಾರನೇ
+          ಶತಮಾನದ್ದಾಗಿದೆ. ಪದಗಳು</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">XXV-40 శాలువా</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 శాలువా"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ఇది పసుపు రంగు ఉన్నితో తయారైన శాలువా (హిమ్రూ);
+          దీనిపై అంతటా ఆకుపచ్చ మరియు నలుపు రంగుల పూల నమూనాలు ఉన్నాయి. కాశ్మీరీ శాలువాలు వాటి సున్నితమైన, సంక్లిష్టమైన
+          హస్తకళకు ప్రసిద్ధి చెందాయి; ఇవి ప్రధానంగా ఉపయోగించే ముడిసరుకు ఆధారంగా వర్గీకరించబడతాయి. మధ్యభాగంలో విభిన్న పూల
+          నమూనాలతో కూడిన గుండ్రని అంచుల ప్యానెల్ మరియు మూలల్లో దానికి సమానమైన పావు వంతు ప్యానెళ్లు ఉన్నాయి. దీని చుట్టూ
+          పూల తీగల అంచు ఉంది; ఇరువైపులా 991 హిజ్రీ (A.H.) సంవత్సరపు వివరాలు గల సాధారణ అంచులు ఉన్నాయి. శాలువా కింది అంచున
+          ఒక వెడల్పాటి, సాధారణమైన మరియు ప్రకాశవంతమైన నారింజ రంగు అంచు ఉంది. మిగిలిన అంచులు సన్నటి నమూనా గల అంచులను కలిగి
+          ఉన్నాయి. కేంద్ర ప్యానెల్ మరియు మూలల ప్యానెళ్లపై జిగ్‌-జాగ్ డిజైన్లు ఉన్నాయి. ఈ శాలువా భారతదేశంలోని కాశ్మీర్‌కు
+          చెందినది మరియు క్రీస్తుశకం. 16వ శతాబ్దానికి చెందినది. పదాలు-105</div>
+      </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng">XXV-40 ଶାଲ୍</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item6.png" alt="XXV-40 ଶାଲ୍"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item6.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XXV-40</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ସମଗ୍ର ଅଞ୍ଚଳସାରା ସବୁଜ ଓ କଳା ରଙ୍ଗର ପୁଷ୍ପ ଆଲେଖ୍ୟରେ ସୁସଜ୍ଜିତ ଏହି ହଳଦିଆ ପଶମି ଶାଲ୍ (ହୀମରୁ) କାଶ୍ମୀରୀ ବସ୍ତ୍ରକଳାର ଏକ
+          ସୁନ୍ଦର ନିଦର୍ଶନ। ନିଜର ସୂକ୍ଷ୍ମ କାରୁକାର୍ଯ୍ୟ ଏବଂ ବ୍ୟବହୃତ ଉପାଦାନର ଗୁଣବତ୍ତା ପାଇଁ କାଶ୍ମୀରୀ ଶାଲ୍ ବିଶ୍ୱପ୍ରସିଦ୍ଧ। ଏହି
+          ଶାଲ୍‌ର କେନ୍ଦ୍ରଭାଗରେ ବିଭିନ୍ନ ପ୍ରକାର ଫୁଲର ନକ୍ସାଯୁକ୍ତ ଏକ ବୃତ୍ତାକାର ତରଙ୍ଗାୟିତ ପ୍ୟାନେଲ୍ ଏବଂ ଚାରି କୋଣରେ ସଦୃଶ
+          ଚତୁର୍ଥାଂଶ ପ୍ୟାନେଲ୍ ରହିଛି। କେନ୍ଦ୍ରୀୟ ଏବଂ କୋଣ ପ୍ୟାନେଲ୍‌ଗୁଡ଼ିକରେ ଲହରୀ (ଜିଗ୍-ଜାଗ୍) ନକ୍ସା ଫୁଟିଉଠିଛି। ଏହାର ଚାରିପାଖରେ
+          ଫୁଲ-ଲତାର ବୋର୍ଡର୍ ଥିବାବେଳେ, ଉଭୟ ପ୍ରାନ୍ତରେ ସାଧା ବୋର୍ଡର୍ ସହ "991 ହିଜ୍‌ରୀ" (991 A.H.) ଉଲ୍ଲେଖ ଥିବା ଏକ ବର୍ଷ-ପ୍ୟାନେଲ୍
+          ରହିଛି। ଶାଲ୍‌ର ନିମ୍ନ ପ୍ରାନ୍ତରେ ଏକ ଓସାରିଆ, ସାଧା, ଉଜ୍ଜ୍ୱଳ କମଳା ରଙ୍ଗର ବୋର୍ଡର୍ ରହିଥିବା ବେଳେ ଅନ୍ୟ ପାର୍ଶ୍ୱଗୁଡ଼ିକରେ
+          ସରୁ, ଆଲେଖ୍ୟଯୁକ୍ତ ବୋର୍ଡର୍ ଶୋଭାପାଉଛି। ଖ୍ରୀଷ୍ଟୀୟ ୧୬ଶ ଶତାବ୍ଦୀର ଏହି ପ୍ରାଚୀନ ଶାଲ୍‌ଟି ତତ୍କାଳୀନ କାଶ୍ମୀରୀ ବୁଣାକାରଙ୍କ
+          ଉଚ୍ଚକୋଟୀର ଶିଳ୍ପନୈପୁଣ୍ୟ ପ୍ରଦର୍ଶନ କରେ। ଶବ୍ଦ-105
+        </div>
+      </div>
+    </div>
+
 
     <div class="navBtnDiv">
       <a href="./item5.html" class="navBtn">← Previous Item</a>
@@ -194,7 +345,8 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script src="./content.js"></script>
@@ -204,14 +356,19 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "bengali": "./Audios/Bengali/XXV-40%20Shawl.wav",
-  "gujarati": "./Audios/Gujarathi/XXV-40%20Shawl.wav",
-  "hindi": "./Audios/Hindi/6.%20शॉल.wav",
-  "malayalam": "./Audios/malaylam/Shawl.ml.wav",
-  "marathi": "./Audios/marathi/XXV-40%20Shawl.wav",
-  "tamil": "./Audios/tamil/6.%20Shawl.wav",
-  "urdu": "./Audios/Urdu/XXV-40%20Shawl.wav"
-};
+      "bengali": "./Audios/Bengali/XXV-40%20Shawl.wav",
+      "gujarati": "./Audios/Gujarathi/XXV-40%20Shawl.wav",
+      "hindi": "./Audios/Hindi/6.%20शॉल.wav",
+      "malayalam": "./Audios/malaylam/Shawl.ml.wav",
+      "marathi": "./Audios/marathi/XXV-40%20Shawl.wav",
+      "tamil": "./Audios/tamil/6.%20Shawl.wav",
+      "urdu": "./Audios/Urdu/XXV-40%20Shawl.wav",
+      "english": "./Audios/English/6.%20XXV-40%20Shawl.wav",
+      "kannada": "./Audios/Kannada/XXV-40%20Shawl%20.wav",
+      "telugu": "./Audios/Telugu/Telugu_Shawl_Female.wav",
+      "odia": "./Audios/Odia/6. Shawl.wav"
+
+    };
     const baseAudioSrc = "./Audios/Bengali/XXV-40%20Shawl.wav";
 
     function changeLanguage(lang) {
@@ -223,7 +380,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -235,11 +392,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>

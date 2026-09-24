@@ -1,23 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
+﻿document.addEventListener("DOMContentLoaded", () => {
   const languageSelector = document.getElementById("languageSelector");
   const galleryGrid = document.getElementById("galleryGrid");
   const footerText = document.getElementById("footerText");
   const itemsData = window.galleryItems || {};
 
   const langMetaMap = {
-    bengali: { code: "bn", dir: "ltr", title: "অবশিষ্ট গ্যালারি (Remaining Galleries) | Salar Jung Museum" },
-    kannada: { code: "kn", dir: "ltr", title: "ಉಳಿದ ಗ್ಯಾಲರಿಗಳು (Remaining Galleries) | Salar Jung Museum" },
-    marathi: { code: "mr", dir: "ltr", title: "उर्वरित गॅलऱ्या (Remaining Galleries) | Salar Jung Museum" },
-    urdu: { code: "ur", dir: "rtl", title: "باقی نمائش گاہیں (Remaining Galleries) | Salar Jung Museum" },
-    gujarati: { code: "gu", dir: "ltr", title: "બાકી રહેલી ગેલેરીઓ (Remaining Galleries) | Salar Jung Museum" },
-    malayalam: { code: "ml", dir: "ltr", title: "ശേഷിക്കുന്ന ഗാലറികൾ (Remaining Galleries) | Salar Jung Museum" },
-    odia: { code: "or", dir: "ltr", title: "ଅବଶିଷ୍ଟ ଗ୍ୟାଲେରୀ (Remaining Galleries) | Salar Jung Museum" },
-    telugu: { code: "te", dir: "ltr", title: "మిగిలిన గ్యాలరీలు (Remaining Galleries) | Salar Jung Museum" },
-    tamil: { code: "ta", dir: "ltr", title: "மீதமுள்ள காட்சிக்கூடங்கள் (Remaining Galleries) | Salar Jung Museum" }
+    bengali: { code: "bn", dir: "ltr", title: "à¦…à¦¬à¦¶à¦¿à¦·à§à¦Ÿ à¦—à§à¦¯à¦¾à¦²à¦¾à¦°à¦¿ (Remaining Galleries) | Salar Jung Museum" },
+    kannada: { code: "kn", dir: "ltr", title: "à²‰à²³à²¿à²¦ à²—à³à²¯à²¾à²²à²°à²¿à²—à²³à³ (Remaining Galleries) | Salar Jung Museum" },
+    marathi: { code: "mr", dir: "ltr", title: "à¤‰à¤°à¥à¤µà¤°à¤¿à¤¤ à¤—à¥…à¤²à¤±à¥à¤¯à¤¾ (Remaining Galleries) | Salar Jung Museum" },
+    urdu: { code: "ur", dir: "rtl", title: "Ø¨Ø§Ù‚ÛŒ Ù†Ù…Ø§Ø¦Ø´ Ú¯Ø§ÛÛŒÚº (Remaining Galleries) | Salar Jung Museum" },
+    gujarati: { code: "gu", dir: "ltr", title: "àª¬àª¾àª•à«€ àª°àª¹à«‡àª²à«€ àª—à«‡àª²à«‡àª°à«€àª“ (Remaining Galleries) | Salar Jung Museum" },
+    malayalam: { code: "ml", dir: "ltr", title: "à´¶àµ‡à´·à´¿à´•àµà´•àµà´¨àµà´¨ à´—à´¾à´²à´±à´¿à´•àµ¾ (Remaining Galleries) | Salar Jung Museum" },
+    odia: { code: "or", dir: "ltr", title: "à¬…à¬¬à¬¶à¬¿à¬·à­à¬Ÿ à¬—à­à­Ÿà¬¾à¬²à­‡à¬°à­€ (Remaining Galleries) | Salar Jung Museum" },
+    telugu: { code: "te", dir: "ltr", title: "à°®à°¿à°—à°¿à°²à°¿à°¨ à°—à±à°¯à°¾à°²à°°à±€à°²à± (Remaining Galleries) | Salar Jung Museum" },
+    tamil: { code: "ta", dir: "ltr", title: "à®®à¯€à®¤à®®à¯à®³à¯à®³ à®•à®¾à®Ÿà¯à®šà®¿à®•à¯à®•à¯‚à®Ÿà®™à¯à®•à®³à¯ (Remaining Galleries) | Salar Jung Museum" }
   };
-
   const footerTranslations = {
     bengali: '© 2024 সর্বস্বত্ব সংরক্ষিত, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">অনুবাদিনী AI</a> দ্বারা',
+    hindi: '© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा',
+    english: '© 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a>',
     kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
     marathi: '© 2024 सर्व हक्क सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी एआय</a> द्वारा',
     urdu: '© 2024 جملہ حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
@@ -29,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const AUDIO_MISSING =
-    "🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.";
+    "ðŸ”‡ Is bhasha me is vastu ka audio abhi uplabdh nahi hai.";
 
   function renderCards(language) {
     if (!galleryGrid) return;
@@ -50,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h2><a href="item${itemNum}.html">${item.title}</a></h2>
         <p>${item.desc.split("\n\n").join("<br><br>")}</p>
         ${hasAudio
-          ? `<audio class="card-audio" controls preload="none" src="${encodeURI(item.audioSrc)}"></audio>`
+          ? `<audio class="card-audio" controls preload="none" src="${item.audioSrc}"></audio>`
           : `<div class="audio-missing-note">${AUDIO_MISSING}</div>`}
       `;
 
@@ -122,3 +123,4 @@ document.addEventListener("DOMContentLoaded", () => {
     selectLanguage(languageSelector.value || "bengali");
   }
 });
+

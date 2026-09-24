@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="hi">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-width: 100%;
       max-height: 460px;
@@ -50,6 +55,7 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .navBtnDiv {
       max-width: 900px;
       margin: 0 auto 40px auto;
@@ -57,6 +63,7 @@
       display: flex;
       justify-content: space-between;
     }
+
     .navBtn {
       display: inline-block;
       padding: 10px 24px;
@@ -68,21 +75,26 @@
       font-size: 15px;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background: #8e1d20;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
-          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';" alt="Ministry of Culture"></a>
+          <a href="./index.html" class="logo logoTwo"><img src="./images/logo-moc.png"
+              onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-moc.png';"
+              alt="Ministry of Culture"></a>
         </div>
         <div class="logoRgt">
           <div class="langDiv">
-            <span class="anuIcn"><img src="./images/logo-anu.png" onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
+            <span class="anuIcn"><img src="./images/logo-anu.png"
+                onerror="this.onerror=null; this.src='./../MusicalClock/images/logo-anu.png';" alt="Anuvadini"></span>
             <select class="form formLang" id="languageSelector" aria-label="Select language">
               <option value="hindi" selected>हिन्दी (Hindi)</option>
               <option value="english">English</option>
@@ -91,6 +103,10 @@
               <option value="urdu">اردو (Urdu)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="gujarati">ગુજરાતી (Gujarati)</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="marathi">मराठी (Marathi)</option>
             </select>
           </div>
         </div>
@@ -101,7 +117,8 @@
   <main>
     <div class="audioPlayerDiv">
       <audio id="languageAudio" class="w-100" controls preload="metadata"></audio>
-      <div id="audioMissingNote" style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
+      <div id="audioMissingNote"
+        style="display:none; padding:10px 14px; background:#fff4e5; border:1px solid #f0d3a3; border-radius:8px; color:#7a4b00; font-size:14px;">
         🔇 Is bhasha me is vastu ka audio abhi uplabdh nahi hai.
       </div>
     </div>
@@ -109,96 +126,280 @@
     <div class="bookContentDiv langCnt" id="hindi" style="display: block;">
       <h2 class="cntHdng">8. मोना-लिसा</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. मोना-लिसा" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. मोना-लिसा"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">20वीं शताब्दी ईस्वी के प्रारंभिक काल की (मूल चित्र लगभग 1503-06/17), इटली (प्रतिलिपि), लियोनार्डो दा विंची की कृति की प्रतिलिपि।</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">मोना-लिसा का चित्र सुनहरे रंग की लकड़ी के फ्रेम में लगा हुआ है। मोना-लिसा का वास्तविक नाम ला जिओकोंडा है, 1479-1542 ईस्वी। चित्र में मोना-लिसा के चेहरे पर हमेशा मुस्कान दिखाई देती है। मोना लिसा (नाम संबंधी जानकारी)। इस चित्र में एक महिला, अर्थात मोना लिसा, को हमेशा मुस्कुराते हुए दिखाया गया है। इतालवी नाम ला जिओकोंडा है और फ्रेंच में इसका नाम ला जोकोंद है, जिसका अर्थ भी ‘प्रसन्न’ है। माना जाता है कि यह चित्र लिसा घेरार्दिनी, जो फ्रांसेस्को डेल जिओकोंदा की पत्नी थीं, का चित्र है। इसे सफेद लोम्बार्डी पॉपलर की लकड़ी के पैनल पर तेल रंगों से बनाया गया है। चित्र में दिखाई गई महिला धनी फ्लोरेंटाइन रेशम व्यापारी फ्रांसेस्को डेल जिओकोंदा की पत्नी थीं। माना जाता है कि यह चित्र उनके नए घर के लिए और उनके दूसरे पुत्र एंड्रिया के जन्म के अवसर पर बनवाया गया था।<br><br>यह मोना लिसा का आधी लंबाई वाला चित्र है, जिसे पुनर्जागरण काल के कलाकार लियोनार्डो दा विंची की सबसे प्रसिद्ध कृतियों में से एक माना जाता है। यह चित्र वर्तमान में पेरिस के लूव्र संग्रहालय में है।</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">20वीं शताब्दी ईस्वी के प्रारंभिक काल की (मूल
+          चित्र लगभग 1503-06/17), इटली (प्रतिलिपि), लियोनार्डो दा विंची की कृति की प्रतिलिपि।</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">मोना-लिसा का चित्र सुनहरे रंग की लकड़ी के फ्रेम
+          में लगा हुआ है। मोना-लिसा का वास्तविक नाम ला जिओकोंडा है, 1479-1542 ईस्वी। चित्र में मोना-लिसा के चेहरे पर
+          हमेशा मुस्कान दिखाई देती है। मोना लिसा (नाम संबंधी जानकारी)। इस चित्र में एक महिला, अर्थात मोना लिसा, को हमेशा
+          मुस्कुराते हुए दिखाया गया है। इतालवी नाम ला जिओकोंडा है और फ्रेंच में इसका नाम ला जोकोंद है, जिसका अर्थ भी
+          ‘प्रसन्न’ है। माना जाता है कि यह चित्र लिसा घेरार्दिनी, जो फ्रांसेस्को डेल जिओकोंदा की पत्नी थीं, का चित्र है।
+          इसे सफेद लोम्बार्डी पॉपलर की लकड़ी के पैनल पर तेल रंगों से बनाया गया है। चित्र में दिखाई गई महिला धनी
+          फ्लोरेंटाइन रेशम व्यापारी फ्रांसेस्को डेल जिओकोंदा की पत्नी थीं। माना जाता है कि यह चित्र उनके नए घर के लिए और
+          उनके दूसरे पुत्र एंड्रिया के जन्म के अवसर पर बनवाया गया था।<br><br>यह मोना लिसा का आधी लंबाई वाला चित्र है,
+          जिसे पुनर्जागरण काल के कलाकार लियोनार्डो दा विंची की सबसे प्रसिद्ध कृतियों में से एक माना जाता है। यह चित्र
+          वर्तमान में पेरिस के लूव्र संग्रहालय में है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="english" style="display: none;">
       <h2 class="cntHdng">8. Mona-Lisa</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. Mona-Lisa" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. Mona-Lisa"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Early 20th century AD (original c.1503-06/17),   Italy (Copy) by Copy of Leonardo da Vinci</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">Painting of Mona-Lisa fitted in a gilt wooden frame. Mona-Lisa's actually name is La Gioconda, 1479-1542 A.D. The painting looks like Mona-Lisa ever smiling.<br><br>Mona Lisa (disambiguation). The picture depicts a woman, namely Mona Lisa in an ever smiling mood. Italian name: La Gaioconda, in French the title La Joconde (happy) has the same meaning. The painting, though to be a portrait of Lisa Gherardini, the wife of Francesco del Giaconda, is in oil on a white Lombardy poplar panel. The sitter was the wife of wealthy Florentine silk merchant Francesco del Giaconda. The painting is thought to have been commissioned for their new home, and to celebrate the birth of their second son, Andrea.<br><br>It is a half-length portrait of Mona Lisa, which has been acclaimed best known work of the Renaissance artist, Leonardo da Vinci. It is presently in the Louvre Museum, Paris.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Early 20th century AD (original c.1503-06/17),
+          Italy (Copy) by Copy of Leonardo da Vinci</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">Painting of Mona-Lisa fitted in a gilt wooden
+          frame. Mona-Lisa's actually name is La Gioconda, 1479-1542 A.D. The painting looks like Mona-Lisa ever
+          smiling.<br><br>Mona Lisa (disambiguation). The picture depicts a woman, namely Mona Lisa in an ever smiling
+          mood. Italian name: La Gaioconda, in French the title La Joconde (happy) has the same meaning. The painting,
+          though to be a portrait of Lisa Gherardini, the wife of Francesco del Giaconda, is in oil on a white Lombardy
+          poplar panel. The sitter was the wife of wealthy Florentine silk merchant Francesco del Giaconda. The painting
+          is thought to have been commissioned for their new home, and to celebrate the birth of their second son,
+          Andrea.<br><br>It is a half-length portrait of Mona Lisa, which has been acclaimed best known work of the
+          Renaissance artist, Leonardo da Vinci. It is presently in the Louvre Museum, Paris.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="bengali" style="display: none;">
       <h2 class="cntHdng">8. মোনালিসা</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. মোনালিসা" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. মোনালিসা"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">বিংশ শতাব্দীর শুরুর দিক (মূল চিত্রকর্মটি আনুমানিক ১৫০৩-০৬/১৭ সালের); ইতালির লিওনার্দো দা ভিঞ্চির একটি চিত্রকর্মের অনুলিপি।</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি সোনালি রঙের প্রলেপযুক্ত কাঠের ফ্রেমে বাঁধানো মোনালিসার একটি চিত্রকর্ম। মোনালিসার প্রকৃত নাম 'লা জিওকন্ডা'; চিত্রটিতে তাঁকে সর্বদা মৃদু হাস্যে উদ্ভাসিত দেখা যায়।<br><br>এই ছবিটিতে মোনালিসা নামক এক নারীকে সর্বদা হাসিখুশি ভঙ্গিতে চিত্রিত করা হয়েছে। এর ইতালীয় নাম 'লা জিওকন্ডা' (La Gioconda) এবং ফরাসি নাম 'লা জোকন্ড' (La Joconde)—উভয়ের অর্থই হলো 'আনন্দময়ী'। সাদা লোম্বার্ডি পপলার কাঠের প্যানেলের ওপর তৈলরঙে আঁকা এই ছবিটি মূলত লিসা ঘেরার্দিনির প্রতিকৃতি বলে মনে করা হয়, যিনি ছিলেন ফ্লোরেন্সের ধনী রেশম ব্যবসায়ী ফ্রান্সেস্কো দেল জিওকন্ডোর স্ত্রী। ধারণা করা হয়, তাঁদের নতুন বাড়ির জন্য এবং দ্বিতীয় পুত্র আন্দ্রেয়ার জন্মের আনন্দ উদযাপনের উদ্দেশ্যে এই ছবিটি আঁকানোর ফরমাশ দেওয়া হয়েছিল।<br><br>এটি মোনালিসার একটি অর্ধ-দৈর্ঘ্যের প্রতিকৃতি, যা রেনেসাঁ যুগের শিল্পী লিওনার্দো দা ভিঞ্চির সর্বশ্রেষ্ঠ ও সর্বাধিক পরিচিত শিল্পকর্ম হিসেবে স্বীকৃত। বর্তমানে এটি প্যারিসের লুভর জাদুঘরে সংরক্ষিত আছে।</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">বিংশ শতাব্দীর শুরুর দিক (মূল চিত্রকর্মটি
+          আনুমানিক ১৫০৩-০৬/১৭ সালের); ইতালির লিওনার্দো দা ভিঞ্চির একটি চিত্রকর্মের অনুলিপি।</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি সোনালি রঙের প্রলেপযুক্ত কাঠের ফ্রেমে বাঁধানো
+          মোনালিসার একটি চিত্রকর্ম। মোনালিসার প্রকৃত নাম 'লা জিওকন্ডা'; চিত্রটিতে তাঁকে সর্বদা মৃদু হাস্যে উদ্ভাসিত দেখা
+          যায়।<br><br>এই ছবিটিতে মোনালিসা নামক এক নারীকে সর্বদা হাসিখুশি ভঙ্গিতে চিত্রিত করা হয়েছে। এর ইতালীয় নাম 'লা
+          জিওকন্ডা' (La Gioconda) এবং ফরাসি নাম 'লা জোকন্ড' (La Joconde)—উভয়ের অর্থই হলো 'আনন্দময়ী'। সাদা লোম্বার্ডি
+          পপলার কাঠের প্যানেলের ওপর তৈলরঙে আঁকা এই ছবিটি মূলত লিসা ঘেরার্দিনির প্রতিকৃতি বলে মনে করা হয়, যিনি ছিলেন
+          ফ্লোরেন্সের ধনী রেশম ব্যবসায়ী ফ্রান্সেস্কো দেল জিওকন্ডোর স্ত্রী। ধারণা করা হয়, তাঁদের নতুন বাড়ির জন্য এবং
+          দ্বিতীয় পুত্র আন্দ্রেয়ার জন্মের আনন্দ উদযাপনের উদ্দেশ্যে এই ছবিটি আঁকানোর ফরমাশ দেওয়া হয়েছিল।<br><br>এটি
+          মোনালিসার একটি অর্ধ-দৈর্ঘ্যের প্রতিকৃতি, যা রেনেসাঁ যুগের শিল্পী লিওনার্দো দা ভিঞ্চির সর্বশ্রেষ্ঠ ও সর্বাধিক
+          পরিচিত শিল্পকর্ম হিসেবে স্বীকৃত। বর্তমানে এটি প্যারিসের লুভর জাদুঘরে সংরক্ষিত আছে।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">8. മോണാ-ലിസ</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. മോണാ-ലിസ" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. മോണാ-ലിസ"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">20-ാം നൂറ്റാണ്ടിന്‍റെ തുടക്കം (യഥാർത്ഥ c.1503-06/17), ലിയോനാർഡോ ഡാവിഞ്ചിയുടെ പകർപ്പ്, ഇറ്റലി</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">സ്വർണ്ണ ഫ്രെയിമിൽ ഘടിപ്പിച്ച 'മൊണാലിസ' പെയിന്റിംഗ്. മൊണാലിസയുടെ യഥാർത്ഥ പേര് 'ലാ ജിയോകോണ്ട' (La Gioconda) എന്നാണ്, കാലഘട്ടം ക്രി.വ. 1479-1542. എപ്പോഴും പുഞ്ചിരിക്കുന്ന മുഖഭാവമാണ് ഈ ചിത്രത്തിനുള്ളത്.<br><br>മൊണാലിസ (വ്യക്തത വരുത്താൻ). എപ്പോഴും പുഞ്ചിരിക്കുന്ന ഭാവത്തിലുള്ള മോണാലിസ എന്ന സ്ത്രീയെയാണ് ഈ ചിത്രം ചിത്രീകരിക്കുന്നത്. ഇതിന്‍റെ ഇറ്റാലിയൻ പേര് 'ലാ ഗയോക്കോണ്ട'  എന്നാണ്; ഫ്രഞ്ച് ഭാഷയിൽ ഇതിന്‍റെ അർത്ഥം 'സന്തോഷമുള്ളവൾ' എന്നാണ്. ഫ്രാൻസെസ്കോ ഡെൽ ജിയോകോണ്ടയുടെ ഭാര്യയായ ലിസ ഘെരാർഡിനിയുടെ പോർട്രെയ്റ്റ് ആയിരിക്കാം എന്ന് കരുതപ്പെടുന്ന ഈ ചിത്രം, വെളുത്ത ലോംബാർഡി പോപ്ലാർ തടിയിലാണ് ഓയിൽ പെയിന്റിൽ വരച്ചിരിക്കുന്നത്. സമ്പന്നനായ ഫ്ലോറന്റൈൻ സിൽക്ക് വ്യാപാരി ഫ്രാൻസെസ്കോ ഡെൽ ജിയോകോണ്ടയുടെ ഭാര്യയായിരുന്നു ഇതിൽ ചിത്രീകരിച്ചിരിക്കുന്ന വനിത. അവരുടെ പുതിയ വീടിന്‍റെ ആഘോഷങ്ങൾക്കായും, രണ്ടാമത്തെ മകനായ ആൻഡ്രിയയുടെ ജനനം ആഘോഷിക്കുന്നതിനായും ഈ ചിത്രം നിർമ്മിക്കാൻ ഏർപ്പാടു ചെയ്തിരുന്നതായി കരുതപ്പെടുന്നു.<br><br>നവോത്ഥാന കാലഘട്ടത്തിലെ പ്രശസ്തനായ കലാകാരനായ ലിയോനാർഡോ ഡാവിഞ്ചിയുടെ ഏറ്റവും അറിയപ്പെടുന്ന മാസ്റ്റർപീസ് ആയി പ്രശംസിക്കപ്പെടുന്ന മൊണാലിസയുടെ ഒരു ഹാഫ്-ലെങ്ത് പോർട്രെയ്റ്റ് ആണിത്. ഇത് നിലവിൽ പാരിസിലെ ലൂവ്ര് മ്യൂസിയത്തിലാണ് ഉള്ളത്.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">20-ാം നൂറ്റാണ്ടിന്‍റെ തുടക്കം (യഥാർത്ഥ
+          c.1503-06/17), ലിയോനാർഡോ ഡാവിഞ്ചിയുടെ പകർപ്പ്, ഇറ്റലി</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">സ്വർണ്ണ ഫ്രെയിമിൽ ഘടിപ്പിച്ച 'മൊണാലിസ'
+          പെയിന്റിംഗ്. മൊണാലിസയുടെ യഥാർത്ഥ പേര് 'ലാ ജിയോകോണ്ട' (La Gioconda) എന്നാണ്, കാലഘട്ടം ക്രി.വ. 1479-1542.
+          എപ്പോഴും പുഞ്ചിരിക്കുന്ന മുഖഭാവമാണ് ഈ ചിത്രത്തിനുള്ളത്.<br><br>മൊണാലിസ (വ്യക്തത വരുത്താൻ). എപ്പോഴും
+          പുഞ്ചിരിക്കുന്ന ഭാവത്തിലുള്ള മോണാലിസ എന്ന സ്ത്രീയെയാണ് ഈ ചിത്രം ചിത്രീകരിക്കുന്നത്. ഇതിന്‍റെ ഇറ്റാലിയൻ പേര്
+          'ലാ ഗയോക്കോണ്ട' എന്നാണ്; ഫ്രഞ്ച് ഭാഷയിൽ ഇതിന്‍റെ അർത്ഥം 'സന്തോഷമുള്ളവൾ' എന്നാണ്. ഫ്രാൻസെസ്കോ ഡെൽ ജിയോകോണ്ടയുടെ
+          ഭാര്യയായ ലിസ ഘെരാർഡിനിയുടെ പോർട്രെയ്റ്റ് ആയിരിക്കാം എന്ന് കരുതപ്പെടുന്ന ഈ ചിത്രം, വെളുത്ത ലോംബാർഡി പോപ്ലാർ
+          തടിയിലാണ് ഓയിൽ പെയിന്റിൽ വരച്ചിരിക്കുന്നത്. സമ്പന്നനായ ഫ്ലോറന്റൈൻ സിൽക്ക് വ്യാപാരി ഫ്രാൻസെസ്കോ ഡെൽ
+          ജിയോകോണ്ടയുടെ ഭാര്യയായിരുന്നു ഇതിൽ ചിത്രീകരിച്ചിരിക്കുന്ന വനിത. അവരുടെ പുതിയ വീടിന്‍റെ ആഘോഷങ്ങൾക്കായും,
+          രണ്ടാമത്തെ മകനായ ആൻഡ്രിയയുടെ ജനനം ആഘോഷിക്കുന്നതിനായും ഈ ചിത്രം നിർമ്മിക്കാൻ ഏർപ്പാടു ചെയ്തിരുന്നതായി
+          കരുതപ്പെടുന്നു.<br><br>നവോത്ഥാന കാലഘട്ടത്തിലെ പ്രശസ്തനായ കലാകാരനായ ലിയോനാർഡോ ഡാവിഞ്ചിയുടെ ഏറ്റവും
+          അറിയപ്പെടുന്ന മാസ്റ്റർപീസ് ആയി പ്രശംസിക്കപ്പെടുന്ന മൊണാലിസയുടെ ഒരു ഹാഫ്-ലെങ്ത് പോർട്രെയ്റ്റ് ആണിത്. ഇത് നിലവിൽ
+          പാരിസിലെ ലൂവ്ര് മ്യൂസിയത്തിലാണ് ഉള്ളത്.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" dir="rtl" style="display: none;">
       <h2 class="cntHdng">8. مونا لیزا</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. مونا لیزا" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. مونا لیزا"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">بیسویں صدی عیسوی کے اوائل (اصل تقریباً 1503–06/17)، اٹلی، لیونارڈو ڈا ونچی کی مصوری کی نقل</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">گلٹ لکڑی کے فریم میں جڑی یہ پینٹنگ ’’مونا لیزا‘‘ کے نام سے مشہور ہے۔ مونا لیزا کا اصل نام لیزا گیرارڈینی (1479–1542 عیسوی) تھا۔ پینٹنگ میں انہیں پُرسکون انداز میں ہلکی مسکراہٹ کے ساتھ دکھایا گیا ہے، جس کی وجہ سے ان کے چہرے پر ہمیشہ مسکراہٹ کا تاثر محسوس ہوتا ہے۔<br><br>اس پینٹنگ کا اطالوی نام ’’لا جیوکونڈا‘‘ اور فرانسیسی نام ’’ا ژوکوند‘‘ ہے، جس کے معنی ’’خوش‘‘ کے ہیں۔ یہ تصویر فلورنس کے دولت مند ریشم کے تاجر فرانسسکو ڈیل جیوکونڈو کی اہلیہ لیزا گیرارڈینی کی سمجھی جاتی ہے۔ اسے لومبارڈی کے سفید پاپلر کی لکڑی کے تختے پر روغنی رنگوں سے بنایا گیا ہے۔ خیال کیا جاتا ہے کہ یہ پینٹنگ ان کے نئے گھر کے لیے بنوائی گئی تھی اور ان کے دوسرے بیٹے اینڈریا کی پیدائش کی خوشی میں بھی اس کی تکمیل کا ارادہ تھا۔<br><br>یہ مونا لیزا کی نصف قد کی تصویر ہے اور نشاۃ ثانیہ کے عظیم مصور لیونارڈو ڈا ونچی کے سب سے معروف فن پاروں میں شمار ہوتی ہے۔ یہ اس وقت پیرس کے لوور عجائب گھر میں محفوظ ہے۔</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">بیسویں صدی عیسوی کے اوائل (اصل تقریباً
+          1503–06/17)، اٹلی، لیونارڈو ڈا ونچی کی مصوری کی نقل</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">گلٹ لکڑی کے فریم میں جڑی یہ پینٹنگ ’’مونا لیزا‘‘
+          کے نام سے مشہور ہے۔ مونا لیزا کا اصل نام لیزا گیرارڈینی (1479–1542 عیسوی) تھا۔ پینٹنگ میں انہیں پُرسکون انداز
+          میں ہلکی مسکراہٹ کے ساتھ دکھایا گیا ہے، جس کی وجہ سے ان کے چہرے پر ہمیشہ مسکراہٹ کا تاثر محسوس ہوتا
+          ہے۔<br><br>اس پینٹنگ کا اطالوی نام ’’لا جیوکونڈا‘‘ اور فرانسیسی نام ’’ا ژوکوند‘‘ ہے، جس کے معنی ’’خوش‘‘ کے
+          ہیں۔ یہ تصویر فلورنس کے دولت مند ریشم کے تاجر فرانسسکو ڈیل جیوکونڈو کی اہلیہ لیزا گیرارڈینی کی سمجھی جاتی ہے۔
+          اسے لومبارڈی کے سفید پاپلر کی لکڑی کے تختے پر روغنی رنگوں سے بنایا گیا ہے۔ خیال کیا جاتا ہے کہ یہ پینٹنگ ان کے
+          نئے گھر کے لیے بنوائی گئی تھی اور ان کے دوسرے بیٹے اینڈریا کی پیدائش کی خوشی میں بھی اس کی تکمیل کا ارادہ
+          تھا۔<br><br>یہ مونا لیزا کی نصف قد کی تصویر ہے اور نشاۃ ثانیہ کے عظیم مصور لیونارڈو ڈا ونچی کے سب سے معروف فن
+          پاروں میں شمار ہوتی ہے۔ یہ اس وقت پیرس کے لوور عجائب گھر میں محفوظ ہے۔</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">8. மோனா லிசா</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. மோனா லிசா" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. மோனா லிசா"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">கி.பி. 20-ஆம் நூற்றாண்டின் முற்பகுதி (அசல்: சுமார் 1503-06/17), இத்தாலி (லியோனார்டோ டா வின்சியின் படைப்பின் நகல்)</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">தங்க முலாம் பூசப்பட்ட மரச்சட்டத்தில் பொருத்தப்பட்ட மோனா-லிசாவின் ஓவியம். மோனா-லிசாவின் உண்மையான பெயர் லா ஜியோகோண்டா, கி.பி 1479-1542 ஆகும். இந்த ஓவியம் எப்போதும் சிரித்துக் கொண்டிருக்கும் மோனா-லிசாவைப் போல் தெரிகிறது.<br><br>மோனா லிசா (பதிலீடு). இந்தப் படம் எப்போதும் சிரிக்கும் மனநிலையில் உள்ள மோனா லிசா என்ற பெண்ணைச் சித்தரிக்கிறது. இத்தாலிய பெயர்: லா கியோகோண்டா, பிரெஞ்சு மொழியில் 'லா ஜோகோண்டா' (மகிழ்ச்சியான) என்ற தலைப்பு அதே பொருளைக் கொண்டுள்ளது.<br><br>இந்த ஓவியம், பிரான்செஸ்கோ டெல் ஜியோகோண்டாவின் மனைவியான லிசா கெரார்டினியின் உருவப்படமாகக் கருதப்படுகிறது. இது ஒரு வெள்ளை லம்பாடி பாப்லர் பேனலில் எண்ணெய் வண்ணத்தில் வரையப்பட்டுள்ளது. இந்த மாடல் பணக்கார புளோரன்டைன் பட்டு வணிகரான பிரான்செஸ்கோ டெல் ஜியோகோண்டாவின் மனைவியாவார். இந்த ஓவியம் அவர்களின் புதிய வீட்டிற்காகவும், அவர்களின் இரண்டாவது மகனான ஆண்ட்ரியாவின் பிறப்பைக் கொண்டாடவும் ஆணையிடப்பட்டதாக நம்பப்படுகிறது.<br><br>இது மறுமலர்ச்சி கலைஞரான லியோர்னடோ டாவின்சியின் மிகவும் அறியப்பட்ட படைப்பாகப் பாராட்டப்பட்ட மோனா லிசாவின் அரை நீள உருவப்படமாகும். இது தற்போது பாரிஸில் உள்ள லூவ்ரே அருங்காட்சியகத்தில் உள்ளது.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">கி.பி. 20-ஆம் நூற்றாண்டின் முற்பகுதி (அசல்:
+          சுமார் 1503-06/17), இத்தாலி (லியோனார்டோ டா வின்சியின் படைப்பின் நகல்)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">தங்க முலாம் பூசப்பட்ட மரச்சட்டத்தில்
+          பொருத்தப்பட்ட மோனா-லிசாவின் ஓவியம். மோனா-லிசாவின் உண்மையான பெயர் லா ஜியோகோண்டா, கி.பி 1479-1542 ஆகும். இந்த
+          ஓவியம் எப்போதும் சிரித்துக் கொண்டிருக்கும் மோனா-லிசாவைப் போல் தெரிகிறது.<br><br>மோனா லிசா (பதிலீடு). இந்தப்
+          படம் எப்போதும் சிரிக்கும் மனநிலையில் உள்ள மோனா லிசா என்ற பெண்ணைச் சித்தரிக்கிறது. இத்தாலிய பெயர்: லா
+          கியோகோண்டா, பிரெஞ்சு மொழியில் 'லா ஜோகோண்டா' (மகிழ்ச்சியான) என்ற தலைப்பு அதே பொருளைக் கொண்டுள்ளது.<br><br>இந்த
+          ஓவியம், பிரான்செஸ்கோ டெல் ஜியோகோண்டாவின் மனைவியான லிசா கெரார்டினியின் உருவப்படமாகக் கருதப்படுகிறது. இது ஒரு
+          வெள்ளை லம்பாடி பாப்லர் பேனலில் எண்ணெய் வண்ணத்தில் வரையப்பட்டுள்ளது. இந்த மாடல் பணக்கார புளோரன்டைன் பட்டு
+          வணிகரான பிரான்செஸ்கோ டெல் ஜியோகோண்டாவின் மனைவியாவார். இந்த ஓவியம் அவர்களின் புதிய வீட்டிற்காகவும், அவர்களின்
+          இரண்டாவது மகனான ஆண்ட்ரியாவின் பிறப்பைக் கொண்டாடவும் ஆணையிடப்பட்டதாக நம்பப்படுகிறது.<br><br>இது மறுமலர்ச்சி
+          கலைஞரான லியோர்னடோ டாவின்சியின் மிகவும் அறியப்பட்ட படைப்பாகப் பாராட்டப்பட்ட மோனா லிசாவின் அரை நீள
+          உருவப்படமாகும். இது தற்போது பாரிஸில் உள்ள லூவ்ரே அருங்காட்சியகத்தில் உள்ளது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">8. મોના લિસા</h2>
       <div class="booImgDiv">
-        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. મોના લિસા" onerror="this.onerror=null; this.src='./images/logo.png';">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. મોના લિસા"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ઇ.સ. 20મી સદીની શરૂઆત (મૂળ કૃતિ: આશરે ઇ.સ. 1503–1506/17) ઇટાલી (પ્રતિકૃતિ) લિયોનાર્ડો દા વિન્ચીની મૂળ કૃતિની પ્રતિકૃતિ</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">મોના લિસાનું આ ચિત્ર સોનેરી રંગની લાકડાની ફ્રેમમાં મૂકવામાં આવ્યું છે. મોના લિસાનું મૂળ નામ લા જિયોકોન્ડા હતું. તેમનો સમયગાળો ઇ.સ. 1479–1542 દર્શાવવામાં આવ્યો છે.<br><br>આ ચિત્રમાં મોના લિસા નામની એક સ્ત્રીને હળવા અને રહસ્યમય સ્મિત સાથે દર્શાવવામાં આવી છે. તેનું ઇટાલિયન નામ લા જિયોકોન્ડા અને ફ્રેન્ચ નામ લા જોકોન્ડ છે. બંને નામનો અર્થ “ખુશ” અથવા “પ્રસન્ન” સાથે જોડાયેલો છે. આ ચિત્રને સામાન્ય રીતે લિસા ગેરાર્દિની, ફ્લોરેન્સના શ્રીમંત રેશમના વેપારી ફ્રાન્સેસ્કો દેલ જિયોકોન્ડોની પત્ની,નું વ્યક્તિચિત્ર માનવામાં આવે છે. આ ચિત્ર લૉમ્બાર્ડી પોપ્લર લાકડાના પાટિયા પર તૈલરંગથી બનાવવામાં આવ્યું છે. માનવામાં આવે છે કે આ ચિત્ર તેમના નવા ઘર માટે અને તેમના બીજા પુત્ર આન્દ્રેયાના જન્મની ઉજવણી નિમિત્તે બનાવડાવવામાં આવ્યું હતું.<br><br>આ કૃતિ મોના લિસાનું અર્ધકદનું વ્યક્તિચિત્ર છે અને પુનર્જાગરણ યુગના પ્રસિદ્ધ કલાકાર લિયોનાર્ડો દા વિન્ચીની જાણીતી કૃતિઓમાંની એક છે. ચિત્રમાં મોના લિસાના ચહેરા પરનું હળવું સ્મિત તેની વિશેષતા છે. આ મૂળ કૃતિ હાલમાં પેરિસના લૂવ્ર મ્યુઝિયમમાં સંગ્રહિત છે.</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ઇ.સ. 20મી સદીની શરૂઆત (મૂળ કૃતિ: આશરે ઇ.સ.
+          1503–1506/17) ઇટાલી (પ્રતિકૃતિ) લિયોનાર્ડો દા વિન્ચીની મૂળ કૃતિની પ્રતિકૃતિ</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">મોના લિસાનું આ ચિત્ર સોનેરી રંગની લાકડાની
+          ફ્રેમમાં મૂકવામાં આવ્યું છે. મોના લિસાનું મૂળ નામ લા જિયોકોન્ડા હતું. તેમનો સમયગાળો ઇ.સ. 1479–1542 દર્શાવવામાં
+          આવ્યો છે.<br><br>આ ચિત્રમાં મોના લિસા નામની એક સ્ત્રીને હળવા અને રહસ્યમય સ્મિત સાથે દર્શાવવામાં આવી છે. તેનું
+          ઇટાલિયન નામ લા જિયોકોન્ડા અને ફ્રેન્ચ નામ લા જોકોન્ડ છે. બંને નામનો અર્થ “ખુશ” અથવા “પ્રસન્ન” સાથે જોડાયેલો
+          છે. આ ચિત્રને સામાન્ય રીતે લિસા ગેરાર્દિની, ફ્લોરેન્સના શ્રીમંત રેશમના વેપારી ફ્રાન્સેસ્કો દેલ જિયોકોન્ડોની
+          પત્ની,નું વ્યક્તિચિત્ર માનવામાં આવે છે. આ ચિત્ર લૉમ્બાર્ડી પોપ્લર લાકડાના પાટિયા પર તૈલરંગથી બનાવવામાં આવ્યું
+          છે. માનવામાં આવે છે કે આ ચિત્ર તેમના નવા ઘર માટે અને તેમના બીજા પુત્ર આન્દ્રેયાના જન્મની ઉજવણી નિમિત્તે
+          બનાવડાવવામાં આવ્યું હતું.<br><br>આ કૃતિ મોના લિસાનું અર્ધકદનું વ્યક્તિચિત્ર છે અને પુનર્જાગરણ યુગના પ્રસિદ્ધ
+          કલાકાર લિયોનાર્ડો દા વિન્ચીની જાણીતી કૃતિઓમાંની એક છે. ચિત્રમાં મોના લિસાના ચહેરા પરનું હળવું સ્મિત તેની
+          વિશેષતા છે. આ મૂળ કૃતિ હાલમાં પેરિસના લૂવ્ર મ્યુઝિયમમાં સંગ્રહિત છે.</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">8. మోనాలిషా</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. మోనాలిషా"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">క్రీ.శ. 20వ శతాబ్దం ప్రారంభం (అసలు చిత్రం
+          సుమారు 1503-06/17), ఇటలీ (నకలు) లియోనార్డో డా విన్సీచే నకలు (కాపీ)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          బంగారు పూత చెక్క చట్రంలో అమర్చబడిన మోనాలిసా చిత్రం ఇది. మోనాలిసా అసలు పేరు 'లా
+          గియోకొండ'. ఫ్రెంచ్లో 'లా జొకొండే' (ఆనందమయమైనది) అని పిలిచే ఈ చిత్రంలో ఒక మహిళ నిరంతరం
+          చిరునవ్వు చిందిస్తున్నట్లు కనిపిస్తుంది. ఫ్రాన్సెస్కో డెల్ గియాకొండో అనే ఫ్లోరెన్స్ నగరపు సంపన్న పట్టు
+          వ్యాపారి భార్య లిసా గెరార్దిని పోర్ట్రెయిట్ ఇది. వారి నూతన గృహ ప్రవేశం మరియు రెండవ కుమారుడు
+          ఆండ్రియా జననం సందర్భంగా ఈ చిత్రాన్ని గీయించినట్లు భావిస్తారు. పునరుజ్జీవన కాలపు (అంటే,
+          Renaissance) యుగపురుషుడు లియోనార్డో డా విన్సీ గీసిన ప్రపంచ ప్రఖ్యాత చిత్రానికి ఇది ప్రతిరూపం
+          కాగా, అసలైన చిత్రం ప్రస్తుతం పారిస్లోని లూవర్ (Louvre) మ్యూజియంలో భద్రపరచబడి ఉంది.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">8. ಮೋನಾ - ಲಿಸಾ</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. ಮೋನಾ - ಲಿಸಾ"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ಕ್ರಿ.ಶ. 20 ನೇ ಶತಮಾನದ ಆರಂಭ (ಮೂಲ ಸುಮಾರು
+          1503-06/17), ಇಟಲಿ (ಪ್ರತಿ), ಲಿಯೊನಾರ್ಡೊ ಡಾ ವಿಂಚಿ ಅವರ ಪ್ರತಿಯಿಂದ ಪ್ರೇರಣೆ.</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ಚಿನ್ನದ ಲೇಪಿತ ಮರದ ಚೌಕಟ್ಟಿನಲ್ಲಿ ಅಳವಡಿಸಲಾದ ಮೊನಾಲಿಸಾಳ ವರ್ಣಚಿತ್ರ. ಮೊನಾಲಿಸಾಳ ನಿಜವಾದ ಹೆಸರು ಲಾ
+          ಜಿಯೋಕೊಂಡ, ಕ್ರಿ.ಶ. 1479-1542. ಈ ವರ್ಣಚಿತ್ರವು ಮೊನಾಲಿಸಾ ಸದಾ ಮುಗುಳನಗುತಿರುವಂತೆ ಕಾಣುತ್ತದೆ.
+          ಈ ಚಿತ್ರವು ಸದಾ ಮುಗುಳುನಗುವ ಭಂಗಿಯಲ್ಲಿರುವ 'ಮೊನಾಲಿಸಾ' ಎಂಬ ಮಹಿಳೆಯನ್ನು ಚಿತ್ರಿಸುತ್ತದೆ.
+          ಇಟಾಲಿಯನ್ ಭಾಷೆಯಲ್ಲಿ 'ಲಾ ಜಿಯೊಕೊಂಡಾ', ಫ್ರೆಂಚ್ ಭಾಷೆಯಲ್ಲಿ 'ಲಾ ಜೊಕೊಂಧೆ' (ಸಂತೋಷ) ಎಂಬ
+          ಹೆಸರುಗಳೂ ಇದೇ ಅರ್ಥವನ್ನು ಹೊಂದಿವೆ. ಫ್ರಾನ್ಸೆಸ್ಕೊ ಡೆಲ್ ಜಿಯೊಕಾಂಡೋ ಅವರ ಪತ್ನಿ ಲಿಸಾ ಗೆರಾರ್ಡಿನಿ ಅವರ
+          ಭಾವಚಿತ್ರವೆಂದು ಭಾವಿಸಲಾದ ಈ ವರ್ಣಚಿತ್ರವನ್ನು, ವೈಟ್ ಲೊಂಬಾರ್ಡಿ ಪೋಪ್ಲರ್ ಮರದ ಫಲಕದ ಮೇಲೆ
+          ಎಣ್ಣೆವರ್ಣದಲ್ಲಿ ರಚಿಸಲಾಗಿದೆ. ಈ ಚಿತ್ರದಲ್ಲಿರುವ ಮಹಿಳೆಯು ಫ್ಲಾರೆನ್ಸ್ನ ಶ್ರೀಮಂತ ರೇಷ್ಮೆ ವರ್ತಕ ಫ್ರಾನ್ಸೆಸ್ಕೊ ಡೆಲ್
+          ಜಿಯೊಕಾಂಡೋ ಅವರ ಪತ್ನಿಯಾಗಿದ್ದರು. ಅವರ ಹೊಸ ಮನೆಗಾಗಿ ಮತ್ತು ಅವರ ಎರಡನೇ ಮಗ ಆಂಡ್ರಿಯಾ
+          ಅವರ ಜನನವನ್ನು ಆಚರಿಸಲು ಈ ವರ್ಣಚಿತ್ರವನ್ನು ನಿಯೋಜಿಸಲಾಗಿತ್ತು ಎಂದು ಭಾವಿಸಲಾಗಿದೆ.
+          ಇದು ಮೊನಾಲಿಸಾಳ ಅರ್ಧ-ದೇಹದ ಭಾವಚಿತ್ರವಾಗಿದ್ದು, ನವೋದಯ ಕಾಲದ ಮಹಾನ್ ಕಲಾವಿದ ಲಿಯೊನಾರ್ಡೊ
+          ಡಾವಿಂಚಿ ಅವರ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧ ಕಲಾಕೃತಿ ಎಂದು ಪ್ರಶಂಸಿಸಲ್ಪಟ್ಟಿದೆ. ಇದು ಪ್ರಸ್ತುತ ಪ್ಯಾರಿಸ್ನ ಲೌವ್ರೆ
+          ವಸ್ತುಸಂಗ್ರಹಾಲಯದಲ್ಲಿದೆ.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng">8. ମୋନା-ଲିଶା</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. ମୋନା-ଲିଶା"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">ବିଂଶ ଶତାବ୍ଦୀର ପ୍ରାରମ୍ଭ (ମୂଳ c.1503-06/17),
+          ଇଟାଲୀ, ଲିଓନାର୍ଡୋ ଦା ଭିଞ୍ଚିଙ୍କ ନକଲ</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ମୋନାଲିସା
+          ଗିଲ୍ଟ-ଉଡେନ୍ ଫ୍ରେମ୍ ଆବଦ୍ଧ ମୋନାଲିସାଙ୍କ ଚିତ୍ରପଟ। ମୋନାଲିସାଙ୍କ ପ୍ରକୃତ ନାମ 'ଲା
+          ଜିଓକୋଣ୍ଡା' (1479-1542 ଖ୍ରୀଷ୍ଟାବ୍ଦ)। ଏହି ଚିତ୍ରପଟଟିରେ ମୋନାଲିସା ସର୍ବଦା ହସୁଥିବାର
+          ଦେଖାଯାଉଛନ୍ତି।
+          ମୋନାଲିସା (ସନ୍ଦେହ ନିରସନ)। ଏହି ଚିତ୍ରପଟଟି ମୋନାଲିସା ନାମ୍ନୀ ଜଣେ ନାରୀଙ୍କୁ ସର୍ବଦା
+          ହସଖୁସିମୟ ଭଙ୍ଗୀରେ ଦର୍ଶାଇଥାଏ। ଏହାର ଇତାଲୀୟ ନାମ: 'ଲା ଜିଓକୋଣ୍ଡା' ଓ ଫରାସୀ ନାମ
+          'ଲା ଜୋକୋନ୍ଦ୍'ର ଅର୍ଥ ସମାନ, ପ୍ରସନ୍ନତା। ଏହି ଚିତ୍ରପଟଟି ଫ୍ରାନ୍ସେସ୍କୋ ଦେଲ୍ ଜିଓକୋଣ୍ଡୋଙ୍କ
+          ଧର୍ମପତ୍ନୀ ଲିସା ଘେରାର୍ଦିନୀଙ୍କର ପ୍ରତିକୃତି ବୋଲି ମନେକରାଯାଏ, ଯାହା ଏକ ଧଳା ଲୋମ୍ବାର୍ଡି
+          ପପ୍ଲାର କାଷ୍ଠଫଳକ ଉପରେ ତୈଳରଙ୍ଗରେ ଅଙ୍କିତ। ଚିତ୍ରପଟର ନାରୀଜଣକ ଫ୍ଲୋରେନ୍ସର ସମୃଦ୍ଧ
+          ରେଶମ ବ୍ୟବସାୟୀ ଫ୍ରାନ୍ସେସ୍କୋ ଦେଲ୍ ଜିଓକୋଣ୍ଡୋଙ୍କ ଧର୍ମପତ୍ନୀ ଥିଲେ। ସେମାନଙ୍କ ନୂତନ
+          ବାସଗୃହ ଏବଂ ଦ୍ୱିତୀୟ ପୁତ୍ର ଆନ୍ଦ୍ରିଆଙ୍କ ଜନ୍ମୋତ୍ସବ ପାଳନ ନିମନ୍ତେ ଏହି ଚିତ୍ରପଟଟିର
+          ନିର୍ମାଣ ଆଦେଶ ଦିଆଯାଇଥିଲା ବୋଲି ମନେକରାଯାଏ।
+          ଏହା ମୋନାଲିସାଙ୍କର ଏକ ଅର୍ଦ୍ଧ କାୟ ପ୍ରତିକୃତି, ଯାହା ନବଜାଗରଣ ଯୁଗର ଶିଳ୍ପୀ ଲିଓନାର୍ଡୋ ଦା
+          ଭିଞ୍ଚିଙ୍କର ସର୍ବାଧିକ ପ୍ରସିଦ୍ଧ କୃତି ଭାବେ ଆଦୃତ। ଏହାର ମୂଳ ପ୍ରତିକୃତିଟି ବର୍ତ୍ତମାନ ପ୍ୟାରିସ୍ର
+          ଲୁଭ୍ର ମ୍ୟୁଜିୟମ୍-ରେ ସଂଗୃହୀତ।
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
+      <h2 class="cntHdng">8. मोना - लिशा</h2>
+      <div class="booImgDiv">
+        <img src="./images/painting_gallery-item8.png" width="100%" alt="8. मोना - लिशा"
+          onerror="this.onerror=null; this.src='./images/logo.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">इ. स. 20व्या शतकाच्या सुरुवातीला (मूळ
+          c.1503-06/17), लिओनार्डो दा विंचीच्या प्रतीद्वारेइटली (प्रत)</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          मोना-लिसाचेचित्र एका सोनेरी लाकडी फ्रेममध्येबसवलेले आहे. मोना-लिसाचेखरेनाव ला जिओकोंडा, 1479-1542 इ.स.
+          असे आहे. चित्रातील मोना-लिसा नेहमी हसताना दिसते. मोना लिसा (निःसंदिग्धीकरण). हेचित्र मोना लिसा नामक एका
+          महिलेला नेहमी हसऱ्यामुद्रेत दर्शवते. इटालियन नाव: ला जिओकोंडा, तर फ्रेंचमध्येला जोकोंड (आनंदी) या शीर्षकाचा
+          अर्थही तोच होतो. हेचित्र फ्रान्सिस्को डेल जिओकोंडाची पत्नी लिसा गेरार्डिनी हिचेव्यक्तिचित्र मानलेजाते,
+          जेपांढऱ्या
+          लोम्बार्डी पॉपलर पॅनेलवर तैलरंगात रंगवलेले आहे. चित्रासाठी बसलेली हीमहिला फ्लॉरेन्स येथील श्रीमंत
+          रेशीमव्यापारी
+          फ्रान्सिस्को डेल जिओकोंडाची पत्नी होती. असेमानलेजातेकी हेचित्र त्यांच्या नवीन घरासाठी आणि त्यांचा दुसरामुलगा,
+          अँड्रिया याच्या जन्माचा आनंद साजरा करण्यासाठी बनवून घेण्यात आलेहोते. हेमोना लिसाचे अर्ध्यालांबीचेव्यक्तिचित्र
+          आहे, ज्याला प्रबोधन काळातील कलाकार लिओनार्डो दा विंची यांची सर्वोत्कृष्ट कलाकृती म्हणून गौरवण्यात आले आहे. हे
+          चित्र सध्या पॅरिसमधील लुव्र संग्रहालयात आहे.
+        </div>
       </div>
     </div>
 
     <div class="navBtnDiv">
       <a href="item7.html" class="navBtn">← Previous</a>
+      <a href="./index.html" class="navBtn">Back to Gallery Overview</a>
       <a href="item9.html" class="navBtn">Next →</a>
     </div>
   </main>
 
   <footer>
-    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
+    <p id="footerText">© 2024 सर्वाधिकार सुरक्षित, <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">अनुवादिनी AI</a> द्वारा</p>
   </footer>
 
   <script>
     const languageAudio = document.getElementById("languageAudio");
     const audioMissingNote = document.getElementById("audioMissingNote");
     const audioByLanguage = {
-  "hindi": "Audios/Hindi/8). LX-37, मोना-लिसा.wav",
-  "english": "Audios/English/8). LX-37, MONA-LISHA.wav",
-  "bengali": "Audios/Bengali/8). LX-37, MONA-LISHA.wav",
-  "malayalam": "Audios/Malayalam/THE LAST HOURS OF MARIE ANTOINETTE.ml.wav",
-  "urdu": "Audios/Urdu/8). LX-37, MONA-LISHA.wav",
-  "tamil": "Audios/Tamil/8. MONA-LISHA.wav",
-  "gujarati": "Audios/Gujarati/LX-37,.wav"
-};
+      "hindi": "Audios/Hindi/8). LX-37, मोना-लिसा.wav",
+      "english": "Audios/English/8). LX-37, MONA-LISHA.wav",
+      "bengali": "Audios/Bengali/8). LX-37, MONA-LISHA.wav",
+      "malayalam": "Audios/Malayalam/THE LAST HOURS OF MARIE ANTOINETTE.ml.wav",
+      "urdu": "Audios/Urdu/8). LX-37, MONA-LISHA.wav",
+      "tamil": "Audios/Tamil/8. MONA-LISHA.wav",
+      "gujarati": "Audios/Gujarati/LX-37,.wav",
+      "kannada": "Audios/Kannada/LX-37, MONA-LISHA.wav",
+      "telugu": "Audios/Telugu/Telugu_MONA-LISHA_Female.wav",
+      "marathi": "Audios/Marathi/LX-37, MONA-LISHA.wav",
+      "odia": "Audios/odia/8. MONA-LISHA.wav"
+    };
     const languageSelector = document.getElementById("languageSelector");
 
     const footerTranslations = {
@@ -208,7 +409,11 @@
       malayalam: '© 2024 എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">അനുവാദിനി AI</a> മുഖേന',
       urdu: '© 2024 تمام حقوق محفوظ ہیں، بذریعہ <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">انووادنی AI</a>',
       tamil: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
-      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા'
+      gujarati: '© 2024 સર્વાધિકાર સુરક્ષિત, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">અનુવાદિની AI</a> દ્વારા',
+      kannada: '© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
+      telugu: '© 2024 అన్ని హక్కులు రిజర్వ్ చేయబడినవి, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ಅನುವಾದಿನಿ AI</a> ಮೂಲಕ',
+      marathi: '© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">அனுவாதினி AI</a> மூலம்',
+      odia: '© 2024 ସର୍ବସତ୍ତ୍ୱ ରକ୍ଷିତ, <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">ଅନୁବାଦିନୀ AI</a> ଦ୍ୱାରା'
     };
 
     function selectLanguage(language) {
@@ -245,4 +450,5 @@
     }
   </script>
 </body>
+
 </html>

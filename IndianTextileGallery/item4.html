@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -99,6 +110,10 @@
               <option value="marathi">मराठी (Marathi)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="urdu">اردو (Urdu)</option>
+              <option value="english">English</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
             </select>
           </div>
         </div>
@@ -108,82 +123,206 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/XLII-70%20BED%20SHEET.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audios/Bengali/XLII-70%20BED%20SHEET.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available.</p>
       </div>
     </div>
 
     <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
       <h2 class="cntHdng">XLII-70 বিছানার চাদর</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item4.png" alt="XLII-70 বিছানার চাদর" onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 বিছানার চাদর"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি হাতে তৈরি একটি বড় আকারের লালচে-বাদামি রঙের  বিছানার চাদর, যা রেশম ও তুলা দিয়ে প্রস্তুত। এতে ভারতীয় উপমহাদেশের ঐতিহ্যবাহী সূচিকর্মের একটি রীতি অনুসরণ করা হয়েছে এবং সাদা, সোনালি ও সবুজ রঙের সুতায় এর অলংকরণ করা হয়েছে। বস্ত্রটির কেন্দ্রীয় অংশে ছোট ছোট বর্গাকার নকশার একটি জ্যামিতিক বিন্যাস রয়েছে, যা তির্যক রেখায় সজ্জিত। এই নকশায় প্রধানত সোনালি ও সাদা রঙ ব্যবহার করা হয়েছে। সমগ্র বস্ত্রপৃষ্ঠে বৈশিষ্ট্যপূর্ণ সূক্ষ্ম ও ছোট ছোট রানিং স্টিচের কাজ করা হয়েছে। বিছানার চাদরটির দুই প্রান্তের পাড়ে তির্যকভাবে বিন্যস্ত গাছের নকশা রয়েছে । এটি তিনটি স্থানে জোড়া দিয়ে তৈরি করা হয়েছে। এই বিছানার চাদরটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ শতাব্দীর বলে নির্ধারিত। .</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">এটি হাতে তৈরি একটি বড় আকারের লালচে-বাদামি রঙের
+           বিছানার চাদর, যা রেশম ও তুলা দিয়ে প্রস্তুত। এতে ভারতীয় উপমহাদেশের ঐতিহ্যবাহী সূচিকর্মের একটি রীতি অনুসরণ
+          করা হয়েছে এবং সাদা, সোনালি ও সবুজ রঙের সুতায় এর অলংকরণ করা হয়েছে। বস্ত্রটির কেন্দ্রীয় অংশে ছোট ছোট
+          বর্গাকার নকশার একটি জ্যামিতিক বিন্যাস রয়েছে, যা তির্যক রেখায় সজ্জিত। এই নকশায় প্রধানত সোনালি ও সাদা রঙ
+          ব্যবহার করা হয়েছে। সমগ্র বস্ত্রপৃষ্ঠে বৈশিষ্ট্যপূর্ণ সূক্ষ্ম ও ছোট ছোট রানিং স্টিচের কাজ করা হয়েছে। বিছানার
+          চাদরটির দুই প্রান্তের পাড়ে তির্যকভাবে বিন্যস্ত গাছের নকশা রয়েছে । এটি তিনটি স্থানে জোড়া দিয়ে তৈরি করা
+          হয়েছে। এই বিছানার চাদরটি ভারতের এবং এটি খ্রিস্টীয় ঊনবিংশ শতাব্দীর বলে নির্ধারিত। .</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
       <h2 class="cntHdng">XLII-70 બેડ શીટ (પલંગની ચાદર)</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item4.png" alt="XLII-70 બેડ શીટ (પલંગની ચાદર)" onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 બેડ શીટ (પલંગની ચાદર)"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક મોટી હાથથી બનાવેલી લાલ-કથ્થઈ રંગની બેડ શીટ છે, જે રેશમ (સિલ્ક) અને સૂતર (કપાસ) માંથી બનાવવામાં આવી છે. તેમાં ભારતીય ઉપખંડની ભરતકામની પારંપરિક શૈલી જોવા મળે છે, જે સફેદ, સોનેરી અને લીલા રંગોથી પૂર્ણ કરવામાં આવી છે. આ કાપડના મધ્ય ભાગમાં નાના ચોરસની ભૌમિતિક ડિઝાઇન છે, જે ત્રાંસી પટ્ટાઓમાં ગોઠવાયેલી છે અને મુખ્યત્વે સોનેરી તથા સફેદ રંગના શેડ્સમાં છે. આખી વસ્તુ પર લાક્ષણિક, નાના અને નાજુક રનિંગ ટાંકા (સીવણ) કરેલા છે. તેના છેડાની બોર્ડર ત્રાંસા આકારે ગોઠવાયેલી વૃક્ષોની ભાતોથી સજાવેલી છે. આ બેડ શીટ ત્રણ જગ્યાએથી જોડેલી છે અને તે ભારતની તથા ૧૯મી સદીની છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ એક મોટી હાથથી બનાવેલી લાલ-કથ્થઈ રંગની બેડ શીટ
+          છે, જે રેશમ (સિલ્ક) અને સૂતર (કપાસ) માંથી બનાવવામાં આવી છે. તેમાં ભારતીય ઉપખંડની ભરતકામની પારંપરિક શૈલી જોવા
+          મળે છે, જે સફેદ, સોનેરી અને લીલા રંગોથી પૂર્ણ કરવામાં આવી છે. આ કાપડના મધ્ય ભાગમાં નાના ચોરસની ભૌમિતિક ડિઝાઇન
+          છે, જે ત્રાંસી પટ્ટાઓમાં ગોઠવાયેલી છે અને મુખ્યત્વે સોનેરી તથા સફેદ રંગના શેડ્સમાં છે. આખી વસ્તુ પર લાક્ષણિક,
+          નાના અને નાજુક રનિંગ ટાંકા (સીવણ) કરેલા છે. તેના છેડાની બોર્ડર ત્રાંસા આકારે ગોઠવાયેલી વૃક્ષોની ભાતોથી સજાવેલી
+          છે. આ બેડ શીટ ત્રણ જગ્યાએથી જોડેલી છે અને તે ભારતની તથા ૧૯મી સદીની છે.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="hindi" style="display: none;">
       <h2 class="cntHdng">XLII-70 बेडशीट (चादर)</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item4.png" alt="XLII-70 बेडशीट (चादर)" onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 बेडशीट (चादर)"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">रेशम और सूती से बनी एक बड़ी हस्तनिर्मित लाल-भूरे रंग की बेड शीट है। यह भारतीय उपमहाद्वीप की पारंपरिक कढ़ाई का एक रूप है और इसे सफेद, सुनहरे तथा हरे रंगों में सजाया गया है। वस्त्र के मध्य भाग में छोटे-छोटे वर्गों से बना एक ज्यामितीय पैटर्न है, जो तिरछी धारियों के रूप में व्यवस्थित है और मुख्यतः सुनहरे तथा सफेद रंगों में है। पूरे वस्त्र पर विशिष्ट, छोटे और नाजुक रनिंग स्टिच (दौड़िया टांका) से कढ़ाई की गई है। इसके अंतिम किनारों पर तिरछे रूप में व्यवस्थित पेड़ों के पैटर्न से सजावट की गई है। यह बेड शीट तीन स्थानों पर जोड़ी गई है। यह भारत से संबंधित है और इसे ईस्वी सन् 19वीं शताब्दी का माना जाता है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">रेशम और सूती से बनी एक बड़ी हस्तनिर्मित लाल-भूरे
+          रंग की बेड शीट है। यह भारतीय उपमहाद्वीप की पारंपरिक कढ़ाई का एक रूप है और इसे सफेद, सुनहरे तथा हरे रंगों में
+          सजाया गया है। वस्त्र के मध्य भाग में छोटे-छोटे वर्गों से बना एक ज्यामितीय पैटर्न है, जो तिरछी धारियों के रूप
+          में व्यवस्थित है और मुख्यतः सुनहरे तथा सफेद रंगों में है। पूरे वस्त्र पर विशिष्ट, छोटे और नाजुक रनिंग स्टिच
+          (दौड़िया टांका) से कढ़ाई की गई है। इसके अंतिम किनारों पर तिरछे रूप में व्यवस्थित पेड़ों के पैटर्न से सजावट की
+          गई है। यह बेड शीट तीन स्थानों पर जोड़ी गई है। यह भारत से संबंधित है और इसे ईस्वी सन् 19वीं शताब्दी का माना
+          जाता है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">XLII-70 കിടക്ക വിരി</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item4.png" alt="XLII-70 കിടക്ക വിരി" onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 കിടക്ക വിരി"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">കൈകൊണ്ട് നിർമ്മിച്ച ചുവപ്പ് കലർന്ന തവിട്ട് നിറത്തിലുള്ള ഈ വലിയ കിടക്ക വിരി പട്ടും പരുത്തിയും ഉപയോഗിച്ചാണ് നിർമ്മിച്ചിരിക്കുന്നത്. ഇന്ത്യൻ ഉപഭൂഖണ്ഡത്തിൽ നിന്നുള്ള ഈ പരമ്പരാഗത എംബ്രോയ്ഡറി ശൈലി വെള്ള, സ്വർണ്ണം, പച്ച എന്നീ നിറങ്ങളിൽ പൂർത്തിയാക്കിയിരിക്കുന്നു. തുണിയുടെ മധ്യഭാഗം സ്വർണ്ണം, വെള്ള നിറങ്ങളിലുള്ള ചെറിയ ചതുരങ്ങൾ വരിവരിയായി ഡയഗണൽ രൂപത്തിൽ ക്രീകരിച്ചിരിക്കുന്ന ജ്യാമിതീയ രൂപകൽപ്പനയെ പ്രതിനിധീകരിക്കുന്നു. ഈ കലാ സൃഷ്ടി വളരെ ചെറുതും സൂക്ഷ്മവുമായ തയ്യലുകളാല്‍  മൂടപ്പെട്ടിരിക്കുന്നു. അറ്റത്തുള്ള ബോർഡറുകൾ ചരിഞ്ഞ രീതിയിൽ ക്രമീകരിച്ചിരിക്കുന്ന മരങ്ങളുടെ രൂപങ്ങളാൽ അലങ്കരിച്ചിരിക്കുന്നു. ഈ കിടക്കവിരി മൂന്ന് സ്ഥലങ്ങളിൽ ചേർത്ത് തുന്നിയതാണ്, ഇത് ഇന്ത്യയിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-100</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">കൈകൊണ്ട് നിർമ്മിച്ച ചുവപ്പ് കലർന്ന തവിട്ട്
+          നിറത്തിലുള്ള ഈ വലിയ കിടക്ക വിരി പട്ടും പരുത്തിയും ഉപയോഗിച്ചാണ് നിർമ്മിച്ചിരിക്കുന്നത്. ഇന്ത്യൻ ഉപഭൂഖണ്ഡത്തിൽ
+          നിന്നുള്ള ഈ പരമ്പരാഗത എംബ്രോയ്ഡറി ശൈലി വെള്ള, സ്വർണ്ണം, പച്ച എന്നീ നിറങ്ങളിൽ പൂർത്തിയാക്കിയിരിക്കുന്നു.
+          തുണിയുടെ മധ്യഭാഗം സ്വർണ്ണം, വെള്ള നിറങ്ങളിലുള്ള ചെറിയ ചതുരങ്ങൾ വരിവരിയായി ഡയഗണൽ രൂപത്തിൽ ക്രീകരിച്ചിരിക്കുന്ന
+          ജ്യാമിതീയ രൂപകൽപ്പനയെ പ്രതിനിധീകരിക്കുന്നു. ഈ കലാ സൃഷ്ടി വളരെ ചെറുതും സൂക്ഷ്മവുമായ തയ്യലുകളാല്‍
+          മൂടപ്പെട്ടിരിക്കുന്നു. അറ്റത്തുള്ള ബോർഡറുകൾ ചരിഞ്ഞ രീതിയിൽ ക്രമീകരിച്ചിരിക്കുന്ന മരങ്ങളുടെ രൂപങ്ങളാൽ
+          അലങ്കരിച്ചിരിക്കുന്നു. ഈ കിടക്കവിരി മൂന്ന് സ്ഥലങ്ങളിൽ ചേർത്ത് തുന്നിയതാണ്, ഇത് ഇന്ത്യയിൽ നിന്നുള്ളതാണ്, കൂടാതെ
+          ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്. വാക്കുകൾ-100</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
       <h2 class="cntHdng">XLII-70 बेड शीट</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item4.png" alt="XLII-70 बेड शीट" onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 बेड शीट"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">रेशीम आणि सुती कापसापासून बनवलेली एक मोठी, हातात बनवलेली तांबूस-तपकिरी रंगाची बेडशीट. ही भारतीय उपखंडातील पारंपारिक स्वरूपाची भरतकाम कला असून ती पांढऱ्या, सोन्याच्या आणि हिरव्या रंगात पूर्ण केली आहे. कापडाच्या मध्यभागी सोन्याच्या आणि पांढऱ्या छटांमध्ये, प्रामुख्याने तिरप्या पट्ट्यांमध्ये मांडलेल्या लहान चौकोनांची भौमितिक रचना दर्शवली आहे. संपूर्ण कापडावर वैशिष्ट्यपूर्ण, लहान, नाजूक साध्या शिवणाचे काम (रनिंग स्टिचेस) केले आहे. शेवटच्या किनाऱ्यांवर तिरप्या स्वरूपात मांडलेल्या झाडांच्या नक्षीने सजावट केली आहे. ही बेडशीट तीन ठिकाणी जोडलेली आहे आणि ती भारताची असून 19 व्या शतकातील आहे. शब्द-100</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">रेशीम आणि सुती कापसापासून बनवलेली एक मोठी, हातात
+          बनवलेली तांबूस-तपकिरी रंगाची बेडशीट. ही भारतीय उपखंडातील पारंपारिक स्वरूपाची भरतकाम कला असून ती पांढऱ्या,
+          सोन्याच्या आणि हिरव्या रंगात पूर्ण केली आहे. कापडाच्या मध्यभागी सोन्याच्या आणि पांढऱ्या छटांमध्ये,
+          प्रामुख्याने तिरप्या पट्ट्यांमध्ये मांडलेल्या लहान चौकोनांची भौमितिक रचना दर्शवली आहे. संपूर्ण कापडावर
+          वैशिष्ट्यपूर्ण, लहान, नाजूक साध्या शिवणाचे काम (रनिंग स्टिचेस) केले आहे. शेवटच्या किनाऱ्यांवर तिरप्या स्वरूपात
+          मांडलेल्या झाडांच्या नक्षीने सजावट केली आहे. ही बेडशीट तीन ठिकाणी जोडलेली आहे आणि ती भारताची असून 19 व्या
+          शतकातील आहे. शब्द-100</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">XLII-70 படுக்கை விரிப்பு</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item4.png" alt="XLII-70 படுக்கை விரிப்பு" onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 படுக்கை விரிப்பு"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">பட்டு மற்றும் பருத்தி இழைகளால் கையால் செய்யப்பட்ட, பெரிய அளவிலான, சிவப்பு-பழுப்பு நிறத்திலான படுக்கை விரிப்பு இதுவாகும். இந்தியத் துணைக்கண்டத்தின் பாரம்பரிய எம்பிராய்டரி (தையல் வேலைப்பாடு) பாணியில் உருவாக்கப்பட்டுள்ள இதில் வெள்ளை, பொன்னிறம் மற்றும் பச்சை நிறங்கள் பயன்படுத்தப்பட்டுள்ளன. இதன் மையப்பகுதி, முக்கியமாக பொன்னிறம் மற்றும் வெள்ளை நிற நிழல்களில், சாய்வு வரிசைகளாக அமைக்கப்பட்ட சிறிய சதுரங்களைக் கொண்ட வடிவியல் அமைப்பைக் கொண்டுள்ளது. இவ்விரிப்பு முழுவதும் நுணுக்கமான மற்றும் நேர்த்தியான 'ஓடு தையல்' (running stitch) முறையிலான தையல்களால் அலங்கரிக்கப்பட்டுள்ளது. இதன் இரு முனைகளும் சாய்வாக அமைக்கப்பட்ட மரங்களின் வடிவங்களால் அலங்கரிக்கப்பட்டுள்ளன. மூன்று இடங்களில் இணைக்கப்பட்டுள்ள இப்படுக்கை விரிப்பு இந்தியாவைச் சேர்ந்தது; இது கி.பி. 19-ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">பட்டு மற்றும் பருத்தி இழைகளால் கையால்
+          செய்யப்பட்ட, பெரிய அளவிலான, சிவப்பு-பழுப்பு நிறத்திலான படுக்கை விரிப்பு இதுவாகும். இந்தியத் துணைக்கண்டத்தின்
+          பாரம்பரிய எம்பிராய்டரி (தையல் வேலைப்பாடு) பாணியில் உருவாக்கப்பட்டுள்ள இதில் வெள்ளை, பொன்னிறம் மற்றும் பச்சை
+          நிறங்கள் பயன்படுத்தப்பட்டுள்ளன. இதன் மையப்பகுதி, முக்கியமாக பொன்னிறம் மற்றும் வெள்ளை நிற நிழல்களில், சாய்வு
+          வரிசைகளாக அமைக்கப்பட்ட சிறிய சதுரங்களைக் கொண்ட வடிவியல் அமைப்பைக் கொண்டுள்ளது. இவ்விரிப்பு முழுவதும்
+          நுணுக்கமான மற்றும் நேர்த்தியான 'ஓடு தையல்' (running stitch) முறையிலான தையல்களால் அலங்கரிக்கப்பட்டுள்ளது. இதன்
+          இரு முனைகளும் சாய்வாக அமைக்கப்பட்ட மரங்களின் வடிவங்களால் அலங்கரிக்கப்பட்டுள்ளன. மூன்று இடங்களில்
+          இணைக்கப்பட்டுள்ள இப்படுக்கை விரிப்பு இந்தியாவைச் சேர்ந்தது; இது கி.பி. 19-ஆம் நூற்றாண்டைச் சேர்ந்ததாகக்
+          கருதப்படுகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">XLII-70 بیڈ شیٹ</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item4.png" alt="XLII-70 بیڈ شیٹ" onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 بیڈ شیٹ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue No. XLII-70</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ ہاتھ سے بنی سرخ بھوری رنگ کی ایک بیڈ شیٹ (بستر کی چادر)  ہے، جو ریشم اور کپاس سے تیار کی گئی ہے۔ اس پر برصغیر پاک و ہند کی روایتی کڑھائی کی گئی ہے، جس میں سفید، سنہری اور سبز رنگ استعمال ہوئے ہیں۔ کپڑے کے مرکزی حصے میں چھوٹے مربعوں پر مشتمل ہندسی نقش بنائے گئے ہیں، جو زیادہ تر سنہری اور سفید رنگوں میں ہیں۔ کناروں کی پٹیوں پر درختوں کے نقش عمودی انداز میں بنائے گئے ہیں۔ بیڈ شیٹ کو تین جگہوں سے تہہ کیا گیا ہے۔ یہ بیڈ شیٹ ہندوستان کی ہے اور اس کا تعلق انیسویں صدی عیسوی سے ہے۔ الفاظ-100</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue
+          No. XLII-70</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ ہاتھ سے
+          بنی سرخ بھوری رنگ کی ایک بیڈ شیٹ (بستر کی چادر) ہے، جو ریشم اور کپاس سے تیار کی گئی ہے۔ اس پر برصغیر پاک و ہند
+          کی روایتی کڑھائی کی گئی ہے، جس میں سفید، سنہری اور سبز رنگ استعمال ہوئے ہیں۔ کپڑے کے مرکزی حصے میں چھوٹے
+          مربعوں پر مشتمل ہندسی نقش بنائے گئے ہیں، جو زیادہ تر سنہری اور سفید رنگوں میں ہیں۔ کناروں کی پٹیوں پر درختوں
+          کے نقش عمودی انداز میں بنائے گئے ہیں۔ بیڈ شیٹ کو تین جگہوں سے تہہ کیا گیا ہے۔ یہ بیڈ شیٹ ہندوستان کی ہے اور اس
+          کا تعلق انیسویں صدی عیسوی سے ہے۔ الفاظ-100</div>
       </div>
+    </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">XLII-70 BED SHEET</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 BED SHEET"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This is a large, hand-made red-brown bed sheet
+          made of silk and cotton. It features a traditional embroidery style of the Indian subcontinent, finished in
+          white, gold, and green colours. The central part of the textile represents a geometric pattern of small
+          squares arranged in diagonal bands, mainly in shades of gold and white. The entire piece is covered with
+          characteristic, small, and delicate running stitches. The end borders are decorated with diagonally arranged
+          tree patterns. This bed sheet is joined in three places, belongs to India, and dates to the 19th century.
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">XLII-70 ಬೆಡ್ ಶೀಟ್</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 ಬೆಡ್ ಶೀಟ್"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ರೇಷ್ಮೆ ಮತ್ತು ಹತ್ತಿಯಿಂದ ಮಾಡಲ್ಪಟ್ಟ, ಕೈಯಿಂದ
+          ತಯಾರಿಸಿದ ದೊಡ್ಡ ಕೆಂಪು-ಕಂದು ಬಣ್ಣದ ಹಾಸಿಗೆಯ ಹೊದಿಕೆ ಇದಾಗಿದೆ. ಇದು ಭಾರತೀಯ ಉಪಖಂಡದ ಸಾಂಪ್ರದಾಯಿಕ ಕಸೂತಿ ಕಲೆಯಾಗಿದ್ದು ಬಿಳಿ,
+          ಚಿನ್ನ ಮತ್ತು ಹಸಿರು ಬಣ್ಣಗಳಲ್ಲಿ ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ. ಜವಳಿಯ ಮಧ್ಯಭಾಗವು ಮುಖ್ಯವಾಗಿ ಚಿನ್ನ ಮತ್ತು ಬಿಳಿ ಛಾಯೆಗಳಲ್ಲಿ, ಕರ್ಣೀಯ
+          ಪಟ್ಟಿಗಳಲ್ಲಿ ಜೋಡಿಸಲಾದ ಸಣ್ಣ ಚೌಕಗಳ ಜ್ಯಾಮಿತೀಯ ಮಾದರಿಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಇಡೀ ಕಲಾಕೃತಿಯು ವಿಶಿಷ್ಟವಾದ, ಸಣ್ಣ ಹಾಗೂ
+          ಸೂಕ್ಷ್ಮವಾದ ನೇರ ಹೊಲಿಗೆಗಳಿಂದ ಆವೃತವಾಗಿದೆ. ಇದರ ಕೊನೆಯ ಅಂಚುಗಳನ್ನು ಓರೆಯಾಗಿ ಜೋಡಿಸಲಾದ ಮರಗಳ ವಿನ್ಯಾಸಗಳಿಂದ ಅಲಂಕರಿಸಲಾಗಿದೆ.
+          ಈ ಹಾಸಿಗೆಯ ಹೊದಿಕೆಯನ್ನು ಮೂರು ಕಡೆಗಳಲ್ಲಿ ಜೋಡಿಸಲಾಗಿದ್ದು, ಇದು ಭಾರತಕ್ಕೆ ಸೇರಿದ್ದಾಗಿದೆ ಹಾಗೂ ಹತ್ತೊಂಬತ್ತನೇ ಶತಮಾನದ್ದಾಗಿದೆ.
+          ಪದಗಳು</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">XLII-70 బెడ్ షీట్</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item4.png" alt="XLII-70 బెడ్ షీట్"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ఇది పట్టు మరియు నూలుతో చేతితో నేయబడిన ఒక పెద్ద
+          ఎరుపు-గోధుమ రంగు బెడ్ షీట్. ఇందులో భారత ఉపఖండపు సంప్రదాయ ఎంబ్రాయిడరీ శైలి ప్రతిబింబిస్తుంది; ఇది తెలుపు,
+          బంగారు మరియు ఆకుపచ్చ రంగులతో పూర్తి చేయబడింది. వస్త్రం మధ్యభాగంలో చిన్న చతురస్రాల జ్యామితీయ నమూనాలు వికర్ణ
+          (అంటే, వాలు) చారలలో అమర్చబడి ఉన్నాయి; ఇవి ప్రధానంగా బంగారు మరియు తెలుపు రంగుల ఛాయలలో ఉన్నాయి. వస్త్రం అంతటా
+          విశిష్టమైన, చిన్న, నాజూకైన రన్నింగ్ కుట్లు వేయబడ్డాయి. చివరల అంచులు వాలుగా అమర్చిన వృక్ష నమూనాలతో
+          అలంకరించబడ్డాయి. ఈ బెడ్ షీట్ మూడు చోట్ల అతికించబడి ఉంది; ఇది భారతదేశానికి చెందినది మరియు క్రీస్తుశకం. 19వ
+          శతాబ్దానికి చెందినది. పదాలు-100</div>
+      </div>
+      <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+        <h2 class="cntHdng">XLII-70 ବେଡ୍ ଶୀଟ୍</h2>
+        <div class="booImgDiv">
+          <img src="./images/Indian-textile-item4.png" alt="XLII-70 ବେଡ୍ ଶୀଟ୍"
+            onerror="this.onerror=null; this.src='./images/Indian-textile-item4.png';">
+        </div>
+        <div class="bookCntDiv">
+          <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLII-70</p>
+          <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+            ସିଲ୍କ୍ ଏବଂ କଟନ୍ ସୂତାର ଏକ ବଡ଼ ହସ୍ତବୁଣା ଲାଲ-ବାଦାମୀ ରଙ୍ଗର ବେଡ୍ ସିଟ୍। ଭାରତୀୟ ଉପମହାଦେଶର ଏକ ପାରମ୍ପରିକ ଏମ୍ବ୍ରୋଏଡରୀ
+            ଏବଂ ଏହା ଧଳା, ସୁନେଲି ଏବଂ ସବୁଜ ରଙ୍ଗରେ ସମାପ୍ତ ହୋଇଛି। ବୟନଶିଳ୍ପର କେନ୍ଦ୍ରୀୟ ଅଂଶଟି ମୁଖ୍ୟତଃ ସୁନେଲି ଏବଂ ଧଳା ରଙ୍ଗରେ
+            ତିର୍ଯକ ଧାରାରେ ସଜ୍ଜିତ ଛୋଟ ବର୍ଗଗୁଡ଼ିକର ଏକ ଜ୍ୟାମିତିକ ଢାଞ୍ଚାକୁ ପ୍ରତିନିଧିତ୍ୱ କରେ। ଶେଷ ସୀମାଗୁଡ଼ିକ ତିର୍ଯକ ଭାବରେ
+            ସଜାଯାଇଥିବା ଗଛର ଢାଞ୍ଚାରେ ସଜ୍ଜିତ। ଏହାକୁ ତିନୋଟି ସ୍ଥାନରେ ଯୋଡାଯାଇଛି ଏବଂ ଏହା ଭାରତର ଓ ଉନବିଂଶ ଶତାବ୍ଦୀର ଅଟେ। ଶବ୍ଦ-100
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div class="navBtnDiv">
@@ -194,7 +333,8 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script src="./content.js"></script>
@@ -204,14 +344,18 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "bengali": "./Audios/Bengali/XLII-70%20BED%20SHEET.wav",
-  "gujarati": "./Audios/Gujarathi/XLII-70%20BED%20SHEET.wav",
-  "hindi": "./Audios/Hindi/4.%20बेडशीट%20(चादर).wav",
-  "malayalam": "./Audios/malaylam/BED%20SHEET.ml.wav",
-  "marathi": "./Audios/marathi/XLII-70%20BED%20SHEET.wav",
-  "tamil": "./Audios/tamil/4.%20BED%20SHEET.wav",
-  "urdu": "./Audios/Urdu/XLII-70%20BED%20SHEET.wav"
-};
+      "bengali": "./Audios/Bengali/XLII-70%20BED%20SHEET.wav",
+      "gujarati": "./Audios/Gujarathi/XLII-70%20BED%20SHEET.wav",
+      "hindi": "./Audios/Hindi/4.%20बेडशीट%20(चादर).wav",
+      "malayalam": "./Audios/malaylam/BED%20SHEET.ml.wav",
+      "marathi": "./Audios/marathi/XLII-70%20BED%20SHEET.wav",
+      "tamil": "./Audios/tamil/4.%20BED%20SHEET.wav",
+      "urdu": "./Audios/Urdu/XLII-70%20BED%20SHEET.wav",
+      "english": "./Audios/English/4.%20XLII-70%20BED%20SHEET.wav",
+      "kannada": "./Audios/Kannada/XLII-70%20BED%20SHEET.wav",
+      "telugu": "./Audios/Telugu/Telugu_BED%20SHEET_Female.wav",
+      "odia": "./Audios/Odia/4. BED SHEET.wav"
+    };
     const baseAudioSrc = "./Audios/Bengali/XLII-70%20BED%20SHEET.wav";
 
     function changeLanguage(lang) {
@@ -223,7 +367,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -235,11 +379,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>

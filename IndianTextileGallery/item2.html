@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +13,17 @@
       margin: 20px auto 0 auto;
       padding: 0 15px;
     }
+
     .bookContentDiv {
       max-width: 900px;
       margin: 20px auto 40px auto;
       padding: 25px;
       background: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       box-sizing: border-box;
     }
+
     .cntHdng {
       font-size: 26px;
       font-weight: 700;
@@ -28,6 +31,7 @@
       margin: 0 0 16px 0;
       line-height: 1.3;
     }
+
     .booImgDiv {
       width: 100%;
       max-height: 480px;
@@ -42,6 +46,7 @@
       padding: 10px;
       box-sizing: border-box;
     }
+
     .booImgDiv img {
       max-height: 460px;
       width: auto;
@@ -49,11 +54,13 @@
       object-fit: contain;
       border-radius: 6px;
     }
+
     .bookCntDiv {
       font-size: 16px;
       line-height: 1.8;
       color: #333;
     }
+
     .navBtnDiv {
       display: flex;
       justify-content: space-between;
@@ -62,6 +69,7 @@
       margin: 30px auto;
       padding: 0 15px;
     }
+
     .navBtn {
       background-color: #a50309;
       color: white;
@@ -71,19 +79,22 @@
       font-weight: 600;
       transition: background 0.2s;
     }
+
     .navBtn:hover {
       background-color: #7a0206;
       color: white;
     }
   </style>
 </head>
+
 <body>
   <div class="sliderHeaderDiv">
     <div class="container">
       <header>
         <div class="logoLft">
           <a href="./index.html" class="logo logoTwo">
-            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';" alt="Ministry of Culture">
+            <img src="./images/logo-moc.png" onerror="this.onerror=null; this.src='./images/logo.png';"
+              alt="Ministry of Culture">
           </a>
         </div>
         <div class="logoRgt">
@@ -99,6 +110,10 @@
               <option value="marathi">मराठी (Marathi)</option>
               <option value="tamil">தமிழ் (Tamil)</option>
               <option value="urdu">اردو (Urdu)</option>
+              <option value="english">English</option>
+              <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+              <option value="telugu">తెలుగు (Telugu)</option>
+              <option value="odia">ଓଡ଼ିଆ (Odia)</option>
             </select>
           </div>
         </div>
@@ -108,83 +123,208 @@
 
   <main>
     <div class="audioPlayerDiv">
-      <div style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <div
+        style="background: #2e2e2e; color: #fff; padding: 15px 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <p style="margin: 0 0 8px 0; font-size: 14px; font-weight: 500; color: #ddd;">Audio Explanation:</p>
-        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;" src="./Audios/Bengali/XLIX-367%20Hand%20Fan.wav"></audio>
-        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for selected language is not available.</p>
+        <audio id="languageAudio" controls preload="metadata" style="width: 100%; outline: none;"
+          src="./Audios/Bengali/XLIX-367%20Hand%20Fan.wav"></audio>
+        <p id="audioMissingNote" style="margin: 6px 0 0 0; font-size: 12px; color: #ffca28; display: none;">Audio for
+          selected language is not available.</p>
       </div>
     </div>
 
     <div class="bookContentDiv langCnt" id="bengali" style="display: block;">
       <h2 class="cntHdng">XLIX-367 হাত পাখা</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 হাত পাখা" onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 হাত পাখা"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">রূপা এবং রেশমের সংমিশ্রণে তৈরি এই সূচিকর্মখচিত গাঢ় খয়েরি (মেরুন) মখমলের হাতপাখাটি এক অপূর্ব শিল্পনিদর্শন। দড়ির মতো নকশাদার রূপার হাতলটির উভয় প্রান্তে পাঁচটি করে ছোট ঝুলন্ত অলংকার (ট্রিঙ্কেট) যুক্ত রয়েছে। হাতলের দুই প্রান্তেই ঝুলে থাকা অলংকারের গুচ্ছ (প্রতি প্রান্তে পাঁচটি করে), খাঁটি সোনার সুতোর (জরির) সূক্ষ্ম অলংকরণ এবং সোনালী সুতোর তৈরি ফ্রিল পাখাটির জৌলুস বহুগুণ বাড়িয়ে তুলেছে। এটি সম্ভবত সালার জং পরিবার ব্যবহার করতেন। জাদুঘরটিতে সালার জং পরিবারের একাধিক ব্যক্তিগত সামগ্রী সংরক্ষিত রয়েছে—যার মধ্যে আনুষ্ঠানিক রাজকীয় পোশাক, জুতো, পাগড়ি এবং শাল বিশেষভাবে উল্লেখযোগ্য। এই নিদর্শনটি ভারতের এবং এটি খ্রিস্টীয় ১৯শ শতকের বলে নির্ধারণ করা হয় ।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">রূপা এবং রেশমের সংমিশ্রণে তৈরি এই সূচিকর্মখচিত
+          গাঢ় খয়েরি (মেরুন) মখমলের হাতপাখাটি এক অপূর্ব শিল্পনিদর্শন। দড়ির মতো নকশাদার রূপার হাতলটির উভয় প্রান্তে
+          পাঁচটি করে ছোট ঝুলন্ত অলংকার (ট্রিঙ্কেট) যুক্ত রয়েছে। হাতলের দুই প্রান্তেই ঝুলে থাকা অলংকারের গুচ্ছ (প্রতি
+          প্রান্তে পাঁচটি করে), খাঁটি সোনার সুতোর (জরির) সূক্ষ্ম অলংকরণ এবং সোনালী সুতোর তৈরি ফ্রিল পাখাটির জৌলুস বহুগুণ
+          বাড়িয়ে তুলেছে। এটি সম্ভবত সালার জং পরিবার ব্যবহার করতেন। জাদুঘরটিতে সালার জং পরিবারের একাধিক ব্যক্তিগত
+          সামগ্রী সংরক্ষিত রয়েছে—যার মধ্যে আনুষ্ঠানিক রাজকীয় পোশাক, জুতো, পাগড়ি এবং শাল বিশেষভাবে উল্লেখযোগ্য। এই
+          নিদর্শনটি ভারতের এবং এটি খ্রিস্টীয় ১৯শ শতকের বলে নির্ধারণ করা হয় ।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="gujarati" style="display: none;">
-      <h2 class="cntHdng">XLIX-367   હાથનો પંખો</h2>
+      <h2 class="cntHdng">XLIX-367 હાથનો પંખો</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item2.png" alt="XLIX-367   હાથનો પંખો" onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367   હાથનો પંખો"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ હાથનો પંખો ભરતકામ કરેલા મરૂન (ઘેરા લાલ) રંગના મખમલ (વેલવેટ) કાપડમાંથી બનેલો છે, જેમાં ચાંદી અને સિલ્ક (રેશમ) ના મટીરિયલનો ઉપયોગ થયો છે. દોરડાના આકારના ચાંદીના હેન્ડલ (મૂઠ) ના બંને છેડા પર પાંચ-પાંચ નાની લટકતી ચીજો (ટ્રિંકેટ્સ) જોડાયેલી છે. હેન્ડલના બંને છેડા પર લટકતી ચીજોના ગુચ્છા છે, જેમાં સોનેરી દોરાની સજાવટ છે અને સોનેરી દોરાની ઝાલર છે જે પંખાની સુંદરતામાં વધારો કરે છે. આ પંખો સંભવતઃ સલાર જંગ પરિવાર દ્વારા ઉપયોગમાં લેવાતો હતો. મ્યુઝિયમમાં સલાર જંગ પરિવારની વ્યક્તિગત વસ્તુઓ જેવી કે ધાર્મિક કે પ્રસંગોના પોશાકો, પગરખાં, પાઘડીઓ અને શાલ વગેરે જેવા કપડાં મોટી સંખ્યામાં છે. આ પંખો ભારતનો છે અને તે ૧૯મી સદીનો છે.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">આ હાથનો પંખો ભરતકામ કરેલા મરૂન (ઘેરા લાલ) રંગના
+          મખમલ (વેલવેટ) કાપડમાંથી બનેલો છે, જેમાં ચાંદી અને સિલ્ક (રેશમ) ના મટીરિયલનો ઉપયોગ થયો છે. દોરડાના આકારના
+          ચાંદીના હેન્ડલ (મૂઠ) ના બંને છેડા પર પાંચ-પાંચ નાની લટકતી ચીજો (ટ્રિંકેટ્સ) જોડાયેલી છે. હેન્ડલના બંને છેડા પર
+          લટકતી ચીજોના ગુચ્છા છે, જેમાં સોનેરી દોરાની સજાવટ છે અને સોનેરી દોરાની ઝાલર છે જે પંખાની સુંદરતામાં વધારો કરે
+          છે. આ પંખો સંભવતઃ સલાર જંગ પરિવાર દ્વારા ઉપયોગમાં લેવાતો હતો. મ્યુઝિયમમાં સલાર જંગ પરિવારની વ્યક્તિગત વસ્તુઓ
+          જેવી કે ધાર્મિક કે પ્રસંગોના પોશાકો, પગરખાં, પાઘડીઓ અને શાલ વગેરે જેવા કપડાં મોટી સંખ્યામાં છે. આ પંખો ભારતનો
+          છે અને તે ૧૯મી સદીનો છે.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="hindi" style="display: none;">
       <h2 class="cntHdng">XLIX-367 हाथ का पंखा</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 हाथ का पंखा" onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 हाथ का पंखा"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह कढ़ाईदार मैरून रंग के मखमल से बना हाथ का पंखा है, जिसमें चाँदी और रेशम की वस्त्र-सामग्री का प्रयोग किया गया है। रस्सी के आकार के चाँदी के हैंडल के प्रत्येक सिरे पर पाँच-पाँच सजावटी आभूषण (ट्रिंकेट) लगे हुए हैं। हैंडल के दोनों सिरों पर पाँच-पाँच लटकनों के गुच्छे लगे हैं, जिन पर सुनहरे धागे से सजावट की गई है। इसके अलावा, इसमें सुनहरे धागे की झालर लगी हुई है, जो पंखे की भव्यता को और बढ़ाती है। संभवतः इसका उपयोग सालार जंग परिवार द्वारा किया जाता था। संग्रहालय में सालार जंग परिवारों की अनेक व्यक्तिगत वस्तुएँ, जैसे वस्त्र, औपचारिक पोशाकें, जूते, पगड़ियाँ और शॉल आदि सुरक्षित हैं। यह वस्तु भारत से संबंधित है और इसका काल निर्धारण ईस्वी सन् 19वीं शताब्दी का है।</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">यह कढ़ाईदार मैरून रंग के मखमल से बना हाथ का पंखा
+          है, जिसमें चाँदी और रेशम की वस्त्र-सामग्री का प्रयोग किया गया है। रस्सी के आकार के चाँदी के हैंडल के प्रत्येक
+          सिरे पर पाँच-पाँच सजावटी आभूषण (ट्रिंकेट) लगे हुए हैं। हैंडल के दोनों सिरों पर पाँच-पाँच लटकनों के गुच्छे लगे
+          हैं, जिन पर सुनहरे धागे से सजावट की गई है। इसके अलावा, इसमें सुनहरे धागे की झालर लगी हुई है, जो पंखे की भव्यता
+          को और बढ़ाती है। संभवतः इसका उपयोग सालार जंग परिवार द्वारा किया जाता था। संग्रहालय में सालार जंग परिवारों की
+          अनेक व्यक्तिगत वस्तुएँ, जैसे वस्त्र, औपचारिक पोशाकें, जूते, पगड़ियाँ और शॉल आदि सुरक्षित हैं। यह वस्तु भारत से
+          संबंधित है और इसका काल निर्धारण ईस्वी सन् 19वीं शताब्दी का है।</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="malayalam" style="display: none;">
       <h2 class="cntHdng">XLIX-367 വിശറി</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 വിശറി" onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 വിശറി"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">വെള്ളിയും പട്ടും ചേർന്ന ഘടകങ്ങൾ ഉപയോഗിച്ച് നിർമ്മിച്ച, എംബ്രോയ്ഡറി ചെയ്ത മറുൺ നിറത്തിലുള്ള വെൽവെറ്റ് വിശറി. കയറിന്റെ രൂപത്തിലുള്ള വെള്ളി പിടിയിൽ ഇരുവശത്തുമായി അഞ്ച് മണികൾ വീതം ഘടിപ്പിച്ചിരിക്കുന്നു. സ്വർണ്ണ നൂൽ അലങ്കാരത്തോടുകൂടിയതും, വിശറിയുടെ ഭംഗി വർദ്ധിപ്പിക്കുന്ന സ്വർണ്ണ നൂലിലുള്ള ഫ്രിൽ (ചാമരം പോലുള്ള അലങ്കാരം) ഇതിലുണ്ട്. ഇത് ഒരുപക്ഷേ സലാർ ജംഗ് കുടുംബാംഗങ്ങൾ ഉപയോഗിച്ചതായിരിക്കാം. ഈ മ്യൂസിയത്തിൽ സലാർ ജംഗ് കുടുംബത്തിന്റെ വസ്ത്രങ്ങൾ (ചടങ്ങിന് ധരിക്കുന്ന വസ്ത്രങ്ങൾ, ഷൂകൾ, തലപ്പാവുകൾ, ഷോളുകൾ തുടങ്ങിയവ) ഉൾപ്പെടെ നിരവധി വ്യക്തിഗത വസ്തുക്കളുണ്ട്. ഇത് ഇന്ത്യയിൽ നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്.. വാക്കുകൾ-105</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">വെള്ളിയും പട്ടും ചേർന്ന ഘടകങ്ങൾ ഉപയോഗിച്ച്
+          നിർമ്മിച്ച, എംബ്രോയ്ഡറി ചെയ്ത മറുൺ നിറത്തിലുള്ള വെൽവെറ്റ് വിശറി. കയറിന്റെ രൂപത്തിലുള്ള വെള്ളി പിടിയിൽ
+          ഇരുവശത്തുമായി അഞ്ച് മണികൾ വീതം ഘടിപ്പിച്ചിരിക്കുന്നു. സ്വർണ്ണ നൂൽ അലങ്കാരത്തോടുകൂടിയതും, വിശറിയുടെ ഭംഗി
+          വർദ്ധിപ്പിക്കുന്ന സ്വർണ്ണ നൂലിലുള്ള ഫ്രിൽ (ചാമരം പോലുള്ള അലങ്കാരം) ഇതിലുണ്ട്. ഇത് ഒരുപക്ഷേ സലാർ ജംഗ്
+          കുടുംബാംഗങ്ങൾ ഉപയോഗിച്ചതായിരിക്കാം. ഈ മ്യൂസിയത്തിൽ സലാർ ജംഗ് കുടുംബത്തിന്റെ വസ്ത്രങ്ങൾ (ചടങ്ങിന് ധരിക്കുന്ന
+          വസ്ത്രങ്ങൾ, ഷൂകൾ, തലപ്പാവുകൾ, ഷോളുകൾ തുടങ്ങിയവ) ഉൾപ്പെടെ നിരവധി വ്യക്തിഗത വസ്തുക്കളുണ്ട്. ഇത് ഇന്ത്യയിൽ
+          നിന്നുള്ളതാണ്, കൂടാതെ ക്രിസ്തുവർഷം 19-ാം നൂറ്റാണ്ടിലെ കാലഘട്ടത്തിൽ പെട്ടതുമാണ്.. വാക്കുകൾ-105</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="marathi" style="display: none;">
       <h2 class="cntHdng">XLIX-367 हातपंखा</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 हातपंखा" onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 हातपंखा"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">चांदी आणि रेशीम सामग्रीपासून बनवलेला भरतकाम केलेला मरून मखमली हातपंखा. दोरीच्या आकाराच्या चांदीच्या मुठीच्या दोन्ही टोकांना प्रत्येकी पाच शोभेच्या वस्तूंचे झुपके जोडलेले आहेत. याला सोन्याच्या धाग्याची नक्षी आणि सोन्याच्या धाग्याची झालर आहे, जी पंख्याच्या भव्यतेमध्ये भर घालते. हा बहुधा सलार जंग कुटुंबाद्वारे वापरला गेला असावा. संग्रहालयात सलार जंग कुटुंबांच्या अनेक वैयक्तिक वस्तू आहेत, जसे की औपचारिक वस्त्रांसह कपडे, बूट, पगड्या आणि शली इत्यादी. हा भारताचा असून तो 19 व्या शतकातील आहे. शब्द-105</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">चांदी आणि रेशीम सामग्रीपासून बनवलेला भरतकाम
+          केलेला मरून मखमली हातपंखा. दोरीच्या आकाराच्या चांदीच्या मुठीच्या दोन्ही टोकांना प्रत्येकी पाच शोभेच्या
+          वस्तूंचे झुपके जोडलेले आहेत. याला सोन्याच्या धाग्याची नक्षी आणि सोन्याच्या धाग्याची झालर आहे, जी पंख्याच्या
+          भव्यतेमध्ये भर घालते. हा बहुधा सलार जंग कुटुंबाद्वारे वापरला गेला असावा. संग्रहालयात सलार जंग कुटुंबांच्या
+          अनेक वैयक्तिक वस्तू आहेत, जसे की औपचारिक वस्त्रांसह कपडे, बूट, पगड्या आणि शली इत्यादी. हा भारताचा असून तो 19
+          व्या शतकातील आहे. शब्द-105</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="tamil" style="display: none;">
       <h2 class="cntHdng">XLIX-367 கை விசிறி</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 கை விசிறி" onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 கை விசிறி"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
       </div>
       <div class="bookCntDiv">
         <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
-        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இது வெள்ளி மற்றும் பட்டு இழைகளால் ஆன, வேலைப்பாடுகள் கொண்ட அடர் சிவப்பு நிற வெல்வெட் துணியால் செய்யப்பட்ட ஒரு கைவிசிறியாகும். கயிறு போன்ற வடிவிலான இதன் வெள்ளிப்பிடியின் இரு முனைகளிலும் தலா ஐந்து சிறிய அலங்காரத் தொங்கல்கள் இணைக்கப்பட்டுள்ளன. தங்க நூலால் அலங்கரிக்கப்பட்ட இப்படியின் முனைகளில் உள்ள இந்தத் தொங்கல்களும், விசிறியின் விளிம்பில் உள்ள தங்க நூல் சரவரமும் (frill) இதற்கு மேலும் மெருகூட்டுகின்றன. இது அநேகமாக சலார் ஜங் குடும்பத்தினரால் பயன்படுத்தப்பட்டிருக்கலாம். சலார் ஜங் குடும்பத்தினரின் ஆடைகள் (சடங்கு கால உடைகள் உட்பட), காலணிகள், தலைப்பாகைகள் மற்றும் சால்வைகள் போன்ற பல தனிப்பட்ட பயன்பாட்டுப் பொருட்கள் இம்முயூசியத்தில் உள்ளன. இது இந்தியாவைச் சேர்ந்தது மற்றும் கி.பி. 19-ஆம் நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">இது வெள்ளி மற்றும் பட்டு இழைகளால் ஆன,
+          வேலைப்பாடுகள் கொண்ட அடர் சிவப்பு நிற வெல்வெட் துணியால் செய்யப்பட்ட ஒரு கைவிசிறியாகும். கயிறு போன்ற வடிவிலான
+          இதன் வெள்ளிப்பிடியின் இரு முனைகளிலும் தலா ஐந்து சிறிய அலங்காரத் தொங்கல்கள் இணைக்கப்பட்டுள்ளன. தங்க நூலால்
+          அலங்கரிக்கப்பட்ட இப்படியின் முனைகளில் உள்ள இந்தத் தொங்கல்களும், விசிறியின் விளிம்பில் உள்ள தங்க நூல் சரவரமும்
+          (frill) இதற்கு மேலும் மெருகூட்டுகின்றன. இது அநேகமாக சலார் ஜங் குடும்பத்தினரால் பயன்படுத்தப்பட்டிருக்கலாம்.
+          சலார் ஜங் குடும்பத்தினரின் ஆடைகள் (சடங்கு கால உடைகள் உட்பட), காலணிகள், தலைப்பாகைகள் மற்றும் சால்வைகள் போன்ற பல
+          தனிப்பட்ட பயன்பாட்டுப் பொருட்கள் இம்முயூசியத்தில் உள்ளன. இது இந்தியாவைச் சேர்ந்தது மற்றும் கி.பி. 19-ஆம்
+          நூற்றாண்டைச் சேர்ந்ததாகக் கருதப்படுகிறது.</div>
       </div>
     </div>
     <div class="bookContentDiv langCnt" id="urdu" style="display: none;">
       <h2 class="cntHdng" dir="rtl" style="text-align:right;">XLIX-367، ہاتھ کا پنکھا</h2>
       <div class="booImgDiv">
-        <img src="./images/Indian-textile-item2.png" alt="XLIX-367، ہاتھ کا پنکھا" onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367، ہاتھ کا پنکھا"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
       </div>
       <div class="bookCntDiv">
-        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue No. XLIX-367</p>
-        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ ہاتھ کا پنکھا مہرون مخمل، چاندی اور ریشم کے اجزا سے بنا ہے اور اس پر کڑھائی کی گئی ہے۔ رسی کی شکل کے چاندی کے دستے کے دونوں سروں پر پانچ پانچ چھوٹی سجاوٹی چیزیں لٹکی ہوئی ہیں۔ پنکھے پر سونے کے دھاگے سے کڑھائی کی گئی ہے، جو اس کی خوب صورتی میں اضافہ کرتی ہے۔ خیال کیا جاتا ہے کہ یہ پنکھا سالار جنگ خاندان کے افراد استعمال کرتے تھے۔ میوزیم میں سالار جنگ خاندان سے تعلق رکھنے والی متعدد ذاتی اشیا محفوظ ہیں، جن میں رسمی لباس، جوتے، پگڑی اور شال وغیرہ شامل ہیں۔ یہ پنکھا ہندوستان کا ہے اور اس کا تعلق انیسویں صدی عیسوی سے ہے۔ الفاظ-105</div>
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;" dir="rtl" style="text-align:right;">Catalogue
+          No. XLIX-367</p>
+        <div dir="rtl" style="text-align:right;" style="font-size: 16px; line-height: 1.8; color: #333333;">یہ ہاتھ کا
+          پنکھا مہرون مخمل، چاندی اور ریشم کے اجزا سے بنا ہے اور اس پر کڑھائی کی گئی ہے۔ رسی کی شکل کے چاندی کے دستے کے
+          دونوں سروں پر پانچ پانچ چھوٹی سجاوٹی چیزیں لٹکی ہوئی ہیں۔ پنکھے پر سونے کے دھاگے سے کڑھائی کی گئی ہے، جو اس کی
+          خوب صورتی میں اضافہ کرتی ہے۔ خیال کیا جاتا ہے کہ یہ پنکھا سالار جنگ خاندان کے افراد استعمال کرتے تھے۔ میوزیم
+          میں سالار جنگ خاندان سے تعلق رکھنے والی متعدد ذاتی اشیا محفوظ ہیں، جن میں رسمی لباس، جوتے، پگڑی اور شال وغیرہ
+          شامل ہیں۔ یہ پنکھا ہندوستان کا ہے اور اس کا تعلق انیسویں صدی عیسوی سے ہے۔ الفاظ-105</div>
       </div>
     </div>
+    <div class="bookContentDiv langCnt" id="english" style="display: none;">
+      <h2 class="cntHdng">XLIX-367 Hand Fan</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 Hand Fan"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">This is an embroidered maroon velvet hand fan
+          made of silver and silk textile materials. The rope-shaped silver handle has five small hanging trinkets
+          attached to each end. The bunches of hanging ornaments on both ends of the handle, the golden thread
+          decoration, and the golden thread frill enhance the grandeur of the fan. It was probably used by the Salar
+          Jung family. The museum houses a large number of personal items of the Salar Jung families, including formal
+          attire, footwear, turbans, and shawls. This item belongs to India and dates to the 19th century.</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="kannada" style="display: none;">
+      <h2 class="cntHdng">XLIX-367 ಕೈ ಬೀಸಣಿಗೆ</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 ಕೈ ಬೀಸಣಿಗೆ"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ಬೆಳ್ಳಿ ಮತ್ತು ರೇಷ್ಮೆಯ ಜವಳಿ ವಸ್ತುಗಳಿಂದ ಮಾಡಲ್ಪಟ್ಟ
+          ಕಸೂತಿ ಕೆಲಸದ ಕಡುಗೆಂಪು ಮಖಮಲ್ಲಿನ ಕೈಬೀಸಣಿಗೆ ಇದಾಗಿದೆ. ಹಗ್ಗದ ಆಕಾರದ ಬೆಳ್ಳಿಯ ಹಿಡಿಕೆಯ ಎರಡೂ ತುದಿಗಳಿಗೆ ತಲಾ ಐದು ಆಭರಣದ
+          ತೊಂಗಲುಗಳನ್ನು ಜೋಡಿಸಲಾಗಿದೆ. ಹಿಡಿಕೆಯ ಎರಡೂ ತುದಿಗಳಲ್ಲಿರುವ ತೊಂಗಲುಗಳ ಗೊಂಚಲುಗಳು, ಚಿನ್ನದ ದಾರದ ಅಲಂಕಾರ ಹಾಗೂ ಚಿನ್ನದ ದಾರದ
+          ಜರಿ ಅಂಚನ್ನು ಹೊಂದಿದ್ದು, ಇವು ಬೀಸಣಿಗೆಯ ವೈಭವವನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ. ಇದನ್ನು ಬಹುಶಃ ಸಾಲಾರ್‌ಜಂಗ್ ಕುಟುಂಬದವರು ಬಳಸಿರಬಹುದು.
+          ವಸ್ತುಸಂಗ್ರಹಾಲಯದಲ್ಲಿ ಸಾಲಾರ್‌ಜಂಗ್ ಕುಟುಂಬದ ಅನೇಕ ವೈಯಕ್ತಿಕ ವಸ್ತುಗಳಾದ ಸಾಂಪ್ರದಾಯಿಕ ಉಡುಪುಗಳು, ಪಾದರಕ್ಷೆಗಳು, ತಲೈಪಾವುಗಳು
+          ಹಾಗೂ ಶಾಲುಗಳು ಸೇರಿದಂತೆ ಹಲವು ಸಾಮಗ್ರಿಗಳಿವೆ. ಈ ಕಲಾಕೃತಿಯು ಭಾರತಕ್ಕೆ ಸೇರಿದ್ದು, ಇದು ಹತ್ತೊಂಬತ್ತನೇ ಶತಮಾನದ್ದಾಗಿದೆ. ಪದಗಳು
+        </div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="telugu" style="display: none;">
+      <h2 class="cntHdng">XLIX-367 చేతి విసనకర్ర</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 చేతి విసనకర్ర"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">ఇది వెండి మరియు పట్టు సామగ్రితో ఎంబ్రాయిడరీ
+          చేయబడిన ముదురు ఎరుపు (మెరూన్) రంగు వెల్వెట్ చేతి విసనకర్ర. తాడు ఆకారంలో ఉన్న వెండి పిడి (అంటే, హ్యాండిల్) కి
+          ఇరువైపులా ఐదేసి చొప్పున వేలాడే చిన్న అలంకారాలు అంటే, (ట్రింకెట్స్) ఉన్నాయి. పిడికి ఇరువైపులా ఈ వేలాడే అలంకారాల
+          గుత్తులు (ప్రతి చివర ఐదు) జతచేయబడి, బంగారు దారపు అలంకరణతో పాటు విసనకర్ర వైభవాన్ని ఇనుమడింపజేసే బంగారు దారపు
+          జాలరును (ఫ్రిల్) కలిగి ఉన్నాయి. దీనిని బహుశా సాలార్ జంగ్ కుటుంబీకులు ఉపయోగించి ఉండవచ్చు. సాలార్ జంగ్
+          కుటుంబానికి చెందిన సంప్రదాయ ఉత్సవ దుస్తులు, పాదరక్షలు, తలపాగాలు, శాలువాలు వంటి ఎన్నో వ్యక్తిగత వస్త్ర
+          సామగ్రిని మ్యూజియం కలిగి ఉంది. ఇది భారతదేశానికి చెందినది మరియు క్రీస్తుశకం. 19వ శతాబ్దానికి చెందినది.
+          పదాలు-105</div>
+      </div>
+    </div>
+
+    <div class="bookContentDiv langCnt" id="odia" style="display: none;">
+      <h2 class="cntHdng">XLIX-367 ହାତପଙ୍ଖା</h2>
+      <div class="booImgDiv">
+        <img src="./images/Indian-textile-item2.png" alt="XLIX-367 ହାତପଙ୍ଖା"
+          onerror="this.onerror=null; this.src='./images/Indian-textile-item2.png';">
+      </div>
+      <div class="bookCntDiv">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #a50309;">Catalogue No. XLIX-367</p>
+        <div style="font-size: 16px; line-height: 1.8; color: #333333;">
+          ରୂପା ଓ ରେଶମ ସୂତାର ସୂକ୍ଷ୍ମ ଏମ୍ବ୍ରୋଇଡରୀ କାରୁକାର୍ଯ୍ୟରେ ସୁସଜ୍ଜିତ ଗାଢ଼ ଲାଲ୍ ଭେଲ୍‌ଭେଟ୍ କପଡ଼ାରେ ନିର୍ମିତ ଏହା ଏକ
+          ଅତ୍ୟନ୍ତ ମନୋରମ ହାତପଙ୍ଖା। ଦଉଡ଼ି ଶୈଳୀରେ ଗଢ଼ା ଏହାର ରୂପା ବେଣ୍ଟର ଉଭୟ ପ୍ରାନ୍ତରେ ପାଞ୍ଚଟି ଲେଖାଏଁ କ୍ଷୁଦ୍ର ଝୁମ୍ପି
+          ଝୁଲିରହିଛି। ସୁବର୍ଣ୍ଣ ସୂତାର କାମ ଏବଂ ସୁବର୍ଣ୍ଣ ଝାଲର ଏହି ପଙ୍ଖାଟିର ଶୋଭା ଓ ଆଭିଜାତ୍ୟକୁ ଆହୁରି ବୃଦ୍ଧି କରୁଛି। ଏହି
+          ହାତପଙ୍ଖାଟି ସମ୍ଭବତଃ ସାଲାର ଜଙ୍ଗ ପରିବାର ଦ୍ୱାରା ବ୍ୟବହୃତ ହେଉଥିଲା। ସଂଗ୍ରହାଳୟରେ ସାଲାର ଜଙ୍ଗ ପରିବାରର ଅନେକ ବ୍ୟକ୍ତିଗତ
+          ସାମଗ୍ରୀ ସଂରକ୍ଷିତ ରହିଛି, ଯେଉଁଥିରେ ଆନୁଷ୍ଠାନିକ ରାଜକୀୟ ପୋଷାକ, ଜୋତା, ପଗଡ଼ି ଏବଂ ଶାଲ୍ ଆଦି ଅନ୍ତର୍ଭୁକ୍ତ। ୧୯ଶ ଶତାବ୍ଦୀର
+          ଏହି କଳାକୃତିଟି ତତ୍କାଳୀନ ଭାରତୀୟ ଆଭିଜାତ୍ୟ ଓ ବୟନକଳାର ଏକ ନିରୁପମ ନିଦର୍ଶନ। ଶବ୍ଦ-105
+        </div>
+      </div>
+    </div>
+
 
     <div class="navBtnDiv">
       <a href="./item1.html" class="navBtn">← Previous Item</a>
@@ -194,7 +334,8 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank" rel="noreferrer">Anuvadini AI</a></p>
+    <p>&copy; 2024 All rights reserved, By <a href="https://anuvadini.aicte-india.org/" target="_blank"
+        rel="noreferrer">Anuvadini AI</a></p>
   </footer>
 
   <script src="./content.js"></script>
@@ -204,14 +345,18 @@
     const audioPlayer = document.getElementById('languageAudio');
     const missingNote = document.getElementById('audioMissingNote');
     const audioMap = {
-  "bengali": "./Audios/Bengali/XLIX-367%20Hand%20Fan.wav",
-  "gujarati": "./Audios/Gujarathi/XLIX-367%20Hand%20Fan.wav",
-  "hindi": "./Audios/Hindi/2.%20हाथ%20का%20पंखा.wav",
-  "malayalam": "./Audios/malaylam/Hand%20Fan.ml.wav",
-  "marathi": "./Audios/marathi/XLIX-367%20Hand%20Fan.wav",
-  "tamil": "./Audios/tamil/2.%20Hand%20Fan.wav",
-  "urdu": "./Audios/Urdu/XLIX-367%20Hand%20Fan.wav"
-};
+      "bengali": "./Audios/Bengali/XLIX-367%20Hand%20Fan.wav",
+      "gujarati": "./Audios/Gujarathi/XLIX-367%20Hand%20Fan.wav",
+      "hindi": "./Audios/Hindi/2.%20हाथ%20का%20पंखा.wav",
+      "malayalam": "./Audios/malaylam/Hand%20Fan.ml.wav",
+      "marathi": "./Audios/marathi/XLIX-367%20Hand%20Fan.wav",
+      "tamil": "./Audios/tamil/2.%20Hand%20Fan.wav",
+      "urdu": "./Audios/Urdu/XLIX-367%20Hand%20Fan.wav",
+      "english": "./Audios/English/2.%20XLIX-367%20Hand%20Fan.wav",
+      "kannada": "./Audios/Kannada/XLIX-367%20Hand%20Fan.wav",
+      "telugu": "./Audios/Telugu/Telugu_Hand%20Fan_Female.wav",
+      "odia": "./Audios/Odia/2. Hand Fan.wav"
+    };
     const baseAudioSrc = "./Audios/Bengali/XLIX-367%20Hand%20Fan.wav";
 
     function changeLanguage(lang) {
@@ -223,7 +368,7 @@
       if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.onerror = function() {
+        audioPlayer.onerror = function () {
           audioPlayer.onerror = null;
           audioPlayer.src = baseAudioSrc;
           audioPlayer.load();
@@ -235,11 +380,12 @@
       }
     }
 
-    selector.addEventListener('change', function() {
+    selector.addEventListener('change', function () {
       changeLanguage(this.value);
     });
 
     changeLanguage(selector.value);
   </script>
 </body>
+
 </html>
